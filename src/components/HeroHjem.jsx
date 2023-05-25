@@ -136,25 +136,7 @@ export function HeroHjem() {
             <h6 className="text-5xl text-gray-700 pb-96 sm:pb-[30rem] sm:text-6xl md:text-7xl">
               Sang i begravelse
             </h6>
-            {/* <p className="max-w-2xl mx-auto mt-6 text-lg leading-8 text-gray-500">
-              Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
-              lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
-              fugiat aliqua.
-            </p> */}
-            <div className="flex items-center justify-center mt-10 gap-x-6">
-              {/* <a
-                href="#"
-                className="rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400"
-              >
-                Get started
-              </a> */}
-              {/* <Link
-                href="#"
-                className="text-sm font-semibold leading-6 text-white"
-              >
-                Learn more <span aria-hidden="true">→</span>
-              </Link> */}
-            </div>
+            <div className="flex items-center justify-center mt-10 gap-x-6"></div>
           </div>
         </div>
         <div

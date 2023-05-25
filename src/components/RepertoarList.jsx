@@ -1,37 +1,26 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
-import {
-  ArrowPathIcon,
-  CloudArrowUpIcon,
-  FingerPrintIcon,
-  LockClosedIcon,
-} from '@heroicons/react/24/outline';
-
 const features = [
   {
     name: 'Salmer',
     description:
       'Morbi viverra dui mi arcu sed. Tellus semper adipiscing suspendisse semper morbi. Odio urna massa nunc massa.',
-    icon: CloudArrowUpIcon,
   },
   {
     name: 'Viser',
     description:
       'Sit quis amet rutrum tellus ullamcorper ultricies libero dolor eget. Sem sodales gravida quam turpis enim lacus amet.',
-    icon: LockClosedIcon,
   },
   {
     name: 'Klassisk',
     description:
       'Quisque est vel vulputate cursus. Risus proin diam nunc commodo. Lobortis auctor congue commodo diam neque.',
-    icon: ArrowPathIcon,
   },
   {
     name: 'Pop',
     description:
       'Arcu egestas dolor vel iaculis in ipsum mauris. Tincidunt mattis aliquet hac quis. Id hac maecenas ac donec pharetra eget.',
-    icon: FingerPrintIcon,
   },
 ];
 
@@ -62,12 +51,6 @@ export function RepertoarList() {
                 className="relative p-6 transition-all duration-150 ease-in-out rounded-lg bg-gray-50 hover:bg-gray-50/50 group"
               >
                 <dt className="text-base font-semibold leading-7 text-gray-900">
-                  {/* <div className="absolute top-0 left-0 flex items-center justify-center w-10 h-10 rounded-lg bg-stone-600">
-                    <feature.icon
-                      className="w-6 h-6 text-white"
-                      aria-hidden="true"
-                    />
-                  </div> */}
                   {feature.name}
                 </dt>
                 <dd className="mt-2 text-base leading-7 text-gray-600 group-hover:text-gray-700">

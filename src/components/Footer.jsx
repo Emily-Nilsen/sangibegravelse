@@ -18,27 +18,15 @@ export function Footer() {
         >
           {navigation.map((item) => (
             <div key={item.name} className="pb-6">
-              <a
+              <Link
                 href={item.href}
                 className="text-sm leading-6 text-gray-600 hover:text-gray-900"
               >
                 {item.name}
-              </a>
+              </Link>
             </div>
           ))}
         </nav>
-        {/* <div className="flex justify-center mt-10 space-x-10">
-          {navigation.social.map((item) => (
-            <a
-              key={item.name}
-              href={item.href}
-              className="text-gray-400 hover:text-gray-500"
-            >
-              <span className="sr-only">{item.name}</span>
-              <item.icon className="w-6 h-6" aria-hidden="true" />
-            </a>
-          ))}
-        </div> */}
         <p className="mt-10 text-xs leading-5 text-center text-gray-500">
           &copy; {new Date().getFullYear()} Sang i begravelse.
         </p>
