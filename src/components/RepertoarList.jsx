@@ -9,32 +9,28 @@ const features = [
   {
     name: 'Salmer',
     description:
-      'Morbi viverra dui mi arcu sed. Tellus semper adipiscing suspendisse semper morbi. Odio urna massa nunc massa.',
+      'Kjære religiøse sanger for å hedre livet til den avdøde og gi trøst til sørgende. Disse salmene, ofte valgt for sine meningsfulle tekster og melodiske skjønnhet, tilbyr et kollektivt uttrykk for tro, refleksjon og håp, og bringer trøst og enhet i tider med tap.',
     icon: <ChurchIcon className="w-6 h-6 fill-purple-600" aria-hidden="true" />,
-    link: '#',
   },
   {
     name: 'Viser',
     description:
-      'Sit quis amet rutrum tellus ullamcorper ultricies libero dolor eget. Sem sodales gravida quam turpis enim lacus amet.',
+      'Musikk som bærer essensen av tradisjon og historiefortelling. Disse sangene, forankret i kulturarv og ofte akkompagnert av akustiske instrumenter, gir en følelse av intimitet og felles opplevelse. De gir trøst, refleksjon og en trøstende forbindelse til fortiden, og feirer et liv som er levd og verdsatt.',
     icon: <ViolinIcon className="w-6 h-6 fill-purple-600" aria-hidden="true" />,
-    link: '#',
   },
   {
     name: 'Klassisk',
     description:
-      'Quisque est vel vulputate cursus. Risus proin diam nunc commodo. Lobortis auctor congue commodo diam neque.',
+      'Tidløse og elskede musikalske komposisjoner med gripende melodier og stemningsfulle tekster, som gir en følelsesmessig forbindelse, hedrer minnet om den avdøde og tilbyr trøst og refleksjon til sørgende hjerter.',
     icon: <PianoIcon className="w-6 h-6 fill-purple-600" aria-hidden="true" />,
-    link: '#',
   },
   {
     name: 'Pop',
     description:
-      'Arcu egestas dolor vel iaculis in ipsum mauris. Tincidunt mattis aliquet hac quis. Id hac maecenas ac donec pharetra eget.',
+      'Moderne, populære musikkutvalg som har personlig betydning eller som gir gjenklang med den avdødes liv. Gir et moderne preg til seremonier og lar sørgende få kontakt med kjære minner, uttrykke følelser og finne trøst gjennom kjente melodier.',
     icon: (
       <MicrophoneIcon className="w-6 h-6 fill-purple-600" aria-hidden="true" />
     ),
-    link: '#',
   },
 ];
 
@@ -59,8 +55,7 @@ export function RepertoarList() {
         <div className="max-w-2xl mx-auto mt-16 sm:mt-20 lg:mt-24 lg:max-w-4xl">
           <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
             {features.map((feature) => (
-              <Link
-                href="#"
+              <div
                 key={feature.name}
                 className="relative pl-16 transition-all duration-150 ease-in-out rounded-lg "
               >
@@ -73,9 +68,19 @@ export function RepertoarList() {
                 <dd className="mt-2 text-base leading-7 text-gray-600">
                   {feature.description}
                 </dd>
-              </Link>
+              </div>
             ))}
           </dl>
+          <div className="flex w-full my-6 sm:justify-center">
+            <p className="mt-6">
+              <Link
+                href="#"
+                className="text-sm font-semibold leading-6 text-purple-600"
+              >
+                Se hele repertoaret <span aria-hidden="true">→</span>
+              </Link>
+            </p>
+          </div>
         </div>
       </div>
     </div>
