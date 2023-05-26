@@ -1,9 +1,8 @@
 import Head from 'next/head';
 
-import { HeroHjem } from '@/components/HeroHjem';
-import { RepertoarList } from '@/components/RepertoarList';
+import { HeroRepertoar } from '@/components/HeroRepertoar';
 
-export default function Home() {
+export default function Repertoar() {
   return (
     <>
       <Head>
@@ -12,18 +11,17 @@ export default function Home() {
         </title>
         <meta
           name="description"
-          content="Finn de perfekte sangene for begravelsestjenester. Profesjonelle sangere og fiolinister er tilgjengelige. Kontakt oss i dag."
+          content="Finn de perfekte sangene for begravelser. Profesjonelle sangere og fiolinister er tilgjengelige. Kontakt oss i dag."
         />
         <link
           rel="canonical"
-          href="https://www.sangibegravelse.no/"
+          href="https://www.sangibegravelse.no/repetoar"
           key="canonical"
         />
       </Head>
       <div className="bg-white">
         <main>
-          <HeroHjem />
-          <RepertoarList />
+          <HeroRepertoar />
         </main>
       </div>
     </>

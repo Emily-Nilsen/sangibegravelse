@@ -1,12 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
-const navigation = [
-  { name: 'Hjem', href: '#' },
-  { name: 'Repertoar', href: '#' },
-  { name: 'Artister', href: '#' },
-  { name: 'Kontakt', href: '#' },
-];
+import navigation from './Navigation';
 
 export function Footer() {
   return (
@@ -28,7 +23,7 @@ export function Footer() {
           ))}
         </nav>
         <p className="mt-10 text-xs leading-5 text-center text-gray-500">
-          &copy; {new Date().getFullYear()} Sang i begravelse.
+          &copy; {new Date().getFullYear()} Sang i begravelse
         </p>
       </div>
     </footer>
