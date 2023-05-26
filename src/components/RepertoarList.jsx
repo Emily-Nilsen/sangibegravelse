@@ -1,88 +1,99 @@
+import { useEffect, useState } from 'react';
 import Image from 'next/image';
-import Link from 'next/link';
-import { ChurchIcon } from './icons/Church';
-import { ViolinIcon } from './icons/Violin';
-import { PianoIcon } from './icons/Piano';
-import { MicrophoneIcon } from './icons/Microphone';
+import { Disclosure } from '@headlessui/react';
+import { MinusSmallIcon, PlusSmallIcon } from '@heroicons/react/24/outline';
 
-const features = [
+const faqs = [
   {
-    name: 'Salmer',
-    description:
-      'Kjære religiøse sanger for å hedre livet til den avdøde og gi trøst til sørgende. Disse salmene, ofte valgt for sine meningsfulle tekster og melodiske skjønnhet, tilbyr et kollektivt uttrykk for tro, refleksjon og håp, og bringer trøst og enhet i tider med tap.',
-    icon: <ChurchIcon className="w-6 h-6 fill-slate-600" aria-hidden="true" />,
+    question: "What's the best thing about Switzerland?",
+    answer:
+      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
   },
-  {
-    name: 'Viser',
-    description:
-      'Musikk som bærer essensen av tradisjon og historiefortelling. Disse sangene, forankret i kulturarv og ofte akkompagnert av akustiske instrumenter, gir en følelse av intimitet og felles opplevelse. De gir trøst, refleksjon og en trøstende forbindelse til fortiden, og feirer et liv som er levd og verdsatt.',
-    icon: <ViolinIcon className="w-6 h-6 fill-slate-600" aria-hidden="true" />,
-  },
-  {
-    name: 'Klassisk',
-    description:
-      'Tidløse og elskede musikalske komposisjoner med gripende melodier og stemningsfulle tekster, som gir en følelsesmessig forbindelse, hedrer minnet om den avdøde og tilbyr trøst og refleksjon til sørgende hjerter.',
-    icon: <PianoIcon className="w-6 h-6 fill-slate-600" aria-hidden="true" />,
-  },
-  {
-    name: 'Pop',
-    description:
-      'Moderne, populære musikkutvalg som har personlig betydning eller som gir gjenklang med den avdødes liv. Gir et moderne preg til seremonier og lar sørgende få kontakt med kjære minner, uttrykke følelser og finne trøst gjennom kjente melodier.',
-    icon: (
-      <MicrophoneIcon className="w-6 h-6 fill-slate-600" aria-hidden="true" />
-    ),
-  },
+  // More questions...
 ];
 
 export function RepertoarList() {
+  const [repertoire, setRepertoire] = useState([]);
+
+  useEffect(() => {
+    fetch('/api/repertoire')
+      .then((response) => response.json())
+      .then((data) => setRepertoire(data))
+      .catch((error) => console.log(error));
+  }, []);
+
   return (
-    <div className="py-24 bg-white sm:py-32">
-      <div className="px-6 mx-auto max-w-7xl lg:px-8">
-        <div className="max-w-2xl mx-auto lg:text-center">
-          <p className="text-base font-semibold leading-7 text-slate-600">
-            Omfattende repertoar for begravelsessang
-          </p>
-          <h2 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-            Sanger som gir trøst og mening
-          </h2>
-          <p className="mt-6 text-lg leading-8 text-gray-600">
-            Vår side er utviklet som et bidrag til pårørende for å finne og
-            velge riktig musikk til begravelser. Vi har nøye kuratert en
-            mangfoldig samling av særlig egnede salmer, viser, klassiske
-            stykker, popsanger og mer.
-          </p>
-        </div>
-        <div className="max-w-2xl mx-auto mt-16 sm:mt-20 lg:mt-24 lg:max-w-4xl">
-          <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
-            {features.map((feature) => (
-              <div
-                key={feature.name}
-                className="relative pl-16 transition-all duration-150 ease-in-out rounded-lg "
-              >
-                <dt className="text-base font-semibold leading-7 text-gray-900">
-                  <div className="absolute top-0 left-0 flex items-center justify-center w-10 h-10 rounded-full bg-gray-50">
-                    {feature.icon}
-                  </div>
-                  {feature.name}
-                </dt>
-                <dd className="mt-2 text-base leading-7 text-gray-600">
-                  {feature.description}
-                </dd>
-              </div>
-            ))}
-          </dl>
-          <div className="flex w-full my-6 sm:justify-center">
-            <p className="mt-6">
-              <Link
-                href="/repertoar"
-                className="text-sm font-semibold leading-6 transition duration-150 ease-in-out text-slate-600 hover:text-slate-500"
-              >
-                Se hele repertoaret <span aria-hidden="true">→</span>
-              </Link>
-            </p>
+    <div>
+      <section>
+        <div className="bg-white">
+          <div className="px-6 py-24 mx-auto max-w-7xl sm:py-32 lg:px-8 lg:py-40">
+            <div className="max-w-4xl mx-auto divide-y divide-gray-900/10">
+              <h2 className="text-2xl font-bold leading-10 tracking-tight text-gray-900">
+                Omfattende repertoar for begravelsessang
+              </h2>
+              <dl className="mt-10 space-y-6 divide-y divide-gray-900/10">
+                {repertoire.map((sang) => (
+                  <Disclosure as="div" key={sang.objectID} className="pt-6">
+                    {({ open }) => (
+                      <>
+                        <dt>
+                          <Disclosure.Button className="flex items-start justify-between w-full text-left text-gray-900">
+                            <div className="flex flex-col pl-3">
+                              <span className="text-base font-semibold leading-7">
+                                {sang.title}
+                              </span>
+                              <span className="text-base font-medium leading-7 text-slate-500">
+                                {sang.composer}
+                              </span>
+                            </div>
+                            <span className="flex items-center pr-3 ml-6 h-7">
+                              {open ? (
+                                <MinusSmallIcon
+                                  className="w-6 h-6"
+                                  aria-hidden="true"
+                                />
+                              ) : (
+                                <PlusSmallIcon
+                                  className="w-6 h-6"
+                                  aria-hidden="true"
+                                />
+                              )}
+                            </span>
+                          </Disclosure.Button>
+                        </dt>
+                        <Disclosure.Panel as="dd" className="mt-2">
+                          <div className="bg-t">
+                            <p className="max-w-3xl pl-3 pr-12 text-base leading-7 text-gray-600 ">
+                              {sang.description.map((line) => (
+                                <div className="mt-3" key={line}>
+                                  <p>{line}</p>
+                                </div>
+                              ))}
+                            </p>
+                            <div
+                              aria-hidden="true"
+                              className="relative overflow-hidden rounded-b-lg"
+                            >
+                              <Image
+                                src={sang.image}
+                                alt=""
+                                width={500}
+                                height={300}
+                                className="object-cover object-center w-full h-96"
+                              />
+                              <div className="absolute inset-0 bg-gradient-to-b from-white" />
+                            </div>
+                          </div>
+                        </Disclosure.Panel>
+                      </>
+                    )}
+                  </Disclosure>
+                ))}
+              </dl>
+            </div>
           </div>
         </div>
-      </div>
+      </section>
     </div>
   );
 }

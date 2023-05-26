@@ -1,7 +1,7 @@
 import Head from 'next/head';
 
 import { HeroHjem } from '@/components/HeroHjem';
-import { RepertoarList } from '@/components/RepertoarList';
+import { RepertoarPreview } from '@/components/RepertoarPreview';
 
 export default function Home() {
   return (
@@ -23,7 +23,7 @@ export default function Home() {
       <div className="bg-white">
         <main>
           <HeroHjem />
-          <RepertoarList />
+          <RepertoarPreview />
         </main>
       </div>
     </>

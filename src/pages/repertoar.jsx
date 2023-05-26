@@ -1,6 +1,7 @@
 import Head from 'next/head';
 
 import { HeroRepertoar } from '@/components/HeroRepertoar';
+import { RepertoarList } from '@/components/RepertoarList';
 
 export default function Repertoar() {
   return (
@@ -22,6 +23,7 @@ export default function Repertoar() {
       <div className="bg-white">
         <main>
           <HeroRepertoar />
+          <RepertoarList />
         </main>
       </div>
     </>
