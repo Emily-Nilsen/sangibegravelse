@@ -2,6 +2,7 @@ import Head from 'next/head';
 
 import { HeroRepertoar } from '@/components/HeroRepertoar';
 import { RepertoarList } from '@/components/RepertoarList';
+import { RepertoarListe } from '@/components/RepertoarListe';
 
 export default function Repertoar() {
   return (
@@ -23,7 +24,8 @@ export default function Repertoar() {
       <div className="bg-white">
         <main>
           <HeroRepertoar />
-          <RepertoarList />
+          {/* <RepertoarList /> */}
+          <RepertoarListe />
         </main>
       </div>
     </>

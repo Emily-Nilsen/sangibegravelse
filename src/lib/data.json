@@ -1,9 +1,9 @@
 [
   {
     "objectID": "1",
-    "category": "salmer/kirkemusikk",
+    "category": "Salmer",
     "title": "Air on the G String | Love never fails (tekst)",
-    "performance": ["solo", "duet", "fiolin"],
+    "arrangement": ["solo", "fiolin"],
     "composer": "Johann Sebastian Bach",
     "recommended": false,
     "video": false,
@@ -16,9 +16,9 @@
   },
   {
     "objectID": "2",
-    "category": "salmer/kirkemusikk",
+    "category": "Salmer",
     "title": "Ave Maria",
-    "performance": ["solo", "duet", "fiolin"],
+    "arrangement": ["solo"],
     "composer": "Franz Schubert",
     "recommended": false,
     "video": false,
@@ -31,10 +31,10 @@
   },
   {
     "objectID": "3",
-    "category": "salmer/kirkemusikk",
+    "category": "Salmer",
     "title": "Ave Maria",
-    "performance": ["solo", "duet", "fiolin"],
-    "composer": "Charles Gounod (arrangement) and Johann Sebastian Bach",
+    "arrangement": ["solo", "duet", "fiolin"],
+    "composer": "Charles Gounod (arrangement) og Johann Sebastian Bach",
     "recommended": false,
     "video": false,
     "description": [
@@ -46,9 +46,9 @@
   },
   {
     "objectID": "4",
-    "category": "salmer/kirkemusikk",
+    "category": "Salmer",
     "title": "Ave Maria",
-    "performance": ["solo", "duet", "fiolin"],
+    "arrangement": ["solo"],
     "composer": "Pietro Mascagni",
     "recommended": true,
     "video": false,
@@ -61,11 +61,56 @@
   },
   {
     "objectID": "5",
-    "category": "salmer/kirkemusikk",
+    "category": "Salmer",
     "title": "Ave Maria",
-    "performance": ["solo", "duet", "fiolin"],
-    "composer": "Jónas Árnason, also known as Jón Ásgeirsson or Jón Leifs",
+    "arrangement": ["solo"],
+    "composer": "Jónas Árnason, også kjent som Jón Ásgeirsson eller Jón Leifs",
     "recommended": true,
+    "video": false,
+    "description": [
+      "This composition, Ave Maria (Kaldalóns), is by an Icelandic composer.",
+      "It is a unique interpretation of the Ave Maria prayer, reflecting the composer’s individual style and musical influences."
+    ],
+    "image": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Ave_Maria_Kaldalons_gq5nn6.webp",
+    "keywords": ["one", "two", "three"]
+  },
+  {
+    "objectID": "6",
+    "category": "Klassisk",
+    "title": "Caro mio ben",
+    "arrangement": ["solo"],
+    "composer": "Giordanello",
+    "recommended": false,
+    "video": false,
+    "description": [
+      "This composition, Ave Maria (Kaldalóns), is by an Icelandic composer.",
+      "It is a unique interpretation of the Ave Maria prayer, reflecting the composer’s individual style and musical influences."
+    ],
+    "image": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Ave_Maria_Kaldalons_gq5nn6.webp",
+    "keywords": ["one", "two", "three"]
+  },
+  {
+    "objectID": "7",
+    "category": "Viser",
+    "title": "Adieu",
+    "arrangement": ["solo"],
+    "composer": "Teigan",
+    "recommended": false,
+    "video": false,
+    "description": [
+      "This composition, Ave Maria (Kaldalóns), is by an Icelandic composer.",
+      "It is a unique interpretation of the Ave Maria prayer, reflecting the composer’s individual style and musical influences."
+    ],
+    "image": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Ave_Maria_Kaldalons_gq5nn6.webp",
+    "keywords": ["one", "two", "three"]
+  },
+  {
+    "objectID": "8",
+    "category": "Pop",
+    "title": "Adios, Amigo",
+    "arrangement": ["solo"],
+    "composer": "Jerry Livingston",
+    "recommended": false,
     "video": false,
     "description": [
       "This composition, Ave Maria (Kaldalóns), is by an Icelandic composer.",
