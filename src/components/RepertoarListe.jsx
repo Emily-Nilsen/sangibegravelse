@@ -10,6 +10,17 @@ import { DuetIcon } from './icons/Duet';
 
 export function RepertoarListe() {
   const [repertoire, setRepertoire] = useState([]);
+  const [expandedSongs, setExpandedSongs] = useState([]);
+
+  const toggleSong = (songId) => {
+    setExpandedSongs((prevExpandedSongs) => {
+      if (prevExpandedSongs.includes(songId)) {
+        return prevExpandedSongs.filter((id) => id !== songId);
+      } else {
+        return [...prevExpandedSongs, songId];
+      }
+    });
+  };
 
   useEffect(() => {
     fetch('/api/repertoire')
