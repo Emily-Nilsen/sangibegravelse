@@ -15,7 +15,12 @@ export function RepertoarToggle() {
   useEffect(() => {
     fetch('/api/repertoire')
       .then((response) => response.json())
-      .then((data) => setRepertoire(data))
+      .then((data) => {
+        const sortedRepertoire = data.sort((a, b) =>
+          a.title.localeCompare(b.title)
+        ); // Sort repertoire by song title alphabetically
+        setRepertoire(sortedRepertoire);
+      })
       .catch((error) => console.log(error));
   }, []);
 
