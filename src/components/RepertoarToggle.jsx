@@ -9,8 +9,13 @@ import { ViolinIcon } from './icons/Violin';
 import { SoloIcon } from './icons/Solo';
 import { DuetIcon } from './icons/Duet';
 
+import { CategoryFilter } from './CategoryFilter';
+import { ArrangementFilter } from './ArrangementFilter';
+
 export function RepertoarToggle() {
   const [repertoire, setRepertoire] = useState([]);
+  const [selectedCategory, setSelectedCategory] = useState('');
+  const [selectedArrangement, setSelectedArrangement] = useState('');
 
   useEffect(() => {
     fetch('/api/repertoire')
@@ -23,6 +28,29 @@ export function RepertoarToggle() {
       })
       .catch((error) => console.log(error));
   }, []);
+
+  // Filter function to apply selected filters
+  const filterSongs = (song) => {
+    if (selectedCategory && song.category !== selectedCategory) {
+      return false;
+    }
+    if (
+      selectedArrangement &&
+      !song.arrangement.includes(selectedArrangement)
+    ) {
+      return false;
+    }
+    return true;
+  };
+
+  // Event handlers for category and arrangement selection
+  const handleCategoryChange = (event) => {
+    setSelectedCategory(event.target.value);
+  };
+
+  const handleArrangementChange = (event) => {
+    setSelectedArrangement(event.target.value);
+  };
 
   const [expandedSongs, setExpandedSongs] = useState([]);
 
@@ -39,8 +67,18 @@ export function RepertoarToggle() {
   return (
     <section>
       <div className="px-4 py-24 sm:px-6 lg:px-8 sm:py-32">
-        <div className="sm:flex sm:items-center">
-          <div className="sm:flex-auto">
+        <div className="lg:flex lg:items-center">
+          <div className="lg:flex-auto">
+            {/* Filter component */}
+            {/* <div className="flex gap-4">
+              <div className="">
+                <CategoryFilter />
+              </div>
+              <div className="">
+                <ArrangementFilter />
+              </div>
+            </div> */}
+
             <h1 className="text-2xl font-bold leading-10 tracking-tight text-gray-900">
               Repertoar
             </h1>
@@ -48,6 +86,52 @@ export function RepertoarToggle() {
               En omfattende repertoarliste for begravelsessanger, inkludert
               sangtittel, komponist, arrangement og kategori.
             </p>
+          </div>
+          {/* Filter controls */}
+          <div className="pt-6 lg:pt-0">
+            <div className="flex items-center space-x-4 text-sm">
+              <div>
+                <label
+                  htmlFor="category"
+                  className="text-sm font-medium leading-6 text-gray-900"
+                >
+                  Kategori
+                </label>
+                <select
+                  id="category"
+                  name="category"
+                  value={selectedCategory}
+                  onChange={handleCategoryChange}
+                  className="mt-2 block w-full rounded-md border-0 py-1.5 pl-3 pr-10 text-gray-900 ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-slate-600 sm:text-sm sm:leading-6"
+                >
+                  <option value="">Alle</option>
+                  <option value="Salmer">Salmer</option>
+                  <option value="Pop">Pop</option>
+                  <option value="Viser">Viser</option>
+                  <option value="Klassisk">Klassisk</option>
+                </select>
+              </div>
+              <div>
+                <label
+                  htmlFor="arrangement"
+                  className="text-sm font-medium leading-6 text-gray-900"
+                >
+                  Arrangement
+                </label>
+                <select
+                  id="arrangement"
+                  name="arrangement"
+                  value={selectedArrangement}
+                  onChange={handleArrangementChange}
+                  className="mt-2 block w-full rounded-md border-0 py-1.5 pl-3 pr-10 text-gray-900 ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-slate-600 sm:text-sm sm:leading-6"
+                >
+                  <option value="">Alle</option>
+                  <option value="solo">Solo</option>
+                  <option value="duet">Duet</option>
+                  <option value="fiolin">Fiolin</option>
+                </select>
+              </div>
+            </div>
           </div>
         </div>
         <div className="mt-8 -mx-4 sm:-mx-0">
@@ -84,7 +168,7 @@ export function RepertoarToggle() {
               </tr>
             </thead>
             <tbody className="bg-white divide-y divide-gray-200">
-              {repertoire.map((sang) => (
+              {repertoire.filter(filterSongs).map((sang) => (
                 <React.Fragment key={sang.objectID}>
                   <tr>
                     <td className="w-full py-4 pl-4 pr-3 text-sm font-medium text-gray-900 max-w-0 sm:w-auto sm:max-w-none sm:pl-0">
