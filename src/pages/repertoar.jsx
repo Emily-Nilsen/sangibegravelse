@@ -1,8 +1,6 @@
 import Head from 'next/head';
 
 import { HeroRepertoar } from '@/components/HeroRepertoar';
-import { RepertoarList } from '@/components/RepertoarList';
-import { RepertoarListe } from '@/components/RepertoarListe';
 import { RepertoarToggle } from '@/components/RepertoarToggle';
 
 export default function Repertoar() {
@@ -26,7 +24,6 @@ export default function Repertoar() {
         <main>
           <HeroRepertoar />
           <RepertoarToggle />
-          {/* <RepertoarListe /> */}
         </main>
       </div>
     </>

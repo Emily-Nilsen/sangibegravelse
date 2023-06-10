@@ -9,12 +9,10 @@ import { ViolinIcon } from './icons/Violin';
 import { SoloIcon } from './icons/Solo';
 import { DuetIcon } from './icons/Duet';
 
-import { CategoryFilter } from './CategoryFilter';
-import { ArrangementFilter } from './ArrangementFilter';
-
 export function RepertoarToggle() {
   const [repertoire, setRepertoire] = useState([]);
   const [selectedCategory, setSelectedCategory] = useState('');
+  const [selectedSubcategory, setSelectedSubcategory] = useState('');
   const [selectedArrangement, setSelectedArrangement] = useState('');
 
   useEffect(() => {
@@ -35,6 +33,12 @@ export function RepertoarToggle() {
       return false;
     }
     if (
+      selectedSubcategory &&
+      !song.subcategory.includes(selectedSubcategory)
+    ) {
+      return false;
+    }
+    if (
       selectedArrangement &&
       !song.arrangement.includes(selectedArrangement)
     ) {
@@ -46,6 +50,10 @@ export function RepertoarToggle() {
   // Event handlers for category and arrangement selection
   const handleCategoryChange = (event) => {
     setSelectedCategory(event.target.value);
+  };
+
+  const handleSubcategoryChange = (event) => {
+    setSelectedSubcategory(event.target.value);
   };
 
   const handleArrangementChange = (event) => {
@@ -67,28 +75,18 @@ export function RepertoarToggle() {
   return (
     <section>
       <div className="px-4 py-24 sm:px-6 lg:px-8 sm:py-32">
-        <div className="lg:flex lg:items-center">
-          <div className="lg:flex-auto">
-            {/* Filter component */}
-            {/* <div className="flex gap-4">
-              <div className="">
-                <CategoryFilter />
-              </div>
-              <div className="">
-                <ArrangementFilter />
-              </div>
-            </div> */}
-
-            <h1 className="text-2xl font-bold leading-10 tracking-tight text-gray-900">
+        <div>
+          <div className="max-w-2xl lg:flex-auto">
+            <h1 className="text-2xl font-bold leading-10 tracking-tight text-gray-900 sm:text-3xl">
               Repertoar
             </h1>
-            <p className="mt-2 text-sm text-gray-700">
+            <p className="mt-2 text-sm text-gray-700 sm:mt-6 sm:text-base sm:leading-8">
               En omfattende repertoarliste for begravelsessanger, inkludert
               sangtittel, komponist, arrangement og kategori.
             </p>
           </div>
           {/* Filter controls */}
-          <div className="pt-6 lg:pt-0">
+          <div className="pt-6 sm:pt-8 sm:pb-4">
             <div className="flex items-center space-x-4 text-sm">
               <div>
                 <label
@@ -109,6 +107,31 @@ export function RepertoarToggle() {
                   <option value="Pop">Pop</option>
                   <option value="Viser">Viser</option>
                   <option value="Klassisk">Klassisk</option>
+                  <option value="Nordiske sanger">Nordiske sanger</option>
+                </select>
+              </div>
+              {/* Subcategory */}
+              <div>
+                <label
+                  htmlFor="subcategory"
+                  className="text-sm font-medium leading-6 text-gray-900"
+                >
+                  Underkategori
+                </label>
+                <select
+                  id="subcategory"
+                  name="subcategory"
+                  value={selectedSubcategory}
+                  onChange={handleSubcategoryChange}
+                  className="mt-2 block w-full rounded-md border-0 py-1.5 pl-3 pr-10 text-gray-900 ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-slate-600 sm:text-sm sm:leading-6"
+                >
+                  <option value="">Alle</option>
+                  <option value="Popballade">Popballade</option>
+                  <option value="Italiensk">Italiensk</option>
+                  <option value="Kirkemusikk">Kirkemusikk</option>
+                  <option value="Klassisk">Klassisk</option>
+                  <option value="Nordiske sanger">Nordiske sanger</option>
+                  <option value="Moderne">Moderne</option>
                 </select>
               </div>
               <div>
@@ -175,7 +198,7 @@ export function RepertoarToggle() {
                       {sang.title}{' '}
                       {sang.recommended === true ? (
                         <>
-                          <span className="inline-flex items-center px-2 py-1 ml-2 text-xs font-medium rounded-md text-rose-700 bg-rose-50 ring-1 ring-inset ring-rose-600/20">
+                          <span className="inline-flex items-center px-2 py-1 ml-2 text-xs font-medium text-pink-700 rounded-md bg-pink-50 ring-1 ring-inset ring-pink-600/20">
                             Anbefales
                           </span>
                         </>
@@ -284,6 +307,12 @@ export function RepertoarToggle() {
                             {sang.category}
                           </span>
                         </>
+                      ) : sang.category === 'Nordiske sanger' ? (
+                        <>
+                          <span className="inline-flex items-center px-2 py-1 text-xs font-medium rounded-md text-cyan-700 bg-cyan-50 ring-1 ring-inset ring-cyan-600/20">
+                            {sang.category}
+                          </span>
+                        </>
                       ) : null}
                     </td>
                     <td className="py-4 pl-3 pr-4 text-sm font-medium text-right sm:pr-0">
@@ -316,23 +345,48 @@ export function RepertoarToggle() {
                             className="grid w-full grid-cols-1 gap-4 p-4 md:grid-cols-2"
                           >
                             <div className="p-3">
-                              <p className="max-w-md text-sm leading-7 text-gray-600 ">
+                              <p className="max-w-lg text-sm leading-7 text-gray-600 ">
                                 {sang.description.map((line) => (
                                   <div className="mt-3" key={line}>
                                     <p>{line}</p>
                                   </div>
                                 ))}
                               </p>
+                              <div className="pt-6">
+                                <p className="text-sm font-semibold text-gray-900">
+                                  Underkategori
+                                </p>
+                                <p className="flex max-w-md gap-3 text-sm leading-7 text-gray-600">
+                                  {sang.subcategory.map((line) => (
+                                    <div className="mt-3" key={line}>
+                                      <p>{line}</p>
+                                    </div>
+                                  ))}
+                                </p>
+                              </div>
                             </div>
                             <div
                               aria-hidden="true"
-                              className="relative overflow-hidden rounded-b-lg md:rounded-t-lg"
+                              className="relative overflow-hidden rounded-b-lg sm:hidden md:rounded-t-lg"
                             >
                               <Image
-                                src={sang.image}
+                                src={sang.mobile}
                                 alt=""
-                                width={500}
-                                height={300}
+                                width={640}
+                                height={359}
+                                className="object-cover object-center w-full h-96"
+                              />
+                              <div className="absolute top-0 left-0 w-full h-44 bg-gradient-to-b from-white md:hidden" />
+                            </div>
+                            <div
+                              aria-hidden="true"
+                              className="relative hidden overflow-hidden rounded-b-lg sm:block md:rounded-t-lg"
+                            >
+                              <Image
+                                src={sang.desktop}
+                                alt=""
+                                width={1456}
+                                height={816}
                                 className="object-cover object-center w-full h-96"
                               />
                               <div className="absolute top-0 left-0 w-full h-44 bg-gradient-to-b from-white md:hidden" />

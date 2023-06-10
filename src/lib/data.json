@@ -2,6 +2,7 @@
   {
     "objectID": "1",
     "category": "Salmer",
+    "subcategory": ["Kirkemusikk"],
     "title": "Air on the G String | Love never fails (tekst)",
     "arrangement": ["solo", "fiolin"],
     "composer": "Johann Sebastian Bach",
@@ -11,12 +12,13 @@
       "Dette instrumentale stykket er en sats fra Bachs Orkestersuite nr. 3. Det er preget av sin flytende melodi som først og fremst spilles på fiolin og støttes av et mildt akkompagnement.",
       "Komposisjonen utstråler en rolig og delikat atmosfære, som viser frem Bachs mesterlige håndverk."
     ],
-    "image": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Air_Bach_t5sdq5.webp",
-    "keywords": ["one", "two", "three"]
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Air_Bach_desktop_m4aq0r.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Air_Bach_mobile_os8124.webp"
   },
   {
     "objectID": "2",
     "category": "Salmer",
+    "subcategory": ["Kirkemusikk", "Klassisk"],
     "title": "Ave Maria",
     "arrangement": ["solo"],
     "composer": "Franz Schubert",
@@ -26,27 +28,29 @@
       "Dette stykket er en setting av den latinske bønnen 'Ave Maria' til musikk. Den er opprinnelig komponert som en del av Schuberts verk med tittelen 'Ellens dritter Gesang' (Ellens tredje sang).",
       "Komposisjonen synges på latin og inneholder Schuberts karakteristiske klassiske stil."
     ],
-    "image": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Ave_Maria_Schubert_kv1dv8.webp",
-    "keywords": ["one", "two", "three"]
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Ave_Maria_Schubert_desktop_dt8uml.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Ave_Maria_Schubert_mobile_mnzop7.webp"
   },
   {
     "objectID": "3",
     "category": "Salmer",
+    "subcategory": ["Kirkemusikk"],
     "title": "Ave Maria",
     "arrangement": ["solo", "duet", "fiolin"],
-    "composer": "Charles Gounod (arrangement) og Johann Sebastian Bach",
+    "composer": "Charles Gounod og Johann Sebastian Bach",
     "recommended": false,
     "video": false,
     "description": [
       "Dette stykket er en setting av den latinske bønnen 'Ave Maria' til musikk. Denne komposisjonen kombinerer melodien til Bachs Preludium i C-dur med en ekstra vokallinje og tekster for 'Ave Maria'-bønnen.",
       "Det er en populær og velkjent adaptasjon som på en vakker måte blander Bachs instrumentale stykke med Gounods vokalarrangement."
     ],
-    "image": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Ave_Maria_Gounod_ousczm.webp",
-    "keywords": ["one", "two", "three"]
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Ave_Maria_Gounod_desktop_rj4fsb.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Ave_Maria_Gounod_mobile_rsxgng.webp"
   },
   {
     "objectID": "4",
     "category": "Salmer",
+    "subcategory": ["Kirkemusikk"],
     "title": "Ave Maria",
     "arrangement": ["solo"],
     "composer": "Pietro Mascagni",
@@ -56,57 +60,63 @@
       "Mascagnis Ave Maria er en egen komposisjon med sin egen musikalske stil og arrangement.",
       "Mens det deler samme tittel som de andre Ave Marias, er det et distinkt stykke laget av Mascagni."
     ],
-    "image": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Ave_Maria_Mascagni_bctqj6.webp",
-    "keywords": ["one", "two", "three"]
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Ave_Maria_Mascagni_desktop_kjw0zp.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Ave_Maria_Mascagni_mobile_d5nxcw.webp"
   },
   {
     "objectID": "5",
     "category": "Salmer",
+    "subcategory": ["Kirkemusikk"],
     "title": "Ave Maria",
     "arrangement": ["solo"],
-    "composer": "Jónas Árnason, også kjent som Jón Ásgeirsson eller Jón Leifs",
+    "composer": "Jónas Árnason (Jón Ásgeirsson/Jón Leifs)",
     "recommended": true,
     "video": false,
     "description": [
       "Denne komposisjonen, Ave Maria (Kaldalóns), er av en islandsk komponist.",
       "Det er en unik tolkning av Ave Maria-bønnen, som gjenspeiler komponistens individuelle stil og musikalske påvirkninger."
     ],
-    "image": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Ave_Maria_Kaldalons_gq5nn6.webp",
-    "keywords": ["one", "two", "three"]
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Ave_Maria_Kaldalons_desktop_phchkb.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Ave_Maria_Kaldalons_mobile_ilbhwj.webp"
   },
   {
     "objectID": "6",
     "category": "Klassisk",
+    "subcategory": ["Italiensk"],
     "title": "Caro mio ben",
-    "arrangement": ["solo"],
-    "composer": "Giordanello",
+    "arrangement": ["solo", "fiolin"],
+    "composer": "Tommaso Giordani",
     "recommended": false,
     "video": false,
     "description": [
-      "This composition, Ave Maria (Kaldalóns), is by an Icelandic composer.",
-      "It is a unique interpretation of the Ave Maria prayer, reflecting the composer’s individual style and musical influences."
+      "Caro mio ben er en vakker italiensk kunstsang som uttrykker dyp hengivenhet og lengsel.",
+      "Det er et ømt og melodisk stykke som viser frem det følelsesmessige spekteret til vokalisten.",
+      "Med sin uttrykksfulle melodi og inderlige tekster fremkaller den en følelse av kjærlighet, hengivenhet og lengsel etter en elsket."
     ],
-    "image": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Ave_Maria_Kaldalons_gq5nn6.webp",
-    "keywords": ["one", "two", "three"]
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Caro_mio_ben_-_desktop_vj2bsy.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Caro_mio_ben_-_mobile_oazceo.webp"
   },
   {
     "objectID": "7",
-    "category": "Viser",
+    "category": "Nordiske sanger",
+    "subcategory": ["Viser", "Moderne", "Popballade"],
     "title": "Adieu",
-    "arrangement": ["solo"],
-    "composer": "Teigan",
+    "arrangement": ["solo", "duet"],
+    "composer": "Anita Skorgan og Jahn Teigen",
     "recommended": false,
     "video": false,
     "description": [
-      "This composition, Ave Maria (Kaldalóns), is by an Icelandic composer.",
-      "It is a unique interpretation of the Ave Maria prayer, reflecting the composer’s individual style and musical influences."
+      "Adieu er en inderlig popballade fremført av Anita Skorgan og Jahn Teigen.",
+      "Sangen er et gripende farvel, og uttrykker følelser av avskjed, lengsel og erindring.",
+      "Dens rørende tekster og emosjonelle melodi skaper en kraftig hyllest til sine kjære og fremkaller en følelse av refleksjon og bittersøt farvel."
     ],
-    "image": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Ave_Maria_Kaldalons_gq5nn6.webp",
-    "keywords": ["one", "two", "three"]
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Adieu_-_Desktop_nv5ac7.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Adieu_-_Mobile_hkcbyo.webp"
   },
   {
     "objectID": "8",
     "category": "Pop",
+    "subcategory": ["Moderne"],
     "title": "Adios, Amigo",
     "arrangement": ["solo"],
     "composer": "Jerry Livingston",
@@ -116,7 +126,7 @@
       "This composition, Ave Maria (Kaldalóns), is by an Icelandic composer.",
       "It is a unique interpretation of the Ave Maria prayer, reflecting the composer’s individual style and musical influences."
     ],
-    "image": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Ave_Maria_Kaldalons_gq5nn6.webp",
-    "keywords": ["one", "two", "three"]
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Ave_Maria_Kaldalons_desktop_phchkb.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Ave_Maria_Kaldalons_mobile_ilbhwj.webp"
   }
 ]
