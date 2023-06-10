@@ -69,7 +69,7 @@
   {
     "objectID": "5",
     "category": "Salmer",
-    "subcategory": ["Kirkemusikk", "Klassisk"],
+    "subcategory": ["Kirkemusikk", "Klassisk", "Islandsk"],
     "title": "Ave Maria",
     "arrangement": ["solo"],
     "composer": "Sigvaldi Kaldalóns",
@@ -102,8 +102,8 @@
   },
   {
     "objectID": "7",
-    "category": "Nordiske sanger",
-    "subcategory": ["Viser", "Moderne", "Popballade"],
+    "category": "Nordisk",
+    "subcategory": ["Viser", "Moderne", "Popballade", "Kjærlighetssang"],
     "title": "Adieu",
     "arrangement": ["solo", "duet"],
     "composer": "Anita Skorgan / Jahn Teigen",
@@ -133,5 +133,243 @@
     ],
     "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Adios_Amigo_-_Desktop_y0kn8r.webp",
     "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Adios_Amigo_-_Mobile_mwmopw.webp"
+  },
+  {
+    "objectID": "9",
+    "category": "Salmer",
+    "subcategory": ["Kirkemusikk"],
+    "title": "Amazing Grace",
+    "arrangement": ["solo"],
+    "composer": "John Newton",
+    "recommended": false,
+    "video": false,
+    "description": [
+      "Amazing Grace er en tidløs salme som bærer et kraftig budskap om forløsning og håp.",
+      "Skrevet av John Newton, en tidligere slavehandler som ble avskaffet, reflekterer sangen over Guds nåde og transformasjonen den bringer til en persons liv.",
+      "Med sin sjeleglade melodi og inderlige tekster, har Amazing Grace blitt et symbol på tro og trøst, som gir gjenklang med mennesker fra ulike bakgrunner og kulturer."
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Amazing_Grace_desktop_wnfpuv.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Amazing_Grace_mobile_jneyu3.webp"
+  },
+  {
+    "objectID": "10",
+    "category": "Salmer",
+    "subcategory": ["Kirkemusikk", "Tradisjonell", "Folkemusikk", "Irsk"],
+    "title": "An Irish Blessing",
+    "arrangement": ["solo"],
+    "composer": "Tradisjonell (ukjent forfatter)",
+    "recommended": false,
+    "video": false,
+    "description": [
+      "An Irish Blessing er en inderlig og oppløftende tradisjonell folkesang som innkapsler varmen, gjestfriheten og velønskene til irsk kultur.",
+      "Dens milde melodi og ømme tekster formidler velsignelser av glede, fred og velstand.",
+      "Sangen synges ofte som en velsignelse eller velsignelse, sprer positivitet og gir trøst til de som hører den."
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/An_Irish_Blessing_desktop_ulrwvc.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/An_Irish_Blessing_mobile_hlqnrm.webp"
+  },
+  {
+    "objectID": "11",
+    "category": "Salmer",
+    "subcategory": ["Kirkemusikk", "Klassisk", "Nordisk"],
+    "title": "Ave Maria",
+    "arrangement": ["solo"],
+    "composer": "Thomas Laub Gyldenmark",
+    "recommended": false,
+    "video": false,
+    "description": [
+      "Ave Maria av Thomas Laub Gyldenmark er en fengslende dansk komposisjon som hyller den tradisjonelle Ave Maria-bønnen.",
+      "Med sine rike harmonier og emosjonelle melodier viser stykket Gyldenmarks talent for å lage gripende og ærbødig musikk.",
+      "Gyldenmarks Ave Maria tilbyr en unik dansk tolkning av bønnen, og skaper en rolig og introspektiv atmosfære."
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Ave_Maria_Gyldenmark_desktop_idbaho.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Ave_Maria_Gyldenmark_mobile_h80pfe.webp"
+  },
+  {
+    "objectID": "12",
+    "category": "Salmer",
+    "subcategory": ["Kirkemusikk", "Klassisk"],
+    "title": "Ave Verum",
+    "arrangement": ["solo"],
+    "composer": "Wolfgang Amadeus Mozart",
+    "recommended": false,
+    "video": false,
+    "description": [
+      "Ave Verum av Wolfgang Amadeus Mozart er en sublim korkomposisjon som legemliggjør ærbødighet og hengivenhet.",
+      "Denne hellige motetten er skrevet for stemmer og er et vitnesbyrd om Mozarts mestring av vokalharmonier.",
+      "Ave Verums delikate og eteriske melodier skaper en rolig og kontemplativ atmosfære, som lar lytterne oppleve en dyp følelse av åndelighet og ærefrykt."
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Ave_Verum_desktop_ty8ncj.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Ave_Verum_mobile_avfauh.webp"
+  },
+  {
+    "objectID": "13",
+    "category": "Salmer",
+    "subcategory": ["Kirkemusikk", "Klassisk"],
+    "title": "Benedictus (B-minor Mass)",
+    "arrangement": ["solo"],
+    "composer": "Johann Sebastian Bach",
+    "recommended": false,
+    "video": false,
+    "description": [
+      "Benedictus fra Bachs h-mollmesse er et majestetisk kormesterverk som viser frem komponistens genialitet.",
+      "Med sine intrikate vokallinjer og rike harmonier, utstråler stykket ærbødighet og storhet.",
+      "Benedictus er et dypt uttrykk for lovprisning og tilbedelse, som formidler en følelse av guddommelig majestet og åndelig transcendens."
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Benedictus_desktop_a6k52z.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Benedictus_mobile_sdzf4w.webp"
+  },
+  {
+    "objectID": "14",
+    "category": "Salmer",
+    "subcategory": ["Kirkemusikk", "Klassisk", "Kjærlighetssang"],
+    "title": "Bist du bei mir",
+    "arrangement": ["solo"],
+    "composer": "Johann Sebastian Bach",
+    "recommended": false,
+    "video": false,
+    "description": [
+      "Bist du bei mir, komponert av Johann Sebastian Bach, er en øm og intim kjærlighetssang.",
+      "Opprinnelig en del av Bachs ‘Anna Magdalena Notebook’, uttrykker stykket en inderlig følelse av lengsel og hengivenhet.",
+      "Med sin milde melodi og rørende tekster formidler Bist du bei mir dybden av kjærlighet og komforten som finnes i nærvær av en kjær."
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Bist_du_bei_mir_desktop_jstwh2.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Bist_du_bei_mir_mobile_tqzjdl.webp"
+  },
+  {
+    "objectID": "15",
+    "category": "Salmer",
+    "subcategory": ["Kirkemusikk", "Klassisk"],
+    "title": "Den hellige stad",
+    "arrangement": ["solo"],
+    "composer": "Stephen Adams",
+    "recommended": false,
+    "video": false,
+    "description": [
+      "Den hellige stad, komponert av Stephen Adams, er en dypt rørende hellig sang som skildrer den hellige byen med dyp ærbødighet.",
+      "Dens uttrykksfulle melodi og gripende tekster maler et levende bilde av et hellig og himmelsk sted.",
+      "Den hellige stad fremkaller en følelse av ærefrykt og åndelig lengsel, og inviterer lyttere til å tenke på skjønnheten og helligheten i det guddommelige riket."
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Den_hellige_stad_desktop_gowuxy.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Den_hellige_stad_mobile_f2qnwo.webp"
+  },
+  {
+    "objectID": "16",
+    "category": "Salmer",
+    "subcategory": ["Kirkemusikk", "Folkemusikk", "Nordisk", "Tradisjonell"],
+    "title": "Eg veit i himmelrik ei borg",
+    "arrangement": ["solo"],
+    "composer": "Tradisjonell (ukjent forfatter)",
+    "recommended": false,
+    "video": false,
+    "description": [
+      "Eg veit i himmelrik ei borg, en tradisjonell norsk folkesalme, er en inderlig og oppløftende sang om tro og håp.",
+      "Dens vakre melodi og poetiske tekster skaper en følelse av komfort og trygghet. Sangen snakker om en himmelsk festning og de gledelige gjensynene som venter i etterlivet.",
+      "Eg veit i himmelrik ei borg fanger essensen av norske folketradisjoner og fremkaller en følelse av åndelig trøst."
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Eg_veit_i_himmelrik_ei_borg_desktop_uxeg9i.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Eg_veit_i_himmelrik_ei_borg_mobile_ppzhtz.webp"
+  },
+  {
+    "objectID": "17",
+    "category": "Pop",
+    "subcategory": ["Moderne", "Nordisk"],
+    "title": "Ein fin liten blome",
+    "arrangement": ["solo"],
+    "composer": "Bjørn Eidsvåg",
+    "recommended": false,
+    "video": false,
+    "description": [
+      "Ein fin liten blome, komponert av Bjørn Eidsvåg, er en sjarmerende norsk poplåt som hyller livets skjønnhet og skjørhet.",
+      "Med sin fengende melodi og inderlige tekster formidler sangen et budskap om takknemlighet for de små gledene og dyrebare øyeblikkene i livet.",
+      "Ein fin liten blome innkapsler Eidsvågs talent for å fange dype følelser gjennom musikken hans."
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Ein_fin_liten_blome_desktop_yxjc9r.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Ein_fin_liten_blome_mobile_isn0e6.webp"
+  },
+  {
+    "objectID": "18",
+    "category": "Klassisk",
+    "subcategory": ["Viser"],
+    "title": "Fall til ro",
+    "arrangement": ["solo"],
+    "composer": "William Carter",
+    "recommended": false,
+    "video": false,
+    "description": [
+      "Fall til ro, komponert av William Carter, er en vakker klassisk vuggevise som utstråler en følelse av ro og stillhet.",
+      "Dens beroligende melodi og milde tekster skaper en fredelig atmosfære, perfekt for å berolige rastløse sjeler og bringe trøst.",
+      "Fall til ro inviterer lyttere til å finne trøst i dens rolige omfavnelse, og gir et øyeblikk med pusterom og ro."
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Fall_til_ro_desktop_lcnpar.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Fall_til_ro_mobile_i7pz6f.png"
+  },
+  {
+    "objectID": "19",
+    "category": "Salmer",
+    "subcategory": ["Kirkemusikk"],
+    "title": "Hymne",
+    "arrangement": ["solo"],
+    "composer": "Nils Larsen",
+    "recommended": false,
+    "video": false,
+    "description": [
+      "Hymne, komponert av Nils Larsen, er en ærbødig og oppløftende salme som inspirerer til andakt og åndelig refleksjon.",
+      "Med sine kraftige korharmonier og inderlige tekster tilbyr sangen et kollektivt uttrykk for tro, enhet og lovprisning.",
+      "Hymne bærer på en følelse av ærbødighet og ærefrykt, og inviterer lyttere til å koble seg til deres åndelige tro og finne trøst i det guddommelige."
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Hymne_desktop_jeblyr.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Hymne_mobile_dq1vag.webp"
+  },
+  {
+    "objectID": "20",
+    "category": "Salmer",
+    "subcategory": ["Kirkemusikk", "Nordisk", "Klassisk"],
+    "title": "I himmelen",
+    "arrangement": ["solo"],
+    "composer": "Edvard Grieg",
+    "recommended": false,
+    "video": false,
+    "description": [
+      "I himmelen, komponert av Edvard Grieg, er en fengslende kunstsang som frakter lytterne til himmelriket.",
+      "Med sine frodige harmonier og lyriske melodier skaper sangen en følelse av eterisk skjønnhet og undring.",
+      "I himmelen fanger ærefrykten og stillheten til det himmelske riket, og inviterer lyttere til å forestille seg og tenke på himmelens mysterier."
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/I_himmelen_desktop_oy5skg.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/I_himmelen_mobile_zqomrp.webp"
+  },
+  {
+    "objectID": "21",
+    "category": "Pop",
+    "subcategory": ["Moderne", "Nordisk"],
+    "title": "Kom nära mej",
+    "arrangement": ["solo"],
+    "composer": "Lennart Jakobsson",
+    "recommended": false,
+    "video": false,
+    "description": [
+      "Kom nära mej, komponert av Lennart Jakobsson, er en fengslende svensk poplåt som uttrykker et ønske om nærhet og tilknytning.",
+      "Med sin fengende melodi og inderlige tekster formidler sangen en lengsel etter intimitet og følelsesmessige bånd.",
+      "Kom nära mej fanger essensen av menneskelig forbindelse og lengselen etter dypere relasjoner."
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Kom_na%CC%88ra_mej_desktop_wop3ho.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Kom_na%CC%88ra_mej_mobile_xznrlv.webp"
+  },
+  {
+    "objectID": "22",
+    "category": "Salmer",
+    "subcategory": ["Kirkemusikk", "Nordisk"],
+    "title": "Ledestjernen",
+    "arrangement": ["solo"],
+    "composer": "Borghild Thorsen",
+    "recommended": false,
+    "video": false,
+    "description": [
+      "Ledestjernen, komponert av Borghild Thorsen, er en fengslende salme som veileder og inspirerer.",
+      "Med sin oppløftende melodi og åndelige tekster fungerer sangen som et fyrtårn av lys og håp.",
+      "Ledestjernen symboliserer den guddommelige veiledningen og retningen som lyser opp livets vei, og tilbyr trøst og trøst til de som søker den."
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Ledestjernen_desktop_fpiak7.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Ledestjernen_mobile_twp6kh.webp"
   }
 ]

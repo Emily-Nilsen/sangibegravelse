@@ -107,7 +107,7 @@ export function RepertoarToggle() {
                   <option value="Pop">Pop</option>
                   <option value="Viser">Viser</option>
                   <option value="Klassisk">Klassisk</option>
-                  <option value="Nordiske sanger">Nordiske sanger</option>
+                  <option value="Nordisk">Nordisk</option>
                   <option value="Opera">Opera</option>
                 </select>
               </div>
@@ -131,11 +131,17 @@ export function RepertoarToggle() {
                   <option value="Italiensk">Italiensk</option>
                   <option value="Kirkemusikk">Kirkemusikk</option>
                   <option value="Klassisk">Klassisk</option>
-                  <option value="Nordiske sanger">Nordiske sanger</option>
+                  <option value="Nordisk">Nordisk</option>
                   <option value="Moderne">Moderne</option>
                   <option value="Western">Western</option>
                   <option value="Country">Country</option>
                   <option value="Opera">Opera</option>
+                  <option value="Islandsk">Islandsk</option>
+                  <option value="Tradisjonell">Tradisjonell</option>
+                  <option value="Julesanger">Julesanger</option>
+                  <option value="Folkemusikk">Folkemusikk</option>
+                  <option value="Irsk">Irsk</option>
+                  <option value="Kjærlighetssang">Kjærlighetssang</option>
                 </select>
               </div>
               <div>
@@ -311,7 +317,7 @@ export function RepertoarToggle() {
                             {sang.category}
                           </span>
                         </>
-                      ) : sang.category === 'Nordiske sanger' ? (
+                      ) : sang.category === 'Nordisk' ? (
                         <>
                           <span className="inline-flex items-center px-2 py-1 text-xs font-medium rounded-md text-cyan-700 bg-cyan-50 ring-1 ring-inset ring-cyan-600/20">
                             {sang.category}
