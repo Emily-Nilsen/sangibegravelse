@@ -108,6 +108,7 @@ export function RepertoarToggle() {
                   <option value="Viser">Viser</option>
                   <option value="Klassisk">Klassisk</option>
                   <option value="Nordiske sanger">Nordiske sanger</option>
+                  <option value="Opera">Opera</option>
                 </select>
               </div>
               {/* Subcategory */}
@@ -132,6 +133,9 @@ export function RepertoarToggle() {
                   <option value="Klassisk">Klassisk</option>
                   <option value="Nordiske sanger">Nordiske sanger</option>
                   <option value="Moderne">Moderne</option>
+                  <option value="Western">Western</option>
+                  <option value="Country">Country</option>
+                  <option value="Opera">Opera</option>
                 </select>
               </div>
               <div>
@@ -359,7 +363,9 @@ export function RepertoarToggle() {
                                 <p className="flex max-w-md gap-3 text-sm leading-7 text-gray-600">
                                   {sang.subcategory.map((line) => (
                                     <div className="mt-3" key={line}>
-                                      <p>{line}</p>
+                                      <span className="inline-flex items-center px-2 py-1 text-xs font-medium rounded-md text-slate-700 bg-slate-50 ring-1 ring-inset ring-slate-600/20">
+                                        {line}
+                                      </span>
                                     </div>
                                   ))}
                                 </p>
