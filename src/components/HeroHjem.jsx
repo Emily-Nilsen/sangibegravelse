@@ -56,13 +56,13 @@ export function HeroHjem() {
             <div className="flex items-center justify-center mt-10 gap-x-6">
               <Link
                 href="/repertoar"
-                className="rounded-md bg-slate-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-slate-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-slate-400 transition-all duration-150 ease-in-out"
+                className="rounded-md bg-white/70 px-3.5 py-2.5 text-sm font-semibold text-slate-600 shadow-sm hover:bg-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-slate-400 transition-all duration-150 ease-in-out hover:text-slate-900"
               >
                 Repertoar
               </Link>
               <Link
                 href="/artister"
-                className="text-sm font-semibold leading-6 text-gray-600 transition-all duration-150 ease-in-out hover:text-gray-700"
+                className="text-sm font-semibold leading-6 transition-all duration-150 ease-in-out text-slate-600 hover:text-slate-700"
               >
                 Artister <span aria-hidden="true">→</span>
               </Link>
