@@ -142,6 +142,7 @@ export function RepertoarToggle() {
                   <option value="Folkemusikk">Folkemusikk</option>
                   <option value="Irsk">Irsk</option>
                   <option value="Kjærlighetssang">Kjærlighetssang</option>
+                  <option value="Musikal">Musikal</option>
                 </select>
               </div>
               <div>
@@ -379,20 +380,19 @@ export function RepertoarToggle() {
                             </div>
                             <div
                               aria-hidden="true"
-                              className="relative overflow-hidden rounded-b-lg sm:hidden md:rounded-t-lg"
+                              className="relative overflow-hidden rounded-lg sm:hidden"
                             >
                               <Image
                                 src={sang.mobile}
                                 alt=""
                                 width={640}
                                 height={359}
-                                className="object-cover object-center w-full h-96"
+                                className="object-cover object-center w-full h-64"
                               />
-                              <div className="absolute top-0 left-0 w-full h-44 bg-gradient-to-b from-white md:hidden" />
                             </div>
                             <div
                               aria-hidden="true"
-                              className="relative hidden overflow-hidden rounded-b-lg sm:block md:rounded-t-lg"
+                              className="relative hidden overflow-hidden rounded-lg sm:block"
                             >
                               <Image
                                 src={sang.desktop}
@@ -401,7 +401,6 @@ export function RepertoarToggle() {
                                 height={816}
                                 className="object-cover object-center w-full h-96"
                               />
-                              <div className="absolute top-0 left-0 w-full h-44 bg-gradient-to-b from-white md:hidden" />
                             </div>
                           </div>
                         </td>

@@ -371,5 +371,192 @@
     ],
     "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Ledestjernen_desktop_fpiak7.webp",
     "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Ledestjernen_mobile_twp6kh.webp"
+  },
+  {
+    "objectID": "23",
+    "category": "Salmer",
+    "subcategory": ["Kirkemusikk", "Nordisk"],
+    "title": "Lær meg å kjenne dine veier",
+    "arrangement": ["solo"],
+    "composer": "Jakob Paulli",
+    "recommended": false,
+    "video": false,
+    "description": [
+      "Lær meg å kjenne dine veier, komponert av Jakob Paulli, er en dyp salme som uttrykker et ønske om å kjenne og følge Guds veier.",
+      "Med sin ærbødige melodi og kontemplative tekster søker sangen åndelig veiledning og visdom.",
+      "Lær meg å kjenne dine veier inviterer lyttere til å utdype sin forbindelse med det guddommelige og tilpasse sine liv etter Guds lære."
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/L%C3%A6r_meg_a%CC%8A_kjenne_dine_veier_desktop_fsuemc.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/L%C3%A6r_meg_a%CC%8A_kjenne_dine_veier_mobile_arkjll.png"
+  },
+  {
+    "objectID": "24",
+    "category": "Salmer",
+    "subcategory": ["Kirkemusikk", "Nordisk", "Popballade", "Moderne"],
+    "title": "Kyrie",
+    "arrangement": ["solo"],
+    "composer": "Bjørn Eidsvåg",
+    "recommended": false,
+    "video": false,
+    "description": [
+      "Kyrie, komponert av Bjørn Eidsvåg, er en sjelfull og introspektiv poplåt som bærer et budskap om ydmykhet og å søke tilgivelse.",
+      "Med sin emosjonelle melodi og inderlige tekster uttrykker sangen en bønn om nåde og nåde.",
+      "Kyrie resonerer med lyttere, og fremkaller en følelse av introspeksjon og refleksjon over våre egne feil og behovet for medfølelse."
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Kyrie_desktop_cnayyj.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Kyrie_mobile_rusrms.webp"
+  },
+  {
+    "objectID": "25",
+    "category": "Salmer",
+    "subcategory": ["Kirkemusikk"],
+    "title": "My Tribute",
+    "arrangement": ["solo"],
+    "composer": "Andraé Crouch",
+    "recommended": false,
+    "video": false,
+    "description": [
+      "My Tribute, komponert av Andraé Crouch, er en kraftfull gospelsang som uttrykker takknemlighet og lovprisning til Gud.",
+      "Med sin oppløftende melodi og inderlige tekster fungerer sangen som et inderlig uttrykk for takksigelse og tilbedelse.",
+      "My Tribute gir gjenklang hos lytterne, minner dem om velsignelsene som er mottatt og inspirerer en ånd av tilbedelse og ærbødighet."
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/My_Tribute_desktop_yeon0j.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/My_Tribute_mobile_opxcos.webp"
+  },
+  {
+    "objectID": "26",
+    "category": "Salmer",
+    "subcategory": ["Kirkemusikk", "Nordisk"],
+    "title": "Må din vei komme deg i møte",
+    "arrangement": ["solo"],
+    "composer": "Hans-Olav Mørk",
+    "recommended": false,
+    "video": false,
+    "description": [
+      "Må din vei komme deg i møte, komponert av Hans-Olav Mørk, er en inderlig salme som gir en velsignelse og bønn om veiledning.",
+      "Med sin milde melodi og oppriktige tekster tilbyr sangen oppmuntring og støtte på livets reise.",
+      "Må din vei komme deg i møte omfavner troen på guddommelig forsyn, og påkaller en følelse av fred og trygghet."
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Ma%CC%8A_din_vei_komme_deg_i_m%C3%B8te_desktop_eyqnht.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Ma%CC%8A_din_vei_komme_deg_i_m%C3%B8te_mobile_pxopz3.webp"
+  },
+  {
+    "objectID": "27",
+    "category": "Salmer",
+    "subcategory": ["Kirkemusikk", "Nordisk"],
+    "title": "Nordnorsk julesalme",
+    "arrangement": ["solo"],
+    "composer": "Trygve Hoff",
+    "recommended": false,
+    "video": false,
+    "description": [
+      "Nordnorsk julesalme, komponert av Trygve Hoff, er en vakker salme som fanger essensen av julen i nordområdene i Norge.",
+      "Med sin melodiske sjarm og stemningsfulle tekster tegner sangen et levende bilde av det rolige vinterlandskapet og den gledelige feiringen av Jesu fødsel.",
+      "Nordnorsk julesalme fremkaller en følelse av varme, nostalgi og kulturarv."
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Nordnorsk_julesalme_desktop_hvyynh.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Nordnorsk_julesalme_mobile_iw6xlr.webp"
+  },
+  {
+    "objectID": "28",
+    "category": "Salmer",
+    "subcategory": ["Kirkemusikk", "Nordisk"],
+    "title": "O store Gud",
+    "arrangement": ["solo"],
+    "composer": "Carl Boberg",
+    "recommended": false,
+    "video": false,
+    "description": [
+      "O store Gud, også kjent som ‘How Great Thou Art’, er en elsket salme som uttrykker ærefrykt og tilbedelse for storheten i Guds skaperverk.",
+      "Med sin majestetiske melodi og dype tekster, feirer sangen naturens skjønnhet og underverkene til Guds håndverk.",
+      "O store Gud inspirerer ærbødighet og takknemlighet, og minner lytterne om den guddommelige tilstedeværelsen og Skaperens storhet."
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/O_store_Gud_desktop_t2rrcv.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/O_store_Gud_mobile_zd6jsc.webp"
+  },
+  {
+    "objectID": "29",
+    "category": "Salmer",
+    "subcategory": ["Kirkemusikk", "Klassisk"],
+    "title": "Panis Angelicus",
+    "arrangement": ["solo"],
+    "composer": "César Franck",
+    "recommended": false,
+    "video": false,
+    "description": [
+      "Panis Angelicus, komponert av César Franck, er et sublimt hellig stykke som skildrer nattverdens åndelige betydning.",
+      "Med sine skyhøye melodier og dype tekster, innkapsler sangen en følelse av ærbødighet og hengivenhet.",
+      "Panis Angelicus fengsler lytterne med sin delikate skjønnhet og fremkaller en følelse av guddommelig tilstedeværelse og fryktinngytende tilbedelse."
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Pie_Jesu_Gabriel_Faure%CC%81_desktop_oimndl.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Pie_Jesu_Gabriel_Faure%CC%81_mobile_bxv4an.webp"
+  },
+  {
+    "objectID": "32",
+    "category": "Salmer",
+    "subcategory": ["Kirkemusikk", "Modern", "Musikal"],
+    "title": "Pie Jesu",
+    "arrangement": ["solo"],
+    "composer": "Andrew Lloyd Webber",
+    "recommended": false,
+    "video": false,
+    "description": [
+      "Pie Jesu, komponert av Andrew Lloyd Webber, er et fremstående stykke fra hans ikoniske musikal ‘Requiem’.",
+      "Med sine skyhøye melodier og inderlige tekster utforsker sangen temaer som tro, forløsning og evig hvile.",
+      "Pie Jesu viser frem det emosjonelle spekteret til utøveren og fengsler publikum med sin dramatiske og gripende levering."
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Pie_Jesu_Andrew_Lloyd_Webber_desktop_zfx6ug.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Pie_Jesu_Andrew_Lloyd_Webber_mobile_ef7aic.webp"
+  },
+  {
+    "objectID": "30",
+    "category": "Salmer",
+    "subcategory": ["Kirkemusikk", "Klassisk"],
+    "title": "Pie Jesu",
+    "arrangement": ["solo"],
+    "composer": "Gabriel Fauré",
+    "recommended": false,
+    "video": false,
+    "description": [
+      "Pie Jesu, komponert av Gabriel Fauré, er et uhyggelig vakkert og dypt følelsesladet stykke fra hans Requiem.",
+      "Med sine ømme melodier og gripende tekster reflekterer sangen over barmhjertigheten og freden som søkes gjennom Jesu forbønn.",
+      "Pie Jesu er en inderlig bønn, som påkaller en følelse av trøst, trøst og åndelig kontemplasjon."
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Panis_Angelicus_desktop_urj72r.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Panis_Angelicus_mobile_igis9j.webp"
+  },
+  {
+    "objectID": "31",
+    "category": "Salmer",
+    "subcategory": ["Kirkemusikk", "Klassisk"],
+    "title": "Pie Jesu",
+    "arrangement": ["solo"],
+    "composer": "John Rutter",
+    "recommended": false,
+    "video": false,
+    "description": [
+      "Pie Jesu, komponert av John Rutter, er et gripende og kontemplativt stykke fra hans Requiem.",
+      "Med sine milde melodier og ømme tekster søker sangen trøst og nåde gjennom Jesu forbønn.",
+      "Pie Jesu fremkaller en følelse av fred, ro og åndelig refleksjon, og inviterer lyttere til å finne trøst og helbredelse i tider med sorg."
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Pie_Jesu_John_Rutter_desktop_aomhiy.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Pie_Jesu_John_Rutter_mobile_eissfc.webp"
+  },
+  {
+    "objectID": "33",
+    "category": "Klassisk",
+    "subcategory": ["Nordisk"],
+    "title": "En svane",
+    "arrangement": ["solo"],
+    "composer": "Edvard Grieg",
+    "recommended": false,
+    "video": false,
+    "description": [
+      "En svane, komponert av Edvard Grieg, er en lyrisk og stemningsfull kunstsang.",
+      "Med sine delikate melodier og poetiske tekster, skildrer sangen den grasiøse og rolige naturen til en svane som glir over vannet.",
+      "En svane fanger skjønnheten i den naturlige verden og inviterer lyttere til å oppleve et øyeblikk av ro og refleksjon."
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/En_svane_desktop_dckp1g.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/En_svane_mobile_my6tgd.webp"
   }
 ]
