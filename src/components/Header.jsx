@@ -38,12 +38,12 @@ export function Header() {
             <Bars3Icon className="w-6 h-6" aria-hidden="true" />
           </button>
         </div>
-        <div className="hidden lg:flex lg:gap-x-16">
+        <div className="hidden lg:flex lg:gap-x-12">
           {navigation.map((item) => (
             <Link
               key={item.name}
               href={item.href}
-              className="text-sm leading-6 text-gray-500 transition duration-300 ease-in-out hover:text-gray-900"
+              className="text-sm leading-6 text-gray-600 transition duration-300 ease-in-out hover:bg-white/50 hover:text-gray-950 cursor:pointer px-2.5 py-1.5 rounded-md"
             >
               {item.name}
             </Link>
