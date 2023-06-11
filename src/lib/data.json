@@ -9,8 +9,8 @@
     "recommended": false,
     "video": false,
     "description": [
-      "Air, også kjent som ‘Air on the G String,’ er et ikonisk instrumentalt stykke. Det er en rolig og melodisk komposisjon som viser skjønnheten og elegansen til barokkmusikk. Strengeinstrumenter fremfører ofte stykket, og dets beroligende melodi fremkaller en følelse av ro og introspeksjon.",
-      "Love Never Fails er en salme med et kraftfullt og oppløftende budskap om kjærlighet og medfølelse. Tekstene understreker kjærlighetens varige natur og dens evne til å overvinne hindringer og gi trøst."
+      "Air, også kjent som ‘Air on the G String,’ er et ikonisk instrumentalt stykke. Det er en rolig og melodisk komposisjon som viser barokkmusikkens skjønnhet og eleganse. Strenginstrumenter fremfører ofte stykket, og dets beroligende melodi fremkaller en følelse av ro og introspeksjon.",
+      "Love Never Fails er en salme med et kraftfullt og oppløftende budskap om kjærlighet og medfølelse. Teksten understreker kjærlighetens varige natur og dens evne til å overvinne hindringer og gi trøst."
     ],
     "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Air_Bach_desktop_nqm7lj.webp",
     "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Air_Bach_mobile_zosdhe.webp"
@@ -42,7 +42,7 @@
     "recommended": false,
     "video": false,
     "description": [
-      "Ave Maria, komponert av Johann Sebastian Bach med tekster av Charles Gounod, er en harmonisk blanding av Bachs Preludium i C-dur og Gounods melodioverlegg.",
+      "Ave Maria, komponert av Johann Sebastian Bach med tekst av Charles Gounod, er en harmonisk blanding av Bachs Preludium i C-dur og Gounods melodioverlegg.",
       "Dette utsøkte stykket kombinerer skjønnheten i Bachs instrumentale komposisjon med den delikate og uttrykksfulle melodien til Gounods vokaltilpasning.",
       "Ave Maria er et elsket og kjært stykke ofte fremført som en vokalsolo, og tilbyr en sublim og bønnfull opplevelse."
     ],
@@ -59,7 +59,7 @@
     "recommended": true,
     "video": false,
     "description": [
-      "Ave Maria av Pietro Mascagni er en fengslende opera-aria som viser frem komponistens melodiske og dramatiske stil.",
+      "Ave Maria av Pietro Mascagni er en fengslende opera-arie som viser frem komponistens melodiske og dramatiske stil.",
       "Med sine skyhøye vokallinjer og emosjonelle intensitet, fanger stykket essensen av bønn og hengivenhet.",
       "Mascagnis Ave Maria er en kraftfull og stemningsfull soloforestilling, fylt med lidenskap og ærbødighet."
     ],
@@ -95,7 +95,7 @@
     "description": [
       "Caro mio ben er en vakker italiensk kunstsang som uttrykker dyp hengivenhet og lengsel.",
       "Det er et ømt og melodisk stykke som viser frem det følelsesmessige spekteret til vokalisten.",
-      "Med sin uttrykksfulle melodi og inderlige tekster fremkaller den en følelse av kjærlighet, hengivenhet og lengsel etter en elsket."
+      "Med sin uttrykksfulle melodi og inderlige tekst fremkaller den en følelse av kjærlighet, hengivenhet og lengsel etter en elsket."
     ],
     "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Caro_mio_ben_-_desktop_vj2bsy.webp",
     "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Caro_mio_ben_-_mobile_oazceo.webp"
@@ -110,9 +110,9 @@
     "recommended": false,
     "video": false,
     "description": [
-      "Adieu er en inderlig popballade fremført av Anita Skorgan og Jahn Teigen.",
+      "Adieu er en inderlig popballade opprinnelig fremført av Anita Skorgan og Jahn Teigen.",
       "Sangen er et gripende farvel, og uttrykker følelser av avskjed, lengsel og erindring.",
-      "Dens rørende tekster og emosjonelle melodi skaper en kraftig hyllest til sine kjære og fremkaller en følelse av refleksjon og bittersøt farvel."
+      "Dens rørende tekst og emosjonelle melodi skaper en kraftig hyllest til sine kjære og fremkaller en følelse av refleksjon og bittersøt farvel."
     ],
     "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Adieu_-_Desktop_nv5ac7.webp",
     "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Adieu_-_Mobile_hkcbyo.webp"
@@ -129,7 +129,7 @@
     "description": [
       "Adios, Amigo er en populær poplåt i vestlig stil med countrypåvirkninger.",
       "Den skildrer et farvel mellom venner eller kjære.",
-      "Sangen kombinerer fengende melodier med relaterte tekster som fremkaller følelser av nostalgi, kameratskap og adieu."
+      "Sangen kombinerer fengende melodier med  tekster som fremkaller følelser av nostalgi, kameratskap og adieu."
     ],
     "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Adios_Amigo_-_Desktop_y0kn8r.webp",
     "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Adios_Amigo_-_Mobile_mwmopw.webp"
@@ -145,8 +145,8 @@
     "video": false,
     "description": [
       "Amazing Grace er en tidløs salme som bærer et kraftig budskap om forløsning og håp.",
-      "Skrevet av John Newton, en tidligere slavehandler som ble avskaffet, reflekterer sangen over Guds nåde og transformasjonen den bringer til en persons liv.",
-      "Med sin sjeleglade melodi og inderlige tekster, har Amazing Grace blitt et symbol på tro og trøst, som gir gjenklang med mennesker fra ulike bakgrunner og kulturer."
+      "Skrevet av John Newton, en tidligere slavehandler, reflekterer sangen over Guds nåde og transformasjonen den bringer til en persons liv.",
+      "Med sin sjeleglade melodi og inderlige tekst, har Amazing Grace blitt et symbol på tro og trøst, som gir gjenklang med mennesker fra ulike bakgrunner og kulturer."
     ],
     "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Amazing_Grace_desktop_wnfpuv.webp",
     "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Amazing_Grace_mobile_jneyu3.webp"
@@ -162,8 +162,8 @@
     "video": false,
     "description": [
       "An Irish Blessing er en inderlig og oppløftende tradisjonell folkesang som innkapsler varmen, gjestfriheten og velønskene til irsk kultur.",
-      "Dens milde melodi og ømme tekster formidler velsignelser av glede, fred og velstand.",
-      "Sangen synges ofte som en velsignelse eller velsignelse, sprer positivitet og gir trøst til de som hører den."
+      "Dens milde melodi og ømme tekst formidler velsignelse av glede, fred og velstand.",
+      "Sangen som ofte synges som en velsignelse, sprer positivitet og gir trøst til de som hører på."
     ],
     "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/An_Irish_Blessing_desktop_ulrwvc.webp",
     "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/An_Irish_Blessing_mobile_hlqnrm.webp"
@@ -231,7 +231,7 @@
     "description": [
       "Bist du bei mir, komponert av Johann Sebastian Bach, er en øm og intim kjærlighetssang.",
       "Opprinnelig en del av Bachs ‘Anna Magdalena Notebook’, uttrykker stykket en inderlig følelse av lengsel og hengivenhet.",
-      "Med sin milde melodi og rørende tekster formidler Bist du bei mir dybden av kjærlighet og komforten som finnes i nærvær av en kjær."
+      "Med sin milde melodi og rørende tekst formidler Bist du bei mir dybden av kjærlighet og komforten som finnes i nærvær av en kjær."
     ],
     "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Bist_du_bei_mir_desktop_jstwh2.webp",
     "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Bist_du_bei_mir_mobile_tqzjdl.webp"
@@ -246,8 +246,8 @@
     "recommended": false,
     "video": false,
     "description": [
-      "Den hellige stad, komponert av Stephen Adams, er en dypt rørende hellig sang som skildrer den hellige byen med dyp ærbødighet.",
-      "Dens uttrykksfulle melodi og gripende tekster maler et levende bilde av et hellig og himmelsk sted.",
+      "Den hellige stad, komponert av Stephen Adams, er en dypt rørende sang som skildrer den hellige byen med dyp ærbødighet.",
+      "Dens uttrykksfulle melodi og gripende tekst maler et levende bilde av et hellig og himmelsk sted.",
       "Den hellige stad fremkaller en følelse av ærefrykt og åndelig lengsel, og inviterer lyttere til å tenke på skjønnheten og helligheten i det guddommelige riket."
     ],
     "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Den_hellige_stad_desktop_gowuxy.webp",
@@ -264,7 +264,7 @@
     "video": false,
     "description": [
       "Eg veit i himmelrik ei borg, en tradisjonell norsk folkesalme, er en inderlig og oppløftende sang om tro og håp.",
-      "Dens vakre melodi og poetiske tekster skaper en følelse av komfort og trygghet. Sangen snakker om en himmelsk festning og de gledelige gjensynene som venter i etterlivet.",
+      "Dens vakre melodi og poetiske tekst skaper en følelse av komfort og trygghet. Sangen snakker om en himmelsk festning og de gledelige gjensynene som venter i etterlivet.",
       "Eg veit i himmelrik ei borg fanger essensen av norske folketradisjoner og fremkaller en følelse av åndelig trøst."
     ],
     "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Eg_veit_i_himmelrik_ei_borg_desktop_uxeg9i.webp",
@@ -281,8 +281,8 @@
     "video": false,
     "description": [
       "Ein fin liten blome, komponert av Bjørn Eidsvåg, er en sjarmerende norsk poplåt som hyller livets skjønnhet og skjørhet.",
-      "Med sin fengende melodi og inderlige tekster formidler sangen et budskap om takknemlighet for de små gledene og dyrebare øyeblikkene i livet.",
-      "Ein fin liten blome innkapsler Eidsvågs talent for å fange dype følelser gjennom musikken hans."
+      "Med sin fengende melodi og inderlige tekst formidler sangen et budskap om takknemlighet for de små gledene og dyrebare øyeblikkene i livet.",
+      "Ein fin liten blome innkapsler Eidsvågs talent for å fange dype følelser gjennom musikken."
     ],
     "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Ein_fin_liten_blome_desktop_yxjc9r.webp",
     "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Ein_fin_liten_blome_mobile_isn0e6.webp"
@@ -298,7 +298,7 @@
     "video": false,
     "description": [
       "Fall til ro, komponert av William Carter, er en vakker klassisk vuggevise som utstråler en følelse av ro og stillhet.",
-      "Dens beroligende melodi og milde tekster skaper en fredelig atmosfære, perfekt for å berolige rastløse sjeler og bringe trøst.",
+      "Dens beroligende melodi og milde tekst skaper en fredelig atmosfære, perfekt for å berolige rastløse sjeler og bringe trøst.",
       "Fall til ro inviterer lyttere til å finne trøst i dens rolige omfavnelse, og gir et øyeblikk med pusterom og ro."
     ],
     "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Fall_til_ro_desktop_lcnpar.webp",
@@ -315,7 +315,7 @@
     "video": false,
     "description": [
       "Hymne, komponert av Nils Larsen, er en ærbødig og oppløftende salme som inspirerer til andakt og åndelig refleksjon.",
-      "Med sine kraftige korharmonier og inderlige tekster tilbyr sangen et kollektivt uttrykk for tro, enhet og lovprisning.",
+      "Med sine kraftige korharmonier og inderlige tekst tilbyr sangen et kollektivt uttrykk for tro, enhet og lovprisning.",
       "Hymne bærer på en følelse av ærbødighet og ærefrykt, og inviterer lyttere til å koble seg til deres åndelige tro og finne trøst i det guddommelige."
     ],
     "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Hymne_desktop_jeblyr.webp",
@@ -349,7 +349,7 @@
     "video": false,
     "description": [
       "Kom nära mej, komponert av Lennart Jakobsson, er en fengslende svensk poplåt som uttrykker et ønske om nærhet og tilknytning.",
-      "Med sin fengende melodi og inderlige tekster formidler sangen en lengsel etter intimitet og følelsesmessige bånd.",
+      "Med sin fengende melodi og inderlige tekst formidler sangen en lengsel etter intimitet og følelsesmessige bånd.",
       "Kom nära mej fanger essensen av menneskelig forbindelse og lengselen etter dypere relasjoner."
     ],
     "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Kom_na%CC%88ra_mej_desktop_wop3ho.webp",
@@ -366,7 +366,7 @@
     "video": false,
     "description": [
       "Ledestjernen, komponert av Borghild Thorsen, er en fengslende salme som veileder og inspirerer.",
-      "Med sin oppløftende melodi og åndelige tekster fungerer sangen som et fyrtårn av lys og håp.",
+      "Med sin oppløftende melodi og åndelige tekst fungerer sangen som et fyrtårn av lys og håp.",
       "Ledestjernen symboliserer den guddommelige veiledningen og retningen som lyser opp livets vei, og tilbyr trøst og trøst til de som søker den."
     ],
     "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Ledestjernen_desktop_fpiak7.webp",
@@ -383,7 +383,7 @@
     "video": false,
     "description": [
       "Lær meg å kjenne dine veier, komponert av Jakob Paulli, er en dyp salme som uttrykker et ønske om å kjenne og følge Guds veier.",
-      "Med sin ærbødige melodi og kontemplative tekster søker sangen åndelig veiledning og visdom.",
+      "Med sin ærbødige melodi og kontemplative tekst søker sangen åndelig veiledning og visdom.",
       "Lær meg å kjenne dine veier inviterer lyttere til å utdype sin forbindelse med det guddommelige og tilpasse sine liv etter Guds lære."
     ],
     "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/L%C3%A6r_meg_a%CC%8A_kjenne_dine_veier_desktop_fsuemc.webp",
@@ -400,7 +400,7 @@
     "video": false,
     "description": [
       "Kyrie, komponert av Bjørn Eidsvåg, er en sjelfull og introspektiv poplåt som bærer et budskap om ydmykhet og å søke tilgivelse.",
-      "Med sin emosjonelle melodi og inderlige tekster uttrykker sangen en bønn om nåde og nåde.",
+      "Med sin emosjonelle melodi og inderlige tekst uttrykker sangen en bønn om nåde.",
       "Kyrie resonerer med lyttere, og fremkaller en følelse av introspeksjon og refleksjon over våre egne feil og behovet for medfølelse."
     ],
     "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Kyrie_desktop_cnayyj.webp",
@@ -417,7 +417,7 @@
     "video": false,
     "description": [
       "My Tribute, komponert av Andraé Crouch, er en kraftfull gospelsang som uttrykker takknemlighet og lovprisning til Gud.",
-      "Med sin oppløftende melodi og inderlige tekster fungerer sangen som et inderlig uttrykk for takksigelse og tilbedelse.",
+      "Med sin oppløftende melodi og inderlige tekst fungerer sangen som et uttrykk for takksigelse og tilbedelse.",
       "My Tribute gir gjenklang hos lytterne, minner dem om velsignelsene som er mottatt og inspirerer en ånd av tilbedelse og ærbødighet."
     ],
     "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/My_Tribute_desktop_yeon0j.webp",
@@ -434,7 +434,7 @@
     "video": false,
     "description": [
       "Må din vei komme deg i møte, komponert av Hans-Olav Mørk, er en inderlig salme som gir en velsignelse og bønn om veiledning.",
-      "Med sin milde melodi og oppriktige tekster tilbyr sangen oppmuntring og støtte på livets reise.",
+      "Med sin milde melodi og oppriktige tekst tilbyr sangen oppmuntring og støtte på livets reise.",
       "Må din vei komme deg i møte omfavner troen på guddommelig forsyn, og påkaller en følelse av fred og trygghet."
     ],
     "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Ma%CC%8A_din_vei_komme_deg_i_m%C3%B8te_desktop_eyqnht.webp",
@@ -451,7 +451,7 @@
     "video": false,
     "description": [
       "Nordnorsk julesalme, komponert av Trygve Hoff, er en vakker salme som fanger essensen av julen i nordområdene i Norge.",
-      "Med sin melodiske sjarm og stemningsfulle tekster tegner sangen et levende bilde av det rolige vinterlandskapet og den gledelige feiringen av Jesu fødsel.",
+      "Med sin melodiske sjarm og stemningsfulle tekst tegner sangen et levende bilde av det rolige vinterlandskapet og den gledelige feiringen av Jesu fødsel.",
       "Nordnorsk julesalme fremkaller en følelse av varme, nostalgi og kulturarv."
     ],
     "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Nordnorsk_julesalme_desktop_hvyynh.webp",
@@ -468,7 +468,7 @@
     "video": false,
     "description": [
       "O store Gud, også kjent som ‘How Great Thou Art’, er en elsket salme som uttrykker ærefrykt og tilbedelse for storheten i Guds skaperverk.",
-      "Med sin majestetiske melodi og dype tekster, feirer sangen naturens skjønnhet og underverkene til Guds håndverk.",
+      "Med sin majestetiske melodi og dype tekst, feirer sangen naturens skjønnhet og underverkene til Guds håndverk.",
       "O store Gud inspirerer ærbødighet og takknemlighet, og minner lytterne om den guddommelige tilstedeværelsen og Skaperens storhet."
     ],
     "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/O_store_Gud_desktop_t2rrcv.webp",
@@ -485,7 +485,7 @@
     "video": false,
     "description": [
       "Panis Angelicus, komponert av César Franck, er et sublimt hellig stykke som skildrer nattverdens åndelige betydning.",
-      "Med sine skyhøye melodier og dype tekster, innkapsler sangen en følelse av ærbødighet og hengivenhet.",
+      "Med sine skyhøye melodier og dype tekst, innkapsler sangen en følelse av ærbødighet og hengivenhet.",
       "Panis Angelicus fengsler lytterne med sin delikate skjønnhet og fremkaller en følelse av guddommelig tilstedeværelse og fryktinngytende tilbedelse."
     ],
     "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Pie_Jesu_Gabriel_Faure%CC%81_desktop_oimndl.webp",
@@ -502,7 +502,7 @@
     "video": false,
     "description": [
       "Pie Jesu, komponert av Andrew Lloyd Webber, er et fremstående stykke fra hans ikoniske musikal ‘Requiem’.",
-      "Med sine skyhøye melodier og inderlige tekster utforsker sangen temaer som tro, forløsning og evig hvile.",
+      "Med sine skyhøye melodier og inderlige tekst utforsker sangen temaer som tro, forløsning og evig hvile.",
       "Pie Jesu viser frem det emosjonelle spekteret til utøveren og fengsler publikum med sin dramatiske og gripende levering."
     ],
     "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Pie_Jesu_Andrew_Lloyd_Webber_desktop_zfx6ug.webp",
@@ -519,7 +519,7 @@
     "video": false,
     "description": [
       "Pie Jesu, komponert av Gabriel Fauré, er et uhyggelig vakkert og dypt følelsesladet stykke fra hans Requiem.",
-      "Med sine ømme melodier og gripende tekster reflekterer sangen over barmhjertigheten og freden som søkes gjennom Jesu forbønn.",
+      "Med sine ømme melodier og gripende tekst reflekterer sangen over barmhjertigheten og freden som søkes gjennom Jesu forbønn.",
       "Pie Jesu er en inderlig bønn, som påkaller en følelse av trøst, trøst og åndelig kontemplasjon."
     ],
     "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Panis_Angelicus_desktop_urj72r.webp",
@@ -536,7 +536,7 @@
     "video": false,
     "description": [
       "Pie Jesu, komponert av John Rutter, er et gripende og kontemplativt stykke fra hans Requiem.",
-      "Med sine milde melodier og ømme tekster søker sangen trøst og nåde gjennom Jesu forbønn.",
+      "Med sine milde melodier og ømme tekst søker sangen trøst og nåde gjennom Jesu forbønn.",
       "Pie Jesu fremkaller en følelse av fred, ro og åndelig refleksjon, og inviterer lyttere til å finne trøst og helbredelse i tider med sorg."
     ],
     "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Pie_Jesu_John_Rutter_desktop_aomhiy.webp",
@@ -553,7 +553,7 @@
     "video": false,
     "description": [
       "En svane, komponert av Edvard Grieg, er en lyrisk og stemningsfull kunstsang.",
-      "Med sine delikate melodier og poetiske tekster, skildrer sangen den grasiøse og rolige naturen til en svane som glir over vannet.",
+      "Med sine delikate melodier og poetiske tekst, skildrer sangen den grasiøse og rolige bevegelsene til en svane som glir over vannet.",
       "En svane fanger skjønnheten i den naturlige verden og inviterer lyttere til å oppleve et øyeblikk av ro og refleksjon."
     ],
     "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/En_svane_desktop_dckp1g.webp",
