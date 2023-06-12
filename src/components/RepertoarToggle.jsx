@@ -143,6 +143,8 @@ export function RepertoarToggle() {
                   <option value="Irsk">Irsk</option>
                   <option value="Kjærlighetssang">Kjærlighetssang</option>
                   <option value="Musikal">Musikal</option>
+                  <option value="Kunstsang">Kunstsang</option>
+                  <option value="Aria">Aria</option>
                 </select>
               </div>
               <div>

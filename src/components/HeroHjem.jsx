@@ -61,7 +61,7 @@ export function HeroHjem() {
                 Repertoar
               </Link>
               <Link
-                href="/artister"
+                href="#artister"
                 className="text-sm font-semibold leading-6 transition-all duration-150 ease-in-out text-slate-600 hover:text-slate-700"
               >
                 Artister <span aria-hidden="true">→</span>

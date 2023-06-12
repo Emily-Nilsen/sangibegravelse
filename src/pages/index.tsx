@@ -2,6 +2,7 @@ import Head from 'next/head';
 
 import { HeroHjem } from '@/components/HeroHjem';
 import { RepertoarPreview } from '@/components/RepertoarPreview';
+import { ArtistsPreview } from '@/components/ArtistsPreview';
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
         <main>
           <HeroHjem />
           <RepertoarPreview />
+          <ArtistsPreview />
         </main>
       </div>
     </>

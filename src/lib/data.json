@@ -114,8 +114,8 @@
       "Sangen er et gripende farvel, og uttrykker følelser av avskjed, lengsel og erindring.",
       "Dens rørende tekst og emosjonelle melodi skaper en kraftig hyllest til sine kjære og fremkaller en følelse av refleksjon og bittersøt farvel."
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Adieu_-_Desktop_nv5ac7.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Adieu_-_Mobile_hkcbyo.webp"
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Adieu_2_desktop_i5cbca.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Adieu_2_mobile_svdajt.webp"
   },
   {
     "objectID": "8",
@@ -558,5 +558,174 @@
     ],
     "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/En_svane_desktop_dckp1g.webp",
     "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/En_svane_mobile_my6tgd.webp"
+  },
+  {
+    "objectID": "34",
+    "category": "Klassisk",
+    "subcategory": ["Kunstsang"],
+    "title": "I skjærgårdsø",
+    "arrangement": ["solo"],
+    "composer": "Gustav Lange Sommerfeldt",
+    "recommended": false,
+    "video": false,
+    "description": [
+      "I skjærgårdsø, komponert av Gustav Lange Sommerfeldt, er en fengslende kunstsang som skildrer skjønnheten og roen til en øy i skjærgården.",
+      "Med sin melodiske sjarm og stemningsfulle tekster, transporterer sangen lytterne til et fredelig kystlandskap, og fanger essensen av naturens ro og den idylliske atmosfæren i øylivet."
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/I_skj%C3%A6rga%CC%8Ards%C3%B8_desktop_abnyzi.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/I_skj%C3%A6rga%CC%8Ards%C3%B8_mobile_qeddow.webp"
+  },
+  {
+    "objectID": "35",
+    "category": "Klassisk",
+    "subcategory": ["Kunstsang", "Nordisk"],
+    "title": "Jeg elsker deg",
+    "arrangement": ["solo"],
+    "composer": "Edvard Grieg",
+    "recommended": false,
+    "video": false,
+    "description": [
+      "Jeg elsker deg, komponert av Edvard Grieg, er en lidenskapelig og inderlig kunstsang.",
+      "Med sine ømme melodier og uttrykksfulle tekst formidler sangen dybden av kjærlighet og hengivenhet.",
+      "Jeg elsker deg fanger de intense følelsene og lengselen knyttet til å være forelsket, og viser frem Griegs gave til å veve vakre melodier med poetiske følelser."
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Jeg_elsker_deg_desktop_k2lnog.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Jeg_elsker_deg_mobile_jkexqj.webp"
+  },
+  {
+    "objectID": "36",
+    "category": "Klassisk",
+    "subcategory": ["Kunstsang"],
+    "title": "Litanei",
+    "arrangement": ["solo"],
+    "composer": "Franz Schubert",
+    "recommended": false,
+    "video": false,
+    "description": [
+      "Litanei, komponert av Franz Schubert, er en gripende og introspektiv kunstsang.",
+      "Med sine hjemsøkende melodier og introspektive tekst går sangen inn i temaer som lengsel, ensomhet og refleksjon.",
+      "Litanei fanger en følelse av melankoli og lengsel, og inviterer lyttere til å dykke ned i dybden av følelsene deres og tenke på den menneskelige opplevelsen."
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Litanei_desktop_xxtlja.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Litanei_mobile_jcmkbk.webp"
+  },
+  {
+    "objectID": "37",
+    "category": "Klassisk",
+    "subcategory": ["Kunstsang"],
+    "title": "Maria Wiegenlied",
+    "arrangement": ["solo"],
+    "composer": "Max Reger",
+    "recommended": false,
+    "video": false,
+    "description": [
+      "Maria Wiegenlied, komponert av Max Reger, er en øm og mild kunstsang.",
+      "Med sine beroligende melodier og tekst, skildrer sangen den fredelige scenen der Maria vugger Jesusbarnet sitt og synger en vuggevise.",
+      "Maria Wiegenlied fanger den mors kjærlighet, varmen og roen knyttet til fødselshistorien, og skaper en rolig og trøstende atmosfære."
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Maria_Wiegenlied_desktop_q3ywei.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Maria_Wiegenlied_mobile_yscnmm.webp"
+  },
+  {
+    "objectID": "38",
+    "category": "Klassisk",
+    "subcategory": ["Kunstsang", "Nordisk"],
+    "title": "Mot kveld",
+    "arrangement": ["solo"],
+    "composer": "Agathe Backer Grøndahl",
+    "recommended": false,
+    "video": false,
+    "description": [
+      "Mot kveld, komponert av Agathe Backer Grøndahl, er en kontemplativ og stemningsfull kunstsang.",
+      "Med sine milde melodier og poetiske tekst, fanger sangen overgangen fra dag til natt, og inviterer lytterne til å reflektere over skjønnheten og stillheten i kveldstimene.",
+      "Mot kveld fremkaller en følelse av fred og introspeksjon, og skaper en rolig og meditativ musikalsk opplevelse."
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Mot_kvelden_desktop_z5fqob.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Mot_kvelden_mobile_kn4pdw.webp"
+  },
+  {
+    "objectID": "39",
+    "category": "Klassisk",
+    "subcategory": ["Kunstsang"],
+    "title": "Morgen",
+    "arrangement": ["solo"],
+    "composer": "Richard Strauss",
+    "recommended": false,
+    "video": false,
+    "description": [
+      "Morgen, komponert av Richard Strauss, er en lyrisk og romantisk kunstsang. Med sine skyhøye melodier og ømme tekst, feirer sangen skjønnheten og stillheten til en ny dag.",
+      "Morgen fanger morgenens fortryllende atmosfære, og fremkaller følelser av håp, kjærlighet og løftet om en lys fremtid.",
+      "De melodiske linjene og frodige harmoniene skaper en oppløftende og inderlig musikalsk opplevelse."
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Morgen_desktop_rk3cjn.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Morgen_mobile_wmvve0.webp"
+  },
+  {
+    "objectID": "40",
+    "category": "Klassisk",
+    "subcategory": ["Kunstsang", "Nordisk"],
+    "title": "När jag för mig själv",
+    "arrangement": ["solo"],
+    "composer": "Wilhelm Peterson-Berger",
+    "recommended": false,
+    "video": false,
+    "description": [
+      "När jag för mig själv, komponert av Wilhelm Peterson-Berger, er en reflekterende og introspektiv kunstsang. Med sin melodiske enkelhet og inderlige tekst utforsker sangen de indre tankene og følelsene til ensomhet.",
+      "När jag för mig själv fanger den kontemplative stemningen av å være alene, og inviterer lyttere til å fordype seg i sin egen introspeksjon og selvrefleksjon.",
+      "De milde melodiene og stemningsfulle harmoniene skaper en følelse av introspektiv skjønnhet."
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Na%CC%88r_jag_fo%CC%88r_mig_sja%CC%88lv_desktop_sd8bjp.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Na%CC%88r_jag_fo%CC%88r_mig_sja%CC%88lv_mobile_zt7vem.webp"
+  },
+  {
+    "objectID": "41",
+    "category": "Klassisk",
+    "subcategory": ["Kunstsang", "Italiensk"],
+    "title": "O del mio amato ben",
+    "arrangement": ["solo"],
+    "composer": "Stefano Donaudy",
+    "recommended": false,
+    "video": false,
+    "description": [
+      "O del mio amato ben, komponert av Stefano Donaudy, er en lidenskapelig og uttrykksfull kunstsang.",
+      "Med sine vakre melodier og følelsesmessige dybde, uttrykker sangen lengselen og hengivenheten til en elsker. O del mio amato ben viser intensiteten av kjærlighet og lengselen etter den elskede, og skaper en fengslende og inderlig musikalsk opplevelse.",
+      "De høye vokallinjene og følelsesmessige harmoniene formidler dybden av følelsene som skildres i sangen."
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/O_del_mio_amato_ben_desktop_aiyicw.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/O_del_mio_amato_ben_mobile_j1phml.webp"
+  },
+  {
+    "objectID": "42",
+    "category": "Klassisk",
+    "subcategory": ["Kunstsang", "Aria", "Opera"],
+    "title": "Ombra mai fu",
+    "arrangement": ["solo"],
+    "composer": "George Frideric Handel",
+    "recommended": false,
+    "video": false,
+    "description": [
+      "Ombra mai fu, komponert av George Frideric Handel, er en utsøkt arie fra operaen «Serse». Med sine elegante og lyriske melodier hyller sangen skjønnheten til et platantre.",
+      "Ombra mai fu er kjent for sin rolige og ømme karakter, og uttrykker beundring og ærbødighet for naturen.",
+      "De delikate vokallinjene og den milde orkestreringen skaper en rolig og fengslende musikalsk atmosfære."
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Ombra_mai_fu_desktop_a121gi.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Ombra_mai_fu_mobile_mhy0m9.webp"
+  },
+  {
+    "objectID": "43",
+    "category": "Klassisk",
+    "subcategory": ["Kunstsang"],
+    "title": "Saa tag mit hjerte",
+    "arrangement": ["solo"],
+    "composer": "Hugo Alven",
+    "recommended": false,
+    "video": false,
+    "description": [
+      "Saa tag mit hjerte, komponert av Hugo Alven, er en inderlig og øm kunstsang. Sangen snakker om å overgi hjertet til kjærligheten med sine uttrykksfulle melodier og emosjonelle tekst.",
+      "Saa tag mit hjerte fanger sårbarheten og lengselen etter å åpne seg for kjærligheten, og skaper en gripende og intim musikalsk opplevelse.",
+      "De delikate vokallinjene og emosjonelle harmoniene formidler dybden av følelsene som skildres i sangen."
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Saa_tag_mit_hjerte_desktop_fpfoup.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Saa_tag_mit_hjerte_mobile_aanvgx.webp"
   }
 ]

@@ -48,8 +48,6 @@ export function RepertoarPreview() {
                 Sanger som gir trøst og mening
               </h1>
               <p className="mt-6 text-lg leading-8 text-gray-600">
-                {/* Vår side er utviklet som et bidrag til pårørende for å finne og
-                velge riktig musikk til begravelser.  */}
                 Vi har nøye kuratert en mangfoldig samling av særlig egnede
                 salmer, viser, klassiske stykker, popsanger og mer.
               </p>
