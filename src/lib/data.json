@@ -714,7 +714,7 @@
   {
     "objectID": "43",
     "category": "Klassisk",
-    "subcategory": ["Kunstsang"],
+    "subcategory": ["Kunstsang", "Nordisk"],
     "title": "Saa tag mit hjerte",
     "arrangement": ["solo"],
     "composer": "Hugo Alven",
@@ -727,5 +727,39 @@
     ],
     "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Saa_tag_mit_hjerte_desktop_fpfoup.webp",
     "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Saa_tag_mit_hjerte_mobile_aanvgx.webp"
+  },
+  {
+    "objectID": "44",
+    "category": "Klassisk",
+    "subcategory": ["Kunstsang", "Nordisk"],
+    "title": "Skogen sover",
+    "arrangement": ["solo"],
+    "composer": "Hugo Alven",
+    "recommended": false,
+    "video": false,
+    "description": [
+      "Skogen sover, komponert av Hugo Alven, er en fengslende kunstsang som skildrer en sovende skogs rolige og mystiske atmosfære.",
+      "Med sine stemningsfulle melodier og delikate harmonier inviterer sangen lyttere til å fordype seg i naturens fred og skjønnhet.",
+      "Skogen sover fanger essensen av en stille skog, og skaper en følelse av ro og fortryllelse gjennom sin lyriske og atmosfæriske komposisjon."
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Skogen_sover_desktop_wans83.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Skogen_sover_mobile_w6ovul.webp"
+  },
+  {
+    "objectID": "45",
+    "category": "Klassisk",
+    "subcategory": ["Kunstsang", "Nordisk"],
+    "title": "Songs My Mother Taught Me",
+    "arrangement": ["solo"],
+    "composer": "Antonín Dvořák",
+    "recommended": true,
+    "video": false,
+    "description": [
+      "Songs My Mother Taught Me, komponert av Antonín Dvořák, er en inderlig og nostalgisk kunstsang.",
+      "Med sine gripende melodier og reflekterende tekst minner sangen om sangene og leksjonene som er gått i arv fra en mor til hennes barn. Songs My Mother Taught Me fanger essensen av kjære minner og den varige innflytelsen fra en mors kjærlighet.",
+      "De milde vokallinjene og ømme harmoniene fremkaller en følelse av sentimentalitet og følelsesmessig tilknytning."
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Songs_my_mother_taught_me_desktop_d0byax.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Songs_my_mother_taught_me_mobile_oszbnl.webp"
   }
 ]
