@@ -110,8 +110,8 @@ export function Susanne() {
             </ul> */}
             <p className="mt-8">
               Hun har imponert publikum med sine bemerkelsesverdige prestasjoner
-              i roller som "Le nozze di Figaro", "Die Fledermaus", "Die
-              Zauberflöte" og "The Rape of Lucretia" i populære
+              i roller som ‘Le nozze di Figaro’, ‘Die Fledermaus’, ‘Die
+              Zauberflöte’ og ‘The Rape of Lucretia’ i populære
               operaproduksjoner. Susanne debuterte i 2003 med Det Norske
               Jentekor på Operaen i Montpellier i Frankrike.
             </p>
