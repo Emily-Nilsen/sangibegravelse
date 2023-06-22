@@ -10,7 +10,7 @@ export default function NilsGeorgNilsen() {
         <title>Tenor Nils Georg Nilsen</title>
         <meta
           name="description"
-          content="En talentfull sopran med en fortryllende stemme og allsidig repertoar fra pop til opera."
+          content="Allsidig tenor med imponerende prestasjoner og et omfattende operarepertoar."
         />
         <link
           rel="canonical"

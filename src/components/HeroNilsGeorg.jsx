@@ -42,8 +42,8 @@ export function HeroNilsGeorg() {
             </h6>
 
             <p className="hidden px-10 mx-auto mt-6 leading-8 text-gray-600 max-w-[100px] sm:px-0 sm:max-w-lg sm:text-lg lg:max-w-xl sm:mx-0 sm:block ">
-              En talentfull sopran med en fortryllende stemme og allsidig
-              repertoar fra pop til opera.
+              Allsidig tenor med imponerende prestasjoner og et omfattende
+              operarepertoar.
             </p>
 
             <div className="flex items-center justify-center mt-10 sm:justify-start gap-x-6">

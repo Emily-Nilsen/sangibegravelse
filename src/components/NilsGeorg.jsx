@@ -25,14 +25,14 @@ export function NilsGeorg() {
       <div className="px-6 mx-auto max-w-7xl lg:px-8">
         <div className="max-w-2xl mx-auto lg:mx-0">
           <p className="text-lg font-semibold leading-8 tracking-tight text-slate-600">
-            Tenor
+            Tenoren
           </p>
           <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
             Nils Georg Nilsen
           </h1>
           <p className="mt-6 text-xl leading-8 text-gray-700">
-            Susanne Hvinden Hals er en talentfull og allsidig sopran fra Oslo
-            med en fortryllende, svevende stemme.
+            Tenoren Nils Georg Nilsen er en imponerende artist med en mangfoldig
+            karriere.
           </p>
         </div>
         <div className="grid max-w-2xl grid-cols-1 mx-auto mt-16 gap-x-8 gap-y-16 lg:mx-0 lg:mt-10 lg:max-w-none lg:grid-cols-12">
@@ -40,9 +40,8 @@ export function NilsGeorg() {
             <figure className="pl-8 border-l border-slate-600">
               <blockquote className="text-xl font-semibold leading-8 tracking-tight text-gray-900">
                 <p>
-                  “Susanne har et dejligt stemmemateriale og en fin musikalitet
-                  og besidder derudover et meget stort dramatsik potentiale.
-                  Hendes sceniske sans for timing er veludviklet og natrulig.”
+                  “He possesses an attractive, lyrical tenor voice, with an
+                  exceptional clarity, and distinct and expressive timbre.”
                 </p>
               </blockquote>
               <figcaption className="flex mt-8 gap-x-4">
@@ -52,9 +51,9 @@ export function NilsGeorg() {
                   className="flex-none w-10 h-10 mt-1 rounded-full bg-gray-50"
                 /> */}
                 <div className="text-sm leading-6">
-                  <div className="font-semibold text-gray-900">Idil Alpsøy</div>
+                  <div className="font-semibold text-gray-900">John Lidal</div>
                   <div className="text-gray-600">
-                    Operasangerinne, København
+                    Den Norske Opera & Ballett, Oslo
                   </div>
                 </div>
               </figcaption>
@@ -62,36 +61,37 @@ export function NilsGeorg() {
           </div>
           <div className="max-w-xl text-base leading-7 text-gray-700 lg:col-span-7">
             <p>
-              Hun har en omfattende musikalsk repertoar som spenner fra
-              popmusikk til opera. Susanne fullførte sin mastergrad i musikk ved
-              Det Kongelige Danske Musikkonservatorium i København.
+              Etter å ha fullført sin mastergrad ved Manhattan School of Music
+              debuterte han ved Lincoln Center i New York. Han har nylig
+              opptrådt som solist med Chicago Symphony Orchestra og har sunget
+              med den israelske operaen. Nils Georg har deltatt på festivaler og
+              konserter både i Norge og internasjonalt, inkludert Málaga
+              Clásica. Han er også professor i sang ved Galamian Academy of
+              Classical Music i Málaga, Spania.
             </p>
 
             <p className="mt-8">
-              Hun har imponert publikum med sine bemerkelsesverdige prestasjoner
-              i roller som ‘Le nozze di Figaro’, ‘Die Fledermaus’, ‘Die
-              Zauberflöte’ og ‘The Rape of Lucretia’ i populære
-              operaproduksjoner. Susanne debuterte i 2003 med Det Norske
-              Jentekor på Operaen i Montpellier i Frankrike.
+              Nils Georg utmerker seg innenfor flere sjangre og har et
+              omfattende operarepertoar, inkludert roller som Elvino, Tito,
+              Aumônier, Rinucco, Tinca, Tom Rakewell og Torquemada. Han har også
+              imponert som oratoriesolist i verk som Carmina Burana, Messa di
+              Gloria, Händels Messias, Mozarts Requiem, Christus Mendelssohn og
+              Bachs juleoratorium.
             </p>
 
             <p className="mt-6">
-              Susanne er høyt ettertraktet som sopran i Norge på grunn av sine
-              faglige sangferdigheter. Hun har samarbeidet med ulike orkestre i
-              fremførelser av oratorier og har opptrådt på nasjonale og
-              internasjonale festivaler og konserter, inkludert Málaga Clásica i
-              Spania. Med sin lidenskap for musikk og en imponerende stemme
-              fortsetter Susanne Hvinden Hals å fortrylle publikum over hele
-              verden.
+              I tillegg har Nils Georg samarbeidet med dansekompaniet Dances
+              Patrelle og opptrådt i New Yorks Gilbert og Sullivan Ballet i tre
+              påfølgende år.
             </p>
             <div className="my-6">
               <Link
-                href="https://www.susannehals.com/"
+                href="https://www.nilsnilsentenor.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-sm font-semibold leading-6 transition-all duration-150 ease-in-out text-slate-600 hover:text-slate-950"
               >
-                susannehals.com <span aria-hidden="true">→</span>
+                nilsnilsentenor.com <span aria-hidden="true">→</span>
               </Link>
             </div>
           </div>
