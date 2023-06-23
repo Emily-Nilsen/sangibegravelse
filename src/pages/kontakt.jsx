@@ -195,7 +195,10 @@ export default function Kontakt() {
               </div>
               <Switch.Label className="text-sm leading-6 text-gray-600">
                 Ved å velge dette godtar du vår{' '}
-                <Link href="#" className="font-semibold text-slate-600">
+                <Link
+                  href="/personvernerklaering"
+                  className="font-semibold text-slate-600"
+                >
                   personvernerklæring
                 </Link>
                 .
