@@ -54,12 +54,12 @@ export function HeroNilsGeorg() {
                 <span className="hidden sm:block">Se hele repertoaret</span>
                 <span className="sm:hidden">Repertoar</span>
               </Link>
-              {/* <Link
-                href="#artister"
-                className="text-sm font-semibold leading-6 transition-all duration-150 ease-in-out text-slate-600 hover:text-slate-700"
+              <Link
+                href="/#artister"
+                className="hidden text-sm font-semibold leading-6 transition-all duration-150 ease-in-out text-slate-600 hover:text-slate-700 sm:block"
               >
-                Artister <span aria-hidden="true">→</span>
-              </Link> */}
+                Tilbake til artister <span aria-hidden="true">→</span>
+              </Link>
             </div>
           </div>
         </div>
