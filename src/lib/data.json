@@ -920,7 +920,7 @@
     "category": "Pop",
     "subcategory": ["Nordisk", "Viser"],
     "title": "Barn av regnbuen",
-    "arrangement": ["solo", "duett"],
+    "arrangement": ["solo", "duet"],
     "composer": "Pete Seeger / Lillebjørn Nilsen",
     "recommended": false,
     "video": false,
@@ -1101,5 +1101,209 @@
     ],
     "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Det_hainnle_om_a%CC%8A_leve_vpxcdn.webp",
     "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Det_hainnle_om_a%CC%8A_leve_mobile_ylnjly.webp"
+  },
+  {
+    "objectID": "66",
+    "category": "Viser",
+    "subcategory": ["Nordisk", "Pop"],
+    "title": "Det vakreste som fins",
+    "arrangement": ["solo"],
+    "composer": "Anita Skorgan / Svein Dag Hauge",
+    "recommended": true,
+    "video": false,
+    "description": [
+      "Det vakreste som fins, fremført av Jahn Teigen, er en inderlig poplåt som hyller kjærlighetens skjønnhet og den dype forbindelsen mellom to sjeler. Med sine emosjonelle tekst og ømme melodier, uttrykker sangen dybden av følelser og kjærlighetens transformerende kraft.",
+      "Det vakreste som fins fanger essensen av å finne skjønnhet i de enkleste øyeblikkene og verne om nærværet til en kjær.",
+      "Teigens sjelfulle vokal og melodiske arrangement skaper en intim og emosjonell atmosfære, som inviterer lytterne til å fordype seg i kjærlighetens skjønnhet og under."
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Det_vakreste_som_finnes_dvotuf.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Det_vakreste_som_finnes_mobile_wda4lw.webp"
+  },
+  {
+    "objectID": "67",
+    "category": "Viser",
+    "subcategory": ["Nordisk", "Pop"],
+    "title": "Du är den ende",
+    "arrangement": ["solo", "duet"],
+    "composer": "Maritza Gomez / Anders Zetterlind / Monica Petterson",
+    "recommended": false,
+    "video": false,
+    "description": [
+      "Du är den ende, med tekster av Maritza Gomez og musikk av Anders Zetterlind og Monica Petterson, er en inderlig popballade som hyller det unike og uerstattelige båndet mellom to individer.",
+      "Med sine rørende tekst og emosjonelle melodier, uttrykker sangen dybden av kjærlighet og den dype forbindelsen de to sjelene deler. Du är den ende fanger essensen av å finne trøst, fullstendighet og lykke i nærvær av en spesiell person.",
+      "Den emosjonelle vokalen og det melodiske arrangementet skaper en øm og intim atmosfære, som inviterer lytterne til å verne om og holde personen som holder deres hjerte kjært."
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Du_a%CC%88r_den_ende_x08zwh.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Du_a%CC%88r_den_ende_mobile_fskdre.webp"
+  },
+  {
+    "objectID": "68",
+    "category": "Viser",
+    "subcategory": ["Nordisk", "Pop"],
+    "title": "Ei hand å holde I",
+    "arrangement": ["solo", "duet"],
+    "composer": "Svein Gundersen",
+    "recommended": false,
+    "video": false,
+    "description": [
+      "Ei hand å holde I, komponert av Svein Gundersen, er en rørende popballade som hyller komforten og støtten man finner i nærvær av en man er glad i.",
+      "Med sine inderlige tekst og emosjonelle melodier uttrykker sangen ønsket om selskap og styrken ved å ha noen å støtte seg på. Ei hand å holde I fanger essensen av å finne trøst og trygghet i omfavnelsen til en kjær partner.",
+      "Den sjelfulle vokalen og det melodiske arrangementet skaper en øm og inderlig atmosfære, og inviterer lyttere til å sette pris på varmen og kjærligheten som deles i selskap med en kjær."
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Ei_hand_a%CC%8A_holde_I_trbjzw.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Ei_hand_a%CC%8A_holde_I_mobile_wgyvog.webp"
+  },
+  {
+    "objectID": "69",
+    "category": "Viser",
+    "subcategory": ["Nordisk", "Pop"],
+    "title": "Ein far",
+    "arrangement": ["solo", "duet"],
+    "composer": "Ole Paus Holand / Tomas Espedal / Sigvart Dagsland",
+    "recommended": false,
+    "video": false,
+    "description": [
+      "Ein far, med tekst av Ole Paus Holand og musikk av Tomas Espedal og Sigvart Dagsland, er ei inderleg popballade som hyller farsrollen i eit menneskes liv. Med sine rørende tekst og emosjonelle melodier uttrykker sangen takknemlighet og beundring for kjærligheten, veiledningen og støtten en farsfigur gir.",
+      "Ein far fanger essensen av det spesielle båndet mellom en forelder og et barn og den dype innvirkningen en far har for å forme en persons liv.",
+      "Den sjelfulle vokalen og det melodiske arrangementet skaper en emosjonell og sentimental atmosfære, som inviterer lytterne til å reflektere over en fars dype innflytelse og kjærlighet."
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Ein_far_n0akkm.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Ein_far_mobile_zshgpv.webp"
+  },
+  {
+    "objectID": "70",
+    "category": "Viser",
+    "subcategory": ["Nordisk", "Pop"],
+    "title": "Engler i sneen",
+    "arrangement": ["solo", "duet"],
+    "composer": "Jonas Fjeld",
+    "recommended": false,
+    "video": false,
+    "description": [
+      "Engler i sneen, komponert av Jonas Fjeld, er en rørende popballade som vekker en følelse av nostalgi og undring i høytiden. Med sine inderlige tekst og emosjonelle melodier fanger sangen vinterens magi og skjønnhet, og forestiller seg engler som leker i snøen.",
+      "Engler i sneen feirer barndommens glede og uskyld, fortryllelsen av vinterlandskap og troen på årstidens usynlige underverker.",
+      "Den sjelfulle vokalen og det melodiske arrangementet skaper en varm og sentimental atmosfære, og inviterer lytterne til å omfavne den fortryllende ånden av høytiden."
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Engler_i_sneen_sqprqe.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Engler_i_sneen_mobile_jx9z6q.webp"
+  },
+  {
+    "objectID": "71",
+    "category": "Viser",
+    "subcategory": ["Nordisk", "Pop"],
+    "title": "E du Nord",
+    "arrangement": ["solo"],
+    "composer": "Ola Bremnes",
+    "recommended": false,
+    "video": false,
+    "description": [
+      "Engler i sneen, komponert av Jonas Fjeld, er en rørende popballade som vekker en følelse av nostalgi og undring i høytiden. Med sine inderlige tekst og emosjonelle melodier fanger sangen vinterens magi og skjønnhet, og forestiller seg engler som leker i snøen.",
+      "Engler i sneen feirer barndommens glede og uskyld, fortryllelsen av vinterlandskap og troen på årstidens usynlige underverker.",
+      "Den sjelfulle vokalen og det melodiske arrangementet skaper en varm og sentimental atmosfære, og inviterer lytterne til å omfavne den fortryllende ånden av høytiden."
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/E_du_Nord_mcpbic.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/E_du_Nord_mobile_mmcdpr.webp"
+  },
+  {
+    "objectID": "72",
+    "category": "Viser",
+    "subcategory": ["Nordisk"],
+    "title": "Evig hvile",
+    "arrangement": ["solo"],
+    "composer": "Bjørn Eidsvåg",
+    "recommended": false,
+    "video": false,
+    "description": [
+      "Evig hvile, komponert av Bjørn Eidsvåg, er en gripende ballade som reflekterer over begrepet evig hvile og livet etter døden.",
+      "Med sin reflekterende tekst og melodiske komposisjon fordyper sangen seg inn i temaene dødelighet og lengselen etter fredelig og evig hvile. Evig hvile fanger essensen av å søke trøst i å finne hvile og ro utover dette livet.",
+      "Eidsvågs sjelfulle vokal og det emosjonelle musikalske arrangementet skaper en kontemplativ og inderlig atmosfære, som inviterer lytterne til å reflektere over livets mysterier og håpet om evig fred."
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Evig_hvile_k6wnpp.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Evig_hvile_mobile_tcnlzv.webp"
+  },
+  {
+    "objectID": "73",
+    "category": "Viser",
+    "subcategory": ["Nordisk", "Pop"],
+    "title": "For siste gang",
+    "arrangement": ["solo"],
+    "composer": "Anders Tveit",
+    "recommended": false,
+    "video": false,
+    "description": [
+      "For siste gjeng, komponert av Anders Tveit, er en inderlig popballade som snakker om å ta farvel eller si farvel for siste gang. Med sine emosjonelle tekst og ømme melodier, uttrykker sangen følelsene og kompleksiteten som følger med avskjedsveier.",
+      "For søstergjengen fanger essensen av avslutning, refleksjon og den gripende erkjennelsen av at dette kan være det siste farvel.",
+      "Tveits sjelfulle vokal og melodiske arrangement skaper en intim og emosjonell atmosfære, som inviterer lyttere til å koble seg til følelsen av å skilles og gå videre."
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/For_siste_gang_mx5tpv.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/For_siste_gang_mobile_uospfd.webp"
+  },
+  {
+    "objectID": "74",
+    "category": "Viser",
+    "subcategory": ["Nordisk", "Pop"],
+    "title": "Fordi jeg elsker deg",
+    "arrangement": ["solo", "duet"],
+    "composer": "Øystein Bratland / David Dyllan",
+    "recommended": true,
+    "video": false,
+    "description": [
+      "Fordi jeg elsker deg, komponert av Øystein Bratland og David Dyllan, er en rørende popballade som utforsker kjærlighetens dybde og kraft. Med sine inderlige tekst og emosjonelle melodier, uttrykker sangen de dype følelsene og dedikasjonen som følger med å elske noen dypt.",
+      "Fordi jeg elsker deg fanger essensen av hengivenhet, sårbarhet og viljen til å strekke seg langt for kjærligheten.",
+      "Den sjelfulle vokalen til Bratland og Dyllans harmonier, sammen med det melodiske arrangementet, skaper en intim og emosjonell atmosfære, som inviterer lyttere til å koble seg til den mektige og universelle følelsen av kjærlighet."
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Fordi_jeg_elsker_deg_pqs6s3.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Fordi_jeg_elsker_deg_mobile_sd6mbx.webp"
+  },
+  {
+    "objectID": "75",
+    "category": "Viser",
+    "subcategory": ["Nordisk"],
+    "title": "Gabriellas sång",
+    "arrangement": ["solo", "duet"],
+    "composer": "Stefan Nilsson",
+    "recommended": false,
+    "video": false,
+    "description": [
+      "Gabriellas sång, komponert av Stefan Nilsson, er en vakker ballade som formidler håp, spenst og å finne stemmen sin. Med sine gripende tekst og emosjonelle melodier, snakker sangen om reisen mot selvoppdagelse og styrkingen av å omfavne sitt sanne jeg.",
+      "Gabriellas sång fanger essensen av indre styrke, transformasjon og mot til å skinne til tross for motgang.",
+      "Den sjelfulle vokalen og det melodiske arrangementet skaper en oppløftende og inderlig atmosfære, og inviterer lyttere til å bli inspirert av Gabriellas reise med å finne stemmen sin og synge sangen hennes."
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Gabriellas_sa%CC%8Ang_t0pknu.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Gabriellas_sa%CC%8Ang_mobile_wrvebt.webp"
+  },
+  {
+    "objectID": "76",
+    "category": "Viser",
+    "subcategory": ["Nordisk"],
+    "title": "Gje meg handa di ven",
+    "arrangement": ["solo", "duet"],
+    "composer": "Sondre Bratland",
+    "recommended": false,
+    "video": false,
+    "description": [
+      "Gje meg handa di ven, en tradisjonell norsk folkesang, er en inderlig ballade som hyller vennskapsbåndet og samholdet mellom mennesker. Med sin sjelberørende tekst og melodiøse komposisjon, snakker sangen om å strekke ut en hånd i vennskap og støtte.",
+      "Gje meg handa di ven fanger essensen av kameratskap, tillit og kraften i menneskelig forbindelse. Sangen understreker viktigheten av å stå sammen som venner i tider med glede eller sorg.",
+      "Den emosjonelle vokalen og det autentiske folkearrangementet skaper en varm og innbydende atmosfære, og inviterer lyttere til å verdsette verdien av ekte vennskap."
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Gje_meg_handa_di_ven_ouqtnv.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Gje_meg_handa_di_ven_mobile_bvoyuq.webp"
+  },
+  {
+    "objectID": "77",
+    "category": "Viser",
+    "subcategory": ["Nordisk", "Pop"],
+    "title": "God morgen min kjære",
+    "arrangement": ["solo", "duet"],
+    "composer": "Ole Paus Borg",
+    "recommended": false,
+    "video": false,
+    "description": [
+      "God morgen min kjære, komponert av Ole Paus Borg, er en øm popballade som formidler et kjærlighets- og hengivenhetsbudskap. Med sine milde tekst og emosjonelle melodier, snakker sangen om å hilse en kjær med varme og ømhet om morgenen.",
+      "God morgen min kjære fanger essensen av å uttrykke kjærlighet og takknemlighet for noen spesiell, og lyser opp dagen deres med kjærlige ord.",
+      "Den inderlige vokalen og det melodiske arrangementet skaper en varm og kjærlig atmosfære, og inviterer lyttere til å dele den enkle, men kraftige følelsen av kjærlighet og omsorg."
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/God_morgen_min_kj%C3%A6re_ou6kn5.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/God_morgen_min_kj%C3%A6re_mobile_cxgla2.webp"
   }
 ]
