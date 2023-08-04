@@ -952,7 +952,7 @@
   {
     "objectID": "57",
     "category": "Viser",
-    "subcategory": ["Nordisk", "Pop"],
+    "subcategory": ["Nordisk", "Popballade"],
     "title": "Bestevenn",
     "arrangement": ["solo"],
     "composer": "Odd Nordstoga",
@@ -1020,7 +1020,7 @@
   {
     "objectID": "61",
     "category": "Viser",
-    "subcategory": ["Nordisk", "Pop"],
+    "subcategory": ["Nordisk", "Popballade"],
     "title": "Där rosor aldrig dör",
     "arrangement": ["solo"],
     "composer": "Orup",
@@ -1037,7 +1037,7 @@
   {
     "objectID": "62",
     "category": "Viser",
-    "subcategory": ["Nordisk", "Pop"],
+    "subcategory": ["Nordisk", "Popballade"],
     "title": "De nære ting",
     "arrangement": ["solo"],
     "composer": "Arild Nyquist / Egil Monn-Iversen",
@@ -1087,7 +1087,7 @@
   },
   {
     "objectID": "65",
-    "category": "Pop",
+    "category": "Popballade",
     "subcategory": ["Nordisk", "Viser"],
     "title": "Det hainnle om å leve",
     "arrangement": ["solo"],
@@ -1105,7 +1105,7 @@
   {
     "objectID": "66",
     "category": "Viser",
-    "subcategory": ["Nordisk", "Pop"],
+    "subcategory": ["Nordisk", "Popballade"],
     "title": "Det vakreste som fins",
     "arrangement": ["solo"],
     "composer": "Anita Skorgan / Svein Dag Hauge",
@@ -1122,7 +1122,7 @@
   {
     "objectID": "67",
     "category": "Viser",
-    "subcategory": ["Nordisk", "Pop"],
+    "subcategory": ["Nordisk", "Popballade"],
     "title": "Du är den ende",
     "arrangement": ["solo", "duet"],
     "composer": "Maritza Gomez / Anders Zetterlind / Monica Petterson",
@@ -1139,7 +1139,7 @@
   {
     "objectID": "68",
     "category": "Viser",
-    "subcategory": ["Nordisk", "Pop"],
+    "subcategory": ["Nordisk", "Popballade"],
     "title": "Ei hand å holde I",
     "arrangement": ["solo", "duet"],
     "composer": "Svein Gundersen",
@@ -1156,7 +1156,7 @@
   {
     "objectID": "69",
     "category": "Viser",
-    "subcategory": ["Nordisk", "Pop"],
+    "subcategory": ["Nordisk", "Popballade"],
     "title": "Ein far",
     "arrangement": ["solo", "duet"],
     "composer": "Ole Paus Holand / Tomas Espedal / Sigvart Dagsland",
@@ -1173,7 +1173,7 @@
   {
     "objectID": "70",
     "category": "Viser",
-    "subcategory": ["Nordisk", "Pop"],
+    "subcategory": ["Nordisk", "Popballade"],
     "title": "Engler i sneen",
     "arrangement": ["solo", "duet"],
     "composer": "Jonas Fjeld",
@@ -1190,7 +1190,7 @@
   {
     "objectID": "71",
     "category": "Viser",
-    "subcategory": ["Nordisk", "Pop"],
+    "subcategory": ["Nordisk", "Popballade"],
     "title": "E du Nord",
     "arrangement": ["solo"],
     "composer": "Ola Bremnes",
@@ -1224,7 +1224,7 @@
   {
     "objectID": "73",
     "category": "Viser",
-    "subcategory": ["Nordisk", "Pop"],
+    "subcategory": ["Nordisk", "Popballade"],
     "title": "For siste gang",
     "arrangement": ["solo"],
     "composer": "Anders Tveit",
@@ -1241,7 +1241,7 @@
   {
     "objectID": "74",
     "category": "Viser",
-    "subcategory": ["Nordisk", "Pop"],
+    "subcategory": ["Nordisk", "Popballade"],
     "title": "Fordi jeg elsker deg",
     "arrangement": ["solo", "duet"],
     "composer": "Øystein Bratland / David Dyllan",
@@ -1252,8 +1252,8 @@
       "Fordi jeg elsker deg fanger essensen av hengivenhet, sårbarhet og viljen til å strekke seg langt for kjærligheten.",
       "Den sjelfulle vokalen til Bratland og Dyllans harmonier, sammen med det melodiske arrangementet, skaper en intim og emosjonell atmosfære, som inviterer lyttere til å koble seg til den mektige og universelle følelsen av kjærlighet."
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Fordi_jeg_elsker_deg_pqs6s3.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Fordi_jeg_elsker_deg_mobile_sd6mbx.webp"
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Fordi_jeg_elsker_deg_gmaort.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Fordi_jeg_elsker_deg_mobile_fvnauf.webp"
   },
   {
     "objectID": "75",
@@ -1292,7 +1292,7 @@
   {
     "objectID": "77",
     "category": "Viser",
-    "subcategory": ["Nordisk", "Pop"],
+    "subcategory": ["Nordisk", "Popballade"],
     "title": "God morgen min kjære",
     "arrangement": ["solo", "duet"],
     "composer": "Ole Paus Borg",
@@ -1305,5 +1305,413 @@
     ],
     "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/God_morgen_min_kj%C3%A6re_ou6kn5.webp",
     "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/God_morgen_min_kj%C3%A6re_mobile_cxgla2.webp"
+  },
+  {
+    "objectID": "78",
+    "category": "Viser",
+    "subcategory": ["Nordisk"],
+    "title": "God natt Oslo",
+    "arrangement": ["solo"],
+    "composer": "Lillebjørn Nilsen",
+    "recommended": false,
+    "video": false,
+    "description": [
+      "God natt Oslo, komponert av Lillebjørn Nilsen, er en gripende folkevise som tar farvel med Oslo by.",
+      "Med sine stemningsfulle tekst og inderlige melodier uttrykker sangen en følelse av nostalgi og forkjærlighet for byen. God natt Oslo fanger essensen av å si farvel til et sted med kjære minner og betydning i sangerens hjerte.",
+      "Nilsens emosjonelle vokal og det sjelfulle folkearrangementet skaper en intim og emosjonell atmosfære, som inviterer lyttere til å dele følelsene ved å forlate en elsket by."
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/God_natt_Oslo_xq30g3.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/God_natt_Oslo_mobile_rmd89v.webp"
+  },
+  {
+    "objectID": "79",
+    "category": "Viser",
+    "subcategory": ["Nordisk"],
+    "title": "Har du fyr",
+    "arrangement": ["solo"],
+    "composer": "Ola Bremnes",
+    "recommended": false,
+    "video": false,
+    "description": [
+      "God natt Oslo, komponert av Lillebjørn Nilsen, er en gripende folkevise som tar farvel med Oslo by.",
+      "Med sine stemningsfulle tekst og inderlige melodier uttrykker sangen en følelse av nostalgi og forkjærlighet for byen. God natt Oslo fanger essensen av å si farvel til et sted med kjære minner og betydning i sangerens hjerte.",
+      "Nilsens emosjonelle vokal og det sjelfulle folkearrangementet skaper en intim og emosjonell atmosfære, som inviterer lyttere til å dele følelsene ved å forlate en elsket by."
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Har_du_fyr_bv7ljb.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Har_du_fyr_mobile_rcjkgl.webp"
+  },
+  {
+    "objectID": "80",
+    "category": "Viser",
+    "subcategory": ["Nordisk"],
+    "title": "Hildringstimen",
+    "arrangement": ["solo"],
+    "composer": "Erik Bye",
+    "recommended": false,
+    "video": false,
+    "description": [
+      "Hildringstimen, komponert av Erik Bye, er en fengslende ballade som vekker en følelse av fortryllelse og refleksjon i skumringstimen.",
+      "Med sine poetiske tekst og fascinerende melodier snakker sangen om de magiske øyeblikkene mellom dag og natt, der grensene mellom virkelighet og fantasi visker ut. Hildringstimen fanger essensen av å omfavne den flyktige og drømmeaktige skjønnheten i skumringen.",
+      "Byes sjelfulle vokal og det uhyggelig vakre arrangementet skaper en hypnotiserende og kontemplativ atmosfære, og inviterer lyttere til å bli betatt av den poetiske og eteriske essensen av skumringstimen."
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Hildringstimen_jlvwym.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Hildringstimen_mobile_w9w1is.webp"
+  },
+  {
+    "objectID": "81",
+    "category": "Viser",
+    "subcategory": ["Nordisk", "Popballade"],
+    "title": "Himlen I min favn",
+    "arrangement": ["solo"],
+    "composer": "Stephan Berg",
+    "recommended": false,
+    "video": false,
+    "description": [
+      "Himlen I min favn, fremført av Carola, er en mektig popballade som uttrykker en dyp kjærlighet og tilknytning. Med sine emosjonelle tekst og svevende melodier snakker sangen om å finne himmelen i armene til en kjær.",
+      "Himlen I min favn fanger essensen av de intense følelsene man opplever når man er sammen med noen som gir glede, trøst og en følelse av fullstendighet.",
+      "Carolas emosjonelle vokal og det oppløftende poparrangementet skaper en virkningsfull og inderlig atmosfære, og inviterer lyttere til å bli beveget av dybden av kjærlighet som er skildret i sangen."
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Himlen_I_min_favn_ofi9q1.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Himlen_I_min_favn_mobile_aqgusc.webp"
+  },
+  {
+    "objectID": "82",
+    "category": "Viser",
+    "subcategory": ["Nordisk", "Popballade"],
+    "title": "Himmelhøge sti",
+    "arrangement": ["solo"],
+    "composer": "Knut Buen",
+    "recommended": false,
+    "video": false,
+    "description": [
+      "Himmelhøge sti, en tradisjonell norsk folkesang, er en sjelfull ballade som snakker om en åndelig reise og lengselen etter en høyere vei.",
+      "Sangen overveier søken etter mening og en forbindelse til det guddommelige med sin lidenskapelige tekst og melodiske komposisjon. Himmelhøge sti fanger essensen av å søke trøst og veiledning i naturens vidder og himmelen over.",
+      "Den sjeleglade vokalen og det autentiske folkearrangementet skaper en kontemplativ og inderlig atmosfære, og inviterer lyttere til å reflektere over naturens åndelige søken og skjønnhet."
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Himmelh%C3%B8ge_sti_gbk6pc.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Himmelh%C3%B8ge_sti_mobile_yfau7u.webp"
+  },
+  {
+    "objectID": "83",
+    "category": "Viser",
+    "subcategory": ["Nordisk"],
+    "title": "Höstvisa",
+    "arrangement": ["solo"],
+    "composer": "Ulf Tauro",
+    "recommended": false,
+    "video": false,
+    "description": [
+      "Höstvisa, komponert av Ulf Tauro, er en inderlig folkeballade som feirer høstsesongens skjønnhet og melankoli. Med sin poetiske tekst og melodiske komposisjon snakker sangen om bladenes skiftende farger og de bittersøte følelsene som kommer med høstens ankomst.",
+      "Höstvisa fanger essensen av å omfavne livets forbigående natur og finne trøst i skjønnhetens flyktige øyeblikk.",
+      "Den sjelfulle vokalen og det milde folkearrangementet skaper en nostalgisk og reflektert atmosfære, som inviterer lyttere til å bli betatt av høstens følelser og bilder."
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Ho%CC%88stvisa_qusay0.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Ho%CC%88stvisa_mobile_qkevyd.webp"
+  },
+  {
+    "objectID": "84",
+    "category": "Viser",
+    "subcategory": ["Nordisk", "Popballade"],
+    "title": "Håll mitt hjärta",
+    "arrangement": ["solo"],
+    "composer": "Björn Skifs",
+    "recommended": false,
+    "video": false,
+    "description": [
+      "Håll mitt hjärta, fremført av Björn Skifs, er en inderlig popballade som uttrykker en bønn om kjærlighet og følelsesmessig forbindelse.",
+      "Med sine ømme tekst og emosjonelle melodier, snakker sangen om sårbarhet og ønsket om å bli holdt og elsket av noen spesiell. Håll mitt hjärta fanger essensen av lengsel etter et dypt og meningsfylt forhold.",
+      "Skifs' sjelfulle vokal og det melodiøse poparrangementet skaper en intim og rørende atmosfære, som inviterer lytterne til å føle den rå følelsen og lengselen som formidles i sangen."
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Ha%CC%8All_mitt_hja%CC%88rta_bhxiii.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Ha%CC%8All_mitt_hja%CC%88rta_mobile_zh3ips.webp"
+  },
+  {
+    "objectID": "85",
+    "category": "Viser",
+    "subcategory": ["Nordisk", "Popballade"],
+    "title": "Håll ut",
+    "arrangement": ["solo"],
+    "composer": "Björn Sundström / Monica Dahl / Karl-Gerhard Malmgren / Frida Schubert / Anders Mattsson",
+    "recommended": false,
+    "video": false,
+    "description": [
+      "Håll ut, komponert i samarbeid av Björn Sundström, Monica Dahl, Karl-Gerhard Malmgren, Frida Schubert og Anders Mattsson, er en oppløftende popballade som formidler håp og utholdenhet.",
+      "Med sin inspirerende tekst og melodiske komposisjon snakker sangen om å holde på i vanskelige tider og finne styrken til å overvinne utfordringer. Håll ut fanger essensen av spenst, enhet og kraften til å støtte hverandre.",
+      "Den emosjonelle vokalen til ensemblet og det oppløftende poparrangementet skaper en oppmuntrende og styrkende atmosfære, og inviterer lyttere til å holde på og holde seg sterk gjennom livets prøvelser."
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Ha%CC%8All_ut_eixeif.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Ha%CC%8All_ut_mobile_hhcduj.webp"
+  },
+  {
+    "objectID": "86",
+    "category": "Viser",
+    "subcategory": ["Folkemusikk"],
+    "title": "Jag vill tacka livet (svensk eller spansk)",
+    "arrangement": ["solo"],
+    "composer": "Violeta Parra",
+    "recommended": false,
+    "video": false,
+    "description": [
+      "Jag vill tacka livet, opprinnelig komponert av Violeta Parra, er en mektig hymne som feirer liv og takknemlighet.",
+      "Med sine inderlige tekst og lidenskapelige melodier snakker sangen om å omfavne livets gleder og utfordringer og være takknemlig for hvert øyeblikk. Jag vill tacka livet fanger essensen av å leve livet til det fulle og verne om eksistensgaven.",
+      "Den sjeleglade vokalen og det autentiske folkearrangementet skaper en oppløftende og emosjonell atmosfære, og inviterer lyttere til å bli med på feiringen av livet og takknemligheten."
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Jag_vill_tacka_livet_obacnv.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Jag_vill_tacka_livet_mobile_frjur9.webp"
+  },
+  {
+    "objectID": "87",
+    "category": "Viser",
+    "subcategory": ["Folkemusikk", "Nordisk"],
+    "title": "Jag trivs bäst i öppna landskap",
+    "arrangement": ["solo"],
+    "composer": "Ulf Lundell",
+    "recommended": false,
+    "video": false,
+    "description": [
+      "Jag trivs bäst i öppna landskap, komponert av Ulf Lundell, er en antemisk rockesang som hyller kjærligheten til vidåpne rom og friheten de representerer.",
+      "Med sine livlige tekster og energiske melodier snakker sangen om å finne trøst og tilfredshet i naturens vidder og uutforskede horisonter. Jag trivs bäst i öppna landskap fanger essensen av å omfavne enkelheten og storheten til utendørs.",
+      "Lundells lidenskapelige vokal og det dynamiske rockarrangementet skaper en befriende og forfriskende atmosfære, som inviterer lytterne til å legge ut på en reise med utforskning og selvoppdagelse."
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Jag_trivs_ba%CC%88st_i_o%CC%88ppna_landskap_tdo2kc.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Jag_trivs_ba%CC%88st_i_o%CC%88ppna_landskap_mobile_dahys9.webp"
+  },
+  {
+    "objectID": "88",
+    "category": "Viser",
+    "subcategory": ["Folkemusikk", "Nordisk"],
+    "title": "Jeg glemmer deg aldri",
+    "arrangement": ["solo", "duet"],
+    "composer": "Åse Wentzel Moslåtten / Ørnulf Sigernes Haugen",
+    "recommended": false,
+    "video": false,
+    "description": [
+      "Jeg glemmer deg aldri, komponert av Åse Wentzel Moslåtten og Ørnulf Sigernes Haugen, er en rørende folkevise som uttrykker evig kjærlighet og erindring.",
+      "Med sine inderlige tekst og ømme melodier, snakker sangen om å ta vare på minnene og det varige båndet som deles med en kjær. Jeg glemmer deg aldri fanger essensen av den evige forbindelsen og virkningen av noens tilstedeværelse i ens liv.",
+      "Den emosjonelle vokalen til duetten og det autentiske folkearrangementet skaper en intim og emosjonell atmosfære, som inviterer lyttere til å bli grepet av sangens dype følelse."
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Jeg_glemmer_deg_aldri_nf39he.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Jeg_glemmer_deg_aldri_mobile_kwuabn.webp"
+  },
+  {
+    "objectID": "89",
+    "category": "Viser",
+    "subcategory": ["Popballade", "Nordisk"],
+    "title": "Kjærlighet",
+    "arrangement": ["solo"],
+    "composer": "Arne Tofte / Vladimir Cosma",
+    "recommended": false,
+    "video": true,
+    "description": [
+      "Kjærlighet, komponert av Arne Tofte og Vladimir Cosma, er en gripende ballade som utforsker kjærlighetens dybde og kompleksitet. Med sin emosjonelle tekst og melodiøse komposisjon, snakker sangen om kjærlighetens forskjellige fasetter, inkludert glede, smerte og den dype forbindelsen mellom to sjeler.",
+      "Kjærlighet fanger essensen av berg-og-dal-banen av følelser opplevd i kjærlighet og skjønnheten i å finne en dyp og meningsfull forbindelse med noen.",
+      "Den sjeleglade vokalen og det emosjonelle balladearrangementet skaper en intim og inderlig atmosfære, og inviterer lyttere til å reflektere over det universelle temaet kjærlighet og dens innvirkning på livene våre."
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Kj%C3%A6rlighet_fcwi91.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Kj%C3%A6rlighet_mobile_lzccaa.webp"
+  },
+  {
+    "objectID": "90",
+    "category": "Viser",
+    "subcategory": ["Popballade", "Nordisk"],
+    "title": "Kom og ligg inntil meg",
+    "arrangement": ["solo"],
+    "composer": "Finn Kalvik",
+    "recommended": false,
+    "video": false,
+    "description": [
+      "Kom og ligg inntil meg, komponert av Finn Kalvik, er en øm ballade som snakker om intimitet og ønsket om nærhet med en man er glad i. Med sine inderlige tekst og milde melodier uttrykker sangen lengselen etter komforten og varmen ved å være i hverandres armer.",
+      "Kom og ligg inntil meg fanger essensen av den følelsesmessige forbindelsen og følelsen av trygghet som finnes i omfavnelsen til en kjær.",
+      "Kalviks sjelfulle vokal og det beroligende balladearrangementet skaper en beroligende og intim atmosfære, som inviterer lytterne til å omfavne følelsen av sangen og skjønnheten i kjærlighetens omfavnelse."
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Kom_og_ligg_inntil_meg_sgsclo.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Kom_og_ligg_inntil_meg_mobile_a1j4hy.webp"
+  },
+  {
+    "objectID": "91",
+    "category": "Viser",
+    "subcategory": ["Popballade", "Nordisk"],
+    "title": "Men går jag över ängarna",
+    "arrangement": ["solo"],
+    "composer": "Nils Ferlin",
+    "recommended": false,
+    "video": false,
+    "description": [
+      "Men går jag över ängarna, komponert av Nils Ferlin, er en gripende folkeballade som reflekterer over livets reise og tid. Med sine stemningsfulle tekst og melodiske komposisjon, reflekterer sangen over livets flyktige natur og skjønnheten i den naturlige verden.",
+      "Men går jag över ängarna fanger essensen av å finne trøst og refleksjon mens de vandrer gjennom enger og omfavner tilværelsens underverker.",
+      "Den sjelfulle vokalen og det autentiske folkearrangementet skaper en kontemplativ og rolig atmosfære, og inviterer lyttere til å bli grepet av følelsen av sangen og forbindelsen med naturens skjønnhet."
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Men_ga%CC%8Ar_jag_o%CC%88ver_a%CC%88ngarna_gcxvuf.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Men_ga%CC%8Ar_jag_o%CC%88ver_a%CC%88ngarna_mobile_th6tbz.webp"
+  },
+  {
+    "objectID": "92",
+    "category": "Viser",
+    "subcategory": ["Nordisk"],
+    "title": "Mitt land",
+    "arrangement": ["solo"],
+    "composer": "Rolf Løvland",
+    "recommended": false,
+    "video": false,
+    "description": [
+      "Mitt land, komponert av Rolf Løvland, fungerer som nasjonalsang for Norge. Med sine patriotiske tekst og oppløftende melodi, hyller hymnen den norske nasjonens skjønnhet, historie og enhet.",
+      "Mitt land fanger essensen av stolthet og kjærlighet til sitt land og symboliserer tilhørighet til et samlet og motstandsdyktig samfunn.",
+      "Den kraftige vokalen og det rørende hymnearrangementet skaper en nasjonal identitet og fremkaller en sterk følelse av patriotisme blant nordmenn."
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Mitt_land_fdf26o.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Mitt_land_mobile_cgrpkt.webp"
+  },
+  {
+    "objectID": "93",
+    "category": "Viser",
+    "subcategory": ["Nordisk"],
+    "title": "Nocturne",
+    "arrangement": ["solo"],
+    "composer": "Evert Taube",
+    "recommended": false,
+    "video": false,
+    "description": [
+      "Nocturne, komponert av Evert Taube, er en fengslende ballade som vekker en følelse av ro og ettertanke. Med sin poetiske tekst og melodiske komposisjon forteller sangen om nattens rolige skjønnhet og følelsene den vekker i seg.",
+      "Nocturne fanger essensen av å finne trøst og inspirasjon under stjernehimmelen og i stillheten om natten.",
+      "Taubes sjelfulle vokal og det fortryllende balladearrangementet skaper en drømmende og nostalgisk atmosfære, og inviterer lyttere til å bli transportert til nattens magiske verden."
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Nocturne_hxqbw7.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Nocturne_mobile_vijzbj.webp"
+  },
+  {
+    "objectID": "94",
+    "category": "Viser",
+    "subcategory": ["Nordisk", "Klassisk"],
+    "title": "Nocturne",
+    "arrangement": ["solo"],
+    "composer": "Rolf Løvland",
+    "recommended": false,
+    "video": false,
+    "description": [
+      "Nocturne, komponert av Rolf Løvland, er et fascinerende instrumentalt stykke som blander klassiske og moderne elementer.",
+      "Verket skaper en følelse av ro og introspeksjon med sine stemningsfulle melodier og delikate pianoarrangement. Nocturne fanger essensen av nattens fortryllende atmosfære, og formidler en rekke følelser fra fred til lengsel.",
+      "Løvlands mesterlige komposisjon og uttrykksfulle pianoprestasjon skaper en fengslende og oppslukende opplevelse, som inviterer lytterne til å omfavne den nattlige reisen gjennom musikk."
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Nocturne_Rolf_L%C3%B8vland_loui7s.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Nocturne_Rolf_L%C3%B8vland_mobile_z3gnfh.webp"
+  },
+  {
+    "objectID": "95",
+    "category": "Viser",
+    "subcategory": ["Nordisk", "Klassisk"],
+    "title": "Nordlandsnetter",
+    "arrangement": ["solo"],
+    "composer": "Per Johan Skjærstad Moe",
+    "recommended": false,
+    "video": false,
+    "description": [
+      "Nordlandsnetter, komponert av Per Johan Skjærstad Moe, er en nostalgisk folkevise som hyller de fortryllende nettene i Nordland, en region i Norge.",
+      "Med sin stemningsfulle tekst og melodiske komposisjon, skildrer sangen skjønnheten i det nordlige landskapet og den fengslende atmosfæren i nettene. Nordlandsnetter fanger essensen av de arktiske nettene og følelsen av undring og beundring de inspirerer til.",
+      "Den sjelfulle vokalen og det autentiske folkearrangementet skaper en inderlig og reflektert atmosfære, som inviterer lytterne til å bli fraktet til de magiske nettene i Nordland."
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Nordlandsnetter_xlnptl.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Nordlandsnetter_mobile_pgridu.webp"
+  },
+  {
+    "objectID": "96",
+    "category": "Viser",
+    "subcategory": ["Nordisk"],
+    "title": "Norge mitt Norge",
+    "arrangement": ["solo"],
+    "composer": "Rolf Løvland Caspari / Arne Paulsen",
+    "recommended": false,
+    "video": false,
+    "description": [
+      "Norge mitt Norge, komponert av Rolf Løvland Caspari og Arne Paulsen, fungerer som en patriotisk hymne for Norge. Med sine lidenskapelige tekst og oppløftende melodi, hyller hymnen den norske nasjonens skjønnhet, historie og identitet.",
+      "Norge mitt Norge fanger essensen av nasjonal stolthet og samhold, og inspirerer til en sterk følelse av tilhørighet til landet.",
+      "Den kraftige vokalen og det rørende hymnearrangementet skaper en følelse av stolthet og kjærlighet til Norge, og fremkaller en ånd av patriotisme blant folket."
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Norge_mitt_Norge_lxu2yk.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Norge_mitt_Norge_mobile_gsjwon.webp"
+  },
+  {
+    "objectID": "97",
+    "category": "Viser",
+    "subcategory": ["Nordisk", "Popballade"],
+    "title": "Når du går",
+    "arrangement": ["solo"],
+    "composer": "Ola Bremnes",
+    "recommended": false,
+    "video": false,
+    "description": [
+      "Når du går, komponert av Ola Bremnes, er en gripende ballade som utforsker følelsene ved å skille seg og ta farvel.",
+      "Med sin inderlige tekst og sjelfulle melodi, snakker sangen om de bittersøte følelsene som oppleves når en kjær forlater. Når du går fanger essensen av lengsel og den varige forbindelsen som forblir til tross for den fysiske avstanden.",
+      "Bremnes' uttrykksfulle vokal og det ømme balladearrangementet skaper en rørende og reflektert atmosfære, som inviterer lytterne til å gjenklang med følelsene av avskjed og kjærlighetens kraft."
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Na%CC%8Ar_du_ga%CC%8Ar_weuyrj.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Na%CC%8Ar_du_ga%CC%8Ar_mobile_o7ha3a.webp"
+  },
+  {
+    "objectID": "98",
+    "category": "Viser",
+    "subcategory": ["Nordisk", "Popballade"],
+    "title": "Når himmelen faller ned",
+    "arrangement": ["solo"],
+    "composer": "Ingeborg Oktober Preus",
+    "recommended": false,
+    "video": false,
+    "description": [
+      "Når himmelen faller ned, komponert av Ingeborg Oktober Preus, er en kraftfull og emosjonell ballade som fordyper seg i temaer om sårbarhet og styrke i vanskelige tider.",
+      "Med sine stemningsfulle tekster og rørende melodi, snakker sangen om å møte utfordringer og finne motstandskraft i motgang. Når himmelen faller ned fanger essensen av mot og håp, og understreker viktigheten av å holde på sin indre styrke når livet virker overveldende.",
+      "Preus sin sjeleglade vokal og det inderlige balladearrangementet skaper en emosjonell og inspirerende atmosfære, og inviterer lyttere til å omfavne sin motstandskraft og møte livets prøvelser med besluttsomhet."
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Na%CC%8Ar_himmelen_faller_ned_zozwan.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Na%CC%8Ar_himmelen_faller_ned_mobile_z2pzz7.webp"
+  },
+  {
+    "objectID": "99",
+    "category": "Viser",
+    "subcategory": ["Nordisk", "Popballade"],
+    "title": "Når sole faller bak top og tinde",
+    "arrangement": ["solo"],
+    "composer": "Trygve Hoff",
+    "recommended": false,
+    "video": false,
+    "description": [
+      "Når sole faller bak top og tinde, komponert av Trygve Hoff, er en sjelfull folkeballade som omfavner skjønnheten og roen i det norske landskapet under solnedgang.",
+      "Med sin stemningsfulle tekst og melodiske komposisjon, skildrer sangen den fortryllende atmosfæren mens solen dykker ned under fjellene og fyller omgivelsene med en gyllen glød.",
+      "Når sole faller bak top og tinde fanger essensen av ærefrykt og undring i møte med naturens prakt. Hoffs inderlige vokal og det autentiske folkearrangementet skaper en rolig og reflektert atmosfære, som inviterer lytterne til å nyte magien til den norske solnedgangen."
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Na%CC%8Ar_sole_faller_bak_top_og_tinde_ulgjoe.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Na%CC%8Ar_sole_faller_bak_top_og_tinde_mobile_dflhxo.webp"
+  },
+  {
+    "objectID": "100",
+    "category": "Viser",
+    "subcategory": ["Nordisk", "Popballade"],
+    "title": "Öppnalandskap",
+    "arrangement": ["solo"],
+    "composer": "Ulf Lundell",
+    "recommended": false,
+    "video": false,
+    "description": [
+      "Öppnalandskap, komponert av Ulf Lundell, er en fengslende rockelåt som hyller friheten og vidstrakten i åpne landskap. Med sine livlige tekster og energiske melodi, snakker musikken om den spennende opplevelsen av å være omgitt av uutforskede horisonter og naturens enkelhet.",
+      "Öppnalandskap fanger essensen av å omfavne vidåpne rom og finne trøst i naturens skjønnhet.",
+      "Lundells dynamiske vokal og det rock-infunderte arrangementet skaper en forfriskende og befriende atmosfære, som inviterer lyttere til å legge ut på en reise med eventyr og selvoppdagelse."
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/O%CC%88ppnalandskap_ruuboo.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/O%CC%88ppnalandskap_mobile_i8e61q.webp"
+  },
+  {
+    "objectID": "101",
+    "category": "Viser",
+    "subcategory": ["Nordisk", "Popballade"],
+    "title": "Røst",
+    "arrangement": ["solo"],
+    "composer": "Sigvart Dagsland",
+    "recommended": false,
+    "video": false,
+    "description": [
+      "Røst, komponert av Sigvart Dagsland, er en hjemsøkende og lidenskapelig ballade som utforsker kraften til den menneskelige stemmen til å formidle følelser og berøre andres hjerter.",
+      "Med sine stemningsfulle tekster og sjeleglade melodi, snakker sangen om den dype virkningen av stemmer som kan gi trøst, helbredelse og håp. Røst fanger essensen av den menneskelige forbindelsen gjennom skjønnheten i det vokale uttrykket.",
+      "Dagslands uttrykksfulle vokal og det gripende balladearrangementet skaper en intim og rørende atmosfære, som inviterer lytterne til å omfavne den menneskelige stemmens emosjonelle reise."
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/R%C3%B8st_hmewwv.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/R%C3%B8st_mobile_sqyxpq.webp"
   }
 ]
