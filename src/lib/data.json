@@ -1730,5 +1730,192 @@
     ],
     "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Selmas_sang_si57xx.webp",
     "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Selmas_sang_mobile_fyyzuo.webp"
+  },
+  {
+    "objectID": "103",
+    "category": "Viser",
+    "subcategory": ["Nordisk", "Popballade"],
+    "title": "Skal hilse fra fjellet",
+    "arrangement": ["solo"],
+    "composer": "Trygve Hoff / Gustav Lorentzen",
+    "recommended": false,
+    "video": false,
+    "description": [
+      "Skal hilse fra fjellet, komponert av Trygve Hoff og Gustav Lorentzen, er en hjertevarm folkeballade som bærer fjellånden og naturens skjønnhet.",
+      "Med sin inderlige tekst og melodiske komposisjon bringer sangen hilsener og meldinger fra fjellene til verden nedenfor. Skal hilse fra fjellet fanger essensen av en følelse av tilhørighet til fjellet og verdsettelse av deres rolige og majestetiske tilstedeværelse.",
+      "Hoffs sjelfulle vokal og det autentiske folkearrangementet skaper en koselig og trøstende atmosfære, som inviterer lyttere til å koble seg til varmen og roen i fjellene."
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Skal_hilse_fra_fjellet_lcw04i.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Skal_hilse_fra_fjellet_mobile_ltif0n.webp"
+  },
+  {
+    "objectID": "104",
+    "category": "Viser",
+    "subcategory": ["Nordisk"],
+    "title": "Sommernatt ved fjorden",
+    "arrangement": ["solo"],
+    "composer": "Ketil Bjørnstad",
+    "recommended": false,
+    "video": false,
+    "description": [
+      "Sommernatt ved fjorden, komponert av Ketil Bjørnstad, er en fengslende jazzballade som fanger den fortryllende atmosfæren fra en sommernatt ved fjorden.",
+      "Med sine stemningsfulle tekst og melodiske jazzkomposisjon, skildrer sangen roen og skjønnheten til en kveld ved fjorden. Sommernatt ved fjorden fanger essensen av avslapning og kontemplasjon når fjordens ro blander seg med den varme sommernatten.",
+      "Bjørnstads beroligende vokal og det jazzete arrangementet skaper en beroligende og oppslukende atmosfære, som inviterer lytterne til å nyte magien til en sommernatt ved fjorden."
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Sommernatt_ved_fjorden_wl1fvc.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Sommernatt_ved_fjorden_mobile_dqqrak.webp"
+  },
+  {
+    "objectID": "105",
+    "category": "Viser",
+    "subcategory": ["Nordisk", "Klassisk"],
+    "title": "Stjernesangen",
+    "arrangement": ["solo"],
+    "composer": "Jean Sibelius",
+    "recommended": false,
+    "video": false,
+    "description": [
+      "Stjernesangen, komponert av Jean Sibelius, er et himmelsk korstykke som fremkaller nattehimmelens mystikk og under. Sangens eteriske harmonier og majestetiske melodi gjenspeiler storheten til stjernene og universet.",
+      "Stjernesangen fanger essensen av ærefrykt og kontemplasjon, og inviterer lytterne til å gruble over kosmos vidder.",
+      "Sibelius' mesterlige komposisjon og det himmelske korarrangementet skaper en transcendent og fortryllende atmosfære, som lar lytterne få kontakt med nattehimmelens skjønnhet og majestet."
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Stjernesangen_Sibelius_nloa4k.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Stjernesangen_Sirbelius_mobile_cbnnv5.webp"
+  },
+  {
+    "objectID": "106",
+    "category": "Viser",
+    "subcategory": ["Nordisk", "Tradisjonell"],
+    "title": "Så skimrande var aldrig havet",
+    "arrangement": ["solo"],
+    "composer": "Evert Taube",
+    "recommended": false,
+    "video": false,
+    "description": [
+      "Stjernesangen, komponert av Jean Sibelius, er et himmelsk korstykke som fremkaller nattehimmelens mystikk og under. Sangens eteriske harmonier og majestetiske melodi gjenspeiler storheten til stjernene og universet.",
+      "Stjernesangen fanger essensen av ærefrykt og kontemplasjon, og inviterer lytterne til å gruble over kosmos vidder.",
+      "Sibelius' mesterlige komposisjon og det himmelske korarrangementet skaper en transcendent og fortryllende atmosfære, som lar lytterne få kontakt med nattehimmelens skjønnhet og majestet."
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Sa%CC%8A_skimrande_var_aldrig_havet_w16zfh.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Sa%CC%8A_skimrande_var_aldrig_havet_mobile_dfivvi.webp"
+  },
+  {
+    "objectID": "107",
+    "category": "Viser",
+    "subcategory": ["Nordisk", "Tradisjonell"],
+    "title": "Tir nanoir",
+    "arrangement": ["solo"],
+    "composer": "Janove Ottesen / Asgeir Staveland",
+    "recommended": false,
+    "video": false,
+    "description": [
+      "Tir nanoir, med tekst av Janove Ottesen og musikk av Asgeir Staveland, er en sjelfull folkesang som bærer ånden av ro og nostalgi. Med sin inderlige tekst og melodiske komposisjon taler sangen om lengsel etter et sted med fred og ro.",
+      "Tir nanoir fanger essensen av en lengsel etter et hjemland som fremkaller en følelse av komfort og tilhørighet.",
+      "Stavelands emosjonelle vokal og det folkeinspirerte arrangementet skaper en reflektert og emosjonell atmosfære, og inviterer lyttere til å koble seg til følelsen til Tir nanoir og det universelle ønsket om et fredelig fristed."
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Tir_nanoir_ad0pqw.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Tir_nanoir_mobile_sponvq.webp"
+  },
+  {
+    "objectID": "108",
+    "category": "Viser",
+    "subcategory": ["Nordisk", "Popballade"],
+    "title": "13 Hester",
+    "arrangement": ["solo"],
+    "composer": "Alexander Rybak",
+    "recommended": true,
+    "video": false,
+    "description": [
+      "13 Hester, komponert av Alexander Rybak, er en fengende og optimistisk poplåt som forteller en snodig historie om 13 hester og deres eskapader.",
+      "Med sin livlige tekst og levende melodi tegner sangen et lekent bilde av de rampete hestenes eventyr. 13 Hester fanger essensen av fantasi og historiefortelling, og inviterer lyttere til å bli med på hestenes morsomme reise.",
+      "Rybaks karismatiske vokal og det energiske poparrangementet skaper en gledelig og animert atmosfære, og oppmuntrer lytterne til å omfavne den letthjertede ånden til 13 Hester og la fantasien løpe løpsk."
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/13_Hester_tukaws.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/13_Hester_mobile_wgj7pb.webp"
+  },
+  {
+    "objectID": "109",
+    "category": "Viser",
+    "subcategory": ["Nordisk"],
+    "title": "Ut mot havet",
+    "arrangement": ["solo"],
+    "composer": "Knut Anders Sørum / Egil Eldøen",
+    "recommended": false,
+    "video": false,
+    "description": [
+      "Ut mot havet, med tekst av Knut Anders Sørum og musikk av Egil Eldøen, er en kraftfull rockeballade som fanger essensen av å legge ut på en vågal reise mot det ukjente.",
+      "Med sine lidenskapelige tekst og rock-infundert melodi, snakker sangen om å ta risiko og møte utfordringer direkte. Ut mot havet formidler besluttsomhetens ånd og ønsket om å utforske nye horisonter.",
+      "Sørums lidenskapelige vokal og det dynamiske rockarrangementet skaper en intens og motiverende atmosfære, som inviterer lytterne til å omfavne motet og seile mot drømmene sine."
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Ut_mot_havet_dfydy9.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Ut_mot_havet_mobile_m72ijh.webp"
+  },
+  {
+    "objectID": "110",
+    "category": "Viser",
+    "subcategory": ["Nordisk", "Popballade"],
+    "title": "Vandringsvise",
+    "arrangement": ["solo"],
+    "composer": "Finn Ludt",
+    "recommended": false,
+    "video": false,
+    "description": [
+      "Vandringsvise, komponert av Finn Ludt, er en inderlig folkevise som skildrer reisen til en vandrer som finner trøst i den åpne veien. Med sin sjelfulle tekst og melodiske komposisjon, snakker sangen om friheten og introspeksjonen ved å vandre og omfavne det ukjente.",
+      "Vandringsvise fanger essensen av selvoppdagelse og skjønnheten i å omfavne reisen.",
+      "Ludts emosjonelle vokal og det autentiske folkearrangementet skaper en reflekterende og gripende atmosfære, som inviterer lyttere til å koble seg til den vandrers opplevelse og finne sin følelse av frigjøring."
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Vandringsvise_wwm6ab.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Vandringsvise_mobile_unsiqt.webp"
+  },
+  {
+    "objectID": "111",
+    "category": "Viser",
+    "subcategory": ["Nordisk", "Popballade"],
+    "title": "Vi vandrar saman",
+    "arrangement": ["solo", "duet"],
+    "composer": "Ingvar Hauge",
+    "recommended": false,
+    "video": false,
+    "description": [
+      "Vi vandrar saman, komponert av Ingvar Hauge, er en hjertevarm folkeballade som hyller reisen til samvær og felles opplevelser.",
+      "Med sin rørende tekst og melodiske komposisjon snakker sangen om båndet mellom to individer som går gjennom livets opp- og nedturer sammen.",
+      "Vi vandrar saman fanger essensen av solidaritet og komforten ved å ha en partner på livets reise. Hauges emosjonelle vokal og det folk-inspirerte arrangementet skaper en intim og inderlig atmosfære, og inviterer lyttere til å koble seg til kraften i selskap og felles eventyr."
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Vi_vandrar_saman_wtfdtn.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Vi_vandrar_saman_mobile_kecynx.webp"
+  },
+  {
+    "objectID": "112",
+    "category": "Viser",
+    "subcategory": ["Nordisk", "Popballade"],
+    "title": "Visa från utanmyra",
+    "arrangement": ["solo"],
+    "composer": "Svensk folkevise",
+    "recommended": false,
+    "video": false,
+    "description": [
+      "Visa från utanmyra er en fengslende svensk folkeballade som legemliggjør landlige landskap og tradisjonelle melodier. Med sin stemningsfulle tekst og melodiske komposisjon snakker sangen om landskapets skjønnhet og ro.",
+      "Visa från utanmyra fanger essensen av nostalgi og en forbindelse til naturens rytmer.",
+      "Det tradisjonelle folkearrangementet og melodien skaper en sjelfull og kontemplativ atmosfære, og inviterer lytterne til å fordype seg i stillheten og tidløse lokket til den svenske landsbygda."
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Visa_fra%CC%8An_utanmyra_s13thr.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Visa_fra%CC%8An_utanmyra_mobile_t49eiq.webp"
+  },
+  {
+    "objectID": "113",
+    "category": "Viser",
+    "subcategory": ["Nordisk", "Popballade"],
+    "title": "Vuggevise",
+    "arrangement": ["solo"],
+    "composer": "Jens Gundersen",
+    "recommended": false,
+    "video": false,
+    "description": [
+      "Vuggevise, komponert av Jens Gundersen, er en øm og beroligende vuggevise som omslutter lytterne i en kokong av trøst og ro. Med sin milde tekst og melodiske komposisjon, skaper sangen en beroligende atmosfære perfekt for å roe rastløse sinn.",
+      "Vuggevise fanger essensen av foreldrekjærlighet og den tidløse praksisen med å berolige spedbarn i søvn.",
+      "Gundersens ømme vokal og delikate arrangement skaper en nærende og fredelig atmosfære, som inviterer lyttere til å slappe av og omfavne roen i vuggevisen."
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Vuggevise_rhwbu4.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Vuggevise_mobile_y9hzdq.webp"
   }
 ]
