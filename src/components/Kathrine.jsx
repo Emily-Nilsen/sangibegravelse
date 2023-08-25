@@ -31,8 +31,8 @@ export function Kathrine() {
             Kathrine Hvinden Hals
           </h1>
           <p className="mt-6 text-xl leading-8 text-gray-700">
-            Kathrine Hvinden Hals er en dyktig fiolinist med en imponerende
-            utdannelsesbakgrunn.
+            Kathrine Hvinden Hals er utdannet ved Barratt Due Musikkinstitutt i
+            Oslo og Royal College of Music i London.
           </p>
         </div>
         <div className="grid max-w-2xl grid-cols-1 mx-auto mt-16 gap-x-8 gap-y-16 lg:mx-0 lg:mt-10 lg:max-w-none lg:grid-cols-12">
@@ -62,8 +62,6 @@ export function Kathrine() {
           </div>
           <div className="max-w-xl text-base leading-7 text-gray-700 lg:col-span-7">
             <p>
-              Hun har utmerket seg som musiker gjennom sine studier ved Barratt
-              Due Musikkinstitutt i Oslo og Royal College of Music i London.
               Kathrines talent har blitt anerkjent gjennom flere 1. priser i
               Norges musikkmesterskap, samt deltakelse på prestisjefylte
               musikkfestivaler som Valdres sommersymfoni og Margess

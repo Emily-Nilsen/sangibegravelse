@@ -41,8 +41,7 @@ export function HeroKathrine() {
               Kathrine Hvinden Hals
             </h6>
             <p className="hidden max-w-xs px-10 mx-auto mt-6 leading-8 text-gray-600 sm:px-0 sm:max-w-lg sm:text-lg lg:max-w-xl sm:mx-0 sm:block">
-              Talentfull fiolinist med prisvinnende bakgrunn, internasjonal
-              erfaring, solistoppdrag og engasjert musikkunderviser.
+              Talentfull prisvinnende fiolinist med internasjonal erfaring.
             </p>
             <div className="flex items-center justify-center mt-10 sm:justify-start gap-x-6">
               <Link
