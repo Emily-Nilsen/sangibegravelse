@@ -37,6 +37,7 @@ export function VideoList() {
           <Videos>
             {videos.map((video) => (
               <Video
+                key={video.href}
                 href={video.href}
                 title={video.title}
                 description={video.description}
