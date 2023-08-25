@@ -27,7 +27,7 @@ const people = [
 
 export function ArtistsPreview() {
   return (
-    <div id="artister" className="py-32 bg-white">
+    <div id="artister" className="py-32 bg-gray-50/50">
       <div className="px-6 mx-auto text-center max-w-7xl lg:px-8">
         <div className="max-w-2xl mx-auto">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
@@ -60,7 +60,7 @@ export function ArtistsPreview() {
                 <li>
                   <Link
                     href={person.profileUrl}
-                    className="rounded-md bg-slate-50 px-3.5 py-2.5 text-sm font-medium text-slate-600 shadow-sm hover:bg-slate-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-slate-400 transition-all duration-150 ease-in-out hover:text-slate-900"
+                    className="rounded-md bg-white px-3.5 py-2.5 text-sm font-medium text-slate-600 shadow-sm hover:bg-slate-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-slate-400 transition-all duration-150 ease-in-out hover:text-slate-900"
                   >
                     Se profil
                   </Link>

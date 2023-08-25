@@ -1,0 +1,52 @@
+import Image from 'next/image';
+import Link from 'next/link';
+import { Videos } from './Videos';
+import { Video } from './Videos';
+
+const videos = [
+  {
+    href: 'https://www.youtube.com/watch?v=atdbe9jFw2g',
+    title: 'Kjærlighet',
+    description: 'Sopranen Susanne Hvinden Hals',
+  },
+  {
+    href: 'https://www.youtube.com/watch?v=cIEWg-XSqAI',
+    title: 'Ach, ich fühl’s',
+    description: 'Sopranen Susanne Hvinden Hals',
+  },
+];
+
+export function VideoList() {
+  return (
+    <div id="videoer" className="py-32 bg-white">
+      <div className="px-6 mx-auto text-center max-w-7xl lg:px-8">
+        <div className="max-w-2xl mx-auto">
+          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+            Videoer
+          </h2>
+          <p className="mt-4 text-lg leading-8 text-gray-600">
+            Vår talentfulle gruppe av erfarne og lidenskapelige artister,
+            dedikert til å skape minneverdige musikalske opplevelser.
+          </p>
+        </div>
+        {/* <ul
+          role="list"
+          className="grid max-w-2xl grid-cols-1 mx-auto mt-20 text-left gap-x-8 gap-y-16 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3"
+        > */}
+        <div className="mt-10">
+          <Videos>
+            {videos.map((video) => (
+              <Video
+                href={video.href}
+                title={video.title}
+                description={video.description}
+              />
+            ))}
+          </Videos>
+        </div>
+
+        {/* </ul> */}
+      </div>
+    </div>
+  );
+}
