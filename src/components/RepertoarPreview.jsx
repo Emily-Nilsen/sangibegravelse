@@ -9,25 +9,25 @@ const features = [
   {
     name: 'Salmer',
     description:
-      'Religiøse sanger hedrer livet og trøster sørgende gjennom meningsfulle tekster og melodi. De gir tro, refleksjon og håp, og samler trøst og enhet i tap.',
+      'Trøster, hedrer og samler gjennom tro, melodi og meningsfulle tekster.',
     icon: <ChurchIcon className="w-5 h-5 fill-slate-600" aria-hidden="true" />,
   },
   {
     name: 'Viser',
     description:
-      'Musikk som bærer tradisjon og historiefortelling, forankret i kulturarv med akustiske instrumenter, gir intimitet, trøst og refleksjon.',
+      'Tradisjonsrik musikk med akustiske instrumenter gir intimitet, trøst og refleksjon gjennom historiefortelling.',
     icon: <ViolinIcon className="w-5 h-5 fill-slate-600" aria-hidden="true" />,
   },
   {
     name: 'Klassisk',
     description:
-      'Elskede komposisjoner med gripende melodier og stemningsfulle tekster hedrer minnet, gir trøst og refleksjon til sørgende hjerter.',
+      'Gripende musikk trøster, ærer minnet og reflekterer over sorg med melodier.',
     icon: <PianoIcon className="w-4 h-4 fill-slate-600" aria-hidden="true" />,
   },
   {
     name: 'Pop',
     description:
-      'Moderne, meningsfull musikk som gir gjenklang med den avdødes liv, gir et moderne preg til seremonier og skaper trøst gjennom kjente melodier.',
+      'Moderne, meningsfull musikk gir trøst med kjente melodier i avdødes seremonier.',
     icon: (
       <MicrophoneIcon className="w-4 h-4 fill-slate-600" aria-hidden="true" />
     ),

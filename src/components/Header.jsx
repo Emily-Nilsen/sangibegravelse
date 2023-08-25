@@ -22,7 +22,7 @@ export function Header() {
             <Image
               className="w-auto h-8"
               src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1685020173/Sang%20i%20begravelse/logo_v3_3x_vgr7ar.png"
-              alt="Sand i begravelse - logo"
+              alt="Sang i begravelse - logo"
               width={265}
               height={230}
             />
