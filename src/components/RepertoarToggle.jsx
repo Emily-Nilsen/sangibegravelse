@@ -145,6 +145,9 @@ export function RepertoarToggle() {
                   <option value="Musikal">Musikal</option>
                   <option value="Kunstsang">Kunstsang</option>
                   <option value="Aria">Aria</option>
+                  <option value="Soul">Soul/R&B</option>
+                  <option value="Jazz">Jazz</option>
+                  <option value="Rock">Rock</option>
                 </select>
               </div>
               <div>

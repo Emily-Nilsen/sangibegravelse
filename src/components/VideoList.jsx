@@ -25,8 +25,7 @@ export function VideoList() {
             Videoer
           </h2>
           <p className="mt-4 text-lg leading-8 text-gray-600">
-            Vår talentfulle gruppe av erfarne og lidenskapelige artister,
-            dedikert til å skape minneverdige musikalske opplevelser.
+            Under følger eksempler fra reportoaret fremført av våre musikere.
           </p>
         </div>
         {/* <ul
