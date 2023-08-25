@@ -19,8 +19,8 @@ const videos = [
 export function VideoList() {
   return (
     <div id="videoer" className="py-32 bg-white">
-      <div className="px-6 mx-auto text-center max-w-7xl lg:px-8">
-        <div className="max-w-2xl mx-auto">
+      <div className="px-6 mx-auto text-left max-w-7xl lg:px-8">
+        <div className="max-w-2xl">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
             Videoer
           </h2>
