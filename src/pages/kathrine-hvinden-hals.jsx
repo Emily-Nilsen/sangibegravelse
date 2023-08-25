@@ -10,7 +10,8 @@ export default function KathrineHvindenHals() {
         <title>Fiolinist Kathrine Hvinden Hals</title>
         <meta
           name="description"
-          content="En talentfull sopran med en fortryllende stemme og allsidig repertoar fra pop til opera."
+          content="Talentfull fiolinist med prisvinnende bakgrunn, internasjonal
+          erfaring, solistoppdrag og engasjert musikkunderviser."
         />
         <link
           rel="canonical"

@@ -74,7 +74,7 @@ export function Kathrine() {
               I tillegg til sin imponerende solokarriere, deler Kathrine sin
               lidenskap for musikk gjennom undervisning både nasjonalt og
               internasjonalt. Hun har en betydelig konsertportefølje, inkludert
-              en minneverdig soloturné med Kjetil Veas "Andante" i 2003/2004, og
+              en minneverdig soloturné med Kjetil Veas ‘Andante’ i 2003/2004, og
               deltakelse på Alexander Rybaks internasjonale konsertturné etter
               hans Grand Prix-seier i 2010.
             </p>
