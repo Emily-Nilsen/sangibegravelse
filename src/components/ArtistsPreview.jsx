@@ -20,7 +20,7 @@ const people = [
     name: 'Kathrine Hvinden Hals',
     role: 'Fiolinist',
     imageUrl:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Kathrine_ghkcqt.jpg',
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Kathrine_square_eqohro.webp',
     profileUrl: '/kathrine-hvinden-hals',
   },
 ];

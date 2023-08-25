@@ -2,15 +2,12 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from 'react';
 import { ChevronDownIcon } from '@heroicons/react/20/solid';
-import { Switch } from '@headlessui/react';
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ');
 }
 
 export default function Kontakt() {
-  const [agreed, setAgreed] = useState(false);
-
   return (
     <section className="relative bg-white">
       <div className="absolute inset-0 hidden md:block">
@@ -41,8 +38,8 @@ export default function Kontakt() {
             Ta kontakt
           </h2>
           <p className="mt-2 text-lg leading-8 text-gray-600">
-            Har du spørsmål eller ønsker å booke våre tjenester? Ta kontakt med
-            oss i dag.
+            Har du spørsmål eller ønsker å booke våre tjenester? <br /> Ta
+            kontakt med oss i dag.
           </p>
         </div>
         <form
@@ -127,24 +124,6 @@ export default function Kontakt() {
                 Telefonnummer
               </label>
               <div className="relative mt-2.5">
-                {/* <div className="absolute inset-y-0 left-0 flex items-center">
-                  <label htmlFor="country" className="sr-only">
-                    Country
-                  </label>
-                  <select
-                    id="country"
-                    name="country"
-                    className="h-full py-0 pl-4 text-gray-400 bg-transparent border-0 rounded-md bg-none pr-9 focus:ring-2 focus:ring-inset focus:ring-slate-600 sm:text-sm"
-                  >
-                    <option>US</option>
-                    <option>CA</option>
-                    <option>EU</option>
-                  </select>
-                  <ChevronDownIcon
-                    className="absolute top-0 w-5 h-full text-gray-400 pointer-events-none right-3"
-                    aria-hidden="true"
-                  />
-                </div> */}
                 <input
                   type="tel"
                   name="phone-number"
@@ -172,38 +151,38 @@ export default function Kontakt() {
                 />
               </div>
             </div>
-            <Switch.Group as="div" className="flex gap-x-4 sm:col-span-2">
-              <div className="flex items-center h-6">
-                <Switch
-                  required
-                  checked={agreed}
-                  onChange={setAgreed}
-                  className={classNames(
-                    agreed ? 'bg-slate-600' : 'bg-gray-200',
-                    'flex w-8 flex-none cursor-pointer rounded-full p-px ring-1 ring-inset ring-gray-900/5 transition-colors duration-200 ease-in-out focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-slate-600'
-                  )}
-                >
-                  <span className="sr-only">Agree to policies</span>
-                  <span
-                    aria-hidden="true"
-                    className={classNames(
-                      agreed ? 'translate-x-3.5' : 'translate-x-0',
-                      'h-4 w-4 transform rounded-full bg-white shadow-sm ring-1 ring-gray-900/5 transition duration-200 ease-in-out'
-                    )}
-                  />
-                </Switch>
+            {/* Agree */}
+
+            <fieldset className="flex mt-6 gap-x-4 sm:col-span-2">
+              <div className="space-y-8">
+                <div className="relative flex items-start">
+                  <div className="flex items-center h-5">
+                    <input
+                      id="samtykke"
+                      name="samtykke"
+                      type="checkbox"
+                      required
+                      className="w-4 h-4 rounded text-slate-600 border-stone-300 focus:ring-slate-500"
+                    />
+                  </div>
+                  <div className="ml-3 -mt-1 text-base">
+                    <label
+                      htmlFor="samtykke"
+                      className="text-sm leading-6 text-gray-600"
+                    >
+                      Ved å velge dette godtar du vår{' '}
+                      <Link
+                        href="/personvernerklaering"
+                        className="font-semibold text-slate-600"
+                      >
+                        personvernerklæring
+                      </Link>
+                      .
+                    </label>
+                  </div>
+                </div>
               </div>
-              <Switch.Label className="text-sm leading-6 text-gray-600">
-                Ved å velge dette godtar du vår{' '}
-                <Link
-                  href="/personvernerklaering"
-                  className="font-semibold text-slate-600"
-                >
-                  personvernerklæring
-                </Link>
-                .
-              </Switch.Label>
-            </Switch.Group>
+            </fieldset>
           </div>
           <div className="mt-10">
             <button
