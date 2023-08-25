@@ -14,7 +14,7 @@ export default function NilsGeorgNilsen() {
         />
         <link
           rel="canonical"
-          href="https://www.sangibegravelse.no/"
+          href="https://www.sangibegravelse.no/nils-georg-nilsen"
           key="canonical"
         />
       </Head>

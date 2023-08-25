@@ -11,14 +11,14 @@ export function HeroNilsGeorg() {
       <div className="relative grid grid-cols-1 overflow-hidden isolate pt-14 sm:grid-cols-2">
         <Image
           src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/NG_profile_mobile_kbfder.webp"
-          alt="Hvite roser"
+          alt="Nils Georg Nilsen"
           width={2073}
           height={1887}
           className="absolute inset-0 object-cover w-full h-full sm:hidden -z-10"
         />
         <Image
           src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/NG_profile_ho4l6x.webp"
-          alt="Hvite roser"
+          alt="Nils Georg Nilsen"
           width={2830}
           height={1887}
           className="absolute inset-0 hidden object-cover w-full h-full sm:block -z-10"

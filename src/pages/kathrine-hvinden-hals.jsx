@@ -1,27 +1,27 @@
 import Head from 'next/head';
 
-import { HeroSusanne } from '@/components/HeroSusanne';
-import { Susanne } from '@/components/Susanne';
+import { HeroKathrine } from '@/components/HeroKathrine';
+import { Kathrine } from '@/components/Kathrine';
 
-export default function SusanneHvindenHals() {
+export default function KathrineHvindenHals() {
   return (
     <>
       <Head>
-        <title>Sopranen Susanne Hvinden Hals</title>
+        <title>Fiolinist Kathrine Hvinden Hals</title>
         <meta
           name="description"
           content="En talentfull sopran med en fortryllende stemme og allsidig repertoar fra pop til opera."
         />
         <link
           rel="canonical"
-          href="https://www.sangibegravelse.no/susanne-hvinden-hals"
+          href="https://www.sangibegravelse.no/kathrine-hvinden-hals"
           key="canonical"
         />
       </Head>
       <div className="bg-white">
         <main>
-          <HeroSusanne />
-          <Susanne />
+          <HeroKathrine />
+          <Kathrine />
         </main>
       </div>
     </>

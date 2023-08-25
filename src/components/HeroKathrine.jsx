@@ -5,20 +5,20 @@ import { useState } from 'react';
 import { Dialog } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 
-export function HeroSusanne() {
+export function HeroKathrine() {
   return (
     <div className="bg-gray-900 ">
       <div className="relative grid grid-cols-1 overflow-hidden isolate pt-14 sm:grid-cols-2">
         <Image
-          src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Susanne_-_sang_i_begravelse_agu4ux.webp"
-          alt="Susanne Hvinden Hals"
+          src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Kathrine_profile_mobile_xdvyc3.webp"
+          alt="Kathrine Hvinden Hals"
           width={2073}
           height={1887}
           className="absolute inset-0 object-cover w-full h-full sm:hidden -z-10"
         />
         <Image
-          src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Susanne_profile_hero_izpvsj.webp"
-          alt="Susanne Hvinden Hals"
+          src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Kathrine_profile_gbfghg.webp"
+          alt="Kathrine Hvinden Hals"
           width={2830}
           height={1887}
           className="absolute inset-0 hidden object-cover w-full h-full sm:block -z-10"
@@ -38,11 +38,11 @@ export function HeroSusanne() {
         <div className="max-w-md py-32 mx-auto sm:mr-12 sm:-ml-12 sm:col-start-2 sm:max-w-2xl md:max-w-3xl sm:py-48 lg:py-56 sm:mx-0">
           <div className="text-center sm:text-left">
             <h6 className="text-5xl tracking-tight sm:text-slate-700 text-slate-600 sm:text-6xl lg:text-7xl">
-              Susanne Hvinden Hals
+              Kathrine Hvinden Hals
             </h6>
             <p className="hidden max-w-xs px-10 mx-auto mt-6 leading-8 text-gray-600 sm:px-0 sm:max-w-lg sm:text-lg lg:max-w-xl sm:mx-0 sm:block">
-              En talentfull sopran med en fortryllende stemme og allsidig
-              repertoar fra pop til opera.
+              Talentfull fiolinist med prisvinnende bakgrunn, internasjonal
+              erfaring, solistoppdrag og engasjert musikkunderviser.
             </p>
             <div className="flex items-center justify-center mt-10 sm:justify-start gap-x-6">
               <Link
