@@ -2286,7 +2286,7 @@
     "composer": "Wolfgang Amadeus Mozart",
     "recommended": false,
     "audio": true,
-    "audioUrl": "https://res.cloudinary.com/dt3k2apqd/video/upload/q_auto/Sang%20i%20begravelse/Audio/Pamina_teaser_v2_abz5fj.wav",
+    "audioUrl": "https://res.cloudinary.com/dt3k2apqd/video/upload/q_auto/Sang%20i%20begravelse/Audio/Ach_ich_fu%CC%88hls_teaser_pbxieg.wav",
     "performers": "Susanne Hvinden Hals",
     "description": [
       "Ach, ich fühl's, komponert av Wolfgang Amadeus Mozart, er en følelsesladet arie fra operaen «Tryllefløyten». Arien formidler dyp sorg og lengsel gjennom sin uttrykksfulle melodi og inderlige tekst.",
@@ -2333,5 +2333,24 @@
     ],
     "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Caruso_fyoook.webp",
     "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Caruso_mobile_vqjhdv.webp"
+  },
+  {
+    "objectID": "138",
+    "category": "Pop",
+    "subcategory": ["Crossover"],
+    "title": "The Prayer",
+    "arrangement": ["duet"],
+    "composer": "David Foster / Carole Bayer Sager / Alberto Testa / Tony Renis",
+    "recommended": false,
+    "audio": true,
+    "audioUrl": "https://res.cloudinary.com/dt3k2apqd/video/upload/q_auto/Sang%20i%20begravelse/Audio/Caruso_teaser_osdu8s.wav",
+    "performers": "Susanne Hvinden Hals, Nils Georg Nilsen",
+    "description": [
+      "The Prayer, komponert av David Foster, Carole Bayer Sager, Alberto Testa og Tony Renis, er en kraftig vokalduett som formidler håp, tro og enhetstemaer.",
+      "Med sine oppløftende tekst og harmoniske melodier fungerer sangen som en inderlig bønn om veiledning og forbindelse. The Prayer fanger opp søken etter trøst og trøst i utfordrende tider.",
+      "Duettens harmoniske vokal og sammensmeltningen av klassiske og popelementer skaper en transcendent og oppløftende atmosfære, som inviterer lyttere til å omfavne kraften til kollektivt håp."
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/The_Prayer_y0skig.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/The_Prayer_mobile_ldlhcl.webp"
   }
 ]
