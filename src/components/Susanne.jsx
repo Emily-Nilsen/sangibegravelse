@@ -137,6 +137,31 @@ export function Susanne() {
                 susannehals.com <span aria-hidden="true">→</span>
               </Link>
             </div>
+            <div className="p-10 rounded-2xl bg-gray-50">
+              <h3 className="text-base font-semibold leading-7 text-gray-900">
+                Kontakt Susanne
+              </h3>
+              <dl className="mt-3 space-y-1 text-sm leading-6 text-gray-600">
+                <div>
+                  <dt className="sr-only">Email</dt>
+                  <dd>
+                    <Link
+                      className="font-semibold text-slate-600"
+                      href="mailto:susannehvinden@gmail.com"
+                    >
+                      susannehvinden@gmail.com
+                    </Link>
+                  </dd>
+                </div>
+                <div className="mt-1">
+                  <dt className="sr-only">Phone number</dt>
+                  <dd>
+                    {' '}
+                    <Link href="tel:+47 155 06 256">+47 155 06 256</Link>
+                  </dd>
+                </div>
+              </dl>
+            </div>
           </div>
         </div>
       </div>

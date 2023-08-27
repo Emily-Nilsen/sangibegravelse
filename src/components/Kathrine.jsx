@@ -93,6 +93,31 @@ export function Kathrine() {
                 sostrenehals.com <span aria-hidden="true">→</span>
               </Link>
             </div>
+            <div className="p-10 rounded-2xl bg-gray-50">
+              <h3 className="text-base font-semibold leading-7 text-gray-900">
+                Kontakt Kathrine
+              </h3>
+              <dl className="mt-3 space-y-1 text-sm leading-6 text-gray-600">
+                <div>
+                  <dt className="sr-only">Email</dt>
+                  <dd>
+                    <Link
+                      className="font-semibold text-slate-600"
+                      href="mailto:hvindenhalskathrine@gmail.com"
+                    >
+                      hvindenhalskathrine@gmail.com
+                    </Link>
+                  </dd>
+                </div>
+                <div className="mt-1">
+                  <dt className="sr-only">Phone number</dt>
+                  <dd>
+                    {' '}
+                    <Link href="tel:+47 476 76 555">+47 476 76 555</Link>
+                  </dd>
+                </div>
+              </dl>
+            </div>
           </div>
         </div>
       </div>
