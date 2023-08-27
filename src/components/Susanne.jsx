@@ -25,13 +25,13 @@ export function Susanne() {
       <div className="px-6 mx-auto max-w-7xl lg:px-8">
         <div className="max-w-2xl mx-auto lg:mx-0">
           <p className="text-lg font-semibold leading-8 tracking-tight text-slate-600">
-            Sopranen
+            Sangeren
           </p>
           <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
             Susanne Hvinden Hals
           </h1>
           <p className="mt-6 text-xl leading-8 text-gray-700">
-            Susanne Hvinden Hals er en talentfull og allsidig sopran fra Oslo
+            Susanne Hvinden Hals er en talentfull og allsidig sanger fra Oslo
             med en fortryllende, svevende stemme.
           </p>
         </div>
@@ -119,7 +119,7 @@ export function Susanne() {
               No server? No problem.
             </h2> */}
             <p className="mt-6">
-              Susanne er høyt ettertraktet som sopran i Norge på grunn av sine
+              Susanne er høyt ettertraktet som sanger i Norge på grunn av sine
               faglige sangferdigheter. Hun har samarbeidet med ulike orkestre i
               fremførelser av oratorier og har opptrådt på nasjonale og
               internasjonale festivaler og konserter, inkludert Málaga Clásica i

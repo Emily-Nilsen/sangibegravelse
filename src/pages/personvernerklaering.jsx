@@ -15,22 +15,20 @@ export default function Personvernerklæring() {
           Personvernerklæring
         </h1>
         <p className="mt-6 text-xl leading-8">
-          Sang i begravelse er opptatt av å ivareta personvernet til våre
-          brukere. Denne personvernerklæringen beskriver hvordan vi samler inn,
-          bruker, lagrer og beskytter personopplysninger i forbindelse med
-          driften av vår nettside. Ved å bruke nettsiden vår, samtykker du til
-          vår behandling av personopplysninger i tråd med denne erklæringen.
+          Din personvern er viktig for oss. Denne personvernerklæringen
+          forklarer hvordan "Sang i begravelse" samler inn, bruker, beskytter og
+          deler informasjon som samles inn gjennom nettkontaktskjemaet.
         </p>
-        <div className="max-w-2xl mt-10">
-          <p>
-            Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus
-            enim. Mattis mauris semper sed amet vitae sed turpis id. Id dolor
-            praesent donec est. Odio penatibus risus viverra tellus varius sit
-            neque erat velit. Faucibus commodo massa rhoncus, volutpat.
-            Dignissim sed eget risus enim. Mattis mauris semper sed amet vitae
-            sed turpis id.
+
+        <div className="max-w-2xl">
+          <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">
+            Informasjon vi samler inn
+          </h2>
+          <p className="mt-6 ">
+            Når du sender inn informasjon gjennom nettkontaktskjemaet på "Sang i
+            begravelse", kan vi samle inn følgende typer informasjon:
           </p>
-          {/* <ul role="list" className="max-w-xl mt-8 space-y-8 text-gray-600">
+          <ul role="list" className="max-w-xl mt-8 space-y-8 text-gray-600">
             <li className="flex gap-x-3">
               <CheckCircleIcon
                 className="flex-none w-5 h-5 mt-1 text-slate-600"
@@ -38,11 +36,10 @@ export default function Personvernerklæring() {
               />
               <span>
                 <strong className="font-semibold text-gray-900">
-                  Data types.
+                  Kontaktinformasjon.
                 </strong>{' '}
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Maiores impedit perferendis suscipit eaque, iste dolor
-                cupiditate blanditiis ratione.
+                Ditt navn, e-postadresse, telefonnummer og eventuell
+                tilleggsinformasjon du oppgir i meldingen.
               </span>
             </li>
             <li className="flex gap-x-3">
@@ -51,9 +48,33 @@ export default function Personvernerklæring() {
                 aria-hidden="true"
               />
               <span>
-                <strong className="font-semibold text-gray-900">Loops.</strong>{' '}
-                Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
-                lorem cupidatat commodo.
+                <strong className="font-semibold text-gray-900">
+                  Meldingsinnhold.
+                </strong>{' '}
+                Eventuelle meldinger, spørsmål eller kommentarer du velger å
+                inkludere i kontaktskjemaet.
+              </span>
+            </li>
+          </ul>
+          <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">
+            Hvordan vi bruker informasjonen
+          </h2>
+          <p className="mt-6">
+            Vi bruker informasjonen som samles inn gjennom nettkontaktskjemaet
+            til følgende formål:
+          </p>
+          <ul role="list" className="max-w-xl mt-8 space-y-8 text-gray-600">
+            <li className="flex gap-x-3">
+              <CheckCircleIcon
+                className="flex-none w-5 h-5 mt-1 text-slate-600"
+                aria-hidden="true"
+              />
+              <span>
+                <strong className="font-semibold text-gray-900">
+                  Kontakt.
+                </strong>{' '}
+                Vi bruker kontaktinformasjonen for å kunne svare på dine
+                henvendelser og forespørsler.
               </span>
             </li>
             <li className="flex gap-x-3">
@@ -62,56 +83,58 @@ export default function Personvernerklæring() {
                 aria-hidden="true"
               />
               <span>
-                <strong className="font-semibold text-gray-900">Events.</strong>{' '}
-                Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus.
-                Et magna sit morbi lobortis.
+                <strong className="font-semibold text-gray-900">
+                  Kundeservice.
+                </strong>{' '}
+                Vi bruker meldingsinnholdet for å gi deg relevant informasjon og
+                assistanse i forbindelse med våre tjenester.
               </span>
             </li>
-          </ul> */}
-          <p className="mt-8">
-            Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis
-            odio id et. Id blandit molestie auctor fermentum dignissim. Lacus
-            diam tincidunt ac cursus in vel. Mauris varius vulputate et ultrices
-            hac adipiscing egestas. Iaculis convallis ac tempor et ut. Ac lorem
-            vel integer orci.
-          </p>
-          {/* <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">
-            From beginner to expert in 3 hours
-          </h2> */}
+          </ul>
+          <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">
+            Databeskyttelse og deling
+          </h2>
           <p className="mt-6">
-            Id orci tellus laoreet id ac. Dolor, aenean leo, ac etiam consequat
-            in. Convallis arcu ipsum urna nibh. Pharetra, euismod vitae interdum
-            mauris enim, consequat vulputate nibh. Maecenas pellentesque id sed
-            tellus mauris, ultrices mauris. Tincidunt enim cursus ridiculus mi.
-            Pellentesque nam sed nullam sed diam turpis ipsum eu a sed convallis
-            diam.
+            Vi tar ditt personvern på alvor og deler ikke din informasjon med
+            tredjeparter uten ditt samtykke, med mindre det er nødvendig for å
+            oppfylle dine forespørsler eller i samsvar med gjeldende lover og
+            regler.
+          </p>
+          <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">
+            Lagring av informasjon
+          </h2>
+          <p className="mt-6">
+            Vi lagrer informasjonen du sender inn gjennom nettkontaktskjemaet så
+            lenge det er nødvendig for å håndtere dine henvendelser og gi deg
+            relevant kundeservice. Etter dette kan vi lagre informasjonen i
+            samsvar med gjeldende lover og regler.
           </p>
 
-          <p className="mt-10">
-            Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus
-            enim. Mattis mauris semper sed amet vitae sed turpis id. Id dolor
-            praesent donec est. Odio penatibus risus viverra tellus varius sit
-            neque erat velit.
-          </p>
-        </div>
-
-        <div className="max-w-2xl mt-16">
-          {/* <h2 className="text-2xl font-bold tracking-tight text-gray-900">
-            Everything you need to get up and running
-          </h2> */}
+          <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">
+            Dine rettigheter
+          </h2>
           <p className="mt-6">
-            Purus morbi dignissim senectus mattis adipiscing. Amet, massa quam
-            varius orci dapibus volutpat cras. In amet eu ridiculus leo sodales
-            cursus tristique. Tincidunt sed tempus ut viverra ridiculus non
-            molestie. Gravida quis fringilla amet eget dui tempor dignissim.
-            Facilisis auctor venenatis varius nunc, congue erat ac. Cras
-            fermentum convallis quam.
+            Du har rett til å be om innsyn i den informasjonen vi har samlet inn
+            om deg gjennom nettkontaktskjemaet, samt rett til å be om retting,
+            sletting eller begrensning av bruken av denne informasjonen. Du har
+            også rett til å trekke tilbake eventuelle samtykker du har gitt.
           </p>
-          <p className="mt-8">
-            Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus
-            enim. Mattis mauris semper sed amet vitae sed turpis id. Id dolor
-            praesent donec est. Odio penatibus risus viverra tellus varius sit
-            neque erat velit.
+          <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">
+            Kontakt oss
+          </h2>
+          <p className="mt-6">
+            Hvis du har spørsmål eller bekymringer angående personvernet ditt
+            eller vår bruk av informasjonen din, vennligst kontakt oss på{' '}
+            <span className="font-semibold">nils.g.nilsen@gmail.com</span>.
+          </p>
+          <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">
+            Endringer i personvernerklæringen
+          </h2>
+          <p className="mt-6">
+            Vi forbeholder oss retten til å oppdatere denne
+            personvernerklæringen når som helst. Eventuelle endringer vil bli
+            publisert på nettsiden vår, og endringsdatoen øverst på denne
+            erklæringen vil bli justert.
           </p>
         </div>
       </div>

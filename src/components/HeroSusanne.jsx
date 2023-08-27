@@ -41,7 +41,7 @@ export function HeroSusanne() {
               Susanne Hvinden Hals
             </h6>
             <p className="hidden max-w-xs px-10 mx-auto mt-6 leading-8 text-gray-600 sm:px-0 sm:max-w-lg sm:text-lg lg:max-w-xl sm:mx-0 sm:block">
-              En talentfull sopran med en fortryllende stemme og allsidig
+              En talentfull sanger med en fortryllende stemme og allsidig
               repertoar fra pop til opera.
             </p>
             <div className="flex items-center justify-center mt-10 sm:justify-start gap-x-6">

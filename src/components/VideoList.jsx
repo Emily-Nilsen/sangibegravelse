@@ -7,12 +7,12 @@ const videos = [
   {
     href: 'https://www.youtube.com/watch?v=atdbe9jFw2g',
     title: 'Kjærlighet',
-    description: 'Sopranen Susanne Hvinden Hals',
+    description: 'Susanne Hvinden Hals',
   },
   {
     href: 'https://www.youtube.com/watch?v=cIEWg-XSqAI',
     title: 'Ach, ich fühl’s',
-    description: 'Sopranen Susanne Hvinden Hals',
+    description: 'Susanne Hvinden Hals',
   },
 ];
 

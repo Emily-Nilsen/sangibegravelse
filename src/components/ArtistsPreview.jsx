@@ -4,14 +4,14 @@ import Link from 'next/link';
 const people = [
   {
     name: 'Susanne Hvinden Hals',
-    role: 'Sopran',
+    role: 'Sanger',
     imageUrl:
       'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Susanne%20Hals/Susanne_img_1_c3qttj.webp',
     profileUrl: '/susanne-hvinden-hals',
   },
   {
     name: 'Nils Georg Nilsen',
-    role: 'Tenor',
+    role: 'Sanger',
     imageUrl:
       'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Nils%20Georg/general/about-profile-img_z38xiz.jpg',
     profileUrl: '/nils-georg-nilsen',
