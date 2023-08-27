@@ -382,6 +382,25 @@ export function RepertoarToggle() {
                                     </div>
                                   ))}
                                 </p>
+                                <>
+                                  {sang.audio && (
+                                    <div className="mt-6">
+                                      <audio controls>
+                                        <source
+                                          src={sang.audioUrl}
+                                          type="audio/mpeg"
+                                        />
+                                        Your browser does not support the audio
+                                        element.
+                                      </audio>
+                                    </div>
+                                  )}
+                                  {sang.performers && (
+                                    <p className="max-w-lg pt-4 text-sm leading-7 text-gray-600">
+                                      {sang.performers}
+                                    </p>
+                                  )}
+                                </>
                               </div>
                             </div>
                             <div
