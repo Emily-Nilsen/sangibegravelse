@@ -44,39 +44,51 @@ export function Footer() {
             <p className="text-sm leading-6 text-gray-600">
               Vi hjelper pårørende med passende begravelsesmusikk.
             </p>
+            {/* <div className="flex space-x-6">
+              {navigation.social.map((item) => (
+                <a
+                  key={item.name}
+                  href={item.href}
+                  className="text-gray-400 hover:text-gray-500"
+                >
+                  <span className="sr-only">{item.name}</span>
+                  <item.icon className="w-6 h-6" aria-hidden="true" />
+                </a>
+              ))}
+            </div> */}
           </div>
           <div className="grid grid-cols-2 gap-8 mt-16 xl:col-span-2 xl:mt-0">
             <div className="md:grid md:grid-cols-2 md:gap-8">
-              <div className="mt-10 md:mt-0">
-                <h3 className="font-semibold leading-6 text-gray-900">
+              <div>
+                <h3 className="text-sm font-semibold leading-6 text-gray-900">
                   Sanger
                 </h3>
                 <ul role="list" className="mt-6 space-y-4">
                   {navigation.sanger.map((item) => (
                     <li key={item.name}>
-                      <Link
+                      <a
                         href={item.href}
-                        className="text-sm leading-6 text-gray-600 transition duration-300 ease-in-out hover:text-gray-900"
+                        className="text-sm leading-6 text-gray-600 hover:text-gray-900"
                       >
                         {item.name}
-                      </Link>
+                      </a>
                     </li>
                   ))}
                 </ul>
               </div>
-              <div>
-                <h3 className="font-semibold leading-6 text-gray-900">
+              <div className="mt-10 md:mt-0">
+                <h3 className="text-sm font-semibold leading-6 text-gray-900">
                   Artister
                 </h3>
                 <ul role="list" className="mt-6 space-y-4">
                   {navigation.artister.map((item) => (
                     <li key={item.name}>
-                      <Link
+                      <a
                         href={item.href}
-                        className="text-sm leading-6 text-gray-600 transition duration-300 ease-in-out hover:text-gray-900"
+                        className="text-sm leading-6 text-gray-600 hover:text-gray-900"
                       >
                         {item.name}
-                      </Link>
+                      </a>
                     </li>
                   ))}
                 </ul>
@@ -84,35 +96,35 @@ export function Footer() {
             </div>
             <div className="md:grid md:grid-cols-2 md:gap-8">
               <div>
-                <h3 className="font-semibold leading-6 text-gray-900">
+                <h3 className="text-sm font-semibold leading-6 text-gray-900">
                   Om oss
                 </h3>
                 <ul role="list" className="mt-6 space-y-4">
                   {navigation.omOss.map((item) => (
                     <li key={item.name}>
-                      <Link
+                      <a
                         href={item.href}
-                        className="text-sm leading-6 text-gray-600 transition duration-300 ease-in-out hover:text-gray-900"
+                        className="text-sm leading-6 text-gray-600 hover:text-gray-900"
                       >
                         {item.name}
-                      </Link>
+                      </a>
                     </li>
                   ))}
                 </ul>
               </div>
               <div className="mt-10 md:mt-0">
-                <h3 className="font-semibold leading-6 text-gray-900">
+                <h3 className="text-sm font-semibold leading-6 text-gray-900">
                   Personvern
                 </h3>
                 <ul role="list" className="mt-6 space-y-4">
                   {navigation.personvern.map((item) => (
                     <li key={item.name}>
-                      <Link
+                      <a
                         href={item.href}
-                        className="text-sm leading-6 text-gray-600 transition duration-300 ease-in-out hover:text-gray-900"
+                        className="text-sm leading-6 text-gray-600 hover:text-gray-900"
                       >
                         {item.name}
-                      </Link>
+                      </a>
                     </li>
                   ))}
                 </ul>
