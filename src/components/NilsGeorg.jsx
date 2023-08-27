@@ -64,25 +64,20 @@ export function NilsGeorg() {
               Etter å ha fullført sin mastergrad ved Manhattan School of Music
               debuterte han ved Lincoln Center i New York. Han har nylig
               opptrådt som solist med Chicago Symphony Orchestra og har sunget
-              med den israelske operaen. Nils Georg har deltatt på festivaler og
-              konserter både i Norge og internasjonalt, inkludert Málaga
-              Clásica. Han er også professor i sang ved Galamian Academy of
-              Classical Music i Málaga, Spania.
+              med den israelske operaen.
             </p>
 
             <p className="mt-8">
-              Nils Georg utmerker seg innenfor flere sjangre og har et
-              omfattende operarepertoar, inkludert roller som Elvino, Tito,
-              Aumônier, Rinucco, Tinca, Tom Rakewell og Torquemada. Han har også
-              imponert som oratoriesolist i verk som Carmina Burana, Messa di
-              Gloria, Händels Messias, Mozarts Requiem, Christus Mendelssohn og
-              Bachs juleoratorium.
+              Nils Georg har deltatt på festivaler og konserter både i Norge og
+              internasjonalt, inkludert Málaga Clásica. Han er også professor i
+              sang ved Galamian Academy of Classical Music i Málaga, Spania.
             </p>
 
             <p className="mt-6">
-              I tillegg har Nils Georg samarbeidet med dansekompaniet Dances
-              Patrelle og opptrådt i New Yorks Gilbert og Sullivan Ballet i tre
-              påfølgende år.
+              I tillegg til å være en ettertraktet solist synger Nils Georg til
+              daglig i Nordic Tenors. Trioen opptrer med over 60 konserter i
+              året, de har vært kongelige toastmastere, åpnet Den Norske Opera
+              og Ballet og har også vunnet komiprisen.
             </p>
             <div className="my-6">
               <Link
@@ -92,6 +87,16 @@ export function NilsGeorg() {
                 className="text-sm font-semibold leading-6 transition-all duration-150 ease-in-out text-slate-600 hover:text-slate-950"
               >
                 nilsnilsentenor.com <span aria-hidden="true">→</span>
+              </Link>
+            </div>
+            <div className="my-6">
+              <Link
+                href="https://www.nordictenors.no/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm font-semibold leading-6 transition-all duration-150 ease-in-out text-slate-600 hover:text-slate-950"
+              >
+                nordictenors.no <span aria-hidden="true">→</span>
               </Link>
             </div>
             <div className="p-10 rounded-2xl bg-gray-50">

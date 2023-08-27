@@ -10,7 +10,7 @@ export default function SusanneHvindenHals() {
         <title>Sopranen Susanne Hvinden Hals</title>
         <meta
           name="description"
-          content="En talentfull sopran med en fortryllende stemme og allsidig repertoar fra pop til opera."
+          content="En talentfull sanger med en fortryllende stemme og allsidig repertoar fra pop til opera."
         />
         <link
           rel="canonical"
