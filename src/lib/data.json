@@ -2279,21 +2279,21 @@
   },
   {
     "objectID": "134",
-    "category": "Pop",
-    "subcategory": ["Moderne", "Rock"],
-    "title": "Hallelujah",
+    "category": "Klassisk",
+    "subcategory": ["Aria", "Opera"],
+    "title": "Ach, ich fühl’s",
     "arrangement": ["solo"],
-    "composer": "Leonard Cohen",
+    "composer": "Wolfgang Amadeus Mozart",
     "recommended": false,
     "audio": true,
-    "audioUrl": "https://res.cloudinary.com/dt3k2apqd/video/upload/q_auto/Sang%20i%20begravelse/Audio/Hallelujah_teaser_nda69u.wav",
-    "performers": "Nils Georg Nilsen",
+    "audioUrl": "https://res.cloudinary.com/dt3k2apqd/video/upload/q_auto/Sang%20i%20begravelse/Audio/Pamina_teaser_wbcffo.wav",
+    "performers": "Susanne Hvinden Hals",
     "description": [
-      "Hallelujah, komponert av Leonard Cohen, er en tidløs folk-rock-sang som bærer dyp ærbødighet, spiritualitet og introspeksjonstemaer.",
-      "Sangen reflekterer over kompleksiteten i menneskelige følelser og opplevelser med dens dype tekst og hjemsøkende melodi. Hallelujah fanger øyeblikk av fortvilelse og håp, og utforsker livets paradokser.",
-      "Sangens sjelfulle vokal og det akustiske arrangementet skaper en kontemplativ og sjeleglad atmosfære, som inviterer lyttere til å reflektere over sjelens reise."
+      "Ach, ich fühl's, komponert av Wolfgang Amadeus Mozart, er en følelsesladet arie fra operaen «Tryllefløyten». Arien formidler dyp sorg og lengsel gjennom sin uttrykksfulle melodi og inderlige tekst.",
+      "Ach, ich fühl's skildrer karakterens indre uro, og uttrykker en følelse av hjertesorg og sårbarhet.",
+      "Ariens gripende vokal og den delikate orkestreringen skaper en atmosfære av emosjonell intensitet, og inviterer lyttere til å føle med karakterens emosjonelle reise."
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Hallelujah_sqdjbs.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Hallelujah_mobile_byzdlr.webp"
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Ach_ich_fu%CC%88hls_vgnb21.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Ach_ich_fu%CC%88hls_mobile_tkdrki.webp"
   }
 ]
