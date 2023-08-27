@@ -2153,28 +2153,11 @@
       "Blueberry Hill fremkaller lengsel og lengsel etter fortiden, og fanger skjønnheten i kjære øyeblikk.",
       "Sangens varme vokal og rock and roll-arrangementet skaper en sentimental og oppløftende atmosfære, og inviterer lyttere til å gjenoppleve sine reiser nedover minnesporet."
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Blowin_in_the_Wind_zljc4q.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Blowin_in_the_Wind_mobile_g5ip4r.webp"
-  },
-  {
-    "objectID": "128",
-    "category": "Pop",
-    "subcategory": ["Moderne", "Rock", "Kjærlighetssang"],
-    "title": "Blueberry Hill",
-    "arrangement": ["solo"],
-    "composer": "Al Lewis / Vincent Rose / Larry Stock",
-    "recommended": false,
-    "audio": false,
-    "description": [
-      "Blueberry Hill, komponert av Al Lewis, Vincent Rose og Larry Stock, er en elsket rock and roll-klassiker som er full av nostalgi og romantikk. Sangens inderlige tekst og fengende melodi maler et bilde av gode minner og tapt kjærlighet.",
-      "Blueberry Hill fremkaller lengsel og lengsel etter fortiden, og fanger skjønnheten i kjære øyeblikk.",
-      "Sangens varme vokal og rock and roll-arrangementet skaper en sentimental og oppløftende atmosfære, og inviterer lyttere til å gjenoppleve sine reiser nedover minnesporet."
-    ],
     "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Blueberry_Hill_ma6qmd.webp",
     "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Blueberry_Hill_mobile_c5zpft.webp"
   },
   {
-    "objectID": "129",
+    "objectID": "128",
     "category": "Pop",
     "subcategory": ["Moderne", "Rock"],
     "title": "Bridge over Troubled Water",
@@ -2191,7 +2174,7 @@
     "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Bridge_over_Troubled_Water_mobile_pxe6yd.webp"
   },
   {
-    "objectID": "130",
+    "objectID": "129",
     "category": "Pop",
     "subcategory": ["Moderne", "Rock"],
     "title": "Brothers in Arms (med el-gitar)",
@@ -2208,7 +2191,7 @@
     "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Brothers_in_Arms_mobile_xiafy3.webp"
   },
   {
-    "objectID": "131",
+    "objectID": "130",
     "category": "Pop",
     "subcategory": ["Moderne", "Popballade"],
     "title": "Candle in the Wind",
@@ -2225,7 +2208,7 @@
     "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Candle_in_the_Wind_mobile_zxzgmm.webp"
   },
   {
-    "objectID": "132",
+    "objectID": "131",
     "category": "Pop",
     "subcategory": ["Moderne", "Kjærlighetssang"],
     "title": "Can’t Help Falling in Love",
@@ -2242,7 +2225,7 @@
     "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Can_t_Help_Falling_in_Love_mobile_m2gc6n.webp"
   },
   {
-    "objectID": "133",
+    "objectID": "132",
     "category": "Pop",
     "subcategory": ["Moderne", "Popballade"],
     "title": "Close to You",
@@ -2259,7 +2242,7 @@
     "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Close_to_You_mobile_npyahv.webp"
   },
   {
-    "objectID": "134",
+    "objectID": "133",
     "category": "Pop",
     "subcategory": ["Moderne", "Soul"],
     "title": "Dance with My Father",
