@@ -16,7 +16,7 @@ export default function Personvernerklæring() {
         </h1>
         <p className="mt-6 text-xl leading-8">
           Din personvern er viktig for oss. Denne personvernerklæringen
-          forklarer hvordan "Sang i begravelse" samler inn, bruker, beskytter og
+          forklarer hvordan ‘Sang i begravelse’ samler inn, bruker, beskytter og
           deler informasjon som samles inn gjennom nettkontaktskjemaet.
         </p>
 
@@ -25,8 +25,8 @@ export default function Personvernerklæring() {
             Informasjon vi samler inn
           </h2>
           <p className="mt-6 ">
-            Når du sender inn informasjon gjennom nettkontaktskjemaet på "Sang i
-            begravelse", kan vi samle inn følgende typer informasjon:
+            Når du sender inn informasjon gjennom nettkontaktskjemaet på ‘Sang i
+            begravelse’, kan vi samle inn følgende typer informasjon:
           </p>
           <ul role="list" className="max-w-xl mt-8 space-y-8 text-gray-600">
             <li className="flex gap-x-3">
