@@ -1502,8 +1502,8 @@
     "composer": "Arne Tofte / Vladimir Cosma",
     "recommended": false,
     "audio": true,
-    "audioUrl": "https://res.cloudinary.com/dt3k2apqd/video/upload/q_auto/Sang%20i%20begravelse/Audio/Pamina_teaser_wbcffo.wav",
-    "performers": ["Sopranen Susanne Hvinden Hals"],
+    "audioUrl": "https://res.cloudinary.com/dt3k2apqd/video/upload/q_auto/Sang%20i%20begravelse/Audio/Kj%C3%A6rlighet_teaser_ezf8xz.wav",
+    "performers": "Susanne Hvinden Hals",
     "description": [
       "Kjærlighet, komponert av Arne Tofte og Vladimir Cosma, er en gripende ballade som utforsker kjærlighetens dybde og kompleksitet. Med sin emosjonelle tekst og melodiøse komposisjon, snakker sangen om kjærlighetens forskjellige fasetter, inkludert glede, smerte og den dype forbindelsen mellom to sjeler.",
       "Kjærlighet fanger essensen av berg-og-dal-banen av følelser opplevd i kjærlighet og skjønnheten i å finne en dyp og meningsfull forbindelse med noen.",
@@ -2276,5 +2276,24 @@
     ],
     "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Engel_ikke_dra_aipsho.webp",
     "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Engel_ikke_dra_mobile_kmkrej.webp"
+  },
+  {
+    "objectID": "134",
+    "category": "Pop",
+    "subcategory": ["Moderne", "Rock"],
+    "title": "Hallelujah",
+    "arrangement": ["solo"],
+    "composer": "Leonard Cohen",
+    "recommended": false,
+    "audio": true,
+    "audioUrl": "",
+    "performers": "Nils Georg Nilsen",
+    "description": [
+      "Hallelujah, komponert av Leonard Cohen, er en tidløs folk-rock-sang som bærer dyp ærbødighet, spiritualitet og introspeksjonstemaer.",
+      "Sangen reflekterer over kompleksiteten i menneskelige følelser og opplevelser med dens dype tekst og hjemsøkende melodi. Hallelujah fanger øyeblikk av fortvilelse og håp, og utforsker livets paradokser.",
+      "Sangens sjelfulle vokal og det akustiske arrangementet skaper en kontemplativ og sjeleglad atmosfære, som inviterer lyttere til å reflektere over sjelens reise."
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Hallelujah_sqdjbs.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Hallelujah_mobile_byzdlr.webp"
   }
 ]
