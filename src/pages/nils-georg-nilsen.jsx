@@ -7,10 +7,12 @@ export default function NilsGeorgNilsen() {
   return (
     <>
       <Head>
-        <title>Tenor Nils Georg Nilsen</title>
+        <title>
+          Nils Georg Nilsen – Allsidig sanger med imponerende operarepertoar
+        </title>
         <meta
           name="description"
-          content="Allsidig sanger med imponerende prestasjoner og et omfattende operarepertoar."
+          content="Utforsk den allsidige sangeren Nils Georg Nilsen med imponerende operaprestasjoner og bredt repertoar. Les om hans karriere og opptredener."
         />
         <link
           rel="canonical"

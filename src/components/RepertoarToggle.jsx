@@ -82,7 +82,8 @@ export function RepertoarToggle() {
             </h1>
             <p className="mt-2 text-sm text-gray-700 sm:mt-6 sm:text-base sm:leading-8">
               En omfattende repertoarliste for begravelsessanger, inkludert
-              sangtittel, komponist, arrangement og kategori.
+              sangtittel, komponist, arrangement og kategori. Utforsk mer
+              informasjon om hver sang ved å klikke på pluss-symbolet.
             </p>
           </div>
           {/* Filter controls */}
@@ -168,7 +169,7 @@ export function RepertoarToggle() {
                   className="mt-2 block w-full rounded-md border-0 py-1.5 pl-3 pr-10 text-gray-900 ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-slate-600 sm:text-sm sm:leading-6"
                 >
                   <option value="">Alle</option>
-                  <option value="duet">Duet</option>
+                  <option value="duett">Duett</option>
                   <option value="fiolin">Fiolin</option>
                   <option value="solo">Solo</option>
                 </select>

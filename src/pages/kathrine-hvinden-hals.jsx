@@ -7,10 +7,13 @@ export default function KathrineHvindenHals() {
   return (
     <>
       <Head>
-        <title>Fiolinist Kathrine Hvinden Hals</title>
+        <title>
+          Kathrine Hvinden Hals – Prisvinnende fiolinist med internasjonal
+          erfaring
+        </title>
         <meta
           name="description"
-          content="Talentfull prisvinnende fiolinist med internasjonal erfaring."
+          content="Oppdag talentet til prisvinnende fiolinist Kathrine Hvinden Hals med internasjonal erfaring. Utforsk hennes solokarriere og prestisjetunge opptredener."
         />
         <link
           rel="canonical"

@@ -7,10 +7,13 @@ export default function SusanneHvindenHals() {
   return (
     <>
       <Head>
-        <title>Sopranen Susanne Hvinden Hals</title>
+        <title>
+          Susanne Hvinden Hals – Talentfull sanger med forskjønnende stemme og
+          allsidig repertoar
+        </title>
         <meta
           name="description"
-          content="En talentfull sanger med en fortryllende stemme og allsidig repertoar fra pop til opera."
+          content="Opplev den talentfulle sangeren Susanne Hvinden Hals med en fortryllende stemme og allsidig repertoar fra pop til opera. Les om hennes imponerende karriere."
         />
         <link
           rel="canonical"

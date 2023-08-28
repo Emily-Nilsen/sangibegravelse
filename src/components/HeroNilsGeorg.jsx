@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-
+import { motion } from 'framer-motion';
 import { useState } from 'react';
 import { Dialog } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
@@ -41,10 +41,19 @@ export function HeroNilsGeorg() {
               Nils Georg Nilsen
             </h6>
 
-            <p className="hidden px-10 mx-auto mt-6 leading-8 text-gray-600 max-w-[100px] sm:px-0 sm:max-w-lg sm:text-lg lg:max-w-xl sm:mx-0 sm:block ">
-              Allsidig tenor med imponerende prestasjoner og et omfattende
+            <motion.p
+              whileInView={{ opacity: 1 }}
+              initial={{ opacity: 0 }}
+              transition={{
+                delay: 0.5,
+                duration: 1,
+                type: 'fade',
+              }}
+              className="hidden px-10 mx-auto mt-6 leading-8 text-gray-600 max-w-[100px] sm:px-0 sm:max-w-lg sm:text-lg lg:max-w-xl sm:mx-0 sm:block "
+            >
+              Allsidig sanger med imponerende prestasjoner og et omfattende
               operarepertoar.
-            </p>
+            </motion.p>
 
             <div className="flex items-center justify-center mt-10 sm:justify-start gap-x-6">
               <Link

@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import { motion } from 'framer-motion';
 import { ChurchIcon } from './icons/Church';
 import { ViolinIcon } from './icons/Violin';
 import { PianoIcon } from './icons/Piano';
@@ -52,8 +53,23 @@ export function RepertoarPreview() {
                 salmer, viser, klassiske stykker, popsanger og mer.
               </p>
               <dl className="max-w-xl mt-10 space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
-                {features.map((feature) => (
-                  <div key={feature.name} className="relative pl-9">
+                {features.map((feature, i) => (
+                  <motion.div
+                    initial={{
+                      opacity: 0,
+                      y: 50,
+                    }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                    transition={{
+                      initialDelay: 0.3,
+                      duration: 0.7,
+                      delay: i * 0.3,
+                      ease: 'easeOut',
+                    }}
+                    key={i}
+                    className="relative pl-9"
+                  >
                     <dt className="inline font-semibold text-gray-900">
                       <span
                         className="absolute left-1 top-1"
@@ -65,7 +81,7 @@ export function RepertoarPreview() {
                     </dt>
                     {'. '}
                     <dd className="inline">{feature.description}</dd>
-                  </div>
+                  </motion.div>
                 ))}
               </dl>
               <div className="flex w-full my-6">
@@ -80,13 +96,26 @@ export function RepertoarPreview() {
               </div>
             </div>
           </div>
-          <Image
-            src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/repertoar_screenshot_bzsmms.webp"
-            alt="Rerpertoar for begravelsessang"
-            className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
-            width={2432}
-            height={1442}
-          />
+          <motion.div
+            whileInView={{ opacity: 1, y: 0 }}
+            initial={{
+              opacity: 0,
+              y: 50,
+            }}
+            transition={{
+              delay: 0.5,
+              duration: 1,
+              type: 'fade',
+            }}
+          >
+            <Image
+              src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/repertoar_screenshot_bzsmms.webp"
+              alt="Rerpertoar for begravelsessang"
+              className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
+              width={2432}
+              height={1442}
+            />
+          </motion.div>
         </div>
       </div>
     </div>

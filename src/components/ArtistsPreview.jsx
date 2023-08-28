@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import { motion } from 'framer-motion';
 
 const people = [
   {
@@ -42,8 +43,22 @@ export function ArtistsPreview() {
           role="list"
           className="grid max-w-2xl grid-cols-1 mx-auto mt-20 gap-x-8 gap-y-16 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3"
         >
-          {people.map((person) => (
-            <li key={person.name}>
+          {people.map((person, i) => (
+            <motion.li
+              initial={{
+                opacity: 0,
+                y: 50,
+              }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{
+                initialDelay: 0.3,
+                duration: 0.7,
+                delay: i * 0.3,
+                ease: 'easeOut',
+              }}
+              key={i}
+            >
               <Image
                 className="object-cover w-56 h-56 mx-auto rounded-full grayscale"
                 src={person.imageUrl}
@@ -66,7 +81,7 @@ export function ArtistsPreview() {
                   </Link>
                 </li>
               </ul>
-            </li>
+            </motion.li>
           ))}
         </ul>
       </div>

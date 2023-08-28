@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-
+import { motion } from 'framer-motion';
 import {
   CloudArrowUpIcon,
   LockClosedIcon,
@@ -30,13 +30,34 @@ export function Susanne() {
           <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
             Susanne Hvinden Hals
           </h1>
-          <p className="mt-6 text-xl leading-8 text-gray-700">
+          <motion.p
+            whileInView={{ opacity: 1 }}
+            initial={{ opacity: 0 }}
+            transition={{
+              delay: 0.5,
+              duration: 1,
+              type: 'fade',
+            }}
+            className="mt-6 text-xl leading-8 text-gray-700"
+          >
             Susanne Hvinden Hals er en talentfull og allsidig sanger fra Oslo
             med en fortryllende, svevende stemme.
-          </p>
+          </motion.p>
         </div>
         <div className="grid max-w-2xl grid-cols-1 mx-auto mt-16 gap-x-8 gap-y-16 lg:mx-0 lg:mt-10 lg:max-w-none lg:grid-cols-12">
-          <div className="relative lg:order-last lg:col-span-5">
+          <motion.div
+            whileInView={{ opacity: 1, y: 0 }}
+            initial={{
+              opacity: 0,
+              y: 50,
+            }}
+            transition={{
+              delay: 0.5,
+              duration: 1,
+              type: 'fade',
+            }}
+            className="relative lg:order-last lg:col-span-5"
+          >
             <figure className="pl-8 border-l border-slate-600">
               <blockquote className="text-xl font-semibold leading-8 tracking-tight text-gray-900">
                 <p>
@@ -59,13 +80,21 @@ export function Susanne() {
                 </div>
               </figcaption>
             </figure>
-          </div>
+          </motion.div>
           <div className="max-w-xl text-base leading-7 text-gray-700 lg:col-span-7">
-            <p>
+            <motion.p
+              whileInView={{ opacity: 1 }}
+              initial={{ opacity: 0 }}
+              transition={{
+                delay: 0.5,
+                duration: 1,
+                type: 'fade',
+              }}
+            >
               Hun har en omfattende musikalsk repertoar som spenner fra
               popmusikk til opera. Susanne fullførte sin mastergrad i musikk ved
               Det Kongelige Danske Musikkonservatorium i København.
-            </p>
+            </motion.p>
             {/* <ul role="list" className="max-w-xl mt-8 space-y-8 text-gray-600">
               <li className="flex gap-x-3">
                 <CloudArrowUpIcon
@@ -108,17 +137,35 @@ export function Susanne() {
                 </span>
               </li>
             </ul> */}
-            <p className="mt-8">
+            <motion.p
+              whileInView={{ opacity: 1 }}
+              initial={{ opacity: 0 }}
+              transition={{
+                delay: 0.5,
+                duration: 1,
+                type: 'fade',
+              }}
+              className="mt-8"
+            >
               Hun har imponert publikum med sine bemerkelsesverdige prestasjoner
               i roller som ‘Le nozze di Figaro’, ‘Die Fledermaus’, ‘Die
               Zauberflöte’ og ‘The Rape of Lucretia’ i populære
               operaproduksjoner. Susanne debuterte i 2003 med Det Norske
               Jentekor på Operaen i Montpellier i Frankrike.
-            </p>
+            </motion.p>
             {/* <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">
               No server? No problem.
             </h2> */}
-            <p className="mt-6">
+            <motion.p
+              whileInView={{ opacity: 1 }}
+              initial={{ opacity: 0 }}
+              transition={{
+                delay: 0.5,
+                duration: 1,
+                type: 'fade',
+              }}
+              className="mt-6"
+            >
               Susanne er høyt ettertraktet som sanger i Norge på grunn av sine
               faglige sangferdigheter. Hun har samarbeidet med ulike orkestre i
               fremførelser av oratorier og har opptrådt på nasjonale og
@@ -126,8 +173,17 @@ export function Susanne() {
               Spania. Med sin lidenskap for musikk og en imponerende stemme
               fortsetter Susanne Hvinden Hals å fortrylle publikum over hele
               verden.
-            </p>
-            <div className="my-6">
+            </motion.p>
+            <motion.div
+              whileInView={{ opacity: 1 }}
+              initial={{ opacity: 0 }}
+              transition={{
+                delay: 0.5,
+                duration: 1,
+                type: 'fade',
+              }}
+              className="my-6"
+            >
               <Link
                 href="https://www.susannehals.com/"
                 target="_blank"
@@ -136,8 +192,20 @@ export function Susanne() {
               >
                 susannehals.com <span aria-hidden="true">→</span>
               </Link>
-            </div>
-            <div className="p-10 rounded-2xl bg-gray-50">
+            </motion.div>
+            <motion.div
+              whileInView={{ opacity: 1, y: 0 }}
+              initial={{
+                opacity: 0,
+                y: 50,
+              }}
+              transition={{
+                delay: 0.5,
+                duration: 1,
+                type: 'fade',
+              }}
+              className="p-10 rounded-2xl bg-gray-50"
+            >
               <h3 className="text-base font-semibold leading-7 text-gray-900">
                 Kontakt Susanne
               </h3>
@@ -161,7 +229,7 @@ export function Susanne() {
                   </dd>
                 </div>
               </dl>
-            </div>
+            </motion.div>
           </div>
         </div>
       </div>

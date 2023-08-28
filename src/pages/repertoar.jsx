@@ -8,11 +8,11 @@ export default function Repertoar() {
     <>
       <Head>
         <title>
-          Sang i begravelse - Profesjonell begravelsessang og musikktjenester
+          Repertoar av begravelsessanger – Klassisk, pop, opera, salmer og viser
         </title>
         <meta
           name="description"
-          content="Finn de perfekte sangene for begravelser. Profesjonelle sangere og fiolinister er tilgjengelige. Kontakt oss i dag."
+          content="Utforsk vårt varierte repertoar av klassisk, pop, opera, salmer og viser-sanger med beskrivelser og arrangementer. Skap følelsesladet musikk til minnesverdige øyeblikk."
         />
         <link
           rel="canonical"

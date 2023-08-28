@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import { motion } from 'framer-motion';
 
 import { useState } from 'react';
 import { Dialog } from '@headlessui/react';
@@ -49,10 +50,19 @@ export function HeroHjem() {
             <h6 className="text-5xl tracking-tight text-slate-700 sm:text-6xl lg:text-7xl">
               Sang i begravelse
             </h6>
-            <p className="max-w-xs px-10 mx-auto mt-6 leading-8 text-gray-500 sm:px-0 sm:max-w-lg sm:text-lg lg:max-w-xl">
+            <motion.p
+              whileInView={{ opacity: 1 }}
+              initial={{ opacity: 0 }}
+              transition={{
+                delay: 0.5,
+                duration: 1,
+                type: 'fade',
+              }}
+              className="max-w-xs px-10 mx-auto mt-6 leading-8 text-gray-500 sm:px-0 sm:max-w-lg sm:text-lg lg:max-w-xl"
+            >
               Vår side er utviklet som et bidrag til pårørende for å finne og
               velge riktig musikk til begravelser.
-            </p>
+            </motion.p>
             <div className="flex items-center justify-center mt-10 gap-x-6">
               <Link
                 href="/repertoar"
