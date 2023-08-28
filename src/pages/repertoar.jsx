@@ -16,7 +16,7 @@ export default function Repertoar() {
         />
         <link
           rel="canonical"
-          href="https://www.sangibegravelse.no/repetoar"
+          href="https://sangibegravelse.no/repetoar"
           key="canonical"
         />
       </Head>

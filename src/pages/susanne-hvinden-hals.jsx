@@ -17,7 +17,7 @@ export default function SusanneHvindenHals() {
         />
         <link
           rel="canonical"
-          href="https://www.sangibegravelse.no/susanne-hvinden-hals"
+          href="https://sangibegravelse.no/susanne-hvinden-hals"
           key="canonical"
         />
       </Head>

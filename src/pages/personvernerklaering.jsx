@@ -18,7 +18,7 @@ export default function Personvernerklæring() {
         />
         <link
           rel="canonical"
-          href="https://www.sangibegravelse.no/personvernerklaering"
+          href="https://sangibegravelse.no/personvernerklaering"
           key="canonical"
         />
       </Head>

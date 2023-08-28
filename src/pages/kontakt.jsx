@@ -22,7 +22,7 @@ export default function Kontakt() {
         />
         <link
           rel="canonical"
-          href="https://www.sangibegravelse.no/kontakt"
+          href="https://sangibegravelse.no/kontakt"
           key="canonical"
         />
       </Head>

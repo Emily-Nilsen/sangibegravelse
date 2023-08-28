@@ -18,7 +18,7 @@ export default function Home() {
         />
         <link
           rel="canonical"
-          href="https://www.sangibegravelse.no/"
+          href="https://sangibegravelse.no/"
           key="canonical"
         />
       </Head>
