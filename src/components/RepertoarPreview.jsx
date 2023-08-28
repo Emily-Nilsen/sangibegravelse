@@ -109,7 +109,7 @@ export function RepertoarPreview() {
             }}
           >
             <Image
-              src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/repertoar_screenshot_bzsmms.webp"
+              src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/repertoar_Aug_2023_lpow5a.webp"
               alt="Rerpertoar for begravelsessang"
               className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
               width={2432}

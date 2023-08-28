@@ -2,6 +2,7 @@ import React from 'react';
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
+import { motion } from 'framer-motion';
 import { Disclosure } from '@headlessui/react';
 import { MinusSmallIcon, PlusSmallIcon } from '@heroicons/react/24/outline';
 
@@ -80,11 +81,20 @@ export function RepertoarToggle() {
             <h1 className="text-2xl font-bold leading-10 tracking-tight text-gray-900 sm:text-3xl">
               Repertoar
             </h1>
-            <p className="mt-2 text-sm text-gray-700 sm:mt-6 sm:text-base sm:leading-8">
+            <motion.p
+              whileInView={{ opacity: 1 }}
+              initial={{ opacity: 0 }}
+              transition={{
+                delay: 0.5,
+                duration: 1,
+                type: 'fade',
+              }}
+              className="mt-2 text-sm text-gray-700 sm:mt-6 sm:text-base sm:leading-8"
+            >
               En omfattende repertoarliste for begravelsessanger, inkludert
               sangtittel, komponist, arrangement og kategori. Utforsk mer
               informasjon om hver sang ved å klikke på pluss-symbolet.
-            </p>
+            </motion.p>
           </div>
           {/* Filter controls */}
           <div className="pt-6 sm:pt-8 sm:pb-4">
