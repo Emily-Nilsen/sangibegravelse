@@ -103,12 +103,13 @@ export function RepertoarToggle() {
                   className="mt-2 block w-full rounded-md border-0 py-1.5 pl-3 pr-10 text-gray-900 ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-slate-600 sm:text-sm sm:leading-6"
                 >
                   <option value="">Alle</option>
-                  <option value="Salmer">Salmer</option>
-                  <option value="Pop">Pop</option>
-                  <option value="Viser">Viser</option>
                   <option value="Klassisk">Klassisk</option>
+                  <option value="Musikal">Musikal</option>
                   <option value="Nordisk">Nordisk</option>
                   <option value="Opera">Opera</option>
+                  <option value="Pop">Pop</option>
+                  <option value="Salmer">Salmer</option>
+                  <option value="Viser">Viser</option>
                 </select>
               </div>
               {/* Subcategory */}
@@ -127,29 +128,29 @@ export function RepertoarToggle() {
                   className="mt-2 block w-full rounded-md border-0 py-1.5 pl-3 pr-10 text-gray-900 ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-slate-600 sm:text-sm sm:leading-6"
                 >
                   <option value="">Alle</option>
-                  <option value="Popballade">Popballade</option>
-                  <option value="Italiensk">Italiensk</option>
-                  <option value="Kirkemusikk">Kirkemusikk</option>
-                  <option value="Klassisk">Klassisk</option>
-                  <option value="Nordisk">Nordisk</option>
-                  <option value="Moderne">Moderne</option>
-                  <option value="Western">Western</option>
+                  <option value="Aria">Aria</option>
                   <option value="Country">Country</option>
-                  <option value="Opera">Opera</option>
-                  <option value="Islandsk">Islandsk</option>
-                  <option value="Tradisjonell">Tradisjonell</option>
-                  <option value="Julesanger">Julesanger</option>
+                  <option value="Crossover">Crossover</option>
                   <option value="Folkemusikk">Folkemusikk</option>
                   <option value="Irsk">Irsk</option>
-                  <option value="Kjærlighetssang">Kjærlighetssang</option>
-                  <option value="Musikal">Musikal</option>
-                  <option value="Kunstsang">Kunstsang</option>
-                  <option value="Aria">Aria</option>
-                  <option value="Soul">Soul/R&B</option>
+                  <option value="Islandsk">Islandsk</option>
+                  <option value="Italiensk">Italiensk</option>
                   <option value="Jazz">Jazz</option>
-                  <option value="Rock">Rock</option>
+                  <option value="Julesanger">Julesanger</option>
+                  <option value="Kirkemusikk">Kirkemusikk</option>
+                  <option value="Kjærlighetssang">Kjærlighetssang</option>
+                  <option value="Klassisk">Klassisk</option>
+                  <option value="Kunstsang">Kunstsang</option>
                   <option value="Latinsk">Latinsk</option>
-                  <option value="Crossover">Crossover</option>
+                  <option value="Moderne">Moderne</option>
+                  <option value="Musikal">Musikal</option>
+                  <option value="Nordisk">Nordisk</option>
+                  <option value="Opera">Opera</option>
+                  <option value="Popballade">Popballade</option>
+                  <option value="Rock">Rock</option>
+                  <option value="Soul">Soul/R&B</option>
+                  <option value="Tradisjonell">Tradisjonell</option>
+                  <option value="Western">Western</option>
                 </select>
               </div>
               <div>
@@ -167,9 +168,9 @@ export function RepertoarToggle() {
                   className="mt-2 block w-full rounded-md border-0 py-1.5 pl-3 pr-10 text-gray-900 ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-slate-600 sm:text-sm sm:leading-6"
                 >
                   <option value="">Alle</option>
-                  <option value="solo">Solo</option>
                   <option value="duet">Duet</option>
                   <option value="fiolin">Fiolin</option>
+                  <option value="solo">Solo</option>
                 </select>
               </div>
             </div>
@@ -322,6 +323,12 @@ export function RepertoarToggle() {
                       ) : sang.category === 'Klassisk' ? (
                         <>
                           <span className="inline-flex items-center px-2 py-1 text-xs font-medium rounded-md text-fuchsia-700 bg-fuchsia-50 ring-1 ring-inset ring-fuchsia-600/20">
+                            {sang.category}
+                          </span>
+                        </>
+                      ) : sang.category === 'Musikal' ? (
+                        <>
+                          <span className="inline-flex items-center px-2 py-1 text-xs font-medium text-yellow-700 rounded-md bg-yellow-50 ring-1 ring-inset ring-yellow-600/20">
                             {sang.category}
                           </span>
                         </>

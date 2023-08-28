@@ -40,9 +40,8 @@ export function Kathrine() {
             <figure className="pl-8 border-l border-slate-600">
               <blockquote className="text-xl font-semibold leading-8 tracking-tight text-gray-900">
                 <p>
-                  “Susanne har et dejligt stemmemateriale og en fin musikalitet
-                  og besidder derudover et meget stort dramatsik potentiale.
-                  Hendes sceniske sans for timing er veludviklet og natrulig.”
+                  “Fiolinspill på toppnivå, blandet med ekte livsglede - det får
+                  vi når Kathrine står på scenen!”
                 </p>
               </blockquote>
               <figcaption className="flex mt-8 gap-x-4">
@@ -52,10 +51,10 @@ export function Kathrine() {
                   className="flex-none w-10 h-10 mt-1 rounded-full bg-gray-50"
                 /> */}
                 <div className="text-sm leading-6">
-                  <div className="font-semibold text-gray-900">Idil Alpsøy</div>
-                  <div className="text-gray-600">
-                    Operasangerinne, København
+                  <div className="font-semibold text-gray-900">
+                    Alexander Rybak
                   </div>
+                  <div className="text-gray-600">Sanger-komponist, Oslo</div>
                 </div>
               </figcaption>
             </figure>

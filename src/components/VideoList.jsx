@@ -7,12 +7,14 @@ const videos = [
   {
     href: 'https://www.youtube.com/watch?v=atdbe9jFw2g',
     title: 'Kjærlighet',
-    description: 'Susanne Hvinden Hals',
+    description:
+      'Susanne Hvinden Hals synger «Kjærlighet», komponert av Arne Tofte og Vladimir Cosma.',
   },
   {
     href: 'https://www.youtube.com/watch?v=cIEWg-XSqAI',
     title: 'Ach, ich fühl’s',
-    description: 'Susanne Hvinden Hals',
+    description:
+      'Susanne Hvinden Hals synger «Ach, ich fühl’s», komponert av Wolfgang Amadeus Mozart.',
   },
 ];
 
