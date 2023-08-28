@@ -1,0 +1,17 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "Sang i begravelse",
+  "url": "https://sangibegravelse.no/",
+  "logo": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/logo_v3_3x_vgr7ar.png",
+  "imageObject": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Sang_i_begravelse_-_image_obqohg.webp",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+47-402-20-414",
+    "contactType": "customer service"
+  },
+  "sameAs": [
+    "https://www.facebook.com/sangibegravelse",
+    "https://twitter.com/sangibegravelse"
+  ]
+}

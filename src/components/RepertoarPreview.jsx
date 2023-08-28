@@ -96,7 +96,9 @@ export function RepertoarPreview() {
               </div>
             </div>
           </div>
+          {/* desktop */}
           <motion.div
+            className="hidden sm:block"
             whileInView={{ opacity: 1, y: 0 }}
             initial={{
               opacity: 0,
@@ -115,6 +117,28 @@ export function RepertoarPreview() {
               width={2432}
               height={1442}
             />
+          </motion.div>
+          <motion.div
+            className="relative sm:hidden"
+            whileInView={{ opacity: 1, y: 0 }}
+            initial={{
+              opacity: 0,
+              y: 50,
+            }}
+            transition={{
+              delay: 0.5,
+              duration: 1,
+              type: 'fade',
+            }}
+          >
+            <Image
+              src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/mobile_repertoire_screenshot_tu3xdi.webp"
+              alt="Rerpertoar for begravelsessang"
+              className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
+              width={2885}
+              height={1406}
+            />
+            <div className="absolute inset-0 w-screen bg-gradient-to-r from-transparent from-10% via-transparent via-70% to-white to-90%" />
           </motion.div>
         </div>
       </div>
