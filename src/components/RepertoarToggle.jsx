@@ -93,7 +93,8 @@ export function RepertoarToggle() {
             >
               En omfattende repertoarliste for begravelsessanger, inkludert
               sangtittel, komponist, arrangement og kategori. Utforsk mer
-              informasjon om hver sang ved å klikke på pluss-symbolet.
+              informasjon om hver sang ved å klikke på pluss-symbolet og lytt
+              til våre eksempler.
             </motion.p>
           </div>
           {/* Filter controls */}
@@ -139,6 +140,9 @@ export function RepertoarToggle() {
                   className="mt-2 block w-full rounded-md border-0 py-1.5 pl-3 pr-10 text-gray-900 ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-slate-600 sm:text-sm sm:leading-6"
                 >
                   <option value="">Alle</option>
+                  <option value="Anbefalte favoritter">
+                    Anbefalte favoritter
+                  </option>
                   <option value="Aria">Aria</option>
                   <option value="Country">Country</option>
                   <option value="Crossover">Crossover</option>
@@ -226,13 +230,13 @@ export function RepertoarToggle() {
                   <tr>
                     <td className="w-full py-4 pl-4 pr-3 text-sm font-medium text-gray-900 max-w-0 sm:w-auto sm:max-w-none sm:pl-0">
                       {sang.title}{' '}
-                      {sang.recommended === true ? (
+                      {/* {sang.recommended === true ? (
                         <>
                           <span className="inline-flex items-center px-2 py-1 ml-2 text-xs font-medium text-pink-700 rounded-md bg-pink-50 ring-1 ring-inset ring-pink-600/20">
                             Anbefales
                           </span>
                         </>
-                      ) : null}
+                      ) : null} */}
                       <dl className="font-normal lg:hidden">
                         <dt className="sr-only">Komponist</dt>
                         <dd className="mt-1 text-gray-700 truncate">

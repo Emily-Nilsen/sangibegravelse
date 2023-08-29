@@ -16,13 +16,12 @@ const features = [
   {
     name: 'Viser',
     description:
-      'Tradisjonsrik musikk med akustiske instrumenter gir intimitet, trøst og refleksjon gjennom historiefortelling.',
+      'Tradisjonsrik musikk som gir intimitet og refleksjon gjennom historiefortelling.',
     icon: <ViolinIcon className="w-5 h-5 fill-slate-600" aria-hidden="true" />,
   },
   {
     name: 'Klassisk',
-    description:
-      'Gripende musikk trøster, ærer minnet og reflekterer over sorg med melodier.',
+    description: 'Gripende musikk med vakre melodier og tekster.',
     icon: <PianoIcon className="w-4 h-4 fill-slate-600" aria-hidden="true" />,
   },
   {
@@ -49,8 +48,8 @@ export function RepertoarPreview() {
                 Sanger som gir trøst og mening
               </h1>
               <p className="mt-6 text-lg leading-8 text-gray-600">
-                Vi har nøye kuratert en mangfoldig samling av særlig egnede
-                salmer, viser, klassiske stykker, popsanger og mer.
+                Et stort utvalg av musikk og sanger. Særlig egnede salmer,
+                viser, klassiske stykker, popsanger og mer.
               </p>
               <dl className="max-w-xl mt-10 space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
                 {features.map((feature, i) => (

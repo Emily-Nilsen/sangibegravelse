@@ -36,7 +36,8 @@ export function ArtistsPreview() {
           </h2>
           <p className="mt-4 text-lg leading-8 text-gray-600">
             Vår talentfulle gruppe av erfarne og lidenskapelige artister,
-            dedikert til å skape minneverdige musikalske opplevelser.
+            dedikert til å skape minneverdige musikalske opplevelser av høy
+            kvalitet.
           </p>
         </div>
         <ul

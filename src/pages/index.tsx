@@ -14,7 +14,7 @@ export default function Home() {
         </title>
         <meta
           name="description"
-          content="Finn de perfekte sangene for begravelser. Profesjonelle sangere og fiolinister er tilgjengelige. Kontakt oss i dag."
+          content="Finn de perfekte sangene for begravelser. Profesjonelle sangere og musikere med høy kvalitet er tilgjengelige. Kontakt oss i dag."
         />
         <link
           rel="canonical"
