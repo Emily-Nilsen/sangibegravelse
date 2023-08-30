@@ -6,7 +6,6 @@
     "title": "Air | Love Never Fails (tekst)",
     "arrangement": ["solo", "fiolin"],
     "composer": "Johann Sebastian Bach",
-    "recommended": false,
     "audio": false,
     "description": [
       "Air, også kjent som ‘Air on the G String,’ er et ikonisk instrumentalt stykke. Det er en rolig og melodisk komposisjon som viser barokkmusikkens skjønnhet og eleganse. Strenginstrumenter fremfører ofte stykket, og dets beroligende melodi fremkaller en følelse av ro og introspeksjon.",
@@ -22,7 +21,6 @@
     "title": "Ave Maria",
     "arrangement": ["solo"],
     "composer": "Franz Schubert",
-    "recommended": false,
     "audio": false,
     "description": [
       "Ave Maria av Franz Schubert er et kjent klassisk stykke som har blitt synonymt med skjønnhet og ro.",
@@ -39,7 +37,6 @@
     "title": "Ave Maria",
     "arrangement": ["solo", "duett", "fiolin"],
     "composer": "Johann Sebastian Bach / Charles Gounod",
-    "recommended": false,
     "audio": false,
     "description": [
       "Ave Maria, komponert av Johann Sebastian Bach med tekst av Charles Gounod, er en harmonisk blanding av Bachs Preludium i C-dur og Gounods melodioverlegg.",
@@ -56,7 +53,6 @@
     "title": "Ave Maria",
     "arrangement": ["solo"],
     "composer": "Pietro Mascagni",
-    "recommended": true,
     "audio": false,
     "description": [
       "Ave Maria av Pietro Mascagni er en fengslende opera-arie som viser frem komponistens melodiske og dramatiske stil.",
@@ -73,7 +69,6 @@
     "title": "Ave Maria",
     "arrangement": ["solo"],
     "composer": "Sigvaldi Kaldalóns",
-    "recommended": true,
     "audio": false,
     "description": [
       "Ave Maria av Sigvaldi Kaldalóns er en vakker islandsk gjengivelse av den tradisjonelle Ave Maria-bønnen.",
@@ -90,7 +85,6 @@
     "title": "Caro mio ben",
     "arrangement": ["solo", "fiolin"],
     "composer": "Tommaso Giordani",
-    "recommended": false,
     "audio": false,
     "description": [
       "Caro mio ben er en vakker italiensk kunstsang som uttrykker dyp hengivenhet og lengsel.",
@@ -107,7 +101,6 @@
     "title": "Adieu",
     "arrangement": ["solo", "duett"],
     "composer": "Anita Skorgan / Jahn Teigen",
-    "recommended": false,
     "audio": false,
     "description": [
       "Adieu er en inderlig popballade opprinnelig fremført av Anita Skorgan og Jahn Teigen.",
@@ -124,7 +117,6 @@
     "title": "Adios, Amigo",
     "arrangement": ["solo"],
     "composer": "Jerry Livingston",
-    "recommended": false,
     "audio": false,
     "description": [
       "Adios, Amigo er en populær poplåt i vestlig stil med countrypåvirkninger.",
@@ -141,7 +133,6 @@
     "title": "Amazing Grace",
     "arrangement": ["solo"],
     "composer": "John Newton",
-    "recommended": false,
     "audio": false,
     "description": [
       "Amazing Grace er en tidløs salme som bærer et kraftig budskap om forløsning og håp.",
@@ -158,7 +149,6 @@
     "title": "An Irish Blessing",
     "arrangement": ["solo"],
     "composer": "Tradisjonell (ukjent forfatter)",
-    "recommended": false,
     "audio": false,
     "description": [
       "An Irish Blessing er en inderlig og oppløftende tradisjonell folkesang som innkapsler varmen, gjestfriheten og velønskene til irsk kultur.",
@@ -175,7 +165,6 @@
     "title": "Ave Maria",
     "arrangement": ["solo"],
     "composer": "Thomas Laub Gyldenmark",
-    "recommended": false,
     "audio": false,
     "description": [
       "Ave Maria av Thomas Laub Gyldenmark er en fengslende dansk komposisjon som hyller den tradisjonelle Ave Maria-bønnen.",
@@ -192,7 +181,6 @@
     "title": "Ave Verum",
     "arrangement": ["solo"],
     "composer": "Wolfgang Amadeus Mozart",
-    "recommended": false,
     "audio": false,
     "description": [
       "Ave Verum av Wolfgang Amadeus Mozart er en sublim korkomposisjon som legemliggjør ærbødighet og hengivenhet.",
@@ -209,7 +197,6 @@
     "title": "Benedictus (B-minor Mass)",
     "arrangement": ["solo"],
     "composer": "Johann Sebastian Bach",
-    "recommended": false,
     "audio": false,
     "description": [
       "Benedictus fra Bachs h-mollmesse er et majestetisk kormesterverk som viser frem komponistens genialitet.",
@@ -226,7 +213,6 @@
     "title": "Bist du bei mir",
     "arrangement": ["solo"],
     "composer": "Johann Sebastian Bach",
-    "recommended": false,
     "audio": false,
     "description": [
       "Bist du bei mir, komponert av Johann Sebastian Bach, er en øm og intim kjærlighetssang.",
@@ -243,7 +229,6 @@
     "title": "Den hellige stad",
     "arrangement": ["solo"],
     "composer": "Stephen Adams",
-    "recommended": false,
     "audio": false,
     "description": [
       "Den hellige stad, komponert av Stephen Adams, er en dypt rørende sang som skildrer den hellige byen med dyp ærbødighet.",
@@ -260,7 +245,6 @@
     "title": "Eg veit i himmelrik ei borg",
     "arrangement": ["solo"],
     "composer": "Tradisjonell (ukjent forfatter)",
-    "recommended": false,
     "audio": false,
     "description": [
       "Eg veit i himmelrik ei borg, en tradisjonell norsk folkesalme, er en inderlig og oppløftende sang om tro og håp.",
@@ -277,7 +261,6 @@
     "title": "Ein fin liten blome",
     "arrangement": ["solo"],
     "composer": "Bjørn Eidsvåg",
-    "recommended": false,
     "audio": false,
     "description": [
       "Ein fin liten blome, komponert av Bjørn Eidsvåg, er en sjarmerende norsk poplåt som hyller livets skjønnhet og skjørhet.",
@@ -294,7 +277,6 @@
     "title": "Fall til ro",
     "arrangement": ["solo"],
     "composer": "William Carter",
-    "recommended": false,
     "audio": false,
     "description": [
       "Fall til ro, komponert av William Carter, er en vakker klassisk vuggevise som utstråler en følelse av ro og stillhet.",
@@ -311,7 +293,6 @@
     "title": "Hymne",
     "arrangement": ["solo"],
     "composer": "Nils Larsen",
-    "recommended": false,
     "audio": false,
     "description": [
       "Hymne, komponert av Nils Larsen, er en ærbødig og oppløftende salme som inspirerer til andakt og åndelig refleksjon.",
@@ -328,7 +309,6 @@
     "title": "I himmelen",
     "arrangement": ["solo"],
     "composer": "Edvard Grieg",
-    "recommended": false,
     "audio": false,
     "description": [
       "I himmelen, komponert av Edvard Grieg, er en fengslende kunstsang som frakter lytterne til himmelriket.",
@@ -345,7 +325,6 @@
     "title": "Kom nära mej",
     "arrangement": ["solo"],
     "composer": "Lennart Jakobsson",
-    "recommended": false,
     "audio": false,
     "description": [
       "Kom nära mej, komponert av Lennart Jakobsson, er en fengslende svensk poplåt som uttrykker et ønske om nærhet og tilknytning.",
@@ -362,7 +341,6 @@
     "title": "Ledestjernen",
     "arrangement": ["solo"],
     "composer": "Borghild Thorsen",
-    "recommended": false,
     "audio": false,
     "description": [
       "Ledestjernen, komponert av Borghild Thorsen, er en fengslende salme som veileder og inspirerer.",
@@ -379,7 +357,6 @@
     "title": "Lær meg å kjenne dine veier",
     "arrangement": ["solo"],
     "composer": "Jakob Paulli",
-    "recommended": false,
     "audio": false,
     "description": [
       "Lær meg å kjenne dine veier, komponert av Jakob Paulli, er en dyp salme som uttrykker et ønske om å kjenne og følge Guds veier.",
@@ -396,7 +373,6 @@
     "title": "Kyrie",
     "arrangement": ["solo"],
     "composer": "Bjørn Eidsvåg",
-    "recommended": false,
     "audio": false,
     "description": [
       "Kyrie, komponert av Bjørn Eidsvåg, er en sjelfull og introspektiv poplåt som bærer et budskap om ydmykhet og å søke tilgivelse.",
@@ -413,7 +389,6 @@
     "title": "My Tribute",
     "arrangement": ["solo"],
     "composer": "Andraé Crouch",
-    "recommended": false,
     "audio": false,
     "description": [
       "My Tribute, komponert av Andraé Crouch, er en kraftfull gospelsang som uttrykker takknemlighet og lovprisning til Gud.",
@@ -430,7 +405,6 @@
     "title": "Må din vei komme deg i møte",
     "arrangement": ["solo"],
     "composer": "Hans-Olav Mørk",
-    "recommended": false,
     "audio": false,
     "description": [
       "Må din vei komme deg i møte, komponert av Hans-Olav Mørk, er en inderlig salme som gir en velsignelse og bønn om veiledning.",
@@ -447,7 +421,6 @@
     "title": "Nordnorsk julesalme",
     "arrangement": ["solo"],
     "composer": "Trygve Hoff",
-    "recommended": false,
     "audio": false,
     "description": [
       "Nordnorsk julesalme, komponert av Trygve Hoff, er en vakker salme som fanger essensen av julen i nordområdene i Norge.",
@@ -464,7 +437,6 @@
     "title": "O store Gud",
     "arrangement": ["solo"],
     "composer": "Carl Boberg",
-    "recommended": false,
     "audio": false,
     "description": [
       "O store Gud, også kjent som ‘How Great Thou Art’, er en elsket salme som uttrykker ærefrykt og tilbedelse for storheten i Guds skaperverk.",
@@ -481,7 +453,6 @@
     "title": "Panis Angelicus",
     "arrangement": ["solo"],
     "composer": "César Franck",
-    "recommended": false,
     "audio": false,
     "description": [
       "Panis Angelicus, komponert av César Franck, er et sublimt hellig stykke som skildrer nattverdens åndelige betydning.",
@@ -498,7 +469,6 @@
     "title": "Pie Jesu",
     "arrangement": ["solo"],
     "composer": "Andrew Lloyd Webber",
-    "recommended": false,
     "audio": false,
     "description": [
       "Pie Jesu, komponert av Andrew Lloyd Webber, er et fremstående stykke fra hans ikoniske musikal ‘Requiem’.",
@@ -515,7 +485,6 @@
     "title": "Pie Jesu",
     "arrangement": ["solo"],
     "composer": "Gabriel Fauré",
-    "recommended": false,
     "audio": false,
     "description": [
       "Pie Jesu, komponert av Gabriel Fauré, er et uhyggelig vakkert og dypt følelsesladet stykke fra hans Requiem.",
@@ -532,7 +501,6 @@
     "title": "Pie Jesu",
     "arrangement": ["solo"],
     "composer": "John Rutter",
-    "recommended": false,
     "audio": false,
     "description": [
       "Pie Jesu, komponert av John Rutter, er et gripende og kontemplativt stykke fra hans Requiem.",
@@ -549,7 +517,6 @@
     "title": "En svane",
     "arrangement": ["solo"],
     "composer": "Edvard Grieg",
-    "recommended": false,
     "audio": false,
     "description": [
       "En svane, komponert av Edvard Grieg, er en lyrisk og stemningsfull kunstsang.",
@@ -566,7 +533,6 @@
     "title": "I skjærgårdsø",
     "arrangement": ["solo"],
     "composer": "Gustav Lange Sommerfeldt",
-    "recommended": false,
     "audio": false,
     "description": [
       "I skjærgårdsø, komponert av Gustav Lange Sommerfeldt, er en fengslende kunstsang som skildrer skjønnheten og roen til en øy i skjærgården.",
@@ -582,7 +548,6 @@
     "title": "Jeg elsker deg",
     "arrangement": ["solo"],
     "composer": "Edvard Grieg",
-    "recommended": false,
     "audio": false,
     "description": [
       "Jeg elsker deg, komponert av Edvard Grieg, er en lidenskapelig og inderlig kunstsang.",
@@ -599,7 +564,6 @@
     "title": "Litanei",
     "arrangement": ["solo"],
     "composer": "Franz Schubert",
-    "recommended": false,
     "audio": false,
     "description": [
       "Litanei, komponert av Franz Schubert, er en gripende og introspektiv kunstsang.",
@@ -616,7 +580,6 @@
     "title": "Maria Wiegenlied",
     "arrangement": ["solo"],
     "composer": "Max Reger",
-    "recommended": false,
     "audio": false,
     "description": [
       "Maria Wiegenlied, komponert av Max Reger, er en øm og mild kunstsang.",
@@ -633,7 +596,6 @@
     "title": "Mot kveld",
     "arrangement": ["solo"],
     "composer": "Agathe Backer Grøndahl",
-    "recommended": false,
     "audio": false,
     "description": [
       "Mot kveld, komponert av Agathe Backer Grøndahl, er en kontemplativ og stemningsfull kunstsang.",
@@ -650,7 +612,6 @@
     "title": "Morgen",
     "arrangement": ["solo"],
     "composer": "Richard Strauss",
-    "recommended": false,
     "audio": false,
     "description": [
       "Morgen, komponert av Richard Strauss, er en lyrisk og romantisk kunstsang. Med sine skyhøye melodier og ømme tekst, feirer sangen skjønnheten og stillheten til en ny dag.",
@@ -667,7 +628,6 @@
     "title": "När jag för mig själv",
     "arrangement": ["solo"],
     "composer": "Wilhelm Peterson-Berger",
-    "recommended": false,
     "audio": false,
     "description": [
       "När jag för mig själv, komponert av Wilhelm Peterson-Berger, er en reflekterende og introspektiv kunstsang. Med sin melodiske enkelhet og inderlige tekst utforsker sangen de indre tankene og følelsene til ensomhet.",
@@ -684,7 +644,6 @@
     "title": "O del mio amato ben",
     "arrangement": ["solo"],
     "composer": "Stefano Donaudy",
-    "recommended": false,
     "audio": false,
     "description": [
       "O del mio amato ben, komponert av Stefano Donaudy, er en lidenskapelig og uttrykksfull kunstsang.",
@@ -701,7 +660,6 @@
     "title": "Ombra mai fu",
     "arrangement": ["solo"],
     "composer": "George Frideric Handel",
-    "recommended": false,
     "audio": false,
     "description": [
       "Ombra mai fu, komponert av George Frideric Handel, er en utsøkt arie fra operaen «Serse». Med sine elegante og lyriske melodier hyller sangen skjønnheten til et platantre.",
@@ -718,7 +676,6 @@
     "title": "Saa tag mit hjerte",
     "arrangement": ["solo"],
     "composer": "Hugo Alven",
-    "recommended": false,
     "audio": false,
     "description": [
       "Saa tag mit hjerte, komponert av Hugo Alven, er en inderlig og øm kunstsang. Sangen snakker om å overgi hjertet til kjærligheten med sine uttrykksfulle melodier og emosjonelle tekst.",
@@ -735,7 +692,6 @@
     "title": "Skogen sover",
     "arrangement": ["solo"],
     "composer": "Hugo Alven",
-    "recommended": false,
     "audio": false,
     "description": [
       "Skogen sover, komponert av Hugo Alven, er en fengslende kunstsang som skildrer en sovende skogs rolige og mystiske atmosfære.",
@@ -752,7 +708,6 @@
     "title": "Songs My Mother Taught Me",
     "arrangement": ["solo"],
     "composer": "Antonín Dvořák",
-    "recommended": true,
     "audio": false,
     "description": [
       "Songs My Mother Taught Me, komponert av Antonín Dvořák, er en inderlig og nostalgisk kunstsang.",
@@ -769,7 +724,6 @@
     "title": "Ständchen",
     "arrangement": ["solo"],
     "composer": "Franz Schubert",
-    "recommended": false,
     "audio": false,
     "description": [
       "Ständchen, komponert av Franz Schubert, er en sjarmerende og romantisk kunstsang. Med sine grasiøse melodier og ømme tekst, skildrer sangen en serenade sunget under en elskers vindu.",
@@ -786,7 +740,6 @@
     "title": "Stjernesangen",
     "arrangement": ["solo"],
     "composer": "Jean Sibelius",
-    "recommended": false,
     "audio": false,
     "description": [
       "Stjernesangen, komponert av Jean Sibelius, er en fengslende kunstsang som hyller stjernenes skjønnhet og mystikk.",
@@ -803,7 +756,6 @@
     "title": "Tonerna",
     "arrangement": ["solo"],
     "composer": "Carl Sjöberg",
-    "recommended": false,
     "audio": false,
     "description": [
       "Tonerna, komponert av Carl Sjöberg, er en gripende og melodiøs kunstsang. Med sine uttrykksfulle melodier og inderlige tekst uttrykker sangen musikkens kraft til å vekke følelser og berøre sjelen.",
@@ -820,7 +772,6 @@
     "title": "Ved Rondane",
     "arrangement": ["solo"],
     "composer": "Edvard Grieg",
-    "recommended": false,
     "audio": false,
     "description": [
       "Ved Rondane, komponert av Edvard Grieg, er en fengslende kunstsang som hyller den majestetiske skjønnheten i fjellkjeden Rondane i Norge.",
@@ -837,7 +788,6 @@
     "title": "Vedro con mio diletto",
     "arrangement": ["solo"],
     "composer": "Giuseppe Antonio Berengani",
-    "recommended": false,
     "audio": false,
     "description": [
       "Vedro con mio diletto er en utsøkt arie fra operaen «Il Giustino» komponert av Giuseppe Antonio Berengani. Det er et lidenskapelig og følelsesladet stykke som viser frem hovedpersonens intense følelser og besluttsomhet.",
@@ -854,7 +804,6 @@
     "title": "Verborgenheit",
     "arrangement": ["solo"],
     "composer": "Hugo Wolf",
-    "recommended": false,
     "audio": false,
     "description": [
       "Verborgenheit, komponert av Hugo Wolf, er en fengslende kunstsang som fordyper seg i temaet tilbaketrukkethet og introspeksjon. Med sine introspektive tekst og gripende melodier fremkaller sangen en lengsel etter ensomhet og å flykte fra verdens krav.",
@@ -871,7 +820,6 @@
     "title": "Våren",
     "arrangement": ["solo"],
     "composer": "Edvard Grieg",
-    "recommended": false,
     "audio": false,
     "description": [
       "Våren, komponert av Edvard Grieg, er en herlig kunstsang som feirer vårens ankomst og naturens foryngelse. Sangen fanger årstidens glede og skjønnhet gjennom sine livlige melodier og lyriske bilder.",
@@ -888,7 +836,6 @@
     "title": "Alt eg såg",
     "arrangement": ["solo"],
     "composer": "Sigvart Dagsland",
-    "recommended": false,
     "audio": false,
     "description": [
       "Alt eg såg, komponert av Sigvart Dagsland, er en fengslende popballade som fordyper seg i temaer om selvrefleksjon og introspeksjon.",
@@ -905,7 +852,6 @@
     "title": "Änglamark",
     "arrangement": ["solo"],
     "composer": "Evert Taube",
-    "recommended": false,
     "audio": false,
     "description": [
       "Änglamark, komponert av Evert Taube, er en elsket svensk folkesang som feirer skjønnheten og stillheten i naturen. Sangens milde melodier og poetiske tekst maler et pittoresk landskap av enger, skoger og glitrende innsjøer.",
@@ -922,7 +868,6 @@
     "title": "Barn av regnbuen",
     "arrangement": ["solo", "duett"],
     "composer": "Pete Seeger / Lillebjørn Nilsen",
-    "recommended": false,
     "audio": false,
     "description": [
       "Änglamark, komponert av Evert Taube, er en elsket svensk folkesang som feirer skjønnheten og stillheten i naturen. Sangens milde melodier og poetiske tekst maler et pittoresk landskap av enger, skoger og glitrende innsjøer.",
@@ -939,7 +884,6 @@
     "title": "Barndomsminne fra Nordland",
     "arrangement": ["solo"],
     "composer": "Ørnulf Hansen",
-    "recommended": false,
     "audio": false,
     "description": [
       "Barndomsminne fra Nordland, komponert av Ørnulf Hansen, er en nostalgisk og stemningsfull folkesang som hyller skjønnheten og minnene fra barndommen i Nordland.",
@@ -956,7 +900,6 @@
     "title": "Bestevenn",
     "arrangement": ["solo"],
     "composer": "Odd Nordstoga",
-    "recommended": false,
     "audio": false,
     "description": [
       "Bestevenn, komponert av Odd Nordstoga, er en inderlig og øm folk-pop-låt som hyller vennskapsbåndet. Med sine varme melodier og oppriktige tekst uttrykker sangen takknemlighet og takknemlighet for en spesiell venn som gir støtte og selskap.",
@@ -973,7 +916,6 @@
     "title": "Blå salme",
     "arrangement": ["solo"],
     "composer": "Erik Bye",
-    "recommended": false,
     "audio": false,
     "description": [
       "Blå salme, komponert av Erik Bye, er en uhyggelig vakker folkesang som fordyper seg i eksistensielle temaer og søken etter mening med livet.",
@@ -990,7 +932,6 @@
     "title": "Danse mi vise",
     "arrangement": ["solo"],
     "composer": "Alf Prøysen",
-    "recommended": false,
     "audio": false,
     "description": [
       "Danse mi vise, komponert av Alf Prøysen, er en oppløftende og frydefull folkesang som oppfordrer lytterne til å omfavne skjønnheten i musikk og dans.",
@@ -1007,7 +948,6 @@
     "title": "Där björkarna susa",
     "arrangement": ["solo"],
     "composer": "Gustaf Sund",
-    "recommended": false,
     "audio": false,
     "description": [
       "Där björkarna susa, komponert av Gustaf Sund, er en vakker svensk folkesang som transporterer lytterne til bjørketrærnes rolige og fortryllende verden.",
@@ -1024,7 +964,6 @@
     "title": "Där rosor aldrig dör",
     "arrangement": ["solo"],
     "composer": "Orup",
-    "recommended": false,
     "audio": false,
     "description": [
       "Där rosor aldrig dör, komponert av Orup, er en inderlig poplåt som utforsker kjærlighet, tap og evige minner. Med sine gripende tekst og emosjonelle melodier, snakker sangen om en kjærlighet som overskrider tid og lever videre i kjære minner.",
@@ -1041,7 +980,6 @@
     "title": "De nære ting",
     "arrangement": ["solo"],
     "composer": "Arild Nyquist / Egil Monn-Iversen",
-    "recommended": false,
     "audio": false,
     "description": [
       "Där rosor aldrig dör, komponert av Orup, er en inderlig poplåt som utforsker kjærlighet, tap og evige minner. Med sine gripende tekst og emosjonelle melodier, snakker sangen om en kjærlighet som overskrider tid og lever videre i kjære minner.",
@@ -1058,7 +996,6 @@
     "title": "Den dag kjem aldri",
     "arrangement": ["solo"],
     "composer": "Aasmund Olavsson Vinje",
-    "recommended": false,
     "audio": false,
     "description": [
       "Den dag kjem aldri, med tekst av Aasmund Olavsson Vinje og tradisjonell melodi, er ein gripande folkevisa som reflekterer over lengsel og uoppfylte lyster i livet.",
@@ -1075,7 +1012,6 @@
     "title": "Den fyrste song",
     "arrangement": ["solo"],
     "composer": "Edvard Grieg",
-    "recommended": false,
     "audio": false,
     "description": [
       "Den fyrste song, komponert av Edvard Grieg, er ein vakker kunstsang som fangar uskylden og undringa til eit barns første song. Sangen fremkaller en følelse av renhet og glede med sine ømme melodier og poetiske tekst.",
@@ -1092,7 +1028,6 @@
     "title": "Det hainnle om å leve",
     "arrangement": ["solo"],
     "composer": "Kine Hellebust",
-    "recommended": false,
     "audio": false,
     "description": [
       "Det hainnle om å leve, komponert av Kine Hellebust, er en oppløftende poplåt som feirer essensen av å leve livet til det fulle. Med sine fengende melodier og styrkende tekst oppfordrer sangen lytterne til å omfavne øyeblikket, ta risiko og gripe muligheter.",
@@ -1109,7 +1044,6 @@
     "title": "Det vakreste som fins",
     "arrangement": ["solo"],
     "composer": "Anita Skorgan / Svein Dag Hauge",
-    "recommended": true,
     "audio": false,
     "description": [
       "Det vakreste som fins, fremført av Jahn Teigen, er en inderlig poplåt som hyller kjærlighetens skjønnhet og den dype forbindelsen mellom to sjeler. Med sine emosjonelle tekst og ømme melodier, uttrykker sangen dybden av følelser og kjærlighetens transformerende kraft.",
@@ -1126,7 +1060,6 @@
     "title": "Du är den ende",
     "arrangement": ["solo", "duett"],
     "composer": "Maritza Gomez / Anders Zetterlind / Monica Petterson",
-    "recommended": false,
     "audio": false,
     "description": [
       "Du är den ende, med tekst av Maritza Gomez og musikk av Anders Zetterlind og Monica Petterson, er en inderlig popballade som hyller det unike og uerstattelige båndet mellom to individer.",
@@ -1143,7 +1076,6 @@
     "title": "Ei hand å holde I",
     "arrangement": ["solo", "duett"],
     "composer": "Svein Gundersen",
-    "recommended": false,
     "audio": false,
     "description": [
       "Ei hand å holde I, komponert av Svein Gundersen, er en rørende popballade som hyller komforten og støtten man finner i nærvær av en man er glad i.",
@@ -1160,7 +1092,6 @@
     "title": "Ein far",
     "arrangement": ["solo", "duett"],
     "composer": "Ole Paus Holand / Tomas Espedal / Sigvart Dagsland",
-    "recommended": false,
     "audio": false,
     "description": [
       "Ein far, med tekst av Ole Paus Holand og musikk av Tomas Espedal og Sigvart Dagsland, er ei inderleg popballade som hyller farsrollen i eit menneskes liv. Med sine rørende tekst og emosjonelle melodier uttrykker sangen takknemlighet og beundring for kjærligheten, veiledningen og støtten en farsfigur gir.",
@@ -1177,7 +1108,6 @@
     "title": "Engler i sneen",
     "arrangement": ["solo", "duett"],
     "composer": "Jonas Fjeld",
-    "recommended": false,
     "audio": false,
     "description": [
       "Engler i sneen, komponert av Jonas Fjeld, er en rørende popballade som vekker en følelse av nostalgi og undring i høytiden. Med sine inderlige tekst og emosjonelle melodier fanger sangen vinterens magi og skjønnhet, og forestiller seg engler som leker i snøen.",
@@ -1194,7 +1124,6 @@
     "title": "E du Nord",
     "arrangement": ["solo"],
     "composer": "Ola Bremnes",
-    "recommended": false,
     "audio": false,
     "description": [
       "Engler i sneen, komponert av Jonas Fjeld, er en rørende popballade som vekker en følelse av nostalgi og undring i høytiden. Med sine inderlige tekst og emosjonelle melodier fanger sangen vinterens magi og skjønnhet, og forestiller seg engler som leker i snøen.",
@@ -1211,7 +1140,6 @@
     "title": "Evig hvile",
     "arrangement": ["solo"],
     "composer": "Bjørn Eidsvåg",
-    "recommended": false,
     "audio": false,
     "description": [
       "Evig hvile, komponert av Bjørn Eidsvåg, er en gripende ballade som reflekterer over begrepet evig hvile og livet etter døden.",
@@ -1228,7 +1156,6 @@
     "title": "For siste gang",
     "arrangement": ["solo"],
     "composer": "Anders Tveit",
-    "recommended": false,
     "audio": false,
     "description": [
       "For siste gjeng, komponert av Anders Tveit, er en inderlig popballade som snakker om å ta farvel eller si farvel for siste gang. Med sine emosjonelle tekst og ømme melodier, uttrykker sangen følelsene og kompleksiteten som følger med avskjedsveier.",
@@ -1245,7 +1172,6 @@
     "title": "Fordi jeg elsker deg",
     "arrangement": ["solo", "duett"],
     "composer": "Øystein Bratland / David Dyllan",
-    "recommended": true,
     "audio": false,
     "description": [
       "Fordi jeg elsker deg, komponert av Øystein Bratland og David Dyllan, er en rørende popballade som utforsker kjærlighetens dybde og kraft. Med sine inderlige tekst og emosjonelle melodier, uttrykker sangen de dype følelsene og dedikasjonen som følger med å elske noen dypt.",
@@ -1262,7 +1188,6 @@
     "title": "Gabriellas sång",
     "arrangement": ["solo", "duett"],
     "composer": "Stefan Nilsson",
-    "recommended": false,
     "audio": false,
     "description": [
       "Gabriellas sång, komponert av Stefan Nilsson, er en vakker ballade som formidler håp, spenst og å finne stemmen sin. Med sine gripende tekst og emosjonelle melodier, snakker sangen om reisen mot selvoppdagelse og styrkingen av å omfavne sitt sanne jeg.",
@@ -1279,7 +1204,6 @@
     "title": "Gje meg handa di ven",
     "arrangement": ["solo", "duett"],
     "composer": "Sondre Bratland",
-    "recommended": false,
     "audio": false,
     "description": [
       "Gje meg handa di ven, en tradisjonell norsk folkesang, er en inderlig ballade som hyller vennskapsbåndet og samholdet mellom mennesker. Med sin sjelberørende tekst og melodiøse komposisjon, snakker sangen om å strekke ut en hånd i vennskap og støtte.",
@@ -1296,7 +1220,6 @@
     "title": "God morgen min kjære",
     "arrangement": ["solo", "duett"],
     "composer": "Ole Paus Borg",
-    "recommended": false,
     "audio": false,
     "description": [
       "God morgen min kjære, komponert av Ole Paus Borg, er en øm popballade som formidler et kjærlighets- og hengivenhetsbudskap. Med sine milde tekst og emosjonelle melodier, snakker sangen om å hilse en kjær med varme og ømhet om morgenen.",
@@ -1313,7 +1236,6 @@
     "title": "God natt Oslo",
     "arrangement": ["solo"],
     "composer": "Lillebjørn Nilsen",
-    "recommended": false,
     "audio": false,
     "description": [
       "God natt Oslo, komponert av Lillebjørn Nilsen, er en gripende folkevise som tar farvel med Oslo by.",
@@ -1330,7 +1252,6 @@
     "title": "Har du fyr",
     "arrangement": ["solo"],
     "composer": "Ola Bremnes",
-    "recommended": false,
     "audio": false,
     "description": [
       "God natt Oslo, komponert av Lillebjørn Nilsen, er en gripende folkevise som tar farvel med Oslo by.",
@@ -1347,7 +1268,6 @@
     "title": "Hildringstimen",
     "arrangement": ["solo"],
     "composer": "Erik Bye",
-    "recommended": false,
     "audio": false,
     "description": [
       "Hildringstimen, komponert av Erik Bye, er en fengslende ballade som vekker en følelse av fortryllelse og refleksjon i skumringstimen.",
@@ -1364,7 +1284,6 @@
     "title": "Himlen I min favn",
     "arrangement": ["solo"],
     "composer": "Stephan Berg",
-    "recommended": false,
     "audio": false,
     "description": [
       "Himlen I min favn, fremført av Carola, er en mektig popballade som uttrykker en dyp kjærlighet og tilknytning. Med sine emosjonelle tekst og svevende melodier snakker sangen om å finne himmelen i armene til en kjær.",
@@ -1381,7 +1300,6 @@
     "title": "Himmelhøge sti",
     "arrangement": ["solo"],
     "composer": "Knut Buen",
-    "recommended": false,
     "audio": false,
     "description": [
       "Himmelhøge sti, en tradisjonell norsk folkesang, er en sjelfull ballade som snakker om en åndelig reise og lengselen etter en høyere vei.",
@@ -1398,7 +1316,6 @@
     "title": "Höstvisa",
     "arrangement": ["solo"],
     "composer": "Ulf Tauro",
-    "recommended": false,
     "audio": false,
     "description": [
       "Höstvisa, komponert av Ulf Tauro, er en inderlig folkeballade som feirer høstsesongens skjønnhet og melankoli. Med sin poetiske tekst og melodiske komposisjon snakker sangen om bladenes skiftende farger og de bittersøte følelsene som kommer med høstens ankomst.",
@@ -1415,7 +1332,6 @@
     "title": "Håll mitt hjärta",
     "arrangement": ["solo"],
     "composer": "Björn Skifs",
-    "recommended": false,
     "audio": false,
     "description": [
       "Håll mitt hjärta, fremført av Björn Skifs, er en inderlig popballade som uttrykker en bønn om kjærlighet og følelsesmessig forbindelse.",
@@ -1432,7 +1348,6 @@
     "title": "Håll ut",
     "arrangement": ["solo"],
     "composer": "Björn Sundström / Monica Dahl / Karl-Gerhard Malmgren / Frida Schubert / Anders Mattsson",
-    "recommended": false,
     "audio": false,
     "description": [
       "Håll ut, komponert i samarbeid av Björn Sundström, Monica Dahl, Karl-Gerhard Malmgren, Frida Schubert og Anders Mattsson, er en oppløftende popballade som formidler håp og utholdenhet.",
@@ -1449,7 +1364,6 @@
     "title": "Jag vill tacka livet (svensk eller spansk)",
     "arrangement": ["solo"],
     "composer": "Violeta Parra",
-    "recommended": false,
     "audio": false,
     "description": [
       "Jag vill tacka livet, opprinnelig komponert av Violeta Parra, er en mektig hymne som feirer liv og takknemlighet.",
@@ -1466,7 +1380,6 @@
     "title": "Jag trivs bäst i öppna landskap",
     "arrangement": ["solo"],
     "composer": "Ulf Lundell",
-    "recommended": false,
     "audio": false,
     "description": [
       "Jag trivs bäst i öppna landskap, komponert av Ulf Lundell, er en antemisk rockesang som hyller kjærligheten til vidåpne rom og friheten de representerer.",
@@ -1483,7 +1396,6 @@
     "title": "Jeg glemmer deg aldri",
     "arrangement": ["solo", "duett"],
     "composer": "Åse Wentzel Moslåtten / Ørnulf Sigernes Haugen",
-    "recommended": false,
     "audio": false,
     "description": [
       "Jeg glemmer deg aldri, komponert av Åse Wentzel Moslåtten og Ørnulf Sigernes Haugen, er en rørende folkevise som uttrykker evig kjærlighet og erindring.",
@@ -1500,7 +1412,6 @@
     "title": "Kjærlighet",
     "arrangement": ["solo"],
     "composer": "Arne Tofte / Vladimir Cosma",
-    "recommended": false,
     "audio": true,
     "audioUrl": "https://res.cloudinary.com/dt3k2apqd/video/upload/q_auto/Sang%20i%20begravelse/Audio/Kj%C3%A6rlighet_teaser_iaep3b.wav",
     "performers": "Susanne Hvinden Hals",
@@ -1519,7 +1430,6 @@
     "title": "Kom og ligg inntil meg",
     "arrangement": ["solo"],
     "composer": "Finn Kalvik",
-    "recommended": false,
     "audio": false,
     "description": [
       "Kom og ligg inntil meg, komponert av Finn Kalvik, er en øm ballade som snakker om intimitet og ønsket om nærhet med en man er glad i. Med sine inderlige tekst og milde melodier uttrykker sangen lengselen etter komforten og varmen ved å være i hverandres armer.",
@@ -1536,7 +1446,6 @@
     "title": "Men går jag över ängarna",
     "arrangement": ["solo"],
     "composer": "Nils Ferlin",
-    "recommended": false,
     "audio": false,
     "description": [
       "Men går jag över ängarna, komponert av Nils Ferlin, er en gripende folkeballade som reflekterer over livets reise og tid. Med sine stemningsfulle tekst og melodiske komposisjon, reflekterer sangen over livets flyktige natur og skjønnheten i den naturlige verden.",
@@ -1553,7 +1462,6 @@
     "title": "Mitt land",
     "arrangement": ["solo"],
     "composer": "Rolf Løvland",
-    "recommended": false,
     "audio": false,
     "description": [
       "Mitt land, komponert av Rolf Løvland, fungerer som nasjonalsang for Norge. Med sine patriotiske tekst og oppløftende melodi, hyller hymnen den norske nasjonens skjønnhet, historie og enhet.",
@@ -1570,7 +1478,6 @@
     "title": "Nocturne",
     "arrangement": ["solo"],
     "composer": "Evert Taube",
-    "recommended": false,
     "audio": false,
     "description": [
       "Nocturne, komponert av Evert Taube, er en fengslende ballade som vekker en følelse av ro og ettertanke. Med sin poetiske tekst og melodiske komposisjon forteller sangen om nattens rolige skjønnhet og følelsene den vekker i seg.",
@@ -1587,7 +1494,6 @@
     "title": "Nocturne",
     "arrangement": ["solo"],
     "composer": "Rolf Løvland",
-    "recommended": false,
     "audio": false,
     "description": [
       "Nocturne, komponert av Rolf Løvland, er et fascinerende instrumentalt stykke som blander klassiske og moderne elementer.",
@@ -1604,7 +1510,6 @@
     "title": "Nordlandsnetter",
     "arrangement": ["solo"],
     "composer": "Per Johan Skjærstad Moe",
-    "recommended": false,
     "audio": false,
     "description": [
       "Nordlandsnetter, komponert av Per Johan Skjærstad Moe, er en nostalgisk folkevise som hyller de fortryllende nettene i Nordland, en region i Norge.",
@@ -1621,7 +1526,6 @@
     "title": "Norge mitt Norge",
     "arrangement": ["solo"],
     "composer": "Rolf Løvland Caspari / Arne Paulsen",
-    "recommended": false,
     "audio": false,
     "description": [
       "Norge mitt Norge, komponert av Rolf Løvland Caspari og Arne Paulsen, fungerer som en patriotisk hymne for Norge. Med sine lidenskapelige tekst og oppløftende melodi, hyller hymnen den norske nasjonens skjønnhet, historie og identitet.",
@@ -1638,7 +1542,6 @@
     "title": "Når du går",
     "arrangement": ["solo"],
     "composer": "Ola Bremnes",
-    "recommended": false,
     "audio": false,
     "description": [
       "Når du går, komponert av Ola Bremnes, er en gripende ballade som utforsker følelsene ved å skille seg og ta farvel.",
@@ -1655,7 +1558,6 @@
     "title": "Når himmelen faller ned",
     "arrangement": ["solo"],
     "composer": "Ingeborg Oktober Preus",
-    "recommended": false,
     "audio": false,
     "description": [
       "Når himmelen faller ned, komponert av Ingeborg Oktober Preus, er en kraftfull og emosjonell ballade som fordyper seg i temaer om sårbarhet og styrke i vanskelige tider.",
@@ -1672,7 +1574,6 @@
     "title": "Når sole faller bak top og tinde",
     "arrangement": ["solo"],
     "composer": "Trygve Hoff",
-    "recommended": false,
     "audio": false,
     "description": [
       "Når sole faller bak top og tinde, komponert av Trygve Hoff, er en sjelfull folkeballade som omfavner skjønnheten og roen i det norske landskapet under solnedgang.",
@@ -1689,7 +1590,6 @@
     "title": "Öppnalandskap",
     "arrangement": ["solo"],
     "composer": "Ulf Lundell",
-    "recommended": false,
     "audio": false,
     "description": [
       "Öppnalandskap, komponert av Ulf Lundell, er en fengslende rockelåt som hyller friheten og vidstrakten i åpne landskap. Med sine livlige tekst og energiske melodi, snakker musikken om den spennende opplevelsen av å være omgitt av uutforskede horisonter og naturens enkelhet.",
@@ -1706,7 +1606,6 @@
     "title": "Røst",
     "arrangement": ["solo"],
     "composer": "Sigvart Dagsland",
-    "recommended": false,
     "audio": false,
     "description": [
       "Røst, komponert av Sigvart Dagsland, er en hjemsøkende og lidenskapelig ballade som utforsker kraften til den menneskelige stemmen til å formidle følelser og berøre andres hjerter.",
@@ -1723,7 +1622,6 @@
     "title": "Selmas sang",
     "arrangement": ["solo"],
     "composer": "Sigvart Dagsland / Jan Stenersen",
-    "recommended": false,
     "audio": false,
     "description": [
       "Selmas sang, komponert av Sigvart Dagsland og Jan Stenersen, er en gripende ballade som dykker ned i dypet av menneskelige følelser og selvoppdagelsesreisen.",
@@ -1740,7 +1638,6 @@
     "title": "Skal hilse fra fjellet",
     "arrangement": ["solo"],
     "composer": "Trygve Hoff / Gustav Lorentzen",
-    "recommended": false,
     "audio": false,
     "description": [
       "Skal hilse fra fjellet, komponert av Trygve Hoff og Gustav Lorentzen, er en hjertevarm folkeballade som bærer fjellånden og naturens skjønnhet.",
@@ -1757,7 +1654,6 @@
     "title": "Sommernatt ved fjorden",
     "arrangement": ["solo"],
     "composer": "Ketil Bjørnstad",
-    "recommended": false,
     "audio": false,
     "description": [
       "Sommernatt ved fjorden, komponert av Ketil Bjørnstad, er en fengslende jazzballade som fanger den fortryllende atmosfæren fra en sommernatt ved fjorden.",
@@ -1774,7 +1670,6 @@
     "title": "Stjernesangen",
     "arrangement": ["solo"],
     "composer": "Jean Sibelius",
-    "recommended": false,
     "audio": false,
     "description": [
       "Stjernesangen, komponert av Jean Sibelius, er et himmelsk korstykke som fremkaller nattehimmelens mystikk og under. Sangens eteriske harmonier og majestetiske melodi gjenspeiler storheten til stjernene og universet.",
@@ -1791,7 +1686,6 @@
     "title": "Så skimrande var aldrig havet",
     "arrangement": ["solo"],
     "composer": "Evert Taube",
-    "recommended": false,
     "audio": false,
     "description": [
       "Stjernesangen, komponert av Jean Sibelius, er et himmelsk korstykke som fremkaller nattehimmelens mystikk og under. Sangens eteriske harmonier og majestetiske melodi gjenspeiler storheten til stjernene og universet.",
@@ -1808,7 +1702,6 @@
     "title": "Tir nanoir",
     "arrangement": ["solo"],
     "composer": "Janove Ottesen / Asgeir Staveland",
-    "recommended": false,
     "audio": false,
     "description": [
       "Tir nanoir, med tekst av Janove Ottesen og musikk av Asgeir Staveland, er en sjelfull folkesang som bærer ånden av ro og nostalgi. Med sin inderlige tekst og melodiske komposisjon taler sangen om lengsel etter et sted med fred og ro.",
@@ -1825,7 +1718,6 @@
     "title": "13 Hester",
     "arrangement": ["solo"],
     "composer": "Alexander Rybak",
-    "recommended": true,
     "audio": false,
     "description": [
       "13 Hester, komponert av Alexander Rybak, er en fengende og optimistisk poplåt som forteller en snodig historie om 13 hester og deres eskapader.",
@@ -1842,7 +1734,6 @@
     "title": "Ut mot havet",
     "arrangement": ["solo"],
     "composer": "Knut Anders Sørum / Egil Eldøen",
-    "recommended": false,
     "audio": false,
     "description": [
       "Ut mot havet, med tekst av Knut Anders Sørum og musikk av Egil Eldøen, er en kraftfull rockeballade som fanger essensen av å legge ut på en vågal reise mot det ukjente.",
@@ -1859,7 +1750,6 @@
     "title": "Vandringsvise",
     "arrangement": ["solo"],
     "composer": "Finn Ludt",
-    "recommended": false,
     "audio": false,
     "description": [
       "Vandringsvise, komponert av Finn Ludt, er en inderlig folkevise som skildrer reisen til en vandrer som finner trøst i den åpne veien. Med sin sjelfulle tekst og melodiske komposisjon, snakker sangen om friheten og introspeksjonen ved å vandre og omfavne det ukjente.",
@@ -1876,7 +1766,6 @@
     "title": "Vi vandrar saman",
     "arrangement": ["solo", "duett"],
     "composer": "Ingvar Hauge",
-    "recommended": false,
     "audio": false,
     "description": [
       "Vi vandrar saman, komponert av Ingvar Hauge, er en hjertevarm folkeballade som hyller reisen til samvær og felles opplevelser.",
@@ -1893,7 +1782,6 @@
     "title": "Visa från utanmyra",
     "arrangement": ["solo"],
     "composer": "Svensk folkevise",
-    "recommended": false,
     "audio": false,
     "description": [
       "Visa från utanmyra er en fengslende svensk folkeballade som legemliggjør landlige landskap og tradisjonelle melodier. Med sin stemningsfulle tekst og melodiske komposisjon snakker sangen om landskapets skjønnhet og ro.",
@@ -1910,7 +1798,6 @@
     "title": "Vuggevise",
     "arrangement": ["solo"],
     "composer": "Jens Gundersen",
-    "recommended": false,
     "audio": false,
     "description": [
       "Vuggevise, komponert av Jens Gundersen, er en øm og beroligende vuggevise som omslutter lytterne i en kokong av trøst og ro. Med sin milde tekst og melodiske komposisjon, skaper sangen en beroligende atmosfære perfekt for å roe rastløse sinn.",
@@ -1927,7 +1814,6 @@
     "title": "Våre små søsken",
     "arrangement": ["duett"],
     "composer": "Tore Magnus Pettersson / Inger Hagerup",
-    "recommended": false,
     "audio": false,
     "description": [
       "Våre små søsken, med musikk av Tore Magnus Pettersson og tekst av Inger Hagerup, er en hjertevarmende barnesang som hyller søskenskapets gleder og bånd.",
@@ -1944,7 +1830,6 @@
     "title": "Vårsøg",
     "arrangement": ["solo"],
     "composer": "Henning Sommerro",
-    "recommended": false,
     "audio": false,
     "description": [
       "Vårsøg, komponert av Henning Sommerro, er en fengslende folkeballade som innkapsler vårens friskhet og fornyelse. Sangens poetiske tekst og melodiske komposisjon tegner et levende bilde av naturen som våkner til liv etter vinterens dvale.",
@@ -1961,7 +1846,6 @@
     "title": "Vår beste dag",
     "arrangement": ["solo"],
     "composer": "Erik Bye",
-    "recommended": true,
     "audio": false,
     "description": [
       "Vår beste dag, komponert av Erik Bye, er en inderlig folkeballade som fanger skjønnheten og betydningen av en spesiell dag.",
@@ -1978,7 +1862,6 @@
     "title": "Vårherres klinkekule",
     "arrangement": ["solo"],
     "composer": "Erik Bye",
-    "recommended": true,
     "audio": false,
     "description": [
       "Vårherres klinkekule, komponert av Erik Bye, er en humoristisk folkesang som lekende reflekterer over livets mysterier og den menneskelige eksistens særheter.",
@@ -1995,7 +1878,6 @@
     "title": "Å kunne æ skrive",
     "arrangement": ["solo"],
     "composer": "Kari Bremnes",
-    "recommended": false,
     "audio": false,
     "description": [
       "Å kunne æ skrive, komponert av Kari Bremnes, er en reflektert folkevise som fordyper seg i ordenes kraft og uttrykkshandlingen. Med sine introspektive tekst og melodiske komposisjon, reflekterer sangen over skjønnheten og utfordringene ved å finne stemmen sin.",
@@ -2012,7 +1894,6 @@
     "title": "Å Vestland, Vestland",
     "arrangement": ["solo"],
     "composer": "Trygve Hoff",
-    "recommended": false,
     "audio": false,
     "description": [
       "Å Vestland, Vestland, komponert av Trygve Hoff, er en inderlig folkesang som hyller Vestlandets skjønnhet og karakter.",
@@ -2029,7 +1910,6 @@
     "title": "Ain’t No Sunshine",
     "arrangement": ["solo"],
     "composer": "Bill Withers",
-    "recommended": false,
     "audio": false,
     "description": [
       "Ain’t No Sunshine, komponert av Bill Withers, er en sjelfull R&B-klassiker som fordyper seg i temaer som lengsel og hjertesorg. Sangen fanger vakkert følelsene av å savne noen dypt med sin sjelberørende tekst og emosjonelle melodi.",
@@ -2046,7 +1926,6 @@
     "title": "Always on My Mind",
     "arrangement": ["solo"],
     "composer": "Wayne Thompson / Johnny Christopher / Mark James",
-    "recommended": false,
     "audio": false,
     "description": [
       "«Always on My Mind», komponert av Wayne Thompson, Johnny Christopher og Mark James, er en tidløs kjærlighetsballade som reflekterer over kompleksiteten av kjærlighet, anger og hengivenhet.",
@@ -2063,7 +1942,6 @@
     "title": "Angel",
     "arrangement": ["solo"],
     "composer": "Sarah McLachlan",
-    "recommended": false,
     "audio": false,
     "description": [
       "Angel, komponert av Sarah McLachlan, er en gripende popballade som gir trøst og ettertanke i møte med utfordringer.",
@@ -2080,7 +1958,6 @@
     "title": "Autumn Leaves",
     "arrangement": ["solo"],
     "composer": "Joseph Kosma",
-    "recommended": false,
     "audio": false,
     "description": [
       "Autumn Leaves, komponert av Joseph Kosma, er en tidløs jazzstandard som legemliggjør den bittersøte skjønnheten til forandring og overgang. Med sine poetiske tekst og triste melodi, skildrer sangen levende årstidene som en metafor for livets skiftninger.",
@@ -2097,7 +1974,6 @@
     "title": "A Whiter Shade of Pale",
     "arrangement": ["solo"],
     "composer": "Keith Reid / Gary Brooker",
-    "recommended": false,
     "audio": false,
     "description": [
       "A Whiter Shade of Pale, komponert av Keith Reid og Gary Brooker, er en klassisk rockeballade som vever sammen stemningsfulle tekst og en hjemsøkende melodi for å skape en atmosfære av mystikk og nostalgi.",
@@ -2114,7 +1990,6 @@
     "title": "Besame Mucho",
     "arrangement": ["solo"],
     "composer": "Consuelo Velázquez",
-    "recommended": false,
     "audio": false,
     "description": [
       "Besame Mucho, komponert av Consuelo Velázquez, er en tidløs latinsk bolero som fanger essensen av romantikk og lidenskap.",
@@ -2131,7 +2006,6 @@
     "title": "Blowin’ in the Wind",
     "arrangement": ["solo"],
     "composer": "Bob Dylan",
-    "recommended": false,
     "audio": false,
     "description": [
       "Blowin’ in the Wind, komponert av Bob Dylan, er en kraftig folkeprotestsang som tar opp presserende sosiale og politiske spørsmål.",
@@ -2148,7 +2022,6 @@
     "title": "Blueberry Hill",
     "arrangement": ["solo"],
     "composer": "Al Lewis / Vincent Rose / Larry Stock",
-    "recommended": false,
     "audio": false,
     "description": [
       "Blueberry Hill, komponert av Al Lewis, Vincent Rose og Larry Stock, er en elsket rock and roll-klassiker som er full av nostalgi og romantikk. Sangens inderlige tekst og fengende melodi maler et bilde av gode minner og tapt kjærlighet.",
@@ -2165,7 +2038,6 @@
     "title": "Bridge over Troubled Water",
     "arrangement": ["solo"],
     "composer": "Paul Simon",
-    "recommended": false,
     "audio": false,
     "description": [
       "Bridge over Troubled Water, komponert av Paul Simon, er en ikonisk folk-rock-ballade som tilbyr trøst og trygghet i utfordrende tider. Sangen er et fyrtårn av håp og trøst med sin inderlige tekst og svevende melodi.",
@@ -2182,7 +2054,6 @@
     "title": "Brothers in Arms (med el-gitar)",
     "arrangement": ["solo"],
     "composer": "Mark Knopfler",
-    "recommended": false,
     "audio": false,
     "description": [
       "Brothers in Arms, komponert av Mark Knopfler, er en inderlig rockelåt som reflekterer over båndene til kameratskap og ofrene som gjøres i tider med konflikt.",
@@ -2199,7 +2070,6 @@
     "title": "Candle in the Wind",
     "arrangement": ["solo"],
     "composer": "Elton John",
-    "recommended": false,
     "audio": false,
     "description": [
       "Candle in the Wind, komponert av Elton John, er en rørende popballade som fungerer som en inderlig hyllest til et avdødt individ. Med sin gripende tekst og emosjonelle melodi, fanger sangen essensen av erindring og den varige virkningen av et liv som er levd.",
@@ -2216,7 +2086,6 @@
     "title": "Can’t Help Falling in Love",
     "arrangement": ["solo"],
     "composer": "Hugo Peretti / Luigi Creatore / George David Weiss",
-    "recommended": false,
     "audio": false,
     "description": [
       "Can’t Help Falling in Love, komponert av Hugo Peretti, Luigi Creatore og George David Weiss, er en tidløs kjærlighetsballade som innkapsler magien og sårbarheten ved å forelske seg.",
@@ -2233,7 +2102,6 @@
     "title": "Close to You",
     "arrangement": ["solo"],
     "composer": "Burt Bacharach / Hal David",
-    "recommended": false,
     "audio": false,
     "description": [
       "(They Long to Be) Close to You, komponert av Burt Bacharach og Hal David, er en hjertevarm popballade som formidler lengselen etter følelsesmessig nærhet og tilknytning.",
@@ -2250,7 +2118,6 @@
     "title": "Dance with My Father",
     "arrangement": ["solo"],
     "composer": "Richard Marx / Luther Vandross",
-    "recommended": false,
     "audio": false,
     "description": [
       "Dance with My Father, komponert av Richard Marx og Luther Vandross, er en rørende R&B-ballade som hyller kjære minner og båndet mellom et barn og deres foreldre.",
@@ -2267,7 +2134,6 @@
     "title": "Engel, ikke dra",
     "arrangement": ["solo"],
     "composer": "Alexander Haukland",
-    "recommended": false,
     "audio": false,
     "description": [
       "Engel, ikke dra, komponert av Alexander Haukland, er en inderlig popballade som formidler en bønn om følelsesmessig tilknytning og ønsket om å holde fast i en man er glad i.",
@@ -2284,7 +2150,6 @@
     "title": "Ach, ich fühl’s",
     "arrangement": ["solo"],
     "composer": "Wolfgang Amadeus Mozart",
-    "recommended": false,
     "audio": true,
     "audioUrl": "https://res.cloudinary.com/dt3k2apqd/video/upload/q_auto/Sang%20i%20begravelse/Audio/Ach_ich_fu%CC%88hls_teaser_pbxieg.wav",
     "performers": "Susanne Hvinden Hals",
@@ -2303,7 +2168,6 @@
     "title": "Hallelujah",
     "arrangement": ["solo"],
     "composer": "Leonard Cohen",
-    "recommended": false,
     "audio": true,
     "audioUrl": "https://res.cloudinary.com/dt3k2apqd/video/upload/v1693149327/Sang%20i%20begravelse/Audio/Hallelujah_teaser_nda69u.wav",
     "performers": "Nils Georg Nilsen",
@@ -2322,7 +2186,6 @@
     "title": "Caruso",
     "arrangement": ["solo"],
     "composer": "Lucio Dalla",
-    "recommended": true,
     "audio": true,
     "audioUrl": "https://res.cloudinary.com/dt3k2apqd/video/upload/q_auto/Sang%20i%20begravelse/Audio/Caruso_teaser_osdu8s.wav",
     "performers": "Nils Georg Nilsen",
@@ -2341,7 +2204,6 @@
     "title": "The Prayer",
     "arrangement": ["duett"],
     "composer": "David Foster / Carole Bayer Sager / Alberto Testa / Tony Renis",
-    "recommended": true,
     "audio": true,
     "audioUrl": "https://res.cloudinary.com/dt3k2apqd/video/upload/q_auto/Sang%20i%20begravelse/Audio/The_Prayer_teaser_zhcqlb.wav",
     "performers": "Susanne Hvinden Hals, Nils Georg Nilsen",
