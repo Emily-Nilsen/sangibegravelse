@@ -444,7 +444,7 @@ export function RepertoarToggle() {
                             >
                               <Image
                                 src={sang.desktop}
-                                alt=""
+                                alt={sang.title}
                                 width={1456}
                                 height={816}
                                 className="object-cover object-center w-full h-96"
