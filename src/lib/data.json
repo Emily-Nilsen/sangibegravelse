@@ -272,15 +272,15 @@
   },
   {
     "objectID": "18",
-    "category": "Klassisk",
-    "subcategory": ["Viser"],
+    "category": "Salmer",
+    "subcategory": ["Viser", "Kirkemusikk", "Klassisk"],
     "title": "Fall til ro",
     "arrangement": ["solo"],
     "composer": "William Carter",
     "audio": false,
     "description": [
       "Fall til ro, komponert av William Carter, er en vakker klassisk vuggevise som utstråler en følelse av ro og stillhet.",
-      "Dens beroligende melodi og milde tekst skaper en fredelig atmosfære, perfekt for å berolige rastløse sjeler og bringe trøst.",
+      "Dens beroligende melodi og relgiøse tekst skaper en fredelig atmosfære, perfekt for å berolige rastløse sjeler og bringe trøst. Snakker om nærvær til Jesus og Gud.",
       "Fall til ro inviterer lyttere til å finne trøst i dens rolige omfavnelse, og gir et øyeblikk med pusterom og ro."
     ],
     "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Fall_til_ro_desktop_lcnpar.webp",
@@ -532,10 +532,10 @@
     "subcategory": ["Kunstsang"],
     "title": "I skjærgårdsø",
     "arrangement": ["solo"],
-    "composer": "Gustav Lange Sommerfeldt",
+    "composer": "Øistein Sommerfeldt",
     "audio": false,
     "description": [
-      "I skjærgårdsø, komponert av Gustav Lange Sommerfeldt, er en fengslende kunstsang som skildrer skjønnheten og roen til en øy i skjærgården.",
+      "I skjærgårdsø, komponert av Øistein Sommerfeldt, er en fengslende romanse som skildrer skjønnheten og roen til en øy i skjærgården.",
       "Med sin melodiske sjarm og stemningsfulle tekst, transporterer sangen lytterne til et fredelig kystlandskap, og fanger essensen av naturens ro og den idylliske atmosfæren i øylivet."
     ],
     "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/I_skj%C3%A6rga%CC%8Ards%C3%B8_desktop_abnyzi.webp",
@@ -950,8 +950,7 @@
     "audio": false,
     "description": [
       "Där björkarna susa, komponert av Gustaf Sund, er en vakker svensk folkesang som transporterer lytterne til bjørketrærnes rolige og fortryllende verden.",
-      "Med sine milde melodier og poetiske tekst fanger sangen bjørketrærnes hvisking og naturomgivelsenes fred. Där björkarna susa fremkaller en følelse av ro og forbindelse med naturen, og inviterer lyttere til å fordype seg i den harmoniske atmosfæren i bjørkeskogen.",
-      "Sunds beroligende vokal og det delikate musikalske arrangementet skaper en beroligende og reflekterende atmosfære, som lar lytterne oppleve roen og skjønnheten til bjørketrærne."
+      "Med sine milde melodier og poetiske tekst fanger sangen bjørketrærnes hvisking og naturomgivelsenes fred. Där björkarna susa fremkaller en følelse av ro og forbindelse med naturen, og inviterer lyttere til å fordype seg i den harmoniske atmosfæren i bjørkeskogen."
     ],
     "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Da%CC%88r_bjo%CC%88rkarna_susa_fzjsyv.webp",
     "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Da%CC%88r_bjo%CC%88rkarna_susa_mobile_uuipnt.webp"
@@ -998,7 +997,7 @@
     "audio": false,
     "description": [
       "Den dag kjem aldri, med tekst av Aasmund Olavsson Vinje og tradisjonell melodi, er ein gripande folkevisa som reflekterer over lengsel og uoppfylte lyster i livet.",
-      "Med sin inderlige tekst og melankolske melodi uttrykker sangen smerten ved å vente på noe som kanskje aldri kommer til å skje. Den dag kjem aldri fanger essensen av lengsel, lengsel og den bittersøte skjønnheten i uoppfylte drømmer.",
+      "Med sin inderlige tekst og melankolske melodi uttrykker sangen smerten ved å vente på noe som kanskje aldri kommer til å skje. Den dag kjem aldri fanger essensen av lengsel og den bittersøte skjønnheten i uoppfylte drømmer.",
       "Den emosjonelle vokalen og det sparsomme musikalske arrangementet skaper en introspektiv og kontemplativ atmosfære, som inviterer lytterne til å reflektere over kompleksiteten av håp og lengsel."
     ],
     "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Den_dag_kjem_aldri_bcymv9.webp",
@@ -1010,12 +1009,10 @@
     "subcategory": ["Nordisk", "Viser"],
     "title": "Den fyrste song",
     "arrangement": ["solo"],
-    "composer": "Edvard Grieg",
+    "composer": "Lars Søraas / Per Sivle",
     "audio": false,
     "description": [
-      "Den fyrste song, komponert av Edvard Grieg, er ein vakker kunstsang som fangar uskylden og undringa til eit barns første song. Sangen fremkaller en følelse av renhet og glede med sine ømme melodier og poetiske tekst.",
-      "Den fyrste sangen feirer oppvåkningen av et barns musikalitet og uttrykket av deres indre stemme gjennom sang.",
-      "Griegs melodiske komposisjon og milde akkompagnement skaper en delikat og fortryllende atmosfære, som inviterer lytterne til å oppleve magien og uskylden i de første musikalske ytringene."
+      "Salmen er skrevet i 1877 av Per Sivle og melodien er lagt til av Lars Søraas i 1909. Salmen kan bli sett på som en skjønn vuggesang og er regnet med blant våre aller vakreste sanger og melodier."
     ],
     "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Den_fyrste_song_ozxg0o.webp",
     "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Den_fyrste_song_mobile_oxl47t.webp"
@@ -1030,8 +1027,7 @@
     "audio": false,
     "description": [
       "Det hainnle om å leve, komponert av Kine Hellebust, er en oppløftende poplåt som feirer essensen av å leve livet til det fulle. Med sine fengende melodier og styrkende tekst oppfordrer sangen lytterne til å omfavne øyeblikket, ta risiko og gripe muligheter.",
-      "Det hainnle om å leve fanger ånden av å omfavne livets eventyr, finne glede i hverdagsopplevelser og omfavne sitt autentiske jeg.",
-      "Hellebusts livlige vokal og det livlige musikalske arrangementet skaper en levende og energisk atmosfære, som inspirerer lytterne til å leve livet med lidenskap og entusiasme."
+      "Det hainnle om å leve fanger ånden av å omfavne livets eventyr, finne glede i hverdagsopplevelser og omfavne sitt autentiske jeg."
     ],
     "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Det_hainnle_om_a%CC%8A_leve_vpxcdn.webp",
     "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Det_hainnle_om_a%CC%8A_leve_mobile_ylnjly.webp"
@@ -1045,9 +1041,8 @@
     "composer": "Anita Skorgan / Svein Dag Hauge",
     "audio": false,
     "description": [
-      "Det vakreste som fins, fremført av Jahn Teigen, er en inderlig poplåt som hyller kjærlighetens skjønnhet og den dype forbindelsen mellom to sjeler. Med sine emosjonelle tekst og ømme melodier, uttrykker sangen dybden av følelser og kjærlighetens transformerende kraft.",
-      "Det vakreste som fins fanger essensen av å finne skjønnhet i de enkleste øyeblikkene og verne om nærværet til en kjær.",
-      "Teigens sjelfulle vokal og melodiske arrangement skaper en intim og emosjonell atmosfære, som inviterer lytterne til å fordype seg i kjærlighetens skjønnhet og under."
+      "Det vakreste som fins, kjent gjennom Jahn Teigen, er en inderlig poplåt som hyller kjærlighetens skjønnhet og den dype forbindelsen mellom to sjeler. Med sine emosjonelle tekst og ømme melodier, uttrykker sangen dybden av følelser og kjærlighetens transformerende kraft.",
+      "Det vakreste som fins fanger essensen av å finne skjønnhet i de enkleste øyeblikkene og verne om nærværet til en man har kjær."
     ],
     "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Det_vakreste_som_finnes_dvotuf.webp",
     "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Det_vakreste_som_finnes_mobile_wda4lw.webp"
@@ -1142,8 +1137,7 @@
     "audio": false,
     "description": [
       "Evig hvile, komponert av Bjørn Eidsvåg, er en gripende ballade som reflekterer over begrepet evig hvile og livet etter døden.",
-      "Med sin reflekterende tekst og melodiske komposisjon fordyper sangen seg inn i temaene dødelighet og lengselen etter fredelig og evig hvile. Evig hvile fanger essensen av å søke trøst i å finne hvile og ro utover dette livet.",
-      "Eidsvågs sjelfulle vokal og det emosjonelle musikalske arrangementet skaper en kontemplativ og inderlig atmosfære, som inviterer lytterne til å reflektere over livets mysterier og håpet om evig fred."
+      "Med sin reflekterende tekst og melodiske komposisjon fordyper sangen seg inn i temaene dødelighet og lengselen etter fredelig og evig hvile. Evig hvile fanger essensen av å søke trøst i å finne hvile og ro utover dette livet."
     ],
     "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Evig_hvile_k6wnpp.webp",
     "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Evig_hvile_mobile_tcnlzv.webp"
@@ -1157,9 +1151,8 @@
     "composer": "Anders Tveit",
     "audio": false,
     "description": [
-      "For siste gjeng, komponert av Anders Tveit, er en inderlig popballade som snakker om å ta farvel eller si farvel for siste gang. Med sine emosjonelle tekst og ømme melodier, uttrykker sangen følelsene og kompleksiteten som følger med avskjedsveier.",
-      "For søstergjengen fanger essensen av avslutning, refleksjon og den gripende erkjennelsen av at dette kan være det siste farvel.",
-      "Tveits sjelfulle vokal og melodiske arrangement skaper en intim og emosjonell atmosfære, som inviterer lyttere til å koble seg til følelsen av å skilles og gå videre."
+      "For siste gang, komponert av Anders Tveit, er en inderlig popballade som snakker om å ta farvel eller si farvel for siste gang. Med sine emosjonelle tekst og ømme melodier, uttrykker sangen følelsene og kompleksiteten som følger med avskjedsveier.",
+      "Sangen er kjent fra barnetv-serien Portveien 2."
     ],
     "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/For_siste_gang_mx5tpv.webp",
     "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/For_siste_gang_mobile_uospfd.webp"
@@ -1170,12 +1163,12 @@
     "subcategory": ["Nordisk", "Popballade"],
     "title": "Fordi jeg elsker deg",
     "arrangement": ["solo", "duett"],
-    "composer": "Øystein Bratland / David Dyllan",
+    "composer": "Bob Dyllan",
     "audio": false,
     "description": [
-      "Fordi jeg elsker deg, komponert av Øystein Bratland og David Dyllan, er en rørende popballade som utforsker kjærlighetens dybde og kraft. Med sine inderlige tekst og emosjonelle melodier, uttrykker sangen de dype følelsene og dedikasjonen som følger med å elske noen dypt.",
-      "Fordi jeg elsker deg fanger essensen av hengivenhet, sårbarhet og viljen til å strekke seg langt for kjærligheten.",
-      "Den sjelfulle vokalen til Bratland og Dyllans harmonier, sammen med det melodiske arrangementet, skaper en intim og emosjonell atmosfære, som inviterer lyttere til å koble seg til den mektige og universelle følelsen av kjærlighet."
+      "Fordi jeg elsker deg er oversatt av Bjarte Hjelmeland fra Bob Dyllan’s kjente låt, Make you feel my Love. Sangen er en rørende popballade som utforsker kjærlighetens dybde og kraft.",
+      "Med sine inderlige tekst og emosjonelle melodi, uttrykker sangen de dype følelsene og dedikasjonen som følger med å elske noen dypt.",
+      "Fordi jeg elsker deg fanger essensen av hengivenhet, sårbarhet og viljen til å strekke seg langt for kjærligheten."
     ],
     "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Fordi_jeg_elsker_deg_gmaort.webp",
     "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Fordi_jeg_elsker_deg_mobile_fvnauf.webp"
@@ -1198,7 +1191,7 @@
   },
   {
     "objectID": "76",
-    "category": "Viser",
+    "category": "Salmer",
     "subcategory": ["Nordisk"],
     "title": "Gje meg handa di ven",
     "arrangement": ["solo", "duett"],
@@ -1218,11 +1211,11 @@
     "subcategory": ["Nordisk", "Popballade"],
     "title": "God morgen min kjære",
     "arrangement": ["solo", "duett"],
-    "composer": "Ole Paus Borg",
+    "composer": "Benny Borg",
     "audio": false,
     "description": [
-      "God morgen min kjære, komponert av Ole Paus Borg, er en øm popballade som formidler et kjærlighets- og hengivenhetsbudskap. Med sine milde tekst og emosjonelle melodier, snakker sangen om å hilse en kjær med varme og ømhet om morgenen.",
-      "God morgen min kjære fanger essensen av å uttrykke kjærlighet og takknemlighet for noen spesiell, og lyser opp dagen deres med kjærlige ord.",
+      "God morgen min kjære er skrevet av Benny Borg til sin avdøde kone. Sangen formidler budskapet om kjærlighets- og hengivenhet.",
+      "God morgen min kjære fanger essensen av å uttrykke kjærlighet og takknemlighet for noen spesiell. Et savn av den man har å holde kjær og ønske om å fortsatt ha dem ved sin side.",
       "Den inderlige vokalen og det melodiske arrangementet skaper en varm og kjærlig atmosfære, og inviterer lyttere til å dele den enkle, men kraftige følelsen av kjærlighet og omsorg."
     ],
     "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/God_morgen_min_kj%C3%A6re_ou6kn5.webp",
@@ -1238,8 +1231,8 @@
     "audio": false,
     "description": [
       "God natt Oslo, komponert av Lillebjørn Nilsen, er en gripende folkevise som tar farvel med Oslo by.",
-      "Med sine stemningsfulle tekst og inderlige melodier uttrykker sangen en følelse av nostalgi og forkjærlighet for byen. God natt Oslo fanger essensen av å si farvel til et sted med kjære minner og betydning i sangerens hjerte.",
-      "Nilsens emosjonelle vokal og det sjelfulle folkearrangementet skaper en intim og emosjonell atmosfære, som inviterer lyttere til å dele følelsene ved å forlate en elsket by."
+      "Med sine stemningsfulle tekst og inderlige melodier uttrykker sangen en følelse av nostalgi og forkjærlighet for byen. God natt Oslo fanger essensen av å si farvel til en by med yrende liv og som alltid lever sitt eget liv.",
+      "Sangen skaper en intim og emosjonell atmosfære, som inviterer lyttere til å dele følelsene om en elsket by."
     ],
     "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/God_natt_Oslo_xq30g3.webp",
     "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/God_natt_Oslo_mobile_rmd89v.webp"
@@ -1270,8 +1263,7 @@
     "audio": false,
     "description": [
       "Hildringstimen, komponert av Erik Bye, er en fengslende ballade som vekker en følelse av fortryllelse og refleksjon i skumringstimen.",
-      "Med sine poetiske tekst og fascinerende melodier snakker sangen om de magiske øyeblikkene mellom dag og natt, der grensene mellom virkelighet og fantasi visker ut. Hildringstimen fanger essensen av å omfavne den flyktige og drømmeaktige skjønnheten i skumringen.",
-      "Byes sjelfulle vokal og det uhyggelig vakre arrangementet skaper en hypnotiserende og kontemplativ atmosfære, og inviterer lyttere til å bli betatt av den poetiske og eteriske essensen av skumringstimen."
+      "Med sine poetiske tekst og fascinerende melodier snakker sangen om de magiske øyeblikkene mellom dag og natt, der grensene mellom virkelighet og fantasi visker ut. Hildringstimen fanger essensen av å omfavne den flyktige og drømmeaktige skjønnheten i skumringen."
     ],
     "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Hildringstimen_jlvwym.webp",
     "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Hildringstimen_mobile_w9w1is.webp"
@@ -1285,9 +1277,8 @@
     "composer": "Stephan Berg",
     "audio": false,
     "description": [
-      "Himlen I min favn, fremført av Carola, er en mektig popballade som uttrykker en dyp kjærlighet og tilknytning. Med sine emosjonelle tekst og svevende melodier snakker sangen om å finne himmelen i armene til en kjær.",
-      "Himlen I min favn fanger essensen av de intense følelsene man opplever når man er sammen med noen som gir glede, trøst og en følelse av fullstendighet.",
-      "Carolas emosjonelle vokal og det oppløftende poparrangementet skaper en virkningsfull og inderlig atmosfære, og inviterer lyttere til å bli beveget av dybden av kjærlighet som er skildret i sangen."
+      "Himlen I min favn, kjent gjennom Carola, er en mektig popballade som uttrykker en dyp kjærlighet og tilknytning. Med sine emosjonelle tekst og svevende melodier snakker sangen om å finne himmelen i armene til en kjær.",
+      "Himlen I min favn fanger essensen av de intense følelsene man opplever når man er sammen med noen som gir glede, trøst og en følelse av fullstendighet."
     ],
     "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Himlen_I_min_favn_ofi9q1.webp",
     "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Himlen_I_min_favn_mobile_aqgusc.webp"
@@ -1298,12 +1289,11 @@
     "subcategory": ["Nordisk", "Popballade"],
     "title": "Himmelhøge sti",
     "arrangement": ["solo"],
-    "composer": "Knut Buen",
+    "composer": "Elle Melle",
     "audio": false,
     "description": [
-      "Himmelhøge sti, en tradisjonell norsk folkesang, er en sjelfull ballade som snakker om en åndelig reise og lengselen etter en høyere vei.",
-      "Sangen overveier søken etter mening og en forbindelse til det guddommelige med sin lidenskapelige tekst og melodiske komposisjon. Himmelhøge sti fanger essensen av å søke trøst og veiledning i naturens vidder og himmelen over.",
-      "Den sjeleglade vokalen og det autentiske folkearrangementet skaper en kontemplativ og inderlig atmosfære, og inviterer lyttere til å reflektere over naturens åndelige søken og skjønnhet."
+      "Himmelhøge sti er en mye brukt sang i begravelser laget av Elle Melle. Det er en sjelfull ballade som snakker om en åndelig reise og lengselen etter en høyere vei. ",
+      "Himmelhøge sti fanger essensen av å søke trøst og veiledning i naturens vidder og himmelen over."
     ],
     "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Himmelh%C3%B8ge_sti_gbk6pc.webp",
     "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Himmelh%C3%B8ge_sti_mobile_yfau7u.webp"
@@ -1314,12 +1304,11 @@
     "subcategory": ["Nordisk"],
     "title": "Höstvisa",
     "arrangement": ["solo"],
-    "composer": "Ulf Tauro",
+    "composer": "Erna Tauro",
     "audio": false,
     "description": [
-      "Höstvisa, komponert av Ulf Tauro, er en inderlig folkeballade som feirer høstsesongens skjønnhet og melankoli. Med sin poetiske tekst og melodiske komposisjon snakker sangen om bladenes skiftende farger og de bittersøte følelsene som kommer med høstens ankomst.",
-      "Höstvisa fanger essensen av å omfavne livets forbigående natur og finne trøst i skjønnhetens flyktige øyeblikk.",
-      "Den sjelfulle vokalen og det milde folkearrangementet skaper en nostalgisk og reflektert atmosfære, som inviterer lyttere til å bli betatt av høstens følelser og bilder."
+      "Höstvisa, komponert av Erna Tauro, er en inderlig folkeballade som feirer høstsesongens skjønnhet og melankoli. Med sin poetiske tekst og melodiske komposisjon snakker sangen om bladenes skiftende farger og de bittersøte følelsene som kommer med høstens ankomst.",
+      "Höstvisa fanger essensen av å omfavne livets forbigående natur og finne trøst i skjønnhetens flyktige øyeblikk. ‘Skynda dej älskade, skynda att älska, dagarna mörknar minut för minut...’"
     ],
     "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Ho%CC%88stvisa_qusay0.webp",
     "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Ho%CC%88stvisa_mobile_qkevyd.webp"
@@ -1335,7 +1324,7 @@
     "description": [
       "Håll mitt hjärta, fremført av Björn Skifs, er en inderlig popballade som uttrykker en bønn om kjærlighet og følelsesmessig forbindelse.",
       "Med sine ømme tekst og emosjonelle melodier, snakker sangen om sårbarhet og ønsket om å bli holdt og elsket av noen spesiell. Håll mitt hjärta fanger essensen av lengsel etter et dypt og meningsfylt forhold.",
-      "Skifs' sjelfulle vokal og det melodiøse poparrangementet skaper en intim og rørende atmosfære, som inviterer lytterne til å føle den rå følelsen og lengselen som formidles i sangen."
+      "Sangen skaper en intim og rørende atmosfære og får lytterne til å føle lengsel og kjærlighet."
     ],
     "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Ha%CC%8All_mitt_hja%CC%88rta_bhxiii.webp",
     "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Ha%CC%8All_mitt_hja%CC%88rta_mobile_zh3ips.webp"
@@ -1383,10 +1372,10 @@
     "description": [
       "Jag trivs bäst i öppna landskap, komponert av Ulf Lundell, er en antemisk rockesang som hyller kjærligheten til vidåpne rom og friheten de representerer.",
       "Med sine livlige tekst og energiske melodier snakker sangen om å finne trøst og tilfredshet i naturens vidder og uutforskede horisonter. Jag trivs bäst i öppna landskap fanger essensen av å omfavne enkelheten og storheten til utendørs.",
-      "Lundells lidenskapelige vokal og det dynamiske rockarrangementet skaper en befriende og forfriskende atmosfære, som inviterer lytterne til å legge ut på en reise med utforskning og selvoppdagelse."
+      "Sangen skaper en befriende og forfriskende atmosfære og avslutter med: ‘Nära havet vil jag bo’"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Jag_trivs_ba%CC%88st_i_o%CC%88ppna_landskap_tdo2kc.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Jag_trivs_ba%CC%88st_i_o%CC%88ppna_landskap_mobile_dahys9.webp"
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/near_the_sea_avfbhs.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/near_the_sea_mobile_ay9iyj.webp"
   },
   {
     "objectID": "88",
