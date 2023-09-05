@@ -146,6 +146,7 @@ export function RepertoarToggle() {
                   <option value="Aria">Aria</option>
                   <option value="Country">Country</option>
                   <option value="Crossover">Crossover</option>
+                  <option value="Evangelium">Evangelium</option>
                   <option value="Folkemusikk">Folkemusikk</option>
                   <option value="Irsk">Irsk</option>
                   <option value="Islandsk">Islandsk</option>
