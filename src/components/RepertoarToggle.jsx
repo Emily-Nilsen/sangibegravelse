@@ -393,6 +393,15 @@ export function RepertoarToggle() {
                                   </div>
                                 ))}
                               </p>
+                              <div className="p-8 mt-6 overflow-hidden rounded-lg bg-amber-50/70 w-fit">
+                                <p className="max-w-lg text-sm font-medium leading-7 text-gray-600 ">
+                                  {sang.lyrics.map((line, i) => (
+                                    <div className="mt-0" key={i}>
+                                      {line === '' ? <br /> : <p>{line}</p>}
+                                    </div>
+                                  ))}
+                                </p>
+                              </div>
                               <div className="pt-6">
                                 <p className="text-sm font-semibold text-gray-900">
                                   Underkategori
@@ -448,7 +457,7 @@ export function RepertoarToggle() {
                                 alt={sang.title}
                                 width={1456}
                                 height={816}
-                                className="object-cover object-center w-full h-96"
+                                className="object-cover object-center w-full overflow-hidden rounded-lg h-96"
                               />
                             </div>
                           </div>
