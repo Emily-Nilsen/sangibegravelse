@@ -78,7 +78,7 @@ export function RepertoarToggle() {
       <div className="px-4 py-24 sm:px-6 lg:px-8 sm:py-32">
         <div>
           <div className="max-w-2xl lg:flex-auto">
-            <h1 className="text-2xl font-bold leading-10 tracking-tight text-gray-900 sm:text-3xl">
+            <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
               Repertoar
             </h1>
             <motion.p
@@ -89,7 +89,7 @@ export function RepertoarToggle() {
                 duration: 1,
                 type: 'fade',
               }}
-              className="mt-2 text-sm text-gray-700 sm:mt-6 sm:text-base sm:leading-8"
+              className="mt-6 text-lg leading-8 text-gray-600"
             >
               En omfattende repertoarliste for begravelsessanger, inkludert
               sangtittel, komponist, arrangement og kategori. Utforsk mer
@@ -98,7 +98,7 @@ export function RepertoarToggle() {
             </motion.p>
           </div>
           {/* Filter controls */}
-          <div className="pt-6 sm:pt-8 sm:pb-4">
+          <div className="pt-12 sm:pb-4">
             <div className="flex items-center space-x-4 text-sm">
               <div>
                 <label
@@ -393,15 +393,17 @@ export function RepertoarToggle() {
                                   </div>
                                 ))}
                               </p>
-                              <div className="p-8 mt-6 overflow-hidden rounded-lg bg-amber-50/70 w-fit">
-                                <p className="max-w-lg text-sm font-medium leading-7 text-gray-600 ">
-                                  {sang.lyrics.map((line, i) => (
-                                    <div className="mt-0" key={i}>
-                                      {line === '' ? <br /> : <p>{line}</p>}
-                                    </div>
-                                  ))}
-                                </p>
-                              </div>
+                              {sang.lyrics && (
+                                <div className="p-8 mt-6 mb-2 overflow-hidden rounded-lg bg-amber-50/70 w-fit">
+                                  <p className="max-w-lg text-sm font-medium leading-7 text-gray-600 ">
+                                    {sang.lyrics.map((line, i) => (
+                                      <div className="mt-0" key={i}>
+                                        {line === '' ? <br /> : <p>{line}</p>}
+                                      </div>
+                                    ))}
+                                  </p>
+                                </div>
+                              )}
                               <div className="pt-6">
                                 <p className="text-sm font-semibold text-gray-900">
                                   Underkategori
@@ -438,7 +440,7 @@ export function RepertoarToggle() {
                             </div>
                             <div
                               aria-hidden="true"
-                              className="relative overflow-hidden rounded-lg sm:hidden"
+                              className="relative mt-2 mb-10 overflow-hidden rounded-lg sm:hidden"
                             >
                               <Image
                                 src={sang.mobile}
