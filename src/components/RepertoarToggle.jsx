@@ -20,9 +20,11 @@ export function RepertoarToggle() {
     fetch('/api/repertoire')
       .then((response) => response.json())
       .then((data) => {
-        const sortedRepertoire = data.sort((a, b) =>
-          a.title.localeCompare(b.title)
-        ); // Sort repertoire by song title alphabetically
+        const sortedRepertoire = data.sort((a, b) => {
+          // Custom sorting function considering the Norwegian alphabet
+          const collator = new Intl.Collator('nb');
+          return collator.compare(a.title, b.title);
+        });
         setRepertoire(sortedRepertoire);
       })
       .catch((error) => console.log(error));
