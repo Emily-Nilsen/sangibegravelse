@@ -24,6 +24,13 @@ const people = [
       'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Kathrine_square_eqohro.webp',
     profileUrl: '/kathrine-hvinden-hals',
   },
+  {
+    name: 'Jan-Tore Saltnes',
+    role: 'Sanger',
+    imageUrl:
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/artists/jan-tore_saltnes_jwsakm.webp',
+    profileUrl: '/jan-tore-saltnes',
+  },
 ];
 
 export function ArtistsPreview() {
