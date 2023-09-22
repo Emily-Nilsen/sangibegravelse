@@ -250,7 +250,7 @@ export function RepertoarToggle() {
                                 </span>
                               </>
                             )}
-                            {sang.arrangement.includes('duet') && (
+                            {sang.arrangement.includes('duett') && (
                               <>
                                 <span className="inline-flex items-center p-1.5 text-xs font-medium text-slate-700 rounded-full bg-slate-50 ring-1 ring-inset ring-slate-600/20">
                                   <DuetIcon
@@ -289,7 +289,7 @@ export function RepertoarToggle() {
                             </span>
                           </>
                         )}
-                        {sang.arrangement.includes('duet') && (
+                        {sang.arrangement.includes('duett') && (
                           <>
                             <span className="inline-flex items-center p-1.5 text-xs font-medium text-slate-700 rounded-full bg-slate-50 ring-1 ring-inset ring-slate-600/20">
                               <DuetIcon
@@ -393,7 +393,7 @@ export function RepertoarToggle() {
                                     {sang.lyrics && (
                                       <span>
                                         <Expandable.Button>
-                                          <p className="">Se sang tekst</p>
+                                          <p className="">Tekst</p>
                                         </Expandable.Button>
                                       </span>
                                     )}
