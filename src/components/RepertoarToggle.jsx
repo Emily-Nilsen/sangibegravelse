@@ -119,7 +119,6 @@ export function RepertoarToggle() {
                   <option value="">Alle</option>
                   <option value="Klassisk">Klassisk</option>
                   <option value="Musikal">Musikal</option>
-                  <option value="Nordisk">Nordisk</option>
                   <option value="Opera">Opera</option>
                   <option value="Pop">Pop</option>
                   <option value="Salmer">Salmer</option>
