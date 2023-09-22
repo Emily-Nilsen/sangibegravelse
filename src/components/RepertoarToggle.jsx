@@ -5,7 +5,7 @@ import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { Disclosure } from '@headlessui/react';
 import { MinusSmallIcon, PlusSmallIcon } from '@heroicons/react/24/outline';
-
+import { Expandable } from '@/components/Expandable';
 import { ViolinIcon } from './icons/Violin';
 import { SoloIcon } from './icons/Solo';
 import { DuetIcon } from './icons/Duet';
@@ -232,13 +232,6 @@ export function RepertoarToggle() {
                   <tr>
                     <td className="w-full py-4 pl-4 pr-3 text-sm font-medium text-gray-900 max-w-0 sm:w-auto sm:max-w-none sm:pl-0">
                       {sang.title}{' '}
-                      {/* {sang.recommended === true ? (
-                        <>
-                          <span className="inline-flex items-center px-2 py-1 ml-2 text-xs font-medium text-pink-700 rounded-md bg-pink-50 ring-1 ring-inset ring-pink-600/20">
-                            Anbefales
-                          </span>
-                        </>
-                      ) : null} */}
                       <dl className="font-normal lg:hidden">
                         <dt className="sr-only">Komponist</dt>
                         <dd className="mt-1 text-gray-700 truncate">
@@ -377,97 +370,119 @@ export function RepertoarToggle() {
                       </button>
                     </td>
                   </tr>
-                  <>
-                    {/* Additional information */}
-                    {expandedSongs.includes(sang.objectID) && (
-                      <tr>
-                        <td colSpan="5">
-                          <div
-                            id="expanded"
-                            className="grid w-full grid-cols-1 gap-4 p-4 md:grid-cols-2"
-                          >
-                            <div className="p-3">
-                              <p className="max-w-lg text-sm leading-7 text-gray-600 ">
-                                {sang.description.map((line) => (
-                                  <div className="mt-3" key={line}>
-                                    <p>{line}</p>
-                                  </div>
-                                ))}
-                              </p>
-                              {sang.lyrics && (
-                                <div className="p-8 mt-6 mb-2 overflow-hidden rounded-lg bg-amber-50/70 w-fit">
-                                  <p className="max-w-lg text-sm font-medium leading-7 text-gray-600 ">
-                                    {sang.lyrics.map((line, i) => (
-                                      <div className="mt-0" key={i}>
-                                        {line === '' ? <br /> : <p>{line}</p>}
+                  <Expandable>
+                    {({ isExpanded }) => (
+                      <>
+                        {/* Additional information */}
+                        {expandedSongs.includes(sang.objectID) && (
+                          <tr>
+                            <td colSpan="5">
+                              <div
+                                id="expanded"
+                                className="grid w-full grid-cols-1 gap-4 p-4 md:grid-cols-2"
+                              >
+                                <div className="p-3">
+                                  <p className="max-w-lg text-sm leading-7 text-gray-600 ">
+                                    {sang.description.map((line) => (
+                                      <div className="mt-3" key={line}>
+                                        <p>{line}</p>
                                       </div>
                                     ))}
                                   </p>
-                                </div>
-                              )}
-                              <div className="pt-6">
-                                <p className="text-sm font-semibold text-gray-900">
-                                  Underkategori
-                                </p>
-                                <p className="flex max-w-md gap-3 text-sm leading-7 text-gray-600">
-                                  {sang.subcategory.map((line) => (
-                                    <div className="mt-3" key={line}>
-                                      <span className="inline-flex items-center px-2 py-1 text-xs font-medium rounded-md text-slate-700 bg-slate-50 ring-1 ring-inset ring-slate-600/20">
-                                        {line}
+                                  <div className="text-gray-700">
+                                    {sang.lyrics && (
+                                      <span>
+                                        <Expandable.Button>
+                                          <p className="">Se sang tekst</p>
+                                        </Expandable.Button>
                                       </span>
-                                    </div>
-                                  ))}
-                                </p>
-                                <>
-                                  {sang.audio && (
-                                    <div className="mt-6">
-                                      <audio controls>
-                                        <source
-                                          src={sang.audioUrl}
-                                          type="audio/mpeg"
-                                        />
-                                        Your browser does not support the audio
-                                        element.
-                                      </audio>
-                                    </div>
-                                  )}
-                                  {sang.performers && (
-                                    <p className="max-w-lg pt-4 text-sm leading-7 text-gray-600">
-                                      {sang.performers}
+                                    )}
+                                  </div>
+                                  {isExpanded ? (
+                                    <>
+                                      {sang.lyrics && (
+                                        <div className="p-8 mt-6 mb-2 overflow-hidden rounded-lg bg-amber-50/70 w-fit">
+                                          <p className="max-w-lg text-sm font-medium leading-7 text-gray-600 ">
+                                            {sang.lyrics.map((line, i) => (
+                                              <div className="mt-0" key={i}>
+                                                {line === '' ? (
+                                                  <br />
+                                                ) : (
+                                                  <p>{line}</p>
+                                                )}
+                                              </div>
+                                            ))}
+                                          </p>
+                                        </div>
+                                      )}
+                                    </>
+                                  ) : null}
+
+                                  <div className="pt-6">
+                                    <p className="text-sm font-semibold text-gray-900">
+                                      Underkategori
                                     </p>
-                                  )}
-                                </>
+                                    <p className="flex max-w-md gap-3 text-sm leading-7 text-gray-600">
+                                      {sang.subcategory.map((line) => (
+                                        <div className="mt-3" key={line}>
+                                          <span className="inline-flex items-center px-2 py-1 text-xs font-medium rounded-md text-slate-700 bg-slate-50 ring-1 ring-inset ring-slate-600/20">
+                                            {line}
+                                          </span>
+                                        </div>
+                                      ))}
+                                    </p>
+                                    <>
+                                      {sang.audio && (
+                                        <div className="mt-6">
+                                          <audio controls>
+                                            <source
+                                              src={sang.audioUrl}
+                                              type="audio/mpeg"
+                                            />
+                                            Your browser does not support the
+                                            audio element.
+                                          </audio>
+                                        </div>
+                                      )}
+                                      {sang.performers && (
+                                        <p className="max-w-lg pt-4 text-sm leading-7 text-gray-600">
+                                          {sang.performers}
+                                        </p>
+                                      )}
+                                    </>
+                                  </div>
+                                </div>
+                                <div
+                                  aria-hidden="true"
+                                  className="relative mt-2 mb-10 overflow-hidden rounded-lg sm:hidden"
+                                >
+                                  <Image
+                                    src={sang.mobile}
+                                    alt=""
+                                    width={640}
+                                    height={359}
+                                    className="object-cover object-center w-full h-64"
+                                  />
+                                </div>
+                                <div
+                                  aria-hidden="true"
+                                  className="relative hidden overflow-hidden rounded-lg sm:block"
+                                >
+                                  <Image
+                                    src={sang.desktop}
+                                    alt={sang.title}
+                                    width={1456}
+                                    height={816}
+                                    className="object-cover object-center w-full overflow-hidden rounded-lg h-96"
+                                  />
+                                </div>
                               </div>
-                            </div>
-                            <div
-                              aria-hidden="true"
-                              className="relative mt-2 mb-10 overflow-hidden rounded-lg sm:hidden"
-                            >
-                              <Image
-                                src={sang.mobile}
-                                alt=""
-                                width={640}
-                                height={359}
-                                className="object-cover object-center w-full h-64"
-                              />
-                            </div>
-                            <div
-                              aria-hidden="true"
-                              className="relative hidden overflow-hidden rounded-lg sm:block"
-                            >
-                              <Image
-                                src={sang.desktop}
-                                alt={sang.title}
-                                width={1456}
-                                height={816}
-                                className="object-cover object-center w-full overflow-hidden rounded-lg h-96"
-                              />
-                            </div>
-                          </div>
-                        </td>
-                      </tr>
+                            </td>
+                          </tr>
+                        )}
+                      </>
                     )}
-                  </>
+                  </Expandable>
                 </React.Fragment>
               ))}
             </tbody>
