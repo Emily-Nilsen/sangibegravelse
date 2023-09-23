@@ -30,7 +30,7 @@ export function HeroJanTore() {
         ></div>
         <div className="relative z-10 max-w-md py-32 pr-6 mx-auto sm:mr-12 sm:-ml-12 sm:col-start-2 sm:max-w-2xl md:max-w-3xl sm:py-48 lg:py-56 sm:mx-0">
           <div className="text-center sm:text-left">
-            <h6 className="pt-20 text-5xl tracking-tight text-white sm:text-slate-700 sm:text-6xl lg:text-7xl">
+            <h6 className="pt-20 text-5xl tracking-tight text-white sm:text-slate-800 sm:text-6xl lg:text-7xl">
               Jan-Tore Saltnes
             </h6>
 
