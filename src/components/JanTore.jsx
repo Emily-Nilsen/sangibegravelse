@@ -77,10 +77,8 @@ export function JanTore() {
                 type: 'fade',
               }}
             >
-              Etter å ha fullført sin mastergrad ved Manhattan School of Music
-              debuterte han ved Lincoln Center i New York. Han har nylig
-              opptrådt som solist med Chicago Symphony Orchestra og har sunget
-              med den israelske operaen.
+              Han har en naturlig og profesjonell tilnærming til alle oppdrag,
+              og han gjør det han kan for å møte de pårørendes ønsker.
             </motion.p>
 
             <motion.p
