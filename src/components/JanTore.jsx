@@ -178,13 +178,13 @@ export function JanTore() {
                     </Link>
                   </dd>
                 </div>
-                {/* <div className="mt-1">
+                <div className="mt-1">
                   <dt className="sr-only">Phone number</dt>
                   <dd>
                     {' '}
-                    <Link href="tel:+47 402 20 414">+47 402 20 414</Link>
+                    <Link href="tel:+47 930 80 087">+47 930 80 087</Link>
                   </dd>
-                </div> */}
+                </div>
               </dl>
             </motion.div>
           </div>
