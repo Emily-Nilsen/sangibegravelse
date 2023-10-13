@@ -11,20 +11,20 @@ export function HeroHjem() {
     <div className="bg-gray-900">
       <div className="relative overflow-hidden isolate pt-14">
         <Image
-          src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/v1697216651/Sang%20i%20begravelse/Hero_2_sios6a.webp"
+          src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1697230348/Sang%20i%20begravelse/Home_Hero_mobile_syywxf.webp"
           alt="Hvite roser"
-          width={5824}
+          width={2176}
           height={3264}
           className="absolute inset-0 object-cover object-left w-full h-full sm:hidden -z-10"
         />
         <Image
-          src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/v1697216651/Sang%20i%20begravelse/Hero_2_sios6a.webp"
+          src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1697230359/Sang%20i%20begravelse/Home_Hero_desktop_v2_vyjmjo.webp"
           alt="Hvite roser"
-          width={5824}
-          height={3264}
+          width={3000}
+          height={1681}
           className="absolute inset-0 hidden object-cover w-full h-full sm:block -z-10"
         />
-        <div className="absolute inset-0 bg-white/30" />
+        <div className="absolute inset-0 sm:bg-white/30 bg-white/60" />
         <div
           className="absolute inset-x-0 overflow-hidden -top-40 -z-10 transform-gpu blur-3xl sm:-top-80"
           aria-hidden="true"
