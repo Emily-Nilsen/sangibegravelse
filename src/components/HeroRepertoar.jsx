@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export function HeroRepertoar() {
   return (
-    <div className="bg-white">
+    <div className="bg-white ">
       <div className="relative overflow-hidden isolate pt-14">
         <Image
           src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1697230797/Sang%20i%20begravelse/Hero_Repertoire_v2_gbbcns.webp"
@@ -19,7 +19,7 @@ export function HeroRepertoar() {
           aria-hidden="true"
         ></div>
         <div className="relative z-10 max-w-3xl py-16 sm:py-48">
-          <div className="px-6 mx-auto text-left max-w-7xl lg:px-8">
+          <div className="px-6 mx-auto text-left lg:px-8">
             <h6 className="hidden text-5xl text-slate-900 sm:block sm:text-6xl md:text-7xl">
               Repertoar
             </h6>
