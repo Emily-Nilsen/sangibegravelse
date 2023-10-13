@@ -3,16 +3,16 @@ import Link from 'next/link';
 
 export function HeroRepertoar() {
   return (
-    <div className="bg-gray-900">
+    <div className="bg-white">
       <div className="relative overflow-hidden isolate pt-14">
         <Image
-          src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/RepertoarHero_nbpjot.webp"
+          src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1697216651/Sang%20i%20begravelse/Hero_2_sios6a.webp"
           alt="Sang i begravelse - tulipaner"
           width={2400}
           height={1600}
           className="absolute inset-0 object-cover w-full h-full -z-10"
         />
-        {/* <div className="absolute inset-0 bg-white/50" /> */}
+        <div className="absolute inset-0 bg-white/30" />
         <div
           className="absolute inset-x-0 z-10 overflow-hidden -top-40 transform-gpu blur-3xl sm:-top-80"
           aria-hidden="true"
@@ -25,9 +25,9 @@ export function HeroRepertoar() {
             }}
           /> */}
         </div>
-        <div className="relative z-10 max-w-3xl pt-32 pb-64 mx-auto lg:pb-72">
+        <div className="relative z-10 max-w-3xl py-32 mx-auto">
           <div className="text-center">
-            <h6 className="text-5xl text-slate-700 sm:text-6xl md:text-7xl">
+            <h6 className="text-5xl text-slate-900 sm:text-6xl md:text-7xl">
               Repertoar
             </h6>
             <div className="flex items-center justify-center mt-10 gap-x-6"></div>

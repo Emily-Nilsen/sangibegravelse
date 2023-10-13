@@ -456,9 +456,10 @@ export function RepertoarToggle() {
                                   <Image
                                     src={sang.mobile}
                                     alt={sang.title}
-                                    width={5824}
-                                    height={3264}
+                                    width={1456}
+                                    height={816}
                                     className="object-cover object-center w-full h-64"
+                                    unoptimized
                                   />
                                 </div>
                                 <div
@@ -468,9 +469,10 @@ export function RepertoarToggle() {
                                   <Image
                                     src={sang.desktop}
                                     alt={sang.title}
-                                    width={5824}
-                                    height={3264}
+                                    width={1456}
+                                    height={816}
                                     className="object-cover object-center w-full overflow-hidden rounded-lg h-96"
+                                    unoptimized
                                   />
                                 </div>
                               </div>

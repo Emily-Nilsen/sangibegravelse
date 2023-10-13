@@ -29,7 +29,7 @@ export default function Kontakt() {
       <section className="relative bg-white">
         <div className="absolute inset-0 hidden md:block">
           <Image
-            src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/kontakt_background_ol6igg.webp"
+            src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/v1697216651/Sang%20i%20begravelse/Hero_2_sios6a.webp"
             alt="Blomster"
             className="object-cover w-full h-full opacity-20 "
             width={5616}
@@ -38,7 +38,7 @@ export default function Kontakt() {
         </div>
         <div className="absolute inset-0 md:hidden">
           <Image
-            src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/kontakt_background_ol6igg.webp"
+            src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/v1697216651/Sang%20i%20begravelse/Hero_2_sios6a.webp"
             alt="Blomster"
             className="object-cover object-right w-full h-full opacity-20 "
             width={5616}

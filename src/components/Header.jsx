@@ -36,7 +36,7 @@ export function Header() {
         <div className="flex lg:hidden">
           <button
             type="button"
-            className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-500"
+            className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-slate-600"
             onClick={() => setMobileMenuOpen(true)}
           >
             <span className="sr-only">Open main menu</span>
@@ -48,7 +48,7 @@ export function Header() {
             <Link
               key={item.name}
               href={item.href}
-              className="text-sm leading-6 text-gray-600 transition duration-300 ease-in-out hover:bg-white/50 hover:text-gray-950 cursor:pointer px-2.5 py-1.5 rounded-md"
+              className="text-sm leading-6 text-slate-700 transition duration-300 ease-in-out hover:bg-white/30 hover:text-slate-950 cursor:pointer px-2.5 py-1.5 rounded-md"
             >
               {item.name}
             </Link>
@@ -86,7 +86,7 @@ export function Header() {
               </Link>
               <button
                 type="button"
-                className="-m-2.5 rounded-md p-2.5 text-gray-500"
+                className="-m-2.5 rounded-md p-2.5 text-slate-600"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 <span className="sr-only">Close menu</span>
@@ -94,13 +94,13 @@ export function Header() {
               </button>
             </div>
             <div className="flow-root mt-6">
-              <div className="-my-6 divide-y divide-gray-500/25">
+              <div className="-my-6 divide-y divide-slate-500/25">
                 <div className="py-6 space-y-2">
                   {navigation.map((item) => (
                     <MyLink
                       key={item.name}
                       href={item.href}
-                      className="block px-3 py-2 -mx-3 text-base leading-7 text-gray-500 transition-all duration-300 ease-in-out rounded-lg hover:bg-gray-50 hover:text-gray-900"
+                      className="block px-3 py-2 -mx-3 text-base leading-7 transition-all duration-300 ease-in-out rounded-lg text-slate-700 hover:bg-slate-50 hover:text-slate-900"
                       onClick={closeMobileMenu}
                     >
                       {item.name}

@@ -1,15 +1,15 @@
 [
   {
     "objectID": "1",
-    "category": "Salmer",
-    "subcategory": ["Kirkemusikk", "Klassisk", "Barokk"],
+    "category": "Klassisk",
+    "subcategory": ["Kirkemusikk", "Kjærlighetssang"],
     "title": "Air | Love Never Fails (tekst)",
     "arrangement": ["solo", "fiolin"],
     "composer": "Johann Sebastian Bach",
     "audio": false,
     "description": [
-      "Air, også kjent som ‘Air on the G String,’ er et ikonisk instrumentalt stykke. Det er en rolig og melodisk komposisjon som viser barokkmusikkens skjønnhet og eleganse. Strenginstrumenter fremfører ofte stykket, og dets beroligende melodi fremkaller en følelse av ro og introspeksjon.",
-      "Med teksten ‘Love Never Fails’ over denne kjente melodien får vi høre et kraftfullt og oppløftende budskap om kjærlighet og medfølelse. Teksten understreker kjærlighetens varige natur og dens evne til å overvinne hindringer og gi trøst."
+      "‘Air’ er en emosjonell komposisjon av Johann Sebastian Bach, men med moderne tekst som ‘Love Never Fails’. Dette er en sang som formidler budskapet om kjærlighetens udødelighet og styrke. Med linjer som ‘Love is the river that flows through, Love never fails you’, utforsker sangen kjærlighetens evne til å helbrede, beskytte og bevare.",
+      "Musikalsk sett er denne versjonen av ‘Air’ en blanding av klassisk og moderne, noe som gjør det til en unik hyllest til både fortid og nåtid. Den kombinerer Bachs tidløse melodilinjer med moderne lyrisk innhold, noe som gjør det til et relevant valg for en begravelse hvor man ønsker å formidle et budskap om evig kjærlighet og håp."
     ],
     "lyrics": [
       "Love is not proud",
@@ -54,21 +54,20 @@
       "And love is the place you will fly to",
       "Love never fails you"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Air_Bach_desktop_nqm7lj.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Air_Bach_mobile_zosdhe.webp"
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/w_1200,c_fill,q_auto,f_auto//v1697220428/Sang%20i%20begravelse/images/Air_copy_ymzipx.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/w_600,c_fill,q_auto,f_auto//v1697220428/Sang%20i%20begravelse/images/Air_copy_ymzipx.webp"
   },
   {
     "objectID": "2",
-    "category": "Salmer",
-    "subcategory": ["Kirkemusikk", "Klassisk"],
+    "category": "Klassisk",
+    "subcategory": ["Kirkemusikk", "Latinsk"],
     "title": "Ave Maria",
-    "arrangement": ["solo"],
+    "arrangement": ["solo", "duett", "fiolin"],
     "composer": "Franz Schubert",
     "audio": false,
     "description": [
-      "Ave Maria av Franz Schubert er et kjent klassisk stykke som har blitt synonymt med skjønnhet og ro.",
-      "Det er en lyrisk og inderlig kunstsang, med tekst inspirert av den tradisjonelle katolske bønnen. Melodien er melodisk og gripende, og skaper en følelse av ærbødighet og ro.",
-      "Ave Maria fremføres ofte som en vokalsolo, og dens tidløse eleganse gjør den til et populært valg for høytidelige anledninger."
+      "‘Ave Maria’ av Franz Schubert er en tidløs klassiker kjent for sin dype åndelighet og rolig atmosfære. Med latinske ord som hyller Jomfru Maria, skaper sangen en meditativ stemning som mange finner trøstende i tider med sorg.",
+      "Musikalsk sett er komposisjonen preget av enkle, men rike melodilinjer. Schuberts arrangement legger til rette for en rekke uttrykksfulle tolkninger, enten det er som en solo eller i duett. Den kan også akkompagneres av fiolin for en ekstra emosjonell dybde, noe som gjør den til et fleksibelt valg for minneseremonier."
     ],
     "lyrics": [
       "Ave Maria",
@@ -95,21 +94,20 @@
       "In hora mortis nostrae",
       "Ave Maria"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Ave_Maria_Schubert_desktop_dt8uml.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Ave_Maria_Schubert_mobile_mnzop7.webp"
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/w_1200,c_fill,q_auto,f_auto//v1697220433/Sang%20i%20begravelse/images/Ave_Maria_-_Franz_Schubert_copy_zbbj9t.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/w_600,c_fill,q_auto,f_auto//v1697220433/Sang%20i%20begravelse/images/Ave_Maria_-_Franz_Schubert_copy_zbbj9t.webp"
   },
   {
     "objectID": "3",
-    "category": "Salmer",
-    "subcategory": ["Kirkemusikk", "Klassisk"],
+    "category": "Klassisk",
+    "subcategory": ["Kirkemusikk", "Latinsk"],
     "title": "Ave Maria",
     "arrangement": ["solo", "duett", "fiolin"],
     "composer": "Johann Sebastian Bach / Charles Gounod",
     "audio": false,
     "description": [
-      "Ave Maria, komponert av Johann Sebastian Bach med tekst av Charles Gounod, er en harmonisk blanding av Bachs Preludium i C-dur og Gounods melodioverlegg.",
-      "Dette utsøkte stykket kombinerer skjønnheten i Bachs instrumentale komposisjon med den delikate og uttrykksfulle melodien til Gounods vokaltilpasning.",
-      "Ave Maria er et elsket og kjært stykke ofte fremført som en vokalsolo, og tilbyr en sublim og bønnfull opplevelse."
+      "‘Ave Maria,’ komponert av Johann Sebastian Bach og Charles Gounod, er en av de mest kjente klassiske stykkene med en sterk religiøs undertone. Sangen er dypt rørende med sin blanding av kompleks musikalitet og enkelhet i tekst, som begynner med ‘Ave Maria, gratia plena, Dominus tecum,’ og utvikler seg til en bønn til jomfru Maria.",
+      "Denne melodien gir et inntrykk av både hengivenhet og ærbødighet, noe som gjør den til et ideelt valg for en begravelse. Teksten, sunget på latin, er enkel, men emosjonell, og inviterer til kontemplasjon og indre ro. Det gir en følelse av både håp og trøst, egenskaper som ofte er ettertraktet i slike seremonielle anledninger."
     ],
     "lyrics": [
       "Ave Maria",
@@ -128,21 +126,20 @@
       "In horamortis nostrae",
       "Amen, Amen"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Ave_Maria_Gounod_desktop_rj4fsb.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Ave_Maria_Gounod_mobile_rsxgng.webp"
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/w_1200,c_fill,q_auto,f_auto//v1697220435/Sang%20i%20begravelse/images/Ave_Maria_-_Johann_Sebastian_Bach_copy_ugr13j.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/w_600,c_fill,q_auto,f_auto//v1697220435/Sang%20i%20begravelse/images/Ave_Maria_-_Johann_Sebastian_Bach_copy_ugr13j.webp"
   },
   {
     "objectID": "4",
-    "category": "Salmer",
-    "subcategory": ["Kirkemusikk", "Klassisk", "Opera"],
+    "category": "Klassisk",
+    "subcategory": ["Kirkemusikk", "Kunstsang", "Latinsk", "Opera"],
     "title": "Ave Maria",
-    "arrangement": ["solo"],
+    "arrangement": ["solo", "duett", "fiolin"],
     "composer": "Pietro Mascagni",
     "audio": false,
     "description": [
-      "Ave Maria av Pietro Mascagni er en fengslende opera-arie som viser frem komponistens melodiske og dramatiske stil.",
-      "Med sine skyhøye vokallinjer og emosjonelle intensitet, fanger stykket essensen av bønn og hengivenhet.",
-      "Mascagnis Ave Maria er en kraftfull og stemningsfull soloforestilling, fylt med lidenskap og ærbødighet."
+      "‘Ave Maria’ av Pietro Mascagni er en rørende, liturgisk sang som gir et øyeblikk av stillhet og refleksjon. Teksten er hentet fra den katolske bønnen med samme navn, og den guddommelige roen som låten gir, er nesten palpabel. Musikken fremhever ordene ‘Ave Maria, gratia plena,’ som bidrar til en atmosfære av hengivenhet og fromhet.",
+      "Uttrykket og tonaliteten i denne versjonen av ‘Ave Maria’ gir en følelse av inderlighet og trøst, noe som kan være spesielt betryggende i en begravelseskontekst. Den egner seg godt både for soloprestasjoner og duetter, og kan ytterligere forsterkes med en fiolinist for en enda mer rikholdig musikalsk opplevelse."
     ],
     "lyrics": [
       "Ave Maria, gratia plena,",
@@ -153,21 +150,20 @@
       "ora pro nobis peccatoribus, nunc et in hora mortis nostrae.",
       "Amen."
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Ave_Maria_Mascagni_desktop_kjw0zp.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Ave_Maria_Mascagni_mobile_d5nxcw.webp"
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/w_1200,c_fill,q_auto,f_auto//v1697220435/Sang%20i%20begravelse/images/Ave_Maria_-_Pietro_Mascagni_copy_fnqtxj.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/w_600,c_fill,q_auto,f_auto//v1697220435/Sang%20i%20begravelse/images/Ave_Maria_-_Pietro_Mascagni_copy_fnqtxj.webp"
   },
   {
     "objectID": "5",
-    "category": "Salmer",
-    "subcategory": ["Kirkemusikk", "Klassisk", "Islandsk"],
+    "category": "Klassisk",
+    "subcategory": ["Islandsk", "Kirkemusikk", "Tradisjonell"],
     "title": "Ave Maria",
     "arrangement": ["solo"],
     "composer": "Sigvaldi Kaldalóns",
     "audio": false,
     "description": [
-      "Ave Maria av Sigvaldi Kaldalóns er en vakker islandsk gjengivelse av den tradisjonelle Ave Maria-bønnen.",
-      "Den blander elementer av klassisk og tradisjonell islandsk musikk, og skaper en unik og eterisk atmosfære.",
-      "Komposisjonen viser Kaldalóns' musikalitet og følsomhet, og tilbyr en inderlig og ærbødig tolkning av den ikoniske bønnen."
+      "‘Ave Maria’ av Sigvaldi Kaldalóns er en gripende og høytidelig sang, som straks fanger lytterens oppmerksomhet med sin dype emosjonelle resonans. Teksten, som henvender seg direkte til Jomfru Maria, omhandler både menneskelig lidelse og håp om guddommelig inngripen. Dette gir sangen en dualitet som er både hjerteskjærende og oppløftende.",
+      "Musikken og ordene sammen skaper en atmosfære av ro og indre fred, noe som gjør denne sangen til et passende valg for en begravelsesseremoni. ‘Ave Maria’ er en bønn om veiledning og beskyttelse, noe som kan gi trøst og håp til de sørgende. Dette gjør den til et sterk kandidat for dem som søker en sang med dypt åndelig innhold."
     ],
     "lyrics": [
       "Þú blíða drottning",
@@ -184,8 +180,8 @@
       "Ave María, Ave María, Ave María!",
       "Frelsa þær frá illu."
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Ave_Maria_Kaldalons_desktop_phchkb.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Ave_Maria_Kaldalons_mobile_ilbhwj.webp"
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/w_1200,c_fill,q_auto,f_auto//v1697220436/Sang%20i%20begravelse/images/Ave_Maria_-_Sigvaldi_Kaldalo%CC%81ns_copy_bpnwks.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/w_600,c_fill,q_auto,f_auto//v1697220436/Sang%20i%20begravelse/images/Ave_Maria_-_Sigvaldi_Kaldalo%CC%81ns_copy_bpnwks.webp"
   },
   {
     "objectID": "6",
@@ -216,15 +212,15 @@
   },
   {
     "objectID": "7",
-    "category": "Viser",
-    "subcategory": ["Nordisk", "Moderne", "Popballade", "Kjærlighetssang"],
+    "category": "Pop",
+    "subcategory": ["Kjærlighetssang", "Nordisk", "Popballade"],
     "title": "Adieu",
     "arrangement": ["solo", "duett"],
     "composer": "Anita Skorgan / Jahn Teigen",
     "audio": false,
     "description": [
-      "Adieu er en inderlig popballade opprinnelig fremført av Anita Skorgan og Jahn Teigen. Sangen er et gripende farvel, og uttrykker følelser av avskjed, lengsel og erindring.",
-      "Dens rørende tekst og emosjonelle melodi skaper en kraftig hyllest til sine kjære og fremkaller en følelse av refleksjon og bittersøt farvel."
+      "‘Adieu’ er en dyptgripende låt komponert av Anita Skorgan og Jahn Teigen. Sangen handler om avslutningen av et forhold og de komplekse følelsene dette medfører. Den utforsker betydningen av ordet ‘adieu’ og spør om det finnes verdi i et farvel.",
+      "Melodien og teksten skaper en stemning av melankoli, men også en form for aksept. Gjentagelsen av ordet ‘adieu’ fungerer som en mantra som hjelper lytteren å forstå at det å si farvel er en nødvendig del av livet. ‘Adieu’ ville dermed være et passende valg for en begravelse der man ønsker å uttrykke både sorg og aksept."
     ],
     "lyrics": [
       "Si meg, hva betyr adieu?",
@@ -267,20 +263,20 @@
       "",
       "Adieu"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Adieu_2_desktop_i5cbca.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Adieu_2_mobile_svdajt.webp"
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/w_1200,c_fill,q_auto,f_auto//v1697220424/Sang%20i%20begravelse/images/Adieu_copy_kttqtc.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/w_600,c_fill,q_auto,f_auto//v1697220424/Sang%20i%20begravelse/images/Adieu_copy_kttqtc.webp"
   },
   {
     "objectID": "8",
     "category": "Pop",
-    "subcategory": ["Moderne", "Western", "Country"],
+    "subcategory": ["Kjærlighetssang", "Latinsk", "Popballade", "Western"],
     "title": "Adios, Amigo",
-    "arrangement": ["solo"],
+    "arrangement": ["solo", "duett", "fiolin"],
     "composer": "Jerry Livingston",
     "audio": false,
     "description": [
-      "Adios, Amigo er en populær poplåt i vestlig stil med countrypåvirkninger. Den skildrer et farvel mellom venner eller kjære.",
-      "Sangen kombinerer fengende melodier med tekst som fremkaller følelser av nostalgi, kameratskap og adieu."
+      "‘Adios, Amigo’ er en sang komponert av Jerry Livingston, og den tar oss med på en emosjonell reise gjennom vennskap og kjærlighetens kompleksitet. Sangen gir stemning av melankoli, og tekstlinjene som ‘The road we have travelled has come to an end’ og ‘And it's you who she longs for, it's you she will choose’ formidler en dyp følelse av farvel og tap.",
+      "Denne sangen passer utmerket for de øyeblikkene hvor man ønsker å uttrykke de bittersøte følelsene som ofte følger med avskjed. Den ville være særlig passende for å hylle et langvarig vennskap eller en kjærlighet som har gått tapt, men som man bærer med seg i hjertet. Sangen kan fremføres som en solo, duett eller med en fiolinist for å forsterke den emosjonelle effekten."
     ],
     "lyrics": [
       "Adiós amigo, adiós my friend",
@@ -303,21 +299,21 @@
       "When two love the same love, one love has to lose",
       "And it's you who she longs for, it's you she will choose"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Adios_Amigo_-_Desktop_y0kn8r.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Adios_Amigo_-_Mobile_mwmopw.webp"
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/w_1200,c_fill,q_auto,f_auto//v1697220425/Sang%20i%20begravelse/images/Adios_Amigo_copy_nlqgaw.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/w_600,c_fill,q_auto,f_auto//v1697220425/Sang%20i%20begravelse/images/Adios_Amigo_copy_nlqgaw.webp"
   },
+
   {
     "objectID": "9",
     "category": "Salmer",
-    "subcategory": ["Kirkemusikk"],
+    "subcategory": ["Kirkemusikk", "Soul", "Tradisjonell"],
     "title": "Amazing Grace",
     "arrangement": ["solo"],
     "composer": "John Newton",
     "audio": false,
     "description": [
-      "Amazing Grace er en tidløs salme som bærer et kraftig budskap om forløsning og håp.",
-      "Skrevet av John Newton, en tidligere slavehandler, reflekterer sangen over Guds nåde og transformasjonen den bringer til en persons liv.",
-      "Med sin sjeleglade melodi og inderlige tekst, har Amazing Grace blitt et symbol på tro og trøst, som gir gjenklang med mennesker fra ulike bakgrunner og kulturer."
+      "‘Amazing Grace’ er en tradisjonell gospellåt komponert av John Newton. Denne melodiøse sangen har en umiddelbar evne til å berøre lytterens hjerte med sin enkle, men kraftfulle melodi og tekst. Sangen uttrykker en dyp følelse av takknemlighet og håp, og er godt egnet for å gi trøst i en tid med sorg.",
+      "Teksten tar for seg temaer som nåde, forløsning og den livsforvandlende kraften i tro. Det er en sang som fokuserer på den personlige reisen fra å være ‘tapt’ til å bli ‘funnet’ eller ‘frelst’, noe som kan resonnere dypt hos de som er i sorg. Med sin allsidige appell, er ‘Amazing Grace’ et valg som kan passe for ulike typer minneseremonier."
     ],
     "lyrics": [
       "Amazing grace, how sweet the sound",
@@ -345,20 +341,20 @@
       "I once was lost, but now I am found",
       "Was blind, but now I see"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Amazing_Grace_desktop_wnfpuv.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Amazing_Grace_mobile_jneyu3.webp"
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/w_1200,c_fill,q_auto,f_auto//v1697220429/Sang%20i%20begravelse/images/Amazing_Grace_copy_vtnnk0.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/w_600,c_fill,q_auto,f_auto//v1697220429/Sang%20i%20begravelse/images/Amazing_Grace_copy_vtnnk0.webp"
   },
   {
     "objectID": "10",
     "category": "Salmer",
-    "subcategory": ["Kirkemusikk", "Tradisjonell", "Folkemusikk", "Irsk"],
+    "subcategory": ["Folkemusikk", "Irsk", "Kirkemusikk", "Tradisjonell"],
     "title": "An Irish Blessing",
-    "arrangement": ["solo"],
+    "arrangement": ["solo", "duett", "fiolin"],
     "composer": "Tradisjonell (ukjent forfatter)",
     "audio": false,
     "description": [
-      "An Irish Blessing er en inderlig og oppløftende tradisjonell folkesang som innkapsler varmen, gjestfriheten og velønskene til irsk kultur.",
-      "Dens milde melodi og ømme tekst formidler velsignelse av glede, fred og velstand. Sangen som ofte synges som en velsignelse, sprer positivitet og gir trøst til de som hører på."
+      "‘An Irish Blessing’ er en tradisjonell irsk velsignelse med ukjent komponist. Sangen er som en varm klem for sjelen, og vekker følelser av håp og trøst. Teksten består av vakre, enkle linjer som ønsker lykke og trygghet på den man velsigner, en passende hyllest til livets sårbare øyeblikk.",
+      "Musikalsk sett er dette en sang som kan tilpasse seg ulike fremføringsstiler. Enten det er en solist eller en duett, muligens akkompagnert av en fiolinist, vil sangen alltid bære sin dyptgående følelsesmessige kraft. Den enkle, men gripende melodien og teksten gjør den til et sterkt valg for å hedre en elsket person."
     ],
     "lyrics": [
       "May the road rise to meet you",
@@ -398,21 +394,25 @@
       "",
       "May the road rise to meet you"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/An_Irish_Blessing_desktop_ulrwvc.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/An_Irish_Blessing_mobile_hlqnrm.webp"
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/w_1200,c_fill,q_auto,f_auto//v1697220430/Sang%20i%20begravelse/images/An_Irish_Blessing_copy_vuvd0m.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/w_600,c_fill,q_auto,f_auto//v1697220430/Sang%20i%20begravelse/images/An_Irish_Blessing_copy_vuvd0m.webp"
   },
   {
     "objectID": "11",
-    "category": "Salmer",
-    "subcategory": ["Kirkemusikk", "Klassisk", "Nordisk"],
+    "category": "Klassisk",
+    "subcategory": [
+      "Kirkemusikk",
+      "Kjærlighetssang",
+      "Nordisk",
+      "Tradisjonell"
+    ],
     "title": "Ave Maria",
     "arrangement": ["solo"],
     "composer": "Hugo Gyldenmark",
     "audio": false,
     "description": [
-      "Ave Maria av Hugo Gyldenmark er en fengslende dansk komposisjon som hyller den tradisjonelle Ave Maria-bønnen.",
-      "Med sine rike harmonier og emosjonelle melodier viser stykket Gyldenmarks talent for å lage gripende og ærbødig musikk.",
-      "Gyldenmarks Ave Maria tilbyr en unik dansk tolkning av bønnen, og skaper en rolig og introspektiv atmosfære."
+      "‘Ave Maria’ av Hugo Gyldenmark er en høytidelig og inderlig sang som virkelig rører ved hjertets strenger. Tekstens dype fromhet kombinert med komposisjonens nyanserte melodi gir et sterkt uttrykk for kjærlighet og andakt. Sangen evner å formidle en form for himmelsk lengsel og takknemlighet, som fanger lytterens oppmerksomhet fra første stund.",
+      "Musikalsk sett byr sangen på en blanding av klassisk og religiøs tonalitet, noe som bidrar til å skape en følelse av transcendens og høytid. Med linjer som ‘Ave Maria, Ave Maria! Lykke og lyst er de elskendes lönn!’ blir det klart at dette er mer enn bare en tradisjonell hyllest til Maria; det er også en dyp refleksjon over kjærlighetens og livets mirakler."
     ],
     "lyrics": [
       "Hjertet må banke, salige tanke!",
@@ -445,21 +445,20 @@
       "Ave Maria, Ave Maria!",
       "Dejlig er elskovens altergang!"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Ave_Maria_Gyldenmark_desktop_idbaho.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Ave_Maria_Gyldenmark_mobile_h80pfe.webp"
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/w_1200,c_fill,q_auto,f_auto//v1697220434/Sang%20i%20begravelse/images/Ave_Maria_-_Hugo_Gyldenmark_copy_ndlofx.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/w_600,c_fill,q_auto,f_auto//v1697220434/Sang%20i%20begravelse/images/Ave_Maria_-_Hugo_Gyldenmark_copy_ndlofx.webp"
   },
   {
     "objectID": "12",
-    "category": "Salmer",
-    "subcategory": ["Kirkemusikk", "Klassisk"],
+    "category": "Klassisk",
+    "subcategory": ["Kirkemusikk", "Kunstsang", "Latinsk"],
     "title": "Ave Verum Corpus",
-    "arrangement": ["solo"],
+    "arrangement": ["solo", "duett", "fiolin"],
     "composer": "Wolfgang Amadeus Mozart",
     "audio": false,
     "description": [
-      "Ave Verum Corpus av Wolfgang Amadeus Mozart er en sublim korkomposisjon som legemliggjør ærbødighet og hengivenhet.",
-      "Denne hellige motetten er skrevet for stemmer og er et vitnesbyrd om Mozarts mestring av vokalharmonier.",
-      "Ave Verums delikate og eteriske melodier skaper en rolig og kontemplativ atmosfære, som lar lytterne oppleve en dyp følelse av åndelighet og ærefrykt."
+      "‘Ave Verum Corpus’ er en sakral sang komponert av Wolfgang Amadeus Mozart. Med sin latinske tekst som beskriver Jesus som den sanne kroppen født av Jomfru Maria, har denne komposisjonen en dyp åndelig betydning. Den inviterer til refleksjon og gir en rolig, nesten meditativ atmosfære som kan føles ekstra meningsfull i en begravelseskontekst.",
+      "Musikken er enkel, men uttrykksfull, og den evner å fremkalle sterke følelser uten å være overveldende. Dens klassiske harmonier og melodi har gjort den til et populært valg for seremonielle anledninger. Sangen kan utføres som solo eller duett og har mulighet for å inkludere en fiolinist, noe som gir rom for ulike musikalske tolkninger."
     ],
     "lyrics": [
       "Ave verum corpus, natum",
@@ -475,38 +474,36 @@
       "O Iesu, fili Mariae.",
       "Miserere mei. Amen]"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Ave_Verum_desktop_ty8ncj.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Ave_Verum_mobile_avfauh.webp"
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/w_1200,c_fill,q_auto,f_auto//v1697220437/Sang%20i%20begravelse/images/Ave_Verum_Corpus_copy_gxnrjg.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/w_600,c_fill,q_auto,f_auto//v1697220437/Sang%20i%20begravelse/images/Ave_Verum_Corpus_copy_gxnrjg.webp"
   },
   {
     "objectID": "13",
-    "category": "Salmer",
-    "subcategory": ["Kirkemusikk", "Klassisk"],
+    "category": "Klassisk",
+    "subcategory": ["Kirkemusikk", "Latinsk"],
     "title": "Benedictus (B-minor Mass)",
-    "arrangement": ["solo"],
+    "arrangement": ["solo", "duett", "fiolin"],
     "composer": "Johann Sebastian Bach",
     "audio": false,
     "description": [
-      "Benedictus fra Bachs h-mollmesse er et majestetisk kormesterverk som viser frem komponistens genialitet.",
-      "Med sine intrikate vokallinjer og rike harmonier, utstråler stykket ærbødighet og storhet.",
-      "Benedictus er et dypt uttrykk for lovprisning og tilbedelse, som formidler en følelse av guddommelig majestet og åndelig transcendens."
+      "‘Benedictus (B-minor Mass)’ av Johann Sebastian Bach er en storslått og åndelig hymne. Med sin latinske tekst, ‘Benedictus qui venit in nomine Domini, Osanna in excelsis,’ formidler den en dyp velsignelse og hyllest. Melodien og arrangementet er sofistikert, og gir en nesten himmelsk atmosfære, ideell for å hedre en avdød på en verdig måte.",
+      "Musikalsk sett er denne delen av Bachs B-mollmesse en kompleks og følelsesladet komposisjon. Den kan fremføres som en solo, men også som en duett, og kan akkompagneres av en fiolinist for å tilføre et ekstra lag av emosjonell dybde. Dette gjør den til et fleksibelt valg for forskjellige typer seremonier."
     ],
     "lyrics": ["Benedictus qui venit in nomine Domini.", "Osanna in excelsis."],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Benedictus_desktop_a6k52z.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Benedictus_mobile_sdzf4w.webp"
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/w_1200,c_fill,q_auto,f_auto//v1697220440/Sang%20i%20begravelse/images/Benedictus_B-minor_Mass_copy_kpnhzj.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/w_600,c_fill,q_auto,f_auto//v1697220440/Sang%20i%20begravelse/images/Benedictus_B-minor_Mass_copy_kpnhzj.webp"
   },
   {
     "objectID": "14",
-    "category": "Salmer",
-    "subcategory": ["Kirkemusikk", "Klassisk", "Kjærlighetssang"],
+    "category": "Klassisk",
+    "subcategory": ["Aria", "Kirkemusikk", "Kunstsang"],
     "title": "Bist du bei mir",
-    "arrangement": ["solo"],
+    "arrangement": ["solo", "duett", "fiolin"],
     "composer": "Johann Sebastian Bach",
     "audio": false,
     "description": [
-      "Bist du bei mir, komponert av Johann Sebastian Bach, er en øm og intim kjærlighetssang.",
-      "Opprinnelig en del av Bachs ‘Anna Magdalena Notebook’, uttrykker stykket en inderlig følelse av lengsel og hengivenhet.",
-      "Med sin milde melodi og rørende tekst formidler Bist du bei mir dybden av kjærlighet og komforten som finnes i nærvær av en kjær."
+      "Sangen ‘Bist du bei mir’ er en dypt rørende komposisjon av Johann Sebastian Bach. Teksten vektlegger følelsen av ro og tilfredshet ved å være sammen med en man er glad i, selv i møte med døden. Denne låten tar lytteren med på en følelsesmessig reise og gir en ny dimensjon til forståelsen av kjærlighet og hengivenhet.",
+      "Musikalsk sett legger Bach grunnlaget for en dyp emosjonell opplevelse. Med enkle, men effektive melodilinjer, er denne sangen egnet for både solo- og duettframføringer. Det er også muligheter for å inkludere en fiolinist for å forsterke den emosjonelle dybden. En klassiker som aldri går av moten og som vil etterlate et sterkt inntrykk på alle som hører den."
     ],
     "lyrics": [
       "Bist du bei mir, geh ich mit Freuden",
@@ -516,8 +513,8 @@
       "Es drückten deine schönen Hände",
       "Mir die getreuen Augen zu."
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Bist_du_bei_mir_desktop_jstwh2.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Bist_du_bei_mir_mobile_tqzjdl.webp"
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/w_1200,c_fill,q_auto,f_auto//v1697220443/Sang%20i%20begravelse/images/Bist_du_bei_mir_copy_wzzyu5.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/w_600,c_fill,q_auto,f_auto//v1697220443/Sang%20i%20begravelse/images/Bist_du_bei_mir_copy_wzzyu5.webp"
   },
   {
     "objectID": "15",
@@ -1492,15 +1489,14 @@
   {
     "objectID": "53",
     "category": "Pop",
-    "subcategory": ["Nordisk", "Viser"],
+    "subcategory": ["Kjærlighetssang", "Moderne", "Nordisk"],
     "title": "Alt eg såg",
     "arrangement": ["solo"],
     "composer": "Sigvart Dagsland",
     "audio": false,
     "description": [
-      "Alt eg såg, komponert av Sigvart Dagsland, er en fengslende popballade som fordyper seg i temaer om selvrefleksjon og introspeksjon.",
-      "Med sine inderlige tekst og emosjonelle melodier utforsker sangen dybden av menneskelig erfaring og den dype virkningen av personlige møter. Alt eg såg inviterer lytterne på en selvoppdagelsesreise mens hovedpersonen reflekterer over de meningsfulle øyeblikkene og møtene som har formet livet deres.",
-      "Det musikalske arrangementet skaper en gripende og introspektiv atmosfære som berører lytternes hjerter og inviterer dem til å tenke på sin egen livsreise."
+      "‘Alt eg såg’ av Sigvart Dagsland er en sang som dypt berører temaet om savn og kjærlighetens varige inntrykk. Sangens melankolske tone og ærlige tekst skaper en følelse av stille kontemplasjon, noe som gjør den til et sterkt valg for en begravelsesseremoni.",
+      "Musikalsk er den preget av en følsom leveranse og inneholder små, men sterke dynamiske endringer. Tekstlig legger den vekt på de sterke båndene som eksisterer mellom to mennesker, og hvordan disse øyeblikkene har formet livene deres. Sangen gir et innblikk i kompleksiteten av menneskelige relasjoner og den evige søken etter mening i en verden preget av forandring."
     ],
     "lyrics": [
       "Alt eg såg, såg eg samen med deg",
@@ -1546,8 +1542,8 @@
       "Alt eg såg",
       "Alt eg såg"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Alt_eg_sa%CC%8Ag_desktop_qe6fde.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Alt_eg_sa%CC%8Ag_mobile_mzxyqz.webp"
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/w_1200,c_fill,q_auto,f_auto//v1697220426/Sang%20i%20begravelse/images/Alt_eg_sa%CC%8Ag_copy_zbm4ce.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/w_600,c_fill,q_auto,f_auto//v1697220426/Sang%20i%20begravelse/images/Alt_eg_sa%CC%8Ag_copy_zbm4ce.webp"
   },
   {
     "objectID": "54",
@@ -1567,16 +1563,15 @@
   },
   {
     "objectID": "55",
-    "category": "Pop",
-    "subcategory": ["Nordisk", "Viser"],
+    "category": "Viser",
+    "subcategory": ["Folkemusikk", "Moderne", "Nordisk"],
     "title": "Barn av regnbuen",
     "arrangement": ["solo", "duett"],
     "composer": "Pete Seeger / Lillebjørn Nilsen",
     "audio": false,
     "description": [
-      "Barn av regnbuen, skrevet av Pete Seeger og oversatt til norsk av Lillebjørn Nilsen, er en kraftig protestsang som tar til orde for likhet, fred og enhet – opprinnelig inspirert av den afroamerikanske spirituelle «My Lord, What a Morning», sangen har blitt en hymne for sosial rettferdighet og inkludering.",
-      "Barn av regnbuen bærer et budskap om håp og feirer menneskehetens mangfold, og understreker viktigheten av å omfavne forskjeller og jobbe sammen for en bedre verden.",
-      "Med sine oppløftende melodier og styrkende tekst oppfordrer sangen lytterne til å stå imot diskriminering og strebe for et mer harmonisk og inkluderende samfunn."
+      "‘Barn av regnbuen’ er en sang som treffer hjertet, komponert av Pete Seeger og tilpasset til norsk av Lillebjørn Nilsen. Teksten utforsker temaer som enhet, bærekraft, og håp for fremtiden. Den bruker levende bilder som en stjernefylt himmel og et blått hav for å skildre en ideell verden, og stiller spørsmålet om hva mer en kunne ønske seg enn dette.",
+      "Sangen kritiserer også de som ikke ser verdien i å ta vare på planeten og hverandre. Det er en appell til fellesskap og en oppfordring til å leve på en måte som ikke bare gagner oss selv, men også de som kommer etter oss. Dette gjør den spesielt relevant i begravelser som en hyllest til livet, men også som en påminnelse om å leve meningsfylt."
     ],
     "lyrics": [
       "En himmel full av stjerner",
@@ -1606,20 +1601,19 @@
       "Små barn av regnbuen",
       "Og en frodig jord"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/rainbow_xtkzlj.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/rainbow_mobile_zld81n.webp"
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/w_1200,c_fill,q_auto,f_auto//v1697220438/Sang%20i%20begravelse/images/Barn_av_regnbuen_copy_safimr.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/w_600,c_fill,q_auto,f_auto//v1697220438/Sang%20i%20begravelse/images/Barn_av_regnbuen_copy_safimr.webp"
   },
   {
     "objectID": "56",
     "category": "Viser",
-    "subcategory": ["Nordisk"],
+    "subcategory": ["Folkemusikk", "Nordisk", "Tradisjonell"],
     "title": "Barndomsminne fra Nordland",
     "arrangement": ["solo"],
     "composer": "Elias Blix",
     "audio": false,
     "description": [
-      "Barndomsminne fra Nordland, komponert av Elias Blix, er en nostalgisk og stemningsfull folkesang som hyller skjønnheten og minnene fra barndommen i Nordland.",
-      "Med sine milde melodier og inderlige tekst transporterer sangen lytterne til de idylliske landskapene og sjarmerende bygdene i Nordland. Barndomsminne fra Nordland fanger essensen av en enklere tid, og fremkaller en følelse av nostalgi og forkjærlighet for barndommens opplevelser og eventyr i regionen.",
+      "‘Barndomsminne fra Nordland’ er en gripende sang skrevet av Elias Blix, som tar lytteren med på en nostalgisk reise gjennom landskapet og minnene fra Nordland. Sangen er som en hyllest til hjemmet, naturen og barndommens uskyld. Med linjer som ‘Aa eg veit meg eit land, langt der uppe mot nord,’ skaper sangen en sterk følelse av tilhørighet og kjærlighet til det norske landskapet, spesielt fjordene og fjellene.",
       "De melodiske linjene og poetiske bilder skaper en varm og sentimental atmosfære, og inviterer lytterne til å mimre om sine egne barndomsminner."
     ],
     "lyrics": [
@@ -1703,8 +1697,8 @@
       "Aa eg minnest, eg minnest",
       "so vel dette land!"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Barndomsminne_fra_Nordland_huvjwc.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Barndomsminne_fra_Nordland_mobile_twgudz.webp"
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/w_1200,c_fill,q_auto,f_auto//v1697220439/Sang%20i%20begravelse/images/Barndomsminne_fra_Nordland_copy_saxauk.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/w_600,c_fill,q_auto,f_auto//v1697220439/Sang%20i%20begravelse/images/Barndomsminne_fra_Nordland_copy_saxauk.webp"
   },
   {
     "objectID": "57",
@@ -1715,9 +1709,8 @@
     "composer": "Odd Nordstoga",
     "audio": false,
     "description": [
-      "Bestevenn, komponert av Odd Nordstoga, er en inderlig og øm folk-pop-låt som hyller vennskapsbåndet. Med sine varme melodier og oppriktige tekst uttrykker sangen takknemlighet og takknemlighet for en spesiell venn som gir støtte og selskap.",
-      "Bestevenn fanger essensen av et dypt og meningsfylt vennskap, og understreker viktigheten av tillit, lojalitet og delte opplevelser.",
-      "Nordstogas inderlige vokal og det melodiske arrangementet skaper en intim og oppløftende atmosfære, og minner lytterne om gleden og komforten som kommer av å ha en bestevenn."
+      "‘Bestevenn’ av Odd Nordstoga er en sang som tar for seg temaet vennskap og samhold i utfordrende tider. Teksten speiler den universelle følelsen av ensomhet og behovet for en støttende venn. Nordstoga bruker naturlige metaforer som lys og hav for å illustrere poengene, noe som gir sangen en jordnær og autentisk kvalitet.",
+      "Melodien og arrangementet forsterker sangens budskap, og gjør den til et passende valg for en minnestund der fokus er på livets utfordringer, men også de gode øyeblikkene man deler med sine nærmeste. Odd Nordstoga har en evne til å formulere komplekse følelser på en enkel måte, og dette kommer tydelig fram i ‘Bestevenn’."
     ],
     "lyrics": [
       "Det er ljos der ute, som du ser frå der du bur",
@@ -1752,21 +1745,20 @@
       "Nei det ækkje slik at du ikkje he ein bestevenn",
       "Nei det ækkje slik at du ikkje he ein bestevenn"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Bestevenn_nrrtrn.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Bestevenn_mobile_ssjhop.webp"
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/w_1200,c_fill,q_auto,f_auto//v1697220442/Sang%20i%20begravelse/images/Bestevenn_copy_sdlee5.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/w_600,c_fill,q_auto,f_auto//v1697220442/Sang%20i%20begravelse/images/Bestevenn_copy_sdlee5.webp"
   },
   {
     "objectID": "58",
     "category": "Viser",
-    "subcategory": ["Nordisk"],
+    "subcategory": ["Kjærlighetssang", "Nordisk", "Tradisjonell"],
     "title": "Blå salme",
-    "arrangement": ["solo"],
+    "arrangement": ["solo", "duett"],
     "composer": "Erik Bye",
     "audio": false,
     "description": [
-      "Blå salme, komponert av Erik Bye, er en vakker folkesang som fordyper seg i eksistensielle temaer og søken etter mening med livet.",
-      "Med sine introspektive tekst og melankolske melodier fremkaller sangen en følelse av ettertanke. Blå salme reflekterer over tilværelsens flyktige natur og lengsel.",
-      "Den inviterer lyttere til å reflektere over livets dypere spørsmål, og tilbyr trøst og tilknytning til egne følelser og forståelse."
+      "‘Blå salme’ av Erik Bye er en gripende og dyp sang som tar for seg livets gang med sine oppturer og nedturer. Sangens tekst veksler mellom takknemlighet for de gode øyeblikkene i livet og en dypere forståelse av de mørkere sidene vi alle møter. Erik Bye bruker symboler som sankthansormer og treets rot for å formidle en følelse av tilhørighet og ro, noe som gjør sangen ekstra relevant i en begravelsessammenheng.",
+      "Sangens blanding av vemod og håp gir et sterkt emosjonelt bakteppe for å ære et liv som har gått bort. Det er en meditativ melodi som kan utføres som solo eller duett, og som har potensial til å berøre alle tilstedeværende på en dypt personlig måte. ‘Blå salme’ er dermed et naturlig valg for de som søker en sang som kan formidle en helhetlig, men samtidig nyansert, opplevelse av sorg, minne og håp."
     ],
     "lyrics": [
       "Jeg synger meg en blå, blå salme",
@@ -1798,8 +1790,8 @@
       "Gå inn i Herrens tid.",
       "Så synger vi vår salme."
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Bla%CC%8A_salme_oyhywp.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Bla%CC%8A_salme_mobile_j6cqxi.webp"
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/w_1200,c_fill,q_auto,f_auto//v1697220443/Sang%20i%20begravelse/images/Bla%CC%8A_salme_copy_nazvnp.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/w_600,c_fill,q_auto,f_auto//v1697220443/Sang%20i%20begravelse/images/Bla%CC%8A_salme_copy_nazvnp.webp"
   },
   {
     "objectID": "59",
@@ -3855,8 +3847,8 @@
       "Eller bittesmå",
       "Og kem vet ka som e forgjeves."
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/w_1200,h_800,c_fill,q_auto,f_auto/v1697184412/Sang%20i%20begravelse/images/13_hester_tq9ry0.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/w_400,h_300,c_fill,q_auto,f_auto/v1697184412/Sang%20i%20begravelse/images/13_hester_tq9ry0.webp"
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/w_1200,c_fill,q_auto,f_auto//v1697220423/Sang%20i%20begravelse/images/13_hester_copy_qoh7eo.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/w_600,c_fill,q_auto,f_auto//v1697220423/Sang%20i%20begravelse/images/13_hester_copy_qoh7eo.webp"
   },
   {
     "objectID": "109",
@@ -4034,14 +4026,13 @@
   {
     "objectID": "120",
     "category": "Pop",
-    "subcategory": ["Soul", "Moderne"],
+    "subcategory": ["Moderne", "Popballade", "Soul"],
     "title": "Ain’t No Sunshine",
-    "arrangement": ["solo"],
+    "arrangement": ["solo", "duett"],
     "composer": "Bill Withers",
     "audio": false,
     "description": [
-      "Ain’t No Sunshine, komponert av Bill Withers, er en sjelfull R&B-klassiker som fordyper seg i temaer som lengsel og hjertesorg. Sangen fanger vakkert følelsene av å savne noen dypt med sin sjelberørende tekst og emosjonelle melodi.",
-      "Ain't No Sunshine taler til følelsene av tomhet og lengsel som oppstår i fraværet av en kjær.",
+      "‘Ain't No Sunshine’ av Bill Withers er en hjerteskjærende sang som handler om dypt savn og ensomhet. Tekstene gir uttrykk for en tomhet som følger når en elsket forsvinner, selv om det er midlertidig. Med linjer som ‘Ain't no sunshine when she's gone, and this house just ain't no home’, formidler sangen en følelse av tap som mange kan relatere til.",
       "Det sjelfulle arrangementet skaper en gripende og sjelgripende atmosfære, som inviterer lyttere til å koble seg til den universelle opplevelsen av kjærlighet og tap."
     ],
     "lyrics": [
@@ -4078,21 +4069,20 @@
       "Anytime she goes away",
       "Anytime she goes away"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Aint_No_Sunshine_gpn6o5.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Aint_No_Sunshine_mobile_asqvtg.webp"
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/w_1200,c_fill,q_auto,f_auto//v1697220427/Sang%20i%20begravelse/images/Ain_t_No_Sunshine_copy_xc4jwb.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/w_600,c_fill,q_auto,f_auto//v1697220427/Sang%20i%20begravelse/images/Ain_t_No_Sunshine_copy_xc4jwb.webp"
   },
   {
     "objectID": "121",
     "category": "Pop",
-    "subcategory": ["Kjærlighetssang", "Moderne"],
+    "subcategory": ["Kjærlighetssang", "Popballade", "Rock", "Moderne"],
     "title": "Always on My Mind",
     "arrangement": ["solo"],
     "composer": "Wayne Thompson / Johnny Christopher / Mark James",
     "audio": false,
     "description": [
-      "«Always on My Mind», komponert av Wayne Thompson, Johnny Christopher og Mark James, er en tidløs kjærlighetsballade som reflekterer over kompleksiteten av kjærlighet, anger og hengivenhet.",
-      "Med sin inderlige tekst og emosjonelle melodi, skildrer sangen den indre kampen for å innse viktigheten av noen etter at de er borte. Always on My Mind taler til den menneskelige tendensen til å ta kjærligheten for gitt og lengselen etter å gjøre bot.",
-      "Sangens ømme vokal og gripende arrangement skaper en emosjonell og reflektert atmosfære, og inviterer lyttere til å reflektere over deres forhold og følelser."
+      "‘Always on My Mind’, komponert av Wayne Thompson, Johnny Christopher og Mark James, er en emosjonell ballade som utforsker dybden av kjærlighet og anger. Låten legger vekt på en reflekterende tone der sangeren innrømmer mangler i forholdet, men fastholder at partneren alltid har vært i tankene hans.",
+      "Tekstene er direkte og hjerteskjærende, og bringer lytteren inn i en verden av følelsesmessig kompliksjon. ‘Maybe I didn't love you, quite as often as I could have’ åpner for en ærlig selvransakelse som mange kan relatere til. Låten passer utmerket for de som ønsker å uttrykke en komplisert kjærlighet eller dyptfølt anger i en minnehøytidelighet."
     ],
     "lyrics": [
       "Maybe I didn't love you",
@@ -4127,8 +4117,8 @@
       "You were always on my mind",
       "You were always on my mind"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Always_on_My_Mind_tvn71a.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Always_on_My_Mind_mobile_lx8mgs.webp"
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/w_1200,c_fill,q_auto,f_auto//v1697220429/Sang%20i%20begravelse/images/Always_on_My_Mind_copy_kh3qja.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/w_600,c_fill,q_auto,f_auto//v1697220429/Sang%20i%20begravelse/images/Always_on_My_Mind_copy_kh3qja.webp"
   },
   {
     "objectID": "122",
@@ -4139,9 +4129,8 @@
     "composer": "Sarah McLachlan",
     "audio": false,
     "description": [
-      "Angel, komponert av Sarah McLachlan, er en gripende popballade som gir trøst og ettertanke i møte med utfordringer.",
-      "Med sin introspektive tekst og emosjonelle melodi, utforsker sangen sårbarhet, støtte og å søke tilflukt. Angel gir trøst og trygghet, og minner lytterne om at de ikke er alene i kampene.",
-      "Sangen skaper en mild og empatisk atmosfære, og inviterer lyttere til å finne trøst i nærvær av en veiledende «engel»."
+      "‘Angel’ av Sarah McLachlan er en dyp emosjonell sang som har hjulpet mange i sorgprosessen. Sangen skaper et pusterom for ettertanke, noe som er viktig i en begravelse. Teksten omhandler følelsen av å finne trøst og ro i vanskelige stunder, en beskjed som kan være hjertelig for de som er i sorg.",
+      "Melodien er som en bølge av følelser, som langsomt bygger opp til et mektig klimaks i refrenget. Frasen ‘In the arms of the angel, may you find some comfort here’ resonerer sterkt og gir en følelse av håp og lette. Dette gjør sangen til et sterkt valg for de som ønsker å formidle en følelse av trøst og fred i en seremoni."
     ],
     "lyrics": [
       "Spend all your time waiting",
@@ -4188,21 +4177,20 @@
       "You're in the arms of the angel",
       "May you find some comfort here"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Angel_zzcwmh.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Angel_mobile_brbfdv.webp"
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/w_1200,c_fill,q_auto,f_auto//v1697220431/Sang%20i%20begravelse/images/Angel_copy_e513df.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/w_600,c_fill,q_auto,f_auto//v1697220431/Sang%20i%20begravelse/images/Angel_copy_e513df.webp"
   },
   {
     "objectID": "123",
     "category": "Pop",
-    "subcategory": ["Jazz", "Moderne"],
+    "subcategory": ["Jazz", "Kjærlighetssang", "Moderne"],
     "title": "Autumn Leaves",
     "arrangement": ["solo"],
     "composer": "Joseph Kosma",
     "audio": false,
     "description": [
-      "Autumn Leaves, komponert av Joseph Kosma, er en tidløs jazzstandard som legemliggjør den bittersøte skjønnheten til forandring og overgang. Med sine poetiske tekst og triste melodi, skildrer sangen levende årstidene som en metafor for livets skiftninger.",
-      "Autumn Leaves fremkaller en følelse av nostalgi og refleksjon, og minner lytterne om øyeblikkenes flyktige natur.",
-      "Sangens sjelfulle vokal og det jazzinfunderte arrangementet skaper en atmosfære av introspeksjon og musikalsk sofistikering, og inviterer lyttere til å omfavne nyansene i livets reise."
+      "‘Autumn Leaves,’ komponert av Joseph Kosma, er en melankolsk hyllest til høstens forgjengelighet og tapte kjærlighet. Sangens tekst, som beskriver fallende høstblader som et symbol på tidens uunngåelige forløp, er fylt med nostalgi og dyp følelse.",
+      "Sangens enkle, men følelsesladde tekstlinjer omfavner den sørgmodige atmosfæren som oppstår når man savner en kjær. Spesielt linjen ‘But I miss you most of all my darling, when autumn leaves start to fall,’ rører ved hjertet og etterlater et varig inntrykk. Dette gjør ‘Autumn Leaves’ til et passende valg for å formidle komplekse følelser under en begravelse."
     ],
     "lyrics": [
       "The falling leaves drift by the window",
@@ -4220,21 +4208,20 @@
       "But I miss you most of all my darling",
       "When autumn leaves start to fall"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Autumn_Leaves_z9qvmw.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Autumn_Leaves_mobile_ihvk7j.webp"
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/w_1200,c_fill,q_auto,f_auto//v1697220432/Sang%20i%20begravelse/images/Autumn_Leaves_copy_tix1gx.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/w_600,c_fill,q_auto,f_auto//v1697220432/Sang%20i%20begravelse/images/Autumn_Leaves_copy_tix1gx.webp"
   },
   {
     "objectID": "124",
     "category": "Pop",
-    "subcategory": ["Rock", "Moderne"],
+    "subcategory": ["Rock", "Popballade"],
     "title": "A Whiter Shade of Pale",
     "arrangement": ["solo"],
     "composer": "Keith Reid / Gary Brooker",
     "audio": false,
     "description": [
-      "A Whiter Shade of Pale, komponert av Keith Reid og Gary Brooker, er en klassisk rockeballade som vever sammen stemningsfulle tekst og en hjemsøkende melodi for å skape en atmosfære av mystikk og nostalgi.",
-      "De gåtefulle tekstene trekker lytterne inn i en drømmeaktig fortelling, som inviterer til tolkning og refleksjon.",
-      "A Whiter Shade of Pale fanger en følelse av overjordisk lokke med sin fengslende vokal og atmosfæriske arrangement. Sangen transporterer lytterne til poetisk introspeksjon, der følelser og bilder flettes sammen."
+      "‘A Whiter Shade of Pale’er en tidløs melodi komponert av Keith Reid og Gary Brooker, kjent for sin mystiske og poetiske tekst. Låten er en metaforisk reise som starter med en følelse av ubehag og forvandling, før den glir over i en nesten drømmeaktig tilstand. Ordene ‘a whiter shade of pale’ fungerer som et kraftfullt bilde som kan tolkes på mange måter, noe som gjør låten universell i sin appell.",
+      "Musikalsk sett fanger komposisjonen en melankolsk atmosfære som kan være svært passende for en begravelse. Låten er i stand til å vekke en dyp emosjonell respons, og kan fungere som en støttende bakgrunn for refleksjon og minne. Den har en kraft som kan oppleves som både sørgmodig og oppløftende, og er derfor et godt valg for dem som ønsker en sang med flere lag av mening."
     ],
     "lyrics": [
       "Turned cartwheels 'cross the floor",
@@ -4266,21 +4253,20 @@
       "",
       "And so it was that later"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/A_Whiter_Shade_of_Pale_y72swd.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/A_Whiter_Shade_of_Pale_mobile_vt2tky.webp"
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/w_1200,c_fill,q_auto,f_auto//v1697220423/Sang%20i%20begravelse/images/a_whiter_shade_of_pale_copy_tisypp.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/w_600,c_fill,q_auto,f_auto//v1697220423/Sang%20i%20begravelse/images/a_whiter_shade_of_pale_copy_tisypp.webp"
   },
   {
     "objectID": "125",
     "category": "Pop",
     "subcategory": ["Latinsk", "Moderne", "Kjærlighetssang"],
-    "title": "Besame Mucho",
-    "arrangement": ["solo"],
+    "title": "Bésame Mucho",
+    "arrangement": ["solo", "duett", "fiolin"],
     "composer": "Consuelo Velázquez",
     "audio": false,
     "description": [
-      "Besame Mucho, komponert av Consuelo Velázquez, er en tidløs latinsk bolero som fanger essensen av romantikk og lidenskap.",
-      "Med sin sensuelle tekst og melodiøse komposisjon taler sangen om et intenst og uforglemmelig kyss. Besame Mucho fremkaller begjær og lengsel, og skildrer en intim forbindelse mellom elskere.",
-      "Sangens lidenskapelige vokal og rytmiske arrangement skaper en fengslende atmosfære, som inviterer lyttere til å oppleve intensiteten av kjærlighetens omfavnelse."
+      "‘Bésame Mucho’ er en tidløs klassiker komponert av Consuelo Velázquez. Dette er en sang som er fylt med lidenskap og lengsel, formidlet gjennom linjer som ‘Como si fuera esta noche la última vez’ (Som om denne natten er den siste). Sangen uttrykker en dyp frykt for tap og separasjon, noe som gir den en universell appell.",
+      "Musikalsk sett er ‘Bésame Mucho’ både melodisk og stemningsfull, noe som forsterker tekstens følelsesladde budskap. Det er en sang som enkelt kan tilpasses ulike arrangementer, enten det er som en solo, en duett eller med en akkompagnerende fiolinist. Det er en ideell valg for dem som ønsker å tilføre en atmosfære av romantisk melankoli til en begravelse."
     ],
     "lyrics": [
       "Bésame, bésame mucho",
@@ -4300,21 +4286,20 @@
       "Bésame mucho",
       "Que tengo miedo perderte, perderte amor"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Besame_Mucho_wdxaha.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Besame_Mucho_mobile_t2adki.webp"
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/w_1200,c_fill,q_auto,f_auto//v1697220441/Sang%20i%20begravelse/images/Besame_Mucho_copy_ezrght.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/w_600,c_fill,q_auto,f_auto//v1697220441/Sang%20i%20begravelse/images/Besame_Mucho_copy_ezrght.webp"
   },
   {
     "objectID": "126",
     "category": "Pop",
-    "subcategory": ["Moderne"],
+    "subcategory": ["Folkemusikk", "Tradisjonell"],
     "title": "Blowin’ in the Wind",
     "arrangement": ["solo"],
     "composer": "Bob Dylan",
     "audio": false,
     "description": [
-      "Blowin’ in the Wind, komponert av Bob Dylan, er en kraftig folkeprotestsang som tar opp presserende sosiale og politiske spørsmål.",
-      "Sangens tankevekkende tekst og enkle melodi berører temaer som urettferdighet, likhet og søken etter sannhet. Blowin’ in the Wind taler til den universelle søken etter forståelse og endring i en verden av utfordringer.",
-      "Arrangementet skaper en resonant og virkningsfull atmosfære, som inviterer lyttere til å reflektere over sangens varige budskap."
+      "‘Blowin' in the Wind’ er en folkesang skrevet av Bob Dylan som griper tak i universelle spørsmål om frihet, forståelse og fred. Låten står som en tidløs utforskning av menneskelige dilemmaer gjennom sine poetiske spørsmål, som ‘How many roads must a man walk down, before you call him a man?’ Dette gir lytteren rom for personlig refleksjon over disse store temaene.",
+      "Musikalsk sett er sangen enkel, men dens budskap har en dyp resonans. Med sin melodi og tekst, skaper ‘Blowin' in the Wind’ en følelse av lengsel og håp. Det er en sang som ikke gir konkrete svar, men heller oppfordrer til selvrefleksjon og kontemplasjon, noe som gjør den særlig passende for øyeblikk hvor man søker etter meningen med livet, som i en begravelse."
     ],
     "lyrics": [
       "How many roads must a man walk down",
@@ -4347,21 +4332,20 @@
       "The answer, my friend, is blowin' in the wind",
       "The answer is blowin' in the wind"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Blowin_in_the_Wind_zljc4q.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Blowin_in_the_Wind_mobile_g5ip4r.webp"
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/w_1200,c_fill,q_auto,f_auto//v1697220444/Sang%20i%20begravelse/images/Blowin_in_the_Wind_copy_tavq0w.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/w_600,c_fill,q_auto,f_auto//v1697220444/Sang%20i%20begravelse/images/Blowin_in_the_Wind_copy_tavq0w.webp"
   },
   {
     "objectID": "127",
     "category": "Pop",
-    "subcategory": ["Moderne", "Rock", "Kjærlighetssang"],
+    "subcategory": ["Kjærlighetssang", "Rock", "Tradisjonell"],
     "title": "Blueberry Hill",
     "arrangement": ["solo"],
     "composer": "Al Lewis / Vincent Rose / Larry Stock",
     "audio": false,
     "description": [
-      "Blueberry Hill, komponert av Al Lewis, Vincent Rose og Larry Stock, er en elsket rock and roll-klassiker som er full av nostalgi og romantikk. Sangens inderlige tekst og fengende melodi maler et bilde av gode minner og tapt kjærlighet.",
-      "Blueberry Hill fremkaller lengsel etter fortiden, og fanger skjønnheten i kjære øyeblikk.",
-      "Sangens varme vokal og rock and roll-arrangementet skaper en sentimental og oppløftende atmosfære, og inviterer lyttere til å gjenoppleve sine reiser nedover minnesporet."
+      "‘Blueberry Hill’ er en tidløs melodi komponert av Al Lewis, Vincent Rose og Larry Stock. Sangen skaper en nostalgisk atmosfære fylt med følelser av tap og kjærlighet. Lyrikken forteller om et romantisk øyeblikk som ble forseglet i tid, og står som et evig minne om en tapt kjærlighet.",
+      "Musikken er iøynefallende og den følelsesladede teksten taler til hjertet. Den tar deg med til et sted der ‘månen sto stille’, og kjærlighetens melodier er i vinden. Dette gjør det til en ideell valg for en begravelse, spesielt hvis man ønsker å minnes et kjærlighetsforhold som har hatt stor betydning."
     ],
     "lyrics": [
       "I found my thrill on Blueberry Hill",
@@ -4385,21 +4369,20 @@
       "Tho' we're apart you're part of me still",
       "For you were my thrill on Blueberry Hill"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Blueberry_Hill_ma6qmd.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Blueberry_Hill_mobile_c5zpft.webp"
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/w_1200,c_fill,q_auto,f_auto//v1697220445/Sang%20i%20begravelse/images/Blueberry_Hill_copy_u1vd9t.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/w_600,c_fill,q_auto,f_auto//v1697220445/Sang%20i%20begravelse/images/Blueberry_Hill_copy_u1vd9t.webp"
   },
   {
     "objectID": "128",
     "category": "Pop",
-    "subcategory": ["Moderne", "Rock"],
+    "subcategory": ["Moderne", "Popballade"],
     "title": "Bridge over Troubled Water",
-    "arrangement": ["solo"],
+    "arrangement": ["solo", "duett"],
     "composer": "Paul Simon",
     "audio": false,
     "description": [
-      "Bridge over Troubled Water, komponert av Paul Simon, er en ikonisk folk-rock-ballade som tilbyr trøst og trygghet i utfordrende tider. Sangen er et fyrtårn av håp og trøst med sin inderlige tekst og svevende melodi.",
-      "Bridge over Troubled Water formidler metaforisk ideen om å være en kilde til styrke og støtte for noen i nød.",
-      "Sangens emosjonelle vokal og harmoniske arrangement skaper en kraftig og oppløftende atmosfære, og inviterer lyttere til å finne trøst i å omfavne omsorgsfulle forbindelser."
+      "‘Bridge over Troubled Water’ av Paul Simon er en hjertevarmende ballade som taler til sjelen i utfordrende tider. Teksten er fylt med løfter om støtte og omsorg, og vektlegger viktigheten av nærvær og vennskap når livet blir tøft.",
+      "Melodilinjen er like gripende som tekstens budskap, og skaper en emosjonell atmosfære som lett kan bringe tårer til øynene. Sangen kan fungere som en trøstende hånd på skulderen, enten den fremføres som en solo eller i duett, og gir et rolig øyeblikk til ettertanke under seremonier som en begravelse."
     ],
     "lyrics": [
       "When you're weary",
@@ -4428,8 +4411,8 @@
       "Like a bridge over troubled water",
       "I will lay me down"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Bridge_over_Troubled_Water_qciosv.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Bridge_over_Troubled_Water_mobile_pxe6yd.webp"
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/w_1200,c_fill,q_auto,f_auto//v1697220446/Sang%20i%20begravelse/images/Bridge_over_Troubled_Water_copy_fxdlb6.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/w_600,c_fill,q_auto,f_auto//v1697220446/Sang%20i%20begravelse/images/Bridge_over_Troubled_Water_copy_fxdlb6.webp"
   },
   {
     "objectID": "129",
@@ -4748,17 +4731,16 @@
   {
     "objectID": "135",
     "category": "Klassisk",
-    "subcategory": ["Aria", "Opera"],
+    "subcategory": ["Aria", "Opera", "Kjærlighetssang"],
     "title": "Ach, ich fühl’s",
-    "arrangement": ["solo"],
+    "arrangement": ["solo", "duett"],
     "composer": "Wolfgang Amadeus Mozart",
     "audio": true,
     "audioUrl": "https://res.cloudinary.com/dt3k2apqd/video/upload/q_auto/Sang%20i%20begravelse/Audio/Ach_ich_fu%CC%88hls_teaser_pbxieg.wav",
     "performers": "Susanne Hvinden Hals",
     "description": [
-      "Ach, ich fühl's, komponert av Wolfgang Amadeus Mozart, er en følelsesladet arie fra operaen «Tryllefløyten». Arien formidler dyp sorg og lengsel gjennom sin uttrykksfulle melodi og inderlige tekst.",
-      "Ach, ich fühl's skildrer karakterens indre uro, og uttrykker en følelse av hjertesorg og sårbarhet.",
-      "Ariens gripende vokal og den delikate orkestreringen skaper en atmosfære av emosjonell intensitet, og inviterer lyttere til å føle med karakterens emosjonelle reise."
+      "‘Ach, ich fühl’s’ er en operasang komponert av Wolfgang Amadeus Mozart. Denne gripende ariaen blir ofte forbundet med tap og hjertesmerte, en følelse som blir sterkt formidlet gjennom de lidenskapelige tekstlinjene. Musikkens melodiske struktur og sårhet gir et sterkt uttrykk for følelsen av evig tap og kjærlighet som har gått tapt.",
+      "Sangen skiller seg ut for sin emosjonelle dybde og kompleksitet, og den har en evne til å røre ved lytterens hjerte. Tekstene, ‘Ach, ich fühl's, es ist verschwunden, ewig hin der Liebe Glück,’ skildrer en hjerteskjærende lengsel som kan gi trøst i en tid med sorg. Sangen kan utføres som en solo eller duett og vil være et meningsfylt bidrag til enhver begravelsesseremoni."
     ],
     "lyrics": [
       "Ach, ich fühl's, es ist verschwunden,",
@@ -4771,8 +4753,8 @@
       "Fühlst du nicht der Liebe Sehnen,",
       "So wird Ruh' im Tode sein!"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Ach_ich_fu%CC%88hls_vgnb21.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Ach_ich_fu%CC%88hls_mobile_tkdrki.webp"
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/w_1200,c_fill,q_auto,f_auto//v1697220424/Sang%20i%20begravelse/images/Ach_ich_fu%CC%88hl_s_copy_lih1bl.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/w_600,c_fill,q_auto,f_auto//v1697220424/Sang%20i%20begravelse/images/Ach_ich_fu%CC%88hl_s_copy_lih1bl.webp"
   },
   {
     "objectID": "136",
