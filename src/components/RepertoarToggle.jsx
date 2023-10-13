@@ -119,7 +119,6 @@ export function RepertoarToggle() {
                   <option value="">Alle</option>
                   <option value="Klassisk">Klassisk</option>
                   <option value="Musikal">Musikal</option>
-                  <option value="Opera">Opera</option>
                   <option value="Pop">Pop</option>
                   <option value="Salmer">Salmer</option>
                   <option value="Viser">Viser</option>
@@ -146,8 +145,6 @@ export function RepertoarToggle() {
                   </option>
                   <option value="Aria">Aria</option>
                   <option value="Country">Country</option>
-                  <option value="Crossover">Crossover</option>
-                  <option value="Evangelium">Evangelium</option>
                   <option value="Folkemusikk">Folkemusikk</option>
                   <option value="Irsk">Irsk</option>
                   <option value="Islandsk">Islandsk</option>
@@ -458,9 +455,9 @@ export function RepertoarToggle() {
                                 >
                                   <Image
                                     src={sang.mobile}
-                                    alt=""
-                                    width={640}
-                                    height={359}
+                                    alt={sang.title}
+                                    width={5824}
+                                    height={3264}
                                     className="object-cover object-center w-full h-64"
                                   />
                                 </div>
@@ -471,8 +468,8 @@ export function RepertoarToggle() {
                                   <Image
                                     src={sang.desktop}
                                     alt={sang.title}
-                                    width={1456}
-                                    height={816}
+                                    width={5824}
+                                    height={3264}
                                     className="object-cover object-center w-full overflow-hidden rounded-lg h-96"
                                   />
                                 </div>

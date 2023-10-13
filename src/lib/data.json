@@ -491,6 +491,7 @@
       "Med sine intrikate vokallinjer og rike harmonier, utstråler stykket ærbødighet og storhet.",
       "Benedictus er et dypt uttrykk for lovprisning og tilbedelse, som formidler en følelse av guddommelig majestet og åndelig transcendens."
     ],
+    "lyrics": ["Benedictus qui venit in nomine Domini.", "Osanna in excelsis."],
     "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Benedictus_desktop_a6k52z.webp",
     "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Benedictus_mobile_sdzf4w.webp"
   },
@@ -3782,14 +3783,14 @@
   {
     "objectID": "108",
     "category": "Viser",
-    "subcategory": ["Nordisk", "Popballade"],
+    "subcategory": ["Nordisk", "Tradisjonell"],
     "title": "13 Hester",
     "arrangement": ["solo"],
     "composer": "Sigvard Dagsland",
     "audio": false,
     "description": [
-      "13 Hester, komponert av Sigvard Dagsland, er en inderlig folkeballade som forteller en historie om spenst, overlevelse og den ukuelige ånden til hester som kjemper mot elementene på havet.",
-      "Med sin stemningsfulle tekst og uttrykksfulle melodi, skildrer sangen kampen til disse majestetiske skapningene mens de møter havets harde. 13 Hester fanger essensen av utholdenhet og viljen til å overvinne motgang."
+      "Dette melankolske og gripende stykket skildrer en hjerteskjærende reise av 13 hester som kjemper for overlevelse i det åpne hav. Teksten beskriver en følelse av håpløshet og utholdenhet, som blir sterkt representert av hestenes kamp for å finne fast grunn. Gjennom denne tragiske fortellingen gir Dagsland en refleksjon over menneskets kamp med livets uforutsigbarheter, samtidig som han vektlegger naturens nådeløse krefter. Med en dyptfølt vokal leveranse, tar sangen oss med på en reise fylt med lengsel, mørke og til slutt et glimt av håp om hvile og fred.",
+      "Sangen har en dyp resonans for de som sørger, da den berører temaer om død, kamp, og aksept. ‘13 Hester’ kan være en rørende hyllest til de vi har mistet, og minner oss om livets skjørhet og den uendelige syklusen av liv og død."
     ],
     "lyrics": [
       "13 hester",
@@ -3854,8 +3855,8 @@
       "Eller bittesmå",
       "Og kem vet ka som e forgjeves."
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/13_hester_yzvyv0.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/13_hester_mobile_lxqfrs.webp"
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/w_1200,h_800,c_fill,q_auto,f_auto/v1697184412/Sang%20i%20begravelse/images/13_hester_tq9ry0.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/w_400,h_300,c_fill,q_auto,f_auto/v1697184412/Sang%20i%20begravelse/images/13_hester_tq9ry0.webp"
   },
   {
     "objectID": "109",
