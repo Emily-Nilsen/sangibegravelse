@@ -30,18 +30,11 @@ export function BackToTopButton() {
     <div className="fixed z-50 bottom-4 right-4">
       <button
         onClick={scrollToTop}
-        className={`transition-opacity duration-300 ease-in-out ${
+        className={`w-12 h-12 text-xl text-muted-yellow-700 transition-all duration-300 ease-in-out bg-muted-yellow-50 bg-opacity-100 shadow-lg rounded-full focus:outline-none hover:shadow-md ${
           isVisible ? 'opacity-100' : 'opacity-0'
         }`}
       >
         ↑
-        <Image
-          className="w-auto h-12 transition-all duration-300 ease-in-out cursor-pointer sm:h-24 hover:rotate-3 transform scale-x-[-1]"
-          src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Bird_logo_-_singing_rcqvub.webp"
-          alt="Sang i begravelse - logo"
-          width={265}
-          height={230}
-        />
       </button>
     </div>
   );

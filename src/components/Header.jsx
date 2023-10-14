@@ -47,7 +47,7 @@ export function Header() {
             <Link href="/" className="-m-1.5 p-1.5">
               <span className="sr-only">Sang i begravelse</span>
               <Image
-                className="w-24 h-auto transition-all duration-300 ease-in-out cursor-pointer hover:rotate-3 transform scale-x-[-1]"
+                className="w-24 h-auto transition-all duration-300 ease-in-out cursor-pointer hover:-rotate-3 transform scale-x-[-1]"
                 src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Bird_logo_-_singing_rcqvub.webp"
                 alt="Sang i begravelse - logo"
                 width={500}

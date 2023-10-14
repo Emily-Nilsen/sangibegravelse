@@ -186,15 +186,14 @@
   {
     "objectID": "6",
     "category": "Klassisk",
-    "subcategory": ["Italiensk"],
+    "subcategory": ["Italiensk", "Kunstsang"],
     "title": "Caro mio ben",
     "arrangement": ["solo", "fiolin"],
     "composer": "Tommaso Giordani",
     "audio": false,
     "description": [
-      "Caro mio ben er en vakker italiensk kunstsang som uttrykker dyp hengivenhet og lengsel.",
-      "Det er et ømt og melodisk stykke som viser frem det følelsesmessige spekteret til vokalisten.",
-      "Med sin uttrykksfulle melodi og inderlige tekst fremkaller den en følelse av kjærlighet, hengivenhet og lengsel etter en elsket."
+      "‘Caro mio ben’ er en klassisk italiensk sang komponert av Tommaso Giordani. Sangen er en lidenskapelig kjærlighetserklæring som uttrykker dyp lengsel og troskap. Med sin rike melodi og emosjonell tekst, fremkaller denne sangen en følelse av både kjærlighet og smerte.",
+      "Sangen har en enkel, men kraftfull tekst som snakker direkte til hjertet. Teksten ‘senza di te languisce il cor’ (uten deg, lider hjertet) og ‘Il tuo fedel sospira ognor’ (din trofaste sukker alltid) forsterker sangens følelsesladde budskap. Denne sangen er ideell for øyeblikk som krever uttrykk for dyp kjærlighet og lengsel."
     ],
     "lyrics": [
       "Caro mio ben,",
@@ -207,8 +206,8 @@
       "Cessa, crudel,",
       "tanto rigor!"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Caro_mio_ben_-_desktop_vj2bsy.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Caro_mio_ben_-_mobile_oazceo.webp"
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/sad_woman_copy_k9ka6d.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/sad_woman_MOBILE_nssabq.webp"
   },
   {
     "objectID": "7",
@@ -4419,12 +4418,12 @@
     "category": "Pop",
     "subcategory": ["Moderne", "Rock"],
     "title": "Brothers in Arms (med el-gitar)",
-    "arrangement": ["solo"],
+    "arrangement": ["solo", "duett"],
     "composer": "Mark Knopfler",
     "audio": false,
     "description": [
-      "Brothers in Arms, komponert av Mark Knopfler, er en inderlig rockelåt som reflekterer over båndene til kameratskap og ofrene som gjøres i tider med konflikt.",
-      "Sangens gripende tekst og melodiske komposisjon hyller samholdet og lojaliteten som deles mellom kamerater. Brothers in Arms fanger følelsene av kameratskap og krigens innvirkning på individer og relasjoner."
+      "‘Brothers in Arms’ av Mark Knopfler er en melankolsk ballade med fokus på krig, savn og brorskap. Sangen er akkompagnert av en el-gitar som gir en dypere emosjonell resonans. Tekstene skildrer en soldats forhold til sine 'brødre i våpen', med temaer som går fra hjemlengsel til den brutale virkeligheten i krig.",
+      "Sangen starter med en følelse av nostalgi, før den går over til å beskrive krigens grusomheter. Til tross for dette, understreker den sterke bånd som dannes i tøffe tider. Den konkluderer med en universell melding om meningsløsheten i krig, noe som gir et evigvarende inntrykk. Dette er en sang som treffer dypt, enten den fremføres som en solo eller i en duett."
     ],
     "lyrics": [
       "These mist covered mountains",
@@ -4459,20 +4458,20 @@
       "We're fools to make war",
       "On our brothers in arms"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Brothers_in_Arms_babkta.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Brothers_in_Arms_mobile_xiafy3.webp"
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Brothers_in_Arms_copy_fiverv.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Brothers_in_Arms_MOBILE_cfyzs7.webp"
   },
   {
     "objectID": "130",
     "category": "Pop",
-    "subcategory": ["Moderne", "Popballade"],
+    "subcategory": ["Kjærlighetssang", "Moderne", "Popballade", "Western"],
     "title": "Candle in the Wind",
     "arrangement": ["solo"],
     "composer": "Elton John",
     "audio": false,
     "description": [
-      "Candle in the Wind, komponert av Elton John, er en rørende popballade som fungerer som en inderlig hyllest til et avdødt individ. Med sin gripende tekst og emosjonelle melodi, fanger sangen essensen av erindring og den varige virkningen av et liv som er levd.",
-      "Candle in the Wind sammenligner metaforisk livet med en flyktig stearinlys flamme, og understreker ideen om forgjengelighet og de varige minnene som er igjen. Hedre og verne om minnet til de avdøde."
+      "‘Candle in the Wind’ er en følelsesladet ballade komponert av Elton John. Sangen tar for seg livet til Norma Jeane, også kjent som Marilyn Monroe, og skildrer hennes sårbare eksistens i rampelyset. Teksten gir et intimt innblikk i Monroes liv, hvor hun navigerer gjennom ensomhet og de utfordringene som kommer med berømmelse.",
+      "Melodien og teksten sammen skaper en rørende atmosfære som raskt kan gripe enhver lytter. Sangen er spesielt passende for en begravelse, der temaet om livets forgjengelighet og det å leve ‘som et stearinlys i vinden’ vil resonere. Det er en sang som både feirer og sørger over et liv som var betydningsfullt, men også fylt med utfordringer."
     ],
     "lyrics": [
       "Goodbye, Norma Jeane",
@@ -4531,21 +4530,20 @@
       "Your candle burned out long before",
       "Your legend ever did"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Candle_in_the_Wind_oddjr3.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Candle_in_the_Wind_mobile_zxzgmm.webp"
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Marylin_Monroe_copy_brpl8j.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Marylin_Monroe_Mobile_fulz1m.webp"
   },
   {
     "objectID": "131",
     "category": "Pop",
-    "subcategory": ["Moderne", "Kjærlighetssang"],
+    "subcategory": ["Kjærlighetssang", "Moderne", "Popballade", "Soul"],
     "title": "Can’t Help Falling in Love",
     "arrangement": ["solo"],
     "composer": "Hugo Peretti / Luigi Creatore / George David Weiss",
     "audio": false,
     "description": [
-      "Can’t Help Falling in Love, komponert av Hugo Peretti, Luigi Creatore og George David Weiss, er en tidløs kjærlighetsballade som innkapsler magien og sårbarheten ved å forelske seg.",
-      "Med sine ømme tekst og melodiske sjarm, snakker sangen om følelsenes uimotståelige drag og dybden av romantisk hengivenhet. Can’t Help Falling in Love fanger essensen av å overgi seg til kjærlighetens fortryllelse.",
-      "Sangens emosjonelle vokal og milde arrangement skaper en intim og hjertevarmende atmosfære, og inviterer lyttere til å omfavne skjønnheten i kjærlighetens reise."
+      "‘Can't Help Falling in Love’ av Hugo Peretti, Luigi Creatore og George David Weiss er en evigvarende ballade som formidler en dyp følelse av kjærlighet og skjebne. Sangens tekst taler om uunngåeligheten og usikkerheten i kjærlighet, men også dens skjønnhet. ‘Wise men say, only fools rush in’ setter tonen for hele sangen ved å utforske spenningen mellom fornuft og følelser.",
+      "Melodien er myk og melankolsk, noe som forsterker sangens sentimentale budskap. ‘Like a river flows, surely to the sea, Darling, so it goes, some things are meant to be’ understreker ideen om at noen ting i livet er forutbestemt og utenfor vår kontroll. Denne sangen er et sterkt valg for en begravelse der temaet er evig kjærlighet og skjebnens kraft."
     ],
     "lyrics": [
       "Wise men say",
@@ -4567,21 +4565,20 @@
       "For I can't help falling in love with you",
       "Yeah"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Can_t_Help_Falling_in_Love_pjsoor.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Can_t_Help_Falling_in_Love_mobile_m2gc6n.webp"
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Can_t_Help_Falling_in_Love_copy_dcyf3n.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Can_t_Help_Falling_in_Love_MOBILE_ejrhhp.webp"
   },
   {
     "objectID": "132",
     "category": "Pop",
-    "subcategory": ["Moderne", "Popballade"],
+    "subcategory": ["Kjærlighetssang", "Moderne", "Popballade"],
     "title": "Close to You",
-    "arrangement": ["solo"],
+    "arrangement": ["solo", "duett", "fiolin"],
     "composer": "Burt Bacharach / Hal David",
     "audio": false,
     "description": [
-      "(They Long to Be) Close to You, komponert av Burt Bacharach og Hal David, er en hjertevarm popballade som formidler lengselen etter følelsesmessig nærhet og tilknytning.",
-      "Med sine ømme tekst og musikalske sjarm, fanger sangen søtheten av romantisk hengivenhet. (They Long to Be) Close to You fremkaller følelser av varme og sentimentalitet, og skildrer ønsket om å være nær noen spesiell.",
-      "Sangens milde vokal og poparrangementet skaper en beroligende og intim atmosfære, som inviterer lyttere til å omfavne skjønnheten i følelsesmessige bånd."
+      "‘Close to You’ er en varig ballade komponert av Burt Bacharach og Hal David. Denne sangen utforsker temaet av nærhet og kjærlighet på en poetisk måte. Med linjer som ‘Why do birds suddenly appear, every time you are near?’, fanger den opp følelsen av at verden blir litt bedre bare ved nærværet av en spesiell person.",
+      "Musikalsk sett ligger sangen i det rolige og melodiske landskapet, hvor den enkle, men effektive melodilinjen gir rom for følelsesmessig tolkning. Dette gjør sangen til et godt valg for både solo- og duettframføringer, og det gir også muligheter for akkompagnement med fiolin for å tilføre et ekstra følelsesmessig lag."
     ],
     "lyrics": [
       "Why do birds suddenly appear",
@@ -4620,8 +4617,8 @@
       "Just like me, they long to be",
       "Close to you."
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Close_to_You_ppzigq.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Close_to_You_mobile_npyahv.webp"
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Close_to_You_copy_uicwaf.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Close_to_You_MOBILE_mtpgwu.webp"
   },
   {
     "objectID": "133",
@@ -4844,18 +4841,17 @@
   },
   {
     "objectID": "137",
-    "category": "Pop",
-    "subcategory": ["Popballade", "Opera"],
+    "category": "Klassisk",
+    "subcategory": ["Italiensk", "Opera", "Kjærlighetssang", "Kunstsang"],
     "title": "Caruso",
-    "arrangement": ["solo"],
+    "arrangement": ["solo", "duett"],
     "composer": "Lucio Dalla",
     "audio": true,
     "audioUrl": "https://res.cloudinary.com/dt3k2apqd/video/upload/q_auto/Sang%20i%20begravelse/Audio/Caruso_teaser_osdu8s.wav",
     "performers": "Nils Georg Nilsen",
     "description": [
-      "Caruso, komponert av Lucio Dalla, er en fengslende popballade som hyller den legendariske italienske tenoren Enrico Caruso. Sangen fanger essensen av kjærlighet, lengsel og kunstnerisk hengivenhet med sin lidenskapelige tekst og stemningsfulle melodi.",
-      "Caruso forteller en historie om kjærlighet og musikkens innvirkning på hjertet.",
-      "Sangens uttrykksfulle vokal og sammensmeltningen av pop- og operaelementer skaper en fengslende og rørende atmosfære, som inviterer lyttere til å fordype seg i følelsene til fortellingen."
+      "‘Caruso’ av Lucio Dalla er en rørende melodi som dykker dypt inn i menneskelige følelser og kjærlighet. Sangen starter med en sterk atmosfære hvor en mann omfavner en kvinne ved kysten av Surriento. Teksten ‘Te voglio bene assaje’ (Jeg elsker deg veldig mye) gjentas flere ganger og understreker en følelse av en ubrytelig kjærlighetsbånd.",
+      "Musikalsk sett beveger sangen seg gjennom en rekke følelsesmessige topper og daler, og skildrer intens lengsel og dype følelser. De poetiske beskrivelsene av havet, lyset og naturen gir et romantisk, nesten melankolsk bakteppe. Sangen kan fremføres som en rørende solo eller duett, og er dermed et valg som vil etterlate et varig inntrykk ved enhver minnestund."
     ],
 
     "lyrics": [
@@ -4924,8 +4920,8 @@
       "È una catena ormai",
       "Che scioglie il sangue dint' 'e 'vvene, dint' 'e 'vvene"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Caruso_fyoook.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Caruso_mobile_vqjhdv.webp"
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Caruso_copy_rhlzke.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Caruso_MOBILE_zgqkpj.webp"
   },
   {
     "objectID": "138",
