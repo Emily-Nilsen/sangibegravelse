@@ -449,7 +449,7 @@ export function RepertoarToggle() {
                                     </>
                                   </div>
                                 </div>
-                                <div
+                                {/* <div
                                   aria-hidden="true"
                                   className="relative mt-2 mb-10 overflow-hidden rounded-lg sm:hidden"
                                 >
@@ -461,7 +461,7 @@ export function RepertoarToggle() {
                                     className="object-cover object-center w-full h-64"
                                     unoptimized
                                   />
-                                </div>
+                                </div> */}
                                 <div
                                   aria-hidden="true"
                                   className="relative hidden overflow-hidden rounded-lg sm:block"
