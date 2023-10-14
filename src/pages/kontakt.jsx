@@ -29,20 +29,20 @@ export default function Kontakt() {
       <section className="relative bg-white">
         <div className="absolute inset-0 hidden md:block">
           <Image
-            src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/v1697216651/Sang%20i%20begravelse/Hero_2_sios6a.webp"
+            src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1697230359/Sang%20i%20begravelse/Home_Hero_desktop_v2_vyjmjo.webp"
             alt="Blomster"
-            className="object-cover w-full h-full opacity-20 "
-            width={5616}
-            height={3744}
+            className="object-cover w-full h-full opacity-50 "
+            width={3000}
+            height={1681}
           />
         </div>
         <div className="absolute inset-0 md:hidden">
           <Image
-            src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/v1697216651/Sang%20i%20begravelse/Hero_2_sios6a.webp"
-            alt="Blomster"
-            className="object-cover object-right w-full h-full opacity-20 "
-            width={5616}
-            height={3744}
+            src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1697230348/Sang%20i%20begravelse/Home_Hero_mobile_syywxf.webp"
+            alt="Hvite roser"
+            width={2176}
+            height={3264}
+            className="absolute inset-0 object-cover object-left w-full h-full opacity-20"
           />
         </div>
         <div className="px-6 py-24 bg-t isolate sm:py-32 lg:px-8">
@@ -213,7 +213,7 @@ export default function Kontakt() {
             <div className="mt-10">
               <button
                 type="submit"
-                className="block w-full rounded-md bg-slate-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-slate-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-slate-600"
+                className="block w-full rounded-md bg-slate-800 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-slate-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-slate-600 transition-all duration-300 ease-in-out"
               >
                 Send
               </button>

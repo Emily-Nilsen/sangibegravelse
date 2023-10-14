@@ -4,6 +4,7 @@ import type { AppProps } from 'next/app';
 
 import { Footer } from '@/components/Footer';
 import { Header } from '@/components/Header';
+import { BackToTopButton } from '@/components/BackToTopButton'; //
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
@@ -14,6 +15,7 @@ export default function App({ Component, pageProps }: AppProps) {
           <Component {...pageProps} />
         </main>
         <Footer />
+        <BackToTopButton />
       </div>
     </>
   );

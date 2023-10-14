@@ -35,28 +35,17 @@ export function Footer() {
             <Link href="/" className="-m-1.5 p-1.5">
               <span className="sr-only">Sang i begravelse</span>
               <Image
-                className="w-auto h-8"
-                src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1685020173/Sang%20i%20begravelse/logo_v3_3x_vgr7ar.png"
+                className="w-24 h-auto transition-all duration-300 ease-in-out cursor-pointer hover:rotate-3"
+                src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Bird_logo_-_singing_rcqvub.webp"
                 alt="Sang i begravelse - logo"
-                width={265}
-                height={230}
+                width={500}
+                height={500}
               />
             </Link>
+            <h6 className="text-3xl text-slate-9950">Sang i begravelse</h6>
             <p className="text-sm leading-6 text-gray-600">
               Vi hjelper pårørende med passende begravelsesmusikk.
             </p>
-            {/* <div className="flex space-x-6">
-              {navigation.social.map((item) => (
-                <a
-                  key={item.name}
-                  href={item.href}
-                  className="text-gray-400 hover:text-gray-500"
-                >
-                  <span className="sr-only">{item.name}</span>
-                  <item.icon className="w-6 h-6" aria-hidden="true" />
-                </a>
-              ))}
-            </div> */}
           </div>
           <div className="grid grid-cols-2 gap-8 mt-16 xl:col-span-2 xl:mt-0">
             <div className="md:grid md:grid-cols-2 md:gap-8">

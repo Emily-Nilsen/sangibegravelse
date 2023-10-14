@@ -18,21 +18,9 @@ export function Header() {
   return (
     <header className="absolute inset-x-0 top-0 z-50">
       <nav
-        className="flex items-center justify-between p-6 lg:px-8"
+        className="flex p-6 lg:justify-center items-top lg:px-8"
         aria-label="Global"
       >
-        <div className="flex lg:flex-1">
-          <Link href="/" className="-m-1.5 p-1.5">
-            <span className="sr-only">Sang i begravelse</span>
-            <Image
-              className="w-auto h-8"
-              src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1685020173/Sang%20i%20begravelse/logo_v3_3x_vgr7ar.png"
-              alt="Sang i begravelse - logo"
-              width={265}
-              height={230}
-            />
-          </Link>
-        </div>
         <div className="flex lg:hidden">
           <button
             type="button"
@@ -48,13 +36,28 @@ export function Header() {
             <Link
               key={item.name}
               href={item.href}
-              className="text-sm leading-6 text-slate-700 transition duration-300 ease-in-out hover:bg-white/30 hover:text-slate-950 cursor:pointer px-2.5 py-1.5 rounded-md"
+              className="text-sm leading-6 text-slate-700 transition duration-300 ease-in-out hover:bg-white/50 hover:text-slate-950 cursor:pointer px-2.5 py-1.5 rounded-md"
             >
               {item.name}
             </Link>
           ))}
         </div>
+        <div className="absolute top-0 right-0 pr-3">
+          <div className="flex lg:flex-1">
+            <Link href="/" className="-m-1.5 p-1.5">
+              <span className="sr-only">Sang i begravelse</span>
+              <Image
+                className="w-24 h-auto transition-all duration-300 ease-in-out cursor-pointer hover:rotate-3 transform scale-x-[-1]"
+                src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Bird_logo_-_singing_rcqvub.webp"
+                alt="Sang i begravelse - logo"
+                width={500}
+                height={500}
+              />
+            </Link>
+          </div>
+        </div>
       </nav>
+      {/* Mobile menu */}
       <Dialog
         as="div"
         className="lg:hidden"
@@ -72,13 +75,23 @@ export function Header() {
           leaveFrom="opacity-100 translate-y-0"
           leaveTo="opacity-0 translate-y-1"
         >
-          <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full px-6 py-6 overflow-y-auto bg-white sm:max-w-sm sm:ring-1 sm:ring-white/10">
-            <div className="flex items-center justify-between">
+          <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full px-6 py-6 overflow-y-auto bg-pink-100 sm:max-w-sm sm:ring-1 sm:ring-white/10">
+            <div className="absolute inset-0 ">
+              <Image
+                src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1697230348/Sang%20i%20begravelse/Home_Hero_mobile_syywxf.webp"
+                alt="Hvite roser"
+                width={2176}
+                height={3264}
+                className="absolute inset-0 object-cover object-left w-full h-full transform scale-x-[-1] sm:hidden -z-10"
+              />
+              <div className="absolute inset-0 bg-white/30" />
+            </div>
+            <div className="relative z-10 flex items-center justify-between">
               <Link href="/" className="-m-1.5 p-1.5">
                 <span className="sr-only">Sang i begravelse</span>
                 <Image
-                  className="w-auto h-8"
-                  src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1685020173/Sang%20i%20begravelse/logo_v3_3x_vgr7ar.png"
+                  className="w-auto h-24"
+                  src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Bird_logo_-_singing_rcqvub.webp"
                   alt="Sang i begravelse - logo"
                   width={265}
                   height={230}
@@ -93,14 +106,14 @@ export function Header() {
                 <XMarkIcon className="w-6 h-6" aria-hidden="true" />
               </button>
             </div>
-            <div className="flow-root mt-6">
+            <div className="relative z-10 flow-root mt-6">
               <div className="-my-6 divide-y divide-slate-500/25">
                 <div className="py-6 space-y-2">
                   {navigation.map((item) => (
                     <MyLink
                       key={item.name}
                       href={item.href}
-                      className="block px-3 py-2 -mx-3 text-base leading-7 transition-all duration-300 ease-in-out rounded-lg text-slate-700 hover:bg-slate-50 hover:text-slate-900"
+                      className="block px-3 py-2 -mx-3 text-base font-medium leading-7 transition-all duration-300 ease-in-out rounded-lg text-slate-700 hover:bg-slate-50 hover:text-slate-900"
                       onClick={closeMobileMenu}
                     >
                       {item.name}
