@@ -80,9 +80,12 @@ export function RepertoarToggle() {
       <div className="px-4 py-24 overflow-hidden max-w-screen sm:px-6 lg:px-8 sm:py-32">
         <div>
           <div className="max-w-2xl lg:flex-auto">
-            <h6 className="mt-2 text-5xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:hidden">
-              Repertoar
-            </h6>
+            <p className="text-base font-medium leading-7 text-slate-600">
+              Utforsk vår omfattende
+            </p>
+            <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+              Repertoar for begravelsessang
+            </h1>
             <motion.p
               whileInView={{ opacity: 1 }}
               initial={{ opacity: 0 }}
@@ -93,10 +96,8 @@ export function RepertoarToggle() {
               }}
               className="mt-6 text-lg leading-8 text-gray-600"
             >
-              En omfattende repertoarliste for begravelsessanger, inkludert
-              sangtittel, komponist, arrangement og kategori. Utforsk mer
-              informasjon om hver sang ved å klikke på pluss-symbolet og lytt
-              til våre eksempler.
+              Få mer informasjon om hver sang ved å klikke på plusssymbolet og
+              lytt til våre eksempler.
             </motion.p>
           </div>
           {/* Filter controls */}
@@ -449,19 +450,19 @@ export function RepertoarToggle() {
                                     </>
                                   </div>
                                 </div>
-                                {/* <div
+                                <div
                                   aria-hidden="true"
                                   className="relative mt-2 mb-10 overflow-hidden rounded-lg sm:hidden"
                                 >
                                   <Image
                                     src={sang.mobile}
                                     alt={sang.title}
-                                    width={1456}
-                                    height={816}
+                                    width={640}
+                                    height={359}
                                     className="object-cover object-center w-full h-64"
                                     unoptimized
                                   />
-                                </div> */}
+                                </div>
                                 <div
                                   aria-hidden="true"
                                   className="relative hidden overflow-hidden rounded-lg sm:block"
