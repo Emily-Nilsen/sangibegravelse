@@ -318,7 +318,7 @@ export function RepertoarToggle() {
                         </>
                       ) : sang.category === 'Pop' ? (
                         <>
-                          <span className="inline-flex items-center px-2 py-1 text-xs font-medium rounded-md text-muted-yellow-700 bg-muted-yellow-50/20 ring-1 ring-inset ring-muted-yellow-600/60">
+                          <span className="inline-flex items-center px-2 py-1 text-xs font-medium rounded-md text-muted-yellow-700 bg-muted-yellow-50 ring-1 ring-inset ring-muted-yellow-600/20">
                             {sang.category}
                           </span>
                         </>
@@ -330,7 +330,7 @@ export function RepertoarToggle() {
                         </>
                       ) : sang.category === 'Klassisk' ? (
                         <>
-                          <span className="inline-flex items-center px-2 py-1 text-xs font-medium rounded-md text-muted-pink-700 bg-muted-pink-50/10 ring-1 ring-inset ring-muted-pink-600/20">
+                          <span className="inline-flex items-center px-2 py-1 text-xs font-medium rounded-md text-muted-pink-700 bg-muted-pink-50 ring-1 ring-inset ring-muted-pink-600/20">
                             {sang.category}
                           </span>
                         </>
