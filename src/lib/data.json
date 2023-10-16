@@ -2,13 +2,14 @@
   {
     "objectID": "1",
     "category": "Klassisk",
-    "subcategory": ["Kirkemusikk", "Kjærlighetssang"],
+    "subcategory": ["engelsk"],
     "title": "Air | Love Never Fails (tekst)",
     "arrangement": ["solo", "fiolin"],
     "composer": "Johann Sebastian Bach / Brandon Heath / Chad Robert Cates",
     "audio": false,
     "description": [
-      "«Air» er et følelsesladet musikkstykke laget av Johann Sebastian Bach. Det er den andre delen i en av hans kjente orkesterstykker og ble skapt på tidlig 1730-tall. I denne versjonen er den kombinert med moderne tekst fra «Love Never Fails», en sang skrevet av Brandon Heath og Chad Robert Cates i 2008. Dette fusjonerer budskapet om kjærlighetens udødelighet og styrke i en unik musikalsk opplevelse. Med linjer som ‘Love is the river that flows through, Love never fails you’, utforsker sangen kjærlighetens evne til å helbrede, beskytte og bevare.",
+      "«Air» er et følelsesladet musikkstykke laget av Johann Sebastian Bach. Det er den andre delen i en av hans kjente orkesterstykker og ble skapt på tidlig 1730-tall. I denne versjonen er den kombinert med moderne tekst fra «Love Never Fails», en sang skrevet av Brandon Heath og Chad Robert Cates i 2008.",
+      "Dette fusjonerer budskapet om kjærlighetens udødelighet og styrke i en unik musikalsk opplevelse. Med linjer som ‘Love is the river that flows through, Love never fails you’, utforsker sangen kjærlighetens evne til å helbrede, beskytte og bevare.",
       "Musikalsk sett er denne versjonen av «Air» en blanding av klassisk og moderne, noe som gjør det til en unik hyllest til både fortid og nåtid. Den kombinerer Bachs tidløse melodilinjer fra 1700-tallet med moderne lyrisk innhold fra 2000-tallet, noe som gjør det til et relevant valg for en begravelse hvor man ønsker å formidle et budskap om evig kjærlighet og håp."
     ],
     "lyrics": [
@@ -60,14 +61,15 @@
   {
     "objectID": "2",
     "category": "Klassisk",
-    "subcategory": ["Kirkemusikk", "Latinsk"],
+    "subcategory": ["latinsk"],
     "title": "Ave Maria",
     "arrangement": ["solo", "duett", "fiolin"],
     "composer": "Franz Schubert",
     "audio": false,
     "description": [
-      "‘Ave Maria’ av Franz Schubert er en tidløs klassiker kjent for sin dype åndelighet og rolig atmosfære. Med latinske ord som hyller Jomfru Maria, skaper sangen en meditativ stemning som mange finner trøstende i tider med sorg.",
-      "Musikalsk sett er komposisjonen preget av enkle, men rike melodilinjer. Schuberts arrangement legger til rette for en rekke uttrykksfulle tolkninger, enten det er som en solo eller i duett. Den kan også akkompagneres av fiolin for en ekstra emosjonell dybde, noe som gjør den til et fleksibelt valg for minneseremonier."
+      "«Ave Maria» av Franz Schubert, komponert i 1825, er en tidløs klassiker som har gjennomgått en bemerkelsesverdig evolusjon siden sin tilblivelse. Først inspirert av den fiktive karakteren Ellen fra diktet «The Lady of the Lake», har denne sangen over tid vokst til å bli en av Schuberts mest populære verk. Sangen fikk sin første fremføring på slottet til grevinne Sophie Weissenwolff i den østerrikske byen Steyregg, som dermed ble kjent som ‘sjøens dame’ selv.",
+      "Dedikasjonen til grevinne Weissenwolff legger et lag av historisk og kulturell dybde til komposisjonen. Kjent for sin dype åndelighet og rolig atmosfære, har «Ave Maria» trukket på sin opprinnelige kontekst for å skape en meditativ stemning som mange finner trøstende i tider med sorg. Med latinske ord som hyller Jomfru Maria, har sangens åpningsord og refreng ledet til en assosiasjon med den latinske bønnen «Hail Mary» eller «Ave Maria» på latin.",
+      "Musikalsk sett er komposisjonen preget av enkle, men rike melodilinjer som legger til rette for en rekke uttrykksfulle tolkninger, enten det er som en solo, i duett, eller akkompagnert av fiolin for en ekstra emosjonell dybde. Denne fleksibiliteten og evnen til å røre ved hjertet gjør «Ave Maria» til et utmerket valg for minneseremonier."
     ],
     "lyrics": [
       "Ave Maria",
@@ -94,8 +96,8 @@
       "In hora mortis nostrae",
       "Ave Maria"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Ave_Maria_-_Franz_Schubert_copy_zbbj9t.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Ave_Maria_-_Franz_Schubert_MOBILE_aplxmr.webp"
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Lady_of_the_Lake_copy_l4cipe.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Lady_of_the_Lake_MOBILE_fx4jje.webp"
   },
   {
     "objectID": "3",
@@ -212,14 +214,15 @@
   {
     "objectID": "7",
     "category": "Pop",
-    "subcategory": ["Kjærlighetssang", "Nordisk", "Popballade"],
+    "subcategory": ["norsk"],
     "title": "Adieu",
     "arrangement": ["solo", "duett"],
     "composer": "Anita Skorgan / Jahn Teigen",
     "audio": false,
     "description": [
-      "«Adieu» er en dyptgripende låt komponert av Anita Skorgan og Jahn Teigen, med tekst skrevet av den norske Herodes Falsk. Dette stykket fikk nasjonal og internasjonal oppmerksomhet da det ble fremført av Jahn Teigen og Anita Skorgan for Norge i Eurovision Song Contest i 1982. Sangen handler om avslutningen av et forhold og de komplekse følelsene dette medfører. Den utforsker betydningen av ordet ‘adieu’ og spør om det finnes verdi i et farvel.",
-      "Melodien og teksten skaper en stemning av melankoli, men også en form for aksept. Gjentagelsen av ordet ‘adieu’ fungerer som en mantra som hjelper lytteren å forstå at det å si farvel er en nødvendig del av livet. «Adieu» ville dermed være et passende valg for en begravelse der man ønsker å uttrykke både sorg og aksept."
+      "«Adieu» er en dyptgripende låt komponert av Anita Skorgan og Jahn Teigen, med tekst skrevet av den norske Herodes Falsk. Dette stykket fikk nasjonal og internasjonal oppmerksomhet da det representerte Norge i Eurovision Song Contest i 1982. Sangen handler om avslutningen av et forhold og de komplekse følelsene dette medfører.",
+      "Spesielt fokuserer den på hvordan paret velger å forbli på gode vilkår til tross for at forholdet er over. Melodien og teksten skaper en stemning av melankoli, men også en form for aksept. Gjentagelsen av ordet ‘adieu’ fungerer som en mantra som hjelper lytteren å forstå at det å si farvel er en nødvendig del av livet.",
+      "Dette ekstra laget med kompleksitet og modenhet til temaet i sangen forsterker budskapet om at avslutninger kan være både smertefulle og verdige. «Adieu» ville dermed være et passende valg for en begravelse der man ønsker å uttrykke både sorg og aksept."
     ],
     "lyrics": [
       "Si meg, hva betyr adieu?",
@@ -268,14 +271,15 @@
   {
     "objectID": "8",
     "category": "Pop",
-    "subcategory": ["Kjærlighetssang", "Latinsk", "Popballade", "Western"],
+    "subcategory": ["engelsk", "spansk"],
     "title": "Adios, Amigo",
     "arrangement": ["solo", "duett", "fiolin"],
-    "composer": "Jerry Livingston",
+    "composer": "Jerry Livingston / Ralph Freed",
     "audio": false,
     "description": [
-      "«Adios, Amigo» er en sang komponert av Jerry Livingston, først fremført i 1961, og den tar oss med på en emosjonell reise gjennom vennskap og kjærlighetens kompleksitet. Sangen gir en stemning av melankoli, og tekstlinjene som ‘The road we have travelled has come to an end’ og ‘And it's you who she longs for, it's you she will choose’ formidler en dyp følelse av farvel og tap.",
-      "Denne sangen passer utmerket for de øyeblikkene hvor man ønsker å uttrykke de bittersøte følelsene som ofte følger med avskjed. Den ville være særlig passende for å hylle et langvarig vennskap eller en kjærlighet som har gått tapt, men som man bærer med seg i hjertet. Sangen har en varig kvalitet som gjør den relevant for mange generasjoner. Sangen kan fremføres som en solo, duett eller med en fiolinist for å forsterke den emosjonelle effekten."
+      "«Adios, Amigo» er en sang komponert av Jerry Livingston, med tekst skrevet i samarbeid med Ralph Freed. Sangen ble først fremført i 1961, og tar oss med på en emosjonell reise gjennom vennskap og kjærlighetens kompleksitet. Det unike med denne sangen er den dyptgående fortellingen om to individer som er forelsket i samme person. Dette fører til et hjerteskjærende farvel mellom venner, der én velger å tre til siden.",
+      "Sangen kommuniserer en form for modenhet i måten den håndterer denne vanskelige situasjonen, antyder aksept av omstendighetene og et ønske om å gå videre uten å bære nag. Den gir en stemning av melankoli, og tekstlinjene som ‘The road we have travelled has come to an end’ og ‘And it's you who she longs for, it's you she will choose’ formidler en dyp følelse av farvel og tap.",
+      "Denne sangen passer utmerket for de øyeblikkene hvor man ønsker å uttrykke de bittersøte følelsene som ofte følger med avskjed. Den ville være særlig passende for å hylle et langvarig vennskap eller en kjærlighet som har gått tapt, men som man bærer med seg i hjertet. Sangens narrative dybde gir den en varig kvalitet som gjør den relevant for mange generasjoner. Sangen kan fremføres som en solo, duett eller med en fiolinist for å forsterke den emosjonelle effekten."
     ],
     "lyrics": [
       "Adiós amigo, adiós my friend",
@@ -305,14 +309,15 @@
   {
     "objectID": "9",
     "category": "Salmer",
-    "subcategory": ["Kirkemusikk", "Soul", "Tradisjonell"],
+    "subcategory": ["engelsk"],
     "title": "Amazing Grace",
     "arrangement": ["solo"],
     "composer": "John Newton",
     "audio": false,
     "description": [
-      "«Amazing Grace» er en tradisjonell gospellåt komponert av John Newton i England i 1772. Newtons personlige forvandling, fra å ha vært en slavehandler til å bli en hengiven kristen etter livsforandrende hendelser, har dypt påvirket skapelsen av denne sangen. Denne melodiøse sangen har en umiddelbar evne til å berøre lytterens hjerte med sin enkle, men kraftfulle melodi og tekst. Teksten i sangen kapsler inn Newtons turbulente fortid, hans moralske blindhet, og den nåden som ledet ham mot åndelig opplysning.",
-      "Sangen uttrykker en dyp følelse av takknemlighet og håp, og er godt egnet for å gi trøst i en tid med sorg. Teksten tar for seg temaer som nåde, forløsning og den livsforvandlende kraften i tro. Ordtaket 'Jeg var en gang tapt, men nå er jeg funnet, var blind men nå ser jeg' resonnerer med Newtons personlige reise fra et liv i synd til et liv i fromhet. Det er en sang som fokuserer på den personlige reisen fra å være ‘tapt’ til å bli ‘funnet’ eller ‘frelst’, noe som kan resonnere dypt hos de som er i bedrøvelse. Med sin allsidige appell, er «Amazing Grace» et valg som kan passe for ulike typer minneseremonier."
+      "«Amazing Grace» er en tradisjonell gospellåt komponert av John Newton i England i 1772. Newtons personlige forvandling, fra å ha vært en slavehandler til å bli en hengiven kristen etter livsforandrende hendelser, har dypt påvirket skapelsen av denne sangen. Denne melodiøse sangen har en umiddelbar evne til å berøre lytterens hjerte med sin enkle, men kraftfulle melodi og tekst.",
+      "Teksten i sangen kapsler inn Newtons turbulente fortid, hans moralske blindhet, og den nåden som ledet ham mot åndelig opplysning. Sangen uttrykker en dyp følelse av takknemlighet og håp, og er godt egnet for å gi trøst i en tid med sorg. Teksten tar for seg temaer som nåde, forløsning og den livsforvandlende kraften i tro.",
+      "Ordtaket ‘Jeg var en gang tapt, men nå er jeg funnet, var blind men nå ser jeg’ resonnerer med Newtons personlige reise fra et liv i synd til et liv i fromhet. Det er en sang som fokuserer på den personlige reisen fra å være ‘tapt’ til å bli ‘funnet’ eller ‘frelst’, noe som kan resonnere dypt hos de som er i bedrøvelse. Med sin allsidige appell, er «Amazing Grace» et valg som kan passe for ulike typer minneseremonier."
     ],
     "lyrics": [
       "Amazing grace, how sweet the sound",
@@ -346,14 +351,15 @@
   {
     "objectID": "10",
     "category": "Salmer",
-    "subcategory": ["Folkemusikk", "Irsk", "Kirkemusikk", "Tradisjonell"],
+    "subcategory": ["engelsk"],
     "title": "An Irish Blessing",
     "arrangement": ["solo", "duett", "fiolin"],
     "composer": "Tradisjonell (ukjent forfatter)",
     "audio": false,
     "description": [
-      "«An Irish Blessing» er en tradisjonell irsk velsignelse med ukjent komponist, selv om det finnes flere tolkninger av sangen av ulike komponister gjennom tidene, noe som gjør dens opprinnelse kompleks. Sangen er som en varm klem for sjelen, og vekker følelser av håp og trøst. Teksten består av vakre, enkle linjer som ønsker lykke og trygghet på den man velsigner, en passende hyllest til livets sårbare øyeblikk.",
-      "Musikalsk sett er dette en sang som kan tilpasse seg ulike fremføringsstiler. Enten det er en solist eller en duett, muligens akkompagnert av en fiolinist, vil sangen alltid bære sin dyptgående følelsesmessige kraft. Den enkle, men gripende melodien og teksten, kombinert med dens sammensatte historie og ulike tolkninger, gjør den til et sterkt valg for å hedre en elsket person."
+      "«An Irish Blessing» er en tradisjonell irsk velsignelse med ukjent komponist. Sangen har flere tolkninger av ulike komponister gjennom tidene, noe som gjør dens opprinnelse kompleks. Denne låten er ofte sunget ved samlinger for å fremme en følelse av fellesskap og for å markere betydningsfulle livshendelser.",
+      "Den er også ofte ansett som en åndelig eller religiøs velsignelse som ber om guddommelig beskyttelse og gunst. Sangen er som en varm klem for sjelen og vekker følelser av håp og trøst. Teksten består av vakre, enkle linjer som ønsker lykke og trygghet på den man velsigner, en passende hyllest til livets sårbare øyeblikk.",
+      "Musikalsk sett er dette en sang som kan tilpasse seg ulike fremføringsstiler. Enten det er en solist eller en duett, muligens akkompagnert av en fiolinist, vil sangen alltid bære sin dyptgående følelsesmessige kraft. Den enkle, men gripende melodien og teksten, kombinert med dens sammensatte historie, ulike tolkninger og dens rolle i både åndelige og verdslige samlinger, gjør den til et sterkt valg for å hedre en elsket person."
     ],
     "lyrics": [
       "May the road rise to meet you",
@@ -1488,14 +1494,15 @@
   {
     "objectID": "53",
     "category": "Pop",
-    "subcategory": ["Kjærlighetssang", "Moderne", "Nordisk"],
+    "subcategory": ["norsk"],
     "title": "Alt eg såg",
     "arrangement": ["solo"],
     "composer": "Sigvart Dagsland",
     "audio": false,
     "description": [
       "«Alt eg såg» av Sigvart Dagsland er en sang som dypt berører temaet om savn og kjærlighetens varige inntrykk. Sangen har en gripende bakgrunnshistorie og ble skrevet i 1989, etter en tragedie i familien Dagsland. Sangens melankolske tone og ærlige tekst skaper en følelse av stille kontemplasjon, noe som gjør den til et sterkt valg for en begravelsesseremoni.",
-      "Musikalsk er den preget av en følsom leveranse og inneholder små, men sterke dynamiske endringer. Tekstlig legger den vekt på de sterke båndene som eksisterer mellom to mennesker, og hvordan disse øyeblikkene har formet livene deres. Sangen gir et innblikk i kompleksiteten av menneskelige relasjoner og den evige søken etter mening i en verden preget av forandring."
+      "Linjene ‘Alt eg såg, såg eg samen med deg’ og ‘Ein heilt ny dag og eg e aleina’ forsterker denne følelsen og reflekterer en dyptfølt følelse av samhold og tap, noe som antyder en lengsel eller reminisens for de delte opplevelsene som nå er fortid. Musikalsk er den preget av en følsom leveranse og inneholder små, men sterke dynamiske endringer.",
+      "Tekstlig legger den vekt på de sterke båndene som eksisterer mellom to mennesker, og hvordan disse øyeblikkene har formet livene deres. Sangen gir et innblikk i kompleksiteten av menneskelige relasjoner og den evige søken etter mening i en verden preget av forandring. Den melankolske tonen forsterkes av sangens lyrikk, som uttrykker et ønske om å gjenskape de tidligere øyeblikkene av intimitet og fellesskap."
     ],
     "lyrics": [
       "Alt eg såg, såg eg samen med deg",
@@ -3774,14 +3781,15 @@
   {
     "objectID": "108",
     "category": "Pop",
-    "subcategory": ["Nordisk", "Popballade"],
+    "subcategory": ["norsk"],
     "title": "13 Hester",
     "arrangement": ["solo"],
     "composer": "Alexander Rybak / Sigvart Dagsland",
     "audio": false,
     "description": [
-      "«13 Hester» er en dyptgripende sang som utforsker tematikken rundt tap, skjebne og håp. Skrevet av Alexander Rybak og senere oversatt av Sigvart Dagsland, kombinerer sangen melankolske melodier med stikkende lyrisk innhold. De dystre, men vakre tekstene skildrer en skildring av 13 hester som svømmer ut til sjøs etter en skipsulykke, en metafor som tangerer det uunngåelige og dødsens alvor, men også en undertone av håp.",
-      "Sangen har en dyp resonans for de som sørger, da den berører temaer om død, kamp, og aksept. Melodien og tekstene skaper et emosjonelt landskap som er både rørende og tankevekkende. «13 Hester» kan være en rørende hyllest til de vi har mistet, minnende oss om livets skjørhet og den uendelige syklusen av liv og død. Dette gjør den til et passende valg for begravelser, hvor sangens dybde og kompleksitet kan tilby både trøst og refleksjon."
+      "«13 Hester» er en dyptgripende sang som utforsker tematikken rundt tap, skjebne og håp. Skrevet av Alexander Rybak og senere oversatt av Sigvart Dagsland, kombinerer sangen melankolske melodier med stikkende lyrisk innhold. Sangen gir en detaljert skildring av 13 hester som svømmer i havet. Den trettende hesten, til tross for å være den sterkeste, gir til slutt etter og lengter etter hjem og hvile. Dette symboliserer aksept og livets forgjengelighet, og understreker budskapet om at døden er en uunngåelig realitet, uavhengig av ens styrker eller evner.",
+      "Sangen har en dyp resonans for de som sørger, da den berører temaer om død, kamp og aksept. Melodien og tekstene skaper et emosjonelt landskap som er både rørende og tankevekkende.",
+      "«13 Hester» kan være en rørende hyllest til de vi har mistet, minnende oss om livets skjørhet og den uendelige syklusen av liv og død. Den gir en følelse av håp til tross for kjennskapen til livets uunngåelige slutt. Dette gjør den til et passende valg for begravelser, hvor sangens dybde og kompleksitet kan tilby både trøst og refleksion."
     ],
     "lyrics": [
       "13 hester",
@@ -3846,8 +3854,8 @@
       "Eller bittesmå",
       "Og kem vet ka som e forgjeves."
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/13_hester_copy_qoh7eo.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/13_hester_MOBILE_zjeklk.webp"
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/13_Horses_copy_g0zghd.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/13_Horses_MOBILE_zqpvie.webp"
   },
   {
     "objectID": "109",
@@ -4024,15 +4032,16 @@
   },
   {
     "objectID": "120",
-    "category": "Pop",
-    "subcategory": ["Moderne", "Popballade", "Soul"],
+    "category": "Rock/Soul/R&B",
+    "subcategory": ["engelsk"],
     "title": "Ain’t No Sunshine",
     "arrangement": ["solo", "duett"],
     "composer": "Bill Withers",
     "audio": false,
     "description": [
-      "«Ain't No Sunshine» av den amerikanske artisten Bill Withers er en emosjonell sang som handler om dypt savn og ensomhet. Inspirert av 1962-filmen «Days of Wine and Roses», skrev Withers denne sangen som gir uttrykk for en tomhet som følger når en elsket forsvinner, selv om det bare er midlertidig. Med linjer som ‘Ain't no sunshine when she's gone, and this house just ain't no home’, formidler sangen en følelse av tap som mange kan relatere til.",
-      "Det sjelfulle arrangementet skaper en gripende og sjelgripende atmosfære, som inviterer lyttere til å koble seg til den universelle opplevelsen av kjærlighet og tap. Med sin bakgrunn i amerikansk kultur og inspirasjon fra film, tilføyer «Ain't No Sunshine» et ekstra lag av dybde og kontekst som gjør det til en særlig rik opplevelse."
+      "«Ain't No Sunshine» av den amerikanske artisten Bill Withers er en emosjonell sang som handler om dypt savn og ensomhet. Inspirert av 1962-filmen «Days of Wine and Roses», skrev Withers denne sangen i en tilstand av ettertenksom ensomhet, der han reflekterte over det flyktige i relasjoner og den varige påvirkningen av fravær.",
+      "Sangen gir uttrykk for en tomhet som følger når en elsket forsvinner, selv om det bare er midlertidig. Med linjer som ‘Ain't no sunshine when she's gone, and this house just ain't no home’, formidler sangen en følelse av tap som mange kan relatere til. Det sjelfulle arrangementet skaper en gripende og sjelgripende atmosfære, som inviterer lyttere til å koble seg til den universelle opplevelsen av kjærlighet og sorg.",
+      "Med sin bakgrunn i amerikansk kultur, tilføyer «Ain't No Sunshine» et ekstra lag av dybde og kontekst. Den ettertenksomme ensomheten som sangen ble komponert i, gir den en særlig rik og kompleks opplevelse."
     ],
     "lyrics": [
       "Ain't no sunshine when she's gone",
@@ -4074,14 +4083,15 @@
   {
     "objectID": "121",
     "category": "Pop",
-    "subcategory": ["Kjærlighetssang", "Popballade", "Rock", "Moderne"],
+    "subcategory": ["engelsk"],
     "title": "Always on My Mind",
     "arrangement": ["solo"],
     "composer": "Wayne Thompson / Johnny Christopher / Mark James",
     "audio": false,
     "description": [
-      "«Always on My Mind», komponert av de amerikanske låtskriverne Wayne Thompson, Johnny Christopher og Mark James i slutten av 1971, er en emosjonell ballade som utforsker dybden av kjærlighet og anger. Låten legger vekt på en reflekterende tone der sangeren innrømmer mangler i forholdet, men fastholder at partneren alltid har vært i tankene hans.",
-      "Tekstene er direkte og hjerteskjærende, og bringer lytteren inn i en verden av følelsesmessig kompliksjon. ‘Maybe I didn't love you, quite as often as I could have’ åpner for en ærlig selvransakelse som mange kan relatere til. Låten passer utmerket for de som ønsker å uttrykke en komplisert kjærlighet eller dyptfølt anger i en minnehøytidelighet."
+      "«Always on My Mind», komponert av de amerikanske låtskriverne Wayne Thompson, Johnny Christopher og Mark James i slutten av 1971, er en emosjonell ballade som utforsker dybden av kjærlighet og anger. Låtens evne til å vedvare i popularitet og relatabilitet ligger i dens enkle, men dype budskap, noe som reflekterer en felles menneskelig erfaring med kjærlighet, anger og lengsel. Den legger vekt på en reflekterende tone der sangeren innrømmer mangler i forholdet, men fastholder at partneren alltid har vært i tankene hans.",
+      "Tekstene er direkte og hjerteskjærende, og bringer lytteren inn i en verden av følelsesmessig komplikasjon. ‘Maybe I didn't love you, quite as often as I could have’ åpner for en ærlig selvransakelse som mange kan relatere til.",
+      "Låtens universelle resonans er en hyllest til dens evne til å berøre en delt emosjonell virkelighet: alle, på et eller annet tidspunkt, har følt stikket av ikke å ha uttrykt sin kjærlighet eller takknemlighet tilstrekkelig, mens de fremdeles holder sine kjære i tankene. Låten passer utmerket for de som ønsker å uttrykke en komplisert kjærlighet eller dyptfølt anger i en minnehøytidelighet."
     ],
     "lyrics": [
       "Maybe I didn't love you",
@@ -4116,20 +4126,21 @@
       "You were always on my mind",
       "You were always on my mind"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Always_on_My_Mind_copy_kh3qja.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Always_on_My_Mind_MOBILE_dkabxa.webp"
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Always_On_My_Mind_v2_copy_nwa5vp.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Always_On_My_Mind_v2_MOBILE_svypsb.webp"
   },
   {
     "objectID": "122",
     "category": "Pop",
-    "subcategory": ["Popballade", "Moderne"],
+    "subcategory": ["engelsk"],
     "title": "Angel",
     "arrangement": ["solo"],
     "composer": "Sarah McLachlan",
     "audio": false,
     "description": [
-      "«Angel» av Sarah McLachlan, skrevet i 1996, er en dyp emosjonell sang som har hjulpet mange i sorgprosessen. Sangen skaper et pusterom for ettertanke, noe som er viktig i en begravelse. Teksten omhandler følelsen av å finne trøst og ro i vanskelige stunder, en beskjed som kan være hjertelig for de som er i sorg.",
-      "Melodien er som en bølge av følelser, som langsomt bygger opp til et mektig klimaks i refrenget. Frasen ‘In the arms of the angel, may you find some comfort here’ resonerer sterkt og gir en følelse av håp og lette. Dette gjør sangen til et sterkt valg for de som ønsker å formidle en følelse av trøst og fred i en seremoni."
+      "«Angel» av den kanadiske sangeren og låtskriveren Sarah McLachlan, skrevet i 1996, er en sang som har oppnådd ikonisk status takket være sin emosjonelle dybde og vakre melodi. Sangen er en hjørnestein i McLachlan's verk, kjent for å berøre temaer om tap, lengsel og behovet for trøst og lindring. Den har over tid blitt knyttet til en rekke personlige og kollektive opplevelser av sorg eller tragedie, noe som har gjort den til en katartisk hymne for mange.",
+      "Sangen skaper et pusterom for ettertanke, en kvalitet som er uvurderlig i en begravelse. Melodien er som en bølge av følelser, som langsomt bygger opp til et mektig klimaks i refrenget. Teksten omhandler følelsen av å finne trøst og ro i vanskelige stunder, noe som resonerer sterkt i linjen ‘In the arms of the angel, may you find some comfort here’.",
+      "Dette gir sangen et sterkt og vedvarende inntrykk i populærkulturen og gjør den til et ypperlig valg for de som ønsker å formidle en følelse av trøst og fred i en seremoni."
     ],
     "lyrics": [
       "Spend all your time waiting",
@@ -4181,15 +4192,16 @@
   },
   {
     "objectID": "123",
-    "category": "Pop",
-    "subcategory": ["Jazz", "Kjærlighetssang", "Moderne"],
+    "category": "Jazz",
+    "subcategory": ["engelsk"],
     "title": "Autumn Leaves",
     "arrangement": ["solo"],
     "composer": "Joseph Kosma",
     "audio": false,
     "description": [
-      "«Autumn Leaves,» komponert i 1945 av Joseph Kosma, en ungarsk-fransk komponist, er en melankolsk hyllest til høstens forgjengelighet og tapte kjærlighet. Opprinnelig var dette en fransk sang ved navn «Les Feuilles mortes,» som direkte oversettes til ‘De døde bladene.’ Sangens kjerne tema omhandler tapt kjærlighet, anger og lengselen etter noen som ikke lenger er til stede. Teksten, som bruker bildet av fallende høstblader som et symbol på livets syklus og tidens uunngåelige forløp, er fylt med en dyp følelse av melankoli og nostalgi.",
-      "Sangens enkle, men følelsesladde tekstlinjer fanger den sørgmodige atmosfæren som oppstår når man savner en kjær. Spesielt linjen ‘But I miss you most of all my darling, when autumn leaves start to fall,’ rører ved hjertet og etterlater et varig inntrykk. Bildene av fallende blader brukes metaforisk for å representere ikke bare tidens gang, men også kjærlighetens falming, noe som tilfører en ekstra dimensjon av melankoli. Dette gjør «Autumn Leaves» til et passende valg for å formidle komplekse følelser under en begravelse."
+      "«Autumn Leaves,» komponert i 1945 av Joseph Kosma, en ungarsk-fransk komponist, er en melankolsk hyllest til høstens forgjengelighet og tapte kjærlighet. Opprinnelig var dette en fransk sang ved navn «Les Feuilles mortes,» som direkte oversettes til ‘De døde bladene.’ Sangens kjerne tema omhandler tapt kjærlighet, anger og lengselen etter noen som ikke lenger er til stede.",
+      "Teksten, som bruker bildet av fallende høstblader som et symbol på livets syklus og tidens uunngåelige forløp, er fylt med en dyp følelse av melankoli og nostalgi. Sangens enkle, men følelsesladde tekstlinjer fanger den sørgmodige atmosfæren som oppstår når man savner en kjær. Spesielt linjen ‘But I miss you most of all my darling, when autumn leaves start to fall,’ rører ved hjertet og etterlater et varig inntrykk.",
+      "Bildene av fallende blader brukes metaforisk for å representere ikke bare tidens gang, men også kjærlighetens falming, noe som tilfører en ekstra dimensjon av melankoli. Dette gjør «Autumn Leaves» til et passende valg for å formidle komplekse følelser under en begravelse."
     ],
     "lyrics": [
       "The falling leaves drift by the window",
@@ -4213,14 +4225,15 @@
   {
     "objectID": "124",
     "category": "Pop",
-    "subcategory": ["Rock", "Popballade"],
+    "subcategory": ["engelsk"],
     "title": "A Whiter Shade of Pale",
     "arrangement": ["solo"],
     "composer": "Keith Reid / Gary Brooker",
     "audio": false,
     "description": [
-      "«A Whiter Shade of Pale» er en tidløs melodi komponert av Keith Reid og Gary Brooker i London rundt den tiden de møttes i 1966. Reid står bak den mystiske og poetiske teksten, mens Brooker har komponert musikken. Låten er en metaforisk reise som starter med en følelse av ubehag og forvandling, før den glir over i en nesten drømmeaktig tilstand. Ordene ‘a whiter shade of pale’ fungerer som et kraftfullt bilde som kan tolkes på mange måter, noe som gjør låten universell i sin appell.",
-      "Musikalsk sett fanger komposisjonen en melankolsk atmosfære som kan være svært passende for en begravelse. Den har en kraft som kan oppleves som både sørgmodig og oppløftende, og er derfor et godt valg for dem som ønsker en sang med flere lag av mening. Låten er i stand til å vekke en dyp emosjonell respons, og kan fungere som en støttende bakgrunn for refleksjon og minne."
+      "«A Whiter Shade of Pale» er en tidløs melodi komponert av Keith Reid og Gary Brooker og fremført av den britiske gruppen Procol Harum, utgitt i 1967. Reid står bak den mystiske og poetiske teksten, mens Brooker har komponert musikken. Låten er kjent for sine noe gåtefulle og åpne tekster, som inneholder litterære og klassiske referanser, inkludert til Chaucer's «The Miller's Tale». Musikken er sterkt påvirket av klassiske stiler, spesielt Bachs orkesterverk, noe som bidrar til låtens etere og tidløse kvalitet.",
+      "Låten er en metaforisk reise som starter med en følelse av ubehag og forvandling, før den glir over i en nesten drømmeaktig tilstand. Ordene ‘a whiter shade of pale’ fungerer som et kraftfullt bilde som kan tolkes på mange måter, noe som gjør låten universell i sin appell. ",
+      "Musikalsk sett fanger komposisjonen en melankolsk atmosfære, forsterket av de klassiske influensene, som kan være svært passende for en begravelse. Den har en kraft som kan oppleves som både sørgmodig og oppløftende, og er derfor et godt valg for dem som ønsker en sang med flere lag av mening. Låten er i stand til å vekke en dyp emosjonell respons og kan fungere som en støttende bakgrunn for refleksjon og minne."
     ],
     "lyrics": [
       "Turned cartwheels 'cross the floor",
@@ -4728,7 +4741,7 @@
   {
     "objectID": "135",
     "category": "Klassisk",
-    "subcategory": ["Aria", "Opera", "Kjærlighetssang"],
+    "subcategory": ["tysk"],
     "title": "Ach, ich fühl’s",
     "arrangement": ["solo", "duett"],
     "composer": "Wolfgang Amadeus Mozart",
@@ -4736,8 +4749,9 @@
     "audioUrl": "https://res.cloudinary.com/dt3k2apqd/video/upload/q_auto/Sang%20i%20begravelse/Audio/Ach_ich_fu%CC%88hls_teaser_pbxieg.wav",
     "performers": "Susanne Hvinden Hals",
     "description": [
-      "«Ach, ich fühl’s» er en operasang komponert av Wolfgang Amadeus Mozart og er en del av hans berømte opera «Tryllefløyten” (Die Zauberflöte, K. 620). Denne gripende arien ble først fremført den 30. september 1791 på Schikaneder's teater, Freihaus-Theater auf der Wieden i Wien, bare to måneder før Mozarts tidlige død. Arien synges av karakteren Pamina og er en del av denne Singspiel-operaen, en populær form på den tiden som inkluderte både sang og snakket dialog.",
-      "Musikkens melodiske struktur og sårhet, spesielt formidlet gjennom Paminas rolle, gir et sterkt uttrykk for følelsen av evig tap og kjærlighet som har gått tapt. Sangen skiller seg ut for sin emosjonelle dybde og kompleksitet. Den har en evne til å røre ved lytterens hjerte. Tekstene, ‘Ach, ich fühl's, es ist verschwunden, ewig hin der Liebe Glück,’ skildrer en hjerteskjærende lengsel som kan gi trøst i en tid med sorg. Sangen kan utføres som en solo eller duett, og med sin rike historiske og emosjonelle kontekst, vil den være et meningsfylt bidrag til enhver begravelsesseremoni."
+      "«Ach, ich fühl’s» er en operasang komponert av Wolfgang Amadeus Mozart og er en del av hans berømte opera «Tryllefløyten». Denne gripende arien ble først fremført i 1791, bare to måneder før Mozarts tidlige død. Arien synges av karakteren Pamina, datteren til Dronningen av Natten, i et øyeblikk hvor hun tror at Tamino, mannen hun elsker, har forlatt henne.",
+      "Musikkens melodiske struktur og sårhet, spesielt formidlet gjennom Paminas rolle, gir et sterkt uttrykk for følelsen av evig savn og kjærlighet som har glidd unna. Sangen er bemerkelsesverdig for sin vakre, lyriske melodi og den uttrykksfulle bruken av molltonart, som bidrar til å formidle den dype sorgen Pamina opplever. Sentrale temaer som kjærlighet, tap og fortvilelse står i fokus i denne arien, som tjener som et fint eksempel på Mozarts evne til å formidle komplekse emosjonelle tilstander gjennom musikk.",
+      "Tekstene, ‘Ach, ich fühl's, es ist verschwunden, ewig hin der Liebe Glück,’ skildrer en hjerteskjærende lengsel som kan gi trøst i en tid med sorg. Sangen kan utføres som en solo eller duett, og med sin rike historiske og emosjonelle kontekst, vil den være et meningsfylt bidrag til enhver begravelsesseremoni."
     ],
     "lyrics": [
       "Ach, ich fühl's, es ist verschwunden,",

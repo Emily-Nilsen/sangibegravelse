@@ -118,9 +118,14 @@ export function RepertoarToggle() {
                   className="mt-2 block w-full rounded-md border-0 py-1.5 pl-3 pr-10 text-gray-900 ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-slate-600 sm:text-sm sm:leading-6"
                 >
                   <option value="">Alle</option>
+                  <option value="Folkemusikk">Folkemusikk</option>
+                  <option value="Jazz">Jazz</option>
+                  <option value="Julesanger">Julesanger</option>
                   <option value="Klassisk">Klassisk</option>
                   <option value="Musikal">Musikal</option>
+                  <option value="Opera">Opera</option>
                   <option value="Pop">Pop</option>
+                  <option value="Rock/Soul/R&B">Rock/Soul/R&B</option>
                   <option value="Salmer">Salmer</option>
                   <option value="Viser">Viser</option>
                 </select>
@@ -131,7 +136,7 @@ export function RepertoarToggle() {
                   htmlFor="subcategory"
                   className="text-sm font-medium leading-6 text-gray-900"
                 >
-                  Underkategori
+                  Språk
                 </label>
                 <select
                   id="subcategory"
@@ -141,31 +146,16 @@ export function RepertoarToggle() {
                   className="mt-2 block w-full rounded-md border-0 py-1.5 pl-3 pr-10 text-gray-900 ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-slate-600 sm:text-sm sm:leading-6"
                 >
                   <option value="">Alle</option>
-                  <option value="Anbefalte favoritter">
-                    Anbefalte favoritter
-                  </option>
-                  <option value="Aria">Aria</option>
-                  <option value="Country">Country</option>
-                  <option value="Folkemusikk">Folkemusikk</option>
-                  <option value="Irsk">Irsk</option>
-                  <option value="Islandsk">Islandsk</option>
-                  <option value="Italiensk">Italiensk</option>
-                  <option value="Jazz">Jazz</option>
-                  <option value="Julesanger">Julesanger</option>
-                  <option value="Kirkemusikk">Kirkemusikk</option>
-                  <option value="Kjærlighetssang">Kjærlighetssang</option>
-                  <option value="Klassisk">Klassisk</option>
-                  <option value="Kunstsang">Kunstsang</option>
-                  <option value="Latinsk">Latinsk</option>
-                  <option value="Moderne">Moderne</option>
-                  <option value="Musikal">Musikal</option>
-                  <option value="Nordisk">Nordisk</option>
-                  <option value="Opera">Opera</option>
-                  <option value="Popballade">Popballade</option>
-                  <option value="Rock">Rock</option>
-                  <option value="Soul">Soul/R&B</option>
-                  <option value="Tradisjonell">Tradisjonell</option>
-                  <option value="Western">Western</option>
+                  <option value="dansk">dansk</option>
+                  <option value="engelsk">engelsk</option>
+                  <option value="fransk">fransk</option>
+                  <option value="islandisk">islandisk</option>
+                  <option value="italiensk">italiensk</option>
+                  <option value="latinsk">latinsk</option>
+                  <option value="norsk">norsk</option>
+                  <option value="spansk">spansk</option>
+                  <option value="svensk">svensk</option>
+                  <option value="tysk">tysk</option>
                 </select>
               </div>
               <div>
@@ -312,13 +302,13 @@ export function RepertoarToggle() {
                     <td className="px-3 py-4 text-sm text-gray-500">
                       {sang.category === 'Salmer' ? (
                         <>
-                          <span className="inline-flex items-center px-2 py-1 text-xs font-medium text-green-700 rounded-md bg-green-50 ring-1 ring-inset ring-green-600/20">
+                          <span className="inline-flex items-center px-2 py-1 text-xs font-medium rounded-md text-lime-700 bg-lime-50 ring-1 ring-inset ring-lime-600/20">
                             {sang.category}
                           </span>
                         </>
                       ) : sang.category === 'Pop' ? (
                         <>
-                          <span className="inline-flex items-center px-2 py-1 text-xs font-medium rounded-md text-muted-yellow-700 bg-muted-yellow-50 ring-1 ring-inset ring-muted-yellow-600/20">
+                          <span className="inline-flex items-center px-2 py-1 text-xs font-medium text-yellow-700 rounded-md bg-yellow-50 ring-1 ring-inset ring-yellow-600/20">
                             {sang.category}
                           </span>
                         </>
@@ -330,7 +320,7 @@ export function RepertoarToggle() {
                         </>
                       ) : sang.category === 'Klassisk' ? (
                         <>
-                          <span className="inline-flex items-center px-2 py-1 text-xs font-medium rounded-md text-muted-pink-700 bg-muted-pink-50 ring-1 ring-inset ring-muted-pink-600/20">
+                          <span className="inline-flex items-center px-2 py-1 text-xs font-medium rounded-md text-rose-700 bg-rose-50 ring-1 ring-inset ring-rose-600/20">
                             {sang.category}
                           </span>
                         </>
@@ -418,7 +408,7 @@ export function RepertoarToggle() {
 
                                   <div className="pt-6">
                                     <p className="text-sm font-semibold text-gray-900">
-                                      Underkategori
+                                      Språk
                                     </p>
                                     <p className="flex max-w-md gap-3 text-sm leading-7 text-gray-600">
                                       {sang.subcategory.map((line) => (
