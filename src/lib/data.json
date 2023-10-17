@@ -191,14 +191,15 @@
   {
     "objectID": "6",
     "category": "Klassisk",
-    "subcategory": ["Italiensk", "Kunstsang"],
+    "subcategory": ["italiensk"],
     "title": "Caro mio ben",
     "arrangement": ["solo", "fiolin"],
     "composer": "Tommaso Giordani",
     "audio": false,
     "description": [
-      "‘Caro mio ben’ er en klassisk italiensk sang komponert av Tommaso Giordani. Sangen er en lidenskapelig kjærlighetserklæring som uttrykker dyp lengsel og troskap. Med sin rike melodi og emosjonell tekst, fremkaller denne sangen en følelse av både kjærlighet og smerte.",
-      "Sangen har en enkel, men kraftfull tekst som snakker direkte til hjertet. Teksten ‘senza di te languisce il cor’ (uten deg, lider hjertet) og ‘Il tuo fedel sospira ognor’ (din trofaste sukker alltid) forsterker sangens følelsesladde budskap. Denne sangen er ideell for øyeblikk som krever uttrykk for dyp kjærlighet og lengsel."
+      "«Caro mio ben» er en klassisk italiensk sang komponert av Tommaso Giordani omkring 1783. Sangen er en lidenskapelig kjærlighetserklæring som uttrykker dyp lengsel, hengivenhet og et ønske om gjenforening med en elsket. Med sin rike melodi og emosjonelle tekst, fremkaller denne sangen en følelse av både kjærlighet og smerte, samt evner å innkapsle kjærlighetens dype natur.",
+      "Sangen har en enkel, men kraftfull tekst som snakker direkte til hjertet. Teksten ‘senza di te languisce il cor’ (uten deg, lider hjertet) og ‘Il tuo fedel sospira ognor’ (din trofaste sukker alltid) forsterker sangens følelsesladde budskap.",
+      "Teksten uttrykker en bønn til den elskede, og understreker den fortvilelse som føles i deres fravær, samtidig som den uttrykker en udøende kjærlighet til tross for dette fraværet. Denne sangen er ideell for øyeblikk som krever uttrykk for dyp kjærlighet, lengsel og hengivenhet."
     ],
     "lyrics": [
       "Caro mio ben,",
@@ -1836,8 +1837,8 @@
       "Vegen er lystig, og vegen er vrang.",
       "Danse mi vise, gråte min sang."
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Danse_mi_vise_y2bx4j.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Danse_mi_vise_mobile_wagsb7.webp"
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Danse_mi_vise_copy_v0zmon.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Danse_mi_vise_MOBILE_r3yjnd.webp"
   },
   {
     "objectID": "60",
@@ -1958,8 +1959,8 @@
       "Men lær deg å elske",
       "De nære ting"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/De_n%C3%A6re_ting_qfzl07.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/De_n%C3%A6re_ting_mobile_fuk4bv.webp"
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/De_n%C3%A6re_ting_copy_sm1oew.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/De_n%C3%A6re_ting_MOBILE_ycifzx.webp"
   },
   {
     "objectID": "63",
@@ -2000,8 +2001,8 @@
       "I song og fløyte- og felelåt,",
       "men endå best i min eigen gråt."
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Den_dag_kjem_aldri_bcymv9.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Den_dag_kjem_aldri_mobile_xacpic.webp"
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Den_dag_kjem_aldri_copy_f0i70e.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Den_dag_kjem_aldri_MOBILE_wsucoe.webp"
   },
   {
     "objectID": "64",
@@ -2035,8 +2036,8 @@
       "Eg høyrer stilt frå mor si grav",
       "den song som allting heilar."
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Den_fyrste_song_ozxg0o.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Den_fyrste_song_mobile_oxl47t.webp"
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Den_fyrste_song_copy_mtawcx.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Den_fyrste_song_MOBILE_mfjg7h.webp"
   },
   {
     "objectID": "65",
@@ -4488,14 +4489,15 @@
   {
     "objectID": "130",
     "category": "Pop",
-    "subcategory": ["Kjærlighetssang", "Moderne", "Popballade", "Western"],
+    "subcategory": ["engelsk"],
     "title": "Candle in the Wind",
     "arrangement": ["solo"],
-    "composer": "Elton John",
+    "composer": "Elton John / Bernie Taupin",
     "audio": false,
     "description": [
-      "‘Candle in the Wind’ er en følelsesladet ballade komponert av Elton John. Sangen tar for seg livet til Norma Jeane, også kjent som Marilyn Monroe, og skildrer hennes sårbare eksistens i rampelyset. Teksten gir et intimt innblikk i Monroes liv, hvor hun navigerer gjennom ensomhet og de utfordringene som kommer med berømmelse.",
-      "Melodien og teksten sammen skaper en rørende atmosfære som raskt kan gripe enhver lytter. Sangen er spesielt passende for en begravelse, der temaet om livets forgjengelighet og det å leve ‘som et stearinlys i vinden’ vil resonere. Det er en sang som både feirer og sørger over et liv som var betydningsfullt, men også fylt med utfordringer."
+      "«Candle in the Wind» er en dyptgående ballade skrevet i 1973 av Elton John og Bernie Taupin som en hyllest til Marilyn Monroe, født Norma Jeane. Sangen uttrykker ikke bare Monroes utfordringer, men også den tragiske enden på hennes liv, symbolisert som et stearinlys som blafrer i vinden. Dette skaper en rørende atmosfære som enkelt kan fange oppmerksomheten til enhver lytter.",
+      "Teksten gir et intimt innblikk i Monroes liv, hvor hun måtte navigere gjennom ensomhet og de utfordringene som fulgte med berømmelse. Sangen er spesielt passende for en begravelse fordi den reflekterer over livets forgjengelighet og ønsket om å huske og hedre en kjærs ettermæle selv etter at deres «stearinlys» er slukket.",
+      "Den vekker en følelse av refleksjon og minnesmerke, noe som gjør den utrolig relevant for å både feire og sørge over et liv som var betydningsfullt, men også fylt med utfordringer. Det er en låt som setter fokus på det ofte sørgelige toll berømmelse kan ha på individets liv, og tilbyr en stemning av både melankoli og takknemlighet."
     ],
     "lyrics": [
       "Goodbye, Norma Jeane",
@@ -4554,20 +4556,21 @@
       "Your candle burned out long before",
       "Your legend ever did"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Marylin_Monroe_copy_brpl8j.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Marylin_Monroe_Mobile_fulz1m.webp"
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Marlylin_copy_equyop.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Marlylin_copy_equyop.webp"
   },
   {
     "objectID": "131",
     "category": "Pop",
-    "subcategory": ["Kjærlighetssang", "Moderne", "Popballade", "Soul"],
+    "subcategory": ["engelsk"],
     "title": "Can’t Help Falling in Love",
     "arrangement": ["solo"],
     "composer": "Hugo Peretti / Luigi Creatore / George David Weiss",
     "audio": false,
     "description": [
-      "«Can't Help Falling in Love» av Hugo Peretti, Luigi Creatore og George David Weiss er en evigvarende ballade som formidler en dyp følelse av kjærlighet og skjebne. Sangens tekst taler om uunngåeligheten og usikkerheten i kjærlighet, men også dens skjønnhet. ‘Wise men say, only fools rush in’ setter tonen for hele sangen ved å utforske spenningen mellom fornuft og følelser.",
-      "Melodien er myk og melankolsk, noe som forsterker sangens sentimentale budskap. ‘Like a river flows, surely to the sea, Darling, so it goes, some things are meant to be’ understreker ideen om at noen ting i livet er forutbestemt og utenfor vår kontroll. Denne sangen er et sterkt valg for en begravelse der temaet er evig kjærlighet og skjebnens kraft."
+      "«Can't Help Falling in Love» av Hugo Peretti, Luigi Creatore og George David Weiss er en tidløs ballade som formidler en dyp følelse av kjærlighet og skjebne. Inspirert av den franske kjærlighetssangen «Plaisir d'amour», ble melodien skrevet i 1961. Teksten i sangen utforsker det uunngåelige og det risikofylte ved å forelske seg.",
+      "‘Wise men say, only fools rush in’ setter tonen for hele sangen ved å utforske spenningen mellom fornuft og følelser, samtidig som den anerkjenner frykten for å falle for raskt forelsket. Melodien er myk og melankolsk, noe som forsterker sangens sentimentale budskap. Linjene ‘Like a river flows, surely to the sea, Darling, so it goes, some things are meant to be’ og ‘take my hand, take my whole life too’ gir en sterk følelse av langvarig forpliktelse og skjebnens rolle i kjærlighetslivet.",
+      "De understreker ideen om at noen ting i livet er forutbestemt og utenfor vår kontroll. Denne sangen fremstår som et sterkt valg for en begravelse der temaet er evig kjærlighet, forpliktelse og skjebnens kraft, og den gir et følelsesladet innblikk i den avdødes betydelige innvirkning på de etterlattes liv."
     ],
     "lyrics": [
       "Wise men say",
@@ -4595,13 +4598,13 @@
   {
     "objectID": "132",
     "category": "Pop",
-    "subcategory": ["Kjærlighetssang", "Moderne", "Popballade"],
+    "subcategory": ["engelsk"],
     "title": "Close to You",
     "arrangement": ["solo", "duett", "fiolin"],
     "composer": "Burt Bacharach / Hal David",
     "audio": false,
     "description": [
-      "‘Close to You’ er en varig ballade komponert av Burt Bacharach og Hal David. Denne sangen utforsker temaet av nærhet og kjærlighet på en poetisk måte. Med linjer som ‘Why do birds suddenly appear, every time you are near?’, fanger den opp følelsen av at verden blir litt bedre bare ved nærværet av en spesiell person.",
+      "«Close to You» er en varig ballade komponert av Burt Bacharach og Hal David. Denne sangen utforsker temaet av nærhet og kjærlighet på en poetisk måte. Med linjer som ‘Why do birds suddenly appear, every time you are near?’, fanger den opp følelsen av at verden blir litt bedre bare ved nærværet av en spesiell person.",
       "Musikalsk sett ligger sangen i det rolige og melodiske landskapet, hvor den enkle, men effektive melodilinjen gir rom for følelsesmessig tolkning. Dette gjør sangen til et godt valg for både solo- og duettframføringer, og det gir også muligheter for akkompagnement med fiolin for å tilføre et ekstra følelsesmessig lag."
     ],
     "lyrics": [
@@ -4695,8 +4698,8 @@
       "But dear Lord she's dying to dance with my father again",
       "Every night I fall asleep and this is all I ever dream"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Dance_with_My_Father_hee7t9.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Dance_with_My_Father_mobile_jxlcbb.webp"
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Dance_with_my_Father_copy_rpkqrn.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Dance_with_my_Father_MOBILE_a34fh3.webp"
   },
   {
     "objectID": "134",
@@ -4867,7 +4870,7 @@
   {
     "objectID": "137",
     "category": "Klassisk",
-    "subcategory": ["Italiensk", "Opera", "Kjærlighetssang", "Kunstsang"],
+    "subcategory": ["italiensk"],
     "title": "Caruso",
     "arrangement": ["solo", "duett"],
     "composer": "Lucio Dalla",
@@ -4875,8 +4878,9 @@
     "audioUrl": "https://res.cloudinary.com/dt3k2apqd/video/upload/q_auto/Sang%20i%20begravelse/Audio/Caruso_teaser_osdu8s.wav",
     "performers": "Nils Georg Nilsen",
     "description": [
-      "‘Caruso’ av Lucio Dalla er en rørende melodi som dykker dypt inn i menneskelige følelser og kjærlighet. Sangen starter med en sterk atmosfære hvor en mann omfavner en kvinne ved kysten av Surriento. Teksten ‘Te voglio bene assaje’ (Jeg elsker deg veldig mye) gjentas flere ganger og understreker en følelse av et ubrytelig kjærlighetsbånd.",
-      "Musikalsk sett beveger sangen seg gjennom en rekke følelsesmessige topper og daler, og skildrer intens lengsel og dype følelser. De poetiske beskrivelsene av havet, lyset og naturen gir et romantisk, nesten melankolsk bakteppe. Sangen kan fremføres som en rørende solo eller duett, og er dermed et valg som vil etterlate et varig inntrykk ved enhver minnestund."
+      "«Caruso» av Lucio Dalla er ikke bare en rørende melodi; den er også en hyllest til den berømte tenoren Enrico Caruso. Skrevet i 1986, ble Dalla inspirert til å lage sangen etter å ha bodd i samme hotellrom som Caruso en gang benyttet. Sangen starter med en sterk atmosfære der en mann omfavner en kvinne ved kysten av Surriento, og utforsker deretter en døende manns angst og lengsel etter en elsket kvinne.",
+      "Teksten ‘Te voglio bene assaje’ (Jeg elsker deg veldig mye) gjentas flere ganger og understreker en følelse av et ubrytelig kjærlighetsbånd. Musikalsk sett beveger «Caruso» seg gjennom en rekke følelsesmessige topper og daler. Sangen er en hyllest til kjærlighet og nostalgi, og skildrer intens lengsel og dype følelser hos en mann som står overfor døden.",
+      "De poetiske beskrivelsene av havet, lyset og naturen gir et romantisk, nesten melankolsk bakteppe. Dette er ikke bare en sang; det er en katartisk opplevelse som feirer livet og minnene til den avdøde. Sangen kan fremføres som en rørende solo eller duett, og kan også inkludere en akkompagnerende fiolinist. Uansett fremføringsform vil «Caruso» etterlate et varig inntrykk ved enhver minnestund."
     ],
 
     "lyrics": [
