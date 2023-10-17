@@ -336,6 +336,12 @@ export function RepertoarToggle() {
                             {sang.category}
                           </span>
                         </>
+                      ) : sang.category === 'Folkemusikk' ? (
+                        <>
+                          <span className="inline-flex items-center px-2 py-1 text-xs font-medium text-indigo-700 rounded-md bg-indigo-50 ring-1 ring-inset ring-indigo-600/20">
+                            {sang.category}
+                          </span>
+                        </>
                       ) : sang.category === 'Jazz' ? (
                         <>
                           <span className="inline-flex items-center px-2 py-1 text-xs font-medium rounded-md text-sky-700 bg-sky-50 ring-1 ring-inset ring-sky-600/20">
