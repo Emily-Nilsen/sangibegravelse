@@ -166,7 +166,7 @@
     "composer": "Sigvaldi Kaldalóns",
     "audio": false,
     "description": [
-      "«Ave Maria» av Sigvaldi Kaldalóns er en gripende og høytidelig sang komponert i 1925 av den islandske komponisten og legen. Kaldalóns var kjent for sin tradisjonelle romantiske stil, noe som skiller seg fra avantgarde-trendene i hans tid. Dette skaper en unik lydlandskap som er dypt rørende og etterlater et varig inntrykk på lytteren.",
+      "«Ave Maria» av Sigvaldi Kaldalóns er en gripende og høytidelig sang komponert i 1925 av den islandske komponisten og legen. Kaldalóns var kjent for sin tradisjonelle romantiske stil, noe som skiller seg fra avantgarde-trendene i hans tid. Dette skaper et unikt lydlandskap som er dypt rørende og etterlater et varig inntrykk på lytteren.",
       "Teksten, skrevet av Indriði Einarsson, henvender seg direkte til Jomfru Maria og omhandler både menneskelig lidelse og håp om guddommelig inngripen. Dette gir sangen en dualitet som er både hjerteskjærende og oppløftende. Musikken og ordene sammen skaper en atmosfære av ro og indre fred.",
       "Komposisjonen evner å fremkalle ærefrykt og inspirasjon, noe som gjør denne sangen til et passende valg for en begravelsesseremoni. «Ave Maria» er ikke bare en bønn om veiledning og beskyttelse, men også en kilde til trøst og håp for de sørgende. Dette gjør den til et sterkt kandidat for dem som søker en sang med dypt åndelig og følelsesmessig innhold."
     ],
@@ -486,12 +486,12 @@
     "objectID": "13",
     "category": "Klassisk",
     "subcategory": ["latinsk"],
-    "title": "Benedictus (B-minor Mass)",
+    "title": "Benedictus (Messe i B-moll)",
     "arrangement": ["solo", "duett", "fiolin"],
     "composer": "Johann Sebastian Bach",
     "audio": false,
     "description": [
-      "«Benedictus (B-minor Mass)» av Johann Sebastian Bach er en storslått og åndelig hymne, og er en del av hans monumentale verk Mass i B-moll, utviklet mellom 1733 og 1738. Dette spesifikke stykket befinner seg i de senere delene av messen, ved siden av Osanna, Agnus Dei, og Dona Nobis Pacem. Med sin latinske tekst, ‘Benedictus qui venit in nomine Domini, Osanna in excelsis,’ formidler den en dyp velsignelse og hyllest.",
+      "«Benedictus (Messe i B-moll)» av Johann Sebastian Bach er en storslått og åndelig hymne, og er en del av hans monumentale verk messe i B-moll, utviklet mellom 1733 og 1738. Dette spesifikke stykket befinner seg i de senere delene av messen, ved siden av Osanna, Agnus Dei, og Dona Nobis Pacem. Med sin latinske tekst, ‘Benedictus qui venit in nomine Domini, Osanna in excelsis,’ formidler den en dyp velsignelse og hyllest.",
       "Melodien og arrangementet er sofistikert, og gir en nesten himmelsk atmosfære, ideell for å hedre en avdød på en verdig måte. Musikalsk sett er denne delen av Bachs B-mollmesse en kompleks og følelsesladet komposisjon, ofte beskrevet som en fremkalling av rolig kjærlighet og lengsel med sakte, lange, og nådefulle vokale og instrumentale linjer. Dette hintet til en form for åndelig eller guddommelig lengsel forsterker stykkets dybde.",
       "Komposisjonen kan fremføres som en solo, men også som en duett, og kan akkompagneres av en fiolinist for å tilføre et ekstra lag av emosjonell dybde. Dette gjør «Benedictus» til et fleksibelt valg for forskjellige typer seremonier."
     ],
@@ -1579,8 +1579,8 @@
     "audio": false,
     "description": [
       "«Barn av regnbuen», komponert av den amerikanske folkesangeren Pete Seeger og tilpasset til norsk av Lillebjørn Nilsen, ble utgitt i 1973. Teksten utforsker temaer som enhet, bærekraft og håp for fremtiden. Den bruker levende bilder som en stjernefylt himmel og blomstrende blomster for å male et bilde av en ideell verden. Den stiller spørsmålet: Hva mer kunne man ønske seg enn dette?",
-      "Sangen har dyp kulturell resonans i Norge, noe som ble særlig tydelig under rettssaken mot Breivik. Over 40,000 mennesker samlet seg i Youngstorget i Oslo og andre torg over hele Norge for å synge denne sangen som en protest mot Breiviks ekstremistiske synspunkter, og som et standpunkt for enhet, kjærlighet og flerkultur.",
-      "Dette flerlagsede budskapet gjør den spesielt relevant i begravelser som en hyllest til livet, men også som en påminnelse om å leve meningsfylt. Den appellerer til fellesskap og oppfordrer til en livsstil som ikke bare gagner oss selv, men også de som kommer etter oss. Sangen har en bredere melding om enhet, håp og et ønske om harmonisk sameksistens i mangfold, noe som resonnerer ikke bare i Norge, men globalt, og transcenderer språklige og kulturelle grenser."
+      "Sangen har dyp kulturell resonans i Norge, noe som ble særlig tydelig etter terrorangrepet mot regjeringskvartalet og Utøya i 2011. Over 40,000 mennesker samlet seg på Youngstorget i Oslo og andre torg over hele Norge for å synge denne sangen som en protest mot Breiviks ekstremistiske synspunkter, og som et standpunkt for enhet, kjærlighet og flerkultur.",
+      "Dette flerfoldige budskapet gjør den spesielt relevant i begravelser som en hyllest til livet, men også som en påminnelse om å leve meningsfylt. Den appellerer til fellesskap og oppfordrer til en livsstil som ikke bare gagner oss selv, men også de som kommer etter oss. Sangen har en bredere melding om enhet, håp og et ønske om harmonisk sameksistens i mangfold, noe som resonnerer ikke bare i Norge, men globalt, på tvers av språklige og kulturelle grenser."
     ],
     "lyrics": [
       "En himmel full av stjerner",
@@ -1762,14 +1762,15 @@
   {
     "objectID": "58",
     "category": "Viser",
-    "subcategory": ["Kjærlighetssang", "Nordisk", "Tradisjonell"],
+    "subcategory": ["norsk"],
     "title": "Blå salme",
     "arrangement": ["solo", "duett"],
     "composer": "Erik Bye",
     "audio": false,
     "description": [
-      "‘Blå salme’ av Erik Bye er en gripende og dyp sang som tar for seg livets gang med sine oppturer og nedturer. Sangens tekst veksler mellom takknemlighet for de gode øyeblikkene i livet og en dypere forståelse av de mørkere sidene vi alle møter. Erik Bye bruker symboler som sankthansormer og treets rot for å formidle en følelse av tilhørighet og ro, noe som gjør sangen ekstra relevant i en begravelsessammenheng.",
-      "Sangens blanding av vemod og håp gir et sterkt emosjonelt bakteppe for å ære et liv som har gått bort. Det er en meditativ melodi som kan utføres som solo eller duett, og som har potensial til å berøre alle tilstedeværende på en dypt personlig måte. ‘Blå salme’ er dermed et naturlig valg for de som søker en sang som kan formidle en helhetlig, men samtidig nyansert, opplevelse av sorg, minne og håp."
+      "«Blå salme» av Erik Bye, utgitt i november 1994 som en del av albumet «Langt nord i livet», er en gripende og dyp sang som tar for seg livets gang med sine oppturer og nedturer. Melodien, skapt av Henning Sommerro, forsterker sangens meditative og reflekterende atmosfære. Sangens tekst veksler mellom takknemlighet for de gode øyeblikkene i livet og en dypere forståelse av de mørkere sidene vi alle møter.",
+      "Erik Bye bruker symboler som sankthansormer og treets rot for å formidle en følelse av tilhørighet og ro, noe som gjør sangen særlig relevant i en begravelsessammenheng. Sangens blanding av vemod og håp, sammen med dens meditative melodi og naturfokuserte lyrisk innhold, gir et sterkt emosjonelt bakteppe for å ære et liv som har gått bort.",
+      "Den kan utføres som solo eller duett, og har potensial til å berøre alle tilstedeværende på en dypt personlig måte. «Blå salme» er dermed et naturlig valg for de som søker en sang som kan formidle en helhetlig, men samtidig nyansert, opplevelse av sorg, minne og håp."
     ],
     "lyrics": [
       "Jeg synger meg en blå, blå salme",
@@ -4282,7 +4283,7 @@
     "composer": "Consuelo Velázquez",
     "audio": false,
     "description": [
-      "«Bésame Mucho» er en tidløs klassiker fra 1932, komponert av den meksikanske låtskriveren Consuelo Velázquez da hun var bare rundt 16 år gammel. Til tross for at hun aldri hadde vært kysset på det tidspunktet, ettersom kyssing ble betraktet som en synd i hennes kultur, klarte Velázquez å skape en sang fylt med lidenskap og lengsel. Sangens tekstlinjer som 'Como si fuera esta noche la última vez' (Som om denne natten er den siste) uttrykker en dyp frykt for tap og separasjon. Dette gir sangen en universell appell.",
+      "«Bésame Mucho» er en tidløs klassiker fra 1932, komponert av den meksikanske låtskriveren Consuelo Velázquez da hun var 16 år gammel. Til tross for at hun aldri hadde vært kysset på det tidspunktet, ettersom kyssing ble betraktet som en synd i hennes kultur, klarte Velázquez å skape en sang fylt med lidenskap og lengsel. Sangens tekstlinjer som 'Como si fuera esta noche la última vez' (Som om denne natten er den siste) uttrykker en dyp frykt for tap og separasjon. Dette gir sangen en universell appell.",
       "Musikalsk sett er «Bésame Mucho» både melodisk og stemningsfull, inspirert av pianostykket «Quejas, o la Maja y el Ruiseñor» fra 1911-suitten «Goyescas» av den spanske komponisten Enrique Granados. Dette forsterker tekstens følelsesladde budskap og tilfører en ekstra dimensjon av romantisk melankoli. Det er en sang som enkelt kan tilpasses ulike arrangementer, enten det er som en solo, en duett eller med en akkompagnerende fiolinist.",
       "Erkjent i 1999 som den mest innspilte og tolkede sangen på spansk gjennom tidene, har «Bésame Mucho», med sin romantiske tiltrekning og fløyelsmyke melodi, sikret sin plass i både latinamerikansk og global musikkhistorie. Det er et ideelt valg for dem som ønsker å tilføre en begravelse en atmosfære av romantisk melankoli."
     ],
@@ -4318,7 +4319,7 @@
     "description": [
       "«Blowin' in the Wind» er en folkesang skrevet av Bob Dylan, som har blitt et symbol på borgerrettighetsbevegelsen siden 1962. Sangen utforsker universelle temaer som frihet, forståelse, og fred, men også dykker dypere inn i konteksten av borgerrettighetsbevegelsen og Vietnamkrigen. Dette er spesielt fremtredende i låtens refreng, 'The answer is blowin' in the wind,' som belyser menneskelig passivitet overfor de harde realitetene i det 20. århundret, primært for svarte amerikanere.",
       "Musikalsk sett er sangen enkel, men dens budskap har en dyp resonans som har vokst over tid, spesielt da den ble framført av Peter, Paul, og Mary ved Lincoln-monumentet før Martin Luther King Jr.s 'I Have A Dream'-tale. Med sin melodi og tekst skaper «Blowin' in the Wind» en følelse av lengsel og håp.",
-      "Det er en sang som ikke gir konkrete svar, men heller oppfordrer til selvrefleksjon og kontemplasjon. Dette gjør den særlig passende for øyeblikk hvor man søker etter meningen med livet, som i en begravelse. Den står som en tidløs utforskning av menneskelige dilemmaer og sin rolle i kampen for borgerrettigheter og sosial rettferdighet gir den en ekstra dimensjon av gravitasjon, noe som kan inspirere dypere refleksjon under en begravelsesseremoni."
+      "Det er en sang som ikke gir konkrete svar, men heller oppfordrer til selvrefleksjon og kontemplasjon. Dette gjør den særlig passende for øyeblikk hvor man søker etter meningen med livet, som i en begravelse. Den står som en tidløs utforskning av menneskelige dilemmaer og sin rolle i kampen for borgerrettigheter og sosial rettferdighet."
     ],
     "lyrics": [
       "How many roads must a man walk down",
@@ -4356,15 +4357,16 @@
   },
   {
     "objectID": "127",
-    "category": "Pop",
-    "subcategory": ["Kjærlighetssang", "Rock", "Tradisjonell"],
+    "category": "Rock/Soul/R&B",
+    "subcategory": ["engelsk"],
     "title": "Blueberry Hill",
     "arrangement": ["solo"],
     "composer": "Al Lewis / Vincent Rose / Larry Stock",
     "audio": false,
     "description": [
-      "‘Blueberry Hill’ er en tidløs melodi komponert av Al Lewis, Vincent Rose og Larry Stock. Sangen skaper en nostalgisk atmosfære fylt med følelser av tap og kjærlighet. Lyrikken forteller om et romantisk øyeblikk som ble forseglet i tid, og står som et evig minne om en tapt kjærlighet.",
-      "Musikken er iøynefallende og den følelsesladede teksten taler til hjertet. Den tar deg med til et sted der ‘månen sto stille’, og kjærlighetens melodier er i vinden. Dette gjør det til en ideell valg for en begravelse, spesielt hvis man ønsker å minnes et kjærlighetsforhold som har hatt stor betydning."
+      "«Blueberry Hill» er en tidløs melodi som ble første gang publisert i 1940, komponert av den italienske Vincent Rose, mens amerikanerne Al Lewis og Larry Stock skrev tekstene. Sangen skaper en nostalgisk atmosfære fylt med følelser av tap og kjærlighet. Den male et levende bilde av en fredelig ås hvor ekte kjærlighet og dyrebare minner ble skapt.",
+      "Lyrikken forteller om et romantisk øyeblikk som ble forseglet i tid, og står som et evig minne om en tapt kjærlighet. Musikken er iøynefallende og teksten er dypt følelsesladet, som tar lytteren til et minneverdig sted der sangeren og deres kjære opplevde et lykkelig øyeblikk på sitt høydepunkt.",
+      "Det tar deg med til et sted der ‘månen sto stille’, og kjærlighetens melodier er i vinden. Dette kombinasjonen av nostalgia, lengsel og høydepunkter av lykke gjør det til et ideelt valg for en begravelse, spesielt hvis man ønsker å minnes et kjærlighetsforhold som har hatt stor betydning."
     ],
     "lyrics": [
       "I found my thrill on Blueberry Hill",
@@ -4388,20 +4390,21 @@
       "Tho' we're apart you're part of me still",
       "For you were my thrill on Blueberry Hill"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Blueberry_Hill_copy_u1vd9t.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Blueberry_Hill_MOBILE_gnqyce.webp"
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Blueberry_Hill_v2_copy_lrbhdn.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Blueberry_Hill_v2_MOBILE_h1mfky.webp"
   },
   {
     "objectID": "128",
     "category": "Pop",
-    "subcategory": ["Moderne", "Popballade"],
+    "subcategory": ["engelsk"],
     "title": "Bridge over Troubled Water",
     "arrangement": ["solo", "duett"],
     "composer": "Paul Simon",
     "audio": false,
     "description": [
-      "‘Bridge over Troubled Water’ av Paul Simon er en hjertevarmende ballade som taler til sjelen i utfordrende tider. Teksten er fylt med løfter om støtte og omsorg, og vektlegger viktigheten av nærvær og vennskap når livet blir tøft.",
-      "Melodilinjen er like gripende som tekstens budskap, og skaper en emosjonell atmosfære som lett kan bringe tårer til øynene. Sangen kan fungere som en trøstende hånd på skulderen, enten den fremføres som en solo eller i duett, og gir et rolig øyeblikk til ettertanke under seremonier som en begravelse."
+      "«Bridge over Troubled Water» av Paul Simon er mer enn bare en hjertevarmende ballade; den er et musikalsk løfte om støtte og trøst i vanskelige tider. Inspirert av linjen ‘I'll be your bridge over deep water if you trust in me’ fra gospelsangen «Mary Don't You Weep», komponerte Simon denne låten midt i en periode med politisk og raseuroligheter i USA i 1969.",
+      "Teksten gir ikke bare løfter om støtte og omsorg, men tjener også som et ankerpunkt for veiledning og beskyttelse når mørket faller. Melodilinjen komplimenterer tekstens dype budskap og skaper en emosjonell atmosfære som kan røre ved selv den mest hardbarkede sjelen.",
+      "Sangen kan fungere som en trøstende hånd på skulderen i utfordrende stunder, og gir et øyeblikk til ettertanke, spesielt i seremonielle sammenhenger som en begravelse. Enten den fremføres som en solo, i duett, eller med en fiolinist, «Bridge over Troubled Water» tilbyr ikke bare musikalsk trøst, men også en trygg havn i livets stormer."
     ],
     "lyrics": [
       "When you're weary",
@@ -4435,15 +4438,16 @@
   },
   {
     "objectID": "129",
-    "category": "Pop",
-    "subcategory": ["Moderne", "Rock"],
+    "category": "Rock/Soul/R&B",
+    "subcategory": ["engelsk"],
     "title": "Brothers in Arms (med el-gitar)",
     "arrangement": ["solo", "duett"],
     "composer": "Mark Knopfler",
     "audio": false,
     "description": [
-      "‘Brothers in Arms’ av Mark Knopfler er en melankolsk ballade med fokus på krig, savn og brorskap. Sangen er akkompagnert av en el-gitar som gir en dypere emosjonell resonans. Tekstene skildrer en soldats forhold til sine 'brødre i våpen', med temaer som går fra hjemlengsel til den brutale virkeligheten i krig.",
-      "Sangen starter med en følelse av nostalgi, før den går over til å beskrive krigens grusomheter. Til tross for dette, understreker den sterke bånd som dannes i tøffe tider. Den konkluderer med en universell melding om meningsløsheten i krig, noe som gir et evigvarende inntrykk. Dette er en sang som treffer dypt, enten den fremføres som en solo eller i en duett."
+      "«Brothers in Arms» av Mark Knopfler ble skrevet under Falklandskrigen i 1982 og er en melankolsk ballade som dypt utforsker temaene om kameratskap, savn og brorskap i krig. Sangen er akkompagnert av en el-gitar som forsterker den emosjonelle resonansen. Tekstene gir en grundig fremstilling av en soldats forhold til sine 'brødre i våpen', fra temaer som hjemlengsel til den brutale og nådeløse virkeligheten i krig.",
+      "Sangen starter med en følelse av nostalgi, før den overgår til å beskrive krigens grusomheter. Til tross for dette, blir de dype vennskapsbåndene som dannes i tøffe tider understreket. Den fremhever den varige vennskapen selv i krigens skrekk og taler for fred som den eneste veien fremover. Den konkluderer med en universell melding om meningsløsheten i krig, som etterlater et evigvarende inntrykk.",
+      "Når man vurderer «Brothers in Arms» i en begravelsessammenheng, kan den underliggende tematikken om kameratskap og varige bånd dypt resonere med følelsene av tap, minne og ære for den avdøde. Sangens beroligende melodi og dype budskap kan gi trøst og refleksjon under en så alvorlig anledning. Dette er en sang som treffer dypt, enten den fremføres som en solo, i en duett, eller med akkompagnement av en fiolinist."
     ],
     "lyrics": [
       "These mist covered mountains",
