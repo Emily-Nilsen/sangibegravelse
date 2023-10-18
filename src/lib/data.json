@@ -1965,16 +1965,16 @@
   },
   {
     "objectID": "63",
-    "category": "Viser",
-    "subcategory": ["Nordisk"],
+    "category": "Folkemusikk",
+    "subcategory": ["norsk"],
     "title": "Den dag kjem aldri",
     "arrangement": ["solo"],
     "composer": "Aasmund Olavsson Vinje",
     "audio": false,
     "description": [
-      "Den dag kjem aldri, med tekst av Aasmund Olavsson Vinje og tradisjonell melodi, er ein gripande folkevisa som reflekterer over lengsel og uoppfylte lyster i livet.",
-      "Med sin inderlige tekst og melankolske melodi uttrykker sangen smerten ved å vente på noe som kanskje aldri kommer til å skje. Den dag kjem aldri fanger essensen av lengsel og den bittersøte skjønnheten i uoppfylte drømmer.",
-      "Den emosjonelle vokalen og det sparsomme musikalske arrangementet skaper en introspektiv og kontemplativ atmosfære, som inviterer lytterne til å reflektere over kompleksiteten av håp og lengsel."
+      "«Den dag kjem aldri» av Aasmund Olavsson Vinje er et dypgående stykke som tar for seg livets forgjengelighet og den konstante endringen man opplever. Sangen reflekterer også på kjærlighet og tap, uttrykker en dyp lengsel og minner om noen nær som ikke lenger er til stede. Skrevet i 1864 i Christiania, uttrykker sangen Vinjes filosofiske tilbøyeligheter og evner å vekke dype følelsesmessige bånd og et varig minne om en elsket person.",
+      "Teksten ‘Den dag kjem aldri at eg deg gløymer, for um eg søver, eg um deg drøymer’ illustrerer en følelse av utholden kjærlighet eller minne som er konstant, selv i søvn. Musikalsk sett passer denne sangen godt i intime rammer, og budskapet kan resonere sterkt i en begravelse der temaer om liv og død er fremtredende.",
+      "Den poesifylte teksten og dybden i budskapet gjør dette til en sang som kan utføres som en solo for å opprettholde intensiteten, men også som en duett for å gi en ekstra dimensjon av samhørighet og felles refleksjon."
     ],
     "lyrics": [
       "Den dag kjem aldri at eg deg gløymer,",
@@ -2007,14 +2007,16 @@
   },
   {
     "objectID": "64",
-    "category": "Klassisk",
-    "subcategory": ["Nordisk", "Viser"],
+    "category": "Folkemusikk",
+    "subcategory": ["norsk"],
     "title": "Den fyrste song",
     "arrangement": ["solo"],
     "composer": "Lars Søraas / Per Sivle",
     "audio": false,
     "description": [
-      "Salmen er skrevet i 1877 av Per Sivle og melodien er lagt til av Lars Søraas i 1909. Salmen kan bli sett på som en skjønn vuggesang og er regnet med blant våre aller vakreste sanger og melodier."
+      "«Den fyrste song,» også kjent som «Mor,» er en emosjonell, tradisjonell norsk sang. Teksten er skrevet av Per Sivle i 1877, og melodien er komponert av Lars Søraas i 1909. Sangen har en gripende bakgrunnshistorie; den forteller om Sivles tap av sin mor, som døde da hun fødte hans søsken da han bare var to år gammel. Denne personlige historien gir sangen ekstra dybde og kompleksitet.",
+      "Sangen fremkaller en følelse av varme og beskyttelse, illustrert ved et barn som hører sin mors milde vuggevise som den første melodien i sitt liv. Dette gir den en beroligende og trøstende effekt, noe som gjør den godt egnet for begravelsesseremonier. Her kan den hjelpe de sørgende med å fokusere på de varige følelsene av nærhet og omsorg som alltid vil være der.",
+      "Teksten oppmuntrer til refleksjon over livets reise, og berører en universell emosjonell tilknytning, mens den også peker mot håp og trøst, symbolisert gjennom et 'fager veg' og en smilende engel. Kombinert med en enkel, men effektiv melodi, har «Den fyrste song» potensialet til å røre både hjerte og sinn i en tid fylt med sorg."
     ],
     "lyrics": [
       "Den fyrste song eg høyra fekk",
@@ -4877,7 +4879,7 @@
     "arrangement": ["solo", "duett"],
     "composer": "Lucio Dalla",
     "audio": true,
-    "audioUrl": "https://res.cloudinary.com/dt3k2apqd/video/upload/q_auto/Sang%20i%20begravelse/Audio/Caruso_teaser_osdu8s.wav",
+    "audioUrl": "https://res.cloudinary.com/dt3k2apqd/video/upload/v1697628482/Sang%20i%20begravelse/Audio/Caruso_-_Settings_2_xrpp4m.wav",
     "performers": "Nils Georg Nilsen",
     "description": [
       "«Caruso» av Lucio Dalla er ikke bare en rørende melodi; den er også en hyllest til den berømte tenoren Enrico Caruso. Skrevet i 1986, ble Dalla inspirert til å lage sangen etter å ha bodd i samme hotellrom som Caruso en gang benyttet. Sangen starter med en sterk atmosfære der en mann omfavner en kvinne ved kysten av Surriento, og utforsker deretter en døende manns angst og lengsel etter en elsket kvinne.",
