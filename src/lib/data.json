@@ -527,14 +527,15 @@
   {
     "objectID": "15",
     "category": "Salmer",
-    "subcategory": ["Kirkemusikk", "Klassisk"],
+    "subcategory": ["norsk"],
     "title": "Den hellige stad",
     "arrangement": ["solo"],
     "composer": "Stephen Adams",
     "audio": false,
     "description": [
-      "Den hellige stad, komponert av Stephen Adams, er en dypt rørende sang som skildrer den hellige byen med dyp ærbødighet. Dens uttrykksfulle melodi og gripende tekst maler et levende bilde av et hellig og himmelsk sted.",
-      "Den hellige stad fremkaller en følelse av ærefrykt og åndelig lengsel, og inviterer lyttere til å tenke på skjønnheten og helligheten i det guddommelige riket."
+      "«Den hellige stad» er en klassisk religiøs hymne komponert av Stephen Adams i 1892, med tekst skrevet av F.E. Weatherly. Sangen tar lytteren med på en åndelig reise som starter i Jerusalem og fører til himmelen, gjennom tre vers som hver avbilder en annen bibelsk scene. Sangen starter med idylliske drømmer om en himmelsk by, går deretter over i den tøffe virkeligheten av korset på Langfredag, og avslutter med et håpefullt glimt av det nye Jerusalem med åpne porter for alle.",
+      "Den er fylt med sterke emosjonelle kontraster, fra glede og hosianna-sang til mørkere toner av sakral alvor. Lyrikken er poetisk og følelsesladet, og rik på metaforer, noe som gir en dypere forståelse for de åndelige temaene. Sangen appellerer til de som søker både åndelig og emosjonell trøst, og er ofte valgt for sammenhenger som krever en dypere følelsesmessig tilknytning, som begravelser.",
+      "«Den hellige stad» kan tilby en beroligende hymne i en tid med sorg, samtidig som den minner lytteren om håpet og frelsen som ligger i troen. Dette tillegget gir en mer omfattende kontekst uten å forstyrre den opprinnelige meningen og følelsen av sangen. Det inkluderer detaljer som komposisjonsåret og den strukturelle oppbyggingen av sangen, som kan være nyttig for de som vurderer å be om denne spesielle sangen."
     ],
     "lyrics": [
       "En natt jeg lå og drømte en",
@@ -571,8 +572,8 @@
       "Som for oss led",
       "Hosianna i det høye Hosianna i evighet"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Den_hellige_stad_desktop_gowuxy.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Den_hellige_stad_mobile_f2qnwo.webp"
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Den_hellige_stad_copy_ef0xag.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Den_hellige_stad_MOBILE_tejiry.webp"
   },
   {
     "objectID": "16",
@@ -2044,15 +2045,15 @@
   },
   {
     "objectID": "65",
-    "category": "Pop",
-    "subcategory": ["Nordisk", "Viser"],
+    "category": "Viser",
+    "subcategory": ["norsk"],
     "title": "Det hainnle om å leve",
-    "arrangement": ["solo"],
-    "composer": "Kine Hellebust",
+    "arrangement": ["solo", "duett"],
+    "composer": "Kine Hellebust / Mia Sandberg",
     "audio": false,
     "description": [
-      "Det hainnle om å leve, komponert av Kine Hellebust, er en oppløftende poplåt som feirer essensen av å leve livet til det fulle. Med sine fengende melodier og styrkende tekst oppfordrer sangen lytterne til å omfavne øyeblikket, ta risiko og gripe muligheter.",
-      "Det hainnle om å leve fanger ånden av å omfavne livets eventyr, finne glede i hverdagsopplevelser og omfavne sitt autentiske jeg."
+      "Dette hainnle om å leve» av Kine Hellebust, produsert i 1984 sammen med Mia Sandberg, er en sang som dykker dypt inn i livets kompleksiteter.  Med sine reflekterende og innsiktsfulle tekster utforsker den hvordan rett og galt, svart og hvitt, kan være forvirrende kategorier i livet. Sangen gir et gripende innblikk i den menneskelige tilstand, med et sterkt fokus på personlig vekst, kjærlighet og selvforståelse.",
+      "Musikalsk sett beveger sangen seg i et følsomt landskap, og gir rom for både solofremføringer og duetter. Med sin evne til å vekke sterke følelser, er den et sterkt valg for seremonielle anledninger som begravelser. Den åpner for ettertanke og kan gi trøst i en tid med sorg."
     ],
     "lyrics": [
       "Vess rett er rett og feil",
@@ -2095,20 +2096,20 @@
       "Der e nå' ainna å gjønge",
       "Te man får te det man vil"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Det_hainnle_om_a%CC%8A_leve_vpxcdn.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Det_hainnle_om_a%CC%8A_leve_mobile_ylnjly.webp"
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Det_hainnle_om_a%CC%8A_leve_copy_htsrxo.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Det_hainnle_om_a%CC%8A_leve_MOBILE_jq55el.webp"
   },
   {
     "objectID": "66",
     "category": "Viser",
-    "subcategory": ["Nordisk", "Popballade"],
+    "subcategory": ["norsk"],
     "title": "Det vakreste som fins",
     "arrangement": ["solo"],
     "composer": "Rolf U. Lovland / Jahn Teigen / Ove Borochstein",
     "audio": false,
     "description": [
-      "Det vakreste som fins, kjent gjennom Jahn Teigen, er en inderlig poplåt som hyller kjærlighetens skjønnhet og den dype forbindelsen mellom to sjeler. Med sine emosjonelle tekst og ømme melodier, uttrykker sangen dybden av følelser og kjærlighetens transformerende kraft.",
-      "Det vakreste som fins fanger essensen av å finne skjønnhet i de enkleste øyeblikkene og verne om nærværet til en man har kjær."
+      "«Det vakreste som fins» er en gripende kjærlighetsballade av de anerkjente komponistene Rolf U. Lovland, Jahn Teigen og Ove Borochstein. Sangen fokuserer på dybden og kompleksiteten i menneskelige relasjoner, og uttrykker en varm lengsel etter en elsket. Med linjer som ‘Du er det beste som har hendt meg’ og ‘Du er det vakreste som fins’, appellerer den direkte til hjertet og gir en følelse av intimitet og hengivenhet.",
+      "Musikalsk sett er den preget av en rolig melodi og subtile arrangementer, noe som forsterker tekstens emosjonelle innhold. Den kan fremføres både som solo og duett, og den melankolske stemningen i sangen kan forsterkes med akkompagnement av en fiolinist. Dette gjør sangen til et ypperlig valg for en minneverdig og rørende seremoni."
     ],
     "lyrics": [
       "Jeg har ofte gått og tenkt på",
