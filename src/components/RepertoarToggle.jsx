@@ -77,7 +77,7 @@ export function RepertoarToggle() {
 
   return (
     <section>
-      <div className="px-4 py-24 overflow-hidden max-w-screen sm:px-6 lg:px-8 sm:py-32">
+      <div className="px-4 pt-24 pb-16 overflow-hidden max-w-screen sm:px-6 lg:px-8 sm:py-32">
         <div>
           <div className="max-w-2xl lg:flex-auto">
             <p className="text-base font-medium leading-7 text-slate-600">
