@@ -12,7 +12,7 @@ export default function Repertoar() {
         </title>
         <meta
           name="description"
-          content="Utforsk vårt varierte repertoar av klassisk, pop, opera, salmer og viser-sanger med beskrivelser og arrangementer. Skap følelsesladet musikk til minnesverdige øyeblikk."
+          content="Utforsk vårt varierte repertoar av klassisk, pop, opera, salmer, viser-sanger og mer med beskrivelser og arrangementer. Skap følelsesladet musikk til minnesverdige øyeblikk."
         />
         <link
           rel="canonical"

@@ -39,7 +39,7 @@ export default function Kontakt() {
         <div className="absolute inset-0 md:hidden">
           <Image
             src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1697230348/Sang%20i%20begravelse/Home_Hero_mobile_syywxf.webp"
-            alt="Hvite roser"
+            alt="Blomster"
             width={2176}
             height={3264}
             className="absolute inset-0 object-cover object-left w-full h-full opacity-20"

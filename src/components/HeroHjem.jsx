@@ -50,15 +50,17 @@ export function HeroHjem() {
             <div className="flex items-center justify-center mt-10 gap-x-6">
               <Link
                 href="/repertoar"
-                className="rounded-md bg-white/70 px-3.5 py-2.5 text-sm font-semibold text-slate-800 shadow-sm hover:bg-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-slate-400 transition-all duration-150 ease-in-out hover:text-slate-950"
+                className="rounded-md bg-white/70 px-3.5 py-2.5 text-sm font-semibold text-slate-800 shadow-sm hover:bg-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-slate-400 transition-all duration-150 ease-in-out hover:text-slate-950 cursor-pointer"
               >
-                Repertoar
+                <button className="cursor-pointer">Repertoar</button>
               </Link>
               <Link
                 href="#artister"
                 className="text-sm font-semibold leading-6 transition-all duration-150 ease-in-out text-slate-800 hover:text-slate-950"
               >
-                Artister <span aria-hidden="true">→</span>
+                <button className="cursor-pointer">
+                  Artister <span aria-hidden="true">→</span>
+                </button>
               </Link>
             </div>
           </div>
