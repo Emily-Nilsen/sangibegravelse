@@ -36,7 +36,7 @@ export function Footer() {
               <span className="sr-only">Sang i begravelse</span>
               <Image
                 className="w-24 h-auto transition-all duration-300 ease-in-out cursor-pointer hover:rotate-3"
-                src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Bird_logo_-_singing_rcqvub.webp"
+                src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Bird_logo_-_v2_xuac1h.webp"
                 alt="Sang i begravelse - logo"
                 width={500}
                 height={500}

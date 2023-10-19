@@ -30,7 +30,7 @@ export function BackToTopButton() {
     <div className="fixed z-50 bottom-4 right-4">
       <button
         onClick={scrollToTop}
-        className={`w-12 h-12 text-xl text-muted-yellow-700 transition-all duration-300 ease-in-out bg-muted-yellow-50 bg-opacity-100 shadow-lg rounded-full focus:outline-none hover:shadow-md ${
+        className={`w-12 h-12 text-xl text-amber-700 transition-all duration-300 ease-in-out bg-amber-50 hover:text-amber-800 bg-opacity-100 shadow-lg shadow-slate-200/50 shadow-opacity-50 rounded-full hover:shadow-slate-200/50 focus:outline-none hover:shadow-md ${
           isVisible ? 'opacity-100' : 'opacity-0'
         }`}
       >
