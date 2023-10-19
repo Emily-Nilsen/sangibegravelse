@@ -2368,14 +2368,15 @@
   {
     "objectID": "71",
     "category": "Viser",
-    "subcategory": ["Nordisk", "Popballade"],
+    "subcategory": ["norsk"],
     "title": "E du Nord",
     "arrangement": ["solo"],
     "composer": "Kari Bremnes",
     "audio": false,
     "description": [
-      "E du Nord, komponert av Kari Bremnes, er en fengslende folk-pop-låt som gjenspeiler essensen av å være fra nordområdene i Norge.",
-      "Med sine stemningsfulle tekst og sjelfulle melodier, feirer sangen sin unike identitet og dype tilknytning til det barske landskapet i nord. E du Nord fanger ånden av motstandskraft, uavhengighet og stolthet i den nordlige arven."
+      "«E du Nord» av Kari Bremnes er en låt fra 2012 som tar for seg både tapte muligheter og uventede endringer. Sangen skildrer et vakkert nordnorsk landskap og formidler et vedvarende håp om bedre dager til tross for skuffelse og tap. Den rører ved følelsen av forventning og nedtur, kombinert med et landskap preget av mørke og avstand.",
+      "Den setter i scene erfaringen av å være ‘nord i landet,’ hvor man kan miste mer enn bare en ferge. Låten tematiserer ensomhet, men også fellesskapet som finnes i det nordlige tusmørket, der ‘vi mange som ror.’ Teksten beskriver ikke bare det geografiske nord, men også en følelsesmessig tilstand.",
+      "Den uttrykker en aksept av utfordringer og mørke, samtidig som den peker mot et lys ‘av guds nåde’ som til slutt vil bryte gjennom. Dette skaper en dypere forståelse av sangens budskap og følelsesregister. Det er en sang som kan gi trøst i en begravelse ved å anerkjenne sorgen, samtidig som den gir håp om en ny begynnelse."
     ],
     "lyrics": [
       "Det e ikkje alltid det går",
@@ -2427,8 +2428,8 @@
       "E du nord i landet da",
       "E du nord i landet da"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/E_du_Nord_mcpbic.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/E_du_Nord_mobile_mmcdpr.webp"
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/E_du_nord_copy_e5p1wf.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/E_du_nord_MOBILE_dhurux.webp"
   },
   {
     "objectID": "72",
