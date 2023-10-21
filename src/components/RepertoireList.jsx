@@ -14,15 +14,17 @@ export function RepertoireList({
   repertoire,
 }) {
   const filterSongs = (song) => {
-    const filters = [
+    // Basic filters for category and language
+    const basicFilters = [
       [selectedCategory, song.category],
       [selectedLanguage, song.language],
     ];
 
-    const passesBasicFilters = filters.every(([selected, property]) => {
-      return !selected || selected === 'Alle' || property === selected;
+    const passesBasicFilters = basicFilters.every(([selected, property]) => {
+      return !selected || selected === 'Alle' || property.includes(selected);
     });
 
+    // Additional filter for arrangement
     if (selectedArrangement && selectedArrangement !== 'Alle') {
       return (
         passesBasicFilters &&
