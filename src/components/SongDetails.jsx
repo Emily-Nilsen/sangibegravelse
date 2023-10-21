@@ -13,6 +13,7 @@ import { DuetIcon } from './icons/Duet';
 export function SongDetails({ isExpanded, expandedSongs, sang }) {
   const [repertoire, setRepertoire] = useState([]);
   const [selectedCategory, setSelectedCategory] = useState('');
+  const [selectedLanguage, setSelectedLanguage] = useState('');
   const [selectedSubcategory, setSelectedSubcategory] = useState('');
   const [selectedArrangement, setSelectedArrangement] = useState('');
 
@@ -35,10 +36,7 @@ export function SongDetails({ isExpanded, expandedSongs, sang }) {
     if (selectedCategory && song.category !== selectedCategory) {
       return false;
     }
-    if (
-      selectedSubcategory &&
-      !song.subcategory.includes(selectedSubcategory)
-    ) {
+    if (selectedLanguage && !song.language.includes(selectedLanguage)) {
       return false;
     }
     if (
@@ -55,8 +53,8 @@ export function SongDetails({ isExpanded, expandedSongs, sang }) {
     setSelectedCategory(event.target.value);
   };
 
-  const handleSubcategoryChange = (event) => {
-    setSelectedSubcategory(event.target.value);
+  const handleLanguageChange = (event) => {
+    setSelectedLanguage(event.target.value);
   };
 
   const handleArrangementChange = (event) => {
@@ -120,7 +118,7 @@ export function SongDetails({ isExpanded, expandedSongs, sang }) {
                 <div className="pt-6">
                   <p className="text-sm font-semibold text-gray-900">Språk</p>
                   <p className="flex max-w-md gap-3 text-sm leading-7 text-gray-600">
-                    {sang.subcategory.map((line) => (
+                    {sang.language.map((line) => (
                       <div className="mt-3" key={line}>
                         <span className="inline-flex items-center px-2 py-1 text-xs font-medium rounded-md text-slate-700 bg-slate-50 ring-1 ring-inset ring-slate-600/20">
                           {line}

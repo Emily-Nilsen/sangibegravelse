@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import Image from 'next/image';
 import { MinusSmallIcon, PlusSmallIcon } from '@heroicons/react/24/outline';
 import { Expandable } from '@/components/Expandable';
 import { TableHeader } from './TableHeader';
@@ -8,50 +7,32 @@ import { ViolinIcon } from './icons/Violin';
 import { SoloIcon } from './icons/Solo';
 import { DuetIcon } from './icons/Duet';
 
-export function RepertoireList() {
-  const [repertoire, setRepertoire] = useState([]);
-  const [selectedCategory, setSelectedCategory] = useState('');
-  const [selectedSubcategory, setSelectedSubcategory] = useState('');
-  const [selectedArrangement, setSelectedArrangement] = useState('');
-
-  useEffect(() => {
-    fetch('/api/repertoire')
-      .then((response) => response.json())
-      .then((data) => {
-        const sortedRepertoire = data.sort((a, b) => {
-          // Custom sorting function considering the Norwegian alphabet
-          const collator = new Intl.Collator('nb');
-          return collator.compare(a.title, b.title);
-        });
-        setRepertoire(sortedRepertoire);
-      })
-      .catch((error) => console.log(error));
-  }, []);
-
-  // Filter function to apply selected filters
+export function RepertoireList({
+  selectedCategory,
+  selectedArrangement,
+  selectedLanguage,
+  repertoire,
+}) {
   const filterSongs = (song) => {
     const filters = [
       [selectedCategory, song.category],
-      [selectedSubcategory, song.subcategory],
-      [selectedArrangement, song.arrangement],
+      [selectedLanguage, song.language],
     ];
 
-    return filters.every(([selected, property]) => {
-      return !selected || property.includes(selected);
+    const passesBasicFilters = filters.every(([selected, property]) => {
+      return !selected || selected === 'Alle' || property === selected;
     });
-  };
 
-  // Event handlers for category and arrangement selection
-  const handleCategoryChange = (event) => {
-    setSelectedCategory(event.target.value);
-  };
+    if (selectedArrangement && selectedArrangement !== 'Alle') {
+      return (
+        passesBasicFilters &&
+        song.arrangement.some(
+          (arr) => arr.toLowerCase() === selectedArrangement.toLowerCase()
+        )
+      );
+    }
 
-  const handleSubcategoryChange = (event) => {
-    setSelectedSubcategory(event.target.value);
-  };
-
-  const handleArrangementChange = (event) => {
-    setSelectedArrangement(event.target.value);
+    return passesBasicFilters;
   };
 
   const [expandedSongs, setExpandedSongs] = useState([]);

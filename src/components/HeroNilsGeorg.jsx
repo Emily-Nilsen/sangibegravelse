@@ -7,7 +7,7 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 
 export function HeroNilsGeorg() {
   return (
-    <div className="bg-gray-900 ">
+    <div className="bg-amber-50 ">
       <div className="relative grid grid-cols-1 overflow-hidden isolate pt-14 sm:grid-cols-2">
         <Image
           src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/NG_profile_mobile_kbfder.webp"
@@ -15,6 +15,8 @@ export function HeroNilsGeorg() {
           width={2073}
           height={1887}
           className="absolute inset-0 object-cover w-full h-full sm:hidden -z-10"
+          unoptimized
+          priority
         />
         <Image
           src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/NG_profile_ho4l6x.webp"
@@ -22,6 +24,8 @@ export function HeroNilsGeorg() {
           width={2830}
           height={1887}
           className="absolute inset-0 hidden object-cover w-full h-full sm:block -z-10"
+          unoptimized
+          priority
         />
         <div
           className="absolute inset-x-0 overflow-hidden -top-40 -z-10 transform-gpu blur-3xl sm:-top-80"

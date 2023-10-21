@@ -16,6 +16,8 @@ export function HeroHjem() {
           width={2176}
           height={3264}
           className="absolute inset-0 object-cover object-left w-full h-full sm:hidden -z-10"
+          priority
+          unoptimized
         />
         <Image
           src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1697230359/Sang%20i%20begravelse/Home_Hero_desktop_v2_vyjmjo.webp"
@@ -23,6 +25,8 @@ export function HeroHjem() {
           width={3000}
           height={1681}
           className="absolute inset-0 hidden object-cover w-full h-full sm:block -z-10"
+          priority
+          unoptimized
         />
         <div className="absolute inset-0 sm:bg-white/30 bg-white/60" />
         <div

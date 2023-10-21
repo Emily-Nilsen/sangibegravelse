@@ -50,22 +50,27 @@ export function JanTore() {
             }}
             className="relative lg:order-last lg:col-span-5"
           >
-            {/* <figure className="pl-8 border-l border-slate-600">
+            <figure className="pl-8 border-l border-slate-600">
               <blockquote className="text-xl font-semibold leading-8 tracking-tight text-gray-900">
                 <p>
-                  “He possesses an attractive, lyrical tenor voice, with an
-                  exceptional clarity, and distinct and expressive timbre.”
+                  “Jan-Tore Saltnes har en fantastisk stemme, synger alt fra
+                  viser, slagere, pop og klassisk! Han tar utfordringer på strak
+                  arm, hvis familier har spesielle ønsker om sanger! Har jobbet
+                  i gravferdsbransjen i 17 år og hatt gleden av og samarbeide
+                  med Jan-Tore alle disse årene. Han er min favoritt!”
                 </p>
               </blockquote>
               <figcaption className="flex mt-8 gap-x-4">
                 <div className="text-sm leading-6">
-                  <div className="font-semibold text-gray-900">John Lidal</div>
+                  <div className="font-semibold text-gray-900">
+                    Anne-Grethe Lærum
+                  </div>
                   <div className="text-gray-600">
-                    Den Norske Opera & Ballett, Oslo
+                    Gravferdskonsulent, Fonus begravelsesbyrå
                   </div>
                 </div>
               </figcaption>
-            </figure> */}
+            </figure>
           </motion.div>
           <div className="max-w-xl text-base leading-7 text-gray-700 lg:col-span-7">
             <motion.p

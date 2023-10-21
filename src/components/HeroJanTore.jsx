@@ -7,7 +7,7 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 
 export function HeroJanTore() {
   return (
-    <div className="bg-gray-900 ">
+    <div className="bg-gray-100 ">
       <div className="relative grid grid-cols-1 overflow-hidden isolate pt-14 sm:grid-cols-2">
         <Image
           src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/artists/JT_mobile_zy5y5u.webp"
@@ -15,6 +15,8 @@ export function HeroJanTore() {
           width={2073}
           height={1887}
           className="absolute inset-0 object-cover w-full h-full sm:hidden -z-10"
+          unoptimized
+          priority
         />
         <div className="absolute inset-0 bg-gray-950/20" />
         <Image
@@ -23,6 +25,8 @@ export function HeroJanTore() {
           width={2830}
           height={1887}
           className="absolute inset-0 hidden object-cover w-full h-full sm:block -z-10"
+          unoptimized
+          priority
         />
         <div
           className="absolute inset-x-0 overflow-hidden -top-40 -z-10 transform-gpu blur-3xl sm:-top-80"

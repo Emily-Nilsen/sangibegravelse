@@ -2,7 +2,7 @@
   {
     "objectID": "1",
     "category": "Klassisk",
-    "subcategory": ["engelsk"],
+    "language": ["engelsk"],
     "title": "Air | Love Never Fails (tekst)",
     "arrangement": ["solo", "fiolin"],
     "composer": "Johann Sebastian Bach / Brandon Heath / Chad Robert Cates",
@@ -61,7 +61,7 @@
   {
     "objectID": "2",
     "category": "Klassisk",
-    "subcategory": ["latinsk"],
+    "language": ["latinsk"],
     "title": "Ave Maria",
     "arrangement": ["solo", "duett", "fiolin"],
     "composer": "Franz Schubert",
@@ -102,7 +102,7 @@
   {
     "objectID": "3",
     "category": "Klassisk",
-    "subcategory": ["latinsk"],
+    "language": ["latinsk"],
     "title": "Ave Maria",
     "arrangement": ["solo", "duett", "fiolin"],
     "composer": "Johann Sebastian Bach / Charles Gounod",
@@ -135,7 +135,7 @@
   {
     "objectID": "4",
     "category": "Klassisk",
-    "subcategory": ["latinsk"],
+    "language": ["latinsk"],
     "title": "Ave Maria",
     "arrangement": ["solo", "duett", "fiolin"],
     "composer": "Pietro Mascagni",
@@ -160,7 +160,7 @@
   {
     "objectID": "5",
     "category": "Klassisk",
-    "subcategory": ["islandisk"],
+    "language": ["islandisk"],
     "title": "Ave Maria",
     "arrangement": ["solo"],
     "composer": "Sigvaldi Kaldalóns",
@@ -191,7 +191,7 @@
   {
     "objectID": "6",
     "category": "Klassisk",
-    "subcategory": ["italiensk"],
+    "language": ["italiensk"],
     "title": "Caro mio ben",
     "arrangement": ["solo", "fiolin"],
     "composer": "Tommaso Giordani",
@@ -218,7 +218,7 @@
   {
     "objectID": "7",
     "category": "Pop",
-    "subcategory": ["norsk"],
+    "language": ["norsk"],
     "title": "Adieu",
     "arrangement": ["solo", "duett"],
     "composer": "Anita Skorgan / Jahn Teigen",
@@ -275,7 +275,7 @@
   {
     "objectID": "8",
     "category": "Pop",
-    "subcategory": ["engelsk", "spansk"],
+    "language": ["engelsk", "spansk"],
     "title": "Adios, Amigo",
     "arrangement": ["solo", "duett", "fiolin"],
     "composer": "Jerry Livingston / Ralph Freed",
@@ -313,7 +313,7 @@
   {
     "objectID": "9",
     "category": "Salmer",
-    "subcategory": ["engelsk"],
+    "language": ["engelsk"],
     "title": "Amazing Grace",
     "arrangement": ["solo"],
     "composer": "John Newton",
@@ -355,7 +355,7 @@
   {
     "objectID": "10",
     "category": "Salmer",
-    "subcategory": ["engelsk"],
+    "language": ["engelsk"],
     "title": "An Irish Blessing",
     "arrangement": ["solo", "duett", "fiolin"],
     "composer": "Tradisjonell (ukjent forfatter)",
@@ -409,7 +409,7 @@
   {
     "objectID": "11",
     "category": "Klassisk",
-    "subcategory": ["norsk"],
+    "language": ["norsk"],
     "title": "Ave Maria",
     "arrangement": ["solo"],
     "composer": "Hugo Gyldenmark",
@@ -456,7 +456,7 @@
   {
     "objectID": "12",
     "category": "Klassisk",
-    "subcategory": ["latinsk"],
+    "language": ["latinsk"],
     "title": "Ave Verum Corpus",
     "arrangement": ["solo", "duett", "fiolin"],
     "composer": "Wolfgang Amadeus Mozart",
@@ -486,7 +486,7 @@
   {
     "objectID": "13",
     "category": "Klassisk",
-    "subcategory": ["latinsk"],
+    "language": ["latinsk"],
     "title": "Benedictus (Messe i B-moll)",
     "arrangement": ["solo", "duett", "fiolin"],
     "composer": "Johann Sebastian Bach",
@@ -503,7 +503,7 @@
   {
     "objectID": "14",
     "category": "Klassisk",
-    "subcategory": ["tysk"],
+    "language": ["tysk"],
     "title": "Bist du bei mir",
     "arrangement": ["solo", "duett", "fiolin"],
     "composer": "Johann Sebastian Bach",
@@ -527,7 +527,7 @@
   {
     "objectID": "15",
     "category": "Salmer",
-    "subcategory": ["norsk"],
+    "language": ["norsk"],
     "title": "Den hellige stad",
     "arrangement": ["solo"],
     "composer": "Stephen Adams",
@@ -579,7 +579,7 @@
   {
     "objectID": "53",
     "category": "Pop",
-    "subcategory": ["norsk"],
+    "language": ["norsk"],
     "title": "Alt eg såg",
     "arrangement": ["solo"],
     "composer": "Sigvart Dagsland",
@@ -639,7 +639,7 @@
   {
     "objectID": "55",
     "category": "Viser",
-    "subcategory": ["norsk"],
+    "language": ["norsk"],
     "title": "Barn av regnbuen",
     "arrangement": ["solo", "duett"],
     "composer": "Pete Seeger / Lillebjørn Nilsen",
@@ -683,7 +683,7 @@
   {
     "objectID": "56",
     "category": "Viser",
-    "subcategory": ["norsk"],
+    "language": ["norsk"],
     "title": "Barndomsminne fra Nordland",
     "arrangement": ["solo"],
     "composer": "Elias Blix",
@@ -780,7 +780,7 @@
   {
     "objectID": "57",
     "category": "Viser",
-    "subcategory": ["norsk"],
+    "language": ["norsk"],
     "title": "Bestevenn",
     "arrangement": ["solo"],
     "composer": "Odd Nordstoga",
@@ -829,7 +829,7 @@
   {
     "objectID": "58",
     "category": "Viser",
-    "subcategory": ["norsk"],
+    "language": ["norsk"],
     "title": "Blå salme",
     "arrangement": ["solo", "duett"],
     "composer": "Erik Bye",
@@ -875,7 +875,7 @@
   {
     "objectID": "59",
     "category": "Viser",
-    "subcategory": ["norsk"],
+    "language": ["norsk"],
     "title": "Danse mi vise",
     "arrangement": ["solo"],
     "composer": "Einar Skjæraasen",
@@ -910,7 +910,7 @@
   {
     "objectID": "60",
     "category": "Viser",
-    "subcategory": ["svensk"],
+    "language": ["svensk"],
     "title": "Där björkarna susa",
     "arrangement": ["solo"],
     "composer": "Viktor Sund",
@@ -942,7 +942,7 @@
   {
     "objectID": "61",
     "category": "Salmer",
-    "subcategory": ["svensk"],
+    "language": ["svensk"],
     "title": "Där rosor aldrig dör",
     "arrangement": ["solo"],
     "composer": "Janie West Metzgar",
@@ -987,7 +987,7 @@
   {
     "objectID": "62",
     "category": "Viser",
-    "subcategory": ["norsk"],
+    "language": ["norsk"],
     "title": "De nære ting",
     "arrangement": ["solo", "duett"],
     "composer": "Arne Paasche Aasen",
@@ -1037,7 +1037,7 @@
   {
     "objectID": "63",
     "category": "Folkemusikk",
-    "subcategory": ["norsk"],
+    "language": ["norsk"],
     "title": "Den dag kjem aldri",
     "arrangement": ["solo"],
     "composer": "Aasmund Olavsson Vinje",
@@ -1079,7 +1079,7 @@
   {
     "objectID": "64",
     "category": "Folkemusikk",
-    "subcategory": ["norsk"],
+    "language": ["norsk"],
     "title": "Den fyrste song",
     "arrangement": ["solo"],
     "composer": "Lars Søraas / Per Sivle",
@@ -1116,7 +1116,7 @@
   {
     "objectID": "65",
     "category": "Viser",
-    "subcategory": ["norsk"],
+    "language": ["norsk"],
     "title": "Det hainnle om å leve",
     "arrangement": ["solo", "duett"],
     "composer": "Kine Hellebust / Mia Sandberg",
@@ -1172,7 +1172,7 @@
   {
     "objectID": "66",
     "category": "Pop",
-    "subcategory": ["norsk"],
+    "language": ["norsk"],
     "title": "Det vakreste som fins",
     "arrangement": ["solo", "duett", "fiolin"],
     "composer": "Jahn Teigen / Rolf Løvland / Ove Borøchstein",
@@ -1243,7 +1243,7 @@
   {
     "objectID": "67",
     "category": "Pop",
-    "subcategory": ["svensk"],
+    "language": ["svensk"],
     "title": "Du är den ende",
     "arrangement": ["solo", "duett"],
     "composer": "Bo Setterlind",
@@ -1283,7 +1283,7 @@
   {
     "objectID": "71",
     "category": "Viser",
-    "subcategory": ["norsk"],
+    "language": ["norsk"],
     "title": "E du Nord",
     "arrangement": ["solo"],
     "composer": "Kari Bremnes",
@@ -1349,7 +1349,7 @@
   {
     "objectID": "108",
     "category": "Pop",
-    "subcategory": ["norsk"],
+    "language": ["norsk"],
     "title": "13 Hester",
     "arrangement": ["solo"],
     "composer": "Alexander Rybak / Sigvart Dagsland",
@@ -1428,7 +1428,7 @@
   {
     "objectID": "120",
     "category": "Rock/Soul/R&B",
-    "subcategory": ["engelsk"],
+    "language": ["engelsk"],
     "title": "Ain’t No Sunshine",
     "arrangement": ["solo", "duett"],
     "composer": "Bill Withers",
@@ -1478,7 +1478,7 @@
   {
     "objectID": "121",
     "category": "Pop",
-    "subcategory": ["engelsk"],
+    "language": ["engelsk"],
     "title": "Always on My Mind",
     "arrangement": ["solo"],
     "composer": "Wayne Thompson / Johnny Christopher / Mark James",
@@ -1527,7 +1527,7 @@
   {
     "objectID": "122",
     "category": "Pop",
-    "subcategory": ["engelsk"],
+    "language": ["engelsk"],
     "title": "Angel",
     "arrangement": ["solo"],
     "composer": "Sarah McLachlan",
@@ -1588,7 +1588,7 @@
   {
     "objectID": "123",
     "category": "Jazz",
-    "subcategory": ["engelsk"],
+    "language": ["engelsk"],
     "title": "Autumn Leaves",
     "arrangement": ["solo"],
     "composer": "Joseph Kosma",
@@ -1620,7 +1620,7 @@
   {
     "objectID": "124",
     "category": "Pop",
-    "subcategory": ["engelsk"],
+    "language": ["engelsk"],
     "title": "A Whiter Shade of Pale",
     "arrangement": ["solo"],
     "composer": "Keith Reid / Gary Brooker",
@@ -1666,7 +1666,7 @@
   {
     "objectID": "125",
     "category": "Pop",
-    "subcategory": ["spansk"],
+    "language": ["spansk"],
     "title": "Bésame Mucho",
     "arrangement": ["solo", "duett", "fiolin"],
     "composer": "Consuelo Velázquez",
@@ -1700,7 +1700,7 @@
   {
     "objectID": "126",
     "category": "Folkemusikk",
-    "subcategory": ["engelsk"],
+    "language": ["engelsk"],
     "title": "Blowin’ in the Wind",
     "arrangement": ["solo"],
     "composer": "Bob Dylan",
@@ -1747,7 +1747,7 @@
   {
     "objectID": "127",
     "category": "Rock/Soul/R&B",
-    "subcategory": ["engelsk"],
+    "language": ["engelsk"],
     "title": "Blueberry Hill",
     "arrangement": ["solo"],
     "composer": "Al Lewis / Vincent Rose / Larry Stock",
@@ -1785,7 +1785,7 @@
   {
     "objectID": "128",
     "category": "Pop",
-    "subcategory": ["engelsk"],
+    "language": ["engelsk"],
     "title": "Bridge over Troubled Water",
     "arrangement": ["solo", "duett"],
     "composer": "Paul Simon",
@@ -1828,7 +1828,7 @@
   {
     "objectID": "129",
     "category": "Rock/Soul/R&B",
-    "subcategory": ["engelsk"],
+    "language": ["engelsk"],
     "title": "Brothers in Arms (med el-gitar)",
     "arrangement": ["solo", "duett"],
     "composer": "Mark Knopfler",
@@ -1877,7 +1877,7 @@
   {
     "objectID": "130",
     "category": "Pop",
-    "subcategory": ["engelsk"],
+    "language": ["engelsk"],
     "title": "Candle in the Wind",
     "arrangement": ["solo"],
     "composer": "Elton John / Bernie Taupin",
@@ -1950,7 +1950,7 @@
   {
     "objectID": "131",
     "category": "Pop",
-    "subcategory": ["engelsk"],
+    "language": ["engelsk"],
     "title": "Can’t Help Falling in Love",
     "arrangement": ["solo"],
     "composer": "Hugo Peretti / Luigi Creatore / George David Weiss",
@@ -1986,7 +1986,7 @@
   {
     "objectID": "132",
     "category": "Pop",
-    "subcategory": ["engelsk"],
+    "language": ["engelsk"],
     "title": "Close to You",
     "arrangement": ["solo", "duett", "fiolin"],
     "composer": "Burt Bacharach / Hal David",
@@ -2039,7 +2039,7 @@
   {
     "objectID": "133",
     "category": "Rock/Soul/R&B",
-    "subcategory": ["engelsk"],
+    "language": ["engelsk"],
     "title": "Dance with My Father",
     "arrangement": ["solo"],
     "composer": "Richard Marx / Luther Vandross",
@@ -2093,7 +2093,7 @@
   {
     "objectID": "135",
     "category": "Klassisk",
-    "subcategory": ["tysk"],
+    "language": ["tysk"],
     "title": "Ach, ich fühl’s",
     "arrangement": ["solo", "duett"],
     "composer": "Wolfgang Amadeus Mozart",
@@ -2122,7 +2122,7 @@
   {
     "objectID": "137",
     "category": "Klassisk",
-    "subcategory": ["italiensk"],
+    "language": ["italiensk"],
     "title": "Caruso",
     "arrangement": ["solo", "duett"],
     "composer": "Lucio Dalla",
