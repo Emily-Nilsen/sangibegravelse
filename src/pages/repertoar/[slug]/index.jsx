@@ -15,7 +15,12 @@ export function generateMetaTags(songData, url) {
     inLanguage: 'nb',
     genre: songData.category,
     musicArrangement: songData.arrangement,
-    performer: [
+  };
+
+  const recording = {
+    '@type': 'MusicRecording',
+    name: songData.title,
+    byArtist: [
       {
         '@type': 'PerformingGroup',
         name: 'Sang i begravelse',
@@ -26,17 +31,16 @@ export function generateMetaTags(songData, url) {
           availability: 'http://schema.org/InStock',
         },
       },
-      // Add more performers if needed
     ],
   };
 
   if (songData.audio) {
-    schema['audio'] = {
+    recording.audio = {
       '@type': 'AudioObject',
       contentUrl: songData.audioUrl,
       description: `Utdrag av fremføring av ${songData.title} av ${songData.performers}`,
     };
-    schema.performer.push({
+    recording.byArtist.push({
       '@type': 'Person',
       name: songData.performers,
     });
@@ -70,7 +74,11 @@ export function generateMetaTags(songData, url) {
       <meta property="og:site_name" content="Sang i begravelse" />
 
       {/* Schema Markup */}
+      {/* <script type="application/ld+json">{JSON.stringify(schema)}</script> */}
+      {/* Schema Markup for MusicComposition */}
       <script type="application/ld+json">{JSON.stringify(schema)}</script>
+      {/* Schema Markup for MusicRecording */}
+      <script type="application/ld+json">{JSON.stringify(recording)}</script>
     </>
   );
 }
