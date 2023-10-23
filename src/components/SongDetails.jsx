@@ -74,9 +74,9 @@ export function SongDetails({ isExpanded, expandedSongs, sang }) {
               <div className="p-3">
                 {/* audio player */}
                 <div>
-                  <div>
+                  <div className="pb-6">
                     {sang.audio && (
-                      <div className="pb-6 mt-0">
+                      <div className="pb-0 mt-0">
                         <audio controls>
                           <source src={sang.audioUrl} type="audio/mpeg" />
                           Your browser does not support the audio element.
