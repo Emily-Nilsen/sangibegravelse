@@ -62,7 +62,10 @@ export function generateMetaTags(songData, url) {
       <link rel="canonical" href={url} key="canonical" />
 
       {/* Open Graph */}
-      <meta property="og:title" content={songData.title} />
+      <meta
+        property="og:title"
+        content={`${songData.title} av ${songData.composer}`}
+      />
       <meta
         property="og:description"
         content={`Få mer informasjon om sangen «${songData.title}» av ${songData.composer}, inkludert teksten.`}
