@@ -6,9 +6,7 @@ import { motion } from 'framer-motion';
 import { Disclosure } from '@headlessui/react';
 import { MinusSmallIcon, PlusSmallIcon } from '@heroicons/react/24/outline';
 import { Expandable } from '@/components/Expandable';
-import { ViolinIcon } from './icons/Violin';
-import { SoloIcon } from './icons/Solo';
-import { DuetIcon } from './icons/Duet';
+import { generateSlug } from '../pages/repertoar/[slug]';
 
 export function SongDetails({ isExpanded, expandedSongs, sang }) {
   const [repertoire, setRepertoire] = useState([]);
@@ -16,6 +14,8 @@ export function SongDetails({ isExpanded, expandedSongs, sang }) {
   const [selectedLanguage, setSelectedLanguage] = useState('');
   const [selectedSubcategory, setSelectedSubcategory] = useState('');
   const [selectedArrangement, setSelectedArrangement] = useState('');
+
+  const songSlug = generateSlug(sang.title, sang.composer); // Generate the slug using the song's title and composer
 
   useEffect(() => {
     fetch('/api/repertoire')
@@ -48,31 +48,6 @@ export function SongDetails({ isExpanded, expandedSongs, sang }) {
     return true;
   };
 
-  // Event handlers for category and arrangement selection
-  const handleCategoryChange = (event) => {
-    setSelectedCategory(event.target.value);
-  };
-
-  const handleLanguageChange = (event) => {
-    setSelectedLanguage(event.target.value);
-  };
-
-  const handleArrangementChange = (event) => {
-    setSelectedArrangement(event.target.value);
-  };
-
-  // const [expandedSongs, setExpandedSongs] = useState([]);
-
-  const toggleSong = (songId) => {
-    setExpandedSongs((prevExpandedSongs) => {
-      if (prevExpandedSongs.includes(songId)) {
-        return prevExpandedSongs.filter((id) => id !== songId);
-      } else {
-        return [...prevExpandedSongs, songId];
-      }
-    });
-  };
-
   return (
     <>
       {expandedSongs.includes(sang.objectID) && (
@@ -82,7 +57,53 @@ export function SongDetails({ isExpanded, expandedSongs, sang }) {
               id="expanded"
               className="grid w-full grid-cols-1 gap-4 p-4 md:grid-cols-2"
             >
+              {/* Image on mobile */}
+              <div
+                aria-hidden="true"
+                className="relative my-2 overflow-hidden rounded-lg lg:hidden"
+              >
+                <Image
+                  src={sang.mobile}
+                  alt={sang.title}
+                  width={640}
+                  height={359}
+                  className="object-cover object-center w-full h-64"
+                  unoptimized
+                />
+              </div>
               <div className="p-3">
+                {/* audio player */}
+                <div>
+                  <div>
+                    {sang.audio && (
+                      <div className="pb-6 mt-0">
+                        <audio controls>
+                          <source src={sang.audioUrl} type="audio/mpeg" />
+                          Your browser does not support the audio element.
+                        </audio>
+                      </div>
+                    )}
+                    {sang.performers && (
+                      <p className="max-w-lg pt-4 text-sm leading-7 text-gray-600">
+                        «{sang.title}» av {sang.performers}
+                      </p>
+                    )}
+                  </div>
+                  <div className="flex items-center mb-10 gap-x-3">
+                    <p className="text-sm font-semibold text-gray-900">
+                      Sang språk
+                    </p>
+                    <p className="flex max-w-md gap-3 text-sm leading-7 text-gray-600">
+                      {sang.language.map((line) => (
+                        <div className="mt-0" key={line}>
+                          <span className="inline-flex items-center px-2 py-1 text-xs font-medium rounded-md text-slate-700 bg-slate-50 ring-1 ring-inset ring-slate-600/20">
+                            {line}
+                          </span>
+                        </div>
+                      ))}
+                    </p>
+                  </div>
+                </div>
                 <p className="max-w-lg text-sm leading-7 text-gray-600 ">
                   {sang.description.map((line) => (
                     <div className="mt-3" key={line}>
@@ -90,19 +111,32 @@ export function SongDetails({ isExpanded, expandedSongs, sang }) {
                     </div>
                   ))}
                 </p>
-                <div className="text-gray-700">
-                  {sang.lyrics && (
-                    <span>
-                      <Expandable.Button>
-                        <p className="">Tekst</p>
-                      </Expandable.Button>
-                    </span>
-                  )}
+                <div className="flex flex-col mt-10">
+                  <Link
+                    href={`/repertoar/${songSlug}`}
+                    className="text-sm font-semibold leading-6 transition-all duration-150 ease-in-out text-slate-800 hover:text-amber-600"
+                  >
+                    <button className="cursor-pointer">
+                      Gå til sangsiden <span aria-hidden="true">→</span>
+                    </button>
+                  </Link>
+                  <div className="mt-8 text-gray-700 lg:mb-3">
+                    {sang.lyrics && (
+                      <span>
+                        <Expandable.Button>
+                          <p className="">Tekst</p>
+                        </Expandable.Button>
+                      </span>
+                    )}
+                  </div>
+                  <div>
+                    {/* Added Link to dynamic song page using the generated slug */}
+                  </div>
                 </div>
                 {isExpanded ? (
                   <>
                     {sang.lyrics && (
-                      <div className="p-8 mt-6 mb-2 overflow-hidden rounded-lg bg-amber-50/70 w-fit">
+                      <div className="p-8 overflow-hidden rounded-lg bg-amber-50/70 w-fit">
                         <p className="max-w-lg text-sm font-medium leading-7 text-gray-600 ">
                           {sang.lyrics.map((line, i) => (
                             <div className="mt-0" key={i}>
@@ -114,51 +148,11 @@ export function SongDetails({ isExpanded, expandedSongs, sang }) {
                     )}
                   </>
                 ) : null}
+              </div>
 
-                <div className="pt-6">
-                  <p className="text-sm font-semibold text-gray-900">Språk</p>
-                  <p className="flex max-w-md gap-3 text-sm leading-7 text-gray-600">
-                    {sang.language.map((line) => (
-                      <div className="mt-3" key={line}>
-                        <span className="inline-flex items-center px-2 py-1 text-xs font-medium rounded-md text-slate-700 bg-slate-50 ring-1 ring-inset ring-slate-600/20">
-                          {line}
-                        </span>
-                      </div>
-                    ))}
-                  </p>
-                  <>
-                    {sang.audio && (
-                      <div className="mt-6">
-                        <audio controls>
-                          <source src={sang.audioUrl} type="audio/mpeg" />
-                          Your browser does not support the audio element.
-                        </audio>
-                      </div>
-                    )}
-                    {sang.performers && (
-                      <p className="max-w-lg pt-4 text-sm leading-7 text-gray-600">
-                        {sang.performers}
-                      </p>
-                    )}
-                  </>
-                </div>
-              </div>
               <div
                 aria-hidden="true"
-                className="relative mt-2 mb-10 overflow-hidden rounded-lg sm:hidden"
-              >
-                <Image
-                  src={sang.mobile}
-                  alt={sang.title}
-                  width={640}
-                  height={359}
-                  className="object-cover object-center w-full h-64"
-                  unoptimized
-                />
-              </div>
-              <div
-                aria-hidden="true"
-                className="relative hidden overflow-hidden rounded-lg sm:block"
+                className="relative hidden overflow-hidden rounded-lg lg:block"
               >
                 <Image
                   src={sang.desktop}

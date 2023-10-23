@@ -55,7 +55,7 @@ Expandable.Button = function Button({ children }) {
       {!isExpanded ? (
         <button
           type="button"
-          className="inline-flex items-center px-3.5 py-1.5 mt-5 text-sm font-medium rounded-md text-amber-800 bg-amber-50 ring-1 ring-inset ring-amber-600/20"
+          className="inline-flex items-center px-3.5 py-1.5 mt-0 text-sm font-medium rounded-md text-amber-800 bg-amber-50 ring-1 ring-inset ring-amber-600/20"
           onClick={toggleExpand}
         >
           {children}&nbsp;
@@ -65,7 +65,7 @@ Expandable.Button = function Button({ children }) {
         // Render a close button when expanded
         <button
           type="button"
-          className="inline-flex items-center px-3.5 py-1.5 mt-5 text-sm font-medium rounded-md text-slate-800 bg-slate-50 ring-1 ring-inset ring-slate-600/20"
+          className="inline-flex items-center px-3.5 py-1.5 mt-0 text-sm font-medium rounded-md text-slate-800 bg-slate-50 ring-1 ring-inset ring-slate-600/20"
           onClick={closeExpand}
         >
           Skjul tekst

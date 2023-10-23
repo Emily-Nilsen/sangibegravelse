@@ -29,7 +29,7 @@ export function Footer() {
       <h2 id="footer-heading" className="sr-only">
         Footer
       </h2>
-      <div className="px-6 pt-6 pb-8 mx-auto max-w-7xl sm:pt-24 lg:px-8 lg:pt-32">
+      <div className="px-6 pt-6 pb-8 mx-auto max-w-7xl sm:pt-16 lg:px-8">
         <div className="xl:grid xl:grid-cols-3 xl:gap-8">
           <div className="space-y-8">
             <Link href="/" className="-m-1.5 p-1.5">
