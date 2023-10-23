@@ -2523,5 +2523,44 @@
     "image": "https://res.cloudinary.com/dt3k2apqd/image/upload/v1698095969/Sang%20i%20begravelse/images/Ein_fin_liten_blomme_IMAGE_aqvfgl.webp",
     "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Ein_fin_liten_blomme_copy_ulkg6x.webp",
     "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Ein_fin_liten_blomme_MOBILE_ksec2f.webp"
+  },
+  {
+    "objectID": "33",
+    "category": "Klassisk",
+    "language": ["norsk"],
+    "title": "En svane",
+    "arrangement": ["solo"],
+    "composer": "Edvard Grieg og Henrik Ibsen",
+    "audio": false,
+    "description": [
+      "«En svane» av Edvard Grieg, komponert i 1876, er en stemningsfull og poetisk sang som utforsker temaene stillhet, skjønnhet og melankoli. Sangen ble skrevet til tekster av Henrik Ibsen og fremstiller naturens skjønnhet, ro og åndelige kvalitet, representert gjennom svanen. Griegs komposisjon understreker svanens stille eleganse og mystiske natur, som vekker opp en rekke følelser fra lytteren.",
+      "Sangen sammenligner svanens rolige glideflukt og fredelige aksept mot døden, og gir et rolig, kontemplativt og melankolsk sentiment. Teksten tar for seg en hvit svane som aldri sang i livet, men finner sin sang i døden. Dette gir sangen en følelse av evig skjønnhet og sårbarhet, og den resonnerer spesielt i kontekster av avskjed og minne.",
+      "Med sine rike tekstlige og musikalske elementer, tilbyr «En svane» et emosjonelt landskap som kan fange essensen av et siste farvel og den skånsomme melodien fremkaller en følelse av fred. Som en metafor for livets flyktige natur, understreker sangen viktigheten av nåde, skjønnhet og ro når man står overfor det ukjente."
+    ],
+    "lyrics": [
+      "Min hvide svane",
+      "Du stumme, du stille",
+      "Hverken slag eller trille",
+      "Lod sangrøst ane",
+      "",
+      "Angst beskyttende",
+      "Alfen, som sover",
+      "Altid lyttende",
+      "Gled du henover",
+      "",
+      "Men sidste mødet",
+      "Da eder og øjne",
+      "Var lønlige løgne",
+      "Ja da, da lød det!",
+      "",
+      "I toners føden",
+      "Du slutted din bane",
+      "Du sang i døden;",
+      "Du var dog en svane!"
+    ],
+    "alignment": "center",
+    "image": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/En_svane_IMAGE_aaj6wt.webp",
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/En_svane_copy_vs00nl.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/En_svane_MOBILE_n8lfte.webp"
   }
 ]
