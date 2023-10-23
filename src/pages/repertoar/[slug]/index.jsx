@@ -193,9 +193,8 @@ export function replaceSpecialCharacters(str) {
 }
 
 export function generateSlug(title, composer) {
-  const firstComposer = composer.split('/')[0].trim();
   const normalizedTitle = replaceSpecialCharacters(title);
-  const normalizedComposer = replaceSpecialCharacters(firstComposer);
+  const normalizedComposer = replaceSpecialCharacters(composer);
 
   const slug = `${normalizedTitle}-av-${normalizedComposer}`
     .toLowerCase()

@@ -10,20 +10,6 @@ import { ViolinIcon } from './icons/Violin';
 import { SoloIcon } from './icons/Solo';
 import { DuetIcon } from './icons/Duet';
 
-// Utility function to format composer names
-function formatComposerNames(composerString) {
-  const composers = composerString.split(' / ');
-
-  if (composers.length === 2) {
-    return composers.join(' og ');
-  } else if (composers.length > 2) {
-    const lastComposer = composers.pop();
-    return `${composers.join(', ')} og ${lastComposer}`;
-  } else {
-    return composerString;
-  }
-}
-
 // Utility function to get the arrangement icon
 const getArrangementIcon = (arrangement, type, IconComponent) => {
   return arrangement.includes(type) ? (
@@ -47,8 +33,6 @@ export function SongPageDetails({
   songAudioUrl,
   songPerformers,
 }) {
-  const formattedComposer = formatComposerNames(songComposer);
-
   return (
     <div className="relative pt-6 pb-24 overflow-hidden bg-white sm:pt-16 isolate sm:pb-32">
       <div className="px-6 mx-auto sm:-mt-12 max-w-7xl lg:px-8">
@@ -70,7 +54,7 @@ export function SongPageDetails({
             }}
             className="mt-6 text-lg leading-8 text-gray-700 "
           >
-            {formattedComposer}
+            {songComposer}
           </motion.p>
           <div className="mt-3 text-gray-600 lg:hidden">
             <td className="pt-2 text-sm text-gray-500 sm:table-cell">
