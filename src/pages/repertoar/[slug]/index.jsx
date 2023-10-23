@@ -45,42 +45,6 @@ export function generateMetaTags(songData, url) {
       name: songData.performers,
     });
   }
-
-  return (
-    <>
-      {/* Basic Meta Tags */}
-      <title>
-        {songData.title} av {songData.composer}
-      </title>
-      <meta
-        name="description"
-        content={`Få mer informasjon om sangen «${songData.title}» av ${songData.composer}, inkludert teksten.`}
-      />
-      <meta
-        name="keywords"
-        content={`begravelse, musikk, begravelsesseremoni, minnestund, begravelsesmusikk, ${songData.title}, ${songData.composer}`}
-      />
-      <link rel="canonical" href={url} key="canonical" />
-
-      {/* Open Graph */}
-      <meta property="og:title" content={songData.title} />
-      <meta
-        property="og:description"
-        content={`Få mer informasjon om sangen «${songData.title}» av ${songData.composer}, inkludert teksten.`}
-      />
-      <meta property="og:image" content={songData.mobile} />
-      <meta property="og:url" content={url} />
-      <meta property="og:type" content="music.song" />
-      <meta property="og:site_name" content="Sang i begravelse" />
-
-      {/* Schema Markup */}
-      {/* <script type="application/ld+json">{JSON.stringify(schema)}</script> */}
-      {/* Schema Markup for MusicComposition */}
-      <script type="application/ld+json">{JSON.stringify(schema)}</script>
-      {/* Schema Markup for MusicRecording */}
-      <script type="application/ld+json">{JSON.stringify(recording)}</script>
-    </>
-  );
 }
 
 export default function SongPage({ songData }) {
