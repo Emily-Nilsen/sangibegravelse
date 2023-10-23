@@ -15,32 +15,31 @@ export function generateMetaTags(songData, url) {
     inLanguage: 'nb',
     genre: songData.category,
     musicArrangement: songData.arrangement,
-  };
-
-  const recording = {
-    '@type': 'MusicRecording',
-    name: songData.title,
-    byArtist: [
-      {
-        '@type': 'PerformingGroup',
-        name: 'Sang i begravelse',
-        makesOffer: {
-          '@type': 'Offer',
-          description:
-            'Tilbys å fremføres på begravelse eller minnestund av én eller flere artister fra "Sang i begravelse".',
-          availability: 'http://schema.org/InStock',
+    recordedAs: {
+      '@type': 'MusicRecording',
+      name: songData.title,
+      byArtist: [
+        {
+          '@type': 'PerformingGroup',
+          name: 'Sang i begravelse',
+          makesOffer: {
+            '@type': 'Offer',
+            description:
+              'Tilbys å fremføres på begravelse eller minnestund av én eller flere artister fra "Sang i begravelse".',
+            availability: 'http://schema.org/InStock',
+          },
         },
-      },
-    ],
+      ],
+    },
   };
 
   if (songData.audio) {
-    recording.audio = {
+    schema.recordedAs.audio = {
       '@type': 'AudioObject',
       contentUrl: songData.audioUrl,
       description: `Utdrag av fremføring av ${songData.title} av ${songData.performers}`,
     };
-    recording.byArtist.push({
+    schema.recordedAs.byArtist.push({
       '@type': 'Person',
       name: songData.performers,
     });
@@ -73,16 +72,10 @@ export function generateMetaTags(songData, url) {
       <meta property="og:type" content="music.song" />
       <meta property="og:site_name" content="Sang i begravelse" />
 
-      {/* Schema Markup */}
-      {/* Schema Markup for MusicComposition */}
+      {/* Combined Schema Markup */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-      ></script>
-      {/* Schema Markup for MusicRecording */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(recording) }}
       ></script>
     </>
   );
