@@ -59,7 +59,7 @@ export function LanguageDropdown({ handleLanguageChange }) {
               leaveFrom="opacity-100"
               leaveTo="opacity-0"
             >
-              <Listbox.Options className="absolute left-0 z-10 w-48 py-1 mt-2 overflow-auto text-base bg-white rounded-md shadow-lg max-h-none ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm">
+              <Listbox.Options className="absolute left-0 z-10 w-auto py-1 mt-2 overflow-auto text-base bg-white rounded-md shadow-lg max-h-none ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm">
                 {languages.map((language) => (
                   <Listbox.Option
                     key={language.id}

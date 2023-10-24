@@ -98,13 +98,29 @@ export function RepertoireList({
                 </td>
                 <td className="px-3 py-4 text-sm text-gray-500">
                   {sang.category && (
-                    <span
-                      className={`inline-flex items-center px-2 py-1 text-xs font-medium rounded-md ring-1 ring-inset ring-600/20 ${
-                        categoryStyles[sang.category]
-                      }`}
-                    >
-                      {sang.category}
-                    </span>
+                    <>
+                      <div
+                        className={`inline-flex items-center px-2 py-1 text-xs font-medium rounded-md ring-1 ring-inset ring-600/20 ${
+                          categoryStyles[sang.category]
+                        }`}
+                      >
+                        {sang.category}
+                      </div>
+                      {/* Arrangement icons on mobile */}
+                      <div className="flex pt-2.5 space-x-1 sm:hidden">
+                        {getArrangementIcon(sang.arrangement, 'solo', SoloIcon)}
+                        {getArrangementIcon(
+                          sang.arrangement,
+                          'duett',
+                          DuetIcon
+                        )}
+                        {getArrangementIcon(
+                          sang.arrangement,
+                          'fiolin',
+                          ViolinIcon
+                        )}
+                      </div>
+                    </>
                   )}
                 </td>
                 <td className="py-4 pl-3 pr-4 text-sm font-medium text-right sm:pr-0">

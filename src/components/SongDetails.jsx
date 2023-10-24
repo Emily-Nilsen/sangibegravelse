@@ -48,6 +48,13 @@ export function SongDetails({ isExpanded, expandedSongs, sang }) {
     return true;
   };
 
+  // Format languages
+  const formatLanguages = (languages) => {
+    if (languages.length === 1) return languages[0];
+    if (languages.length === 2) return `${languages[0]} og ${languages[1]}`;
+    return languages.slice(0, -1).join(', ') + ' og ' + languages.slice(-1);
+  };
+
   return (
     <>
       {expandedSongs.includes(sang.objectID) && (
@@ -55,12 +62,12 @@ export function SongDetails({ isExpanded, expandedSongs, sang }) {
           <td colSpan="5">
             <div
               id="expanded"
-              className="grid w-full grid-cols-1 gap-4 p-4 md:grid-cols-2"
+              className="grid w-full grid-cols-1 gap-0 p-4 md:grid-cols-2"
             >
               {/* Image on mobile */}
               <div
                 aria-hidden="true"
-                className="relative my-2 overflow-hidden rounded-lg lg:hidden"
+                className="relative mt-2 overflow-hidden rounded-lg lg:hidden"
               >
                 <Image
                   src={sang.mobile}
@@ -71,12 +78,12 @@ export function SongDetails({ isExpanded, expandedSongs, sang }) {
                   unoptimized
                 />
               </div>
-              <div className="p-3">
+              <div>
                 {/* audio player */}
                 <div>
                   <div className="pb-6">
                     {sang.audio && (
-                      <div className="pb-0 mt-0">
+                      <div className="pt-8 pb-0 mt-0">
                         <audio controls>
                           <source src={sang.audioUrl} type="audio/mpeg" />
                           Your browser does not support the audio element.
@@ -84,75 +91,62 @@ export function SongDetails({ isExpanded, expandedSongs, sang }) {
                       </div>
                     )}
                     {sang.performers && (
-                      <p className="max-w-lg pt-4 text-sm leading-7 text-gray-600">
-                        «{sang.title}» av {sang.performers}
+                      <p className="max-w-lg pt-4 text-sm leading-7 text-amber-700">
+                        «{sang.title}» av{' '}
+                        <span className="font-semibold">{sang.performers}</span>
                       </p>
                     )}
-                  </div>
-                  <div className="flex items-center mb-10 gap-x-3">
-                    <p className="text-sm font-semibold text-gray-900">
-                      Sang språk
-                    </p>
-                    <p className="flex max-w-md gap-3 text-sm leading-7 text-gray-600">
-                      {sang.language.map((line) => (
-                        <div className="mt-0" key={line}>
-                          <span className="inline-flex items-center px-2 py-1 text-xs font-medium rounded-md text-slate-700 bg-slate-50 ring-1 ring-inset ring-slate-600/20">
-                            {line}
-                          </span>
-                        </div>
-                      ))}
-                    </p>
                   </div>
                 </div>
                 <p className="max-w-lg text-sm leading-7 text-gray-600 ">
                   {sang.description.map((line) => (
-                    <div className="mt-3" key={line}>
+                    <div className="mb-3" key={line}>
                       <p>{line}</p>
                     </div>
                   ))}
                 </p>
-                <div className="flex flex-col mt-10">
+
+                <div className="flex flex-col mt-8 mb-4 space-y-6">
+                  <div className="text-gray-700">
+                    {sang.lyrics && (
+                      <span>
+                        <Expandable.Button>
+                          <p className="">
+                            Tekst på {formatLanguages(sang.language)}
+                          </p>
+                        </Expandable.Button>
+                      </span>
+                    )}
+                  </div>
+                  {isExpanded ? (
+                    <>
+                      {sang.lyrics && (
+                        <div className="p-8 overflow-hidden rounded-lg bg-amber-50/70 w-fit">
+                          <p className="max-w-lg text-sm font-medium leading-7 text-gray-600 ">
+                            {sang.lyrics.map((line, i) => (
+                              <div className="mt-0" key={i}>
+                                {line === '' ? <br /> : <p>{line}</p>}
+                              </div>
+                            ))}
+                          </p>
+                        </div>
+                      )}
+                    </>
+                  ) : null}
                   <Link
                     href={`/repertoar/${songSlug}`}
-                    className="text-sm font-semibold leading-6 transition-all duration-150 ease-in-out text-slate-800 hover:text-amber-600"
+                    className="text-sm font-semibold leading-6 transition-all duration-150 ease-in-out sm:hidden text-amber-700 hover:text-amber-600"
                   >
                     <button className="cursor-pointer">
                       Gå til sangsiden <span aria-hidden="true">→</span>
                     </button>
                   </Link>
-                  <div className="mt-8 text-gray-700 lg:mb-3">
-                    {sang.lyrics && (
-                      <span>
-                        <Expandable.Button>
-                          <p className="">Tekst</p>
-                        </Expandable.Button>
-                      </span>
-                    )}
-                  </div>
-                  <div>
-                    {/* Added Link to dynamic song page using the generated slug */}
-                  </div>
                 </div>
-                {isExpanded ? (
-                  <>
-                    {sang.lyrics && (
-                      <div className="p-8 overflow-hidden rounded-lg bg-amber-50/70 w-fit">
-                        <p className="max-w-lg text-sm font-medium leading-7 text-gray-600 ">
-                          {sang.lyrics.map((line, i) => (
-                            <div className="mt-0" key={i}>
-                              {line === '' ? <br /> : <p>{line}</p>}
-                            </div>
-                          ))}
-                        </p>
-                      </div>
-                    )}
-                  </>
-                ) : null}
               </div>
 
               <div
                 aria-hidden="true"
-                className="relative hidden overflow-hidden rounded-lg lg:block"
+                className="relative hidden pt-8 overflow-hidden rounded-lg lg:block"
               >
                 <Image
                   src={sang.desktop}
@@ -162,6 +156,14 @@ export function SongDetails({ isExpanded, expandedSongs, sang }) {
                   className="object-cover object-center w-full overflow-hidden rounded-lg h-96"
                   unoptimized
                 />
+                <Link
+                  href={`/repertoar/${songSlug}`}
+                  className="flex justify-end text-sm font-semibold leading-6 transition-all duration-150 ease-in-out text-slate-700 hover:text-amber-700"
+                >
+                  <button className="mt-6 cursor-pointer">
+                    Gå til sangsiden <span aria-hidden="true">→</span>
+                  </button>
+                </Link>
               </div>
             </div>
           </td>

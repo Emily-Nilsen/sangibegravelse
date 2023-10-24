@@ -47,7 +47,7 @@ export function ArrangementDropdown({ handleArrangementChange }) {
               leaveFrom="opacity-100"
               leaveTo="opacity-0"
             >
-              <Listbox.Options className="absolute left-0 z-10 w-48 py-1 mt-2 overflow-auto text-base bg-white rounded-md shadow-lg max-h-60 ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm">
+              <Listbox.Options className="absolute right-0 z-10 w-auto py-1 mt-2 overflow-auto text-base bg-white rounded-md shadow-lg max-h-60 ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm">
                 {arrangements.map((arrangement) => (
                   <Listbox.Option
                     key={arrangement.id}
