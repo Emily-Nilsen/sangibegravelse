@@ -41,7 +41,7 @@ export function SongPageDetails({
           <p className="text-lg font-semibold leading-8 tracking-tight text-slate-600">
             {songCategory}
           </p>
-          <h6 className="mt-2 text-5xl tracking-tight text-gray-900 sm:text-6xl">
+          <h6 className="mt-2 text-5xl text-gray-900 sm:text-6xl">
             {songTitle}
           </h6>
           <motion.p

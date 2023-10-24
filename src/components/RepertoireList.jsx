@@ -70,7 +70,8 @@ export function RepertoireList({
   };
 
   return (
-    <div className="mt-8 -mx-4 sm:-mx-0">
+    // Add scroll to the div below
+    <div className="relative mt-8 -mx-4 sm:-mx-0">
       <table className="min-w-full divide-y divide-gray-300">
         <TableHeader />
         <tbody className="bg-white divide-y divide-gray-200">

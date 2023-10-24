@@ -31,7 +31,7 @@ export function HeroNilsGeorg() {
         <div className="absolute top-0 left-0 w-full h-40 opacity-50 bg-gradient-to-b from-gray-900/50" />
         <div className="max-w-md py-32 pr-6 mx-auto sm:mr-12 sm:-ml-12 sm:col-start-2 sm:max-w-2xl md:max-w-3xl sm:py-48 lg:py-56 sm:mx-0">
           <div className="text-center sm:text-left">
-            <h6 className="pt-20 text-5xl tracking-tight text-white sm:text-slate-700 sm:text-6xl lg:text-7xl">
+            <h6 className="pt-20 text-5xl text-white sm:text-slate-700 sm:text-6xl lg:text-7xl">
               Nils Georg Nilsen
             </h6>
 

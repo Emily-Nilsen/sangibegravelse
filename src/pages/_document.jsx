@@ -13,7 +13,7 @@ export default function Document() {
           href="https://use.typekit.net/sth1kfg.css"
         ></link>
       </Head>
-      <body>
+      <body className="bg-white">
         <Main />
         <NextScript />
       </body>

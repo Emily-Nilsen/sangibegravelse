@@ -20,7 +20,7 @@ export default function Repertoar() {
           key="canonical"
         />
       </Head>
-      <div className="bg-white">
+      <div>
         <main>
           <HeroRepertoar />
           <RepertoarToggle />

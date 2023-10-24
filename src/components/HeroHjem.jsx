@@ -35,7 +35,7 @@ export function HeroHjem() {
         ></div>
         <div className="max-w-md py-32 mx-auto sm:max-w-2xl md:max-w-3xl sm:py-48 lg:py-56">
           <div className="relative z-10 text-center">
-            <h6 className="text-5xl tracking-tight text-slate-950 sm:text-slate-900 sm:text-6xl lg:text-7xl">
+            <h6 className="text-5xl text-slate-950 sm:text-slate-900 sm:text-6xl lg:text-7xl">
               Sang i begravelse
             </h6>
             <motion.p

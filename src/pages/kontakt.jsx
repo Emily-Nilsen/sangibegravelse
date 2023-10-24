@@ -51,9 +51,7 @@ export default function Kontakt() {
             aria-hidden="true"
           ></div>
           <div className="max-w-2xl mx-auto text-center">
-            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-              Ta kontakt
-            </h2>
+            <h6 className="text-5xl text-gray-900 sm:text-6xl">Ta kontakt</h6>
             <motion.p
               whileInView={{ opacity: 1 }}
               initial={{ opacity: 0 }}

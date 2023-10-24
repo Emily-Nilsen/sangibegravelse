@@ -15,6 +15,7 @@ const navigation = {
 
   omOss: [
     { name: 'Hjem', href: '/' },
+    { name: 'Tilbakemeldinger', href: '/tilbakemeldinger' },
     { name: 'Kontakt', href: '/kontakt' },
   ],
   personvern: [{ name: 'Personvernerklæring', href: '/personvernerklaering' }],

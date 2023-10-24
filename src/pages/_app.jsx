@@ -13,6 +13,8 @@ export default function App({ Component, pageProps }) {
   if (
     router.pathname === '/' ||
     router.pathname === '/repertoar' ||
+    router.pathname === '/tilbakemeldinger' ||
+    router.pathname === '/personvernerklaering' ||
     router.pathname === '/kontakt'
   ) {
     textColour = 'dark';
@@ -24,7 +26,7 @@ export default function App({ Component, pageProps }) {
 
   return (
     <>
-      <div className="relative">
+      <div className="relative bg-white">
         <Header textColour={textColour} />
         <main>
           <Component {...pageProps} />
