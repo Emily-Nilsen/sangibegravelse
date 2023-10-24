@@ -1,6 +1,7 @@
 import Head from 'next/head';
 
 import { HeroHjem } from '@/components/HeroHjem';
+import { Oppdatering } from '@/components/Oppdatering';
 import { RepertoarPreview } from '@/components/RepertoarPreview';
 import { ArtistsPreview } from '@/components/ArtistsPreview';
 import { VideoList } from '@/components/VideoList';
@@ -25,6 +26,7 @@ export default function Home() {
       <div className="bg-white">
         <main>
           <HeroHjem />
+          <Oppdatering />
           <RepertoarPreview />
           <ArtistsPreview />
           <VideoList />

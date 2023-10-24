@@ -8,11 +8,11 @@ export default function Repertoar() {
     <>
       <Head>
         <title>
-          Repertoar av begravelsessanger – Klassisk, pop, opera, salmer og viser
+          Repertoar av begravelsessanger – Klassisk, pop, salmer, viser og mer
         </title>
         <meta
           name="description"
-          content="Utforsk vårt varierte repertoar av klassisk, pop, opera, salmer, viser-sanger og mer med beskrivelser og arrangementer. Skap følelsesladet musikk til minnesverdige øyeblikk."
+          content="Utforsk vårt varierte repertoar av klassisk, pop, salmer, viser-sanger og mer med beskrivelser og arrangementer. Skap følelsesladet musikk til minnesverdige øyeblikk."
         />
         <link
           rel="canonical"

@@ -83,16 +83,6 @@ export function RepertoarPreview() {
                   </motion.div>
                 ))}
               </dl>
-              <div className="flex w-full my-6">
-                <p className="mt-6">
-                  <Link
-                    href="/repertoar"
-                    className="text-sm font-semibold leading-6 transition duration-150 ease-in-out text-slate-600 hover:text-slate-500"
-                  >
-                    Se hele repertoaret <span aria-hidden="true">→</span>
-                  </Link>
-                </p>
-              </div>
             </div>
           </div>
           {/* desktop */}
@@ -116,6 +106,16 @@ export function RepertoarPreview() {
               width={1456}
               height={728}
             />
+            <div className="hidden w-full sm:flex">
+              <p className="mt-6">
+                <Link
+                  href="/repertoar"
+                  className="text-sm font-semibold leading-6 transition duration-150 ease-in-out text-slate-600 hover:text-slate-800"
+                >
+                  Se hele repertoaret <span aria-hidden="true">→</span>
+                </Link>
+              </p>
+            </div>
           </motion.div>
           <motion.div
             className="relative sm:hidden"
@@ -137,6 +137,16 @@ export function RepertoarPreview() {
               width={1456}
               height={728}
             />
+            <div className="flex w-full sm:hidden">
+              <p className="mt-6">
+                <Link
+                  href="/repertoar"
+                  className="text-sm font-semibold leading-6 transition duration-150 ease-in-out text-slate-600 hover:text-slate-500"
+                >
+                  Se hele repertoaret <span aria-hidden="true">→</span>
+                </Link>
+              </p>
+            </div>
           </motion.div>
         </div>
       </div>

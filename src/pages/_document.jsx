@@ -6,7 +6,7 @@ export default function Document() {
       <Head>
         <link
           rel="icon"
-          href="https://res.cloudinary.com/dt3k2apqd/image/upload/v1697286621/Sang%20i%20begravelse/S_logo_d8lc9d.svg"
+          href="https://res.cloudinary.com/dt3k2apqd/image/upload/v1698137985/Sang%20i%20begravelse/Sang_i_begravelse_logo_xx4ayb.svg"
         />
         <link
           rel="stylesheet"

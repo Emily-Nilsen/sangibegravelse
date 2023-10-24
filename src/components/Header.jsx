@@ -25,7 +25,7 @@ export function Header({ textColour }) {
         aria-label="Global"
       >
         <div className="group">
-          <div className="flex p-1 transition-all duration-300 ease-in-out rounded-full bg-white/20 group-hover:bg-white/50 lg:flex-1">
+          <div className="flex p-1 transition-all duration-300 ease-in-out rounded-full bg-white/70 group-hover:bg-white/90 lg:flex-1">
             <Link href="/" className="-m-1.5 p-1.5">
               <span className="sr-only">Sang i begravelse</span>
               <Image
