@@ -1,11 +1,16 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useRef } from 'react';
 import { motion } from 'framer-motion';
 import { CategoryDropdown } from './CategoryDropdown';
 import { LanguageDropdown } from './LanguageDropdown';
 import { ArrangementDropdown } from './ArrangementDropdown';
 import { RepertoireList } from './RepertoireList';
+import { Pagination } from './Pagination';
+import { filterSongs } from '../../utilities/filterSongs';
 
 export function RepertoarToggle() {
+  const [currentPage, setCurrentPage] = useState(1);
+  const itemsPerPage = 10;
+
   const [repertoire, setRepertoire] = useState([]);
   const [selectedCategory, setSelectedCategory] = useState('');
   const [selectedLanguage, setSelectedLanguage] = useState('');
@@ -23,57 +28,30 @@ export function RepertoarToggle() {
       })
       .catch((error) => {
         console.error(error);
-        // Implement an error message or a notification for the user here.
       });
   }, []);
-
-  // Filter function to apply selected filters
-  const filterSongs = (song) => {
-    if (selectedCategory !== 'Alle' && song.category !== selectedCategory) {
-      return false;
-    }
-    console.log('Filtering song:', song.title);
-    console.log('Selected Arrangement:', selectedArrangement);
-    if (
-      selectedArrangement &&
-      selectedArrangement !== 'Alle' &&
-      !song.arrangement.some(
-        (arr) => arr.toLowerCase() === selectedArrangement.toLowerCase()
-      )
-    ) {
-      console.log('Filtered out by Arrangement:', song.title);
-      return false;
-    }
-
-    if (selectedLanguage && song.language !== selectedLanguage) {
-      return false;
-    }
-    return true;
-  };
 
   const handleCategoryChange = (newCategory) => {
     setSelectedCategory(newCategory);
   };
 
-  const handleLanguageChange = (selectedLanguage) => {
-    setSelectedLanguage(selectedLanguage);
+  const handleLanguageChange = (newLanguage) => {
+    setSelectedLanguage(newLanguage);
   };
 
-  const handleArrangementChange = (selectedArrangement) => {
-    setSelectedArrangement(selectedArrangement);
+  const handleArrangementChange = (newArrangement) => {
+    setSelectedArrangement(newArrangement);
   };
 
-  const [expandedSongs, setExpandedSongs] = useState([]);
-
-  const toggleSong = (songId) => {
-    setExpandedSongs((prevExpandedSongs) => {
-      if (prevExpandedSongs.includes(songId)) {
-        return prevExpandedSongs.filter((id) => id !== songId);
-      } else {
-        return [...prevExpandedSongs, songId];
-      }
-    });
-  };
+  const filteredRepertoire = repertoire.filter((song) =>
+    filterSongs(song, selectedCategory, selectedLanguage, selectedArrangement)
+  );
+  const totalPages = Math.ceil(filteredRepertoire.length / itemsPerPage);
+  const currentItems = filteredRepertoire.slice(
+    (currentPage - 1) * itemsPerPage,
+    currentPage * itemsPerPage
+  );
+  const filterControlsRef = useRef(null);
 
   return (
     <section>
@@ -101,28 +79,35 @@ export function RepertoarToggle() {
             </motion.p>
           </div>
           {/* Filter controls */}
-          <div className="pt-12 sm:pb-4">
+          <div className="pt-12 sm:pb-4" ref={filterControlsRef}>
             <div className="flex space-x-4 text-sm">
               <CategoryDropdown
                 selectedCategory={selectedCategory}
                 handleCategoryChange={handleCategoryChange}
               />
-
               {/* Subcategory */}
               <LanguageDropdown handleLanguageChange={handleLanguageChange} />
-
               <ArrangementDropdown
                 handleArrangementChange={handleArrangementChange}
               />
             </div>
           </div>
         </div>
+
         {/* Repertoire list */}
         <RepertoireList
-          repertoire={repertoire}
+          repertoire={currentItems}
           selectedCategory={selectedCategory}
           selectedLanguage={selectedLanguage}
           selectedArrangement={selectedArrangement}
+        />
+
+        {/* Pagination controls */}
+        <Pagination
+          currentPage={currentPage}
+          totalPages={totalPages}
+          setCurrentPage={setCurrentPage}
+          filterControlsRef={filterControlsRef}
         />
       </div>
     </section>

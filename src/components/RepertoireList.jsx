@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { MinusSmallIcon, PlusSmallIcon } from '@heroicons/react/24/outline';
+import { filterSongs } from '../../utilities/filterSongs';
 import { Expandable } from '@/components/Expandable';
 import { TableHeader } from './TableHeader';
 import { SongDetails } from './SongDetails';
@@ -13,30 +14,6 @@ export function RepertoireList({
   selectedLanguage,
   repertoire,
 }) {
-  const filterSongs = (song) => {
-    // Basic filters for category and language
-    const basicFilters = [
-      [selectedCategory, song.category],
-      [selectedLanguage, song.language],
-    ];
-
-    const passesBasicFilters = basicFilters.every(([selected, property]) => {
-      return !selected || selected === 'Alle' || property.includes(selected);
-    });
-
-    // Additional filter for arrangement
-    if (selectedArrangement && selectedArrangement !== 'Alle') {
-      return (
-        passesBasicFilters &&
-        song.arrangement.some(
-          (arr) => arr.toLowerCase() === selectedArrangement.toLowerCase()
-        )
-      );
-    }
-
-    return passesBasicFilters;
-  };
-
   const [expandedSongs, setExpandedSongs] = useState([]);
 
   const toggleSong = (songId) => {
@@ -75,79 +52,99 @@ export function RepertoireList({
       <table className="min-w-full divide-y divide-gray-300">
         <TableHeader />
         <tbody className="bg-white divide-y divide-gray-200">
-          {repertoire.filter(filterSongs).map((sang) => (
-            <React.Fragment key={sang.objectID}>
-              <tr>
-                <td className="w-full py-4 pl-4 pr-3 text-sm font-medium text-gray-900 max-w-0 sm:w-auto sm:max-w-none sm:pl-0">
-                  {sang.title}
-                  <dl className="font-normal lg:hidden">
-                    <dt className="sr-only">Composer</dt>
-                    <dd className="mt-1 text-gray-700 truncate">
-                      {sang.composer}
-                    </dd>
-                  </dl>
-                </td>
-                <td className="hidden px-3 py-4 text-sm text-gray-500 lg:table-cell">
-                  {sang.composer}
-                </td>
-                <td className="hidden px-3 py-4 text-sm text-gray-500 sm:table-cell">
-                  <div className="flex space-x-1">
-                    {getArrangementIcon(sang.arrangement, 'solo', SoloIcon)}
-                    {getArrangementIcon(sang.arrangement, 'duett', DuetIcon)}
-                    {getArrangementIcon(sang.arrangement, 'fiolin', ViolinIcon)}
-                  </div>
-                </td>
-                <td className="px-3 py-4 text-sm text-gray-500">
-                  {sang.category && (
-                    <>
-                      <div
-                        className={`inline-flex items-center px-2 py-1 text-xs font-medium rounded-md ring-1 ring-inset ring-600/20 ${
-                          categoryStyles[sang.category]
-                        }`}
-                      >
-                        {sang.category}
-                      </div>
-                      {/* Arrangement icons on mobile */}
-                      <div className="flex pt-2.5 space-x-1 sm:hidden">
-                        {getArrangementIcon(sang.arrangement, 'solo', SoloIcon)}
-                        {getArrangementIcon(
-                          sang.arrangement,
-                          'duett',
-                          DuetIcon
-                        )}
-                        {getArrangementIcon(
-                          sang.arrangement,
-                          'fiolin',
-                          ViolinIcon
-                        )}
-                      </div>
-                    </>
-                  )}
-                </td>
-                <td className="py-4 pl-3 pr-4 text-sm font-medium text-right sm:pr-0">
-                  <button
-                    className="ml-2 focus:outline-none"
-                    onClick={() => toggleSong(sang.objectID)}
-                  >
-                    {expandedSongs.includes(sang.objectID) ? (
-                      <MinusSmallIcon className="w-6 h-6" aria-hidden="true" />
-                    ) : (
-                      <PlusSmallIcon className="w-6 h-6" aria-hidden="true" />
+          {repertoire
+            .filter((song) =>
+              filterSongs(
+                song,
+                selectedCategory,
+                selectedLanguage,
+                selectedArrangement
+              )
+            )
+            .map((sang) => (
+              <React.Fragment key={sang.objectID}>
+                <tr>
+                  <td className="w-full py-4 pl-4 pr-3 text-sm font-medium text-gray-900 max-w-0 sm:w-auto sm:max-w-none sm:pl-0">
+                    {sang.title}
+                    <dl className="font-normal lg:hidden">
+                      <dt className="sr-only">Composer</dt>
+                      <dd className="mt-1 text-gray-700 truncate">
+                        {sang.composer}
+                      </dd>
+                    </dl>
+                  </td>
+                  <td className="hidden px-3 py-4 text-sm text-gray-500 lg:table-cell">
+                    {sang.composer}
+                  </td>
+                  <td className="hidden px-3 py-4 text-sm text-gray-500 sm:table-cell">
+                    <div className="flex space-x-1">
+                      {getArrangementIcon(sang.arrangement, 'solo', SoloIcon)}
+                      {getArrangementIcon(sang.arrangement, 'duett', DuetIcon)}
+                      {getArrangementIcon(
+                        sang.arrangement,
+                        'fiolin',
+                        ViolinIcon
+                      )}
+                    </div>
+                  </td>
+                  <td className="px-3 py-4 text-sm text-gray-500">
+                    {sang.category && (
+                      <>
+                        <div
+                          className={`inline-flex items-center px-2 py-1 text-xs font-medium rounded-md ring-1 ring-inset ring-600/20 ${
+                            categoryStyles[sang.category]
+                          }`}
+                        >
+                          {sang.category}
+                        </div>
+                        {/* Arrangement icons on mobile */}
+                        <div className="flex pt-2.5 space-x-1 sm:hidden">
+                          {getArrangementIcon(
+                            sang.arrangement,
+                            'solo',
+                            SoloIcon
+                          )}
+                          {getArrangementIcon(
+                            sang.arrangement,
+                            'duett',
+                            DuetIcon
+                          )}
+                          {getArrangementIcon(
+                            sang.arrangement,
+                            'fiolin',
+                            ViolinIcon
+                          )}
+                        </div>
+                      </>
                     )}
-                  </button>
-                </td>
-              </tr>
-              <Expandable>
-                {({ isExpanded }) => (
-                  <SongDetails
-                    isExpanded={isExpanded}
-                    expandedSongs={expandedSongs}
-                    sang={sang}
-                  />
-                )}
-              </Expandable>
-            </React.Fragment>
-          ))}
+                  </td>
+                  <td className="py-4 pl-3 pr-4 text-sm font-medium text-right sm:pr-0">
+                    <button
+                      className="ml-2 focus:outline-none"
+                      onClick={() => toggleSong(sang.objectID)}
+                    >
+                      {expandedSongs.includes(sang.objectID) ? (
+                        <MinusSmallIcon
+                          className="w-6 h-6"
+                          aria-hidden="true"
+                        />
+                      ) : (
+                        <PlusSmallIcon className="w-6 h-6" aria-hidden="true" />
+                      )}
+                    </button>
+                  </td>
+                </tr>
+                <Expandable>
+                  {({ isExpanded }) => (
+                    <SongDetails
+                      isExpanded={isExpanded}
+                      expandedSongs={expandedSongs}
+                      sang={sang}
+                    />
+                  )}
+                </Expandable>
+              </React.Fragment>
+            ))}
         </tbody>
       </table>
     </div>

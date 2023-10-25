@@ -35,7 +35,7 @@ export function LanguageDropdown({ handleLanguageChange }) {
   return (
     <Listbox value={selected} onChange={handleSelectionChange}>
       {({ open }) => (
-        <div div className="w-full sm:w-auto">
+        <div className="w-full sm:w-auto">
           <div className="block mb-1">
             <Listbox.Label className="block text-sm font-medium leading-6 text-gray-900">
               Språk
