@@ -76,7 +76,7 @@ export function SongPageDetails({
               </div>
             )}
             {songPerformers && (
-              <p className="max-w-lg pt-4 text-sm leading-7 text-gray-600">
+              <p className="max-w-lg pt-4 text-sm leading-7 text-amber-700">
                 «{songTitle}» av{' '}
                 <span className="font-medium">{songPerformers}</span>.
               </p>
