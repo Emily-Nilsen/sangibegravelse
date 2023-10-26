@@ -5,6 +5,7 @@ const featuredTestimonial = {
   body: 'Hei Nils, ‘En verdig begravelse’, ‘Jeg fikk sånn ro med en gang sangeren begynte å synge’, ‘Det varmet sjelen’, var noen av de tilbakemeldingene vi fikk. Tusen takk igjen for flott musikk. Jeg må si spesielt til ‘stjernen’ som du ble omtalt, Nils. Vi er så glade for at vi fikk dere som musikere til begravelsen til faren vår. ',
   author: {
     name: 'Bendik',
+    place: 'Tanum kirke',
   },
 };
 const testimonials = [
@@ -14,12 +15,14 @@ const testimonials = [
         body: 'Tusen hjertelig takk for en fantastisk vakker vokal i begravelsen til pappaen min idag, Alladin. Du har en unik stemme og tilstedeværelse.',
         author: {
           name: 'Lisa med familie',
+          place: 'Stalsberghagen kapell',
         },
       },
       {
         body: 'Min mann gikk bort 20 august og vi hadde bisettelse i Haslum store seremonirom 31 august med deg som solist.For et lykketreff! Anthem ble nydelig fremført, og at du med din tenor fikset God natt kjære Oslo med glans - og så avslutningen da. Smile med Nat King Cole var min manns yndlings melodi. Min mann smilte bestandig - og spredte glede rundt seg så han ba meg om at Smile skulle være en siste hilsen fra ham til oss alle på denne dagen. Så tusen takk for at du gjorde en tung og vond dag til noe flott og verdifullt og ta med seg videre.',
         author: {
           name: 'Anne-Britt',
+          place: 'Haslum krematorium',
         },
       },
       // More testimonials...
@@ -29,13 +32,14 @@ const testimonials = [
         body: 'Kjære Nils Georg, ja, som Tante Ragny ofte sier, «det kunne ikke vært finere!». Alle var så imponerte over dere - det ble så minnerik, og vi er så takknemlig!',
         author: {
           name: 'Tina',
+          place: 'Frognerseteren',
         },
       },
       {
         body: 'Jan-Tore er en klippe i vår portefølje av gravferdssangere. Jan-Tore er en varm, god og veldig dyktig sanger som alltid leverer, ofte mer en det som forventes! «Han e heil ved» og det er med en ektehet og innlevelse som beskriver at han virkelig ønsker å gi de etterlatte en så god opplevelse som mulig.',
         author: {
           name: 'Harry E.Hanssen, gravferdskonsulent',
-          company: 'Klemmetsby-Firing begravelsesbyrå',
+          place: 'Klemmetsby-Firing begravelsesbyrå',
         },
       },
       // More testimonials...
@@ -47,12 +51,14 @@ const testimonials = [
         body: 'Tuuuuusen takk for fantastisk sang i dag i Mammas begravelse❤️ På minnesamværet tok vi en applaus for deg, alle syntes det hadde vært veldig vanskelig å ikke applaudere deg i kirken🤣 Det var rett og slett nydelig 🤗',
         author: {
           name: 'Sissel',
+          place: 'Sørum kirke',
         },
       },
       {
         body: 'Du sang i gravferden til min sønn i Vestre gravlunds kapell sist tirsdag. Vi fikk ikke hilst på deg og takket for bidraget og fortalt hvor fornøyd vi, og alle andre vi snakket med, var med fremførelsen. Du sang nydelig og bidrog til en vakker og verdig avskjed. Takk!',
         author: {
           name: 'Torbjørn',
+          place: 'Vestre gravlunds kapell',
         },
       },
       // More testimonials...
@@ -62,13 +68,14 @@ const testimonials = [
         body: 'For oss i Horten Begravelsesbyrå er Jan-Tore et av de aller sikreste kortene i bunken. Allsidig som få - dyktig som enda færre. Profesjonell - i alle aspekter av sitt virke. Han leverer alltid, uavhengig av hva vi utfordrer han på - til våre og ikke minst; over de pårørendes forventninger. Med Jan-Tore på laget - så er vi 100% trygge!',
         author: {
           name: 'Aron Preus, gravferdskonsulent',
-          company: 'Horten begravelsesbyrå',
+          place: 'Horten begravelsesbyrå',
         },
       },
       {
         body: 'Hei! En stor takk for vakker sang og musikk fra deg og de andre i min mors bisettelse i går! Det var så vakkert og stemningsfullt, og vi satte stor pris på deres bidrag!',
         author: {
           name: 'Kristina',
+          place: 'Høybråten kirke',
         },
       },
       // More testimonials...
@@ -152,7 +159,7 @@ export default function tilbakemeldinger() {
                               {testimonial.author.name}
                             </div>
                             <div className="text-gray-600">
-                              {testimonial.author.company}
+                              {testimonial.author.place}
                             </div>
                           </div>
                         </figcaption>

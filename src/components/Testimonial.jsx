@@ -39,7 +39,7 @@ export function Testimonial() {
               </blockquote>
               <figcaption className="mt-6 text-base text-slate-800">
                 <div className="font-semibold">Tina</div>
-                {/* <div className="mt-1">Bærum</div> */}
+                <div className="mt-1">Frognerseteren</div>
               </figcaption>
             </figure>
           </div>
