@@ -4,7 +4,7 @@ import { HeroHjem } from '@/components/HeroHjem';
 import { Oppdatering } from '@/components/Oppdatering';
 import { RepertoarPreview } from '@/components/RepertoarPreview';
 import { ArtistsPreview } from '@/components/ArtistsPreview';
-import { VideoList } from '@/components/VideoList';
+import { Testimonial } from '@/components/Testimonial';
 
 export default function Home() {
   return (
@@ -29,7 +29,7 @@ export default function Home() {
           <Oppdatering />
           <RepertoarPreview />
           <ArtistsPreview />
-          <VideoList />
+          <Testimonial />
         </main>
       </div>
     </>

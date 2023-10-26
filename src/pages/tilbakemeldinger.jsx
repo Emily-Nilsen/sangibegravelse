@@ -26,7 +26,7 @@ const testimonials = [
     ],
     [
       {
-        body: 'Kjære Nils Georg, Ja, som Tante Ragny ofte sier, «det kunne ikke vært finere!». Alle var så imponerte over dere - det ble så minnerik, og vi er så takknemlig!',
+        body: 'Kjære Nils Georg, ja, som Tante Ragny ofte sier, «det kunne ikke vært finere!». Alle var så imponerte over dere - det ble så minnerik, og vi er så takknemlig!',
         author: {
           name: 'Tina',
         },

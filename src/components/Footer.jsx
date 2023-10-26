@@ -4,7 +4,7 @@ import Link from 'next/link';
 const navigation = {
   sanger: [
     { name: 'Repertoar', href: '/repertoar' },
-    { name: 'Videoer', href: '/#videoer' },
+    // { name: 'Videoer', href: '/#videoer' },
   ],
   artister: [
     { name: 'Susanne Hals', href: '/susanne-hvinden-hals' },
@@ -33,7 +33,7 @@ export function Footer() {
       <div className="px-6 pt-6 pb-8 mx-auto max-w-7xl sm:pt-16 lg:px-8">
         <div className="xl:grid xl:grid-cols-3 xl:gap-8">
           <div className="space-y-8">
-            <Link href="/" className="-m-1.5 p-1.5">
+            <Link href="/" className="flex">
               <span className="sr-only">Sang i begravelse</span>
               <Image
                 className="w-24 h-auto transition-all duration-300 ease-in-out cursor-pointer hover:rotate-3"

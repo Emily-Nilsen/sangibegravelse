@@ -106,7 +106,19 @@ export function RepertoarPreview() {
               width={1456}
               height={728}
             />
-            <div className="hidden w-full sm:flex">
+            <motion.div
+              whileInView={{ opacity: 1, y: 0 }}
+              initial={{
+                opacity: 0,
+                y: 50,
+              }}
+              transition={{
+                delay: 0.5,
+                duration: 1,
+                type: 'fade',
+              }}
+              className="hidden w-full sm:flex"
+            >
               <p className="mt-6">
                 <Link
                   href="/repertoar"
@@ -115,7 +127,7 @@ export function RepertoarPreview() {
                   Se hele repertoaret <span aria-hidden="true">→</span>
                 </Link>
               </p>
-            </div>
+            </motion.div>
           </motion.div>
           <motion.div
             className="relative sm:hidden"

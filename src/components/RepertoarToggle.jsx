@@ -108,6 +108,7 @@ export function RepertoarToggle() {
           totalPages={totalPages}
           setCurrentPage={setCurrentPage}
           filterControlsRef={filterControlsRef}
+          totalSongs={filteredRepertoire.length} // New prop
         />
       </div>
     </section>

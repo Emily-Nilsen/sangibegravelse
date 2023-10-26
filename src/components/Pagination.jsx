@@ -3,6 +3,7 @@ export function Pagination({
   totalPages,
   setCurrentPage,
   filterControlsRef,
+  totalSongs, // New prop
 }) {
   const handleNavigation = (action) => {
     if (action === 'previous') {
@@ -23,7 +24,7 @@ export function Pagination({
           Viser{' '}
           <span className="font-medium">{(currentPage - 1) * 10 + 1}</span> til{' '}
           <span className="font-medium">{currentPage * 10}</span> av{' '}
-          <span className="font-medium">{totalPages * 10}</span> sanger
+          <span className="font-medium">{totalSongs}</span> sanger
         </p>
       </div>
       <div className="flex justify-between flex-1 sm:justify-end">
@@ -42,7 +43,7 @@ export function Pagination({
           <p className="text-sm text-gray-700">
             <span className="font-medium">{(currentPage - 1) * 10 + 1}</span> –{' '}
             <span className="font-medium">{currentPage * 10}</span> av{' '}
-            <span className="font-medium">{totalPages * 10}</span> sanger
+            <span className="font-medium">{totalSongs}</span> sanger
           </p>
         </div>
         <button
