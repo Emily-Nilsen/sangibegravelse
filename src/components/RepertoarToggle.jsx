@@ -19,7 +19,7 @@ export function RepertoarToggle() {
   useEffect(() => {
     fetch('/api/repertoire')
       .then((response) => {
-        if (!response.ok) throw new Error('Failed to fetch repertoire.');
+        if (!response.ok) throw new Error('Kunne ikke hente repertoar.');
         return response.json();
       })
       .then((data) => {

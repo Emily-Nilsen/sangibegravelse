@@ -1,14 +1,12 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
-import {
-  CloudArrowUpIcon,
-  LockClosedIcon,
-  ServerIcon,
-} from '@heroicons/react/20/solid';
+import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/react/20/solid';
 import { ViolinIcon } from './icons/Violin';
 import { SoloIcon } from './icons/Solo';
 import { DuetIcon } from './icons/Duet';
+import { getPerformerLink } from '../../utilities/getPerformerLink';
+import { generateSlug } from '../pages/repertoar/[slug]';
 
 // Utility function to get the arrangement icon
 const getArrangementIcon = (arrangement, type, IconComponent) => {
@@ -18,6 +16,41 @@ const getArrangementIcon = (arrangement, type, IconComponent) => {
     </span>
   ) : null;
 };
+
+const PaginationSection = ({ prevSong, nextSong }) => (
+  <div className="flex w-full gap-3 sm:gap-6 sm:justify-between sm:flex-row">
+    <div className="relative flex w-full ">
+      {prevSong && (
+        <Link
+          href={`/repertoar/${generateSlug(prevSong.title, prevSong.composer)}`}
+          className="font-medium text-amber-700 bg-amber-50/70 rounded-md px-3.5 py-2.5 flex-auto items-stretch border border-transparent hover:border-amber-600/10 transition-all duration-300 ease-in-out hover:bg-amber-50/50 cursor-pointer"
+        >
+          <div className="flex items-center h-full">
+            <div className="flex-none">
+              <ChevronLeftIcon className="w-4 h-auto mr-2 text-amber-700" />
+            </div>
+            <div className="flex-1 pr-2">{prevSong.title}</div>
+          </div>
+        </Link>
+      )}
+    </div>
+    <div className="flex justify-end w-full">
+      {nextSong && (
+        <Link
+          href={`/repertoar/${generateSlug(nextSong.title, nextSong.composer)}`}
+          className="font-medium text-amber-700 bg-amber-50/70 rounded-md px-3.5 py-2.5 flex-auto items-stretch border border-transparent hover:border-amber-600/10 transition-all duration-300 ease-in-out hover:bg-amber-50/50 cursor-pointer"
+        >
+          <div className="flex items-center h-full">
+            <div className="flex-1 pl-2">{nextSong.title}</div>
+            <div className="flex-none">
+              <ChevronRightIcon className="w-4 h-auto ml-2 text-amber-700" />
+            </div>
+          </div>
+        </Link>
+      )}
+    </div>
+  </div>
+);
 
 export function SongPageDetails({
   songCategory,
@@ -32,6 +65,8 @@ export function SongPageDetails({
   songAudio,
   songAudioUrl,
   songPerformers,
+  nextSong,
+  prevSong,
 }) {
   return (
     <div className="relative pt-6 pb-24 overflow-hidden bg-white sm:pt-16 isolate sm:pb-32">
@@ -41,7 +76,7 @@ export function SongPageDetails({
           <p className="text-lg font-semibold leading-8 tracking-tight text-slate-600">
             {songCategory}
           </p>
-          <h6 className="mt-2 text-5xl text-gray-900 sm:text-6xl">
+          <h6 className="mt-2 text-5xl text-gray-900 sm:text-6xl hyphens-auto">
             {songTitle}
           </h6>
           <motion.p
@@ -52,7 +87,7 @@ export function SongPageDetails({
               duration: 1,
               type: 'fade',
             }}
-            className="mt-6 text-lg leading-8 text-gray-700 "
+            className="mt-6 text-lg leading-8 text-gray-700"
           >
             {songComposer}
           </motion.p>
@@ -75,13 +110,53 @@ export function SongPageDetails({
                 </audio>
               </div>
             )}
-            {songPerformers && (
-              <p className="max-w-lg pt-4 text-sm leading-7 text-amber-700">
+            {Array.isArray(songPerformers) && songPerformers.length > 0 && (
+              <p className="max-w-lg pt-4 text-sm leading-7 text-slate-700">
                 «{songTitle}» av{' '}
-                <span className="font-medium">{songPerformers}</span>.
+                <span>
+                  {songPerformers.reduce((acc, performer, i, arr) => {
+                    const link = getPerformerLink(performer);
+                    if (i === 0)
+                      return (
+                        <Link
+                          href={link}
+                          className="font-semibold transition-all duration-300 ease-in-out cursor-pointer hover:text-slate-800"
+                        >
+                          {performer}
+                        </Link>
+                      );
+                    if (i === arr.length - 1)
+                      return (
+                        <>
+                          {acc} og{' '}
+                          <Link
+                            href={link}
+                            className="font-semibold transition-all duration-300 ease-in-out cursor-pointer hover:text-slate-800"
+                          >
+                            {performer}
+                          </Link>
+                        </>
+                      );
+                    return (
+                      <>
+                        {acc},{' '}
+                        <Link
+                          href={link}
+                          className="font-semibold transition-all duration-300 ease-in-out cursor-pointer hover:text-slate-800"
+                        >
+                          {performer}
+                        </Link>
+                      </>
+                    );
+                  }, '')}
+                </span>
+                .
               </p>
             )}
           </>
+          <div className="my-8 lg:hidden">
+            <PaginationSection prevSong={prevSong} nextSong={nextSong} />
+          </div>
         </div>
 
         {/* Song lyrics desktop */}
@@ -99,6 +174,10 @@ export function SongPageDetails({
             }}
             className="relative hidden lg:order-last lg:col-span-5 lg:block"
           >
+            {/* Pagination Section */}
+            <div className="mb-16 -mt-16">
+              <PaginationSection prevSong={prevSong} nextSong={nextSong} />
+            </div>
             <figure className="pl-8 border-l border-slate-600">
               <figcaption className="flex mb-8 gap-x-4">
                 <div className="text-sm leading-6">
@@ -154,94 +233,109 @@ export function SongPageDetails({
                 </div>
               ))}
             </motion.p>
-            {/* Audio player and language */}
-            <motion.div
-              whileInView={{ opacity: 1 }}
-              initial={{ opacity: 0 }}
-              transition={{
-                delay: 0.5,
-                duration: 1,
-                type: 'fade',
-              }}
-              className="pt-6"
-            >
-              <p className="text-sm font-semibold text-gray-900">Språk</p>
-              <p className="flex max-w-md gap-3 text-sm leading-7 text-gray-600">
-                {songLanguage.map((line) => (
-                  <div className="mt-3" key={line}>
-                    <span className="inline-flex items-center px-2 py-1 text-xs font-medium rounded-md text-slate-700 bg-slate-50 ring-1 ring-inset ring-slate-600/20">
-                      {line}
-                    </span>
-                  </div>
-                ))}
-              </p>
-            </motion.div>
-            {/* Song lyrics mobile */}
-            <motion.div
-              whileInView={{ opacity: 1, y: 0 }}
-              initial={{
-                opacity: 0,
-                y: 50,
-              }}
-              transition={{
-                delay: 0.5,
-                duration: 1,
-                type: 'fade',
-              }}
-              className="relative mt-12 border-t lg:hidden border-gray-900/10"
-            >
-              <figure>
-                <figcaption className="flex mb-8 gap-x-4">
-                  <div className="text-sm leading-6">
-                    <h6 className="pt-6 text-4xl text-gray-900">Tekst</h6>
-                  </div>
-                </figcaption>
-                <blockquote className="text-lg font-medium leading-8 tracking-tight text-slate-600">
-                  <p>
-                    {songLyrics && (
-                      <div>
-                        <p className="">
-                          {songLyrics.map((line, i) => (
-                            <div className="mt-0" key={i}>
-                              {line === '' ? <br /> : <p>{line}</p>}
-                            </div>
-                          ))}
-                        </p>
-                      </div>
-                    )}
-                  </p>
-                </blockquote>
-              </figure>
-            </motion.div>
-            {/* Navigation back to repertoire and artists */}
-            <motion.div
-              whileInView={{ opacity: 1, y: 0 }}
-              initial={{
-                opacity: 0,
-                y: 50,
-              }}
-              transition={{
-                delay: 0.5,
-                duration: 1,
-                type: 'fade',
-              }}
-              className="flex items-center mt-10 lg:mt-16 justify-left gap-x-6"
-            >
-              <Link
-                href="/repertoar"
-                className="rounded-md bg-amber-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-amber-600/90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-slate-400 transition-all duration-150 ease-in-out cursor-pointer"
+            {/* Bottom three links */}
+            <div className="flex flex-col space-y-12">
+              {/* Audio player and language */}
+              <motion.div
+                whileInView={{ opacity: 1 }}
+                initial={{ opacity: 0 }}
+                transition={{
+                  delay: 0.5,
+                  duration: 1,
+                  type: 'fade',
+                }}
+                className="flex items-center pt-6 gap-x-3"
               >
-                <button className="cursor-pointer">Se hele repertoaret</button>
-              </Link>
-              <Link
-                href="#artister"
-                className="text-sm font-semibold leading-6 transition-all duration-150 ease-in-out text-slate-800 hover:text-slate-950"
+                <p className="text-sm font-semibold text-gray-900">Språk</p>
+                <p className="flex max-w-md text-sm leading-7 text-gray-600">
+                  {songLanguage.map((line) => (
+                    <div className="mt-0" key={line}>
+                      <span className="inline-flex items-center px-2 py-1 text-xs font-medium rounded-md text-slate-700 bg-slate-50 ring-1 ring-inset ring-slate-600/20">
+                        {line}
+                      </span>
+                    </div>
+                  ))}
+                </p>
+              </motion.div>
+              {/* Song lyrics mobile */}
+              <motion.div
+                whileInView={{ opacity: 1, y: 0 }}
+                initial={{
+                  opacity: 0,
+                  y: 50,
+                }}
+                transition={{
+                  delay: 0.5,
+                  duration: 1,
+                  type: 'fade',
+                }}
+                className="relative mt-12 border-t lg:hidden border-gray-900/10"
               >
-                <button className="cursor-pointer">
-                  Artister <span aria-hidden="true">→</span>
-                </button>
-              </Link>
-            </motion.div>
+                <figure>
+                  <figcaption className="flex mb-8 gap-x-4">
+                    <div className="text-sm leading-6">
+                      <h6 className="pt-6 text-4xl text-gray-900">
+                        {songTitle}
+                      </h6>
+                    </div>
+                  </figcaption>
+                  <blockquote className="text-lg font-medium leading-8 tracking-tight text-slate-600">
+                    <p>
+                      {songLyrics && (
+                        <div>
+                          <p className="">
+                            {songLyrics.map((line, i) => (
+                              <div className="mt-0" key={i}>
+                                {line === '' ? <br /> : <p>{line}</p>}
+                              </div>
+                            ))}
+                          </p>
+                        </div>
+                      )}
+                    </p>
+                  </blockquote>
+                </figure>
+              </motion.div>
+              {/* Pagination Section */}
+              <motion.div
+                whileInView={{ opacity: 1, y: 0 }}
+                initial={{
+                  opacity: 0,
+                  y: 50,
+                }}
+                transition={{
+                  delay: 0.5,
+                  duration: 1,
+                  type: 'fade',
+                }}
+                className="my-0"
+              >
+                <PaginationSection prevSong={prevSong} nextSong={nextSong} />
+              </motion.div>
+              {/* Navigation back to repertoire and artists */}
+              <motion.div
+                whileInView={{ opacity: 1, y: 0 }}
+                initial={{
+                  opacity: 0,
+                  y: 50,
+                }}
+                transition={{
+                  delay: 0.5,
+                  duration: 1,
+                  type: 'fade',
+                }}
+                className="flex items-center sm:justify-left sm:justify-stretch gap-x-6"
+              >
+                <Link
+                  href="/repertoar"
+                  className="rounded-md bg-amber-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-amber-600/90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-slate-400 transition-all duration-150 ease-in-out cursor-pointer border border-amber-600 flex-auto text-center"
+                >
+                  <button className="cursor-pointer">
+                    Se hele repertoaret
+                  </button>
+                </Link>
+              </motion.div>
+            </div>
           </div>
         </div>
       </div>

@@ -7,6 +7,7 @@ import { Disclosure } from '@headlessui/react';
 import { MinusSmallIcon, PlusSmallIcon } from '@heroicons/react/24/outline';
 import { Expandable } from '@/components/Expandable';
 import { generateSlug } from '../pages/repertoar/[slug]';
+import { getPerformerLink } from '../../utilities/getPerformerLink';
 
 export function SongDetails({ isExpanded, expandedSongs, sang }) {
   const [repertoire, setRepertoire] = useState([]);
@@ -55,6 +56,37 @@ export function SongDetails({ isExpanded, expandedSongs, sang }) {
     return languages.slice(0, -1).join(', ') + ' og ' + languages.slice(-1);
   };
 
+  // Format performers
+  const formatPerformers = (performers) => {
+    if (performers.length === 1) return performers[0];
+    if (performers.length === 2) return `${performers[0]} og ${performers[1]}`;
+    return performers.slice(0, -1).join(', ') + ' og ' + performers.slice(-1);
+  };
+
+  // Format performers with clickable links
+  const formatPerformersWithLinks = (performers) => {
+    return performers.map((performer, index, array) => {
+      const separator =
+        index === array.length - 1
+          ? ''
+          : index === array.length - 2
+          ? ' og '
+          : ', ';
+      const link = getPerformerLink(performer);
+      return (
+        <span key={performer}>
+          <Link
+            href={link}
+            className="font-semibold transition duration-300 ease-in-out cursor-pointer hover:text-amber-800"
+          >
+            {performer}
+          </Link>
+          {separator}
+        </span>
+      );
+    });
+  };
+
   return (
     <>
       {expandedSongs.includes(sang.objectID) && (
@@ -93,7 +125,10 @@ export function SongDetails({ isExpanded, expandedSongs, sang }) {
                     {sang.performers && (
                       <p className="max-w-lg pt-4 text-sm leading-7 text-amber-700">
                         «{sang.title}» av{' '}
-                        <span className="font-semibold">{sang.performers}</span>
+                        <span>
+                          {formatPerformersWithLinks(sang.performers)}
+                        </span>
+                        .
                       </p>
                     )}
                   </div>

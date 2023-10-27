@@ -57,14 +57,14 @@ export function Testimonial() {
           }}
           className="flex justify-end w-full"
         >
-          <p className="pr-4 mt-12 sm:pr-0">
+          {/* <p className="pr-4 mt-12 sm:pr-0">
             <Link
               href="/tilbakemeldinger"
               className="text-sm font-semibold leading-6 transition duration-150 ease-in-out text-slate-600 hover:text-slate-500"
             >
               Tilbakemeldinger <span aria-hidden="true">→</span>
             </Link>
-          </p>
+          </p> */}
         </motion.div>
       </div>
     </div>

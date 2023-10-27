@@ -14,6 +14,9 @@ export function Pagination({
     filterControlsRef.current.scrollIntoView({ behavior: 'smooth' });
   };
 
+  const endSongNumber =
+    currentPage === totalPages ? totalSongs : currentPage * 10;
+
   return (
     <nav
       className="flex items-center justify-between px-0 pt-6 pb-3 bg-white border-t border-gray-200 sm:px-6"
@@ -23,7 +26,7 @@ export function Pagination({
         <p className="text-sm text-gray-700">
           Viser{' '}
           <span className="font-medium">{(currentPage - 1) * 10 + 1}</span> til{' '}
-          <span className="font-medium">{currentPage * 10}</span> av{' '}
+          <span className="font-medium">{endSongNumber}</span> av{' '}
           <span className="font-medium">{totalSongs}</span> sanger
         </p>
       </div>
@@ -42,7 +45,7 @@ export function Pagination({
         <div className="flex items-center sm:hidden">
           <p className="text-sm text-gray-700">
             <span className="font-medium">{(currentPage - 1) * 10 + 1}</span> –{' '}
-            <span className="font-medium">{currentPage * 10}</span> av{' '}
+            <span className="font-medium">{endSongNumber}</span> av{' '}
             <span className="font-medium">{totalSongs}</span> sanger
           </p>
         </div>

@@ -11,10 +11,12 @@ export function HeroSong({ songImage, songTitle, imageAlignment }) {
           alt={songTitle}
           width={1456}
           height={1000}
-          className={`absolute inset-0 object-cover w-full h-full -z-10 object-${imageAlignment}`}
+          className="absolute inset-0 object-cover w-full h-full -z-10"
+          style={{ objectPosition: imageAlignment }}
           priority
           unoptimized
         />
+
         {/* top white gradient */}
         <div className="absolute left-0 w-full h-40 -top-10 opacity-500 bg-gradient-to-b from-gray-900/50" />
         <div className="absolute top-0 left-0 w-full h-40 opacity-50 bg-gradient-to-b from-gray-900/50" />

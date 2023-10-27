@@ -43,6 +43,14 @@ export function generateMetaTags(songData, url) {
       '@type': 'Person',
       name: songData.performers,
     });
+    if (Array.isArray(songData.performers)) {
+      songData.performers.forEach((performer) => {
+        schema.recordedAs.byArtist.push({
+          '@type': 'Person',
+          name: performer,
+        });
+      });
+    }
   }
 
   return (
@@ -84,7 +92,7 @@ export function generateMetaTags(songData, url) {
   );
 }
 
-export default function SongPage({ songData }) {
+export default function SongPage({ songData, nextSong, prevSong }) {
   const router = useRouter();
   const baseUrl = 'https://sangibegravelse.no';
   const currentUrl = `${baseUrl}${router.asPath}`;
@@ -117,7 +125,10 @@ export default function SongPage({ songData }) {
             songVideo={songData.video}
             songLanguage={songData.language}
             songPerformers={songData.performers}
+            nextSong={nextSong}
+            prevSong={prevSong}
           />
+
           <div className="absolute left-0 z-20 w-full overflow-visible opacity-100 h-60 -top-60 bg-gradient-to-t from-white" />
 
           {/* Render additional song details and schema data as needed */}
@@ -207,7 +218,10 @@ export function generateSlug(title, composer) {
 }
 
 export async function getStaticPaths() {
-  const paths = data.map((song) => ({
+  const collator = new Intl.Collator('nb');
+  const sortedData = data.sort((a, b) => collator.compare(a.title, b.title));
+
+  const paths = sortedData.map((song) => ({
     params: { slug: generateSlug(song.title, song.composer) },
   }));
 
@@ -218,18 +232,33 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-  const songData = data.find(
+  const collator = new Intl.Collator('nb');
+  const sortedData = [...data].sort((a, b) =>
+    collator.compare(a.title, b.title)
+  );
+
+  const songIndex = sortedData.findIndex(
     (song) => generateSlug(song.title, song.composer) === params.slug
   );
 
-  if (!songData) {
+  const songData = sortedData[songIndex];
+
+  if (songIndex === -1) {
     return {
       notFound: true,
     };
   }
 
+  const prevSong = songIndex - 1 >= 0 ? sortedData[songIndex - 1] : null;
+  const nextSong =
+    songIndex + 1 < sortedData.length ? sortedData[songIndex + 1] : null;
+
   return {
-    props: { songData },
+    props: {
+      songData,
+      nextSong,
+      prevSong,
+    },
     revalidate: 1,
   };
 }
