@@ -2,6 +2,7 @@ import Head from 'next/head';
 
 import { HeroJanTore } from '@/components/HeroJanTore';
 import { JanTore } from '@/components/JanTore';
+import { Tilbakemeldinger } from '../components/Tilbakemeldinger';
 
 export default function JanToreSaltnes() {
   return (
@@ -24,6 +25,7 @@ export default function JanToreSaltnes() {
         <main>
           <HeroJanTore />
           <JanTore />
+          <Tilbakemeldinger artistName="Jan-Tore Saltnes" />
         </main>
       </div>
     </>

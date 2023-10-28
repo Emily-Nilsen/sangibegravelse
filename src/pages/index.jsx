@@ -27,7 +27,7 @@ export default function Home() {
     <>
       <Head>
         <title>
-          Sang i begravelse - musikk fremført av profesjonelle artister
+          Sang i begravelse - Musikk fremført av profesjonelle artister
         </title>
         <meta
           name="description"

@@ -2,6 +2,7 @@ import Head from 'next/head';
 
 import { HeroNilsGeorg } from '@/components/HeroNilsGeorg';
 import { NilsGeorg } from '@/components/NilsGeorg';
+import { Tilbakemeldinger } from '../components/Tilbakemeldinger';
 
 export default function NilsGeorgNilsen() {
   return (
@@ -24,6 +25,7 @@ export default function NilsGeorgNilsen() {
         <main>
           <HeroNilsGeorg />
           <NilsGeorg />
+          <Tilbakemeldinger artistName="Nils Georg Nilsen" />
         </main>
       </div>
     </>
