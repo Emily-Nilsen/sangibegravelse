@@ -53,8 +53,10 @@ export default function Home() {
             '@type': 'WebSite',
             url: 'https://sangibegravelse.no/',
             name: 'Sang i begravelse',
-            image:
+            image: [
               'https://res.cloudinary.com/dt3k2apqd/image/upload/v1698149656/Sang%20i%20begravelse/Sang_i_begravelse_logo_l0ipsd.svg',
+              'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Sang_i_begravelse_jfysbv.webp',
+            ],
             description:
               'En plattform for å finne og velge sanger til begravelser eller minnestunder med mulighet til å engasjere profesjonelle norske artister.',
             potentialAction: {
