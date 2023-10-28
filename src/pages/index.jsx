@@ -45,7 +45,7 @@ export default function Home() {
         {/* Open Graph Details */}
         <meta
           property="og:title"
-          content="Sang i begravelse - musikk fremført av profesjonelle artister"
+          content="Sang i begravelse - Musikk fremført av profesjonelle artister"
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://sangibegravelse.no/" />
