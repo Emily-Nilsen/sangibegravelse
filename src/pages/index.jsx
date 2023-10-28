@@ -55,13 +55,13 @@ export default function Home() {
             name: 'Sang i begravelse',
             image:
               'https://res.cloudinary.com/dt3k2apqd/image/upload/v1698149656/Sang%20i%20begravelse/Sang_i_begravelse_logo_l0ipsd.svg',
+            description:
+              'En plattform for å finne og velge sanger til begravelser eller minnestunder med mulighet til å engasjere profesjonelle norske artister.',
             potentialAction: {
               '@type': 'SearchAction',
               target: 'https://sangibegravelse.no/sok?q={search_term_string}',
               'query-input': 'required name=search_term_string',
             },
-            description:
-              'En plattform for å finne og velge sanger til begravelser eller minnestunder med mulighet til å engasjere profesjonelle norske artister.',
           })}
         </script>
       </Head>
