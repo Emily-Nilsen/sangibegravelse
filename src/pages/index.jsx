@@ -53,9 +53,8 @@ export default function Home() {
             '@type': 'WebSite',
             url: 'https://sangibegravelse.no/',
             name: 'Sang i begravelse',
-            logo: 'https://res.cloudinary.com/dt3k2apqd/image/upload/v1698149656/Sang%20i%20begravelse/Sang_i_begravelse_logo_l0ipsd.svg',
             image:
-              'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Sang_i_begravelse_jfysbv.webp',
+              'https://res.cloudinary.com/dt3k2apqd/image/upload/v1698149656/Sang%20i%20begravelse/Sang_i_begravelse_logo_l0ipsd.svg',
             potentialAction: {
               '@type': 'SearchAction',
               target: 'https://sangibegravelse.no/sok?q={search_term_string}',
