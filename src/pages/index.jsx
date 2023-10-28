@@ -7,6 +7,22 @@ import { ArtistsPreview } from '@/components/ArtistsPreview';
 import { Testimonial } from '@/components/Testimonial';
 
 export default function Home() {
+  const structuredData = {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    url: 'https://sangibegravelse.no/',
+    name: 'Sang i begravelse',
+    image:
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Sang_i_begravelse_jfysbv.webp',
+    description:
+      'En plattform for å finne og velge sanger til begravelser eller minnestunder med mulighet til å engasjere profesjonelle norske artister.',
+    potentialAction: {
+      '@type': 'SearchAction',
+      target: 'https://sangibegravelse.no/sok?q={search_term_string}',
+      'query-input': 'required name=search_term_string',
+    },
+  };
+
   return (
     <>
       <Head>
@@ -47,23 +63,10 @@ export default function Home() {
         />
         <meta property="og:locale" content="nb_NO" />
         {/* Structured Data */}
-        <script type="application/ld+json">
-          {JSON.stringify({
-            '@context': 'https://schema.org',
-            '@type': 'WebSite',
-            url: 'https://sangibegravelse.no/',
-            name: 'Sang i begravelse',
-            image:
-              'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Sang_i_begravelse_jfysbv.webp',
-            description:
-              'En plattform for å finne og velge sanger til begravelser eller minnestunder med mulighet til å engasjere profesjonelle norske artister.',
-            potentialAction: {
-              '@type': 'SearchAction',
-              target: 'https://sangibegravelse.no/sok?q={search_term_string}',
-              'query-input': 'required name=search_term_string',
-            },
-          })}
-        </script>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+        ></script>
       </Head>
       <div className="bg-white">
         <main>
