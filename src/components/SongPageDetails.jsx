@@ -17,40 +17,48 @@ const getArrangementIcon = (arrangement, type, IconComponent) => {
   ) : null;
 };
 
-const PaginationSection = ({ prevSong, nextSong }) => (
-  <div className="flex w-full gap-2 sm:gap-6 sm:justify-between sm:flex-row">
-    <div className="relative flex w-full ">
-      {prevSong && (
-        <Link
-          href={`/repertoar/${generateSlug(prevSong.title, prevSong.composer)}`}
-          className="font-medium text-amber-700 rounded-md pr-2 py-2.5 flex-auto items-stretch transition-all duration-300 ease-in-out hover:underline cursor-pointer"
-        >
-          <div className="flex items-start">
-            <div className="flex-none">
-              <ChevronLeftIcon className="w-5 h-auto mt-0.5 mr-2 text-amber-700" />
+export function PaginationSection({ prevSong, nextSong }) {
+  return (
+    <div className="flex w-full gap-2 sm:gap-6 sm:justify-between sm:flex-row">
+      <div className="relative flex w-full">
+        {prevSong && (
+          <Link
+            href={`/repertoar/${generateSlug(
+              prevSong.title,
+              prevSong.composer
+            )}`}
+            className="font-medium text-amber-700 rounded-md pr-2 py-2.5 flex-auto items-stretch transition-all duration-300 ease-in-out hover:underline cursor-pointer"
+          >
+            <div className="flex items-start">
+              <div className="flex-none">
+                <ChevronLeftIcon className="w-5 h-auto mt-0.5 mr-2 text-amber-700" />
+              </div>
+              <div className="flex-1 pr-2">{prevSong.title}</div>
             </div>
-            <div className="flex-1 pr-2">{prevSong.title}</div>
-          </div>
-        </Link>
-      )}
-    </div>
-    <div className="flex justify-end w-full">
-      {nextSong && (
-        <Link
-          href={`/repertoar/${generateSlug(nextSong.title, nextSong.composer)}`}
-          className="font-medium text-amber-700 rounded-md pl-2 py-2.5 flex-auto items-stretch transition-all duration-300 ease-in-out hover:underline cursor-pointer"
-        >
-          <div className="flex items-start">
-            <div className="flex-1 pl-2">{nextSong.title}</div>
-            <div className="flex-none">
-              <ChevronRightIcon className="w-5 h-auto mt-0.5 ml-2 text-amber-700" />
+          </Link>
+        )}
+      </div>
+      <div className="flex justify-end w-full">
+        {nextSong && (
+          <Link
+            href={`/repertoar/${generateSlug(
+              nextSong.title,
+              nextSong.composer
+            )}`}
+            className="font-medium text-amber-700 rounded-md pl-2 py-2.5 flex-auto items-stretch transition-all duration-300 ease-in-out hover:underline cursor-pointer"
+          >
+            <div className="flex items-start">
+              <div className="flex-1 pl-2 text-right">{nextSong.title}</div>
+              <div className="flex-none">
+                <ChevronRightIcon className="w-5 h-auto mt-0.5 ml-2 text-amber-700" />
+              </div>
             </div>
-          </div>
-        </Link>
-      )}
+          </Link>
+        )}
+      </div>
     </div>
-  </div>
-);
+  );
+}
 
 export function SongPageDetails({
   songCategory,
@@ -97,13 +105,13 @@ export function SongPageDetails({
             {songComposer}
           </motion.p>
           <div className="mt-3 text-gray-600 lg:hidden">
-            <td className="pt-2 text-sm text-gray-500 sm:table-cell">
+            <div className="pt-2 text-sm text-gray-500 sm:table-cell">
               <div className="flex space-x-1">
                 {getArrangementIcon(songArrangement, 'solo', SoloIcon)}
                 {getArrangementIcon(songArrangement, 'duett', DuetIcon)}
                 {getArrangementIcon(songArrangement, 'fiolin', ViolinIcon)}
               </div>
-            </td>
+            </div>
           </div>
           {/* Audio player */}
           <>
@@ -190,7 +198,7 @@ export function SongPageDetails({
                   <div className="flex items-center gap-3">
                     <p className="text-gray-600">Arrangement: </p>
 
-                    <td className="pt-0 text-sm text-gray-500 sm:table-cell">
+                    <div className="pt-0 text-sm text-gray-500 sm:table-cell">
                       <div className="flex space-x-1">
                         {getArrangementIcon(songArrangement, 'solo', SoloIcon)}
                         {getArrangementIcon(songArrangement, 'duett', DuetIcon)}
@@ -200,7 +208,7 @@ export function SongPageDetails({
                           ViolinIcon
                         )}
                       </div>
-                    </td>
+                    </div>
                   </div>
                 </div>
               </figcaption>

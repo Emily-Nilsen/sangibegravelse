@@ -35,7 +35,7 @@ export default function Home() {
         />
         <meta
           name="keywords"
-          content="begravelse, sang, musikk, Norge, artister, begravelsesmusikk, minneseremoni, urnenedsettelse, repertoar, repertoarliste, begravelsessang, begravelsessanger, sanger, fiolin, solo, duett, viser, salmer, pop, rock, soul, julesanger, klassisk, opera, folkemusikk, musikal, jazz, R&B"
+          content="begravelse, sang, musikk, Norge, solosang, gravferd, forslag til musikk ved gravferd, artister, begravelsesmusikk, minneseremoni, urnenedsettelse, repertoar, repertoarliste, begravelsessang, begravelsessanger, sanger, fiolin, solo, duett, viser, salmer, pop, rock, soul, julesanger, klassisk, opera, folkemusikk, musikal, jazz, R&B"
         />
         <link
           rel="canonical"
