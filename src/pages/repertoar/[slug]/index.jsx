@@ -116,6 +116,7 @@ export default function SongPage({ songData, nextSong, prevSong }) {
           <SongPageDetails
             songCategory={songData.category}
             songTitle={songData.title}
+            songHyphen={songData.hyphen}
             songComposer={songData.composer}
             songDescription={songData.description}
             songLyrics={songData.lyrics}

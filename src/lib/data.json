@@ -982,6 +982,7 @@
     "category": "Viser",
     "language": ["norsk"],
     "title": "Barndomsminne fra Nordland",
+    "hyphen": true,
     "arrangement": ["solo"],
     "composer": "Elias Blix",
     "audio": false,

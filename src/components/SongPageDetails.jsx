@@ -18,16 +18,16 @@ const getArrangementIcon = (arrangement, type, IconComponent) => {
 };
 
 const PaginationSection = ({ prevSong, nextSong }) => (
-  <div className="flex w-full gap-3 sm:gap-6 sm:justify-between sm:flex-row">
+  <div className="flex w-full gap-2 sm:gap-6 sm:justify-between sm:flex-row">
     <div className="relative flex w-full ">
       {prevSong && (
         <Link
           href={`/repertoar/${generateSlug(prevSong.title, prevSong.composer)}`}
-          className="font-medium text-amber-700 bg-amber-50/70 rounded-md px-3.5 py-2.5 flex-auto items-stretch border border-transparent hover:border-amber-600/10 transition-all duration-300 ease-in-out hover:bg-amber-50/50 cursor-pointer"
+          className="font-medium text-amber-700 rounded-md pr-2 py-2.5 flex-auto items-stretch transition-all duration-300 ease-in-out hover:underline cursor-pointer"
         >
-          <div className="flex items-center h-full">
+          <div className="flex items-start">
             <div className="flex-none">
-              <ChevronLeftIcon className="w-4 h-auto mr-2 text-amber-700" />
+              <ChevronLeftIcon className="w-5 h-auto mt-0.5 mr-2 text-amber-700" />
             </div>
             <div className="flex-1 pr-2">{prevSong.title}</div>
           </div>
@@ -38,12 +38,12 @@ const PaginationSection = ({ prevSong, nextSong }) => (
       {nextSong && (
         <Link
           href={`/repertoar/${generateSlug(nextSong.title, nextSong.composer)}`}
-          className="font-medium text-amber-700 bg-amber-50/70 rounded-md px-3.5 py-2.5 flex-auto items-stretch border border-transparent hover:border-amber-600/10 transition-all duration-300 ease-in-out hover:bg-amber-50/50 cursor-pointer"
+          className="font-medium text-amber-700 rounded-md pl-2 py-2.5 flex-auto items-stretch transition-all duration-300 ease-in-out hover:underline cursor-pointer"
         >
-          <div className="flex items-center h-full">
+          <div className="flex items-start">
             <div className="flex-1 pl-2">{nextSong.title}</div>
             <div className="flex-none">
-              <ChevronRightIcon className="w-4 h-auto ml-2 text-amber-700" />
+              <ChevronRightIcon className="w-5 h-auto mt-0.5 ml-2 text-amber-700" />
             </div>
           </div>
         </Link>
@@ -55,6 +55,7 @@ const PaginationSection = ({ prevSong, nextSong }) => (
 export function SongPageDetails({
   songCategory,
   songTitle,
+  songHyphen,
   songComposer,
   songArrangement,
   songImage,
@@ -68,6 +69,8 @@ export function SongPageDetails({
   nextSong,
   prevSong,
 }) {
+  const hyphenClass = songHyphen ? 'hyphens-auto' : 'hyphens-none';
+
   return (
     <div className="relative pt-6 pb-24 overflow-hidden bg-white sm:pt-16 isolate sm:pb-32">
       <div className="px-6 mx-auto sm:-mt-12 max-w-7xl lg:px-8">
@@ -76,7 +79,9 @@ export function SongPageDetails({
           <p className="text-lg font-semibold leading-8 tracking-tight text-slate-600">
             {songCategory}
           </p>
-          <h6 className="mt-2 text-5xl text-gray-900 sm:text-6xl hyphens-auto">
+          <h6
+            className={`mt-2 text-5xl text-gray-900 sm:text-6xl ${hyphenClass}`}
+          >
             {songTitle}
           </h6>
           <motion.p
@@ -274,7 +279,9 @@ export function SongPageDetails({
                 <figure>
                   <figcaption className="flex mb-8 gap-x-4">
                     <div className="text-sm leading-6">
-                      <h6 className="pt-6 text-4xl text-gray-900">
+                      <h6
+                        className={`pt-6 text-4xl text-gray-900 ${hyphenClass}`}
+                      >
                         {songTitle}
                       </h6>
                     </div>
