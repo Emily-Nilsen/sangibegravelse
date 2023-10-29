@@ -8,6 +8,7 @@ import { MinusSmallIcon, PlusSmallIcon } from '@heroicons/react/24/outline';
 import { Expandable } from '@/components/Expandable';
 import { generateSlug } from '../pages/repertoar/[slug]';
 import { getPerformerLink } from '../../utilities/getPerformerLink';
+import { CustomAudioPlayer } from './CustomAudioPlayer';
 
 export function SongDetails({ isExpanded, expandedSongs, sang }) {
   const [repertoire, setRepertoire] = useState([]);
@@ -113,13 +114,10 @@ export function SongDetails({ isExpanded, expandedSongs, sang }) {
               <div>
                 {/* audio player */}
                 <div>
-                  <div className="pb-6">
+                  <div className="max-w-lg pb-6 pr-1">
                     {sang.audio && (
                       <div className="pt-8 pb-0 mt-0">
-                        <audio controls>
-                          <source src={sang.audioUrl} type="audio/mpeg" />
-                          Your browser does not support the audio element.
-                        </audio>
+                        <CustomAudioPlayer audioUrl={sang.audioUrl} />
                       </div>
                     )}
                     {sang.performers && (
