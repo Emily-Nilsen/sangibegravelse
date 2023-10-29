@@ -124,7 +124,7 @@ export function SongPageDetails({
           <>
             {songAudio && (
               <div className="mt-6">
-                <audio controls>
+                <audio controls key={songAudioUrl}>
                   <source src={songAudioUrl} type="audio/mpeg" />
                   Your browser does not support the audio element.
                 </audio>
