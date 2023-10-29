@@ -59,7 +59,7 @@ export const tilbakemeldingerData = [
     artist: 'Nils Georg Nilsen',
     body: 'Tuuuuusen takk for fantastisk sang i dag i Mammas begravelse❤️ På minnesamværet tok vi en applaus for deg, alle syntes det hadde vært veldig vanskelig å ikke applaudere deg i kirken🤣 Det var rett og slett nydelig 🤗',
     image:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/testimonials/flower_card_9_copy_bgii1p.webp',
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/testimonials/flower_card_1_copy_kvxqlx.webp',
     author: {
       name: 'Sissel',
       place: 'Sørum kirke',
@@ -70,7 +70,7 @@ export const tilbakemeldingerData = [
     artist: 'Nils Georg Nilsen',
     body: 'Du sang i gravferden til min sønn i Vestre gravlunds kapell sist tirsdag. Vi fikk ikke hilst på deg og takket for bidraget og fortalt hvor fornøyd vi, og alle andre vi snakket med, var med fremførelsen. Du sang nydelig og bidrog til en vakker og verdig avskjed. Takk!',
     image:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/testimonials/flower_card_7_copy_cdnloa.webp',
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/testimonials/flower_card_7_copy_whcqv9.webp',
     author: {
       name: 'Torbjørn',
       place: 'Vestre gravlunds kapell',
@@ -81,7 +81,7 @@ export const tilbakemeldingerData = [
     artist: 'Jan-Tore Saltnes',
     body: 'For oss i Horten Begravelsesbyrå er Jan-Tore et av de aller sikreste kortene i bunken. Allsidig som få - dyktig som enda færre. Profesjonell - i alle aspekter av sitt virke. Han leverer alltid, uavhengig av hva vi utfordrer han på - til våre og ikke minst; over de pårørendes forventninger. Med Jan-Tore på laget - så er vi 100% trygge!',
     image:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/v1698505587/Sang%20i%20begravelse/testimonials/flower_card_15_copy_b8zuzy.webp',
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/testimonials/flower_card_3_copy_cjkb34.webp',
     author: {
       name: 'Aron Preus, gravferdskonsulent',
       place: 'Horten begravelsesbyrå',
@@ -90,7 +90,7 @@ export const tilbakemeldingerData = [
   },
   {
     image:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/testimonials/flower_card_9_copy_bgii1p.webp',
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/testimonials/flower_card_6_copy_e6wibj.webp',
     artist: 'Jan-Tore Saltnes',
     body: 'Jan-Tore er en klippe i vår portefølje av gravferdssangere. Jan-Tore er en varm, god og veldig dyktig sanger som alltid leverer, ofte mer en det som forventes! «Han e heil ved» og det er med en ektehet og innlevelse som beskriver at han virkelig ønsker å gi de etterlatte en så god opplevelse som mulig.',
     author: {
@@ -101,7 +101,7 @@ export const tilbakemeldingerData = [
   },
   {
     image:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/testimonials/flower_card_14_copy_ggah1e.webp',
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/testimonials/flower_card_10_copy_txpabb.webp',
     artist: 'Jan-Tore Saltnes',
     body: 'Jan-Tore Saltnes har en fantastisk stemme, synger alt fra viser, slagere, pop og klassisk! Han tar utfordringer på strak arm, hvis familier har spesielle ønsker om sanger! Har jobbet i gravferdsbransjen i 17 år og hatt gleden av og samarbeide med Jan-Tore alle disse årene. Han er min favoritt!',
     author: {
