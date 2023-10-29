@@ -125,11 +125,14 @@ export function RepertoireList({
                     >
                       {expandedSongs.includes(sang.objectID) ? (
                         <MinusSmallIcon
-                          className="w-6 h-6"
+                          className="w-6 h-6 text-gray-700"
                           aria-hidden="true"
                         />
                       ) : (
-                        <PlusSmallIcon className="w-6 h-6" aria-hidden="true" />
+                        <PlusSmallIcon
+                          className="w-6 h-6 text-gray-700"
+                          aria-hidden="true"
+                        />
                       )}
                     </button>
                   </td>

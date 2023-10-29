@@ -57,7 +57,10 @@ export function Header({ textColour }) {
             onClick={() => setMobileMenuOpen(true)}
           >
             <span className="sr-only">Open main menu</span>
-            <Bars3Icon className="w-6 h-6" aria-hidden="true" />
+            <Bars3Icon
+              className="w-6 h-6 text-amber-600/60"
+              aria-hidden="true"
+            />
           </button>
         </div>
       </nav>

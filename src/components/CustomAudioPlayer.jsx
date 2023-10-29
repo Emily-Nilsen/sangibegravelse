@@ -79,7 +79,7 @@ export function CustomAudioPlayer({ audioUrl }) {
           '--currentPercent': currentPercent,
         }}
       />
-      <div className="flex ml-4 text-sm">
+      <div className="flex ml-4 text-sm text-gray-700">
         <span>
           {new Date(currentTime * 1000).toISOString().substring(14, 19)}
         </span>
