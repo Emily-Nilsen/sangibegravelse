@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 
-export function HeroSong({ songImage, songTitle, imageAlignment }) {
+export function HeroSong({ songImage, songTitle }) {
   return (
     <div>
       <motion.div
@@ -13,7 +13,7 @@ export function HeroSong({ songImage, songTitle, imageAlignment }) {
           duration: 0.7,
           type: 'fade',
         }}
-        className="relative overflow-hidden pt-28 pb-28 isolate"
+        className="relative pt-16 pb-16 overflow-hidden lg:pt-28 lg:pb-28 isolate"
       >
         <Image
           src={songImage}
@@ -21,7 +21,7 @@ export function HeroSong({ songImage, songTitle, imageAlignment }) {
           width={1456}
           height={816}
           className="absolute inset-0 object-cover w-full h-full -z-10"
-          style={{ objectPosition: imageAlignment }}
+          // style={{ objectPosition: imageAlignment }}
           priority
           unoptimized
         />

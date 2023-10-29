@@ -108,7 +108,7 @@ export default function SongPage({ songData, nextSong, prevSong }) {
         <HeroSong
           songImage={songData.desktop}
           songTitle={songData.title}
-          imageAlignment={songData.alignment}
+          // imageAlignment={songData.alignment}
         />
         {/* bottom white gradient */}
 
