@@ -122,31 +122,43 @@ export function SongPageDetails({
             </div>
           </div>
           {/* Audio player */}
-          <div className="px-3 sm:px-0 pt-0.5 sm:pt-0 pb-3 sm:pb-0 mt-6 sm:mt-0 rounded-md border sm:border-none border-amber-600/20 shadow-lg shadow-gray-300/20 sm:shadow-none">
-            {songAudio && (
-              <div className="mt-6">
-                <CustomAudioPlayer audioUrl={songAudioUrl} />
-              </div>
-            )}
-            {Array.isArray(songPerformers) && songPerformers.length > 0 && (
-              <p className="max-w-lg pt-4 text-sm leading-7 text-slate-700 sm:text-amber-700">
-                «{songTitle}» av{' '}
-                <span>
-                  {songPerformers.reduce((acc, performer, i, arr) => {
-                    const link = getPerformerLink(performer);
-                    if (i === 0)
-                      return (
-                        <Link
-                          href={link}
-                          className="font-semibold transition-all duration-300 ease-in-out cursor-pointer hover:text-slate-800"
-                        >
-                          {performer}
-                        </Link>
-                      );
-                    if (i === arr.length - 1)
+          {songAudio && (
+            <div className="px-3 sm:px-0 pt-0.5 sm:pt-0 pb-3 sm:pb-0 mt-6 sm:mt-0 rounded-md border sm:border-none border-amber-600/20 shadow-lg shadow-gray-300/20 sm:shadow-none">
+              {songAudio && (
+                <div className="mt-6">
+                  <CustomAudioPlayer audioUrl={songAudioUrl} />
+                </div>
+              )}
+              {Array.isArray(songPerformers) && songPerformers.length > 0 && (
+                <p className="max-w-lg pt-4 text-sm leading-7 text-slate-700 sm:text-amber-700">
+                  «{songTitle}» av{' '}
+                  <span>
+                    {songPerformers.reduce((acc, performer, i, arr) => {
+                      const link = getPerformerLink(performer);
+                      if (i === 0)
+                        return (
+                          <Link
+                            href={link}
+                            className="font-semibold transition-all duration-300 ease-in-out cursor-pointer hover:text-slate-800"
+                          >
+                            {performer}
+                          </Link>
+                        );
+                      if (i === arr.length - 1)
+                        return (
+                          <>
+                            {acc} og{' '}
+                            <Link
+                              href={link}
+                              className="font-semibold transition-all duration-300 ease-in-out cursor-pointer hover:text-slate-800"
+                            >
+                              {performer}
+                            </Link>
+                          </>
+                        );
                       return (
                         <>
-                          {acc} og{' '}
+                          {acc},{' '}
                           <Link
                             href={link}
                             className="font-semibold transition-all duration-300 ease-in-out cursor-pointer hover:text-slate-800"
@@ -155,22 +167,12 @@ export function SongPageDetails({
                           </Link>
                         </>
                       );
-                    return (
-                      <>
-                        {acc},{' '}
-                        <Link
-                          href={link}
-                          className="font-semibold transition-all duration-300 ease-in-out cursor-pointer hover:text-slate-800"
-                        >
-                          {performer}
-                        </Link>
-                      </>
-                    );
-                  }, '')}
-                </span>
-              </p>
-            )}
-          </div>
+                    }, '')}
+                  </span>
+                </p>
+              )}
+            </div>
+          )}
           <div className="max-w-xl my-8 lg:hidden">
             <PaginationSection prevSong={prevSong} nextSong={nextSong} />
           </div>
