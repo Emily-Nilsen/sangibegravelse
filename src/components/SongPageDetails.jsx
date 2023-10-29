@@ -174,13 +174,13 @@ export function SongPageDetails({
               </p>
             )}
           </>
-          <div className="max-w-xl mt-3 mb-8 lg:hidden">
+          <div className="max-w-xl my-8 lg:hidden">
             <PaginationSection prevSong={prevSong} nextSong={nextSong} />
           </div>
         </div>
 
         {/* Song lyrics desktop */}
-        <div className="grid max-w-2xl grid-cols-1 mx-auto mt-16 gap-x-8 gap-y-16 lg:mx-0 lg:mt-10 lg:max-w-none lg:grid-cols-12">
+        <div className="grid max-w-2xl grid-cols-1 mx-auto mt-12 gap-x-8 gap-y-16 lg:mx-0 lg:mt-10 lg:max-w-none lg:grid-cols-12">
           <motion.div
             whileInView={{ opacity: 1, y: 0 }}
             initial={{
