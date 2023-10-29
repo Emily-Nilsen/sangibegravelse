@@ -7,6 +7,7 @@ import { SoloIcon } from './icons/Solo';
 import { DuetIcon } from './icons/Duet';
 import { getPerformerLink } from '../../utilities/getPerformerLink';
 import { generateSlug } from '../pages/repertoar/[slug]';
+import { CustomAudioPlayer } from './CustomAudioPlayer';
 
 // Utility function to get the arrangement icon
 const getArrangementIcon = (arrangement, type, IconComponent) => {
@@ -121,17 +122,14 @@ export function SongPageDetails({
             </div>
           </div>
           {/* Audio player */}
-          <>
+          <div className="px-3 sm:px-0 pt-0.5 sm:pt-0 pb-3 sm:pb-0 mt-6 sm:mt-0 rounded-md border sm:border-none border-amber-600/20 shadow-lg shadow-gray-300/20 sm:shadow-none">
             {songAudio && (
               <div className="mt-6">
-                <audio controls key={songAudioUrl}>
-                  <source src={songAudioUrl} type="audio/mpeg" />
-                  Your browser does not support the audio element.
-                </audio>
+                <CustomAudioPlayer audioUrl={songAudioUrl} />
               </div>
             )}
             {Array.isArray(songPerformers) && songPerformers.length > 0 && (
-              <p className="max-w-lg pt-4 text-sm leading-7 text-slate-700">
+              <p className="max-w-lg pt-4 text-sm leading-7 text-slate-700 sm:text-amber-700">
                 «{songTitle}» av{' '}
                 <span>
                   {songPerformers.reduce((acc, performer, i, arr) => {
@@ -170,10 +168,9 @@ export function SongPageDetails({
                     );
                   }, '')}
                 </span>
-                .
               </p>
             )}
-          </>
+          </div>
           <div className="max-w-xl my-8 lg:hidden">
             <PaginationSection prevSong={prevSong} nextSong={nextSong} />
           </div>
