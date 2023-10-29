@@ -106,7 +106,7 @@ export default function SongPage({ songData, nextSong, prevSong }) {
       <Head>{generateMetaTags(songData, currentUrl)}</Head>
       <div className="relative bg-white">
         <HeroSong
-          songImage={songData.image}
+          songImage={songData.desktop}
           songTitle={songData.title}
           imageAlignment={songData.alignment}
         />
@@ -130,7 +130,8 @@ export default function SongPage({ songData, nextSong, prevSong }) {
             prevSong={prevSong}
           />
 
-          <div className="absolute left-0 z-20 w-full overflow-visible opacity-100 h-60 -top-60 bg-gradient-to-t from-white" />
+          <div className="absolute left-0 z-20 w-full h-32 overflow-visible opacity-80 -top-32 bg-gradient-to-t from-white" />
+          <div className="absolute left-0 z-20 w-full h-20 overflow-visible opacity-100 -top-20 bg-gradient-to-t from-white" />
 
           {/* Render additional song details and schema data as needed */}
         </div>

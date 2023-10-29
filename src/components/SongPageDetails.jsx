@@ -19,7 +19,7 @@ const getArrangementIcon = (arrangement, type, IconComponent) => {
 
 export function PaginationSection({ prevSong, nextSong }) {
   return (
-    <div className="flex w-full gap-2 sm:gap-6 sm:justify-between sm:flex-row">
+    <div className="flex w-full gap-3 sm:gap-6 sm:justify-between sm:flex-row">
       <div className="relative flex w-full">
         {prevSong && (
           <Link
@@ -29,8 +29,8 @@ export function PaginationSection({ prevSong, nextSong }) {
             )}`}
             className="font-medium text-amber-700 rounded-md pr-2 py-2.5 flex-auto items-stretch transition-all duration-300 ease-in-out hover:underline cursor-pointer"
           >
-            <div className="flex items-start">
-              <div className="flex-none">
+            <div className="flex items-start ">
+              <div className="flex-none -ml-1.5 sm:ml-0 ">
                 <ChevronLeftIcon className="w-5 h-auto mt-0.5 mr-2 text-amber-700" />
               </div>
               <div className="flex-1 pr-2">{prevSong.title}</div>
@@ -38,7 +38,7 @@ export function PaginationSection({ prevSong, nextSong }) {
           </Link>
         )}
       </div>
-      <div className="flex justify-end w-full">
+      <div className="flex justify-end w-full ">
         {nextSong && (
           <Link
             href={`/repertoar/${generateSlug(
@@ -49,7 +49,7 @@ export function PaginationSection({ prevSong, nextSong }) {
           >
             <div className="flex items-start">
               <div className="flex-1 pl-2 text-right">{nextSong.title}</div>
-              <div className="flex-none">
+              <div className="flex-none -mr-1.5 sm:mr-0">
                 <ChevronRightIcon className="w-5 h-auto mt-0.5 ml-2 text-amber-700" />
               </div>
             </div>
@@ -80,19 +80,20 @@ export function SongPageDetails({
   const hyphenClass = songHyphen ? 'hyphens-auto' : 'hyphens-none';
 
   return (
-    <div className="relative pt-6 pb-24 overflow-hidden bg-white sm:pt-16 isolate sm:pb-32">
-      <div className="px-6 mx-auto sm:-mt-12 max-w-7xl lg:px-8">
+    <div className="relative pt-6 pb-24 -mt-16 overflow-hidden bg-white sm:pt-16 isolate sm:pb-32 sm:-mt-20">
+      <div className="px-6 mx-auto overflow-hidden -mt-7 max-w-7xl lg:px-8 sm:-mt-16">
         {/* Song title and composers */}
-        <div className="max-w-2xl mx-auto lg:mx-0">
-          <p className="text-lg font-semibold leading-8 tracking-tight text-slate-600">
+        <div className="max-w-2xl mx-auto lg:mx-0 lg:max-w-none">
+          <p className="text-sm font-semibold leading-8 tracking-tight sm:text-lg text-slate-600">
             {songCategory}
           </p>
           <h6
-            className={`mt-2 text-5xl text-gray-900 sm:text-6xl ${hyphenClass}`}
+            className={`mt-2 text-4xl text-gray-900 sm:text-6xl ${hyphenClass}`}
           >
             {songTitle}
           </h6>
-          <motion.p
+          <motion.div
+            className="flex flex-col w-full mt-3 sm:mt-6 sm:justify-between sm:flex-row"
             whileInView={{ opacity: 1 }}
             initial={{ opacity: 0 }}
             transition={{
@@ -100,11 +101,17 @@ export function SongPageDetails({
               duration: 1,
               type: 'fade',
             }}
-            className="mt-6 text-lg leading-8 text-gray-700"
           >
-            {songComposer}
-          </motion.p>
-          <div className="mt-3 text-gray-600 lg:hidden">
+            {' '}
+            <p className="text-base leading-8 text-gray-700 sm:text-lg">
+              {songComposer}
+            </p>
+            {/* Pagination Section */}
+            <div className="hidden w-full max-w-lg -mt-2 sm:pl-8 lg:block">
+              <PaginationSection prevSong={prevSong} nextSong={nextSong} />
+            </div>
+          </motion.div>
+          <div className="mt-1 text-gray-600 sm:mt-3 lg:hidden">
             <div className="pt-2 text-sm text-gray-500 sm:table-cell">
               <div className="flex space-x-1">
                 {getArrangementIcon(songArrangement, 'solo', SoloIcon)}
@@ -167,7 +174,7 @@ export function SongPageDetails({
               </p>
             )}
           </>
-          <div className="my-8 lg:hidden">
+          <div className="max-w-xl mt-3 mb-8 lg:hidden">
             <PaginationSection prevSong={prevSong} nextSong={nextSong} />
           </div>
         </div>
@@ -187,10 +194,6 @@ export function SongPageDetails({
             }}
             className="relative hidden lg:order-last lg:col-span-5 lg:block"
           >
-            {/* Pagination Section */}
-            <div className="mb-16 -mt-16">
-              <PaginationSection prevSong={prevSong} nextSong={nextSong} />
-            </div>
             <figure className="pl-8 border-l border-slate-600">
               <figcaption className="flex mb-8 gap-x-4">
                 <div className="text-sm leading-6">
@@ -230,7 +233,7 @@ export function SongPageDetails({
             </figure>
           </motion.div>
           {/* Song description */}
-          <div className="max-w-xl -mt-5 text-base leading-7 text-gray-700 lg:mt-6 lg:col-span-7">
+          <div className="max-w-xl -mt-5 text-base leading-7 text-gray-700 lg:mt-0 lg:col-span-7">
             <motion.p
               whileInView={{ opacity: 1 }}
               initial={{ opacity: 0 }}
@@ -262,7 +265,7 @@ export function SongPageDetails({
                 <p className="text-sm font-semibold text-gray-900">Språk</p>
                 <p className="flex max-w-md text-sm leading-7 text-gray-600">
                   {songLanguage.map((line) => (
-                    <div className="mt-0" key={line}>
+                    <div className="mt-0 mr-3" key={line}>
                       <span className="inline-flex items-center px-2 py-1 text-xs font-medium rounded-md text-slate-700 bg-slate-50 ring-1 ring-inset ring-slate-600/20">
                         {line}
                       </span>
@@ -329,17 +332,16 @@ export function SongPageDetails({
               </motion.div>
               {/* Navigation back to repertoire and artists */}
               <motion.div
-                whileInView={{ opacity: 1, y: 0 }}
+                whileInView={{ opacity: 1 }}
                 initial={{
                   opacity: 0,
-                  y: 50,
                 }}
                 transition={{
                   delay: 0.5,
                   duration: 1,
                   type: 'fade',
                 }}
-                className="flex items-center sm:justify-left sm:justify-stretch gap-x-6"
+                className="flex items-center bg-red-100 sm:justify-left sm:justify-stretch gap-x-6"
               >
                 <Link
                   href="/repertoar"
