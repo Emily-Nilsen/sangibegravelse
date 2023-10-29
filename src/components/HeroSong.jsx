@@ -5,16 +5,7 @@ import { motion } from 'framer-motion';
 export function HeroSong({ songImage, songTitle }) {
   return (
     <div>
-      <motion.div
-        whileInView={{ opacity: 1 }}
-        initial={{ opacity: 0 }}
-        transition={{
-          delay: 0.2,
-          duration: 0.7,
-          type: 'fade',
-        }}
-        className="relative pt-16 pb-16 overflow-hidden lg:pt-28 lg:pb-28 isolate"
-      >
+      <div className="relative pt-16 pb-16 overflow-hidden lg:pt-28 lg:pb-28 isolate">
         <Image
           src={songImage}
           alt={songTitle}
@@ -32,7 +23,7 @@ export function HeroSong({ songImage, songTitle }) {
         <div className="absolute bottom-0 left-0 w-full mb-10 overflow-visible opacity-70 h-36 bg-gradient-to-t from-white" />
 
         <div className="max-w-md py-32 mx-auto sm:max-w-2xl md:max-w-3xl sm:py-48 lg:py-56"></div>
-      </motion.div>
+      </div>
     </div>
   );
 }
