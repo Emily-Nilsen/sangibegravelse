@@ -2,7 +2,7 @@
   {
     "objectID": "1",
     "category": "Klassisk",
-    "subcategory": ["engelsk"],
+    "language": ["engelsk"],
     "title": "Air | Love Never Fails (tekst)",
     "arrangement": ["solo", "fiolin"],
     "composer": "Johann Sebastian Bach / Brandon Heath / Chad Robert Cates",
@@ -61,7 +61,7 @@
   {
     "objectID": "2",
     "category": "Klassisk",
-    "subcategory": ["latinsk"],
+    "language": ["latinsk"],
     "title": "Ave Maria",
     "arrangement": ["solo", "duett", "fiolin"],
     "composer": "Franz Schubert",
@@ -102,7 +102,7 @@
   {
     "objectID": "3",
     "category": "Klassisk",
-    "subcategory": ["latinsk"],
+    "language": ["latinsk"],
     "title": "Ave Maria",
     "arrangement": ["solo", "duett", "fiolin"],
     "composer": "Johann Sebastian Bach / Charles Gounod",
@@ -135,7 +135,7 @@
   {
     "objectID": "4",
     "category": "Klassisk",
-    "subcategory": ["latinsk"],
+    "language": ["latinsk"],
     "title": "Ave Maria",
     "arrangement": ["solo", "duett", "fiolin"],
     "composer": "Pietro Mascagni",
@@ -160,7 +160,7 @@
   {
     "objectID": "5",
     "category": "Klassisk",
-    "subcategory": ["islandisk"],
+    "language": ["islandisk"],
     "title": "Ave Maria",
     "arrangement": ["solo"],
     "composer": "Sigvaldi Kaldalóns",
@@ -191,7 +191,7 @@
   {
     "objectID": "6",
     "category": "Klassisk",
-    "subcategory": ["italiensk"],
+    "language": ["italiensk"],
     "title": "Caro mio ben",
     "arrangement": ["solo", "fiolin"],
     "composer": "Tommaso Giordani",
@@ -218,7 +218,7 @@
   {
     "objectID": "7",
     "category": "Pop",
-    "subcategory": ["norsk"],
+    "language": ["norsk"],
     "title": "Adieu",
     "arrangement": ["solo", "duett"],
     "composer": "Anita Skorgan / Jahn Teigen",
@@ -275,7 +275,7 @@
   {
     "objectID": "8",
     "category": "Pop",
-    "subcategory": ["engelsk", "spansk"],
+    "language": ["engelsk", "spansk"],
     "title": "Adios, Amigo",
     "arrangement": ["solo", "duett", "fiolin"],
     "composer": "Jerry Livingston / Ralph Freed",
@@ -313,7 +313,7 @@
   {
     "objectID": "9",
     "category": "Salmer",
-    "subcategory": ["engelsk"],
+    "language": ["engelsk"],
     "title": "Amazing Grace",
     "arrangement": ["solo"],
     "composer": "John Newton",
@@ -355,7 +355,7 @@
   {
     "objectID": "10",
     "category": "Salmer",
-    "subcategory": ["engelsk"],
+    "language": ["engelsk"],
     "title": "An Irish Blessing",
     "arrangement": ["solo", "duett", "fiolin"],
     "composer": "Tradisjonell (ukjent forfatter)",
@@ -409,7 +409,7 @@
   {
     "objectID": "11",
     "category": "Klassisk",
-    "subcategory": ["norsk"],
+    "language": ["norsk"],
     "title": "Ave Maria",
     "arrangement": ["solo"],
     "composer": "Hugo Gyldenmark",
@@ -456,7 +456,7 @@
   {
     "objectID": "12",
     "category": "Klassisk",
-    "subcategory": ["latinsk"],
+    "language": ["latinsk"],
     "title": "Ave Verum Corpus",
     "arrangement": ["solo", "duett", "fiolin"],
     "composer": "Wolfgang Amadeus Mozart",
@@ -486,7 +486,7 @@
   {
     "objectID": "13",
     "category": "Klassisk",
-    "subcategory": ["latinsk"],
+    "language": ["latinsk"],
     "title": "Benedictus (Messe i B-moll)",
     "arrangement": ["solo", "duett", "fiolin"],
     "composer": "Johann Sebastian Bach",
@@ -503,7 +503,7 @@
   {
     "objectID": "14",
     "category": "Klassisk",
-    "subcategory": ["tysk"],
+    "language": ["tysk"],
     "title": "Bist du bei mir",
     "arrangement": ["solo", "duett", "fiolin"],
     "composer": "Johann Sebastian Bach",
@@ -527,7 +527,7 @@
   {
     "objectID": "15",
     "category": "Salmer",
-    "subcategory": ["norsk"],
+    "language": ["norsk"],
     "title": "Den hellige stad",
     "arrangement": ["solo"],
     "composer": "Stephen Adams",
@@ -578,7 +578,7 @@
   {
     "objectID": "16",
     "category": "Salmer",
-    "subcategory": ["Kirkemusikk", "Folkemusikk", "Nordisk", "Tradisjonell"],
+    "language": ["Kirkemusikk", "Folkemusikk", "Nordisk", "Tradisjonell"],
     "title": "Eg veit i himmelrik ei borg",
     "arrangement": ["solo"],
     "composer": "Tradisjonell (ukjent forfatter)",
@@ -614,7 +614,7 @@
   {
     "objectID": "17",
     "category": "Pop",
-    "subcategory": ["Moderne", "Nordisk"],
+    "language": ["Moderne", "Nordisk"],
     "title": "Ein fin liten blome",
     "arrangement": ["solo"],
     "composer": "Bjørn Eidsvåg",
@@ -661,7 +661,7 @@
   {
     "objectID": "18",
     "category": "Salmer",
-    "subcategory": ["Viser", "Kirkemusikk", "Klassisk"],
+    "language": ["Viser", "Kirkemusikk", "Klassisk"],
     "title": "Fall til ro",
     "arrangement": ["solo"],
     "composer": "Wendy Carter Fremin",
@@ -709,7 +709,7 @@
   {
     "objectID": "19",
     "category": "Salmer",
-    "subcategory": ["Kirkemusikk"],
+    "language": ["Kirkemusikk"],
     "title": "Hymne",
     "arrangement": ["solo"],
     "composer": "Nils Larsen",
@@ -741,7 +741,7 @@
   {
     "objectID": "20",
     "category": "Salmer",
-    "subcategory": ["Kirkemusikk", "Nordisk", "Klassisk"],
+    "language": ["Kirkemusikk", "Nordisk", "Klassisk"],
     "title": "I himmelen",
     "arrangement": ["solo"],
     "composer": "Edvard Grieg",
@@ -782,7 +782,7 @@
   {
     "objectID": "21",
     "category": "Pop",
-    "subcategory": ["Moderne", "Nordisk"],
+    "language": ["Moderne", "Nordisk"],
     "title": "Kom nära mig",
     "arrangement": ["solo"],
     "composer": "Lennart Jakobsson",
@@ -821,7 +821,7 @@
   {
     "objectID": "23",
     "category": "Salmer",
-    "subcategory": ["Kirkemusikk", "Nordisk"],
+    "language": ["Kirkemusikk", "Nordisk"],
     "title": "Lær meg å kjenne dine veie",
     "arrangement": ["solo"],
     "composer": "Jakob Paulli",
@@ -863,7 +863,7 @@
   {
     "objectID": "24",
     "category": "Salmer",
-    "subcategory": ["Kirkemusikk", "Nordisk", "Popballade", "Moderne"],
+    "language": ["Kirkemusikk", "Nordisk", "Popballade", "Moderne"],
     "title": "Kyrie",
     "arrangement": ["solo"],
     "composer": "Bjørn Eidsvåg",
@@ -927,7 +927,7 @@
   {
     "objectID": "25",
     "category": "Salmer",
-    "subcategory": ["Kirkemusikk"],
+    "language": ["Kirkemusikk"],
     "title": "My Tribute",
     "arrangement": ["solo"],
     "composer": "Andraé Crouch",
@@ -943,7 +943,7 @@
   {
     "objectID": "26",
     "category": "Salmer",
-    "subcategory": ["Kirkemusikk", "Nordisk"],
+    "language": ["Kirkemusikk", "Nordisk"],
     "title": "Må din vei komme deg i møte",
     "arrangement": ["solo"],
     "composer": "Hans-Olav Mørk",
@@ -959,7 +959,7 @@
   {
     "objectID": "27",
     "category": "Salmer",
-    "subcategory": ["Kirkemusikk", "Nordisk"],
+    "language": ["Kirkemusikk", "Nordisk"],
     "title": "Nordnorsk julesalme",
     "arrangement": ["solo"],
     "composer": "Trygve Hoff",
@@ -975,7 +975,7 @@
   {
     "objectID": "28",
     "category": "Salmer",
-    "subcategory": ["Kirkemusikk", "Nordisk"],
+    "language": ["Kirkemusikk", "Nordisk"],
     "title": "O store Gud",
     "arrangement": ["solo"],
     "composer": "Carl Boberg",
@@ -991,7 +991,7 @@
   {
     "objectID": "29",
     "category": "Salmer",
-    "subcategory": ["Kirkemusikk", "Klassisk"],
+    "language": ["Kirkemusikk", "Klassisk"],
     "title": "Panis Angelicus",
     "arrangement": ["solo"],
     "composer": "César Franck",
@@ -1007,7 +1007,7 @@
   {
     "objectID": "32",
     "category": "Salmer",
-    "subcategory": ["Kirkemusikk", "Modern", "Musikal"],
+    "language": ["Kirkemusikk", "Modern", "Musikal"],
     "title": "Pie Jesu",
     "arrangement": ["solo"],
     "composer": "Andrew Lloyd Webber",
@@ -1022,7 +1022,7 @@
   {
     "objectID": "30",
     "category": "Salmer",
-    "subcategory": ["Kirkemusikk", "Klassisk"],
+    "language": ["Kirkemusikk", "Klassisk"],
     "title": "Pie Jesu",
     "arrangement": ["solo"],
     "composer": "Gabriel Fauré",
@@ -1038,7 +1038,7 @@
   {
     "objectID": "31",
     "category": "Salmer",
-    "subcategory": ["Kirkemusikk", "Klassisk"],
+    "language": ["Kirkemusikk", "Klassisk"],
     "title": "Pie Jesu",
     "arrangement": ["solo"],
     "composer": "John Rutter",
@@ -1054,7 +1054,7 @@
   {
     "objectID": "33",
     "category": "Klassisk",
-    "subcategory": ["Nordisk"],
+    "language": ["Nordisk"],
     "title": "En svane",
     "arrangement": ["solo"],
     "composer": "Edvard Grieg",
@@ -1091,7 +1091,7 @@
   {
     "objectID": "34",
     "category": "Klassisk",
-    "subcategory": ["Kunstsang"],
+    "language": ["Kunstsang"],
     "title": "Skjærgårdsø",
     "arrangement": ["solo"],
     "composer": "Knut Hamsun",
@@ -1143,7 +1143,7 @@
   {
     "objectID": "35",
     "category": "Klassisk",
-    "subcategory": ["Kunstsang", "Nordisk"],
+    "language": ["Kunstsang", "Nordisk"],
     "title": "Jeg elsker Dig",
     "arrangement": ["solo"],
     "composer": "Edvard Grieg",
@@ -1165,7 +1165,7 @@
   {
     "objectID": "36",
     "category": "Klassisk",
-    "subcategory": ["Kunstsang"],
+    "language": ["Kunstsang"],
     "title": "Litanei auf des Fest Allerseelen",
     "arrangement": ["solo"],
     "composer": "Franz Schubert",
@@ -1203,7 +1203,7 @@
   {
     "objectID": "37",
     "category": "Klassisk",
-    "subcategory": ["Kunstsang"],
+    "language": ["Kunstsang"],
     "title": "Mariä Wiegenlied",
     "arrangement": ["solo"],
     "composer": "Max Reger",
@@ -1237,7 +1237,7 @@
   {
     "objectID": "38",
     "category": "Klassisk",
-    "subcategory": ["Kunstsang", "Nordisk"],
+    "language": ["Kunstsang", "Nordisk"],
     "title": "Mot kveld",
     "arrangement": ["solo"],
     "composer": "Agathe Backer Grøndahl",
@@ -1263,7 +1263,7 @@
   {
     "objectID": "39",
     "category": "Klassisk",
-    "subcategory": ["Kunstsang"],
+    "language": ["Kunstsang"],
     "title": "Morgen!",
     "arrangement": ["solo"],
     "composer": "Richard Strauss",
@@ -1290,7 +1290,7 @@
   {
     "objectID": "40",
     "category": "Klassisk",
-    "subcategory": ["Kunstsang", "Nordisk"],
+    "language": ["Kunstsang", "Nordisk"],
     "title": "När jag för mig själv",
     "arrangement": ["solo"],
     "composer": "Wilhelm Peterson-Berger",
@@ -1306,7 +1306,7 @@
   {
     "objectID": "41",
     "category": "Klassisk",
-    "subcategory": ["Kunstsang", "Italiensk"],
+    "language": ["Kunstsang", "Italiensk"],
     "title": "O del mio amato ben",
     "arrangement": ["solo"],
     "composer": "Stefano Donaudy",
@@ -1322,7 +1322,7 @@
   {
     "objectID": "42",
     "category": "Klassisk",
-    "subcategory": ["Kunstsang", "Aria", "Opera"],
+    "language": ["Kunstsang", "Aria", "Opera"],
     "title": "Ombra mai fu",
     "arrangement": ["solo"],
     "composer": "George Frideric Handel",
@@ -1338,7 +1338,7 @@
   {
     "objectID": "43",
     "category": "Klassisk",
-    "subcategory": ["Kunstsang", "Nordisk"],
+    "language": ["Kunstsang", "Nordisk"],
     "title": "Saa tag mit hjerte",
     "arrangement": ["solo"],
     "composer": "Hugo Alven",
@@ -1354,7 +1354,7 @@
   {
     "objectID": "44",
     "category": "Klassisk",
-    "subcategory": ["Kunstsang", "Nordisk"],
+    "language": ["Kunstsang", "Nordisk"],
     "title": "Skogen sover",
     "arrangement": ["solo"],
     "composer": "Hugo Alven",
@@ -1370,7 +1370,7 @@
   {
     "objectID": "45",
     "category": "Klassisk",
-    "subcategory": ["Kunstsang", "Nordisk"],
+    "language": ["Kunstsang", "Nordisk"],
     "title": "Songs My Mother Taught Me",
     "arrangement": ["solo"],
     "composer": "Antonín Dvořák",
@@ -1386,7 +1386,7 @@
   {
     "objectID": "46",
     "category": "Klassisk",
-    "subcategory": ["Kunstsang", "Nordisk"],
+    "language": ["Kunstsang", "Nordisk"],
     "title": "Ständchen",
     "arrangement": ["solo"],
     "composer": "Franz Schubert",
@@ -1402,7 +1402,7 @@
   {
     "objectID": "47",
     "category": "Klassisk",
-    "subcategory": ["Kunstsang"],
+    "language": ["Kunstsang"],
     "title": "Stjernesangen",
     "arrangement": ["solo"],
     "composer": "Jean Sibelius",
@@ -1418,7 +1418,7 @@
   {
     "objectID": "48",
     "category": "Klassisk",
-    "subcategory": ["Kunstsang", "Nordisk"],
+    "language": ["Kunstsang", "Nordisk"],
     "title": "Tonerna",
     "arrangement": ["solo"],
     "composer": "Carl Sjöberg",
@@ -1434,7 +1434,7 @@
   {
     "objectID": "49",
     "category": "Klassisk",
-    "subcategory": ["Kunstsang", "Nordisk"],
+    "language": ["Kunstsang", "Nordisk"],
     "title": "Ved Rondane",
     "arrangement": ["solo"],
     "composer": "Edvard Grieg",
@@ -1450,7 +1450,7 @@
   {
     "objectID": "50",
     "category": "Klassisk",
-    "subcategory": ["Opera", "Aria"],
+    "language": ["Opera", "Aria"],
     "title": "Vedro con mio diletto",
     "arrangement": ["solo"],
     "composer": "Giuseppe Antonio Berengani",
@@ -1466,7 +1466,7 @@
   {
     "objectID": "51",
     "category": "Klassisk",
-    "subcategory": ["Kunstsang"],
+    "language": ["Kunstsang"],
     "title": "Verborgenheit",
     "arrangement": ["solo"],
     "composer": "Hugo Wolf",
@@ -1482,7 +1482,7 @@
   {
     "objectID": "52",
     "category": "Klassisk",
-    "subcategory": ["Kunstsang", "Nordisk"],
+    "language": ["Kunstsang", "Nordisk"],
     "title": "Våren",
     "arrangement": ["solo"],
     "composer": "Edvard Grieg",
@@ -1498,7 +1498,7 @@
   {
     "objectID": "53",
     "category": "Pop",
-    "subcategory": ["norsk"],
+    "language": ["norsk"],
     "title": "Alt eg såg",
     "arrangement": ["solo"],
     "composer": "Sigvart Dagsland",
@@ -1558,7 +1558,7 @@
   {
     "objectID": "54",
     "category": "Viser",
-    "subcategory": ["Nordisk"],
+    "language": ["Nordisk"],
     "title": "Änglamark",
     "arrangement": ["solo"],
     "composer": "Evert Taube",
@@ -1574,7 +1574,7 @@
   {
     "objectID": "55",
     "category": "Viser",
-    "subcategory": ["norsk"],
+    "language": ["norsk"],
     "title": "Barn av regnbuen",
     "arrangement": ["solo", "duett"],
     "composer": "Pete Seeger / Lillebjørn Nilsen",
@@ -1618,7 +1618,7 @@
   {
     "objectID": "56",
     "category": "Viser",
-    "subcategory": ["norsk"],
+    "language": ["norsk"],
     "title": "Barndomsminne fra Nordland",
     "arrangement": ["solo"],
     "composer": "Elias Blix",
@@ -1715,7 +1715,7 @@
   {
     "objectID": "57",
     "category": "Viser",
-    "subcategory": ["norsk"],
+    "language": ["norsk"],
     "title": "Bestevenn",
     "arrangement": ["solo"],
     "composer": "Odd Nordstoga",
@@ -1764,7 +1764,7 @@
   {
     "objectID": "58",
     "category": "Viser",
-    "subcategory": ["norsk"],
+    "language": ["norsk"],
     "title": "Blå salme",
     "arrangement": ["solo", "duett"],
     "composer": "Erik Bye",
@@ -1810,7 +1810,7 @@
   {
     "objectID": "59",
     "category": "Viser",
-    "subcategory": ["norsk"],
+    "language": ["norsk"],
     "title": "Danse mi vise",
     "arrangement": ["solo"],
     "composer": "Einar Skjæraasen",
@@ -1845,7 +1845,7 @@
   {
     "objectID": "60",
     "category": "Viser",
-    "subcategory": ["svensk"],
+    "language": ["svensk"],
     "title": "Där björkarna susa",
     "arrangement": ["solo"],
     "composer": "Viktor Sund",
@@ -1877,7 +1877,7 @@
   {
     "objectID": "61",
     "category": "Salmer",
-    "subcategory": ["svensk"],
+    "language": ["svensk"],
     "title": "Där rosor aldrig dör",
     "arrangement": ["solo"],
     "composer": "Janie West Metzgar",
@@ -1922,7 +1922,7 @@
   {
     "objectID": "62",
     "category": "Viser",
-    "subcategory": ["norsk"],
+    "language": ["norsk"],
     "title": "De nære ting",
     "arrangement": ["solo", "duett"],
     "composer": "Arne Paasche Aasen",
@@ -1972,7 +1972,7 @@
   {
     "objectID": "63",
     "category": "Folkemusikk",
-    "subcategory": ["norsk"],
+    "language": ["norsk"],
     "title": "Den dag kjem aldri",
     "arrangement": ["solo"],
     "composer": "Aasmund Olavsson Vinje",
@@ -2014,7 +2014,7 @@
   {
     "objectID": "64",
     "category": "Folkemusikk",
-    "subcategory": ["norsk"],
+    "language": ["norsk"],
     "title": "Den fyrste song",
     "arrangement": ["solo"],
     "composer": "Lars Søraas / Per Sivle",
@@ -2051,7 +2051,7 @@
   {
     "objectID": "65",
     "category": "Viser",
-    "subcategory": ["norsk"],
+    "language": ["norsk"],
     "title": "Det hainnle om å leve",
     "arrangement": ["solo", "duett"],
     "composer": "Kine Hellebust / Mia Sandberg",
@@ -2107,7 +2107,7 @@
   {
     "objectID": "66",
     "category": "Pop",
-    "subcategory": ["norsk"],
+    "language": ["norsk"],
     "title": "Det vakreste som fins",
     "arrangement": ["solo", "duett", "fiolin"],
     "composer": "Jahn Teigen / Rolf Løvland / Ove Borøchstein",
@@ -2178,7 +2178,7 @@
   {
     "objectID": "67",
     "category": "Pop",
-    "subcategory": ["svensk"],
+    "language": ["svensk"],
     "title": "Du är den ende",
     "arrangement": ["solo", "duett"],
     "composer": "Bo Setterlind",
@@ -2218,7 +2218,7 @@
   {
     "objectID": "68",
     "category": "Viser",
-    "subcategory": ["Nordisk", "Popballade"],
+    "language": ["Nordisk", "Popballade"],
     "title": "Ei hand å holde I",
     "arrangement": ["solo", "duett"],
     "composer": "Trygve Hoff / Svein Gundersen",
@@ -2267,7 +2267,7 @@
   {
     "objectID": "69",
     "category": "Viser",
-    "subcategory": ["Nordisk", "Popballade"],
+    "language": ["Nordisk", "Popballade"],
     "title": "Ein far",
     "arrangement": ["solo", "duett"],
     "composer": "Ingvar Hovland",
@@ -2323,7 +2323,7 @@
   {
     "objectID": "70",
     "category": "Viser",
-    "subcategory": ["Nordisk", "Popballade"],
+    "language": ["Nordisk", "Popballade"],
     "title": "Engler i sneen",
     "arrangement": ["solo", "duett"],
     "composer": "Jonas Fjeld",
@@ -2368,7 +2368,7 @@
   {
     "objectID": "71",
     "category": "Viser",
-    "subcategory": ["norsk"],
+    "language": ["norsk"],
     "title": "E du Nord",
     "arrangement": ["solo"],
     "composer": "Kari Bremnes",
@@ -2434,7 +2434,7 @@
   {
     "objectID": "72",
     "category": "Viser",
-    "subcategory": ["Nordisk"],
+    "language": ["Nordisk"],
     "title": "Evig hvile",
     "arrangement": ["solo"],
     "composer": "Bjørn Eidsvåg",
@@ -2491,7 +2491,7 @@
   {
     "objectID": "73",
     "category": "Viser",
-    "subcategory": ["Nordisk", "Popballade"],
+    "language": ["Nordisk", "Popballade"],
     "title": "For siste gang",
     "arrangement": ["solo"],
     "composer": "Eyvind Skeie / Sigvald Tveit",
@@ -2537,7 +2537,7 @@
   {
     "objectID": "74",
     "category": "Viser",
-    "subcategory": ["Nordisk", "Popballade"],
+    "language": ["Nordisk", "Popballade"],
     "title": "Fordi jeg elsker deg",
     "arrangement": ["solo", "duett"],
     "composer": "Bob Dyllan",
@@ -2585,7 +2585,7 @@
   {
     "objectID": "75",
     "category": "Viser",
-    "subcategory": ["Nordisk"],
+    "language": ["Nordisk"],
     "title": "Gabriellas sång",
     "arrangement": ["solo", "duett"],
     "composer": "Stefan Nilsson",
@@ -2632,7 +2632,7 @@
   {
     "objectID": "76",
     "category": "Salmer",
-    "subcategory": ["Nordisk"],
+    "language": ["Nordisk"],
     "title": "Gje meg handa di ven",
     "arrangement": ["solo", "duett"],
     "composer": "Sondre Bratland",
@@ -2668,7 +2668,7 @@
   {
     "objectID": "77",
     "category": "Viser",
-    "subcategory": ["Nordisk", "Popballade"],
+    "language": ["Nordisk", "Popballade"],
     "title": "God morgen, min kjære",
     "arrangement": ["solo", "duett"],
     "composer": "Benny Borg",
@@ -2726,7 +2726,7 @@
   {
     "objectID": "78",
     "category": "Viser",
-    "subcategory": ["Nordisk"],
+    "language": ["Nordisk"],
     "title": "God natt Oslo",
     "arrangement": ["solo"],
     "composer": "Lillebjørn Nilsen",
@@ -2781,7 +2781,7 @@
   {
     "objectID": "79",
     "category": "Viser",
-    "subcategory": ["Nordisk"],
+    "language": ["Nordisk"],
     "title": "Har du fyr",
     "arrangement": ["solo"],
     "composer": "Ola Bremnes",
@@ -2852,7 +2852,7 @@
   {
     "objectID": "80",
     "category": "Viser",
-    "subcategory": ["Nordisk"],
+    "language": ["Nordisk"],
     "title": "Hildringstimen",
     "arrangement": ["solo"],
     "composer": "Erik Bye",
@@ -2900,7 +2900,7 @@
   {
     "objectID": "81",
     "category": "Viser",
-    "subcategory": ["Nordisk", "Popballade"],
+    "language": ["Nordisk", "Popballade"],
     "title": "Himlen I min favn",
     "arrangement": ["solo"],
     "composer": "Carola Haggkvist / Iver Kleive / Sigvart Dagsland / Erik Hillestad",
@@ -2977,7 +2977,7 @@
   {
     "objectID": "82",
     "category": "Viser",
-    "subcategory": ["Nordisk", "Popballade"],
+    "language": ["Nordisk", "Popballade"],
     "title": "Himmelhøge sti",
     "arrangement": ["solo"],
     "composer": "Elle Melle",
@@ -3038,7 +3038,7 @@
   {
     "objectID": "83",
     "category": "Viser",
-    "subcategory": ["Nordisk"],
+    "language": ["Nordisk"],
     "title": "Höstvisa",
     "arrangement": ["solo"],
     "composer": "Erna Tauro / Tove Jansson",
@@ -3114,7 +3114,7 @@
   {
     "objectID": "84",
     "category": "Viser",
-    "subcategory": ["Nordisk", "Popballade"],
+    "language": ["Nordisk", "Popballade"],
     "title": "Håll mitt hjärta",
     "arrangement": ["solo"],
     "composer": "Björn Skifs / Peter Hallström",
@@ -3149,7 +3149,7 @@
   {
     "objectID": "85",
     "category": "Viser",
-    "subcategory": ["Nordisk", "Popballade"],
+    "language": ["Nordisk", "Popballade"],
     "title": "Håll ut",
     "arrangement": ["solo"],
     "composer": "Michael Malmgren / Mats Schubert / Bo Sundstrom / Fredrik Dahl / Andreas Mattsson",
@@ -3194,7 +3194,7 @@
   {
     "objectID": "86",
     "category": "Viser",
-    "subcategory": ["Folkemusikk"],
+    "language": ["Folkemusikk"],
     "title": "Jag vill tacka livet (svensk eller spansk)",
     "arrangement": ["solo"],
     "composer": "Violeta Parra",
@@ -3307,7 +3307,7 @@
   {
     "objectID": "87",
     "category": "Viser",
-    "subcategory": ["Folkemusikk", "Nordisk"],
+    "language": ["Folkemusikk", "Nordisk"],
     "title": "Öppna landskap",
     "arrangement": ["solo"],
     "composer": "Ulf Lundell",
@@ -3351,7 +3351,7 @@
   {
     "objectID": "88",
     "category": "Viser",
-    "subcategory": ["Folkemusikk", "Nordisk"],
+    "language": ["Folkemusikk", "Nordisk"],
     "title": "Jeg glemmer deg aldri",
     "arrangement": ["solo", "duett"],
     "composer": "Aslag Haugen, Arne Moslatten",
@@ -3400,7 +3400,7 @@
   {
     "objectID": "89",
     "category": "Viser",
-    "subcategory": ["Popballade", "Nordisk"],
+    "language": ["Popballade", "Nordisk"],
     "title": "Kjærlighet",
     "arrangement": ["solo"],
     "composer": "Vladimir Cosma / Rolf Tofte",
@@ -3435,7 +3435,7 @@
   {
     "objectID": "90",
     "category": "Viser",
-    "subcategory": ["Popballade", "Nordisk"],
+    "language": ["Popballade", "Nordisk"],
     "title": "Kom og ligg inntil meg",
     "arrangement": ["solo"],
     "composer": "Finn Kalvik",
@@ -3503,7 +3503,7 @@
   {
     "objectID": "91",
     "category": "Viser",
-    "subcategory": ["Popballade", "Nordisk"],
+    "language": ["Popballade", "Nordisk"],
     "title": "Men går jag över ängarna",
     "arrangement": ["solo"],
     "composer": "Nils Ferlin / Leif Strand",
@@ -3535,7 +3535,7 @@
   {
     "objectID": "92",
     "category": "Viser",
-    "subcategory": ["Nordisk"],
+    "language": ["Nordisk"],
     "title": "Mitt land",
     "arrangement": ["solo"],
     "composer": "Rolf Løvland / Alana Graham / Brendan Graham",
@@ -3584,7 +3584,7 @@
   {
     "objectID": "93",
     "category": "Viser",
-    "subcategory": ["Nordisk"],
+    "language": ["Nordisk"],
     "title": "Nocturne",
     "arrangement": ["solo"],
     "composer": "Evert Taube",
@@ -3599,7 +3599,7 @@
   {
     "objectID": "94",
     "category": "Viser",
-    "subcategory": ["Nordisk", "Klassisk"],
+    "language": ["Nordisk", "Klassisk"],
     "title": "Nocturne",
     "arrangement": ["solo"],
     "composer": "Rolf Løvland",
@@ -3615,7 +3615,7 @@
   {
     "objectID": "95",
     "category": "Viser",
-    "subcategory": ["Nordisk", "Klassisk"],
+    "language": ["Nordisk", "Klassisk"],
     "title": "Nordlandsnetter",
     "arrangement": ["solo"],
     "composer": "Per Johan Skjærstad Moe",
@@ -3631,7 +3631,7 @@
   {
     "objectID": "96",
     "category": "Viser",
-    "subcategory": ["Nordisk"],
+    "language": ["Nordisk"],
     "title": "Norge mitt Norge",
     "arrangement": ["solo"],
     "composer": "Alfred Paulsen",
@@ -3646,7 +3646,7 @@
   {
     "objectID": "97",
     "category": "Viser",
-    "subcategory": ["Nordisk", "Popballade"],
+    "language": ["Nordisk", "Popballade"],
     "title": "Når du går",
     "arrangement": ["solo"],
     "composer": "Ola Bremnes",
@@ -3661,7 +3661,7 @@
   {
     "objectID": "98",
     "category": "Viser",
-    "subcategory": ["Nordisk", "Popballade"],
+    "language": ["Nordisk", "Popballade"],
     "title": "Når himmelen faller ned",
     "arrangement": ["solo"],
     "composer": "Anne Grete Preus",
@@ -3676,7 +3676,7 @@
   {
     "objectID": "99",
     "category": "Viser",
-    "subcategory": ["Nordisk", "Popballade"],
+    "language": ["Nordisk", "Popballade"],
     "title": "Når sole faller bak top og tinde",
     "arrangement": ["solo"],
     "composer": "Trygve Hoff",
@@ -3692,7 +3692,7 @@
   {
     "objectID": "100",
     "category": "Viser",
-    "subcategory": ["Nordisk", "Popballade"],
+    "language": ["Nordisk", "Popballade"],
     "title": "Öppnalandskap",
     "arrangement": ["solo"],
     "composer": "Ulf Lundell",
@@ -3708,7 +3708,7 @@
   {
     "objectID": "101",
     "category": "Viser",
-    "subcategory": ["Nordisk", "Popballade"],
+    "language": ["Nordisk", "Popballade"],
     "title": "Røst",
     "arrangement": ["solo"],
     "composer": "Sigvart Dagsland",
@@ -3723,7 +3723,7 @@
   {
     "objectID": "102",
     "category": "Viser",
-    "subcategory": ["Nordisk", "Popballade"],
+    "language": ["Nordisk", "Popballade"],
     "title": "Selmas sang",
     "arrangement": ["solo"],
     "composer": "Eva Weel Skram",
@@ -3738,7 +3738,7 @@
   {
     "objectID": "103",
     "category": "Viser",
-    "subcategory": ["Nordisk", "Popballade"],
+    "language": ["Nordisk", "Popballade"],
     "title": "Skal hilse fra fjellet",
     "arrangement": ["solo"],
     "composer": "Ellen Gisetstad",
@@ -3753,7 +3753,7 @@
   {
     "objectID": "104",
     "category": "Viser",
-    "subcategory": ["Nordisk"],
+    "language": ["Nordisk"],
     "title": "Sommernatt ved fjorden",
     "arrangement": ["solo"],
     "composer": "Ketil Bjørnstad",
@@ -3769,7 +3769,7 @@
   {
     "objectID": "106",
     "category": "Viser",
-    "subcategory": ["Nordisk", "Tradisjonell"],
+    "language": ["Nordisk", "Tradisjonell"],
     "title": "Så skimrande var aldrig havet",
     "arrangement": ["solo"],
     "composer": "Evert Taube",
@@ -3784,7 +3784,7 @@
   {
     "objectID": "107",
     "category": "Viser",
-    "subcategory": ["Nordisk", "Tradisjonell"],
+    "language": ["Nordisk", "Tradisjonell"],
     "title": "Tir n’a Noir",
     "arrangement": ["solo"],
     "composer": "Vamp",
@@ -3799,7 +3799,7 @@
   {
     "objectID": "108",
     "category": "Pop",
-    "subcategory": ["norsk"],
+    "language": ["norsk"],
     "title": "13 Hester",
     "arrangement": ["solo"],
     "composer": "Alexander Rybak / Sigvart Dagsland",
@@ -3878,7 +3878,7 @@
   {
     "objectID": "109",
     "category": "Viser",
-    "subcategory": ["Nordisk"],
+    "language": ["Nordisk"],
     "title": "Ut mot havet",
     "arrangement": ["solo"],
     "composer": "Edvard Fliflet Bræin",
@@ -3894,7 +3894,7 @@
   {
     "objectID": "110",
     "category": "Viser",
-    "subcategory": ["Nordisk", "Popballade"],
+    "language": ["Nordisk", "Popballade"],
     "title": "Vandringsvise",
     "arrangement": ["solo"],
     "composer": "Finn Ludt",
@@ -3910,7 +3910,7 @@
   {
     "objectID": "111",
     "category": "Viser",
-    "subcategory": ["Nordisk", "Popballade"],
+    "language": ["Nordisk", "Popballade"],
     "title": "Vi vandrar saman",
     "arrangement": ["solo", "duett"],
     "composer": "Svein Dag Hauge",
@@ -3926,7 +3926,7 @@
   {
     "objectID": "112",
     "category": "Viser",
-    "subcategory": ["Nordisk", "Popballade"],
+    "language": ["Nordisk", "Popballade"],
     "title": "Visa från utanmyra",
     "arrangement": ["solo"],
     "composer": "Svensk folkevise",
@@ -3942,7 +3942,7 @@
   {
     "objectID": "113",
     "category": "Viser",
-    "subcategory": ["Nordisk", "Popballade"],
+    "language": ["Nordisk", "Popballade"],
     "title": "Vuggevise",
     "arrangement": ["solo"],
     "composer": "Jens Gundersen",
@@ -3958,7 +3958,7 @@
   {
     "objectID": "114",
     "category": "Viser",
-    "subcategory": ["Nordisk"],
+    "language": ["Nordisk"],
     "title": "Våre små søsken",
     "arrangement": ["duett"],
     "composer": "Tore Magnus Pettersson / Inger Hagerup",
@@ -3974,7 +3974,7 @@
   {
     "objectID": "115",
     "category": "Viser",
-    "subcategory": ["Nordisk"],
+    "language": ["Nordisk"],
     "title": "Vårsøg",
     "arrangement": ["solo"],
     "composer": "Henning Sommerro",
@@ -3990,7 +3990,7 @@
   {
     "objectID": "116",
     "category": "Viser",
-    "subcategory": ["Nordisk"],
+    "language": ["Nordisk"],
     "title": "Vår beste dag",
     "arrangement": ["solo"],
     "composer": "Erik Bye",
@@ -4005,7 +4005,7 @@
   {
     "objectID": "117",
     "category": "Viser",
-    "subcategory": ["Nordisk"],
+    "language": ["Nordisk"],
     "title": "Vårherres klinkekule",
     "arrangement": ["solo"],
     "composer": "Erik Bye",
@@ -4020,7 +4020,7 @@
   {
     "objectID": "118",
     "category": "Viser",
-    "subcategory": ["Nordisk"],
+    "language": ["Nordisk"],
     "title": "Å kunne æ skrive",
     "arrangement": ["solo"],
     "composer": "Kari Bremnes",
@@ -4036,7 +4036,7 @@
   {
     "objectID": "119",
     "category": "Viser",
-    "subcategory": ["Nordisk"],
+    "language": ["Nordisk"],
     "title": "Å Vestland, Vestland",
     "arrangement": ["solo"],
     "composer": "Sigurd Førsund",
@@ -4051,7 +4051,7 @@
   {
     "objectID": "120",
     "category": "Rock/Soul/R&B",
-    "subcategory": ["engelsk"],
+    "language": ["engelsk"],
     "title": "Ain’t No Sunshine",
     "arrangement": ["solo", "duett"],
     "composer": "Bill Withers",
@@ -4101,7 +4101,7 @@
   {
     "objectID": "121",
     "category": "Pop",
-    "subcategory": ["engelsk"],
+    "language": ["engelsk"],
     "title": "Always on My Mind",
     "arrangement": ["solo"],
     "composer": "Wayne Thompson / Johnny Christopher / Mark James",
@@ -4150,7 +4150,7 @@
   {
     "objectID": "122",
     "category": "Pop",
-    "subcategory": ["engelsk"],
+    "language": ["engelsk"],
     "title": "Angel",
     "arrangement": ["solo"],
     "composer": "Sarah McLachlan",
@@ -4211,7 +4211,7 @@
   {
     "objectID": "123",
     "category": "Jazz",
-    "subcategory": ["engelsk"],
+    "language": ["engelsk"],
     "title": "Autumn Leaves",
     "arrangement": ["solo"],
     "composer": "Joseph Kosma",
@@ -4243,7 +4243,7 @@
   {
     "objectID": "124",
     "category": "Pop",
-    "subcategory": ["engelsk"],
+    "language": ["engelsk"],
     "title": "A Whiter Shade of Pale",
     "arrangement": ["solo"],
     "composer": "Keith Reid / Gary Brooker",
@@ -4289,7 +4289,7 @@
   {
     "objectID": "125",
     "category": "Pop",
-    "subcategory": ["spansk"],
+    "language": ["spansk"],
     "title": "Bésame Mucho",
     "arrangement": ["solo", "duett", "fiolin"],
     "composer": "Consuelo Velázquez",
@@ -4323,7 +4323,7 @@
   {
     "objectID": "126",
     "category": "Folkemusikk",
-    "subcategory": ["engelsk"],
+    "language": ["engelsk"],
     "title": "Blowin’ in the Wind",
     "arrangement": ["solo"],
     "composer": "Bob Dylan",
@@ -4370,7 +4370,7 @@
   {
     "objectID": "127",
     "category": "Rock/Soul/R&B",
-    "subcategory": ["engelsk"],
+    "language": ["engelsk"],
     "title": "Blueberry Hill",
     "arrangement": ["solo"],
     "composer": "Al Lewis / Vincent Rose / Larry Stock",
@@ -4408,7 +4408,7 @@
   {
     "objectID": "128",
     "category": "Pop",
-    "subcategory": ["engelsk"],
+    "language": ["engelsk"],
     "title": "Bridge over Troubled Water",
     "arrangement": ["solo", "duett"],
     "composer": "Paul Simon",
@@ -4451,7 +4451,7 @@
   {
     "objectID": "129",
     "category": "Rock/Soul/R&B",
-    "subcategory": ["engelsk"],
+    "language": ["engelsk"],
     "title": "Brothers in Arms (med el-gitar)",
     "arrangement": ["solo", "duett"],
     "composer": "Mark Knopfler",
@@ -4500,7 +4500,7 @@
   {
     "objectID": "130",
     "category": "Pop",
-    "subcategory": ["engelsk"],
+    "language": ["engelsk"],
     "title": "Candle in the Wind",
     "arrangement": ["solo"],
     "composer": "Elton John / Bernie Taupin",
@@ -4573,7 +4573,7 @@
   {
     "objectID": "131",
     "category": "Pop",
-    "subcategory": ["engelsk"],
+    "language": ["engelsk"],
     "title": "Can’t Help Falling in Love",
     "arrangement": ["solo"],
     "composer": "Hugo Peretti / Luigi Creatore / George David Weiss",
@@ -4609,7 +4609,7 @@
   {
     "objectID": "132",
     "category": "Pop",
-    "subcategory": ["engelsk"],
+    "language": ["engelsk"],
     "title": "Close to You",
     "arrangement": ["solo", "duett", "fiolin"],
     "composer": "Burt Bacharach / Hal David",
@@ -4662,7 +4662,7 @@
   {
     "objectID": "133",
     "category": "Rock/Soul/R&B",
-    "subcategory": ["engelsk"],
+    "language": ["engelsk"],
     "title": "Dance with My Father",
     "arrangement": ["solo"],
     "composer": "Richard Marx / Luther Vandross",
@@ -4716,7 +4716,7 @@
   {
     "objectID": "134",
     "category": "Pop",
-    "subcategory": ["Moderne", "Popballade"],
+    "language": ["Moderne", "Popballade"],
     "title": "Engel, ikke dra",
     "arrangement": ["solo"],
     "composer": "Andreas Haukeland",
@@ -4767,7 +4767,7 @@
   {
     "objectID": "135",
     "category": "Klassisk",
-    "subcategory": ["tysk"],
+    "language": ["tysk"],
     "title": "Ach, ich fühl’s",
     "arrangement": ["solo", "duett"],
     "composer": "Wolfgang Amadeus Mozart",
@@ -4796,7 +4796,7 @@
   {
     "objectID": "136",
     "category": "Pop",
-    "subcategory": ["Moderne", "Rock"],
+    "language": ["Moderne", "Rock"],
     "title": "Hallelujah",
     "arrangement": ["solo"],
     "composer": "Leonard Cohen",
@@ -4882,7 +4882,7 @@
   {
     "objectID": "137",
     "category": "Klassisk",
-    "subcategory": ["italiensk"],
+    "language": ["italiensk"],
     "title": "Caruso",
     "arrangement": ["solo", "duett"],
     "composer": "Lucio Dalla",
@@ -4967,7 +4967,7 @@
   {
     "objectID": "138",
     "category": "Musikal",
-    "subcategory": ["Crossover", "Klassisk", "Popballade"],
+    "language": ["Crossover", "Klassisk", "Popballade"],
     "title": "The Prayer",
     "arrangement": ["duett"],
     "composer": "David Foster / Carole Bayer Sager / Alberto Testa / Tony Renis",

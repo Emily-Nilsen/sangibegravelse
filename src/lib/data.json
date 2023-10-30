@@ -2871,7 +2871,52 @@
       "Hai acceso in noi",
       "Sento che ci salverá"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/The_Prayer_copy_vwdrzr.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/The_Prayer_MOBILE_njd5ov.webp"
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/The_Prayer_copy_sywhws.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/The_Prayer_MOBILE_qg6ns9.webp"
+  },
+  {
+    "objectID": "70",
+    "category": "Pop",
+    "language": ["norsk"],
+    "title": "Engler i sneen",
+    "arrangement": ["solo", "duett", "fiolin"],
+    "composer": "Jonas Fjeld",
+    "audio": false,
+    "description": [
+      "«Engler i sneen», komponert av Jonas Fjeld og først utgitt i 1989 sammen med Lynni Treekrem, er en poetisk utforskning av kjærlighet, tilhørighet og trøst mot en kulisse av kulde og ensomhet. Sangen er en melodisk hyllest til håp, kjærlighet og tilhørighet i tider med mørke og usikkerhet. Tekstene avslører en fortelling om å finne varme, hjem og samhold under vanskelige forhold: ‘Jeg var en hjemløs men du gjorde meg til et hjem. Du ga meg varme da alt var frost’. Med linjer som ‘Englene i sneen har sin egen sang for folk som oss’, fungerer det som en påminnelse om at det alltid er lys, selv i de mørkeste øyeblikkene.",
+      "Musikalsk plasserer sangen seg i et melankolsk, men likevel håpefullt landskap. Den kombinerer dyptgående lyrikk med et kompositorisk valg som gir rom for emosjonell refleksjon. Lyrisk billedbruk og den emosjonelle fremføringen av sangen utforsker temaer som håp, kjærlighet og den menneskelige evnen til å finne skjønnhet og tilknytning, selv i de kalde, dystre stundene av livet.",
+      "Sangen lover en ny daggry gjennom bildet av snøengler som synger i den mørkeste natt: 'Når natta er som svartest Synger de om soloppgang'. Det er en sang som kan fremføres på en rekke måter – enten som en solo, duett eller med en fiolinist – og som passer perfekt for å hedre et liv og uttrykke følelser som ofte er vanskelige å sette ord på."
+    ],
+    "lyrics": [
+      "Engler i sneen har sin egen sang",
+      "Når natta er som svartest",
+      "Synger de om soloppgang",
+      "Jeg sto i skyggene i regn og vind",
+      "Jeg var en fremmed til du åpnet deg og lot meg inn",
+      "Jeg sto alene helt til du steg frem",
+      "Jeg var en hjemløs men du gjorde meg til et hjem",
+      "Du ga meg varme da alt var frost",
+      "Englene i sneen har sin egen sang for folk som oss",
+      "",
+      "Så hold meg bli hos meg og vær her",
+      "Sov hos meg og vær her",
+      "Som flyktning og elsker og venn",
+      "Og la meg bli til en del av deg",
+      "Låne kropp og sjel av deg",
+      "Til himmelen revner igjen",
+      "",
+      "Englene i sneen vender hjem",
+      "",
+      "Engler i sneen har sitt eget liv",
+      "De synger om vintern men når våren kommer visner de",
+      "Engler i sneen har sin egen sang",
+      "De synger at alt som lever her og nå tar slutt engang",
+      "Engler i sneen lager sang av vind",
+      "De synger for hvem som helst som åpner seg og tar dem inn",
+      "Engler i sneen synger uten ord",
+      "Og når våren kommer går de uten svik og uten spor"
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Engler_i_sneen_copy_dtpng9.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Engler_i_sneen_MOBILE_bmbdz6.webp"
   }
 ]
