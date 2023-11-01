@@ -8,6 +8,7 @@ import { MinusSmallIcon, PlusSmallIcon } from '@heroicons/react/24/outline';
 import { Expandable } from '@/components/Expandable';
 import { getPerformerLink } from '../../utilities/getPerformerLink';
 import { CustomAudioPlayer } from './CustomAudioPlayer';
+import { AudioPlayer } from './AudioPlayer';
 import { generateSlug } from '../utils/generateSlug'; // Import generateSlug
 
 export function SongDetails({ isExpanded, expandedSongs, sang }) {
@@ -95,12 +96,12 @@ export function SongDetails({ isExpanded, expandedSongs, sang }) {
           <td colSpan="5">
             <div
               id="expanded"
-              className="grid w-full grid-cols-1 gap-0 p-4 md:grid-cols-2"
+              className="grid w-full grid-cols-1 gap-0 p-0 md:grid-cols-2"
             >
               {/* Image on mobile */}
               <div
                 aria-hidden="true"
-                className="relative mt-2 overflow-hidden rounded-lg lg:hidden"
+                className="relative mt-0 overflow-hidden rounded-none lg:hidden"
               >
                 <Image
                   src={sang.mobile}
@@ -111,26 +112,18 @@ export function SongDetails({ isExpanded, expandedSongs, sang }) {
                   unoptimized
                 />
               </div>
-              <div>
+              <div className="p-6">
                 {/* audio player */}
-                <div>
-                  <div className="max-w-lg pb-6 pr-1">
-                    {sang.audio && (
-                      <div className="pt-8 pb-0 mt-0">
-                        <CustomAudioPlayer audioUrl={sang.audioUrl} />
-                      </div>
-                    )}
-                    {sang.performers && (
-                      <p className="max-w-lg pt-4 text-sm leading-7 text-amber-700">
-                        «{sang.title}» av{' '}
-                        <span>
-                          {formatPerformersWithLinks(sang.performers)}
-                        </span>
-                        .
-                      </p>
-                    )}
+                {sang.audio && (
+                  <div className="relative z-10 mb-8 -mt-9 lg:hidden">
+                    <AudioPlayer
+                      audio={sang.audio}
+                      audioUrl={sang.audioUrl}
+                      title={sang.title}
+                      performers={sang.performers}
+                    />
                   </div>
-                </div>
+                )}
                 <p className="max-w-lg text-sm leading-7 text-gray-600 ">
                   {sang.description.map((line) => (
                     <div className="mb-3" key={line}>
@@ -179,21 +172,40 @@ export function SongDetails({ isExpanded, expandedSongs, sang }) {
 
               <div
                 aria-hidden="true"
-                className="relative hidden pt-8 overflow-hidden rounded-lg lg:block"
+                className="relative hidden px-3 pt-6 overflow-hidden rounded-lg lg:block"
               >
-                <Image
-                  src={sang.desktop}
-                  alt={sang.title}
-                  width={1456}
-                  height={816}
-                  className="object-cover object-center w-full overflow-hidden rounded-lg h-96"
-                  unoptimized
-                />
+                <div
+                  className={`shadow-lg rounded-xl shadow-gray-300/30 ring-1 ring-gray-200/30 ${
+                    sang.audio ? 'pb-6' : 'pb-0'
+                  }`}
+                >
+                  <Image
+                    src={sang.desktop}
+                    alt={sang.title}
+                    width={1456}
+                    height={816}
+                    className={`object-cover object-center w-full overflow-hidden ${
+                      sang.audio ? 'rounded-t-xl' : 'rounded-t-xl rounded-b-xl'
+                    } h-96`}
+                    unoptimized
+                  />
+                  {sang.audio && (
+                    <div className="px-6 mt-8 mb-2">
+                      <AudioPlayer
+                        audio={sang.audio}
+                        audioUrl={sang.audioUrl}
+                        title={sang.title}
+                        performers={sang.performers}
+                      />
+                    </div>
+                  )}
+                </div>
+
                 <Link
                   href={`/repertoar/${songSlug}`}
-                  className="flex justify-end text-sm font-semibold leading-6 transition-all duration-150 ease-in-out text-slate-700 hover:text-amber-700"
+                  className="flex justify-end mt-6 text-sm font-semibold leading-6 transition-all duration-150 ease-in-out text-slate-700 hover:text-amber-700"
                 >
-                  <button className="mt-6 cursor-pointer">
+                  <button className="pr-6 cursor-pointer">
                     Gå til sangsiden <span aria-hidden="true">→</span>
                   </button>
                 </Link>
