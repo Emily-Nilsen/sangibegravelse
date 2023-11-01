@@ -7,6 +7,7 @@ import { SongDetails } from './SongDetails';
 import { ViolinIcon } from './icons/Violin';
 import { SoloIcon } from './icons/Solo';
 import { DuetIcon } from './icons/Duet';
+import { CategoryTag } from './CategoryTag';
 
 export function RepertoireListComponent(
   { selectedCategory, selectedArrangement, selectedLanguage, repertoire },
@@ -22,17 +23,6 @@ export function RepertoireListComponent(
         return [...prevExpandedSongs, songId];
       }
     });
-  };
-
-  const categoryStyles = {
-    Salmer: 'text-lime-700 bg-lime-50 ring-lime-600/20',
-    Pop: 'text-yellow-700 bg-yellow-50 ring-yellow-600/20',
-    Viser: 'text-blue-700 bg-blue-50 ring-blue-600/20',
-    Klassisk: 'text-rose-700 bg-rose-50 ring-rose-600/20',
-    Musikal: 'text-yellow-700 bg-yellow-50 ring-yellow-600/20',
-    'Rock/Soul/R&B': 'text-purple-700 bg-purple-50 ring-purple-600/20',
-    Folkemusikk: 'text-indigo-700 bg-indigo-50 ring-indigo-600/20',
-    Jazz: 'text-sky-700 bg-sky-50 ring-sky-600/20',
   };
 
   // Utility function to get the arrangement icon
@@ -88,13 +78,10 @@ export function RepertoireListComponent(
                   <td className="px-3 py-4 text-sm text-gray-500">
                     {sang.category && (
                       <>
-                        <div
-                          className={`inline-flex items-center px-2 py-1 text-xs font-medium rounded-md ring-1 ring-inset ring-600/20 ${
-                            categoryStyles[sang.category]
-                          }`}
-                        >
-                          {sang.category}
-                        </div>
+                        <CategoryTag
+                          category={sang}
+                          categoryVariable="category"
+                        />
                         {/* Arrangement icons on mobile */}
                         <div className="flex pt-2.5 space-x-1 sm:hidden">
                           {getArrangementIcon(

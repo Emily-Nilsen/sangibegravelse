@@ -7,6 +7,7 @@ import { Dialog } from '@headlessui/react';
 import { createAutocomplete } from '@algolia/autocomplete-core';
 import algoliasearch from 'algoliasearch/lite';
 import Highlighter from 'react-highlight-words';
+import { CategoryTag } from './CategoryTag';
 
 export function AlgoliaAutocomplete({ open, setOpen }) {
   const router = useRouter();
@@ -167,6 +168,9 @@ export function SearchResults({ query, setOpen }) {
                 </div>
               </div>
               <div className="pt-2 text-xs text-gray-500">{hit.category}</div>
+              {/* <div className="hidden w-fit lg:block">
+                <CategoryTag category={hit} categoryVariable="category" />
+              </div> */}
             </div>
 
             <Image
