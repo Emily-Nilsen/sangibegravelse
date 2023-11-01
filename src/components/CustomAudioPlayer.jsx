@@ -1,4 +1,4 @@
-import { useRef, useState } from 'react';
+import { useRef, useState, useEffect } from 'react';
 import { PlayIcon, PauseIcon } from '@heroicons/react/20/solid';
 import styles from './CustomAudioPlayer.module.css';
 
@@ -30,14 +30,17 @@ export function CustomAudioPlayer({ audioUrl }) {
   const [duration, setDuration] = useState(0);
   const [currentTime, setCurrentTime] = useState(0);
 
-  const togglePlayPause = () => {
+  useEffect(() => {
     const audio = audioRef.current;
     if (isPlaying) {
-      audio.pause();
-    } else {
       audio.play();
+    } else {
+      audio.pause();
     }
-    setIsPlaying(!isPlaying);
+  }, [isPlaying]);
+
+  const togglePlayPause = () => {
+    setIsPlaying((prevIsPlaying) => !prevIsPlaying);
   };
 
   const handleLoadedMetadata = () => {
