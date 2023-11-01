@@ -203,7 +203,7 @@ export function SongDetails({ isExpanded, expandedSongs, sang }) {
 
                 <Link
                   href={`/repertoar/${songSlug}`}
-                  className="flex justify-end mt-6 text-sm font-semibold leading-6 transition-all duration-150 ease-in-out text-slate-700 hover:text-amber-700"
+                  className="flex justify-end mt-6 mb-10 text-sm font-semibold leading-6 transition-all duration-150 ease-in-out text-slate-700 hover:text-amber-700"
                 >
                   <button className="pr-6 cursor-pointer">
                     Gå til sangsiden <span aria-hidden="true">→</span>
