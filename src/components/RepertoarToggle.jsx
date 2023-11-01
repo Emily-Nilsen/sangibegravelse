@@ -53,6 +53,8 @@ export function RepertoarToggle() {
   );
   const filterControlsRef = useRef(null);
 
+  const repertoireListRef = useRef(null);
+
   return (
     <section>
       <div className="px-4 pt-24 pb-16 overflow-hidden max-w-screen sm:px-6 lg:px-8 sm:py-32">
@@ -96,6 +98,7 @@ export function RepertoarToggle() {
 
         {/* Repertoire list */}
         <RepertoireList
+          ref={repertoireListRef}
           repertoire={currentItems}
           selectedCategory={selectedCategory}
           selectedLanguage={selectedLanguage}
@@ -104,6 +107,7 @@ export function RepertoarToggle() {
 
         {/* Pagination controls */}
         <Pagination
+          repertoireListRef={repertoireListRef}
           currentPage={currentPage}
           totalPages={totalPages}
           setCurrentPage={setCurrentPage}

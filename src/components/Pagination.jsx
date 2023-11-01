@@ -2,8 +2,8 @@ export function Pagination({
   currentPage,
   totalPages,
   setCurrentPage,
-  filterControlsRef,
-  totalSongs, // New prop
+  totalSongs,
+  repertoireListRef, // New prop
 }) {
   const handleNavigation = (action) => {
     if (action === 'previous') {
@@ -11,7 +11,9 @@ export function Pagination({
     } else {
       setCurrentPage((prev) => Math.min(prev + 1, totalPages));
     }
-    filterControlsRef.current.scrollIntoView({ behavior: 'smooth' });
+    if (repertoireListRef.current) {
+      repertoireListRef.current.scrollIntoView({ behaviour: 'smooth' });
+    }
   };
 
   const endSongNumber =

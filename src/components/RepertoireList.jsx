@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, forwardRef } from 'react';
 import { MinusSmallIcon, PlusSmallIcon } from '@heroicons/react/24/outline';
 import { filterSongs } from '../../utilities/filterSongs';
 import { Expandable } from '@/components/Expandable';
@@ -8,12 +8,10 @@ import { ViolinIcon } from './icons/Violin';
 import { SoloIcon } from './icons/Solo';
 import { DuetIcon } from './icons/Duet';
 
-export function RepertoireList({
-  selectedCategory,
-  selectedArrangement,
-  selectedLanguage,
-  repertoire,
-}) {
+export function RepertoireListComponent(
+  { selectedCategory, selectedArrangement, selectedLanguage, repertoire },
+  ref
+) {
   const [expandedSongs, setExpandedSongs] = useState([]);
 
   const toggleSong = (songId) => {
@@ -49,7 +47,7 @@ export function RepertoireList({
   return (
     // Add scroll to the div below
     <div className="relative mt-8 -mx-4 sm:-mx-0">
-      <table className="min-w-full divide-y divide-gray-300">
+      <table ref={ref} className="min-w-full divide-y divide-gray-300">
         <TableHeader />
         <tbody className="bg-white divide-y divide-gray-200">
           {repertoire
@@ -153,3 +151,5 @@ export function RepertoireList({
     </div>
   );
 }
+
+export const RepertoireList = forwardRef(RepertoireListComponent);
