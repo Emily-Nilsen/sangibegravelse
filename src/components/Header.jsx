@@ -54,7 +54,7 @@ export function Header({ textColour }) {
             </Link>
           </div>
         </div>
-        <div className="mr-6 -my-5 sm:mr-8 md:mr-0">
+        <div className="hidden mr-6 -my-5 lg:block sm:mr-8 md:mr-0 justify-self-end">
           {showSearch && <Search handleAlgoliaOpen={handleAlgoliaOpen} />}{' '}
           {/* Conditionally render Search */}
         </div>
@@ -77,18 +77,24 @@ export function Header({ textColour }) {
             </Link>
           ))}
         </div>
-        <div className="flex lg:hidden">
-          <button
-            type="button"
-            className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-slate-900 bg-white/10"
-            onClick={() => setMobileMenuOpen(true)}
-          >
-            <span className="sr-only">Open main menu</span>
-            <Bars3Icon
-              className="w-6 h-6 text-amber-600/60"
-              aria-hidden="true"
-            />
-          </button>
+        <div className="flex gap-8">
+          <div className="lg:hidden">
+            {showSearch && <Search handleAlgoliaOpen={handleAlgoliaOpen} />}{' '}
+            {/* Conditionally render Search */}
+          </div>
+          <div className="flex lg:hidden">
+            <button
+              type="button"
+              className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-slate-900 bg-white/20"
+              onClick={() => setMobileMenuOpen(true)}
+            >
+              <span className="sr-only">Open main menu</span>
+              <Bars3Icon
+                className="w-6 h-6 text-amber-600/60"
+                aria-hidden="true"
+              />
+            </button>
+          </div>
         </div>
       </nav>
       {/* Mobile menu */}
