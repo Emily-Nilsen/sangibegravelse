@@ -34,7 +34,7 @@ export function AlgoliaAutocomplete({ open, setOpen }) {
           />
           <div
             ref={panelRef}
-            className="mt-4 border border-gray-200 rounded-lg"
+            className="mt-4 border rounded-lg border-white/50"
           >
             <SearchResults
               autocomplete={autocomplete}
