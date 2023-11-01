@@ -23,7 +23,7 @@ export function Search({ handleAlgoliaOpen }) {
         onClick={handleClick}
       >
         <SearchIcon className="flex-none transition-all duration-200 ease-in-out w-7 h-7 sm:w-5 sm:h-5 md:fill-white/70 md:group-hover:fill-white fill-white" />
-        <span className="hidden text-sm text-gray-500 md:ml-2 md:block">
+        <span className="hidden text-sm text-gray-500 md:ml-2 md:block lg:hidden">
           Søk etter sang...
         </span>
         <span className="hidden text-sm text-gray-600 transition-all duration-200 ease-in-out group-hover:text-gray-700 lg:block md:ml-2">
