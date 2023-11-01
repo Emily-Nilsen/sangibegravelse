@@ -8,8 +8,24 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 import MyLink from '@/components/MyLink';
 
 import navigation from './Navigation';
+import { Search } from './Search'; // Import the Search component
+import { AlgoliaAutocomplete } from './AlgoliaAutocomplete';
 
 export function Header({ textColour }) {
+  const [isAlgoliaOpen, setAlgoliaOpen] = useState(false); // For AlgoliaAutocomplete
+  const [showSearch, setShowSearch] = useState(true); // For controlling Search visibility
+
+  const handleAlgoliaOpen = () => {
+    setAlgoliaOpen(true);
+    setShowSearch(false);
+  };
+
+  const handleAlgoliaClose = () => {
+    setAlgoliaOpen(false);
+    setShowSearch(true);
+  };
+
+  // Original variables
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const closeMobileMenu = () => {
     setMobileMenuOpen(false);
@@ -38,7 +54,18 @@ export function Header({ textColour }) {
             </Link>
           </div>
         </div>
-
+        <div className="mr-6 -my-5 sm:mr-8 md:mr-0">
+          {showSearch && <Search handleAlgoliaOpen={handleAlgoliaOpen} />}{' '}
+          {/* Conditionally render Search */}
+        </div>
+        {/* ...existing code */}
+        {isAlgoliaOpen && (
+          <AlgoliaAutocomplete
+            open={isAlgoliaOpen}
+            setOpen={handleAlgoliaClose}
+          />
+        )}
+        {/* ...existing code */}
         <div className="hidden lg:flex lg:gap-x-12">
           {navigation.map((item) => (
             <Link

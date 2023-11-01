@@ -6,8 +6,8 @@ import { ViolinIcon } from './icons/Violin';
 import { SoloIcon } from './icons/Solo';
 import { DuetIcon } from './icons/Duet';
 import { getPerformerLink } from '../../utilities/getPerformerLink';
-import { generateSlug } from '../pages/repertoar/[slug]';
 import { CustomAudioPlayer } from './CustomAudioPlayer';
+import { generateSlug } from '../utils/generateSlug'; // Import generateSlug
 
 // Utility function to get the arrangement icon
 const getArrangementIcon = (arrangement, type, IconComponent) => {

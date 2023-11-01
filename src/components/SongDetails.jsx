@@ -6,9 +6,9 @@ import { motion } from 'framer-motion';
 import { Disclosure } from '@headlessui/react';
 import { MinusSmallIcon, PlusSmallIcon } from '@heroicons/react/24/outline';
 import { Expandable } from '@/components/Expandable';
-import { generateSlug } from '../pages/repertoar/[slug]';
 import { getPerformerLink } from '../../utilities/getPerformerLink';
 import { CustomAudioPlayer } from './CustomAudioPlayer';
+import { generateSlug } from '../utils/generateSlug'; // Import generateSlug
 
 export function SongDetails({ isExpanded, expandedSongs, sang }) {
   const [repertoire, setRepertoire] = useState([]);

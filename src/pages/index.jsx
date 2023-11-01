@@ -72,6 +72,7 @@ export default function Home() {
         <main>
           <HeroHjem />
           <Oppdatering />
+
           <RepertoarPreview />
           <ArtistsPreview />
           <Testimonial />
