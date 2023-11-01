@@ -117,7 +117,12 @@ export function SearchResults({ query, setOpen }) {
       setHits(results);
     };
 
-    if (query) fetchResults();
+    if (query) {
+      fetchResults();
+    } else {
+      // Clear hits when query is empty
+      setHits([]);
+    }
   }, [query]);
 
   if (hits.length === 0) {

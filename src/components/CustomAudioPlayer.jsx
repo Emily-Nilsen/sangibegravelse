@@ -1,6 +1,5 @@
 import { useRef, useState } from 'react';
 import { PlayIcon, PauseIcon } from '@heroicons/react/20/solid';
-// Additional styles for the progress bar and thumb
 import styles from './CustomAudioPlayer.module.css';
 
 export function PlayButton() {
@@ -55,6 +54,10 @@ export function CustomAudioPlayer({ audioUrl }) {
     setCurrentTime(audio.currentTime);
   };
 
+  const handleAudioEnd = () => {
+    setIsPlaying(false);
+  };
+
   const currentPercent = `${(currentTime / duration) * 100}%`;
 
   return (
@@ -64,6 +67,7 @@ export function CustomAudioPlayer({ audioUrl }) {
         src={audioUrl}
         onLoadedMetadata={handleLoadedMetadata}
         onTimeUpdate={handleTimeUpdate}
+        onEnded={handleAudioEnd}
       ></audio>
       <button onClick={togglePlayPause} className="mr-4 text-lg">
         {isPlaying ? <PauseButton /> : <PlayButton />}
