@@ -9,7 +9,7 @@ import { filterSongs } from '../../utilities/filterSongs';
 
 export function RepertoarToggle() {
   const [currentPage, setCurrentPage] = useState(1);
-  const itemsPerPage = 10;
+  const itemsPerPage = 50;
 
   const [repertoire, setRepertoire] = useState([]);
   const [selectedCategory, setSelectedCategory] = useState('');

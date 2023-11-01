@@ -15,7 +15,7 @@ export function Pagination({
   };
 
   const endSongNumber =
-    currentPage === totalPages ? totalSongs : currentPage * 10;
+    currentPage === totalPages ? totalSongs : currentPage * 50;
 
   return (
     <nav
@@ -25,7 +25,7 @@ export function Pagination({
       <div className="hidden sm:block">
         <p className="text-sm text-gray-700">
           Viser{' '}
-          <span className="font-medium">{(currentPage - 1) * 10 + 1}</span> til{' '}
+          <span className="font-medium">{(currentPage - 1) * 50 + 1}</span> til{' '}
           <span className="font-medium">{endSongNumber}</span> av{' '}
           <span className="font-medium">{totalSongs}</span> sanger
         </p>
@@ -44,7 +44,7 @@ export function Pagination({
         </button>
         <div className="flex items-center sm:hidden">
           <p className="text-sm text-gray-700">
-            <span className="font-medium">{(currentPage - 1) * 10 + 1}</span> –{' '}
+            <span className="font-medium">{(currentPage - 1) * 50 + 1}</span> –{' '}
             <span className="font-medium">{endSongNumber}</span> av{' '}
             <span className="font-medium">{totalSongs}</span> sanger
           </p>
