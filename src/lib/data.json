@@ -3092,8 +3092,8 @@
       "",
       "nå er du veiviser for meg"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Veiviser_copy_zaw5w8.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Veiviser_MOBILE_mmbucx.webp"
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Veiviser_copy_ytta07.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Veiviser_MOBILE_u4nila.webp"
   },
   {
     "objectID": "84",
@@ -3131,5 +3131,56 @@
     ],
     "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Ha%CC%8All_mitt_hja%CC%88rta_copy_lvtd0f.webp",
     "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Ha%CC%8All_mitt_hja%CC%88rta_MOBILE_fvj0xn.webp"
+  },
+  {
+    "objectID": "88",
+    "category": "Pop",
+    "language": ["norsk"],
+    "title": "Jeg glemmer deg aldri",
+    "arrangement": ["solo", "duett"],
+    "composer": "Aslag Haugen og Arne Moslatten",
+    "audio": true,
+    "audioUrl": "https://res.cloudinary.com/dt3k2apqd/video/upload/v1698920705/Sang%20i%20begravelse/Audio/Jeg_glemmer_deg_aldri_ldtn6e.wav",
+    "performers": ["Jan-Tore Saltnes"],
+    "description": [
+      "«Jeg glemmer deg aldri» av Aslag Haugen og Arne Moslatten, utgitt i 2002, er en melankolsk sang som uttrykker utfordringen ved å gå videre, samtidig som den formidler viktigheten av å ha klare livsmål. Sangen reflekterer over livets mange valg og følelser, og balanserer den tynne linjen mellom lek og alvor, om de uunngåelige avskjeder vi møter og lengselen som følger etter.",
+      "Teksten formidler sentimentet av uforglemmelige minner og personlig vekst, snakker til hjertet av alle som har kjent smerten ved å si farvel, men også håpet om at klare tanker kan føre til bedre dager. Sangen oppmuntrer til å forfølge ens mål og ha et håpefullt perspektiv mot fremtiden.",
+      "Dette er et gripende stykke som vektlegger at minnene om kjærlighet og tap aldri vil blekne, selv om tiden går."
+    ],
+    "lyrics": [
+      "Det er stor forskjell på lek og alvor",
+      "Og nå ble det litt varmt for meg",
+      "Nå drar du din vei",
+      "Men jeg glemmer deg aldri",
+      "Jeg tror det tar sin tid før jeg får fred",
+      "",
+      "Hvis du har en drøm og kan fantasere",
+      "En dag så kan det hende alt slår til",
+      "Hvis du setter deg mål, da er sjansen større",
+      "Det er ikke flaks men klare tanker som styrer deg",
+      "",
+      "Livet er et spill, hva skal passe inn",
+      "Du må lære deg å tolke rollen din",
+      "Nå drar du din vei, men jeg glemmer deg aldri",
+      "Jeg tror det tar sin tid før jeg får fred",
+      "",
+      "Du blir lettere blind",
+      "Når en gutt kaster garnet",
+      "Og prater om barn og hus og ring",
+      "Du kan glemme bort, hva det er du leter etter",
+      "Og kan stå igjen med ingenting",
+      "",
+      "Det er stor forskjell på lek og alvor",
+      "Og nå ble det litt varmt for meg",
+      "Nå drar du din vei",
+      "Men jeg glemmer deg aldri",
+      "Jeg tror det tar sin tid før jeg får fred",
+      "",
+      "Nå drar du din vei",
+      "Men jeg glemmer deg aldri",
+      "Jeg tror det tar sin tid før jeg får fred"
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Jeg_glemmer_deg_aldri_copy_fmfb3u.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Jeg_glemmer_deg_aldri_MOBILE_dxhpl8.webp"
   }
 ]
