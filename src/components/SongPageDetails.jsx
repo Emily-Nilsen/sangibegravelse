@@ -123,14 +123,16 @@ export function SongPageDetails({
             </div>
           </div>
           {/* Audio player */}
-          <div className="mt-6">
-            <AudioPlayer
-              audio={songAudio}
-              audioUrl={songAudioUrl}
-              title={songTitle}
-              performers={songPerformers}
-            />
-          </div>
+          {songAudio && (
+            <div className="mt-6">
+              <AudioPlayer
+                audio={songAudio}
+                audioUrl={songAudioUrl}
+                title={songTitle}
+                performers={songPerformers}
+              />
+            </div>
+          )}
           <div className="max-w-xl my-8 lg:hidden">
             <PaginationSection prevSong={prevSong} nextSong={nextSong} />
           </div>
