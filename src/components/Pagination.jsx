@@ -34,7 +34,7 @@ export function Pagination({
       </div>
       <div className="flex justify-between flex-1 sm:justify-end">
         <button
-          className={`relative inline-flex items-center rounded-md px-3 py-2 text-sm font-semibold text-gray-900 ring-1 ring-inset ring-gray-300 ${
+          className={`relative inline-flex items-center rounded-md px-4 py-2 text-sm font-semibold text-gray-900 ring-1 ring-inset ring-gray-300 ${
             currentPage === 1
               ? 'cursor-not-allowed'
               : 'hover:bg-amber-50 hover:ring-amber-700/20 transition ease-in-out duration-150 hover:text-amber-800'
@@ -52,7 +52,7 @@ export function Pagination({
           </p>
         </div>
         <button
-          className={`relative ml-3 inline-flex items-center rounded-md px-3 py-2 text-sm font-semibold text-gray-900 ring-1 ring-inset ring-gray-300 ${
+          className={`relative ml-3 inline-flex items-center rounded-md px-4 py-2 text-sm font-semibold text-gray-900 ring-1 ring-inset ring-gray-300 ${
             currentPage === totalPages
               ? 'cursor-not-allowed'
               : 'hover:bg-amber-50 hover:ring-amber-700/20 transition ease-in-out duration-150 hover:text-amber-800'

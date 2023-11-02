@@ -2376,8 +2376,8 @@
       "om klippå og om håndå",
       "og myke seljetre"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Ein_far_copy_tqgaon.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Ein_far_MOBILE_zmycy0.webp"
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Ein_far_v2_copy_cwdglh.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Ein_far_v2_MOBILE_ss7tpu.webp"
   },
   {
     "objectID": "17",
@@ -3036,7 +3036,100 @@
       "når man minst forventer det",
       "og det kan skje det som man ikke vil skal skje"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Marias_sang_copy_cb77tu.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Marias_sang_MOBILE_rm4pzb.webp"
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Marias_sang_copy_dsh3mt.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Marias_sang_MOBILE_bugetz.webp"
+  },
+  {
+    "objectID": "veiviser_123",
+    "category": "Viser",
+    "language": ["norsk"],
+    "title": "Veiviser",
+    "arrangement": ["solo"],
+    "composer": "Jan-Tore Saltnes",
+    "audio": true,
+    "audioUrl": "https://res.cloudinary.com/dt3k2apqd/video/upload/v1698916569/Sang%20i%20begravelse/Audio/Veiviser_arzaea.wav",
+    "performers": ["Jan-Tore Saltnes"],
+    "description": [
+      "«Veiviser» av Jan-Tore Saltnes utgitt i 2022 er ett dyptfølt og rørende ode til et kjært forhold som er avbrutt av uventede omstendigheter. Teksten formidler en sterk lengsel og kjærlighet mellom to mennesker som hadde ønsket å dele en hel levetid sammen. Gjennom teksten blir det klart at fortelleren ønsket å være den som ledet veien for den andre, men nå står alene, og håper at den andre vil være deres veiviser. Sangens følelsesladde tekst og stemning gjør den ideell for øyeblikk for ettertanke og minne."
+    ],
+    "lyrics": [
+      "Det var’ke dette som var planen",
+      "Det var’ke slik det skulle skje",
+      "Vi skulle bli så gamle sammen",
+      "Og når vi sku’ dra av sted",
+      "var det jeg som skulle dra",
+      "en liten stund før deg",
+      "Jeg skulle tråkke opp den sti som førte fram",
+      "og være veiviser for deg",
+      "",
+      "Det er et søtt men sorgfult minne",
+      "de ordene du skrev",
+      "Jeg ser det fortsatt for mitt indre",
+      "«deg vil jeg bli gammel med»",
+      "Men det skulle ha vært meg",
+      "som reiste litt før deg",
+      "Jeg skulle tråkke opp den sti som første fram",
+      "og være veiviser for deg",
+      "",
+      "Aaa",
+      "Aaa",
+      "Aaa",
+      "Aaa",
+      "",
+      "Og nå ror jeg her aleine",
+      "på et stort og stormfult hav",
+      "Vi skulle kjempe hele veien",
+      "til oss to en vakker dag",
+      "kunne si at vi har levd",
+      "til vi blei gamle, du og jeg",
+      "Nå må du tråkke opp den sti som fører fram",
+      "og være veiviser for meg",
+      "",
+      "Aaa",
+      "Aaa",
+      "Aaa",
+      "Aaa",
+      "",
+      "nå er du veiviser for meg"
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Veiviser_copy_zaw5w8.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Veiviser_MOBILE_mmbucx.webp"
+  },
+  {
+    "objectID": "84",
+    "category": "Pop",
+    "language": ["svensk"],
+    "title": "Håll mitt hjärta",
+    "arrangement": ["solo"],
+    "composer": "Peter Hallström, Lars Andersson og Björn Skifs",
+    "audio": true,
+    "audioUrl": "https://res.cloudinary.com/dt3k2apqd/video/upload/v1698916571/Sang%20i%20begravelse/Audio/Ha%CC%8All_mitt_hja%CC%88rta_tk5wtw.wav",
+    "performers": ["Jan-Tore Saltnes"],
+    "description": [
+      "«Håll mitt hjärta» er en dyp og inntrengende sang komponert av Peter Hallström i 1997. Den engelske versjonen, «Same Ol' Story», ble skrevet av Lasse Andersson, mens Björn Skifs senere satte ord på den svenske teksten. Sangen forteller om en protagonist som lengter etter sin romantiske partner for å holde hans hjerte og sjel, for å trøste ham og vise at hun bryr seg om ham.",
+      "Han har ventet på henne i lang tid og tror at hun kan helbrede hans sår og gjøre ham hel igjen. Han ber henne holde hjertet og sjelen hans nær henne, la ham bli hos henne. Sangens tekster snakker om et inderlig ønske om nærhet, trygghet og heling. Versene maler et bilde av en person som lengter etter å bli holdt tett og trøstet.",
+      "Den kontinuerlige repetisjonen av ‘Håll mitt hjärta, Håll min själ’ forsterker behovet for forståelse og kjærlighet i vanskelige tider. Dette er en sang som har en spesiell plass i mange menneskers hjerter, som kan resonere dypt med de som søker trøst i musikk under sorgfulle stunder. Den vekker følelser av håp og tilknytning, og minner oss om viktigheten av menneskelig forbindelse i tider med behov."
+    ],
+    "lyrics": [
+      "Håll mitt hjärta Håll min själ",
+      "Lägg mitt huvud i ditt knä",
+      "Säg att du menar",
+      "Och vill mig väl",
+      "Håll mitt hjärta Håll min själ",
+      "",
+      "Som jag väntat alla år",
+      "Du kan läka mina sår",
+      "Ta mina händer och gör mig hel",
+      "Ta mitt hjärta",
+      "Ta min själ",
+      "",
+      "Håll mitt hjärta Håll min själ",
+      "Låt mig bara stanna här",
+      "Så allt jag ber dig allt jag begär",
+      "Håll mitt hjärta Håll min själ",
+      "Håll min själ"
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Ha%CC%8All_mitt_hja%CC%88rta_copy_lvtd0f.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Ha%CC%8All_mitt_hja%CC%88rta_MOBILE_fvj0xn.webp"
   }
 ]
