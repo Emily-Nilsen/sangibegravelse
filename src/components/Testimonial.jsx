@@ -1,8 +1,27 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
+import { useEffect, useState } from 'react';
+import { tilbakemeldingerData } from '../lib/tilbakemeldinger'; // Adjust the path as necessary
 
 export function Testimonial() {
+  const [testimonial, setTestimonial] = useState({});
+
+  useEffect(() => {
+    const featuredTestimonials = tilbakemeldingerData.filter((t) => t.featured);
+    const updateTestimonial = () => {
+      const randomIndex = Math.floor(
+        Math.random() * featuredTestimonials.length
+      );
+      setTestimonial(featuredTestimonials[randomIndex]);
+    };
+
+    updateTestimonial(); // Initial testimonial
+    const interval = setInterval(updateTestimonial, 86400000); // Update every 24 hours
+
+    return () => clearInterval(interval); // Cleanup on unmount
+  }, []);
+
   return (
     <div className="py-16 bg-white sm:py-24">
       <div className="mx-auto max-w-7xl sm:px-6 lg:px-8">
@@ -27,20 +46,21 @@ export function Testimonial() {
             height={1121}
           />
           <div className="absolute inset-0 bg-white/50" />
-
           <div className="relative max-w-2xl mx-auto lg:mx-0">
             <figure>
               <blockquote className="mt-6 text-lg font-semibold text-slate-950 sm:text-xl sm:leading-8">
                 <p>
-                  “Kjære Nils Georg, ja, som Tante Ragny ofte sier, «det kunne
-                  ikke vært finere!». Alle var så imponerte over dere - det ble
-                  så minnerik, og vi er så takknemlig!”
+                  {testimonial.body
+                    ? `“${testimonial.body}”`
+                    : 'Loading testimonial...'}
                 </p>
               </blockquote>
-              <figcaption className="mt-6 text-base text-slate-800">
-                <div className="font-semibold">Tina</div>
-                <div className="mt-1">Frognerseteren</div>
-              </figcaption>
+              {testimonial.author && (
+                <figcaption className="mt-6 text-base text-slate-800">
+                  <div className="font-semibold">{testimonial.author.name}</div>
+                  <div className="mt-1">{testimonial.author.place}</div>
+                </figcaption>
+              )}
             </figure>
           </div>
         </motion.div>
