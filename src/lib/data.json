@@ -3270,5 +3270,49 @@
     ],
     "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Bring_Him_Home_copy_tl8znc.webp",
     "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Bring_Him_Home_MOBILE_i03oy6.webp"
+  },
+  {
+    "objectID": "if_123",
+    "category": "Pop",
+    "language": ["engelsk"],
+    "title": "If",
+    "arrangement": ["solo"],
+    "composer": "David Gates",
+    "audio": true,
+    "audioUrl": "https://res.cloudinary.com/dt3k2apqd/video/upload/v1699006624/Sang%20i%20begravelse/Audio/If_sdqgzg.wav",
+    "performers": ["Jan-Tore Saltnes"],
+    "description": [
+      "«If», skrevet av den amerikanske singer-songwriteren David Gates i 1971, er en reflekterende ballade som griper lytterens hjerte med sin poesi og melankoli. Sangen dykker inn i temaer som evig forbindelse og urokkelig hengivenhet. Uttrykt gjennom et ønske om å overkomme enhver begrensning i tid og rom for å være sammen med den man elsker.",
+      "Gates' talent for å frembringe sterke bilder gjennom ord manifesteres i linjer som ‘There’s no one home but you. You’re all that’s left me too,’ og skildrer en altomsluttende forelskelse der tankene er konstant fylt av den andre.",
+      "Sangens tekst fremstiller et ubrytelig bånd mellom to sjeler. Den lyriske fortellingen om et forhold som er sterkere enn verdenens endelikt og eksistensen hinsides stjernene gir håp om at tilknytningen varer ved langt utover det fysiske liv. «If» forteller om lengselen etter å vise storstilte kjærlighetshandlinger, som i historiske og mytiske eventyr, og et ønske om å følge den elskede gjennom alle livets faser."
+    ],
+    "lyrics": [
+      "If a picture paints a thousand words",
+      "Then why can't I paint you?",
+      "The words will never show",
+      "The you I've come to know",
+      "",
+      "If a face could launch a thousand ships",
+      "Then where am I to go?",
+      "There's no one home but you",
+      "You're all that's left me too",
+      "",
+      "And when my love for life is running dry",
+      "You come and pour yourself on me",
+      "",
+      "If a man could be two places at one time",
+      "I'd be with you",
+      "Tomorrow and today",
+      "Beside you all the way",
+      "",
+      "If the world should stop revolving",
+      "Spinning slowly down to die",
+      "I'd spend the end with you",
+      "And when the world was through",
+      "Then one by one the stars would all go out",
+      "Then you and I would simply fly away"
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/If_copy_ss3slh.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/If_MOBILE_jolccw.webp"
   }
 ]
