@@ -1781,42 +1781,7 @@
     "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Evig_hvile_k6wnpp.webp",
     "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Evig_hvile_mobile_tcnlzv.webp"
   },
-  {
-    "objectID": "76",
-    "category": "Salmer",
-    "language": ["Nordisk"],
-    "title": "Gje meg handa di ven",
-    "arrangement": ["solo", "duett"],
-    "composer": "Sondre Bratland",
-    "audio": false,
-    "description": [
-      "Gje meg handa di ven, en tradisjonell norsk folkesang, er en inderlig ballade som hyller vennskapsbåndet og samholdet mellom mennesker. Med sin sjelberørende tekst og melodiøse komposisjon, snakker sangen om å strekke ut en hånd i vennskap og støtte.",
-      "Gje meg handa di ven fanger essensen av kameratskap, tillit og kraften i menneskelig forbindelse. Sangen understreker viktigheten av å stå sammen som venner i tider med glede eller sorg.",
-      "Den emosjonelle vokalen og det autentiske folkearrangementet skaper en varm og innbydende atmosfære, og inviterer lyttere til å verdsette verdien av ekte vennskap."
-    ],
-    "lyrics": [
-      "Gje meg handa di ven når det kveldnar",
-      "Det blir mørkt og me treng ei hand",
-      "La dei ljose og vennlege tankar",
-      "Fylgje oss inn i draumars land",
-      "Lat varmen frå ein som er glad i deg",
-      "Tenne stjerner i myrkaste natt",
-      "Gje meg handa di ven",
-      "Når det kveldar",
-      "Det blir mørkt og me treng ei hand",
-      "",
-      "Varme tankar og hender som trøystar",
-      "Er som sol over frosen jord",
-      "Kjenne varmen frå ein som er nær deg",
-      "Gjev langt meire enn store ord",
-      "Lat varmen frå ein som er glad i deg",
-      "Tenne stjerner i mørkaste natt",
-      "Gje meg handa di ven når det kveldar",
-      "Det blir mørkt og me treng ei hand"
-    ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Gje_meg_handa_di_ven_ouqtnv.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Gje_meg_handa_di_ven_mobile_bvoyuq.webp"
-  },
+
   {
     "objectID": "77",
     "category": "Viser",

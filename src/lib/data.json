@@ -3616,5 +3616,41 @@
     ],
     "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Gabriellas_sa%CC%8Ang_copy_mp6ip0.webp",
     "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Gabriellas_sa%CC%8Ang_MOBILE_mg5alu.webp"
+  },
+  {
+    "objectID": "76",
+    "category": "Folkemusikk",
+    "language": ["norsk"],
+    "title": "Gje meg handa di ven",
+    "arrangement": ["solo", "duett"],
+    "composer": "Sondre Bratland",
+    "audio": false,
+    "description": [
+      "«Gje meg handa di ven», skrevet i 1988 av Sondre Bratland, er en sang som griper hjertet og varmer sjelen. Dens melodi er lånt fra den tradisjonelle irske sangen «Down by the Salley Gardens,» som stammer fra 1600-tallet, og gir en tidløs følelse til musikkstykket. Tekstene maler et bilde av vennskap og støtte og den trøstende tilstedeværelsen av kjære gjennom utfordrende og mørke tider, noe som gir en dypere resonans og historisk kontekst til melodien.",
+      "Denne sangen er ikke bare en refleksjon av søken etter nærhet og trøst i livets mørkere stunder, men den bærer også med seg et ekko av fortiden, et testament til den varige kraften av melodisk og lyrisk skjønnhet. Bratlands evne til å vev sammen en melodi med røtter dypt i historien med moderne tekst, skaper et verk som overskrider tiden og som kan bringe mennesker sammen i deres felles erfaringer av sorg og tap.",
+      "Ved å inkludere den håndgripelige hånden som et symbol, skaper han et bilde av fellesskap og forståelse, et sant verdifullt valg for å hedre en avskjed."
+    ],
+    "lyrics": [
+      "Gje meg handa di ven når det kveldnar",
+      "Det blir mørkt og me treng ei hand",
+      "La dei ljose og vennlege tankar",
+      "Fylgje oss inn i draumars land",
+      "Lat varmen frå ein som er glad i deg",
+      "Tenne stjerner i myrkaste natt",
+      "Gje meg handa di ven",
+      "Når det kveldar",
+      "Det blir mørkt og me treng ei hand",
+      "",
+      "Varme tankar og hender som trøystar",
+      "Er som sol over frosen jord",
+      "Kjenne varmen frå ein som er nær deg",
+      "Gjev langt meire enn store ord",
+      "Lat varmen frå ein som er glad i deg",
+      "Tenne stjerner i mørkaste natt",
+      "Gje meg handa di ven når det kveldar",
+      "Det blir mørkt og me treng ei hand"
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Gje_meg_handa_di_ven_copy_m2vads.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Gje_meg_handa_di_ven_MOBILE_rrb4tu.webp"
   }
 ]
