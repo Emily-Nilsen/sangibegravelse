@@ -1781,52 +1781,7 @@
     "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Evig_hvile_k6wnpp.webp",
     "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Evig_hvile_mobile_tcnlzv.webp"
   },
-  {
-    "objectID": "73",
-    "category": "Viser",
-    "language": ["Nordisk", "Popballade"],
-    "title": "For siste gang",
-    "arrangement": ["solo"],
-    "composer": "Eyvind Skeie / Sigvald Tveit",
-    "audio": false,
-    "description": [
-      "For siste gang, komponert av Eyvind Skeie og Sigvald Tveit, er en inderlig popballade som snakker om å ta farvel eller si farvel for siste gang. Med sine emosjonelle tekst og ømme melodier, uttrykker sangen følelsene og kompleksiteten som følger med avskjedsveier.",
-      "Sangen er kjent fra barnetv-serien Portveien 2."
-    ],
-    "lyrics": [
-      "Døren låses, porten lukkes,",
-      "alt er gjort for aller siste gang.",
-      "Gi meg hånden, før du reiser,",
-      "sett deg ganske stille på mitt fang.",
-      "",
-      "Om det som er forbi er forbi,",
-      "da har jeg noe vakkert å si.",
-      "Alltid skal jeg huske det vi delte du og jeg,",
-      "aldri skal jeg glemme det du er for meg.",
-      "",
-      "Være sammen, siden skilles,",
-      "det er veien hver og en må gå,",
-      "la oss ikke være triste",
-      "selv om det er oss det gjelder nå.",
-      "",
-      "Om det som er forbi er forbi,",
-      "da har jeg noe vakkert å si.",
-      "Alltid skal jeg huske det vi delte du og jeg,",
-      "aldri skal jeg glemme det du er for meg",
-      "",
-      "Døren låses, porten lukkes,",
-      "alt er gjort for aller siste gang.",
-      "Om vi siden aldri møtes",
-      "kan jeg være hos deg i min sang.",
-      "",
-      "Om det som er forbi er forbi,",
-      "da har jeg noe vakkert å si,",
-      "alltid skal jeg huske det vi delte du og jeg,",
-      "aldri skal jeg glemme alt du var for meg."
-    ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/For_siste_gang_mx5tpv.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/For_siste_gang_mobile_uospfd.webp"
-  },
+
   {
     "objectID": "74",
     "category": "Viser",
