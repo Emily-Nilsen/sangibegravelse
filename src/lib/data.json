@@ -3569,5 +3569,52 @@
     ],
     "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Fordi_jeg_elsker_deg_copy_ey8ouq.webp",
     "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Fordi_jeg_elsker_deg_MOBILE_mardc4.webp"
+  },
+  {
+    "objectID": "75",
+    "category": "Salmer",
+    "language": ["svensk"],
+    "title": "Gabriellas sång",
+    "arrangement": ["solo", "duett"],
+    "composer": "Stefan Nilsson og Py Bäckman",
+    "audio": false,
+    "description": [
+      "«Gabriellas sång», komponert av Stefan Nilsson i 2004 med tekst av Py Bäckman, fremstår som et dypt rørende stykke musikk som formidler en sterk følelse av selvrefleksjon og personlig realisering. Denne balladen, som ble kjent gjennom den svenske filmen «Så som i himmelen», oppmuntrer til selvoppdagelse og personlig styrke. Den omfavner livets fulle spekter ved å overvinne tidligere smerter og usikkerheter, og ved å feire de valgene som fører mot selvoppfyllelse.",
+      "Med linjer som ‘Jag vill känna att jag lever, all den tid jag har’, fanger sangen opplevelsen av å omfavne livet fullt ut og akseptere den uunngåelige reisen mot døden. Dens emosjonelle dybde og løftet om håp resonerer med lytterens dypeste ønsker om selvaksept og betydningen av eksistens.",
+      "«Gabriellas sång» tjener dermed som en respektfull ære til minnet om den avdøde, samtidig som den tilbyr en påminnelse for de sørgende om å verdsette hvert øyeblikk av deres eget liv og den transformative kraften av kjærlighet."
+    ],
+    "lyrics": [
+      "Det är nu som livet är mitt",
+      "Jag har fått en stund här på jorden",
+      "Och min längtan har fört mig hit",
+      "Det jag saknat och det jag fått",
+      "",
+      "Det är ändå vägen jag valt",
+      "Min förtröstan långt bortom orden",
+      "Som har visat en liten bit",
+      "Av den himmel jag aldrig nått",
+      "",
+      "Jag vill känna att jag lever",
+      "All den tid jag har",
+      "Ska jag leva som jag vill",
+      "Jag vill känna att jag lever",
+      "Veta att jag räcker till",
+      "",
+      "Jag har aldrig glömt vem jag var",
+      "Jag har bara låtit det sova",
+      "Kanske hade jag inget val",
+      "Bara viljan att finnas kvar",
+      "",
+      "Jag vill leva lycklig för att jag är jag",
+      "Kunna vara stark och fri",
+      "Se hur natten går mot dag",
+      "Jag är här och mitt liv är bara mitt",
+      "Och den himmel jag trodde fanns",
+      "Ska jag hitta där nånstans",
+      "",
+      "Jag vill känna att jag levt mitt liv"
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Gabriellas_sa%CC%8Ang_copy_mp6ip0.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Gabriellas_sa%CC%8Ang_MOBILE_mg5alu.webp"
   }
 ]
