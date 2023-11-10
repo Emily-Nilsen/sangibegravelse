@@ -75,7 +75,7 @@ export default function Home() {
 
           <RepertoarPreview />
           <ArtistsPreview />
-          <Testimonial />
+          {/* <Testimonial /> */}
         </main>
       </div>
     </>

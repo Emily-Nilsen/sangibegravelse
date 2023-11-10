@@ -31,6 +31,13 @@ const people = [
       'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/artists/jan-tore_saltnes_jwsakm.webp',
     profileUrl: '/jan-tore-saltnes',
   },
+  {
+    name: 'Espen Solsbak',
+    role: 'Sanger',
+    imageUrl:
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/artists/PortrettEspenSolsbak_copy_tapdim.webp',
+    profileUrl: '/espen-solsbak',
+  },
 ];
 
 export function ArtistsPreview() {
@@ -66,14 +73,17 @@ export function ArtistsPreview() {
                 ease: 'easeOut',
               }}
               key={i}
+              className="group"
             >
-              <Image
-                className="object-cover w-56 h-56 mx-auto rounded-full grayscale"
-                src={person.imageUrl}
-                alt=""
-                width={300}
-                height={300}
-              />
+              <Link href={person.profileUrl}>
+                <Image
+                  className="object-cover w-56 h-56 mx-auto transition duration-300 ease-in-out rounded-full grayscale group-hover:grayscale-0"
+                  src={person.imageUrl}
+                  alt={person.name}
+                  width={300}
+                  height={300}
+                />
+              </Link>
 
               <h3 className="mt-6 text-base font-semibold leading-7 tracking-tight text-gray-900">
                 {person.name}
