@@ -14,7 +14,7 @@ export function Oppdatering() {
           </div>
           <div className="flex-1 ml-3 md:flex md:justify-between">
             <p className="text-sm text-amber-700">
-              Siden er under løppende oppdatering.
+              Siden er under løpende oppdatering.
             </p>
             <p className="mt-3 text-sm md:ml-6 md:mt-0">
               <Link
