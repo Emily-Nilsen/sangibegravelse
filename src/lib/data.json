@@ -155,7 +155,7 @@
   },
   {
     "objectID": "7",
-    "category": "Pop",
+    "category": "Viser",
     "language": ["norsk"],
     "title": "Adieu",
     "arrangement": ["solo", "duett"],
@@ -1697,7 +1697,7 @@
 
   {
     "objectID": "125",
-    "category": "Pop",
+    "category": "Jazz",
     "language": ["spansk"],
     "title": "Bésame Mucho",
     "arrangement": ["solo", "duett", "fiolin"],
@@ -1731,7 +1731,7 @@
   },
   {
     "objectID": "126",
-    "category": "Folkemusikk",
+    "category": "Viser",
     "language": ["engelsk"],
     "title": "Blowin’ in the Wind",
     "arrangement": ["solo"],
@@ -2381,7 +2381,7 @@
   },
   {
     "objectID": "17",
-    "category": "Viser",
+    "category": "Salmer",
     "language": ["norsk"],
     "title": "Ein fin liten blome",
     "arrangement": ["solo"],
@@ -2601,7 +2601,7 @@
   },
   {
     "objectID": "654",
-    "category": "Pop",
+    "category": "Rock/Soul/R&B",
     "language": ["engelsk"],
     "title": "He Ain’t Heavy, He’s My Brother",
     "arrangement": ["solo"],
@@ -2876,7 +2876,7 @@
   },
   {
     "objectID": "70",
-    "category": "Pop",
+    "category": "Viser",
     "language": ["norsk"],
     "title": "Engler i sneen",
     "arrangement": ["solo", "duett", "fiolin"],
@@ -3145,7 +3145,7 @@
   },
   {
     "objectID": "88",
-    "category": "Pop",
+    "category": "Viser",
     "language": ["norsk"],
     "title": "Jeg glemmer deg aldri",
     "arrangement": ["solo", "duett"],
@@ -3477,7 +3477,7 @@
   },
   {
     "objectID": "73",
-    "category": "Salmer",
+    "category": "Viser",
     "language": ["norsk"],
     "title": "For siste gang",
     "arrangement": ["solo", "duett"],
@@ -3572,7 +3572,7 @@
   },
   {
     "objectID": "75",
-    "category": "Salmer",
+    "category": "Musikal",
     "language": ["svensk"],
     "title": "Gabriellas sång",
     "arrangement": ["solo", "duett"],
