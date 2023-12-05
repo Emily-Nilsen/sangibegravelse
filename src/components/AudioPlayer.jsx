@@ -2,7 +2,7 @@ import { CustomAudioPlayer } from './CustomAudioPlayer';
 import { getPerformerLink } from '../../utilities/getPerformerLink';
 import Link from 'next/link';
 
-export function AudioPlayer({ audio, audioUrl, title, performers }) {
+export function AudioPlayer({ audio, audioUrl, title, performers, live }) {
   return (
     <div className="p-4 bg-white border shadow-lg rounded-xl sm:px-0 sm:pt-0 sm:pb-0 sm:mt-0 sm:border-none border-amber-600/20 shadow-gray-300/30 sm:shadow-none">
       {audio && <CustomAudioPlayer audioUrl={audioUrl} />}
@@ -47,6 +47,7 @@ export function AudioPlayer({ audio, audioUrl, title, performers }) {
               );
             }, '')}
           </span>
+          {live && <span className="text-amber-700"> (liveopptak)</span>}
         </p>
       )}
     </div>

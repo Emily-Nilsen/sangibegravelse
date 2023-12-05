@@ -197,13 +197,13 @@ export function Espen() {
                     </Link>
                   </dd>
                 </div>
-                {/* <div className="mt-1">
+                <div className="mt-1">
                   <dt className="sr-only">Phone number</dt>
                   <dd>
                     {' '}
-                    <Link href="tel:+47 402 20 414">+47 402 20 414</Link>
+                    <Link href="tel:+47 951 79 903">+47 951 79 903</Link>
                   </dd>
-                </div> */}
+                </div>
               </dl>
             </motion.div>
           </div>

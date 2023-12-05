@@ -46,9 +46,11 @@ export function Tilbakemeldinger({ artistName }) {
                       <div className="font-semibold text-gray-900">
                         {testimonial.author.name}
                       </div>
-                      <div className="text-gray-600">
-                        {testimonial.author.place}
-                      </div>
+                      {testimonial.author.place && (
+                        <div className="text-gray-600">
+                          {testimonial.author.place}
+                        </div>
+                      )}
                     </div>
                   </figcaption>
                 </figure>

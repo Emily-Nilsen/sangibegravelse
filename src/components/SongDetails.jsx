@@ -121,6 +121,7 @@ export function SongDetails({ isExpanded, expandedSongs, sang }) {
                       audioUrl={sang.audioUrl}
                       title={sang.title}
                       performers={sang.performers}
+                      live={sang.live}
                     />
                   </div>
                 )}
@@ -196,6 +197,7 @@ export function SongDetails({ isExpanded, expandedSongs, sang }) {
                         audioUrl={sang.audioUrl}
                         title={sang.title}
                         performers={sang.performers}
+                        live={sang.live}
                       />
                     </div>
                   )}

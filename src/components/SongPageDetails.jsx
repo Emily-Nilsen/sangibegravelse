@@ -78,6 +78,7 @@ export function SongPageDetails({
   songPerformers,
   nextSong,
   prevSong,
+  songLive,
 }) {
   const hyphenClass = songHyphen ? 'hyphens-auto' : 'hyphens-none';
 
@@ -130,6 +131,7 @@ export function SongPageDetails({
                 audioUrl={songAudioUrl}
                 title={songTitle}
                 performers={songPerformers}
+                live={songLive}
               />
             </div>
           )}

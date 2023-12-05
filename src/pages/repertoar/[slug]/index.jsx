@@ -129,6 +129,7 @@ export default function SongPage({ songData, nextSong, prevSong }) {
             songPerformers={songData.performers}
             nextSong={nextSong}
             prevSong={prevSong}
+            songLive={songData.live}
           />
 
           <div className="absolute left-0 z-20 w-full h-32 overflow-visible opacity-80 -top-32 bg-gradient-to-t from-white" />

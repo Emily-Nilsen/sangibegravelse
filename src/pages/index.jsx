@@ -4,7 +4,6 @@ import { HeroHjem } from '@/components/HeroHjem';
 import { Oppdatering } from '@/components/Oppdatering';
 import { RepertoarPreview } from '@/components/RepertoarPreview';
 import { ArtistsPreview } from '@/components/ArtistsPreview';
-import { Testimonial } from '@/components/Testimonial';
 
 export default function Home() {
   const structuredData = {
@@ -75,7 +74,6 @@ export default function Home() {
 
           <RepertoarPreview />
           <ArtistsPreview />
-          {/* <Testimonial /> */}
         </main>
       </div>
     </>

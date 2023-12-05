@@ -1,5 +1,6 @@
 // tilbakemeldinger.js
 export const tilbakemeldingerData = [
+  // Nils Georg Nilsen
   {
     artist: 'Nils Georg Nilsen',
     body: 'Tusen hjertelig takk for en fantastisk vakker vokal i begravelsen til pappaen min idag, Alladin. Du har en unik stemme og tilstedeværelse.',
@@ -9,7 +10,6 @@ export const tilbakemeldingerData = [
       name: 'Lisa med familie',
       place: 'Stalsberghagen kapell',
     },
-    featured: true,
   },
   {
     artist: 'Nils Georg Nilsen',
@@ -20,7 +20,6 @@ export const tilbakemeldingerData = [
       name: 'Anne-Britt',
       place: 'Haslum krematorium',
     },
-    featured: false,
   },
   {
     artist: 'Nils Georg Nilsen',
@@ -31,7 +30,6 @@ export const tilbakemeldingerData = [
       name: 'Kristina',
       place: 'Høybråten kirke',
     },
-    featured: true,
   },
   {
     artist: 'Nils Georg Nilsen',
@@ -42,18 +40,16 @@ export const tilbakemeldingerData = [
       name: 'Bendik',
       place: 'Tanum kirke',
     },
-    featured: true,
   },
   {
     artist: 'Nils Georg Nilsen',
-    body: "Kjære Nils Georg, ja, som Tante Ragny ofte sier, «det kunne ikke vært finere!». Alle var så imponerte over dere - det ble så minnerik, og vi er så takknemlig!'",
+    body: 'Kjære Nils Georg, ja, som Tante Ragny ofte sier, «det kunne ikke vært finere!». Alle var så imponerte over dere - det ble så minnerik, og vi er så takknemlig!',
     image:
       'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/testimonials/flower_card_12_copy_boc3t3.webp',
     author: {
       name: 'Tina',
       place: 'Frognerseteren',
     },
-    featured: true,
   },
   {
     artist: 'Nils Georg Nilsen',
@@ -64,7 +60,6 @@ export const tilbakemeldingerData = [
       name: 'Sissel',
       place: 'Sørum kirke',
     },
-    featured: true,
   },
   {
     artist: 'Nils Georg Nilsen',
@@ -75,8 +70,8 @@ export const tilbakemeldingerData = [
       name: 'Torbjørn',
       place: 'Vestre gravlunds kapell',
     },
-    featured: true,
   },
+  // Jan-Tore Saltnes
   {
     artist: 'Jan-Tore Saltnes',
     body: 'For oss i Horten Begravelsesbyrå er Jan-Tore et av de aller sikreste kortene i bunken. Allsidig som få - dyktig som enda færre. Profesjonell - i alle aspekter av sitt virke. Han leverer alltid, uavhengig av hva vi utfordrer han på - til våre og ikke minst; over de pårørendes forventninger. Med Jan-Tore på laget - så er vi 100% trygge!',
@@ -86,7 +81,6 @@ export const tilbakemeldingerData = [
       name: 'Aron Preus, gravferdskonsulent',
       place: 'Horten begravelsesbyrå',
     },
-    featured: true,
   },
   {
     image:
@@ -97,7 +91,6 @@ export const tilbakemeldingerData = [
       name: 'Harry E.Hanssen, gravferdskonsulent',
       place: 'Klemmetsby-Firing begravelsesbyrå',
     },
-    featured: true,
   },
   {
     image:
@@ -108,6 +101,57 @@ export const tilbakemeldingerData = [
       name: 'Anne-Grethe Lærum',
       place: 'Gravferdskonsulent, Fonus begravelsesbyrå',
     },
-    featured: true,
   },
+  // Susanne Hals
+  {
+    artist: 'Susanne Hvinden Hals',
+    body: 'Tusen tusen takk, Susanne. Du var helt utrolig. Du har en tilstedeværelse som er fantastisk, du gjorde dette så veldig vakkert. Skulle ønske jeg hadde flere ord.',
+    image:
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/testimonials/flower_card_1_copy_kvxqlx.webp',
+    author: {
+      name: 'Tone Greni',
+      // place: 'Sted',
+    },
+  },
+  {
+    artist: 'Susanne Hvinden Hals',
+    body: 'Tusen takk for en fantastisk fremføring i min mammas begravelse i dag. Jeg tror de fleste kjente på gåsehud- det var så vakkert.',
+    image:
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/testimonials/flower_card_5_copy_pqdnyj.webp',
+    author: {
+      name: 'Barbro Figved',
+      // place: 'Sted',
+    },
+  },
+  {
+    artist: 'Susanne Hvinden Hals',
+    body: 'Var i Nordstrand kirke i dag.Jeg må få takke for den utrolige fine tolkningen av sangen du fremførte. Det gjorde at det ble en sjelden vakker seremoni. Jeg ble rørt fra første strofe i hver sang.',
+    image:
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/testimonials/flower_card_4_copy_u0qaxo.webp',
+    author: {
+      name: 'Kjersti Ruud',
+      // place: 'Sted',
+    },
+  },
+  {
+    artist: 'Susanne Hvinden Hals',
+    body: 'Vi var overmåte fornøyde med ditt bidrag i seremonien. Du sang utrolig vakkert og mange hadde kommentert dette etterpå.',
+    image:
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/testimonials/flower_card_16_copy_gzwqgb.webp',
+    author: {
+      name: 'Familien til Odd Lingjærde',
+      // place: 'Sted',
+    },
+  },
+  {
+    artist: 'Susanne Hvinden Hals',
+    body: 'Tusen takk for veldig flott sang i Haslum krematorium.',
+    image:
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/testimonials/flower_card_12_copy_boc3t3.webp',
+    author: {
+      name: 'Familien til Johan Ernst Welhaven',
+      place: 'Haslum krematorium',
+    },
+  },
+  // Espen Solsbak
 ];
