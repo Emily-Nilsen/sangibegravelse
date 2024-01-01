@@ -1,38 +1,5 @@
 [
   {
-    "objectID": "19",
-    "category": "Salmer",
-    "language": ["Kirkemusikk"],
-    "title": "Hymne",
-    "arrangement": ["solo"],
-    "composer": "Nils Larsen",
-    "audio": false,
-    "description": [
-      "Hymne, komponert av Nils Larsen, er en ærbødig og oppløftende salme som inspirerer til andakt og åndelig refleksjon.",
-      "Med sine kraftige korharmonier og inderlige tekst tilbyr sangen et kollektivt uttrykk for tro, enhet og lovprisning.",
-      "Hymne bærer på en følelse av ærbødighet og ærefrykt, og inviterer lyttere til å koble seg til deres åndelige tro og finne trøst i det guddommelige."
-    ],
-    "lyrics": [
-      "Fader vår! Kom oss i møte.",
-      "Hjelp oss du, som gav din sønn",
-      "som led for oss og døde.",
-      "I vårt hjem mørket oss knuger.",
-      "La oss skimte stjernen over Betlehem.",
-      "Herre, hør! Hold dine hender over dem",
-      "som kjemper, som lider og dør.",
-      "Giv oss fred! Hør vår bønn!",
-      "La det være alle våre tårers lønn.",
-      "Mine barn, elske hverandre.",
-      "Se, jeg gav min sønn så i hans",
-      "fotspor I skal vandre.",
-      "Lyd mitt ord: Elsker hverandre!",
-      "Tilgiv alt, så blir det dag og fred på jord."
-    ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Hymne_desktop_jeblyr.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Hymne_mobile_dq1vag.webp"
-  },
-
-  {
     "objectID": "21",
     "category": "Pop",
     "language": ["Moderne", "Nordisk"],
