@@ -11,6 +11,7 @@ const navigation = {
     { name: 'Nils Nilsen', href: '/nils-georg-nilsen' },
     { name: 'Kathrine Hals', href: '/kathrine-hvinden-hals' },
     { name: 'Jan-Tore Saltnes', href: '/jan-tore-saltnes' },
+    { name: 'Espen Solsbak', href: '/espen-solsbak' },
   ],
 
   omOss: [
