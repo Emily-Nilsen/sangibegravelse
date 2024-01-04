@@ -4804,5 +4804,32 @@
     ],
     "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Mitt_land_copy_ujwlm0.webp",
     "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Mitt_land_MOBILE_frv3g5.webp"
+  },
+  {
+    "objectID": "39",
+    "category": "Klassisk",
+    "language": ["tysk"],
+    "title": "Morgen!",
+    "arrangement": ["solo"],
+    "composer": "Richard Strauss",
+    "audio": false,
+    "description": [
+      "«Morgen!», op. 27, nr. 4, er en av de fire sanger som utgjør Richard Strauss’ sangsyklus opp. 27, komponert som en bryllupsgave til hans kone, sopranen Pauline de Ahna. Teksten, skrevet av John Henry Mackay, reflekterer over kjærlighetens evige håp og naturens skjønnhet, og skaper en dypt romantisk og optimistisk atmosfære. Sangen er kjent for sin lyriske intensitet og emosjonelle dybde, og er et kjærlighetsbrev til både naturen og menneskelig forbindelse, ofte framført i konserthaller over hele verden.",
+      "Teksten begynner med en visjon om solen som vil skinne igjen ‘morgen’, symboliserende fornyelse og evig optimisme. Den fortsetter med å male et bilde av en reise gjennom et solkysset landskap, en metaforisk vandring som forener de elskende i både en fysisk og åndelig forståelse. Dette optimistiske synet på naturen og kjærligheten er et sentralt tema i romantisk poesi og musikk, og Strauss’ komposisjon fanger dette med en blanding av delikatesse og styrke.",
+      "Mot slutten av sangen fører teksten lytteren til en visjon av stranden, et sted for stille refleksjon og fellesskap. Her vil elskende stille se inn i hverandres øyne, omsluttet av ‘des Glückes stummes Schweigen’ et øyeblikk av lykkelig stillhet og dyp forbindelse. «Morgen!» står som en hyllest til kjærlighetens og håpets uendelige kraft, og fortsetter å inspirere og røre ved hjertene til de som lytter, som et testament til Strauss' evne til å skape musikk som snakker direkte til sjelen."
+    ],
+    "lyrics": [
+      "Und morgen wird die Sonne wieder scheinen",
+      "Und auf dem Wege, den ich gehen werde,",
+      "Wird uns, die Glücklichen, sie wieder einen",
+      "Inmitten dieser sonnenatmenden Erde ...",
+      "",
+      "Und zu dem Strand, dem weiten, wogenblauen,",
+      "Werden wir still und langsam niedersteigen,",
+      "Stumm werden wir uns in die Augen schauen,",
+      "Und auf uns sinkt des Glückes stummes Schweigen ..."
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Morgen_copy_pylins.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Morgen_MOBILE_trmnhr.webp"
   }
 ]

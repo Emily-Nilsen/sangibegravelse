@@ -190,33 +190,7 @@
     "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Mot_kvelden_desktop_z5fqob.webp",
     "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Mot_kvelden_mobile_kn4pdw.webp"
   },
-  {
-    "objectID": "39",
-    "category": "Klassisk",
-    "language": ["Kunstsang"],
-    "title": "Morgen!",
-    "arrangement": ["solo"],
-    "composer": "Richard Strauss",
-    "audio": false,
-    "description": [
-      "Morgen!, komponert av Richard Strauss, er en lyrisk og romantisk kunstsang. Med sine skyhøye melodier og ømme tekst, feirer sangen skjønnheten og stillheten til en ny dag.",
-      "Morgen! fanger morgenens fortryllende atmosfære, og fremkaller følelser av håp, kjærlighet og løftet om en lys fremtid.",
-      "De melodiske linjene og frodige harmoniene skaper en oppløftende og inderlig musikalsk opplevelse."
-    ],
-    "lyrics": [
-      "Und morgen wird die Sonne wieder scheinen",
-      "Und auf dem Wege, den ich gehen werde,",
-      "Wird uns, die Glücklichen, sie wieder einen",
-      "Inmitten dieser sonnenatmenden Erde ...",
-      "",
-      "Und zu dem Strand, dem weiten, wogenblauen,",
-      "Werden wir still und langsam niedersteigen,",
-      "Stumm werden wir uns in die Augen schauen,",
-      "Und auf uns sinkt des Glückes stummes Schweigen ..."
-    ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Morgen_desktop_rk3cjn.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Morgen_mobile_wmvve0.webp"
-  },
+
   {
     "objectID": "40",
     "category": "Klassisk",
