@@ -4831,5 +4831,31 @@
     ],
     "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Morgen_copy_pylins.webp",
     "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Morgen_MOBILE_trmnhr.webp"
+  },
+  {
+    "objectID": "38",
+    "category": "Klassisk",
+    "language": ["norsk"],
+    "title": "Mot kveld",
+    "arrangement": ["solo"],
+    "composer": "Agathe Backer Grøndahl",
+    "audio": false,
+    "description": [
+      "«Mot kveld» er en stemningsfull sang av den norske komponisten Agathe Backer Grøndahl, som er kjent for sin evne til å male lyrisk rike og følelsesmessig dype bilder med sin musikk. Sangen skildrer en sen kveldsstemning i naturen, hvor alt fra de duggvåte blomstene til sommerfuglen og Sankthansormen forbereder seg på natten. Teksten taler til den naturlige verdenens siste øyeblikk av dagen med en følelse av ro og forberedelse til nattens hvile, og fremkaller bilder av en fredelig, nesten magisk overgang mellom dag og natt.",
+      "I sangen beskrives de små detaljene i naturen; blomstene sender solen det siste ‘Godnat’, Sankthansormen tennes som en liten lykt i mørket, og sommerfuglen tar på seg ‘duggsokker’ og legger seg til hvile. Disse bildene fanger den delikate og poetiske skjønnheten i øyeblikket når dagen ebber ut, og natten sakte tar over. Det er en tid for drømmer og stillhet, hvor selv de minste skapninger har sine ritualer og steder i den skumrende verdenen.",
+      "«Mot kveld» av Agathe Backer Grøndahl er en hyllest til den skumrende tiden på døgnet, et musikalsk dikt som fanger essensen av kveldens fred og skjønnhet. Komposisjonen er typisk for Grøndahl's evne til å skape levende, følelsesmessige landskap i musikken, og er en påminnelse om de stille øyeblikkene i naturen som ofte går ubemerket hen. Gjennom sin musikk inviteres lytteren til å pause og reflektere over dagens slutt og nattens begynnelse, og finne skjønnhet i det stille skiftet."
+    ],
+    "lyrics": [
+      "Alle de duggvaate blomster har sennt",
+      "Solen det sisste Godnat",
+      "Sanktehansormen sin lykte har tennt",
+      "sitter og lyser i krat",
+      "Sommerfugl tat sine duggsokker paa",
+      "lagt sig til hvile i klokken den blaa",
+      "drømmer saa deilig om solen",
+      "drømmer om duft af fiolen"
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Mot_kveld_copy_rncyxj.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Mot_kveld_MOBILE_xmw1b1.webp"
   }
 ]

@@ -165,33 +165,6 @@
   },
 
   {
-    "objectID": "38",
-    "category": "Klassisk",
-    "language": ["Kunstsang", "Nordisk"],
-    "title": "Mot kveld",
-    "arrangement": ["solo"],
-    "composer": "Agathe Backer Grøndahl",
-    "audio": false,
-    "description": [
-      "Mot kveld, komponert av Agathe Backer Grøndahl, er en kontemplativ og stemningsfull kunstsang.",
-      "Med sine milde melodier og poetiske tekst, fanger sangen overgangen fra dag til natt, og inviterer lytterne til å reflektere over skjønnheten og stillheten i kveldstimene.",
-      "Mot kveld fremkaller en følelse av fred og introspeksjon, og skaper en rolig og meditativ musikalsk opplevelse."
-    ],
-    "lyrics": [
-      "Alle de duggvaate blomster har sennt",
-      "Solen det sisste Godnat",
-      "Sanktehansormen sin lykte har tennt",
-      "sitter og lyser i krat",
-      "Sommerfugl tat sine duggsokker paa",
-      "lagt sig til hvile i klokken den blaa",
-      "drømmer saa deilig om solen",
-      "drømmer om duft af fiolen"
-    ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Mot_kvelden_desktop_z5fqob.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Mot_kvelden_mobile_kn4pdw.webp"
-  },
-
-  {
     "objectID": "40",
     "category": "Klassisk",
     "language": ["Kunstsang", "Nordisk"],
