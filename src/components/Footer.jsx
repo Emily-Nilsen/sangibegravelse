@@ -124,10 +124,27 @@ export function Footer() {
             </div>
           </div>
         </div>
-        <div className="pt-8 mt-16 border-t border-gray-900/10 sm:mt-20 lg:mt-24">
-          <p className="text-xs leading-5 text-gray-500">
-            &copy; {new Date().getFullYear()} Sang i begravelse.
-          </p>
+        <div className="flex justify-between pt-8 mt-16 border-t border-gray-900/10 sm:mt-20 lg:mt-24">
+          <div>
+            <p className="text-xs leading-5 text-gray-500">
+              &copy; {new Date().getFullYear()} Sang i begravelse.
+            </p>
+          </div>
+          <div className="flex text-xs leading-5 text-gray-500">
+            <p>
+              Utviklet av{' '}
+              <span>
+                <Link
+                  href="https://norsknett.no"
+                  target="_blank"
+                  rel="noopener"
+                  className="cursor-pointer hover:underline"
+                >
+                  Norsk Nett
+                </Link>
+              </span>
+            </p>
+          </div>
         </div>
       </div>
     </footer>
