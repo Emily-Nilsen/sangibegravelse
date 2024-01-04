@@ -1,44 +1,5 @@
 [
   {
-    "objectID": "21",
-    "category": "Pop",
-    "language": ["Moderne", "Nordisk"],
-    "title": "Kom nära mig",
-    "arrangement": ["solo"],
-    "composer": "Lennart Jakobsson",
-    "audio": false,
-    "description": [
-      "Kom nära mig, komponert av Lennart Jakobsson, er en fengslende svensk poplåt som uttrykker et ønske om nærhet og tilknytning.",
-      "Med sin fengende melodi og inderlige tekst formidler sangen en lengsel etter intimitet og følelsesmessige bånd.",
-      "Kom nära mig fanger essensen av menneskelig forbindelse og lengselen etter dypere relasjoner."
-    ],
-    "lyrics": [
-      "kom nära mig du mänskobarn, kom nära mig.",
-      "Du finner vila i min famn, kom nära mig.",
-      "Jag skapat himmel hav och jord och dukar nu för dig mitt bord.",
-      "Kom nära du som hungrar jag vill mätta dig.",
-      "Kom nära du som tveksam är, kom nära mig.",
-      "Du som ej vet vart vägen bär, kom nära mig.",
-      "Ett evigt liv jag dig beskär, till himmelen jag vägen är.",
-      "Kom nära mig du tvivlande, kom nära mig.",
-      "Kom nära du som sorgsen är, kom nära mig.",
-      "Du som på tunga bördor bär, kom nära mig.",
-      "Jag bar en gång ett kors för dig. Så innerligt jag älskar dig.",
-      "Kom nära mig, min vän och jag skall bära dig.",
-      "Kom nära du som slagen är, kom nära mig.",
-      "Du som av synd bedragen är, kom nära mig.",
-      "Jag känner dig och har dig kär. Se mina händer märken bär.",
-      "Kom nära mig min vän och jag skall hela dig.",
-      "Vill du till himlen nå en gång, kom nära mig.",
-      "Vill du ta del i Lammets sång, kom nära mig.",
-      "Vill du stå brud i himmelen, så ikläd dig försoningen.",
-      "Då skall för evigt du få vara nära mig."
-    ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Kom_na%CC%88ra_mej_desktop_wop3ho.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Kom_na%CC%88ra_mej_mobile_xznrlv.webp"
-  },
-
-  {
     "objectID": "23",
     "category": "Salmer",
     "language": ["Kirkemusikk", "Nordisk"],
