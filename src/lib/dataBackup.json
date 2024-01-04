@@ -165,40 +165,6 @@
   },
 
   {
-    "objectID": "37",
-    "category": "Klassisk",
-    "language": ["Kunstsang"],
-    "title": "Mariä Wiegenlied",
-    "arrangement": ["solo"],
-    "composer": "Max Reger",
-    "audio": false,
-    "description": [
-      "Mariä Wiegenlied, komponert av Max Reger, er en øm og mild kunstsang.",
-      "Med sine beroligende melodier og tekst, skildrer sangen den fredelige scenen der Maria vugger Jesusbarnet sitt og synger en vuggevise.",
-      "Mariä Wiegenlied fanger den mors kjærlighet, varmen og roen knyttet til fødselshistorien, og skaper en rolig og trøstende atmosfære."
-    ],
-    "lyrics": [
-      "Maria sitzt im Rosenhag",
-      "Und wiegt ihr Jesuskind,",
-      "Durch die Blätter leise",
-      "Weht der warme Sommerwind.",
-      "",
-      "Zu ihren Füßen singt",
-      "Ein buntes Vögelein:",
-      "Schlaf, Kindlein, süße,",
-      "Schlaf nun ein!",
-      "",
-      "Hold ist dein Lächeln,",
-      "Holder deines Schlummers Lust,",
-      "Leg dein müdes Köpfchen",
-      "Fest an deiner Mutter Brust!",
-      "Schlaf, Kindlein, süße,",
-      "Schlaf nun ein!"
-    ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Maria_Wiegenlied_desktop_q3ywei.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Maria_Wiegenlied_mobile_yscnmm.webp"
-  },
-  {
     "objectID": "38",
     "category": "Klassisk",
     "language": ["Kunstsang", "Nordisk"],

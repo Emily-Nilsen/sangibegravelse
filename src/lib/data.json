@@ -4721,5 +4721,39 @@
     ],
     "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/L%C3%A6r_meg_a%CC%8A_kjenne_dine_veier_copy_vwhfgv.webp",
     "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/L%C3%A6r_meg_a%CC%8A_kjenne_dine_veier_MOBILE_lv53uk.webp"
+  },
+  {
+    "objectID": "37",
+    "category": "Klassisk",
+    "language": ["tysk"],
+    "title": "Maria Wiegenlied",
+    "arrangement": ["solo"],
+    "composer": "Max Reger",
+    "audio": false,
+    "description": [
+      "«Maria Wiegenlied» (Mariä Wiegenlied), op. 76, no. 52, av Max Reger, er en berømt tysk vuggevise som fremstiller Jomfru Maria som vugger Jesusbarnet i en rosenhage. Dette musikkstykket er elsket for sin søte melodi og lystige, rolige stemning, som perfekt fanger essensen av morskjærlighet og omsorg. Teksten illustrerer Maria i en rosenhage, omgitt av sommervind og syngende fugler, et bilde som fremkaller renhet, skjønnhet og en guddommelig fred.",
+      "Refrainet ‘Schlaf, Kindlein, süße, Schlaf nun ein!’ er både lulling og beroligende, og fremkaller bildet av Jesusbarnet som sover trygt og fredelig i sin mors arm. Komposisjonen til Reger, ofte arrangert for sang og piano, fremhever vuggevisens varme og lyriske kvaliteter, gjør den til et populært valg for klassiske sangere og et fast innslag i julekonsertrepertoaret.",
+      "«Maria Wiegenlied» står som en tidløs hyllest til morskjærligheten og den fred og beskyttelse den gir. Den rike symbolikken og den dyptfølte musikken gjør sangen til en kjær del av mange musikalske og kulturelle tradisjoner, elsket av publikum og utøvere for sin evne til å røre og fremkalle en følelse av guddommelig omsorg og kjærlighet."
+    ],
+    "lyrics": [
+      "Maria sitzt im Rosenhag",
+      "Und wiegt ihr Jesuskind,",
+      "Durch die Blätter leise",
+      "Weht der warme Sommerwind.",
+      "",
+      "Zu ihren Füßen singt",
+      "Ein buntes Vögelein:",
+      "Schlaf, Kindlein, süße,",
+      "Schlaf nun ein!",
+      "",
+      "Hold ist dein Lächeln,",
+      "Holder deines Schlummers Lust,",
+      "Leg dein müdes Köpfchen",
+      "Fest an deiner Mutter Brust!",
+      "Schlaf, Kindlein, süße,",
+      "Schlaf nun ein!"
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Maria_Wiegenlied_copy_htcnxt.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Maria_Wiegenlied_MOBILE_lrqkrc.webp"
   }
 ]
