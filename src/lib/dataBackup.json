@@ -1,48 +1,5 @@
 [
   {
-    "objectID": "23",
-    "category": "Salmer",
-    "language": ["Kirkemusikk", "Nordisk"],
-    "title": "Lær meg å kjenne dine veie",
-    "arrangement": ["solo"],
-    "composer": "Jakob Paulli",
-    "audio": false,
-    "description": [
-      "Lær meg å kjenne dine veie, komponert av Jakob Paulli, er en dyp salme som uttrykker et ønske om å kjenne og følge Guds veier.",
-      "Med sin ærbødige melodi og kontemplative tekst søker sangen åndelig veiledning og visdom.",
-      "Lær meg å kjenne dine veie inviterer lyttere til å utdype sin forbindelse med det guddommelige og tilpasse sine liv etter Guds lære."
-    ],
-    "lyrics": [
-      "Lær meg å kjenne dine veie",
-      "Og gå dem trøstig skritt for skritt",
-      "Jeg vet at hva jeg fikk i eie",
-      "Er borget gods og alt er ditt",
-      "Men vil din sterke hånd meg lede",
-      "Jeg aldri feil på målet ser",
-      "Og for hvert håp som dør her nede",
-      "Får jeg et håp i himlen mer",
-      "Lær meg å kjenne dine tanker",
-      "Og øves i å tenke dem",
-      "Og når i angst mitt hjerte banker",
-      "Da må du kalle motet frem",
-      "Når jeg har tenkt meg trett til døden",
-      "Så si hva du har tenkt o Gud",
-      "Da kan jeg se at morgenrøden",
-      "Bak tvil og vånde veller ut",
-      "Men lær meg fremfor alt å kjenne",
-      "Din grenseløse kjærlighet",
-      "Den som kan tusen stjerner tenne",
-      "Når lykkens sol for meg går ned",
-      "Den tørrer tåren som den skapte",
-      "Og leger såret som den slo",
-      "Dens vei går gjennom det vi tapte",
-      "Den gir oss mere enn den tok"
-    ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/L%C3%A6r_meg_a%CC%8A_kjenne_dine_veier_desktop_fsuemc.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/L%C3%A6r_meg_a%CC%8A_kjenne_dine_veier_mobile_arkjll.png"
-  },
-
-  {
     "objectID": "25",
     "category": "Salmer",
     "language": ["Kirkemusikk"],
