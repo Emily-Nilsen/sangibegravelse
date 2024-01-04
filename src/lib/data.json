@@ -4581,7 +4581,7 @@
   {
     "objectID": "24",
     "category": "Salmer",
-    "language": ["norsk", "Moderne"],
+    "language": ["norsk"],
     "title": "Kyrie",
     "arrangement": ["solo"],
     "composer": "Bjørn Eidsvåg",
@@ -4641,5 +4641,43 @@
     ],
     "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Kyrie_copy_yu8ee0.webp",
     "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Kyrie_MOBILE_mjvmaw.webp"
+  },
+  {
+    "objectID": "36",
+    "category": "Klassisk",
+    "language": ["tysk"],
+    "title": "Litanei auf des Fest Allerseelen",
+    "arrangement": ["solo"],
+    "composer": "Franz Schubert",
+    "audio": false,
+    "description": [
+      "«Litanei auf das Fest Allerseelen» av Franz Schubert, med tekst av Johann Georg Jacobi, er en gripende sang som ofte fremføres i forbindelse med Allehelgensdag, dedikert til minnet om de avdøde. Sangen uttrykker et dypt ønske om fred for alle sjeler som har forlatt denne verden, særlig de som led gjennom livet. Diktet snakker om sjeler som har fullført en angstfull kval, og søker hvile og fred for dem. Det uttrykkes et håp om at alle sjeler, uavhengig av deres livserfaringer, skal finne ro, mens musikken av Schubert bidrar til en stemningsfull og følelsesladet tolkning av teksten.",
+      "Det andre verset fokuserer på de unge kvinners sjeler, ‘liebevoller Mädchen Seelen’, som har opplevd svik og utstøting. Dette fortsetter temaet om lidelse og urettferdighet, men med et håp om fred og hvile for disse sjelene. Teksten og musikken sammen formidler en følelse av medlidenhet og empati, og minner oss om de dypt menneskelige erfaringene av smerte og lengsel etter trøst.",
+      "Til slutt utvides budskapet i det tredje verset til å omfatte alle som har levd i sorg eller undertrykkelse, og som nå ser frem til fred i ‘det rene himmelslys’. «Litanei auf das Fest Allerseelen» blir en mektig påminnelse om vår felles menneskelighet og lengselen etter forløsning og fred som binder oss sammen. Schuberts musikk og Jacobis lyrikk skaper sammen en dyp empati og et ønske om trøst for alle som sørger, og en visjon om evig fred for de avdøde. Sangen står som et testament til menneskets evige søken etter medlidenhet, forståelse og til slutt, fred."
+    ],
+    "lyrics": [
+      "Ruhn in Frieden alle Seelen,",
+      "Die vollbracht ein banges Quälen,",
+      "Die vollendet süssen Traum,",
+      "Lebenssatt, geboren kaum,",
+      "Aus der Welt hinüber schieden:",
+      "Alle Seelen ruhn in Frieden!",
+      "",
+      "Liebevoller Mädchen Seelen,",
+      "Deren Tränen nicht zu zählen,",
+      "Die ein falscher Freund verliess,",
+      "Und die blinde Welt verstiess:",
+      "Alle, die von hinnen schieden,",
+      "Alle Seelen ruhn in Frieden!",
+      "",
+      "Und die nie der Sonne lachten,",
+      "Unterm Mond auf Dornen wachten,",
+      "Gott, im reinen Himmelslicht,",
+      "Einst zu sehn von Angesicht:",
+      "Alle, die von hinnen schieden,",
+      "Alle Seelen ruhn in Frieden!"
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Litanei_Litanei_copy_upzoxh.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Litanei_Litanei_MOBILE_hignqp.webp"
   }
 ]
