@@ -1423,39 +1423,6 @@
   },
 
   {
-    "objectID": "91",
-    "category": "Viser",
-    "language": ["Popballade", "Nordisk"],
-    "title": "Men går jag över ängarna",
-    "arrangement": ["solo"],
-    "composer": "Nils Ferlin / Leif Strand",
-    "audio": false,
-    "description": [
-      "Men går jag över ängarna, komponert av Nils Ferlin og Leif Strand, er en gripende folkeballade som reflekterer over livets reise og tid. Med sine stemningsfulle tekst og melodiske komposisjon, reflekterer sangen over livets flyktige natur og skjønnheten i den naturlige verden.",
-      "Men går jag över ängarna fanger essensen av å finne trøst og refleksjon mens de vandrer gjennom enger og omfavner tilværelsens underverker.",
-      "Den sjelfulle vokalen og det autentiske folkearrangementet skaper en kontemplativ og rolig atmosfære, og inviterer lyttere til å bli grepet av følelsen av sangen og forbindelsen med naturens skjønnhet."
-    ],
-    "lyrics": [
-      "Men går jag över ängarna",
-      "Där himmelen är vid",
-      "Då sägen mej ty händerna är tomma",
-      "Då sägen mej, I skörderskor i skördeandens tid:",
-      "\"Vem ger mej sitt hjärta som en blomma?\"",
-      "",
-      "Vem ger mej sitt hjärta",
-      "Som en glädje och en tröst",
-      "Som en doft som ville",
-      "Leka mej om kinden",
-      "",
-      "Att jag på mina stigar",
-      "Mot förgängelse och höst",
-      "Inte räds för den yttersta grinden"
-    ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Men_ga%CC%8Ar_jag_o%CC%88ver_a%CC%88ngarna_gcxvuf.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Men_ga%CC%8Ar_jag_o%CC%88ver_a%CC%88ngarna_mobile_th6tbz.webp"
-  },
-
-  {
     "objectID": "93",
     "category": "Viser",
     "language": ["Nordisk"],
