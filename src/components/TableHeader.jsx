@@ -8,6 +8,9 @@ export function TableHeader() {
         <th className="hidden px-3 py-3.5 text-left text-sm font-semibold text-gray-900 lg:table-cell">
           Komponist
         </th>
+        <th className="hidden px-3 py-3.5 text-left text-sm font-semibold text-gray-900 lg:table-cell">
+          Lyd
+        </th>
         <th className="hidden px-3 py-3.5 text-left text-sm font-semibold text-gray-900 sm:table-cell">
           Arrangement
         </th>

@@ -1,5 +1,6 @@
 import React, { useEffect, useState, forwardRef } from 'react';
-import { MinusSmallIcon, PlusSmallIcon } from '@heroicons/react/24/outline';
+import { MinusIcon, PlusIcon } from '@heroicons/react/24/outline';
+import { PlayIcon } from '@heroicons/react/24/outline';
 import { filterSongs } from '../../utilities/filterSongs';
 import { Expandable } from '@/components/Expandable';
 import { TableHeader } from './TableHeader';
@@ -8,6 +9,7 @@ import { ViolinIcon } from './icons/Violin';
 import { SoloIcon } from './icons/Solo';
 import { DuetIcon } from './icons/Duet';
 import { CategoryTag } from './CategoryTag';
+import { SimplePlayer } from './SimplePlayer';
 
 export function RepertoireListComponent(
   { selectedCategory, selectedArrangement, selectedLanguage, repertoire },
@@ -64,6 +66,22 @@ export function RepertoireListComponent(
                   <td className="hidden px-3 py-4 text-sm text-gray-500 lg:table-cell">
                     {sang.composer}
                   </td>
+                  {/* New table data for Play Icon and SimplePlayer */}
+                  <td className="hidden px-3 py-4 text-center sm:flex">
+                    {sang.audio && (
+                      <>
+                        <div className="inline">
+                          <SimplePlayer
+                            audio={sang.audio}
+                            audioUrl={sang.audioUrl}
+                            title={sang.title}
+                            performers={sang.performers}
+                            live={sang.live}
+                          />
+                        </div>
+                      </>
+                    )}
+                  </td>
                   <td className="hidden px-3 py-4 text-sm text-gray-500 sm:table-cell">
                     <div className="flex space-x-1">
                       {getArrangementIcon(sang.arrangement, 'solo', SoloIcon)}
@@ -82,8 +100,8 @@ export function RepertoireListComponent(
                           category={sang}
                           categoryVariable="category"
                         />
-                        {/* Arrangement icons on mobile */}
-                        <div className="flex pt-2.5 space-x-1 sm:hidden">
+
+                        <div className="hidden pt-2.5 space-x-1 sm:hidden">
                           {getArrangementIcon(
                             sang.arrangement,
                             'solo',
@@ -103,18 +121,36 @@ export function RepertoireListComponent(
                       </>
                     )}
                   </td>
+                  <td>
+                    {/* Arrangement icons on mobile */}
+                    <div className="sm:hidden">
+                      {sang.audio && (
+                        <>
+                          <div className="inline">
+                            <SimplePlayer
+                              audio={sang.audio}
+                              audioUrl={sang.audioUrl}
+                              title={sang.title}
+                              performers={sang.performers}
+                              live={sang.live}
+                            />
+                          </div>
+                        </>
+                      )}
+                    </div>
+                  </td>
                   <td className="py-4 pl-3 pr-4 text-sm font-medium text-right sm:pr-0">
                     <button
                       className="ml-2 focus:outline-none"
                       onClick={() => toggleSong(sang.objectID)}
                     >
                       {expandedSongs.includes(sang.objectID) ? (
-                        <MinusSmallIcon
+                        <MinusIcon
                           className="w-6 h-6 text-gray-700"
                           aria-hidden="true"
                         />
                       ) : (
-                        <PlusSmallIcon
+                        <PlusIcon
                           className="w-6 h-6 text-gray-700"
                           aria-hidden="true"
                         />
