@@ -1,0 +1,18 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "Sang i begravelse",
+  "description": "Sang i begravelse er en nettside som hjelper deg med å finne sanger til begravelsen. Vi har samlet en omfattende repertoarliste med begravelsessanger, inkludert sangtittel, komponist, arrangement og kategori. Vår talentfulle gruppe av erfarne og lidenskapelige artister er dedikerte til å skape minneverdige musikalske opplevelser av høy kvalitet.",
+  "url": "https://sangibegravelse.no/",
+  "logo": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Sang_i_begravelse_logo_l0ipsd.svg",
+  "image": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Sang_i_begravelse_-_image_obqohg.webp",
+  "founders": ["Nils Georg Nilsen", "Susanne Hvinden Hals"],
+  "foundingDate": "2023-05-21",
+  "foundingLocation": "Oslo, Norge",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+47-402-20-414",
+    "contactType": "customer service"
+  },
+  "keywords": "begravelsesmusikk, sang til begravelser, minneseremoni sanger, salmer for begravelse, begravelsesmusikktjenester, artister, vakal solist, duetter for begravelse, lyrisk vokal, repertoarliste, popsanger, popmusikk for begravelse, klassisk, klassisk musikk for begravelse, musikkarrangementer for begravelse, opera sanger, inspirerende musikk for begravelse, tilpasset musikk for minneseremonier, profesjonelle begravelsesmusikere, minneseremoni repertoar, musikk for sorg"
+}
