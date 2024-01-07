@@ -5117,8 +5117,8 @@
       "",
       "Everybody hurts"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Everybody_Hurts_copy_a8jp9q.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Everybody_Hurts_MOBILE_wxict6.webp"
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Everybody_Hurts_copy_uopwoo.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Everybody_Hurts_MOBILE_rakp4z.webp"
   },
   {
     "objectID": "feelslikehome159753",
@@ -5186,5 +5186,62 @@
     ],
     "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Feels_Like_Home_copy_hcjtl7.webp",
     "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Feels_Like_Home_MOBILE_ovdukq.webp"
+  },
+  {
+    "objectID": "fieldsofgold",
+    "category": "Pop",
+    "language": ["engelsk"],
+    "title": "Fields of Gold",
+    "arrangement": ["solo"],
+    "composer": "Sting",
+    "audio": false,
+    "description": [
+      "«Fields of Gold» er en av de mest kjente sangene av den engelske musikeren Sting, utgitt i 1993 på albumet «Ten Summoner’s Tales». Sangen er kjent for sin vakre melodi og lyriske poesi, som maler et bilde av gyllene kornåkre som symboliserer kjærlighet, minner og tidens gang. Sangens stemningsfulle tekstur og melodi skaper en følelse av nostalgi og ro, og reflekterer over livets skjønnhet og forgjengelighet.",
+      "Teksten beskriver et elskende par som vandrer gjennom disse gylne åkrene, og blir brukt som et metaforisk landskap for deres forhold og de minnene de skaper sammen. «Fields of Gold» handler om løfter, drømmer og den dype, utholdende kjærligheten som binder to mennesker sammen. Sting selv har sagt at sangen ble inspirert av landskapet rundt sitt eget hjem, og refleksjonene om kjærlighetens evighet og naturens sykluser.",
+      "«Fields of Gold» har rørt ved hjertene til lyttere over hele verden og blitt en klassiker i Stings repertoar. Sangen har blitt tolket og fremført av mange andre kunstnere i forskjellige sjangre, noe som vitner om dens universelle appell og tidløse budskap. Det er en sang som inviterer til refleksjon over kjærlighetens og livets dyrebare øyeblikk, og en påminnelse om å verdsette de skjønne, flyktige øyeblikkene som livet har å by på."
+    ],
+    "lyrics": [
+      "You'll remember me when the west wind moves",
+      "Upon the fields of barley",
+      "You'll forget the sun in his jealous sky",
+      "As we walk in fields of gold",
+      "",
+      "So she took her love",
+      "For to gaze a while",
+      "Upon the fields of barley",
+      "In his arms she fell as her hair came down",
+      "Among the fields of gold",
+      "",
+      "Will you stay with me?",
+      "Will you be my love?",
+      "Upon the fields of barley",
+      "We'll forget the sun in his jealous sky",
+      "As we lie in fields of gold",
+      "",
+      "See the west wind move like a lover so",
+      "Upon the fields of barley",
+      "Feel her body rise when you kiss her mouth",
+      "Among the fields of gold",
+      "",
+      "I never made promises lightly",
+      "And there have been some that I've broken",
+      "But I swear in the days still left",
+      "We'll walk in fields of gold",
+      "We'll walk in fields of gold",
+      "",
+      "Many years have passed since those summer days",
+      "Among the fields of barley",
+      "See the children run as the sun goes down",
+      "Among the fields of gold",
+      "",
+      "You'll remember me when the west wind moves",
+      "Upon the fields of barley",
+      "You can tell the sun in his jealous sky",
+      "When we walked in fields of gold",
+      "When we walked in fields of gold",
+      "When we walked in fields of gold"
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Fields_of_Gold_copy_gdlbns.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Fields_of_Gold_MOBILE_htvapf.webp"
   }
 ]
