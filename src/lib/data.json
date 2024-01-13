@@ -4925,8 +4925,8 @@
       "Uten den vi får drømme at Han leter mer i morgen",
       "Og håpe at Han finner oss igjen"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Va%CC%8Arherres_klinkekule_copy_ln4ozc.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Va%CC%8Arherres_klinkekule_MOBILE_zswc8e.webp"
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Va%CC%8Arherres_klinkekuler_copy_mwldja.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Va%CC%8Arherres_klinkekuler_MOBILE_bgt6tz.webp"
   },
   {
     "objectID": "eternally159753",
@@ -6364,5 +6364,43 @@
     ],
     "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Thank_You_copy_srypjp.webp",
     "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Thank_You_MOBILE_qis6sv.webp"
+  },
+  {
+    "objectID": "thefirsttimeIeverSawyourface",
+    "category": "Pop",
+    "language": ["engelsk"],
+    "title": "The First Time I Ever Saw Your Face",
+    "arrangement": ["solo"],
+    "composer": "Ewan McColl",
+    "audio": false,
+    "description": [
+      "«The First Time Ever I Saw Your Face» er en sang skrevet av den britiske folkemusikeren Ewan MacColl for sin kjære, sangerinnen Peggy Seeger, på 1950-tallet. Den ble først kjent gjennom Roberta Flacks tolkning, som ble utgitt i 1972 og raskt steg til topps på listene. Sangen, med sin langsomme tempo og følelsesladde levering, har blitt en av de mest elskede kjærlighetsballadene gjennom tidene, kjent for sin dype tekst og vakre melodi.",
+      "Teksten til «The First Time Ever I Saw Your Face» beskriver en dyptgående og transformasjonsfull kjærlighetserfaring. Sangen tar lytteren med gjennom en rekke intime og billedrike beskrivelser av å se den elskedes ansikt for første gang, og hvordan denne opplevelsen åpner en verden av skjønnhet og dyp, ubetinget kjærlighet. Hver vers av sangen dykker dypere inn i de følelsene og øyeblikkene som gjør at kjærligheten føles evig og altomsluttende.",
+      "Flacks versjon av «The First Time Ever I Saw Your Face» vant en Grammy for årets sang og har siden inspirert utallige coverversjoner. Sangens evne til å uttrykke kjærlighetens intensitet og skjønnhet på en slik kraftfull og tidløs måte har gjort den til en favoritt blant både artister og publikum. Den fortsetter å være en standard for romantiske sanger og en hyllest til kjærlighetens transformative kraft."
+    ],
+    "lyrics": [
+      "The first time ever I saw your face",
+      "I thought the sun rose in your eyes",
+      "And the moon and the stars were the gifts you gave",
+      "To the dark and the endless skies, my love",
+      "To the dark and the endless skies",
+      "",
+      "And the first time ever I kissed your mouth",
+      "I felt the earth move in my hand",
+      "Like the trembling heart of a captive bird",
+      "That was there at my command, my love",
+      "That was there at my command, my love",
+      "",
+      "And the first time ever I lay with you",
+      "I felt your heart so close to mine",
+      "And I knew our joy would fill the earth",
+      "And last 'til the end of time my love",
+      "And it would last 'til the end of time",
+      "",
+      "The first time ever I saw your face",
+      "Your face, your face, your face"
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/The_First_Time_I_Saw_Your_Face_copy_fo9ttc.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/The_First_Time_I_Saw_Your_Face_MOBILE_mlbghj.webp"
   }
 ]
