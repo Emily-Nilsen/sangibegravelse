@@ -8,6 +8,7 @@ export function CategoryTag({ category, categoryVariable = 'category' }) {
     'Rock/Soul/R&B': 'text-purple-700 bg-purple-50 ring-purple-600/20',
     Folkemusikk: 'text-indigo-700 bg-indigo-50 ring-indigo-600/20',
     Jazz: 'text-fuchsia-700 bg-fuchsia-50 ring-fuchsia-600/20',
+    'Vinter/Jul': 'text-slate-700 bg-slate-50 ring-slate-600/20',
   };
 
   return (

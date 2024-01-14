@@ -11,7 +11,8 @@ const categories = [
   { id: 5, name: 'Pop' },
   { id: 6, name: 'Rock/Soul/R&B' },
   { id: 7, name: 'Salmer' },
-  { id: 8, name: 'Viser' },
+  { id: 8, name: 'Vinter/Jul' },
+  { id: 9, name: 'Viser' },
 ];
 
 function classNames(...classes) {
