@@ -6733,6 +6733,7 @@
     "arrangement": ["solo"],
     "composer": "Leigh Harline og Ned Washington",
     "audio": true,
+    "live": true,
     "audioUrl": "https://res.cloudinary.com/dt3k2apqd/video/upload/v1705521420/Sang%20i%20begravelse/Audio/When_you_wish_-_sample_pwgc5n.wav",
     "performers": ["Nils Georg Nilsen"],
     "description": [
