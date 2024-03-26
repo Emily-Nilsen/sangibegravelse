@@ -59,7 +59,7 @@ export function HeroHjem() {
                 <button className="cursor-pointer">Artister</button>
               </Link>
               <Link
-                href="#"
+                href="/salmer"
                 className="text-sm font-semibold leading-6 transition-all duration-150 ease-in-out text-slate-800 hover:text-slate-950"
               >
                 <button className="cursor-pointer">
