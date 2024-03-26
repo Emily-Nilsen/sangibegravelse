@@ -4,7 +4,8 @@ import Link from 'next/link';
 const navigation = {
   sanger: [
     { name: 'Repertoar', href: '/repertoar' },
-    // { name: 'Videoer', href: '/#videoer' },
+    { name: 'Salmer og felles sanger', href: '/salmer' },
+    // { name: 'Forslag til program', href: '#' },
   ],
   artister: [
     { name: 'Susanne Hals', href: '/susanne-hvinden-hals' },

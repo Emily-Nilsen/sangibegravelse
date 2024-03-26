@@ -1,11 +1,11 @@
 import Head from 'next/head';
 
-import { HeroHjem } from '@/components/HeroHjem';
 import { Oppdatering } from '@/components/Oppdatering';
 import { RepertoarPreview } from '@/components/RepertoarPreview';
-import { RepertoarToggle } from '@/components/RepertoarToggle';
+import { ArtistsPreview } from '@/components/ArtistsPreview';
+import { HeroArtister } from '../components/HeroArtister';
 
-export default function Home() {
+export default function Artister() {
   const structuredData = {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
@@ -69,10 +69,8 @@ export default function Home() {
       </Head>
       <div className="bg-white">
         <main>
-          <HeroHjem />
-          <Oppdatering />
-
-          <RepertoarToggle />
+          <HeroArtister />
+          <ArtistsPreview />
         </main>
       </div>
     </>

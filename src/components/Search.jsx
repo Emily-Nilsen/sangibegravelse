@@ -19,10 +19,10 @@ export function Search({ handleAlgoliaOpen }) {
   return (
     <div>
       <button
-        className="md:bg-white/40 md:hover:bg-white/50 group flex w-7 items-center justify-start transition-all duration-200 ease-in-out h-auto md:w-80 md:flex-none md:rounded-lg sm:py-2.5 md:py-2 md:pl-4 md:pr-3.5 text-sm md:ring-1 ring-white/50 hover:ring-white ring-inset lg:w-96"
+        className="md:bg-white/60 md:hover:bg-white/80 group flex w-7 items-center justify-start transition-all duration-200 ease-in-out h-auto md:w-80 md:flex-none md:rounded-lg sm:py-2.5 md:py-2 md:pl-4 md:pr-3.5 text-sm md:ring-1 ring-white hover:ring-gray-800/30 ring-inset lg:w-96"
         onClick={handleClick}
       >
-        <SearchIcon className="flex-none transition-all duration-200 ease-in-out w-7 h-7 sm:w-5 sm:h-5 md:fill-white/70 md:group-hover:fill-white fill-white brightness-200" />
+        <SearchIcon className="flex-none transition-all duration-200 ease-in-out w-7 h-7 sm:w-5 sm:h-5 md:group-hover:fill-gray-950 fill-gray-900 brightness-200" />
         <span className="hidden text-sm text-gray-500 md:ml-2 md:block lg:hidden">
           Søk etter sang...
         </span>

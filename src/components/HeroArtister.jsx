@@ -2,16 +2,12 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 
-import { useState } from 'react';
-import { Dialog } from '@headlessui/react';
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
-
-export function HeroHjem() {
+export function HeroArtister() {
   return (
-    <div className="bg-amber-100">
-      <div className="relative overflow-hidden isolate pt-14">
+    <div className="bg-amber-50">
+      <div className="relative overflow-hidden pt-14 isolate">
         <Image
-          src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1697230348/Sang%20i%20begravelse/Home_Hero_mobile_syywxf.webp"
+          src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Hero_2_sios6a.webp"
           alt="Hvite roser"
           width={2176}
           height={3264}
@@ -20,7 +16,7 @@ export function HeroHjem() {
           unoptimized
         />
         <Image
-          src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1697230359/Sang%20i%20begravelse/Home_Hero_desktop_v2_vyjmjo.webp"
+          src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Hero_2_sios6a.webp"
           alt="Hvite roser"
           width={3000}
           height={1681}
@@ -36,7 +32,7 @@ export function HeroHjem() {
         <div className="max-w-md py-32 mx-auto sm:max-w-2xl md:max-w-3xl sm:py-48 lg:py-56">
           <div className="relative z-10 text-center">
             <h6 className="text-5xl text-slate-950 sm:text-slate-900 sm:text-6xl lg:text-7xl">
-              Sang i begravelse
+              Artister
             </h6>
             <motion.p
               whileInView={{ opacity: 1 }}
@@ -48,23 +44,22 @@ export function HeroHjem() {
               }}
               className="max-w-xs px-10 mx-auto mt-6 leading-8 sm:text-slate-800 text-slate-900 sm:px-0 sm:max-w-lg sm:text-lg lg:max-w-xl"
             >
-              Vår side er utviklet som et bidrag til pårørende for å finne og
-              velge riktig musikk til begravelser.
+              Vår talentfulle gruppe av erfarne og lidenskapelige artister,
+              dedikert til å skape minneverdige musikalske opplevelser av høy
+              kvalitet.
             </motion.p>
             <div className="flex items-center justify-center mt-10 gap-x-6">
               <Link
-                href="/artister"
-                className="rounded-md bg-white/70 px-3.5 py-2.5 text-sm font-semibold text-slate-800 shadow-sm hover:bg-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-slate-400 transition-all duration-150 ease-in-out hover:text-slate-950 cursor-pointer"
+                href="/"
+                className="rounded-md bg-white/70 px-3.5 py-2.5 text-sm font-semibold text-slate-800 shadow-sm hover:bg-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-slate-400 transition-all duration-150 ease-in-out hover:text-slate-950"
               >
-                <button className="cursor-pointer">Artister</button>
+                Repertoar
               </Link>
               <Link
-                href="#"
+                href="/salmer"
                 className="text-sm font-semibold leading-6 transition-all duration-150 ease-in-out text-slate-800 hover:text-slate-950"
               >
-                <button className="cursor-pointer">
-                  Forslag til program <span aria-hidden="true">→</span>
-                </button>
+                Salmer og fellessanger <span aria-hidden="true">→</span>
               </Link>
             </div>
           </div>

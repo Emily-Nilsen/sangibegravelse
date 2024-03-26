@@ -42,21 +42,11 @@ const people = [
 
 export function ArtistsPreview() {
   return (
-    <div id="artister" className="pt-16 pb-24 sm:py-32 bg-gray-50/50">
+    <div id="artister" className="relative pt-16 pb-24 sm:py-32 bg-gray-50/50">
       <div className="px-6 mx-auto text-center max-w-7xl lg:px-8">
-        <div className="max-w-2xl mx-auto">
-          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-            Artister
-          </h2>
-          <p className="mt-4 text-lg leading-8 text-gray-600">
-            Vår talentfulle gruppe av erfarne og lidenskapelige artister,
-            dedikert til å skape minneverdige musikalske opplevelser av høy
-            kvalitet.
-          </p>
-        </div>
         <ul
           role="list"
-          className="grid max-w-2xl grid-cols-1 mx-auto mt-20 gap-x-8 gap-y-16 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3"
+          className="grid max-w-2xl grid-cols-1 mx-auto gap-x-8 gap-y-16 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 "
         >
           {people.map((person, i) => (
             <motion.li
@@ -77,7 +67,7 @@ export function ArtistsPreview() {
             >
               <Link href={person.profileUrl}>
                 <Image
-                  className="object-cover w-56 h-56 mx-auto transition duration-300 ease-in-out rounded-full grayscale group-hover:grayscale-0"
+                  className="object-cover w-56 h-56 mx-auto transition duration-300 ease-in-out rounded-full grayscale-[50%] group-hover:grayscale-0"
                   src={person.imageUrl}
                   alt={person.name}
                   width={300}

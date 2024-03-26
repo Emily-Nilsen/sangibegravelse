@@ -15,7 +15,10 @@ export default function App({ Component, pageProps }) {
     router.pathname === '/repertoar' ||
     router.pathname === '/tilbakemeldinger' ||
     router.pathname === '/personvernerklaering' ||
-    router.pathname === '/kontakt'
+    router.pathname === '/kontakt' ||
+    router.pathname === '/artister' ||
+    router.pathname === '/om' ||
+    router.pathname === '/salmer'
   ) {
     textColour = 'dark';
   } else if (router.pathname.startsWith('/repertoar/')) {
