@@ -9,7 +9,7 @@ export default function Artister() {
   const structuredData = {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
-    url: 'https://sangibegravelse.no/',
+    url: 'https://sangibegravelse.no/artister',
     name: 'Sang i begravelse',
     image:
       'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Sang_i_begravelse_jfysbv.webp',
@@ -47,7 +47,7 @@ export default function Artister() {
           content="Sang i begravelse - Musikk fremført av profesjonelle artister"
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://sangibegravelse.no/" />
+        <meta property="og:url" content="https://sangibegravelse.no/artister" />
         <meta
           property="og:image"
           content="https://res.cloudinary.com/dt3k2apqd/image/upload/v1698149656/Sang%20i%20begravelse/Sang_i_begravelse_logo_l0ipsd.svg"
