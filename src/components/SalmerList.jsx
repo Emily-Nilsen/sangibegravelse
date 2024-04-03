@@ -1,6 +1,6 @@
 import { Disclosure } from '@headlessui/react';
 import { MinusIcon, PlusIcon } from '@heroicons/react/24/outline';
-import salmer from '../lib/salmerData';
+import hymnes from '../lib/hymnesData';
 
 export function SalmerList() {
   return (
@@ -11,7 +11,7 @@ export function SalmerList() {
             Salmer
           </h2>
           <dl className="mt-10 space-y-6 divide-y divide-gray-900/10">
-            {salmer.map((salme) => (
+            {hymnes.map((salme) => (
               <Disclosure as="div" key={salme.tittel} className="pt-6">
                 {({ open }) => (
                   <>
