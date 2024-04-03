@@ -2,8 +2,6 @@ import Head from 'next/head';
 
 import { HeroAbout } from '@/components/HeroAbout';
 import { OmOss } from '@/components/OmOss';
-import { RepertoarPreview } from '@/components/RepertoarPreview';
-import { Tilbakemeldinger } from '../components/Tilbakemeldinger';
 
 export default function Om() {
   return (
@@ -12,10 +10,10 @@ export default function Om() {
         <title>
           Om Sang i begravelse – Salmer og fellessanger for en verdig avskjed
         </title>
-        <meta name="description" content="TEXT HERE" />
+        <meta name="description" content="" />
         <link
           rel="canonical"
-          href="https://sangibegravelse.no/susanne-hvinden-hals"
+          href="https://sangibegravelse.no/om"
           key="canonical"
         />
       </Head>
@@ -23,8 +21,6 @@ export default function Om() {
         <main>
           <HeroAbout />
           <OmOss />
-          {/* <RepertoarPreview /> */}
-          {/* <Tilbakemeldinger artistName="Susanne Hvinden Hals" /> */}
         </main>
       </div>
     </>

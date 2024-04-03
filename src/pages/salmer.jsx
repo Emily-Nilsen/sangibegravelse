@@ -40,7 +40,7 @@ export default function Salmer() {
         />
         <link
           rel="canonical"
-          href="https://sangibegravelse.no/"
+          href="https://sangibegravelse.no/salmer"
           key="canonical"
         />
         {/* Open Graph Details */}
