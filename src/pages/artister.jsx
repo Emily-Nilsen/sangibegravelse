@@ -38,7 +38,7 @@ export default function Artister() {
         />
         <link
           rel="canonical"
-          href="https://sangibegravelse.no/"
+          href="https://sangibegravelse.no/artister"
           key="canonical"
         />
         {/* Open Graph Details */}
