@@ -77,16 +77,21 @@ export default function ProgramForslag() {
           <HeroProgram />
           {/* heading */}
 
-          <div className="py-24 bg-white sm:py-32">
+          <div className="pt-24 pb-12 bg-white sm:pt-32 sm:pb-16">
             <div className="px-6 mx-auto max-w-7xl lg:px-8">
               <div className="max-w-2xl mx-auto lg:mx-0">
                 <h2 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
                   Program forslag
                 </h2>
                 <p className="mt-6 text-lg leading-8 text-gray-600">
-                  Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure
-                  qui lorem cupidatat commodo. Elit sunt amet fugiat veniam
-                  occaecat fugiat aliqua.
+                  Her er det noen forslag til progamsammensetninger. Her kan man
+                  velge et ferdig program, plukke ønskede sanger og sette det
+                  sammen til foretrukket program.
+                </p>
+                <p className="mt-6 text-base leading-8 text-gray-600">
+                  Har man med instrumentalister kan de i tillegg spille ved
+                  inngang og utgang. Ønskes veiledning kan man ta kontakt
+                  solister.
                 </p>
               </div>
             </div>
