@@ -58,9 +58,16 @@ export function HeroAbout() {
             </div>
           </div>
           <Image
-            src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Susanne_and_NG_About_clipped_ysajej.webp"
+            src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/NG_Susanne_duette_px0npd.webp"
             alt="Susan Hvinden Hals and Nils Georg Nilsen"
-            className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:ml-0"
+            className="hidden sm:block w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:ml-0"
+            width={2432}
+            height={1442}
+          />
+          <Image
+            src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/NG_Susanne_duette_mobile_zvequz.webp"
+            alt="Susan Hvinden Hals and Nils Georg Nilsen"
+            className="sm:hidden w-[24rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:ml-0 object-center"
             width={2432}
             height={1442}
           />
