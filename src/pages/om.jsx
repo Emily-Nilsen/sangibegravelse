@@ -7,9 +7,7 @@ export default function Om() {
   return (
     <>
       <Head>
-        <title>
-          Om Sang i begravelse – Salmer og fellessanger for en verdig avskjed
-        </title>
+        <title>Om Sang i begravelse</title>
         <meta name="description" content="" />
         <link
           rel="canonical"
