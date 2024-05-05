@@ -4,8 +4,8 @@ import { HeroHjem } from '@/components/HeroHjem';
 import { Oppdatering } from '@/components/Oppdatering';
 import { RepertoarPreview } from '@/components/RepertoarPreview';
 
-import { ForslagPreview } from '../components/ForslagPreview';
-import { HeroProgram } from '../components/HeroProgram';
+import { ForslagPreview } from '../../components/ForslagPreview';
+import { HeroProgram } from '../../components/HeroProgram';
 
 export default function ProgramForslag() {
   const structuredData = {

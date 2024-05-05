@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
-const suggestions = [
+export const suggestions = [
   {
     id: 1,
     name: 'Nordiske sanger',
@@ -82,7 +82,11 @@ export function ForslagPreview() {
 
         <div className="grid grid-cols-1 gap-x-6 gap-y-16 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-8">
           {suggestions.map((suggestion) => (
-            <a key={suggestion.id} href={suggestion.href} className="group">
+            <Link
+              key={suggestion.id}
+              href={`/program-forslag/${suggestion.id}`}
+              className="group"
+            >
               <div className="w-full rounded-lg bg-[#f7f8f2]">
                 <ul
                   role="list"
@@ -159,7 +163,7 @@ export function ForslagPreview() {
                   <p className="pb-2 italic">Utgangsmusikk</p>
                 </ul>
               </div>
-            </a>
+            </Link>
           ))}
         </div>
       </div>
