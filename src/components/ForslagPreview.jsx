@@ -5,7 +5,9 @@ export const suggestions = [
   {
     id: 1,
     name: 'Nordiske sanger',
-    href: '#',
+    bg_colour: '#e4772d',
+    image:
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Home_Hero_mobile_syywxf.webp',
     solo_1: 'Jeg glemmer deg aldri',
     salme_1: 'Blå salme',
     solo_2: 'Kor går du når du går',
@@ -16,7 +18,9 @@ export const suggestions = [
   {
     id: 2,
     name: 'Klassisk miks',
-    href: '#',
+    bg_colour: '#e4772d',
+    image:
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Salmer_ylykay.webp',
     solo_1: 'Ave Maria (Schubert)',
     salme_1: 'Den fyrste song',
     solo_2: 'Pie Jesu (Webber)',
@@ -27,7 +31,9 @@ export const suggestions = [
   {
     id: 3,
     name: 'Ikke religiøse tekster',
-    href: '#',
+    bg_colour: '#e4772d',
+    image:
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Salmer_ylykay.webp',
     solo_1: 'God morgen min kjære',
     fellessang_1: 'Din tanke er fri',
     solo_2: 'Höstvisa',
@@ -39,7 +45,9 @@ export const suggestions = [
   {
     id: 4,
     name: 'Pop miks',
-    href: '#',
+    bg_colour: '#e4772d',
+    image:
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Salmer_ylykay.webp',
     solo_1: 'Make you feel my love/Fordi jeg elsker deg (solo/duett)',
     salme_1: 'Amazing Grace',
     solo_2: 'How do I say goodbye',
@@ -50,7 +58,9 @@ export const suggestions = [
   {
     id: 5,
     name: 'Jul/Vinter',
-    href: '#',
+    bg_colour: '#e4772d',
+    image:
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Salmer_ylykay.webp',
     solo_1: 'Nordnorsk julesalme',
     salme_1: 'Det hev ei rose sprunge',
     solo_2: 'Mitt hjerte alltid vanker',
@@ -61,7 +71,9 @@ export const suggestions = [
   {
     id: 6,
     name: 'Klassisk/Opera',
-    href: '#',
+    bg_colour: '#e4772d',
+    image:
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Salmer_ylykay.webp',
     solo_1: 'O mio babbino caro (sopran arie/dame)',
     salme_1: 'O bli hos meg',
     fiolinsolo: 'Méditation fra Thais',
@@ -101,6 +113,14 @@ export function ForslagPreview() {
                   <p className="italic">Solo 1</p>
                   <p className="font-medium">{suggestion.solo_1}</p>
                   <p className="text-slate-900/50">–</p>
+
+                  {suggestion.salme_1 && (
+                    <>
+                      <p className="italic">Salme 1</p>
+                      <p className="font-medium">{suggestion.salme_1}</p>
+                      <p className="text-slate-900/50">–</p>
+                    </>
+                  )}
 
                   {suggestion.fellessang_1 && (
                     <>
