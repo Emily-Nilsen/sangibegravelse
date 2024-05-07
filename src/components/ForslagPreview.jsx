@@ -10,6 +10,8 @@ export const suggestions = [
     image:
       'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Home_Hero_mobile_syywxf.webp',
     solo_1: 'Jeg glemmer deg aldri',
+    solo_1_href:
+      '/repertoar/jeg-glemmer-deg-aldri-av-aslag-haugen-og-arne-moslatten',
     salme_1: 'Blå salme',
     solo_2: 'Kor går du når du går',
     salme_2: 'Kjærlighet fra Gud',
@@ -23,6 +25,7 @@ export const suggestions = [
     image:
       'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Salmer_ylykay.webp',
     solo_1: 'Ave Maria (Schubert)',
+    solo_1_href: '/repertoar/ave-maria-av-franz-schubert',
     salme_1: 'Den fyrste song',
     solo_2: 'Pie Jesu (Webber)',
     salme_2: 'Vem kan segla förutan vind',
@@ -36,6 +39,7 @@ export const suggestions = [
     image:
       'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Salmer_ylykay.webp',
     solo_1: 'God morgen min kjære',
+    solo_1_href: '/repertoar/god-morgen-min-kjaere-av-benny-borg',
     fellessang_1: 'Din tanke er fri',
     solo_2: 'Höstvisa',
     fiolinsolo: 'Tema fra Schindlers list',
@@ -50,6 +54,8 @@ export const suggestions = [
     image:
       'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Salmer_ylykay.webp',
     solo_1: 'Make you feel my love/Fordi jeg elsker deg (solo/duett)',
+    solo_1_href:
+      '/repertoar/fordi-jeg-elsker-deg-av-bob-dyllan-og-bjarte-hjelmeland',
     salme_1: 'Amazing Grace',
     solo_2: 'How do I say goodbye',
     solo_3: 'Feels like home',
@@ -63,6 +69,7 @@ export const suggestions = [
     image:
       'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Salmer_ylykay.webp',
     solo_1: 'Nordnorsk julesalme',
+    solo_1_href: '#',
     salme_1: 'Det hev ei rose sprunge',
     solo_2: 'Mitt hjerte alltid vanker',
     salme_2: 'Deilig er den himmel blå',
@@ -76,6 +83,7 @@ export const suggestions = [
     image:
       'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Salmer_ylykay.webp',
     solo_1: 'O mio babbino caro (sopran arie/dame)',
+    solo_1_href: '#',
     salme_1: 'O bli hos meg',
     fiolinsolo: 'Méditation fra Thais',
     solo_2: 'Mot kveld',

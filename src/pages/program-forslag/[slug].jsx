@@ -2,8 +2,10 @@ import { useRouter } from 'next/router';
 import {
   CheckCircleIcon,
   InformationCircleIcon,
+  LinkIcon,
 } from '@heroicons/react/24/solid';
 import Image from 'next/image';
+import Link from 'next/link';
 import { motion } from 'framer-motion';
 
 // Import your suggestions data
@@ -62,7 +64,15 @@ export default function SuggestionPage({ suggestion }) {
                 <LineSeparator className="my-10 w-28 fill-[#b4b297] mx-auto" />
                 <div className="max-w-2xl">
                   <h1 className="text-xl leading-8 text-gray-800">Solo 1</h1>
-                  <p>{suggestion.solo_1}</p>
+                  <Link
+                    className="transition-all hover:text-gray-950 group"
+                    href={suggestion.solo_1_href}
+                  >
+                    <p>
+                      {suggestion.solo_1}{' '}
+                      <LinkIcon className="inline w-auto h-4 text-[#b4b297] group-hover:text-slate-600 transition-all" />
+                    </p>{' '}
+                  </Link>
                 </div>
                 <LineSeparator className="my-10 w-28 fill-[#b4b297] mx-auto" />
                 {suggestion.salme_1 && (
@@ -73,6 +83,7 @@ export default function SuggestionPage({ suggestion }) {
                       </h1>
                       <p>{suggestion.salme_1}</p>
                     </div>
+                    <LineSeparator className="my-10 w-28 fill-[#b4b297] mx-auto" />
                   </>
                 )}
                 {suggestion.fellessang_1 ? (
