@@ -81,7 +81,15 @@ export default function SuggestionPage({ suggestion }) {
                       <h1 className="text-xl leading-8 text-gray-800">
                         Salme 1
                       </h1>
-                      <p>{suggestion.salme_1}</p>
+                      <Link
+                        className="transition-all hover:text-gray-950 group"
+                        href={suggestion.salme_1_href}
+                      >
+                        <p>
+                          {suggestion.salme_1}{' '}
+                          <LinkIcon className="inline w-auto h-4 text-[#b4b297] group-hover:text-slate-600 transition-all" />
+                        </p>{' '}
+                      </Link>
                     </div>
                     <LineSeparator className="my-10 w-28 fill-[#b4b297] mx-auto" />
                   </>
@@ -92,7 +100,16 @@ export default function SuggestionPage({ suggestion }) {
                       <h1 className="text-xl leading-8 text-gray-800">
                         Fellessang
                       </h1>
-                      <p>{suggestion.fellessang_1}</p>
+                      <Link
+                        className="transition-all hover:text-gray-950 group"
+                        href={suggestion.fellessang_1_href}
+                      >
+                        <p>
+                          {suggestion.fellessang_1}{' '}
+                          <LinkIcon className="inline w-auto h-4 text-[#b4b297] group-hover:text-slate-600 transition-all" />
+                        </p>{' '}
+                      </Link>
+
                       <LineSeparator className="my-10 w-28 fill-[#b4b297] mx-auto" />
                     </div>
                   </>
@@ -102,7 +119,15 @@ export default function SuggestionPage({ suggestion }) {
                 <LineSeparator className="my-10 w-28 fill-[#b4b297] mx-auto" />
                 <div className="max-w-2xl">
                   <h1 className="text-xl leading-8 text-gray-800">Solo 2</h1>
-                  <p>{suggestion.solo_2}</p>
+                  <Link
+                    className="transition-all hover:text-gray-950 group"
+                    href={suggestion.solo_2_href}
+                  >
+                    <p>
+                      {suggestion.solo_2}{' '}
+                      <LinkIcon className="inline w-auto h-4 text-[#b4b297] group-hover:text-slate-600 transition-all" />
+                    </p>{' '}
+                  </Link>
                 </div>
                 <LineSeparator className="my-10 w-28 fill-[#b4b297] mx-auto" />
                 {suggestion.salme_2 && (
@@ -111,7 +136,15 @@ export default function SuggestionPage({ suggestion }) {
                       <h1 className="text-xl leading-8 text-gray-800">
                         Salme 2
                       </h1>
-                      <p>{suggestion.salme_2}</p>
+                      <Link
+                        className="transition-all hover:text-gray-950 group"
+                        href={suggestion.salme_2_href}
+                      >
+                        <p>
+                          {suggestion.salme_2}{' '}
+                          <LinkIcon className="inline w-auto h-4 text-[#b4b297] group-hover:text-slate-600 transition-all" />
+                        </p>{' '}
+                      </Link>
                     </div>
                     <LineSeparator className="my-10 w-28 fill-[#b4b297] mx-auto" />
                   </>
@@ -122,8 +155,15 @@ export default function SuggestionPage({ suggestion }) {
                       <h1 className="text-xl leading-8 text-gray-800">
                         Fionlinsolo
                       </h1>
-
-                      <p>{suggestion.fiolinsolo}</p>
+                      <Link
+                        className="transition-all hover:text-gray-950 group"
+                        href={suggestion.fiolinsolo_href}
+                      >
+                        <p>
+                          {suggestion.fiolinsolo}{' '}
+                          <LinkIcon className="inline w-auto h-4 text-[#b4b297] group-hover:text-slate-600 transition-all" />
+                        </p>{' '}
+                      </Link>
                     </div>
                     <LineSeparator className="my-10 w-28 fill-[#b4b297] mx-auto" />
                   </>
@@ -134,14 +174,30 @@ export default function SuggestionPage({ suggestion }) {
                       <h1 className="text-xl leading-8 text-gray-800">
                         Salme 3
                       </h1>
-                      <p>{suggestion.salme_3}</p>
+                      <Link
+                        className="transition-all hover:text-gray-950 group"
+                        href={suggestion.salme_3_href}
+                      >
+                        <p>
+                          {suggestion.salme_3}{' '}
+                          <LinkIcon className="inline w-auto h-4 text-[#b4b297] group-hover:text-slate-600 transition-all" />
+                        </p>{' '}
+                      </Link>
                     </div>
                     <LineSeparator className="my-10 w-28 fill-[#b4b297] mx-auto" />
                   </>
                 )}
                 <div className="max-w-2xl">
                   <h1 className="text-xl leading-8 text-gray-800">Solo 3</h1>
-                  <p>{suggestion.solo_3}</p>
+                  <Link
+                    className="transition-all hover:text-gray-950 group"
+                    href={suggestion.solo_3_href}
+                  >
+                    <p>
+                      {suggestion.solo_3}{' '}
+                      <LinkIcon className="inline w-auto h-4 text-[#b4b297] group-hover:text-slate-600 transition-all" />
+                    </p>{' '}
+                  </Link>
                 </div>
                 <LineSeparator className="my-10 w-28 fill-[#b4b297] mx-auto" />
                 {suggestion.fellessang_2 ? (
@@ -150,7 +206,16 @@ export default function SuggestionPage({ suggestion }) {
                       <h1 className="text-xl leading-8 text-gray-800">
                         Fellessang
                       </h1>
-                      <p>{suggestion.fellessang_2}</p>
+                      <Link
+                        className="transition-all hover:text-gray-950 group"
+                        href={suggestion.fellessang_2_href}
+                      >
+                        <p>
+                          {suggestion.fellessang_2}{' '}
+                          <LinkIcon className="inline w-auto h-4 text-[#b4b297] group-hover:text-slate-600 transition-all" />
+                        </p>{' '}
+                      </Link>
+
                       <LineSeparator className="my-10 w-28 fill-[#b4b297] mx-auto" />
                     </div>
                   </>
@@ -161,7 +226,15 @@ export default function SuggestionPage({ suggestion }) {
                       <h1 className="text-xl leading-8 text-gray-800">
                         Solo 4
                       </h1>
-                      <p>{suggestion.solo_4}</p>
+                      <Link
+                        className="transition-all hover:text-gray-950 group"
+                        href={suggestion.solo_4_href}
+                      >
+                        <p>
+                          {suggestion.solo_4}{' '}
+                          <LinkIcon className="inline w-auto h-4 text-[#b4b297] group-hover:text-slate-600 transition-all" />
+                        </p>{' '}
+                      </Link>
                     </div>
                     <LineSeparator className="my-10 w-28 fill-[#b4b297] mx-auto" />
                   </>
