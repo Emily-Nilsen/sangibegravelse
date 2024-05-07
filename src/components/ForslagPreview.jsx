@@ -53,7 +53,7 @@ export const suggestions = [
     bg_colour: '#e4772d',
     image:
       'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Salmer_ylykay.webp',
-    solo_1: 'Make you feel my love/Fordi jeg elsker deg (solo/duett)',
+    solo_1: 'Make you feel my love / Fordi jeg elsker deg (solo/duett)',
     solo_1_href:
       '/repertoar/fordi-jeg-elsker-deg-av-bob-dyllan-og-bjarte-hjelmeland',
     salme_1: 'Amazing Grace',
@@ -64,7 +64,7 @@ export const suggestions = [
   },
   {
     id: 5,
-    name: 'Jul/Vinter',
+    name: 'Jul og vinter',
     bg_colour: '#e4772d',
     image:
       'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Salmer_ylykay.webp',
@@ -78,7 +78,7 @@ export const suggestions = [
   },
   {
     id: 6,
-    name: 'Klassisk/Opera',
+    name: 'Klassisk og opera',
     bg_colour: '#e4772d',
     image:
       'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Salmer_ylykay.webp',
@@ -101,96 +101,97 @@ export function ForslagPreview() {
           Forslag til program
         </h2>
 
-        <div className="grid grid-cols-1 gap-x-6 gap-y-16 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-8">
+        <div className="grid grid-cols-1 gap-x-6 gap-y-16 sm:grid-cols-2 2xl:grid-cols-3 sm:gap-x-16 2xl:gap-x-8">
           {suggestions.map((suggestion) => (
             <Link
               key={suggestion.id}
               href={`/program-forslag/${suggestion.id}`}
               className="group"
             >
-              <div className="w-full rounded-lg bg-[#f7f8f2]">
+              <div className="w-full rounded-lg bg-[#f7f8f2] hover:bg-[#f7f8f2]/50 transition-all hover:cursor-pointer border border-transparent hover:border-[#f7f8f2] text-center">
                 <ul
                   role="list"
-                  className="p-6 space-y-2 divide-y text-slate-900 divide-gray-200/0"
+                  className="p-6 py-12 space-y-2 divide-y text-slate-900 divide-gray-200/0"
                 >
-                  <h3 className="pb-3 text-xl font-bold sm:text-2xl">
+                  <h1 className="pb-6 text-2xl italic font-bold sm:text-3xl">
                     {suggestion.name}
-                  </h3>
-                  <p className="italic text-slate-700">Inngangsmusikk</p>
+                  </h1>
+                  <h1 className="text-xl text-slate-700">Inngangsmusikk</h1>
+                  <LineSeparator className="py-5 w-20 fill-[#b4b297] mx-auto" />
+                  {/* <p className="text-slate-900/50">–</p> */}
 
-                  <p className="text-slate-900/50">–</p>
-
-                  <p className="italic">Solo 1</p>
-                  <p className="font-medium">{suggestion.solo_1}</p>
-                  <p className="text-slate-900/50">–</p>
+                  <h1 className="text-xl text-slate-700">Solo 1</h1>
+                  <p className="font-normal">{suggestion.solo_1}</p>
+                  <LineSeparator className="py-5 w-20 fill-[#b4b297] mx-auto" />
+                  {/* <p className="text-slate-900/50">–</p> */}
 
                   {suggestion.salme_1 && (
                     <>
-                      <p className="italic">Salme 1</p>
-                      <p className="font-medium">{suggestion.salme_1}</p>
-                      <p className="text-slate-900/50">–</p>
+                      <h1 className="text-xl text-slate-700">Salme 1</h1>
+                      <p className="">{suggestion.salme_1}</p>
+                      <LineSeparator className="py-5 w-20 fill-[#b4b297] mx-auto" />
                     </>
                   )}
 
                   {suggestion.fellessang_1 && (
                     <>
-                      <p className="italic">Fellessang</p>
-                      <p className="font-medium">{suggestion.fellessang_1}</p>
-                      <p className="text-slate-900/50">–</p>
+                      <h1 className="text-xl text-slate-700">Fellessang</h1>
+                      <p className="">{suggestion.fellessang_1}</p>
+                      <LineSeparator className="py-5 w-20 fill-[#b4b297] mx-auto" />
                     </>
                   )}
-                  <p className="italic">Minneord</p>
-                  <p className="text-slate-900/50">–</p>
+                  <h1 className="text-xl text-slate-700">Minneord</h1>
+                  <LineSeparator className="py-5 w-20 fill-[#b4b297] mx-auto" />
                   {suggestion.solo_2 && (
                     <>
-                      <p className="italic">Solo 2</p>
-                      <p className="font-medium">{suggestion.solo_2}</p>
-                      <p className="text-slate-900/50">–</p>
+                      <h1 className="text-xl text-slate-700">Solo 2</h1>
+                      <p className="">{suggestion.solo_2}</p>
+                      <LineSeparator className="py-5 w-20 fill-[#b4b297] mx-auto" />
                     </>
                   )}
                   {suggestion.fiolinsolo && (
                     <>
-                      <p className="italic">Fiolinsolo</p>
-                      <p className="font-medium">{suggestion.fiolinsolo}</p>
-                      <p className="text-slate-900/50">–</p>
+                      <h1 className="text-xl text-slate-700">Fiolinsolo</h1>
+                      <p className="">{suggestion.fiolinsolo}</p>
+                      <LineSeparator className="py-5 w-20 fill-[#b4b297] mx-auto" />
                     </>
                   )}
                   {suggestion.salme_2 && (
                     <>
-                      <p className="italic">Salme 2</p>
-                      <p className="font-medium">{suggestion.salme_2}</p>
-                      <p className="text-slate-900/50">–</p>
+                      <h1 className="text-xl text-slate-700">Salme 2</h1>
+                      <p className="">{suggestion.salme_2}</p>
+                      <LineSeparator className="py-5 w-20 fill-[#b4b297] mx-auto" />
                     </>
                   )}
                   {suggestion.salme_3 && (
                     <>
-                      <p className="italic">Salme 3</p>
-                      <p className="font-medium">{suggestion.salme_3}</p>
-                      <p className="text-slate-900/50">–</p>
+                      <h1 className="text-xl text-slate-700">Salme 3</h1>
+                      <p className="">{suggestion.salme_3}</p>
+                      <LineSeparator className="py-5 w-20 fill-[#b4b297] mx-auto" />
                     </>
                   )}
                   {suggestion.solo_3 && (
                     <>
-                      <p className="italic">Solo 3</p>
-                      <p className="font-medium">{suggestion.solo_3}</p>
-                      <p className="text-slate-900/50">–</p>
+                      <h1 className="text-xl text-slate-700">Solo 3</h1>
+                      <p className="">{suggestion.solo_3}</p>
+                      <LineSeparator className="py-5 w-20 fill-[#b4b297] mx-auto" />
                     </>
                   )}
                   {suggestion.fellessang_2 && (
                     <>
-                      <p className="italic">Fellessang</p>
-                      <p className="font-medium">{suggestion.fellessang_2}</p>
-                      <p className="text-slate-900/50">–</p>
+                      <h1 className="text-xl text-slate-700">Fellessang</h1>
+                      <p className="">{suggestion.fellessang_2}</p>
+                      <LineSeparator className="py-5 w-20 fill-[#b4b297] mx-auto" />
                     </>
                   )}
                   {suggestion.solo_4 && (
                     <>
-                      <p className="italic">Solo 4</p>
-                      <p className="font-medium">{suggestion.solo_4}</p>
-                      <p className="text-slate-900/50">–</p>
+                      <h1 className="text-xl text-slate-700">Solo 4</h1>
+                      <p className="">{suggestion.solo_4}</p>
+                      <LineSeparator className="py-5 w-20 fill-[#b4b297] mx-auto" />
                     </>
                   )}
-                  <p className="pb-2 italic">Utgangsmusikk</p>
+                  <h1 className="pb-3 text-xl text-slate-700">Utgangsmusikk</h1>
                 </ul>
               </div>
             </Link>
