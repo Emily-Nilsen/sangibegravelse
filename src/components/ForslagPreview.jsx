@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import { LineSeparator } from './icons/LineSeparator';
 
 export const suggestions = [
   {
@@ -107,7 +108,8 @@ export function ForslagPreview() {
                   <h3 className="pb-3 text-xl font-bold sm:text-2xl">
                     {suggestion.name}
                   </h3>
-                  <p className="italic">Inngangsmusikk</p>
+                  <p className="italic text-slate-700">Inngangsmusikk</p>
+
                   <p className="text-slate-900/50">–</p>
 
                   <p className="italic">Solo 1</p>
