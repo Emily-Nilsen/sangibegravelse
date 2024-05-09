@@ -8,6 +8,7 @@ import { DuetIcon } from './icons/Duet';
 import { getPerformerLink } from '../../utilities/getPerformerLink';
 // import { CustomAudioPlayer } from './CustomAudioPlayer';
 import { AudioPlayer } from './AudioPlayer';
+import { SpotifyPlayer } from './SpotifyPlayer';
 import { generateSlug } from '../utils/generateSlug'; // Import generateSlug
 
 // Utility function to get the arrangement icon
