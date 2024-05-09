@@ -140,7 +140,7 @@ export function SongPageDetails({
           {/* Spotify player */}
           {spotifyAudio && (
             <div className="mt-6">
-              <MiniSpotifyPlayer
+              <SpotifyPlayer
                 spotify={spotifyAudio}
                 spotifyUrl={spotifyAudioUrl}
               />

@@ -10,7 +10,6 @@ import { SoloIcon } from './icons/Solo';
 import { DuetIcon } from './icons/Duet';
 import { CategoryTag } from './CategoryTag';
 import { SimplePlayer } from './SimplePlayer';
-import { SimpleSpotifyPlayer } from './SimpleSpotifyPlayer';
 
 export function RepertoireListComponent(
   { selectedCategory, selectedArrangement, selectedLanguage, repertoire },
@@ -84,20 +83,6 @@ export function RepertoireListComponent(
                     )}
                   </td>
 
-                  {/* <td className="px-3 py-4 text-sm text-gray-500 sm:table-cell">
-                    <div className="flex w-10 h-10 space-x-1 bg-green-100">
-                      {sang.spotify && (
-                        <>
-                          <div className="inline">
-                            <SimpleSpotifyPlayer
-                              spotify={sang.spotify}
-                              spotifyUrl={sang.spotifyUrl}
-                            />
-                          </div>
-                        </>
-                      )}
-                    </div>
-                  </td> */}
                   <td className="px-3 py-4 text-sm text-gray-500">
                     {sang.category && (
                       <>
