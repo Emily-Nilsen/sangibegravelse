@@ -78,7 +78,8 @@ export function RepertoarToggle() {
               className="mt-6 text-lg leading-8 text-gray-600"
             >
               Få mer informasjon om hver sang ved å klikke på plusssymbolet og
-              lytt til våre eksempler.
+              lytt til våre eksempler. Vi har også satt sammen en spilleliste på
+              Spotify.
             </motion.p>
           </div>
           {/* Spotify player */}
