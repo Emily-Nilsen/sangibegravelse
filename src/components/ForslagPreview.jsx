@@ -1,10 +1,12 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import slugify from 'slugify';
 import { LineSeparator } from './icons/LineSeparator';
+import { SpotifyPlayer } from './SpotifyPlayer';
 
 export const suggestions = [
   {
-    id: 1,
+    id: 'nordiske-sanger',
     name: 'Nordiske sanger',
     bg_colour: '#e4772d',
     image:
@@ -25,7 +27,7 @@ export const suggestions = [
       '/repertoar/hall-mitt-hjaerta-av-peter-hallstroem-lars-andersson-og-bjoern-skifs',
   },
   {
-    id: 2,
+    id: 'klassisk-miks',
     name: 'Klassisk miks',
     bg_colour: '#e4772d',
     image:
@@ -44,7 +46,7 @@ export const suggestions = [
     solo_3_href: '#',
   },
   {
-    id: 3,
+    id: 'ikke-religiose-tekster',
     name: 'Ikke religiøse tekster',
     bg_colour: '#e4772d',
     image:
@@ -67,7 +69,7 @@ export const suggestions = [
       '/repertoar/my-way-av-claude-francois-jacques-revaux-og-paul-anka',
   },
   {
-    id: 4,
+    id: 'pop-miks',
     name: 'Pop miks',
     bg_colour: '#e4772d',
     image:
@@ -88,7 +90,7 @@ export const suggestions = [
       '/repertoar/the-prayer-av-david-foster-carole-bayer-sager-alberto-testa-og-tony-renis',
   },
   {
-    id: 5,
+    id: 'jul-og-vinter',
     name: 'Jul og vinter',
     bg_colour: '#e4772d',
     image:
@@ -107,7 +109,7 @@ export const suggestions = [
     solo_3_href: '/repertoar/o-helga-natt-av-adolphe-adam',
   },
   {
-    id: 6,
+    id: 'klassisk-og-opera',
     name: 'Klassisk og opera',
     bg_colour: '#e4772d',
     image:

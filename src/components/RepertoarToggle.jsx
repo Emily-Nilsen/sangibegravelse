@@ -6,6 +6,7 @@ import { ArrangementDropdown } from './ArrangementDropdown';
 import { RepertoireList } from './RepertoireList';
 import { Pagination } from './Pagination';
 import { filterSongs } from '../../utilities/filterSongs';
+import { SpotifyPlayer } from './SpotifyPlayer';
 
 export function RepertoarToggle() {
   const [currentPage, setCurrentPage] = useState(1);
@@ -80,6 +81,11 @@ export function RepertoarToggle() {
               lytt til våre eksempler.
             </motion.p>
           </div>
+          {/* Spotify player */}
+          <div className="mt-12">
+            <SpotifyPlayer spotifyUri="playlist/2l4snImcjo86c6jPSTIaEi?si=9f2c790f5c2d4ac8" />
+          </div>
+
           {/* Filter controls */}
           <div className="pt-12 sm:pb-4" ref={filterControlsRef}>
             <div className="flex space-x-4 text-sm">
@@ -89,9 +95,9 @@ export function RepertoarToggle() {
               />
               {/* Subcategory */}
               <LanguageDropdown handleLanguageChange={handleLanguageChange} />
-              <ArrangementDropdown
+              {/* <ArrangementDropdown
                 handleArrangementChange={handleArrangementChange}
-              />
+              /> */}
             </div>
           </div>
         </div>

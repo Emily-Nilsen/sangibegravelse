@@ -6,7 +6,7 @@ export function PlayButton() {
   return (
     <button
       type="button"
-      className="p-1.5 text-white transition-colors duration-300 ease-in-out rounded-full shadow-sm bg-amber-600 hover:bg-amber-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-amber-600"
+      className="p-1.5 text-white transition-colors duration-300 ease-in-out rounded-full shadow-sm bg-green-600 hover:bg-green-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600"
     >
       <PlayIcon className="w-4 h-4" aria-hidden="true" />
     </button>
@@ -17,14 +17,15 @@ export function PauseButton() {
   return (
     <button
       type="button"
-      className="p-1.5 text-white transition-colors duration-300 ease-in-out rounded-full shadow-sm bg-amber-600 hover:bg-amber-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-amber-600"
+      className="p-1.5 text-white transition-colors duration-300 ease-in-out rounded-full shadow-sm bg-green-600 hover:bg-green-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600"
     >
       <PauseIcon className="w-4 h-4" aria-hidden="true" />
     </button>
   );
 }
 
-export function SimpleCustomPlayer({ audioUrl }) {
+export function MiniSpotifyPlayer({ spotifyUri }) {
+  const spotifyEmbedUrl = `https://open.spotify.com/embed/${spotifyUri}`;
   const audioRef = useRef(null);
   const [isPlaying, setIsPlaying] = useState(false);
   const [duration, setDuration] = useState(0);
@@ -67,7 +68,7 @@ export function SimpleCustomPlayer({ audioUrl }) {
     <div className="flex items-center">
       <audio
         ref={audioRef}
-        src={audioUrl}
+        src={spotifyEmbedUrl}
         onLoadedMetadata={handleLoadedMetadata}
         onTimeUpdate={handleTimeUpdate}
         onEnded={handleAudioEnd}

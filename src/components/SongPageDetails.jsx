@@ -75,6 +75,8 @@ export function SongPageDetails({
   songLanguage,
   songAudio,
   songAudioUrl,
+  spotifyAudio,
+  spotifyAudioUrl,
   songPerformers,
   nextSong,
   prevSong,
@@ -132,6 +134,15 @@ export function SongPageDetails({
                 title={songTitle}
                 performers={songPerformers}
                 live={songLive}
+              />
+            </div>
+          )}
+          {/* Spotify player */}
+          {spotifyAudio && (
+            <div className="mt-6">
+              <MiniSpotifyPlayer
+                spotify={spotifyAudio}
+                spotifyUrl={spotifyAudioUrl}
               />
             </div>
           )}

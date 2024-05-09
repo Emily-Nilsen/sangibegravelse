@@ -70,7 +70,7 @@ export default function Home() {
       <div className="bg-white">
         <main>
           <HeroHjem />
-          <Oppdatering />
+          {/* <Oppdatering /> */}
 
           <RepertoarToggle />
         </main>

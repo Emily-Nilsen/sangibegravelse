@@ -6,6 +6,7 @@ import { RepertoarPreview } from '@/components/RepertoarPreview';
 
 import { ForslagPreview } from '../../components/ForslagPreview';
 import { HeroProgram } from '../../components/HeroProgram';
+import { SpotifyPlayer } from '@/components/SpotifyPlayer';
 
 export default function ProgramForslag() {
   const structuredData = {
@@ -93,6 +94,7 @@ export default function ProgramForslag() {
                   inngang og utgang. Ønskes veiledning kan man ta kontakt
                   solister.
                 </p>
+                <SpotifyPlayer spotifyUri="track/4LN5MYmKfIOmK1OaFeaUSp?si=5a74ed374e2a45b4" />
               </div>
             </div>
           </div>

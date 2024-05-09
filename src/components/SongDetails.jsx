@@ -4,7 +4,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { Disclosure } from '@headlessui/react';
-import { MinusSmallIcon, PlusSmallIcon } from '@heroicons/react/24/outline';
+import { MinusIcon, PlusIcon } from '@heroicons/react/24/outline';
 import { Expandable } from '@/components/Expandable';
 import { getPerformerLink } from '../../utilities/getPerformerLink';
 import { CustomAudioPlayer } from './CustomAudioPlayer';
