@@ -76,8 +76,8 @@ export function SongPageDetails({
   songLanguage,
   songAudio,
   songAudioUrl,
-  spotifyAudio,
-  spotifyAudioUrl,
+  songSpotify,
+  songSpotifyUrl,
   songPerformers,
   nextSong,
   prevSong,
@@ -138,15 +138,7 @@ export function SongPageDetails({
               />
             </div>
           )}
-          {/* Spotify player */}
-          {spotifyAudio && (
-            <div className="mt-6">
-              <SpotifyPlayer
-                spotify={spotifyAudio}
-                spotifyUrl={spotifyAudioUrl}
-              />
-            </div>
-          )}
+
           <div className="max-w-xl my-8 lg:hidden">
             <PaginationSection prevSong={prevSong} nextSong={nextSong} />
           </div>
@@ -317,7 +309,7 @@ export function SongPageDetails({
                 className="flex items-center bg-red-100 sm:justify-left sm:justify-stretch gap-x-6"
               >
                 <Link
-                  href="/repertoar"
+                  href="/"
                   className="rounded-md bg-amber-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-amber-600/90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-slate-400 transition-all duration-150 ease-in-out cursor-pointer border border-amber-600 flex-auto text-center"
                 >
                   <button className="cursor-pointer">
@@ -325,6 +317,14 @@ export function SongPageDetails({
                   </button>
                 </Link>
               </motion.div>
+              {/* Spotify player */}
+              <div className="relative mt-10">
+                {songSpotify && (
+                  <>
+                    <SpotifyPlayer spotifyUri={songSpotifyUrl} />
+                  </>
+                )}
+              </div>
             </div>
           </div>
         </div>

@@ -124,6 +124,8 @@ export default function SongPage({ songData, nextSong, prevSong }) {
             songArrangement={songData.arrangement}
             songAudio={songData.audio}
             songAudioUrl={songData.audioUrl}
+            songSpotify={songData.spotify}
+            songSpotifyUrl={songData.spotifyUrl}
             songVideo={songData.video}
             songLanguage={songData.language}
             songPerformers={songData.performers}

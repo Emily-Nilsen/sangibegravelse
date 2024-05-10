@@ -9,6 +9,7 @@ import { Expandable } from '@/components/Expandable';
 import { getPerformerLink } from '../../utilities/getPerformerLink';
 import { CustomAudioPlayer } from './CustomAudioPlayer';
 import { AudioPlayer } from './AudioPlayer';
+import { SpotifyPlayer } from './SpotifyPlayer';
 import { generateSlug } from '../utils/generateSlug'; // Import generateSlug
 
 export function SongDetails({ isExpanded, expandedSongs, sang }) {
@@ -169,8 +170,15 @@ export function SongDetails({ isExpanded, expandedSongs, sang }) {
                     </button>
                   </Link>
                 </div>
-              </div>
-
+                {/* Spotify player */}
+                <div className="mt-10 sm:mt-12">
+                  {sang.spotify && (
+                    <>
+                      <SpotifyPlayer spotifyUri={sang.spotifyUrl} />
+                    </>
+                  )}
+                </div>
+              </div>{' '}
               <div
                 aria-hidden="true"
                 className="relative hidden px-3 pt-6 overflow-hidden rounded-lg lg:block"

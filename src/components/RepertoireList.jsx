@@ -10,6 +10,7 @@ import { SoloIcon } from './icons/Solo';
 import { DuetIcon } from './icons/Duet';
 import { CategoryTag } from './CategoryTag';
 import { SimplePlayer } from './SimplePlayer';
+import { SpotifyPlayer } from './SpotifyPlayer';
 
 export function RepertoireListComponent(
   { selectedCategory, selectedArrangement, selectedLanguage, repertoire },
