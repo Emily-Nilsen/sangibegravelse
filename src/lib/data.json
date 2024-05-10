@@ -803,6 +803,8 @@
     "arrangement": ["solo", "duett", "fiolin"],
     "composer": "Wolfgang Amadeus Mozart",
     "audio": false,
+    "spotify": true,
+    "spotifyUrl": "track/6tT4OYXuB8gptYcDzFTxbz?si=f253676c726c4fa2",
     "description": [
       "«Ave Verum Corpus» er en sakral motett komponert av Wolfgang Amadeus Mozart i 1791. Basert på en latinsk eukaristisk hymne fra det 14. århundret, representerer denne sangen Mozarts siste fullførte sakrale verk. Med sin latinske tekst som beskriver Jesus som den sanne kroppen født av Jomfru Maria, har komposisjonen en dyp åndelig og eukaristisk betydning.",
       "Den inviterer til refleksjon og gir en rolig, nesten meditativ atmosfære som kan føles ekstra meningsfull i en begravelseskontekst. Musikken er enkel, men uttrykksfull, og den evner å fremkalle sterke følelser uten å være overveldende. Dens klassiske harmonier og melodi har gjort den til et populært valg for seremonielle anledninger.",
@@ -833,6 +835,8 @@
     "arrangement": ["solo", "duett", "fiolin"],
     "composer": "Johann Sebastian Bach",
     "audio": false,
+    "spotify": true,
+    "spotifyUrl": "track/2RxprzRnjN5KJERHli7G5C?si=9685f1660ac14ebe",
     "description": [
       "«Benedictus (Messe i B-moll)» av Johann Sebastian Bach er en storslått og åndelig hymne, og er en del av hans monumentale verk messe i B-moll, utviklet mellom 1733 og 1738. Dette spesifikke stykket befinner seg i de senere delene av messen, ved siden av Osanna, Agnus Dei, og Dona Nobis Pacem. Med sin latinske tekst, ‘Benedictus qui venit in nomine Domini, Osanna in excelsis,’ formidler den en dyp velsignelse og hyllest.",
       "Melodien og arrangementet er sofistikert, og gir en nesten himmelsk atmosfære, ideell for å hedre en avdød på en verdig måte. Musikalsk sett er denne delen av Bachs B-mollmesse en kompleks og følelsesladet komposisjon, ofte beskrevet som en fremkalling av rolig kjærlighet og lengsel med sakte, lange, og nådefulle vokale og instrumentale linjer. Dette hintet til en form for åndelig eller guddommelig lengsel forsterker stykkets dybde.",
@@ -850,6 +854,8 @@
     "arrangement": ["solo", "duett", "fiolin"],
     "composer": "Johann Sebastian Bach",
     "audio": false,
+    "spotify": true,
+    "spotifyUrl": "track/1IicvMomHAp0TQTw83tNHg?si=bcb29b24381442a0",
     "description": [
       "Sangen «Bist du bei mir» er ikke bare en dypt rørende komposisjon av Johann Sebastian Bach; den har også en interessant historie. Selv om mange tilskriver den til Bach, er sangen faktisk basert på en aria av Gottfried Heinrich Stölzel fra hans opera Diomedes. Den ble senere inkludert i Anna Magdalena-notatboken fra 1725, en samling stykker dedikert til Bachs andre kone.",
       "Teksten, som oversettes til «Hvis du er med meg», vektlegger følelsen av ro og tilfredshet ved å være sammen med en man er glad i, selv i møte med døden. Musikalsk sett er «Bist du bei mir» en essensiell del av den klassiske repertoaret, hovedsakelig på grunn av sin emosjonelle resonans og den skjønnheten melodien bærer. Bach legger grunnlaget for en dyp emosjonell opplevelse med enkle, men effektive melodilinjer.",
@@ -926,6 +932,8 @@
     "arrangement": ["solo", "duett"],
     "composer": "Pete Seeger og Lillebjørn Nilsen",
     "audio": false,
+    "spotify": true,
+    "spotifyUrl": "track/1Wx4lXhRN6zIjwBEtafifD?si=dc81089e389a4122",
     "description": [
       "«Barn av regnbuen», komponert av den amerikanske folkesangeren Pete Seeger og tilpasset til norsk av Lillebjørn Nilsen, ble utgitt i 1973. Teksten utforsker temaer som enhet, bærekraft og håp for fremtiden. Den bruker levende bilder som en stjernefylt himmel og blomstrende blomster for å male et bilde av en ideell verden. Den stiller spørsmålet: Hva mer kunne man ønske seg enn dette?",
       "Sangen har dyp kulturell resonans i Norge, noe som ble særlig tydelig etter terrorangrepet mot regjeringskvartalet og Utøya i 2011. Over 40,000 mennesker samlet seg på Youngstorget i Oslo og andre torg over hele Norge for å synge denne sangen som en protest mot Breiviks ekstremistiske synspunkter, og som et standpunkt for enhet, kjærlighet og flerkultur.",
@@ -971,6 +979,8 @@
     "arrangement": ["solo"],
     "composer": "Elias Blix",
     "audio": false,
+    "spotify": true,
+    "spotifyUrl": "track/1ZVxmSKjMUNo3EA6EjY4cC?si=8bbf51a72f1b44bb",
     "description": [
       "«Barndomsminne fra Nordland» er en gripende sang skrevet av Elias Blix, som først ble publisert usignert i avisen «Den 17de Mai» i 1896. Sangen tar lytteren med på en nostalgisk reise gjennom landskapet og minnene fra Nordland. Den er ofte omtalt som Nord-Norges nasjonalsang på grunn av sin inngående skildring av det nordlige landskapet.",
       "Med linjer som ‘Aa eg veit meg eit land, langt der uppe mot nord,’ skaper sangen en sterk følelse av tilhørighet og kjærlighet til det norske landskapet, spesielt fjordene og fjellene. De melodiske linjene og poetiske bilder skaper en varm og sentimental atmosfære, og inviterer lytterne til å mimre om sine egne barndomsminner.",
@@ -1068,6 +1078,8 @@
     "arrangement": ["solo"],
     "composer": "Odd Nordstoga",
     "audio": false,
+    "spotify": true,
+    "spotifyUrl": "track/0bQLTkISNpcZ70TbGGisTA?si=93204582b0014291",
     "description": [
       "«Bestevenn» av Odd Nordstoga, utgitt i 2011, er en dyptgående sang som utforsker den trøstende tanken om vennskap, spesielt i krevende eller ensomme øyeblikk. Teksten skildrer en person som finner trøst i å vite at alle har en bestevenn når de føler seg redde eller alene. Sangen tar for seg temaet vennskap og samhold i utfordrende tider, og speiler den universelle følelsen av ensomhet og behovet for en støttende venn.",
       "Nordstoga bruker naturlige metaforer for å illustrere poengene sine. Bildet av et lys representerer håp og samhold, og tilbyr trøst i slike tider. Melodien og arrangementet forsterker sangens budskap og gjør den til et passende valg for en minnestund der fokus er på livets utfordringer, men også de gode øyeblikkene man deler med sine nærmeste.",
@@ -1117,6 +1129,8 @@
     "arrangement": ["solo", "duett"],
     "composer": "Erik Bye",
     "audio": false,
+    "spotify": true,
+    "spotifyUrl": "track/29jw3M4RNsWufvI3y5CtqN?si=c0df2810d0a84904",
     "description": [
       "«Blå salme» av Erik Bye, utgitt i november 1994 som en del av albumet «Langt nord i livet», er en gripende og dyp sang som tar for seg livets gang med sine oppturer og nedturer. Melodien, skapt av Henning Sommerro, forsterker sangens meditative og reflekterende atmosfære. Sangens tekst veksler mellom takknemlighet for de gode øyeblikkene i livet og en dypere forståelse av de mørkere sidene vi alle møter.",
       "Erik Bye bruker symboler som sankthansormer og treets rot for å formidle en følelse av tilhørighet og ro, noe som gjør sangen særlig relevant i en begravelsessammenheng. Sangens blanding av vemod og håp, sammen med dens meditative melodi og naturfokuserte lyrisk innhold, gir et sterkt emosjonelt bakteppe for å ære et liv som har gått bort.",
@@ -1734,6 +1748,8 @@
     "arrangement": ["solo", "duett", "fiolin"],
     "composer": "Consuelo Velázquez",
     "audio": false,
+    "spotify": true,
+    "spotifyUrl": "track/1XMXLOBQFueiXViqUSLzsB?si=c4bff4d221174381",
     "description": [
       "«Bésame Mucho» er en tidløs klassiker fra 1932, komponert av den meksikanske låtskriveren Consuelo Velázquez da hun var 16 år gammel. Til tross for at hun aldri hadde vært kysset på det tidspunktet, ettersom kyssing ble betraktet som en synd i hennes kultur, klarte Velázquez å skape en sang fylt med lidenskap og lengsel. Sangens tekstlinjer som 'Como si fuera esta noche la última vez' (Som om denne natten er den siste) uttrykker en dyp frykt for tap og separasjon. Dette gir sangen en universell appell.",
       "Musikalsk sett er «Bésame Mucho» både melodisk og stemningsfull, inspirert av pianostykket «Quejas, o la Maja y el Ruiseñor» fra 1911-suitten «Goyescas» av den spanske komponisten Enrique Granados. Dette forsterker tekstens følelsesladde budskap og tilfører en ekstra dimensjon av romantisk melankoli. Det er en sang som enkelt kan tilpasses ulike arrangementer, enten det er som en solo, en duett eller med en akkompagnerende fiolinist.",
@@ -1768,6 +1784,8 @@
     "arrangement": ["solo"],
     "composer": "Bob Dylan",
     "audio": false,
+    "spotify": true,
+    "spotifyUrl": "track/18GiV1BaXzPVYpp9rmOg0E?si=dc85a81b84f1449a",
     "description": [
       "«Blowin' in the Wind» er en folkesang skrevet av Bob Dylan, som har blitt et symbol på borgerrettighetsbevegelsen siden 1962. Sangen utforsker universelle temaer som frihet, forståelse, og fred, men også dykker dypere inn i konteksten av borgerrettighetsbevegelsen og Vietnamkrigen. Dette er spesielt fremtredende i låtens refreng, 'The answer is blowin' in the wind,' som belyser menneskelig passivitet overfor de harde realitetene i det 20. århundret, primært for svarte amerikanere.",
       "Musikalsk sett er sangen enkel, men dens budskap har en dyp resonans som har vokst over tid, spesielt da den ble framført av Peter, Paul, og Mary ved Lincoln-monumentet før Martin Luther King Jr.s 'I Have A Dream'-tale. Med sin melodi og tekst skaper «Blowin' in the Wind» en følelse av lengsel og håp.",
@@ -1815,6 +1833,8 @@
     "arrangement": ["solo"],
     "composer": "Al Lewis, Vincent Rose og Larry Stock",
     "audio": false,
+    "spotify": true,
+    "spotifyUrl": "track/6y7f2uXXJ2ys3Fu806vKSr?si=46f70f6a8d074e82",
     "description": [
       "«Blueberry Hill» er en tidløs melodi som ble første gang publisert i 1940, komponert av den italienske Vincent Rose, mens amerikanerne Al Lewis og Larry Stock skrev tekstene. Sangen skaper en nostalgisk atmosfære fylt med følelser av tap og kjærlighet. Den male et levende bilde av en fredelig ås hvor ekte kjærlighet og dyrebare minner ble skapt.",
       "Lyrikken forteller om et romantisk øyeblikk som ble forseglet i tid, og står som et evig minne om en tapt kjærlighet. Musikken er iøynefallende og teksten er dypt følelsesladet, som tar lytteren til et minneverdig sted der sangeren og deres kjære opplevde et lykkelig øyeblikk på sitt høydepunkt.",
@@ -1853,6 +1873,8 @@
     "arrangement": ["solo", "duett"],
     "composer": "Paul Simon",
     "audio": false,
+    "spotify": true,
+    "spotifyUrl": "track/6l8EbYRtQMgKOyc1gcDHF9?si=3c3c31c92a0f4069",
     "description": [
       "«Bridge over Troubled Water» av Paul Simon er mer enn bare en hjertevarmende ballade; den er et musikalsk løfte om støtte og trøst i vanskelige tider. Inspirert av linjen ‘I'll be your bridge over deep water if you trust in me’ fra gospelsangen «Mary Don't You Weep», komponerte Simon denne låten midt i en periode med politisk og raseuroligheter i USA i 1969.",
       "Teksten gir ikke bare løfter om støtte og omsorg, men tjener også som et ankerpunkt for veiledning og beskyttelse når mørket faller. Melodilinjen komplimenterer tekstens dype budskap og skaper en emosjonell atmosfære som kan røre ved selv den mest hardbarkede sjelen.",
@@ -1896,6 +1918,8 @@
     "arrangement": ["solo", "duett"],
     "composer": "Mark Knopfler",
     "audio": false,
+    "spotify": true,
+    "spotifyUrl": "track/3X18oehLpalGBzAH2irw4W?si=0c3521c28839494c",
     "description": [
       "«Brothers in Arms» av Mark Knopfler ble skrevet under Falklandskrigen i 1982 og er en melankolsk ballade som dypt utforsker temaene om kameratskap, savn og brorskap i krig. Sangen er akkompagnert av en el-gitar som forsterker den emosjonelle resonansen. Tekstene gir en grundig fremstilling av en soldats forhold til sine 'brødre i våpen', fra temaer som hjemlengsel til den brutale og nådeløse virkeligheten i krig.",
       "Sangen starter med en følelse av nostalgi, før den overgår til å beskrive krigens grusomheter. Til tross for dette, blir de dype vennskapsbåndene som dannes i tøffe tider understreket. Den fremhever den varige vennskapen selv i krigens skrekk og taler for fred som den eneste veien fremover. Den konkluderer med en universell melding om meningsløsheten i krig, som etterlater et evigvarende inntrykk.",
