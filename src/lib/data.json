@@ -264,6 +264,8 @@
     "arrangement": ["solo", "duett"],
     "composer": "Bill Withers",
     "audio": false,
+    "spotify": true,
+    "spotifyUrl": "track/1k1Bqnv2R0uJXQN4u6LKYt?si=3b6ae0cfcbdd4d04",
     "description": [
       "«Ain't No Sunshine» av den amerikanske artisten Bill Withers er en emosjonell sang som handler om dypt savn og ensomhet. Inspirert av 1962-filmen «Days of Wine and Roses», skrev Withers denne sangen i en tilstand av ettertenksom ensomhet, der han reflekterte over det flyktige i relasjoner og den varige påvirkningen av fravær.",
       "Sangen gir uttrykk for en tomhet som følger når en elsket forsvinner, selv om det bare er midlertidig. Med linjer som ‘Ain't no sunshine when she's gone, and this house just ain't no home’, formidler sangen en følelse av tap som mange kan relatere til. Det sjelfulle arrangementet skaper en gripende og sjelgripende atmosfære, som inviterer lyttere til å koble seg til den universelle opplevelsen av kjærlighet og sorg.",
@@ -314,6 +316,8 @@
     "arrangement": ["solo", "fiolin"],
     "composer": "Johann Sebastian Bach, Brandon Heath og Chad Robert Cates",
     "audio": false,
+    "spotify": true,
+    "spotifyUrl": "track/4XTQNNpMb3mboxbHrkj9Rp?si=c2d8eedecf5e4c53",
     "description": [
       "«Air» er et følelsesladet musikkstykke laget av Johann Sebastian Bach. Det er den andre delen av et av hans kjente orkesterstykker og ble skapt på tidlig 1730-tallet. I denne versjonen er den kombinert med moderne tekst fra «Love Never Fails», en sang skrevet av Brandon Heath og Chad Robert Cates i 2008.",
       "Dette fusjonerer budskapet om kjærlighetens udødelighet og styrke i en unik musikalsk opplevelse. Med linjer som ‘Love is the river that flows through, Love never fails you’, utforsker sangen kjærlighetens evne til å helbrede, beskytte og bevare.",
