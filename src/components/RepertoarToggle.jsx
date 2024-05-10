@@ -84,7 +84,7 @@ export function RepertoarToggle() {
           </div>
           {/* Spotify player */}
           <div className="mt-12">
-            <SpotifyPlayer spotifyUri="playlist/2l4snImcjo86c6jPSTIaEi?si=9f2c790f5c2d4ac8" />
+            <SpotifyPlayer spotifyUri="playlist/2l4snImcjo86c6jPSTIaEi?si=532a9645a131403d" />
           </div>
 
           {/* Filter controls */}
