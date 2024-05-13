@@ -5672,7 +5672,10 @@
     "title": "I Love You Because",
     "arrangement": ["solo"],
     "composer": "Leon Payne",
-    "audio": false,
+    "audio": true,
+    "live": true,
+    "audioUrl": "https://res.cloudinary.com/dt3k2apqd/video/upload/v1715614198/Sang%20i%20begravelse/Audio/I_love_you_because_uxskt4.wav",
+    "performers": ["Jan-Tore Saltnes"],
     "spotify": true,
     "spotifyUrl": "track/771mxqxRBBAWTzBUcTJP3A?si=415d1804e7a2435f",
     "description": [
