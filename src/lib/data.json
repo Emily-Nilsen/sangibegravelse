@@ -4310,7 +4310,10 @@
     "title": "Höstvisa",
     "arrangement": ["solo"],
     "composer": "Erna Tauro og Tove Jansson",
-    "audio": false,
+    "audio": true,
+    "live": true,
+    "audioUrl": "https://res.cloudinary.com/dt3k2apqd/video/upload/v1715616588/Sang%20i%20begravelse/Audio/Ho%CC%88stvisa_dyj8uo.wav",
+    "performers": ["Nils Georg Nilsen"],
     "spotify": true,
     "spotifyUrl": "track/6y4mbfcvGCNL86m3BzYRib?si=2d66b41e0bfe44cb",
     "description": [
