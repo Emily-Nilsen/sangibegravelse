@@ -4206,7 +4206,10 @@
     "title": "Himmelhøge sti",
     "arrangement": ["solo"],
     "composer": "Odd Erik Ognedal og Ingvar Hovland",
-    "audio": false,
+    "audio": true,
+    "live": true,
+    "audioUrl": "https://res.cloudinary.com/dt3k2apqd/video/upload/v1715613692/Sang%20i%20begravelse/Audio/Himmelh%C3%B8gesti_fxpumq.wav",
+    "performers": ["Espen Solsbak"],
     "spotify": true,
     "spotifyUrl": "track/0IrJ4zrcYt3Z8tr8iFhwUp?si=c7230738fd2c4b4c",
     "description": [
