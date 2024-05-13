@@ -165,7 +165,10 @@
     "title": "Adieu",
     "arrangement": ["solo", "duett"],
     "composer": "Anita Skorgan og Jahn Teigen",
-    "audio": false,
+    "audio": true,
+    "live": true,
+    "audioUrl": "https://res.cloudinary.com/dt3k2apqd/video/upload/v1715615554/Sang%20i%20begravelse/Audio/Adieu_zrklk0.wav",
+    "performers": ["Nils Georg Nilsen og Jan-Tore Saltnes"],
     "spotify": true,
     "spotifyUrl": "track/6uGtdQfKOmGUg0kFoStQ2I?si=667d0d0df9b84d5b",
     "description": [
