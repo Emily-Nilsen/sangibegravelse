@@ -94,6 +94,9 @@ const fellessanger = [
     tittel: 'Den dag kjem aldri',
     lyrics: `Aasmind O. Vinje (1866)`,
     melody: `Norsk folketone`,
+    audio: true,
+    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1715612869/Sang%20i%20begravelse/Audio/Den_dag_kjem_aldri_womlcw.wav`,
+    performers: ['Nils Georg Nilsen'],
     tekst: [
       'Den dag kjem aldri at eg deg gløymer,',
       'for um eg søver, eg um deg drøymer.',
@@ -242,7 +245,7 @@ const fellessanger = [
       'Skynda dig älskade, skynda att älska,',
       'dagarna mörkna minut för minut,',
       'tänd våra ljus, det är nära till natten,',
-      'snart är den blommande sommarn slut',
+      'snart är den blommande sommarn slut.',
       '',
       'Jag letar efter nånting som vi kanske glömde bort',
       'och som du kunde hjälpa mig att finna.',
@@ -256,7 +259,7 @@ const fellessanger = [
       'Skynda dig älskade, skynda att älska,',
       'dagarna mörkna minut för minut,',
       'tänd våra ljus, det är nära till natten,',
-      'snart är den blommande sommarn slut',
+      'snart är den blommande sommarn slut.',
     ],
   },
   {
@@ -300,6 +303,9 @@ const fellessanger = [
     tittel: 'Så skimrande var aldrig havet',
     lyrics: `Evert Taube`,
     melody: `Evert Taube`,
+    audio: true,
+    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1715765251/Sang%20i%20begravelse/Audio/Sa%CC%8A_skimmrende_var_aldri_havet_e4rhwk.wav`,
+    performers: ['Nils Georg Nilsen'],
     tekst: [
       'Så skimrande var aldrig havet',
       'Och stranden aldrig så befriande',
@@ -317,6 +323,9 @@ const fellessanger = [
     tittel: 'Til Ungdommen',
     lyrics: `Nordahl Grieg (1936)`,
     melody: `Otto Mortensen (1952)`,
+    audio: true,
+    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1715763111/Sang%20i%20begravelse/Audio/Til_ungdommen_jypsj8.wav`,
+    performers: ['Nils Georg Nilsen'],
     tekst: [
       'Kringsatt av fiender, gå inn i din tid!',
       'Under en blodig storm – vi deg til strid!',
@@ -348,6 +357,9 @@ const fellessanger = [
     tittel: 'Vem kan segla förutan vind',
     lyrics: `Ukjent`,
     melody: `Svensk folketone`,
+    audio: true,
+    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1715764888/Sang%20i%20begravelse/Audio/Vem_kan_segla_fmyhgm.wav`,
+    performers: ['Nils Georg Nilsen'],
     tekst: [
       'Vem kan segla förutan vind?',
       'Vem kan ro utan åror?',
