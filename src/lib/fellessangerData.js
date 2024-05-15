@@ -226,6 +226,9 @@ const fellessanger = [
     tittel: 'Höstvisa',
     lyrics: `Tove Jansson`,
     melody: `Erna Tauro`,
+    audio: true,
+    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1715616588/Sang%20i%20begravelse/Audio/Ho%CC%88stvisa_dyj8uo.wav`,
+    performers: ['Nils Georg Nilsen'],
     tekst: [
       'Vägen hem var mycket lång och ingen har jag mött,',
       'nu blir kvällarna kyliga och sena.',

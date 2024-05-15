@@ -1,6 +1,7 @@
 import { Disclosure } from '@headlessui/react';
 import { MinusIcon, PlusIcon } from '@heroicons/react/24/outline';
 import fellessanger from '../lib/fellessangerData';
+import { AudioPlayer } from './AudioPlayer';
 
 export function Fellessanger() {
   return (
@@ -29,7 +30,19 @@ export function Fellessanger() {
                         </span>
                       </Disclosure.Button>
                     </dt>
-                    <Disclosure.Panel as="dd" className="pr-12 mt-2">
+                    <Disclosure.Panel as="dd" className="pr-0 mt-2">
+                      {fellessang.audio ? (
+                        <>
+                          <div className="mt-6">
+                            <AudioPlayer
+                              audio={fellessang.audio}
+                              audioUrl={fellessang.audioUrl}
+                              title={fellessang.tittel}
+                              performers={fellessang.performers}
+                            />
+                          </div>
+                        </>
+                      ) : null}
                       {fellessang.lyrics ? (
                         <div className="mt-6 border-t border-gray-100">
                           <dl className="divide-y divide-gray-100">
