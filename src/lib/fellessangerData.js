@@ -266,6 +266,9 @@ const fellessanger = [
     tittel: 'Minibarnas sovesang',
     lyrics: ``,
     melody: ``,
+    audio: true,
+    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1716364592/Sang%20i%20begravelse/Audio/Minibarnas_sovesang_b5xjlm.wav`,
+    performers: ['Nils Georg Nilsen'],
     tekst: [
       'Sove, du skal sove',
       'Mens du hviler, skal jeg våke',
