@@ -18,7 +18,7 @@ export function Oppdatering() {
             </p>
             <p className="mt-3 text-sm md:ml-6 md:mt-0">
               <Link
-                href="/repertoar"
+                href="/"
                 className="font-medium transition-all duration-150 ease-in-out text-amber-700 whitespace-nowrap hover:text-amber-600"
               >
                 Se vår repertoarliste

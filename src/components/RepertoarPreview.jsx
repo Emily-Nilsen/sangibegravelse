@@ -121,7 +121,7 @@ export function RepertoarPreview() {
             >
               <p className="mt-6">
                 <Link
-                  href="/repertoar"
+                  href="/"
                   className="text-sm font-semibold leading-6 transition duration-150 ease-in-out text-slate-600 hover:text-slate-800"
                 >
                   Se hele repertoaret <span aria-hidden="true">→</span>

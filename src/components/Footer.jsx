@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const navigation = {
   sanger: [
-    { name: 'Repertoar', href: '/repertoar' },
+    { name: 'Repertoar', href: '/' },
     { name: 'Salmer og felles sanger', href: '/salmer' },
     { name: 'Forslag til program', href: '/program-forslag' },
   ],

@@ -52,7 +52,7 @@ export function HeroJanTore() {
 
             <div className="flex items-center justify-center mt-10 sm:justify-start gap-x-6">
               <Link
-                href="/repertoar"
+                href="/"
                 className="rounded-md bg-white/80 px-3.5 py-2.5 text-sm font-semibold text-slate-600 shadow-sm hover:bg-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-slate-400 transition-all duration-150 ease-in-out hover:text-slate-900"
               >
                 <span className="hidden sm:block">Se hele repertoaret</span>
