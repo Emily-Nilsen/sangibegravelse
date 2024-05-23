@@ -7861,5 +7861,37 @@
     ],
     "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/When_the_Saints_Go_Marching_In_copy_h63zdm.webp",
     "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/When_the_Saints_Go_Marching_In_MOBILE_f7xqmn.webp"
+  },
+  {
+    "objectID": "crazy1234",
+    "category": "Pop",
+    "language": ["engelsk"],
+    "title": "Crazy",
+    "arrangement": ["solo"],
+    "composer": "Willie Nelson",
+    "audio": true,
+    "live": true,
+    "audioUrl": "https://res.cloudinary.com/dt3k2apqd/video/upload/v1716474062/Sang%20i%20begravelse/Audio/Crazy_f2awhx.wav",
+    "performers": ["Nils Georg Nilsen"],
+    "description": [""],
+    "lyrics": [
+      "I'm crazy, crazy for feeling so lonely",
+      "I'm crazy, crazy for feeling so blue",
+      "",
+      "I knew that you'd love me as long as you wanted",
+      "And then someday, you'd leave me for somebody new",
+      "",
+      "Worry, why do I let myself worry?",
+      "Wondering, 'What in the world did I do?'",
+      "",
+      "I'm crazy for thinking that my love could hold you",
+      "I'm crazy for trying and crazy for crying",
+      "And I'm crazy for loving you",
+      "I'm crazy for thinking that my love could hold you",
+      "I'm crazy for trying and crazy for crying",
+      "And I'm crazy for loving you"
+    ],
+    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Crazy_rphsl8.webp",
+    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Crazy_Mobile_gaifek.webp"
   }
 ]

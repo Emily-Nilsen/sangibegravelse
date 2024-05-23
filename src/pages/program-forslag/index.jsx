@@ -12,7 +12,7 @@ export default function ProgramForslag() {
   const structuredData = {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
-    url: 'https://sangibegravelse.no/forslag-program',
+    url: 'https://sangibegravelse.no/program-forslag',
     name: 'Sang i begravelse',
     image:
       'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Sang_i_begravelse_jfysbv.webp',

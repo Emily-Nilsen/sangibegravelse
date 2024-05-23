@@ -11,7 +11,7 @@ export default function Salmer() {
   const structuredData = {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
-    url: 'https://sangibegravelse.no/',
+    url: 'https://sangibegravelse.no/salmer',
     name: 'Sang i begravelse',
     image:
       'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Sang_i_begravelse_jfysbv.webp',
