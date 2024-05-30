@@ -491,6 +491,9 @@ const hymnes = [
     lyrics: 'A.H.H. Von Fallersleben (1937)',
     translation: 'Peter Hognestad (1904), Ella Holm Bull (1980)',
     melody: 'J. Chr. H. Ring (1927)',
+    audio: true,
+    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1717068702/Sang%20i%20begravelse/Audio/Fager_kveldssol_qne66s.wav`,
+    performers: ['Nils Georg Nilsen'],
     tekst: [
       'Fager kveldsol smiler over heimen ned,',
       'jord og himmel kviler stilt i heilag fred.',
