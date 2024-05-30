@@ -307,6 +307,9 @@ const hymnes = [
     lyrics: 'N.F.S. Grundsvig (1810)',
     translation: 'Anders Hovden (1900)',
     melody: 'Jacob Gerhard Meidell (1840)',
+    audio: true,
+    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1717067534/Sang%20i%20begravelse/Audio/Deilig_er_den_himmel_bla%CC%8A_gxxweg.wav`,
+    performers: ['Nils Georg Nilsen'],
     tekst: [
       'Deilig er den himmel blå,',
       'lyst det er å se derpå,',
@@ -331,6 +334,9 @@ const hymnes = [
     tittel: 'Den fyrste song eg høyra fek',
     lyrics: 'Per Sivle (1877)',
     melody: 'Lars Søraas (1909)',
+    audio: true,
+    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1717067687/Sang%20i%20begravelse/Audio/Den_fyrste_sang_pjr92s.wav`,
+    performers: ['Nils Georg Nilsen'],
     tekst: [
       'Den fyrste song eg høyra fekk',
       'Var mor sin song ved vogga',

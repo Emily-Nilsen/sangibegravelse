@@ -1412,7 +1412,11 @@
     "title": "Den fyrste song",
     "arrangement": ["solo"],
     "composer": "Lars Søraas og Per Sivle",
-    "audio": false,
+    "audio": true,
+    "live": true,
+    "audioUrl": "https://res.cloudinary.com/dt3k2apqd/video/upload/v1717067687/Sang%20i%20begravelse/Audio/Den_fyrste_sang_pjr92s.wav",
+    "performers": ["Nils Georg Nilsen"],
+
     "spotify": true,
     "spotifyUrl": "track/7ryA0RCsxFm5Hzty2IMCuy?si=c6ccf2d92eb745da",
     "description": [
