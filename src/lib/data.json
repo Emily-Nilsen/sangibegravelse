@@ -2504,7 +2504,11 @@
     "title": "Ein fin liten blome",
     "arrangement": ["solo"],
     "composer": "Bjørn Eidsvåg",
-    "audio": false,
+    "audio": true,
+    "live": true,
+    "audioUrl": "https://res.cloudinary.com/dt3k2apqd/video/upload/v1717068407/Sang%20i%20begravelse/Audio/Ein_fin_liten_blome_nrilrh.wav",
+    "performers": ["Nils Georg Nilsen"],
+
     "spotify": true,
     "spotifyUrl": "track/2uFyaaNlL4L8jz2o2PWvnD?si=3499dc9a325a4974",
     "description": [

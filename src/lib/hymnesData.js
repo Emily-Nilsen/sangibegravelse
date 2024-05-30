@@ -456,6 +456,9 @@ const hymnes = [
     lyrics: 'Johan Alfred Blomberg (1889)',
     translation: 'Andres Hovden (1927)',
     melody: 'Bjørn Eidsvåg (1969)',
+    audio: true,
+    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1717068407/Sang%20i%20begravelse/Audio/Ein_fin_liten_blome_nrilrh.wav`,
+    performers: ['Nils Georg Nilsen'],
     tekst: [
       'Ein fin liten blome i skogen eg ser,',
       'I granskogen diger og dryg,',
