@@ -387,6 +387,9 @@ const hymnes = [
     tittel: 'Det er makt i de foldede hender (Salme 631)',
     lyrics: 'Trygve Bjerkrheim (1955)',
     melody: 'Øivind Tønnesen (1962)',
+    audio: true,
+    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1717068139/Sang%20i%20begravelse/Audio/Det_er_makt_fjoyzs.wav`,
+    performers: ['Nils Georg Nilsen'],
     tekst: [
       'Det er makt i de foldede hender',
       'I seg selv er de svake og små',
