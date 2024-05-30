@@ -4,7 +4,7 @@ const hymnes = [
     lyrics: 'Christian Richardt 1867',
     melody: 'C. E. F. Weyse 1938',
     audio: true,
-    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1717063089/Sang%20i%20begravelse/Audio/Alltid_freidig_dpwe3s.wav`,
+    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1717063968/Sang%20i%20begravelse/Audio/Alltid_freidig_na%CC%8Ar_du_ga%CC%8Ar_iycsdv.wav`,
     performers: ['Nils Georg Nilsen'],
     tekst: [
       'Alltid freidig når du går',
