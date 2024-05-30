@@ -276,6 +276,9 @@ const hymnes = [
     tittel: 'Deilig er jorden (Salme 48)',
     lyrics: 'B.S. Ingemann (1850)',
     melody: 'Breslau (1842)',
+    audio: true,
+    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1717067333/Sang%20i%20begravelse/Audio/Deilig_er_jorden_rotknr.wav`,
+    performers: ['Nils Georg Nilsen'],
     tekst: [
       'Deilig er jorden,',
       'prektig er Guds himmel,',
