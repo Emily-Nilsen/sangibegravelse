@@ -492,7 +492,10 @@
     "title": "Amazing Grace",
     "arrangement": ["solo"],
     "composer": "John Newton",
-    "audio": false,
+    "audio": true,
+    "live": true,
+    "audioUrl": "https://res.cloudinary.com/dt3k2apqd/video/upload/v1717064270/Sang%20i%20begravelse/Audio/Amazing_Grace_wsayij.wav",
+    "performers": ["Nils Georg Nilsen"],
     "spotify": true,
     "spotifyUrl": "track/3RysyP1OZ3awZlHX7mxURa?si=9e898bd3006b487b",
     "description": [
@@ -704,7 +707,10 @@
     "title": "An Irish Blessing",
     "arrangement": ["solo", "duett", "fiolin"],
     "composer": "Tradisjonell (ukjent forfatter)",
-    "audio": false,
+    "audio": true,
+    "live": true,
+    "audioUrl": "https://res.cloudinary.com/dt3k2apqd/video/upload/v1717064530/Sang%20i%20begravelse/Audio/An_Irish_Blessing_txz5s5.wav",
+    "performers": ["Nils Georg Nilsen"],
     "spotify": true,
     "spotifyUrl": "track/0SgWkjFKWJ599J7BmsbrT7?si=a633ea6366304bcc",
     "description": [
@@ -1137,7 +1143,11 @@
     "title": "Blå salme",
     "arrangement": ["solo", "duett"],
     "composer": "Erik Bye",
-    "audio": false,
+    "audio": true,
+    "live": true,
+    "audioUrl": "https://res.cloudinary.com/dt3k2apqd/video/upload/v1717066465/Sang%20i%20begravelse/Audio/Bla%CC%8A_salme_rpdz7v.wav",
+    "performers": ["Nils Georg Nilsen"],
+
     "spotify": true,
     "spotifyUrl": "track/29jw3M4RNsWufvI3y5CtqN?si=c0df2810d0a84904",
     "description": [

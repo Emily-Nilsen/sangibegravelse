@@ -3,6 +3,9 @@ const hymnes = [
     tittel: 'Alltid freidig når du går (Salme 415)',
     lyrics: 'Christian Richardt 1867',
     melody: 'C. E. F. Weyse 1938',
+    audio: true,
+    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1717063089/Sang%20i%20begravelse/Audio/Alltid_freidig_dpwe3s.wav`,
+    performers: ['Nils Georg Nilsen'],
     tekst: [
       'Alltid freidig når du går',
       'veier Gud tør kjenne,',
@@ -24,6 +27,9 @@ const hymnes = [
     tittel: 'Alt ble med ett stille (Salme 875)',
     lyrics: 'Svein Ellingsen (1998)',
     melody: 'Egil Hovland (1998)',
+    audio: true,
+    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1717064119/Sang%20i%20begravelse/Audio/Alt_ble_med_ett_sa%CC%8A_stille_jhranh.wav`,
+    performers: ['Nils Georg Nilsen'],
     tekst: [
       'Alt ble med ett så stille,',
       'livet er helt forandret.',
@@ -56,6 +62,9 @@ const hymnes = [
     lyrics: 'John Newton (1779, 1790)',
     translation: 'Trygve Bjerkrheim (1966)',
     melody: 'Columbian Harmony (1829)',
+    audio: true,
+    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1717064270/Sang%20i%20begravelse/Audio/Amazing_Grace_wsayij.wav`,
+    performers: ['Nils Georg Nilsen'],
     tekst: [
       'Amazing grace (how sweet the sound)',
       'that saved a wretch like me!',
@@ -77,6 +86,9 @@ const hymnes = [
     tittel: 'An Irish Blessing',
     lyrics: 'Ukjent',
     melody: 'Irsk folketone',
+    audio: true,
+    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1717064530/Sang%20i%20begravelse/Audio/An_Irish_Blessing_txz5s5.wav`,
+    performers: ['Nils Georg Nilsen'],
     tekst: [
       'May the road rise to meet you.',
       'May the wind be always at your back.',
@@ -103,6 +115,9 @@ const hymnes = [
     tittel: 'Blott en dag (Salme 489)',
     lyrics: 'Lina Sandell (1865, 1872)',
     melody: 'Oscar Ahnfelt (1872)',
+    audio: true,
+    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1717066164/Sang%20i%20begravelse/Audio/Blott_en_dag_cku5sf.wav`,
+    performers: ['Nils Georg Nilsen'],
     tekst: [
       'Blott en dag ett ögonblick i sänder',
       'Vilken tröst vad än som kommer på',
@@ -136,6 +151,9 @@ const hymnes = [
     tittel: 'Blå salme (Salme 832)',
     lyrics: 'Erik Bye (1994)',
     melody: 'Henning Sommerro (1994)',
+    audio: true,
+    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1717066465/Sang%20i%20begravelse/Audio/Bla%CC%8A_salme_rpdz7v.wav`,
+    performers: ['Nils Georg Nilsen'],
     tekst: [
       'Jeg synger meg en blå, blå salme',
       'Når dagen svinger hatten til farvel',
