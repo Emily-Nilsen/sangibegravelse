@@ -106,7 +106,7 @@ export function OmOss() {
                 type: 'fade',
               }}
             >
-              Takk for at du besøker "Sang i begravelse".
+              Takk for at du besøker “Sang i begravelse”.
             </motion.p>
 
             <motion.div
