@@ -363,6 +363,9 @@ const hymnes = [
     tittel: 'Den prektig kledde sommerfugl (Salme 292)',
     lyrics: 'Henrik Wergeland (1840)',
     melody: 'Svensk folketone',
+    audio: true,
+    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1717067959/Sang%20i%20begravelse/Audio/Den_prektigkledde_sommerfugl_gqlefv.wav`,
+    performers: ['Nils Georg Nilsen'],
     tekst: [
       'Den prektigkledde sommerfugl',
       'er fløyet fra Guds hånd.',
