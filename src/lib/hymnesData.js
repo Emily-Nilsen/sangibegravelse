@@ -189,6 +189,9 @@ const hymnes = [
     tittel: 'Bred Dina vida vingar (Salme 819)',
     lyrics: 'Lina Sandell (1865)',
     melody: 'Svensk folketone fra Skåne',
+    audio: true,
+    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1717066743/Sang%20i%20begravelse/Audio/Bred_dine_vida_vingar_bwdo2d.wav`,
+    performers: ['Nils Georg Nilsen'],
     tekst: [
       'Bred dina vida vingar, o Jesus, över mig',
       'Och låt mig stilla vila i ve och väl hos dig',
