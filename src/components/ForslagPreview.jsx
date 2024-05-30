@@ -145,21 +145,21 @@ export function ForslagPreview() {
               href={`/program-forslag/${suggestion.id}`}
               className="group"
             >
-              <div className="z-0 relative w-full rounded-lg bg-[#f7f8f2] hover:bg-[#f7f8f2]/50 transition-all hover:cursor-pointer border border-transparent hover:border-[#f7f8f2] text-center ">
+              <div className="z-0 relative w-full rounded-lg bg-[#f7f8f2] hover:bg-[#f7f8f2]/50 transition-all hover:cursor-pointer  text-center group">
                 <div className="absolute inset-0 z-0 overflow-hidden rounded-lg">
                   <Image
                     src={suggestion.image}
                     alt="Hvite roser"
                     width={3000}
                     height={1681}
-                    className="absolute inset-0 object-cover object-center w-full h-full sm:block -z-10 opacity-30"
+                    className="absolute inset-0 object-cover object-center w-full h-full transition-all border border-transparent rounded-lg sm:block -z-10 opacity-30 group-hover:opacity-20 group-hover:border-[#b4b297]"
                     priority
                     unoptimized
                   />
                 </div>
                 <ul
                   role="list"
-                  className="relative z-10 grid grid-cols-1 p-6 py-12 space-y-2 text-slate-900 sm:grid-cols-2"
+                  className="relative z-10 grid grid-cols-1 p-6 py-12 space-y-2 text-slate-900 hover:text-slate-950 sm:grid-cols-2 "
                 >
                   <div className="w-full col-span-1 sm:col-span-2">
                     <h1 className="pb-6 text-2xl italic font-bold sm:text-3xl">
