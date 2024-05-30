@@ -209,6 +209,9 @@ const hymnes = [
     lyrics: 'Edmond L. Budry (1885)',
     translation: 'Arne Fjellberg (1947)',
     melody: 'G. Fr. Händel (1746)',
+    audio: true,
+    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1717067030/Sang%20i%20begravelse/Audio/Deg_v%C3%A6re_%C3%A6re_hiwu9o.wav`,
+    performers: ['Nils Georg Nilsen'],
     tekst: [
       'Deg være ære, Herre over dødens makt!',
       'Evig skal døden være Kristus underlagt.',
