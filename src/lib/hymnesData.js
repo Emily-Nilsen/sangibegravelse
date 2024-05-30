@@ -513,6 +513,9 @@ const hymnes = [
     lyrics: 'Wendy Carter (1971)',
     translation: 'Gregers Lunch (1973)',
     melody: 'Wendy Carter (1971)',
+    audio: true,
+    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1717068841/Sang%20i%20begravelse/Audio/Fall_til_ro_olsijw.wav`,
+    performers: ['Nils Georg Nilsen'],
     tekst: [
       'Refreng:',
       'Fall til ro, og kjenn at jeg er Herre.',

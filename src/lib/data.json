@@ -3607,7 +3607,11 @@
     "title": "Fall til ro",
     "arrangement": ["solo"],
     "composer": "Wendy Carter Fremin og Gregers Lundh",
-    "audio": false,
+    "audio": true,
+    "live": true,
+    "audioUrl": "https://res.cloudinary.com/dt3k2apqd/video/upload/v1717068841/Sang%20i%20begravelse/Audio/Fall_til_ro_olsijw.wav",
+    "performers": ["Nils Georg Nilsen"],
+
     "spotify": true,
     "spotifyUrl": "track/3ClbrGFgLeNCV7nDbnLjmu?si=66cc7f4cb06e47be",
     "description": [
