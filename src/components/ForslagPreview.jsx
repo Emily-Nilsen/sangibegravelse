@@ -10,7 +10,7 @@ export const suggestions = [
     name: 'Nordiske sanger',
     bg_colour: '#e4772d',
     image:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Home_Hero_mobile_syywxf.webp',
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/testimonials/flower_card_1_copy_kvxqlx.webp',
     solo_1: 'Jeg glemmer deg aldri',
     solo_1_href:
       '/repertoar/jeg-glemmer-deg-aldri-av-aslag-haugen-og-arne-moslatten',
@@ -31,7 +31,7 @@ export const suggestions = [
     name: 'Klassisk miks',
     bg_colour: '#e4772d',
     image:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Salmer_ylykay.webp',
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/testimonials/flower_card_2_copy_ybc6im.webp',
     solo_1: 'Ave Maria (Schubert)',
     solo_1_href: '/repertoar/ave-maria-av-franz-schubert',
     salme_1: 'Den fyrste song',
@@ -50,7 +50,7 @@ export const suggestions = [
     name: 'Ikke religiøse tekster',
     bg_colour: '#e4772d',
     image:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Salmer_ylykay.webp',
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/testimonials/flower_card_13_copy_z3ltzi.webp',
     solo_1: 'God morgen min kjære',
     solo_1_href: '/repertoar/god-morgen-min-kjaere-av-benny-borg',
     fellessang_1: 'Din tanke er fri',
@@ -73,7 +73,7 @@ export const suggestions = [
     name: 'Pop miks',
     bg_colour: '#e4772d',
     image:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Salmer_ylykay.webp',
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/testimonials/flower_card_6_copy_e6wibj.webp',
     solo_1: 'Make you feel my love / Fordi jeg elsker deg (solo/duett)',
     solo_1_href:
       '/repertoar/fordi-jeg-elsker-deg-av-bob-dyllan-og-bjarte-hjelmeland',
@@ -94,7 +94,7 @@ export const suggestions = [
     name: 'Jul og vinter',
     bg_colour: '#e4772d',
     image:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Salmer_ylykay.webp',
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/testimonials/flower_card_11_copy_tfc18v.webp',
     solo_1: 'Nordnorsk julesalme',
     solo_1_href: '#',
     salme_1: 'Det hev ei rose sprunge',
@@ -113,7 +113,7 @@ export const suggestions = [
     name: 'Klassisk og opera',
     bg_colour: '#e4772d',
     image:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Salmer_ylykay.webp',
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/testimonials/flower_card_4_copy_u0qaxo.webp',
     solo_1: 'O mio babbino caro (sopran arie/dame)',
     solo_1_href: '#',
     salme_1: 'O bli hos meg',
@@ -138,97 +138,117 @@ export function ForslagPreview() {
           Forslag til program
         </h2>
 
-        <div className="grid grid-cols-1 gap-x-6 gap-y-16 sm:grid-cols-2 2xl:grid-cols-3 sm:gap-x-16 2xl:gap-x-8">
+        <div className="grid grid-cols-1 gap-x-6 gap-y-16 2xl:grid-cols-2 sm:gap-x-16 2xl:gap-x-8">
           {suggestions.map((suggestion) => (
             <Link
               key={suggestion.id}
               href={`/program-forslag/${suggestion.id}`}
               className="group"
             >
-              <div className="w-full rounded-lg bg-[#f7f8f2] hover:bg-[#f7f8f2]/50 transition-all hover:cursor-pointer border border-transparent hover:border-[#f7f8f2] text-center">
+              <div className="z-0 relative w-full rounded-lg bg-[#f7f8f2] hover:bg-[#f7f8f2]/50 transition-all hover:cursor-pointer border border-transparent hover:border-[#f7f8f2] text-center ">
+                <div className="absolute inset-0 z-0 overflow-hidden rounded-lg">
+                  <Image
+                    src={suggestion.image}
+                    alt="Hvite roser"
+                    width={3000}
+                    height={1681}
+                    className="absolute inset-0 object-cover object-center w-full h-full sm:block -z-10 opacity-30"
+                    priority
+                    unoptimized
+                  />
+                </div>
                 <ul
                   role="list"
-                  className="p-6 py-12 space-y-2 divide-y text-slate-900 divide-gray-200/0"
+                  className="relative z-10 grid grid-cols-1 p-6 py-12 space-y-2 text-slate-900 sm:grid-cols-2"
                 >
-                  <h1 className="pb-6 text-2xl italic font-bold sm:text-3xl">
-                    {suggestion.name}
-                  </h1>
-                  <h1 className="text-xl text-slate-700">Inngangsmusikk</h1>
-                  <LineSeparator className="py-5 w-20 fill-[#b4b297] mx-auto" />
-                  {/* <p className="text-slate-900/50">–</p> */}
+                  <div className="w-full col-span-1 sm:col-span-2">
+                    <h1 className="pb-6 text-2xl italic font-bold sm:text-3xl">
+                      {suggestion.name}
+                    </h1>
+                  </div>
+                  <div className="w-full col-span-1">
+                    <h1 className="text-xl text-slate-700">Inngangsmusikk</h1>
+                    <LineSeparator className="py-5 w-20 fill-[#b4b297] mx-auto" />
+                    {/* <p className="text-slate-900/50">–</p> */}
 
-                  <h1 className="text-xl text-slate-700">Solo 1</h1>
-                  <p className="font-normal">{suggestion.solo_1}</p>
-                  <LineSeparator className="py-5 w-20 fill-[#b4b297] mx-auto" />
-                  {/* <p className="text-slate-900/50">–</p> */}
+                    <h1 className="text-xl text-slate-700">Solo 1</h1>
+                    <p className="font-normal">{suggestion.solo_1}</p>
+                    <LineSeparator className="py-5 w-20 fill-[#b4b297] mx-auto" />
+                    {/* <p className="text-slate-900/50">–</p> */}
 
-                  {suggestion.salme_1 && (
-                    <>
-                      <h1 className="text-xl text-slate-700">Salme 1</h1>
-                      <p className="">{suggestion.salme_1}</p>
-                      <LineSeparator className="py-5 w-20 fill-[#b4b297] mx-auto" />
-                    </>
-                  )}
+                    {suggestion.salme_1 && (
+                      <>
+                        <h1 className="text-xl text-slate-700">Salme 1</h1>
+                        <p className="">{suggestion.salme_1}</p>
+                        <LineSeparator className="py-5 w-20 fill-[#b4b297] mx-auto" />
+                      </>
+                    )}
 
-                  {suggestion.fellessang_1 && (
-                    <>
-                      <h1 className="text-xl text-slate-700">Fellessang</h1>
-                      <p className="">{suggestion.fellessang_1}</p>
-                      <LineSeparator className="py-5 w-20 fill-[#b4b297] mx-auto" />
-                    </>
-                  )}
-                  <h1 className="text-xl text-slate-700">Minneord</h1>
-                  <LineSeparator className="py-5 w-20 fill-[#b4b297] mx-auto" />
-                  {suggestion.solo_2 && (
-                    <>
-                      <h1 className="text-xl text-slate-700">Solo 2</h1>
-                      <p className="">{suggestion.solo_2}</p>
-                      <LineSeparator className="py-5 w-20 fill-[#b4b297] mx-auto" />
-                    </>
-                  )}
-                  {suggestion.fiolinsolo && (
-                    <>
-                      <h1 className="text-xl text-slate-700">Fiolinsolo</h1>
-                      <p className="">{suggestion.fiolinsolo}</p>
-                      <LineSeparator className="py-5 w-20 fill-[#b4b297] mx-auto" />
-                    </>
-                  )}
-                  {suggestion.salme_2 && (
-                    <>
-                      <h1 className="text-xl text-slate-700">Salme 2</h1>
-                      <p className="">{suggestion.salme_2}</p>
-                      <LineSeparator className="py-5 w-20 fill-[#b4b297] mx-auto" />
-                    </>
-                  )}
-                  {suggestion.salme_3 && (
-                    <>
-                      <h1 className="text-xl text-slate-700">Salme 3</h1>
-                      <p className="">{suggestion.salme_3}</p>
-                      <LineSeparator className="py-5 w-20 fill-[#b4b297] mx-auto" />
-                    </>
-                  )}
-                  {suggestion.solo_3 && (
-                    <>
-                      <h1 className="text-xl text-slate-700">Solo 3</h1>
-                      <p className="">{suggestion.solo_3}</p>
-                      <LineSeparator className="py-5 w-20 fill-[#b4b297] mx-auto" />
-                    </>
-                  )}
-                  {suggestion.fellessang_2 && (
-                    <>
-                      <h1 className="text-xl text-slate-700">Fellessang</h1>
-                      <p className="">{suggestion.fellessang_2}</p>
-                      <LineSeparator className="py-5 w-20 fill-[#b4b297] mx-auto" />
-                    </>
-                  )}
-                  {suggestion.solo_4 && (
-                    <>
-                      <h1 className="text-xl text-slate-700">Solo 4</h1>
-                      <p className="">{suggestion.solo_4}</p>
-                      <LineSeparator className="py-5 w-20 fill-[#b4b297] mx-auto" />
-                    </>
-                  )}
-                  <h1 className="pb-3 text-xl text-slate-700">Utgangsmusikk</h1>
+                    {suggestion.fellessang_1 && (
+                      <>
+                        <h1 className="text-xl text-slate-700">Fellessang</h1>
+                        <p className="">{suggestion.fellessang_1}</p>
+                        <LineSeparator className="py-5 w-20 fill-[#b4b297] mx-auto" />
+                      </>
+                    )}
+                    <h1 className="text-xl text-slate-700">Minneord</h1>
+                    <LineSeparator className="py-5 w-20 fill-[#b4b297] mx-auto" />
+
+                    {suggestion.solo_2 && (
+                      <>
+                        <h1 className="text-xl text-slate-700">Solo 2</h1>
+                        <p className="">{suggestion.solo_2}</p>
+                        <LineSeparator className="py-5 w-20 fill-[#b4b297] sm:fill-transparent mx-auto" />
+                      </>
+                    )}
+                  </div>
+                  <div className="h-full sm:border-l sm:border-[#b4b297]/20">
+                    {suggestion.fiolinsolo && (
+                      <>
+                        <h1 className="text-xl text-slate-700">Fiolinsolo</h1>
+                        <p className="">{suggestion.fiolinsolo}</p>
+                        <LineSeparator className="py-5 w-20 fill-[#b4b297] mx-auto" />
+                      </>
+                    )}
+                    {suggestion.salme_2 && (
+                      <>
+                        <h1 className="text-xl text-slate-700">Salme 2</h1>
+                        <p className="">{suggestion.salme_2}</p>
+                        <LineSeparator className="py-5 w-20 fill-[#b4b297] mx-auto" />
+                      </>
+                    )}
+                    {suggestion.salme_3 && (
+                      <>
+                        <h1 className="text-xl text-slate-700">Salme 3</h1>
+                        <p className="">{suggestion.salme_3}</p>
+                        <LineSeparator className="py-5 w-20 fill-[#b4b297] mx-auto" />
+                      </>
+                    )}
+                    {suggestion.solo_3 && (
+                      <>
+                        <h1 className="text-xl text-slate-700">Solo 3</h1>
+                        <p className="">{suggestion.solo_3}</p>
+                        <LineSeparator className="py-5 w-20 fill-[#b4b297] mx-auto" />
+                      </>
+                    )}
+                    {suggestion.fellessang_2 && (
+                      <>
+                        <h1 className="text-xl text-slate-700">Fellessang</h1>
+                        <p className="">{suggestion.fellessang_2}</p>
+                        <LineSeparator className="py-5 w-20 fill-[#b4b297] mx-auto" />
+                      </>
+                    )}
+                    {suggestion.solo_4 && (
+                      <>
+                        <h1 className="text-xl text-slate-700">Solo 4</h1>
+                        <p className="">{suggestion.solo_4}</p>
+                        <LineSeparator className="py-5 w-20 fill-[#b4b297] mx-auto" />
+                      </>
+                    )}
+                    <h1 className="pb-3 text-xl text-slate-700">
+                      Utgangsmusikk
+                    </h1>
+                  </div>
                 </ul>
               </div>
             </Link>
