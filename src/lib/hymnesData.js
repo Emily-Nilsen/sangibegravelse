@@ -430,6 +430,9 @@ const hymnes = [
     lyrics: 'Tysk (1587), v3 Friedrich Layriz (1844)',
     translation: 'Peter Hognestad (1919, 1921)',
     melody: '1400-t, Köln (1599), Michael Praetorius (1609)',
+    audio: true,
+    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1717068291/Sang%20i%20begravelse/Audio/Det_heiv_ei_rosa_o261bo.wav`,
+    performers: ['Nils Georg Nilsen'],
     tekst: [
       'Det hev ei rose sprunge',
       'Ut av ei rot så grann',
