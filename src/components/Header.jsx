@@ -66,7 +66,7 @@ export function Header({ textColour }) {
           />
         )}
         {/* ...existing code */}
-        <div className="hidden lg:flex lg:gap-x-12">
+        <div className="hidden lg:flex lg:gap-x-7">
           {navigation.map((item) => (
             <Link
               key={item.name}

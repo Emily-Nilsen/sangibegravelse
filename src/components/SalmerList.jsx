@@ -14,10 +14,10 @@ export function SalmerList() {
 
   return (
     <div className="bg-white">
-      <div className="px-6 pt-16 pb-24 mx-auto max-w-7xl sm:pb-32 lg:px-8 lg:pb-40 lg:pt-28">
+      <div className="px-6 pt-16 pb-12 mx-auto max-w-7xl sm:pb-16 lg:px-8 lg:pt-28">
         <div className="max-w-4xl mx-auto divide-y divide-gray-900/10">
           <h2 className="text-2xl font-bold leading-10 tracking-tight text-gray-900">
-            Fellessanger
+            Salmer
           </h2>
           <dl className="mt-10 space-y-6 divide-y divide-gray-900/10">
             {hymnes.map((salme, index) => (
