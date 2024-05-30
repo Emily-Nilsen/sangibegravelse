@@ -242,6 +242,9 @@ const hymnes = [
       'Irsk fra 700-t, til engelsk Mary Byrne (1905) og Eleanor Hull (1912)',
     translation: 'Arve Brunvoll (1978)',
     melody: 'Irsk folketone',
+    audio: true,
+    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1717067192/Sang%20i%20begravelse/Audio/Deg_a%CC%8A_fa%CC%8A_skode_oqzlcw.wav`,
+    performers: ['Nils Georg Nilsen'],
     tekst: [
       'Deg å få skode er sæla å nå,',
       'Gud, ver det syn som mitt hjarta vil sjå;',
