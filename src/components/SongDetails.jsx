@@ -1,56 +1,14 @@
 import React from 'react';
-import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { motion } from 'framer-motion';
-import { Disclosure } from '@headlessui/react';
-import { MinusIcon, PlusIcon } from '@heroicons/react/24/outline';
 import { Expandable } from '@/components/Expandable';
 import { getPerformerLink } from '../../utilities/getPerformerLink';
-import { CustomAudioPlayer } from './CustomAudioPlayer';
 import { AudioPlayer } from './AudioPlayer';
 import { SpotifyPlayer } from './SpotifyPlayer';
 import { generateSlug } from '../utils/generateSlug'; // Import generateSlug
 
-export function SongDetails({ isExpanded, expandedSongs, sang }) {
-  const [repertoire, setRepertoire] = useState([]);
-  const [selectedCategory, setSelectedCategory] = useState('');
-  const [selectedLanguage, setSelectedLanguage] = useState('');
-  const [selectedSubcategory, setSelectedSubcategory] = useState('');
-  const [selectedArrangement, setSelectedArrangement] = useState('');
-
+export function SongDetails({ isExpanded, sang }) {
   const songSlug = generateSlug(sang.title, sang.composer); // Generate the slug using the song's title and composer
-
-  useEffect(() => {
-    fetch('/api/repertoire')
-      .then((response) => response.json())
-      .then((data) => {
-        const sortedRepertoire = data.sort((a, b) => {
-          // Custom sorting function considering the Norwegian alphabet
-          const collator = new Intl.Collator('nb');
-          return collator.compare(a.title, b.title);
-        });
-        setRepertoire(sortedRepertoire);
-      })
-      .catch((error) => console.log(error));
-  }, []);
-
-  // Filter function to apply selected filters
-  const filterSongs = (song) => {
-    if (selectedCategory && song.category !== selectedCategory) {
-      return false;
-    }
-    if (selectedLanguage && !song.language.includes(selectedLanguage)) {
-      return false;
-    }
-    if (
-      selectedArrangement &&
-      !song.arrangement.includes(selectedArrangement)
-    ) {
-      return false;
-    }
-    return true;
-  };
 
   // Format languages
   const formatLanguages = (languages) => {
@@ -92,7 +50,7 @@ export function SongDetails({ isExpanded, expandedSongs, sang }) {
 
   return (
     <>
-      {expandedSongs.includes(sang.objectID) && (
+      {isExpanded && (
         <tr>
           <td colSpan="5">
             <div
@@ -127,8 +85,8 @@ export function SongDetails({ isExpanded, expandedSongs, sang }) {
                   </div>
                 )}
                 <p className="max-w-lg text-sm leading-7 text-gray-600 ">
-                  {sang.description.map((line) => (
-                    <div className="mb-3" key={line}>
+                  {sang.description.map((line, index) => (
+                    <div className="mb-3" key={index}>
                       <p>{line}</p>
                     </div>
                   ))}
@@ -146,21 +104,17 @@ export function SongDetails({ isExpanded, expandedSongs, sang }) {
                       </span>
                     )}
                   </div>
-                  {isExpanded ? (
-                    <>
-                      {sang.lyrics && (
-                        <div className="p-8 overflow-hidden rounded-lg bg-amber-50/70 w-fit">
-                          <p className="max-w-lg text-sm font-medium leading-7 text-gray-600 ">
-                            {sang.lyrics.map((line, i) => (
-                              <div className="mt-0" key={i}>
-                                {line === '' ? <br /> : <p>{line}</p>}
-                              </div>
-                            ))}
-                          </p>
-                        </div>
-                      )}
-                    </>
-                  ) : null}
+                  {isExpanded && sang.lyrics && (
+                    <div className="p-8 overflow-hidden rounded-lg bg-amber-50/70 w-fit">
+                      <p className="max-w-lg text-sm font-medium leading-7 text-gray-600 ">
+                        {sang.lyrics.map((line, i) => (
+                          <div className="mt-0" key={i}>
+                            {line === '' ? <br /> : <p>{line}</p>}
+                          </div>
+                        ))}
+                      </p>
+                    </div>
+                  )}
                   <Link
                     href={`/repertoar/${songSlug}`}
                     className="text-sm font-semibold leading-6 transition-all duration-150 ease-in-out sm:hidden text-amber-700 hover:text-amber-600"
@@ -173,9 +127,7 @@ export function SongDetails({ isExpanded, expandedSongs, sang }) {
                 {/* Spotify player */}
                 <div className="mt-10 sm:mt-12">
                   {sang.spotify && (
-                    <>
-                      <SpotifyPlayer spotifyUri={sang.spotifyUrl} />
-                    </>
+                    <SpotifyPlayer spotifyUri={sang.spotifyUrl} />
                   )}
                 </div>
               </div>{' '}

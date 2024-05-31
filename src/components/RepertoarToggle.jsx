@@ -2,16 +2,10 @@ import { useEffect, useState, useRef } from 'react';
 import { motion } from 'framer-motion';
 import { CategoryDropdown } from './CategoryDropdown';
 import { LanguageDropdown } from './LanguageDropdown';
-import { ArrangementDropdown } from './ArrangementDropdown';
 import { RepertoireList } from './RepertoireList';
-import { Pagination } from './Pagination';
 import { filterSongs } from '../../utilities/filterSongs';
-import { SpotifyPlayer } from './SpotifyPlayer';
 
 export function RepertoarToggle() {
-  const [currentPage, setCurrentPage] = useState(1);
-  const itemsPerPage = 50;
-
   const [repertoire, setRepertoire] = useState([]);
   const [selectedCategory, setSelectedCategory] = useState('');
   const [selectedLanguage, setSelectedLanguage] = useState('');
@@ -47,13 +41,8 @@ export function RepertoarToggle() {
   const filteredRepertoire = repertoire.filter((song) =>
     filterSongs(song, selectedCategory, selectedLanguage, selectedArrangement)
   );
-  const totalPages = Math.ceil(filteredRepertoire.length / itemsPerPage);
-  const currentItems = filteredRepertoire.slice(
-    (currentPage - 1) * itemsPerPage,
-    currentPage * itemsPerPage
-  );
-  const filterControlsRef = useRef(null);
 
+  const filterControlsRef = useRef(null);
   const repertoireListRef = useRef(null);
 
   return (
@@ -78,49 +67,38 @@ export function RepertoarToggle() {
               className="mt-6 text-lg leading-8 text-gray-600"
             >
               Få mer informasjon om hver sang ved å klikke på plusssymbolet og
-              lytt til våre eksempler. Vi har også satt sammen en spilleliste på
-              Spotify.
+              lytt til våre eksempler.
             </motion.p>
           </div>
-          {/* Spotify player */}
-          <div className="mt-12">
-            <SpotifyPlayer spotifyUri="playlist/2l4snImcjo86c6jPSTIaEi?si=532a9645a131403d" />
-          </div>
 
-          {/* Filter controls */}
           <div className="pt-12 sm:pb-4" ref={filterControlsRef}>
             <div className="flex space-x-4 text-sm">
               <CategoryDropdown
                 selectedCategory={selectedCategory}
                 handleCategoryChange={handleCategoryChange}
               />
-              {/* Subcategory */}
               <LanguageDropdown handleLanguageChange={handleLanguageChange} />
-              {/* <ArrangementDropdown
-                handleArrangementChange={handleArrangementChange}
-              /> */}
             </div>
           </div>
         </div>
 
-        {/* Repertoire list */}
         <RepertoireList
           ref={repertoireListRef}
-          repertoire={currentItems}
+          repertoire={filteredRepertoire}
           selectedCategory={selectedCategory}
           selectedLanguage={selectedLanguage}
           selectedArrangement={selectedArrangement}
         />
 
-        {/* Pagination controls */}
-        <Pagination
-          repertoireListRef={repertoireListRef}
-          currentPage={currentPage}
-          totalPages={totalPages}
-          setCurrentPage={setCurrentPage}
-          filterControlsRef={filterControlsRef}
-          totalSongs={filteredRepertoire.length} // New prop
-        />
+        <div className="pt-6">
+          <div className="px-6 py-3.5 rounded-lg border border-slate-400/10 bg-slate-50 w-fit">
+            <p className="text-sm text-gray-700">
+              Viser{' '}
+              <span className="font-medium">{filteredRepertoire.length}</span>{' '}
+              sanger
+            </p>
+          </div>
+        </div>
       </div>
     </section>
   );

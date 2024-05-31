@@ -1,7 +1,7 @@
 import Head from 'next/head';
 
 import { HeroHjem } from '@/components/HeroHjem';
-import { Oppdatering } from '@/components/Oppdatering';
+
 import { RepertoarPreview } from '@/components/RepertoarPreview';
 import { RepertoarToggle } from '@/components/RepertoarToggle';
 
@@ -70,7 +70,6 @@ export default function Home() {
       <div className="bg-white">
         <main>
           <HeroHjem />
-          {/* <Oppdatering /> */}
 
           <RepertoarToggle />
         </main>
