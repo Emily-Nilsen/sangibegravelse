@@ -24,7 +24,7 @@ export function PauseButton() {
   );
 }
 
-export function SimpleCustomPlayer({ audioUrl }) {
+export function SimpleCustomPlayer({ audioUrl, onPlay }) {
   const audioRef = useRef(null);
   const [isPlaying, setIsPlaying] = useState(false);
   const [duration, setDuration] = useState(0);
@@ -40,6 +40,9 @@ export function SimpleCustomPlayer({ audioUrl }) {
   }, [isPlaying]);
 
   const togglePlayPause = () => {
+    if (!isPlaying && onPlay) {
+      onPlay(audioRef.current);
+    }
     setIsPlaying((prevIsPlaying) => !prevIsPlaying);
   };
 

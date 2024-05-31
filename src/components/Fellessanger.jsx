@@ -1,15 +1,22 @@
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 import { Disclosure } from '@headlessui/react';
 import { MinusIcon, PlusIcon } from '@heroicons/react/24/outline';
 import fellessanger from '../lib/fellessangerData';
-import { AudioPlayer } from './AudioPlayer';
 import { SimplePlayer } from './SimplePlayer';
 
 export function Fellessanger() {
   const [openIndex, setOpenIndex] = useState(null);
+  const [playingAudio, setPlayingAudio] = useState(null);
 
   const togglePanel = (index) => {
     setOpenIndex(openIndex === index ? null : index);
+  };
+
+  const handleAudioPlay = (audioElement) => {
+    if (playingAudio && playingAudio !== audioElement) {
+      playingAudio.pause();
+    }
+    setPlayingAudio(audioElement);
   };
 
   return (
@@ -36,6 +43,7 @@ export function Fellessanger() {
                             title={fellessang.title}
                             performers={fellessang.performers}
                             live={fellessang.live}
+                            onPlay={handleAudioPlay}
                           />
                         </div>
                       )}
@@ -59,16 +67,6 @@ export function Fellessanger() {
                 </dt>
                 {openIndex === index && (
                   <dd className="pr-0 mt-2">
-                    {fellessang.audio ? (
-                      <div className="mt-6">
-                        <AudioPlayer
-                          audio={fellessang.audio}
-                          audioUrl={fellessang.audioUrl}
-                          title={fellessang.tittel}
-                          performers={fellessang.performers}
-                        />
-                      </div>
-                    ) : null}
                     {fellessang.lyrics ? (
                       <div className="mt-6 border-t border-gray-100">
                         <dl className="divide-y divide-gray-100">

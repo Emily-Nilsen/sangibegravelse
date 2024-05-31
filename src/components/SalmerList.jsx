@@ -2,14 +2,21 @@ import { useState } from 'react';
 import { Disclosure } from '@headlessui/react';
 import { MinusIcon, PlusIcon } from '@heroicons/react/24/outline';
 import hymnes from '../lib/hymnesData';
-import { AudioPlayer } from './AudioPlayer';
 import { SimplePlayer } from './SimplePlayer';
 
 export function SalmerList() {
   const [openIndex, setOpenIndex] = useState(null);
+  const [playingAudio, setPlayingAudio] = useState(null);
 
   const togglePanel = (index) => {
     setOpenIndex(openIndex === index ? null : index);
+  };
+
+  const handleAudioPlay = (audioElement) => {
+    if (playingAudio && playingAudio !== audioElement) {
+      playingAudio.pause();
+    }
+    setPlayingAudio(audioElement);
   };
 
   return (
@@ -36,6 +43,7 @@ export function SalmerList() {
                             title={salme.title}
                             performers={salme.performers}
                             live={salme.live}
+                            onPlay={handleAudioPlay}
                           />
                         </div>
                       )}
@@ -59,16 +67,6 @@ export function SalmerList() {
                 </dt>
                 {openIndex === index && (
                   <dd className="pr-0 mt-2">
-                    {salme.audio ? (
-                      <div className="mt-6">
-                        <AudioPlayer
-                          audio={salme.audio}
-                          audioUrl={salme.audioUrl}
-                          title={salme.tittel}
-                          performers={salme.performers}
-                        />
-                      </div>
-                    ) : null}
                     {salme.lyrics ? (
                       <div className="mt-6 border-t border-gray-100">
                         <dl className="divide-y divide-gray-100">
