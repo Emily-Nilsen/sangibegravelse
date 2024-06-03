@@ -728,6 +728,9 @@ const hymnes = [
     tittel: 'Jeg er en seiler på livets hav (Salme 893)',
     lyrics: 'Henry Albert Tandberg (1909)',
     melody: 'Klaus Østby (1909)',
+    audio: true,
+    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1717424213/Sang%20i%20begravelse/Audio/Jeg_er_en_seiler_pa%CC%8A_livets_hav_zoc9h8.wav`,
+    performers: ['Nils Georg Nilsen'],
     tekst: [
       'Jeg er en seiler på livets hav',
       'På tidens skiftende bølge',
