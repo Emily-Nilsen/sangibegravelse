@@ -546,6 +546,9 @@ const hymnes = [
     tittel: 'Gje meg handa di ven',
     lyrics: 'Sondre Bratland (1988)',
     melody: 'Irsk Folketone (Down by the Sally Gardens)',
+    audio: true,
+    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1717413455/Sang%20i%20begravelse/Audio/Gje_meg_handa_di_ven_a9mmc1.wav`,
+    performers: ['Nils Georg Nilsen'],
     tekst: [
       'Gje meg handa di ven når det kveldnar',
       'Det blir mørkt og me treng ei hand',
@@ -571,6 +574,9 @@ const hymnes = [
     tittel: 'Gud når du til oppbrudd kaller (salme 867)',
     lyrics: 'Lyder Brun (1913)',
     melody: 'Ludvik M. Lindeman (1864)',
+    audio: true,
+    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1717413592/Sang%20i%20begravelse/Audio/Gud_na%CC%8Ar_du_til_oppbrud_kaller_lfbsyt.wav`,
+    performers: ['Nils Georg Nilsen'],
     tekst: [
       'Gud, når du til oppbrudd kaller,',
       'hele livets dag trer frem:',

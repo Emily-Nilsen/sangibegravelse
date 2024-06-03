@@ -118,6 +118,9 @@ const fellessanger = [
     tittel: 'Den fyrste song eg høyra fek',
     lyrics: `Per Sivle (1877)`,
     melody: `Lars Søraas (1909)`,
+    audio: true,
+    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1717067687/Sang%20i%20begravelse/Audio/Den_fyrste_sang_pjr92s.wav`,
+    performers: ['Nils Georg Nilsen'],
     tekst: [
       'Den fyrste song eg høyra fekk',
       'Var mor sin song ved vogga',
@@ -205,6 +208,9 @@ const fellessanger = [
     tittel: 'Gje meg handa di ven',
     lyrics: `Sondre Bratland (1988)`,
     melody: `Irsk folketone (Down by the Sally Gardens)`,
+    audio: true,
+    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1717413455/Sang%20i%20begravelse/Audio/Gje_meg_handa_di_ven_a9mmc1.wav`,
+    performers: ['Nils Georg Nilsen'],
     tekst: [
       'Gje meg handa di ven når det kveldnar,',
       'Det blir mørkt og me treng ei hand,',
