@@ -675,6 +675,9 @@ const hymnes = [
     tittel: 'Ikke en spurv til jorden (Salme 324)',
     lyrics: 'Ingeborg Prytz Fougner (1948)',
     melody: 'Sigurd Lunde (1973)',
+    audio: true,
+    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1717423031/Sang%20i%20begravelse/Audio/Ikke_en_spurv_til_jorden_zv0c7m.wav`,
+    performers: ['Nils Georg Nilsen'],
     tekst: [
       'Ikke en spurv til jorden uten at Gud det vet.',
       'Ikke en sjel mot døden uten hans kjærlighet!',
