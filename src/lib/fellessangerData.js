@@ -309,14 +309,14 @@ const fellessanger = [
     ],
   },
   {
-    tittel: 'So ro Lillemann',
+    tittel: 'So ro, lille mann',
     lyrics: `Thorbjørn Egner (1952)`,
     melody: `Christian Hartmann (1952)`,
     audio: true,
     audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1717426647/Sang%20i%20begravelse/Audio/So_ro_lille_mann_sg3exa.wav`,
     performers: ['Nils Georg Nilsen'],
     tekst: [
-      'So ro Lillemann',
+      'So ro, lille mann',
       'Nå er dagen over',
       'Alle mus i alle land',
       'Ligger nå og sover',

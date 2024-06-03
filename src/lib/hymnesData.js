@@ -792,6 +792,9 @@ const hymnes = [
     lyrics: 'Margrethe Munthe',
     translation: 'Ingolf Kvamen (1970)',
     melody: 'Jacob Gerhard Meidell (1840)',
+    audio: true,
+    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1717427372/Sang%20i%20begravelse/Audio/Kj%C3%A6re_gud_nrklqb.wav`,
+    performers: ['Nils Georg Nilsen'],
     tekst: [
       'Kjære Gud jeg har det godt',
       'Takk for alt som jeg har fått',
