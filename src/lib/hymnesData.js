@@ -604,6 +604,9 @@ const hymnes = [
     tittel: 'Gud signe vårt dyre fedreland (Salme 757)',
     lyrics: 'Elias Blix (1890)',
     melody: 'C.E.F. Weyse (1826)',
+    audio: true,
+    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1717422472/Sang%20i%20begravelse/Audio/gud_signe_va%CC%8Art_dyre_fedreland_m8lkkl.wav`,
+    performers: ['Nils Georg Nilsen'],
     tekst: [
       'Gud signe vårt dyre fedreland og lat det som hagen bløma!',
       'Lat lysa din fred frå fjell til strand og vetter for vårsol røma!',
@@ -623,6 +626,9 @@ const hymnes = [
     lyrics: 'Anders Frostenson (1968)',
     translation: 'Alfred Hauge (1973)',
     melody: 'Lars Åke Lundberg (1968)',
+    audio: true,
+    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1717422645/Sang%20i%20begravelse/Audio/Guds_kj%C3%A6rleik_b8axkn.wav`,
+    performers: ['Nils Georg Nilsen'],
     tekst: [
       'Guds kjærleik er som stranda og som graset',
       'Og vind og vidd og jord og allheims rom',
