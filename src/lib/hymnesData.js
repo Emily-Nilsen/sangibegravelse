@@ -651,6 +651,9 @@ const hymnes = [
     lyrics: 'Petter Dass (1698)',
     translation: 'Gustav Jensen (1909)',
     melody: 'Norsk folketone fra Romedal',
+    audio: true,
+    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1717422863/Sang%20i%20begravelse/Audio/Herre_Gud_o3y1xb.wav`,
+    performers: ['Nils Georg Nilsen'],
     tekst: [
       'Herre Gud, ditt dyre navn og ære',
       'over verden høyt i akt skal være,',
