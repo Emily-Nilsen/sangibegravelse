@@ -699,6 +699,9 @@ const hymnes = [
     tittel: 'Ingen er så trygg i fare (Salme 488)',
     lyrics: 'Lina Sandell (1856)',
     melody: 'Tysk vise',
+    audio: true,
+    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1717424052/Sang%20i%20begravelse/Audio/Ingen_er_sa%CC%8A_trygg_i_fare_txacgd.wav`,
+    performers: ['Nils Georg Nilsen'],
     tekst: [
       'Ingen er så trygg i fare',
       'som Guds lille barneskare,',
