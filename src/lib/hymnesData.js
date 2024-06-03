@@ -762,6 +762,9 @@ const hymnes = [
     lyrics: 'Erling Tobiassen (1932)',
     translation: 'Ella Holm Bull (1990)',
     melody: 'Sigurd Lunde (1947)',
+    audio: true,
+    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1717426501/Sang%20i%20begravelse/Audio/Jeg_er_i_herrens_hender_x0nriz.wav`,
+    performers: ['Nils Georg Nilsen'],
     tekst: [
       'Jeg er i Herrens hender når dagen gryr mot vest',
       'Hver morgen han meg sender sitt ord med lys og trøst',
