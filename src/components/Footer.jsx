@@ -5,7 +5,7 @@ const navigation = {
   sanger: [
     { name: 'Repertoar', href: '/' },
     { name: 'Salmer og felles sanger', href: '/salmer' },
-    { name: 'Forslag til program', href: '/program-forslag' },
+    { name: 'Forslag til program', href: '/programforslag' },
   ],
   artister: [
     { name: 'Susanne Hals', href: '/susanne-hvinden-hals' },

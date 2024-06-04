@@ -10,7 +10,7 @@ export function PauseButton() {
   return <PauseIcon className="w-4 h-4" aria-hidden="true" />;
 }
 
-export function SimpleCustomPlayer({ audioUrl, onPlay }) {
+export function ForslagSimplePlayer({ audioUrl, onPlay }) {
   const audioRef = useRef(null);
   const [isPlaying, setIsPlaying] = useState(false);
 
@@ -53,7 +53,7 @@ export function SimpleCustomPlayer({ audioUrl, onPlay }) {
       <audio ref={audioRef} src={audioUrl} preload="metadata" />
       <button
         onClick={togglePlayPause}
-        className="p-1.5 text-white transition-colors duration-300 ease-in-out rounded-full shadow-sm bg-amber-600 hover:bg-amber-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-amber-600"
+        className="p-1.5 text-black transition-colors duration-300 ease-in-out rounded-full shadow-sm bg-red-600 hover:bg-amber-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-amber-600"
       >
         {isPlaying ? <PauseButton /> : <PlayButton />}
       </button>

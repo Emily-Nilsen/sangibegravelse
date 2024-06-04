@@ -39,16 +39,31 @@ export function CustomAudioPlayer({ audioUrl }) {
     }
   }, [isPlaying]);
 
+  useEffect(() => {
+    const audio = audioRef.current;
+    const handleLoadedMetadata = () => {
+      setDuration(Math.floor(audio.duration));
+    };
+    const handleTimeUpdate = () => {
+      setCurrentTime(Math.floor(audio.currentTime));
+    };
+    const handleAudioEnd = () => {
+      setIsPlaying(false);
+    };
+
+    audio.addEventListener('loadedmetadata', handleLoadedMetadata);
+    audio.addEventListener('timeupdate', handleTimeUpdate);
+    audio.addEventListener('ended', handleAudioEnd);
+
+    return () => {
+      audio.removeEventListener('loadedmetadata', handleLoadedMetadata);
+      audio.removeEventListener('timeupdate', handleTimeUpdate);
+      audio.removeEventListener('ended', handleAudioEnd);
+    };
+  }, []);
+
   const togglePlayPause = () => {
     setIsPlaying((prevIsPlaying) => !prevIsPlaying);
-  };
-
-  const handleLoadedMetadata = () => {
-    setDuration(Math.floor(audioRef.current.duration));
-  };
-
-  const handleTimeUpdate = () => {
-    setCurrentTime(Math.floor(audioRef.current.currentTime));
   };
 
   const handleSeekChange = (e) => {
@@ -57,24 +72,14 @@ export function CustomAudioPlayer({ audioUrl }) {
     setCurrentTime(audio.currentTime);
   };
 
-  const handleAudioEnd = () => {
-    setIsPlaying(false);
-  };
-
   const currentPercent = `${(currentTime / duration) * 100}%`;
 
   return (
     <div className="flex items-center">
-      <audio
-        ref={audioRef}
-        src={audioUrl}
-        onLoadedMetadata={handleLoadedMetadata}
-        onTimeUpdate={handleTimeUpdate}
-        onEnded={handleAudioEnd}
-      ></audio>
-      <button onClick={togglePlayPause} className="mr-4 text-lg">
+      <audio ref={audioRef} src={audioUrl} className="hidden" />
+      <div onClick={togglePlayPause} className="mr-4 text-lg">
         {isPlaying ? <PauseButton /> : <PlayButton />}
-      </button>
+      </div>
       <input
         type="range"
         min="0"

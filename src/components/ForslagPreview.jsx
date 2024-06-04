@@ -12,14 +12,18 @@ export const suggestions = [
     image:
       'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/testimonials/flower_card_1_copy_kvxqlx.webp',
     solo_1: 'Jeg glemmer deg aldri',
+    solo_1_audio:
+      'https://res.cloudinary.com/dt3k2apqd/video/upload/v1698920705/Sang%20i%20begravelse/Audio/Jeg_glemmer_deg_aldri_ldtn6e.wav',
     solo_1_href:
       '/repertoar/jeg-glemmer-deg-aldri-av-aslag-haugen-og-arne-moslatten',
     salme_1: 'Blå salme',
+    salme_1_audio:
+      'https://res.cloudinary.com/dt3k2apqd/video/upload/v1717066465/Sang%20i%20begravelse/Audio/Bla%CC%8A_salme_rpdz7v.wav',
     salme_1_href: '/repertoar/bla-salme-av-erik-bye',
     solo_2: 'Kor går du når du går',
-    solo_2_href: '#',
+    solo_2_href: '',
     salme_2: 'Kjærlighet fra Gud',
-    salme_2_href: '#',
+    salme_2_href: '',
     salme_3: 'Ein fin liten blome',
     salme_3_href: '/repertoar/ein-fin-liten-blome-av-bjorn-eidsvag',
     solo_3: 'Håll mitt hjärta',
@@ -37,13 +41,14 @@ export const suggestions = [
     salme_1: 'Den fyrste song',
     salme_1_href: '/repertoar/den-fyrste-song-av-lars-soraas-og-per-sivle',
     solo_2: 'Pie Jesu (Webber)',
-    solo_2_href: '#',
+    solo_2_href: '',
     salme_2: 'Vem kan segla förutan vind',
     salme_2_href: '/salmer',
     salme_3: 'Kjære Gud, jeg har det godt',
-    salme_3_href: '#',
+    salme_3_audio:
+      'https://res.cloudinary.com/dt3k2apqd/video/upload/v1717427372/Sang%20i%20begravelse/Audio/Kj%C3%A6re_gud_nrklqb.wav',
     solo_3: 'Nella Fantasia',
-    solo_3_href: '#',
+    solo_3_href: '',
   },
   {
     id: 'ikke-religiose-tekster',
@@ -54,11 +59,11 @@ export const suggestions = [
     solo_1: 'God morgen min kjære',
     solo_1_href: '/repertoar/god-morgen-min-kjaere-av-benny-borg',
     fellessang_1: 'Din tanke er fri',
-    fellessang_1_href: '#',
     solo_2: 'Höstvisa',
+    solo_2_audio:
+      'https://res.cloudinary.com/dt3k2apqd/video/upload/v1715616588/Sang%20i%20begravelse/Audio/Ho%CC%88stvisa_dyj8uo.wav',
     solo_2_href: '/repertoar/hoestvisa-av-erna-tauro-og-tove-jansson',
     fiolinsolo: 'Tema fra Schindlers list',
-    fiolinsolo_href: '#',
     solo_3: 'De nære ting',
     solo_3_href: '/repertoar/de-naere-ting-av-arne-paasche-aasen',
     fellessang_2: 'Barn av regnbuen',
@@ -78,14 +83,17 @@ export const suggestions = [
     solo_1_href:
       '/repertoar/fordi-jeg-elsker-deg-av-bob-dyllan-og-bjarte-hjelmeland',
     salme_1: 'Amazing Grace',
+    salme_1_audio:
+      'https://res.cloudinary.com/dt3k2apqd/video/upload/v1717064270/Sang%20i%20begravelse/Audio/Amazing_Grace_wsayij.wav',
     salme_1_href: '/repertoar/amazing-grace-av-john-newton',
     solo_2: 'How do I say goodbye',
     solo_2_href: '/repertoar/how-do-i-say-goodbye-av-dean-lewis',
     solo_3: 'Feels like home',
     solo_3_href: '/repertoar/feels-like-home-av-randy-newman',
     salme_2: 'Morning has broken',
-    salme_2_href: '#',
     solo_4: 'The prayer (solo/duett)',
+    solo_4_audio:
+      'https://res.cloudinary.com/dt3k2apqd/video/upload/v1698949455/Sang%20i%20begravelse/Audio/The_Prayer_wb1z9d.wav',
     solo_4_href:
       '/repertoar/the-prayer-av-david-foster-carole-bayer-sager-alberto-testa-og-tony-renis',
   },
@@ -96,15 +104,17 @@ export const suggestions = [
     image:
       'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/testimonials/flower_card_11_copy_tfc18v.webp',
     solo_1: 'Nordnorsk julesalme',
-    solo_1_href: '#',
     salme_1: 'Det hev ei rose sprunge',
-    salme_1_href: '/salmer',
+    salme_1_audio:
+      'https://res.cloudinary.com/dt3k2apqd/video/upload/v1717068291/Sang%20i%20begravelse/Audio/Det_heiv_ei_rosa_o261bo.wav',
     solo_2: 'Mitt hjerte alltid vanker',
     solo_2_href: '/repertoar/mitt-hjerte-alltid-vanker-av-hans-adolph-brorson',
     salme_2: 'Deilig er den himmel blå',
-    salme_2_href: '/salmer',
+    salme_2_audio:
+      'https://res.cloudinary.com/dt3k2apqd/video/upload/v1717067534/Sang%20i%20begravelse/Audio/Deilig_er_den_himmel_bla%CC%8A_gxxweg.wav',
     salme_3: 'Deilig er jorden',
-    salme_3_href: '/salmer',
+    salme_3_audio:
+      'https://res.cloudinary.com/dt3k2apqd/video/upload/v1717067333/Sang%20i%20begravelse/Audio/Deilig_er_jorden_rotknr.wav',
     solo_3: 'O helga natt',
     solo_3_href: '/repertoar/o-helga-natt-av-adolphe-adam',
   },
@@ -115,16 +125,14 @@ export const suggestions = [
     image:
       'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/testimonials/flower_card_4_copy_u0qaxo.webp',
     solo_1: 'O mio babbino caro (sopran arie/dame)',
-    solo_1_href: '#',
     salme_1: 'O bli hos meg',
-    salme_1_href: '#',
     fiolinsolo: 'Méditation fra Thais',
-    fiolinsolo_href: '#',
     solo_2: 'Mot kveld',
     solo_2_href: '/repertoar/mot-kveld-av-agathe-backer-grondahl',
     salme_2: 'Så ta da mine hender',
-    salme_2_href: '#',
     solo_3: 'Caruso',
+    solo_3_audio:
+      'https://res.cloudinary.com/dt3k2apqd/video/upload/v1715616104/Sang%20i%20begravelse/Audio/Caruso_guitar_rb7dtp.wav',
     solo_3_href: '/repertoar/caruso-av-lucio-dalla',
   },
   // More suggestions...
@@ -140,19 +148,15 @@ export function ForslagPreview() {
 
         <div className="grid grid-cols-1 gap-x-6 gap-y-16 2xl:grid-cols-2 sm:gap-x-16 2xl:gap-x-8">
           {suggestions.map((suggestion) => (
-            <Link
-              key={suggestion.id}
-              href={`/program-forslag/${suggestion.id}`}
-              className="group"
-            >
-              <div className="z-0 relative w-full rounded-lg bg-[#f7f8f2] hover:bg-[#f7f8f2]/50 transition-all hover:cursor-pointer  text-center group">
+            <div className="">
+              <div className="z-0 relative w-full rounded-lg bg-[#f7f8f2] text-center">
                 <div className="absolute inset-0 z-0 overflow-hidden rounded-lg">
                   <Image
                     src={suggestion.image}
                     alt="Hvite roser"
                     width={3000}
                     height={1681}
-                    className="absolute inset-0 object-cover object-center w-full h-full transition-all border border-transparent rounded-lg sm:block -z-10 opacity-30 group-hover:opacity-20 group-hover:border-[#b4b297]"
+                    className="absolute inset-0 object-cover object-center w-full h-full transition-all border border-transparent rounded-lg sm:block -z-10 opacity-30"
                     priority
                     unoptimized
                   />
@@ -251,7 +255,7 @@ export function ForslagPreview() {
                   </div>
                 </ul>
               </div>
-            </Link>
+            </div>
           ))}
         </div>
       </div>

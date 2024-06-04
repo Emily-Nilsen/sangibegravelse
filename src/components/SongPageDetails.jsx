@@ -163,43 +163,29 @@ export function SongPageDetails({
               <figcaption className="flex mb-8 gap-x-4">
                 <div className="text-sm leading-6">
                   <div className="font-semibold text-gray-900">Tekst</div>
-                  <div className="flex items-center gap-3">
-                    <p className="text-gray-600">Arrangement: </p>
-
-                    <div className="pt-0 text-sm text-gray-500 sm:table-cell">
-                      <div className="flex space-x-1">
-                        {getArrangementIcon(songArrangement, 'solo', SoloIcon)}
-                        {getArrangementIcon(songArrangement, 'duett', DuetIcon)}
-                        {getArrangementIcon(
-                          songArrangement,
-                          'fiolin',
-                          ViolinIcon
-                        )}
-                      </div>
-                    </div>
-                  </div>
+                  <div className="flex items-center gap-3"></div>
                 </div>
               </figcaption>
               <blockquote className="text-lg font-medium leading-8 tracking-tight text-slate-600">
-                <p>
+                <div>
                   {songLyrics && (
                     <div>
-                      <p className="">
+                      <div className="">
                         {songLyrics.map((line, i) => (
                           <div className="mt-0" key={i}>
                             {line === '' ? <br /> : <p>{line}</p>}
                           </div>
                         ))}
-                      </p>
+                      </div>
                     </div>
                   )}
-                </p>
+                </div>
               </blockquote>
             </figure>
           </motion.div>
           {/* Song description */}
           <div className="max-w-xl -mt-5 text-base leading-7 text-gray-700 lg:mt-0 lg:col-span-7">
-            <motion.p
+            <motion.div
               whileInView={{ opacity: 1 }}
               initial={{ opacity: 0 }}
               transition={{
@@ -213,7 +199,7 @@ export function SongPageDetails({
                   <p>{line}</p>
                 </div>
               ))}
-            </motion.p>
+            </motion.div>
             {/* Bottom three links */}
             <div className="flex flex-col space-y-12">
               {/* Audio player and language */}
@@ -228,7 +214,7 @@ export function SongPageDetails({
                 className="flex items-center pt-6 gap-x-3"
               >
                 <p className="text-sm font-semibold text-gray-900">Språk</p>
-                <p className="flex max-w-md text-sm leading-7 text-gray-600">
+                <div className="flex max-w-md text-sm leading-7 text-gray-600">
                   {songLanguage.map((line) => (
                     <div className="mt-0 mr-3" key={line}>
                       <span className="inline-flex items-center px-2 py-1 text-xs font-medium rounded-md text-slate-700 bg-slate-50 ring-1 ring-inset ring-slate-600/20">
@@ -236,7 +222,7 @@ export function SongPageDetails({
                       </span>
                     </div>
                   ))}
-                </p>
+                </div>
               </motion.div>
               {/* Song lyrics mobile */}
               <motion.div
@@ -263,19 +249,19 @@ export function SongPageDetails({
                     </div>
                   </figcaption>
                   <blockquote className="text-lg font-medium leading-8 tracking-tight text-slate-600">
-                    <p>
+                    <div>
                       {songLyrics && (
                         <div>
-                          <p className="">
+                          <div className="">
                             {songLyrics.map((line, i) => (
                               <div className="mt-0" key={i}>
                                 {line === '' ? <br /> : <p>{line}</p>}
                               </div>
                             ))}
-                          </p>
+                          </div>
                         </div>
                       )}
-                    </p>
+                    </div>
                   </blockquote>
                 </figure>
               </motion.div>
@@ -312,9 +298,7 @@ export function SongPageDetails({
                   href="/"
                   className="rounded-md bg-amber-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-amber-600/90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-slate-400 transition-all duration-150 ease-in-out cursor-pointer border border-amber-600 flex-auto text-center"
                 >
-                  <button className="cursor-pointer">
-                    Se hele repertoaret
-                  </button>
+                  <p className="cursor-pointer">Se hele repertoaret</p>
                 </Link>
               </motion.div>
               {/* Spotify player */}

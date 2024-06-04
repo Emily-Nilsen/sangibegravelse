@@ -84,13 +84,13 @@ export function SongDetails({ isExpanded, sang }) {
                     />
                   </div>
                 )}
-                <p className="max-w-lg text-sm leading-7 text-gray-600 ">
+                <div className="max-w-lg text-sm leading-7 text-gray-600 ">
                   {sang.description.map((line, index) => (
                     <div className="mb-3" key={index}>
                       <p>{line}</p>
                     </div>
                   ))}
-                </p>
+                </div>
 
                 <div className="flex flex-col mt-8 mb-4 space-y-6">
                   <div className="text-gray-700">
@@ -106,13 +106,13 @@ export function SongDetails({ isExpanded, sang }) {
                   </div>
                   {isExpanded && sang.lyrics && (
                     <div className="p-8 overflow-hidden rounded-lg bg-amber-50/70 w-fit">
-                      <p className="max-w-lg text-sm font-medium leading-7 text-gray-600 ">
+                      <div className="max-w-lg text-sm font-medium leading-7 text-gray-600 ">
                         {sang.lyrics.map((line, i) => (
                           <div className="mt-0" key={i}>
                             {line === '' ? <br /> : <p>{line}</p>}
                           </div>
                         ))}
-                      </p>
+                      </div>
                     </div>
                   )}
                   <Link

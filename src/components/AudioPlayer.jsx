@@ -9,7 +9,7 @@ export function AudioPlayer({ audio, audioUrl, title, performers, live }) {
 
       {Array.isArray(performers) && performers.length > 0 && (
         <p className="max-w-lg pt-4 text-sm leading-7 text-slate-700 sm:text-amber-700">
-          {title} av{' '}
+          Solo:{' '}
           <span>
             {performers.reduce((acc, performer, i, arr) => {
               const link = getPerformerLink(performer);

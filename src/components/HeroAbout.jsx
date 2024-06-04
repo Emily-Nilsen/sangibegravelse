@@ -37,7 +37,7 @@ export function HeroAbout() {
                     Repertoar
                   </Link>
                   <Link
-                    href="/program-forslag"
+                    href="/programforslag"
                     className="text-sm font-semibold leading-6 transition-all duration-150 ease-in-out text-slate-800 hover:text-slate-950"
                   >
                     Forslag til program <span aria-hidden="true">→</span>
