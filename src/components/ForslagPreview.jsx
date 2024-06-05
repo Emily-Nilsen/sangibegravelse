@@ -147,8 +147,8 @@ export function ForslagPreview() {
         </h2>
 
         <div className="grid grid-cols-1 gap-x-6 gap-y-16 2xl:grid-cols-2 sm:gap-x-16 2xl:gap-x-8">
-          {suggestions.map((suggestion) => (
-            <div className="">
+          {suggestions.map((suggestion, i) => (
+            <div key={i} className="">
               <div className="z-0 relative w-full rounded-lg bg-[#f7f8f2] text-center">
                 <div className="absolute inset-0 z-0 overflow-hidden rounded-lg">
                   <Image

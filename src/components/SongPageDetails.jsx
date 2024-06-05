@@ -2,11 +2,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/react/20/solid';
-import { ViolinIcon } from './icons/Violin';
-import { SoloIcon } from './icons/Solo';
-import { DuetIcon } from './icons/Duet';
 import { getPerformerLink } from '../../utilities/getPerformerLink';
-// import { CustomAudioPlayer } from './CustomAudioPlayer';
+import { CustomAudioPlayer } from './CustomAudioPlayer';
 import { AudioPlayer } from './AudioPlayer';
 import { SpotifyPlayer } from './SpotifyPlayer';
 import { generateSlug } from '../utils/generateSlug'; // Import generateSlug
@@ -68,7 +65,6 @@ export function SongPageDetails({
   songTitle,
   songHyphen,
   songComposer,
-  songArrangement,
   songImage,
   songDescription,
   songVideo,
@@ -117,15 +113,7 @@ export function SongPageDetails({
               <PaginationSection prevSong={prevSong} nextSong={nextSong} />
             </div>
           </motion.div>
-          <div className="mt-1 text-gray-600 sm:mt-3 lg:hidden">
-            <div className="pt-2 text-sm text-gray-500 sm:table-cell">
-              <div className="flex space-x-1">
-                {getArrangementIcon(songArrangement, 'solo', SoloIcon)}
-                {getArrangementIcon(songArrangement, 'duett', DuetIcon)}
-                {getArrangementIcon(songArrangement, 'fiolin', ViolinIcon)}
-              </div>
-            </div>
-          </div>
+
           {/* Audio player */}
           {songAudio && (
             <div className="mt-6">

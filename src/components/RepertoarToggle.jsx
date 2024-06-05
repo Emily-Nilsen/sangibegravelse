@@ -9,7 +9,7 @@ export function RepertoarToggle() {
   const [repertoire, setRepertoire] = useState([]);
   const [selectedCategory, setSelectedCategory] = useState('');
   const [selectedLanguage, setSelectedLanguage] = useState('');
-  const [selectedArrangement, setSelectedArrangement] = useState('');
+  // const [selectedArrangement, setSelectedArrangement] = useState('');
 
   useEffect(() => {
     fetch('/api/repertoire')
@@ -34,12 +34,12 @@ export function RepertoarToggle() {
     setSelectedLanguage(newLanguage);
   };
 
-  const handleArrangementChange = (newArrangement) => {
-    setSelectedArrangement(newArrangement);
-  };
+  // const handleArrangementChange = (newArrangement) => {
+  //   setSelectedArrangement(newArrangement);
+  // };
 
   const filteredRepertoire = repertoire.filter((song) =>
-    filterSongs(song, selectedCategory, selectedLanguage, selectedArrangement)
+    filterSongs(song, selectedCategory, selectedLanguage)
   );
 
   const filterControlsRef = useRef(null);
@@ -87,7 +87,7 @@ export function RepertoarToggle() {
           repertoire={filteredRepertoire}
           selectedCategory={selectedCategory}
           selectedLanguage={selectedLanguage}
-          selectedArrangement={selectedArrangement}
+          // selectedArrangement={selectedArrangement}
         />
 
         <div className="pt-6">
