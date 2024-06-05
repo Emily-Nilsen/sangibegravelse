@@ -19,9 +19,7 @@ export default function App({ Component, pageProps }) {
     router.pathname === '/artister' ||
     router.pathname === '/om' ||
     router.pathname === '/salmer' ||
-    router.pathname === '/programforslag' ||
-    router.pathname === '/program-forslag' ||
-    router.pathname === '/program-forslag/[slug]'
+    router.pathname === '/programforslag'
   ) {
     textColour = 'dark';
   } else if (router.pathname.startsWith('/repertoar/')) {
