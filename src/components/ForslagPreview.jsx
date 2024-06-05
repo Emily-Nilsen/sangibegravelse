@@ -158,7 +158,6 @@ export function ForslagPreview() {
                     height={1681}
                     className="absolute inset-0 object-cover object-center w-full h-full transition-all border border-transparent rounded-lg sm:block -z-10 opacity-30"
                     priority
-                    unoptimized
                   />
                 </div>
                 <ul

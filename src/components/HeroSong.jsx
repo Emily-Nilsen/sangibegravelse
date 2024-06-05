@@ -12,9 +12,7 @@ export function HeroSong({ songImage, songTitle }) {
           width={1456}
           height={816}
           className="absolute inset-0 object-cover w-full h-full -z-10"
-          // style={{ objectPosition: imageAlignment }}
           priority
-          unoptimized
         />
 
         {/* top white gradient */}

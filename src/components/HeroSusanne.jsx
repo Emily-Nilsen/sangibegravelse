@@ -15,7 +15,6 @@ export function HeroSusanne() {
           width={2073}
           height={1887}
           className="absolute inset-0 object-cover w-full h-full sm:hidden -z-10"
-          unoptimized
           priority
         />
         <Image
@@ -24,7 +23,6 @@ export function HeroSusanne() {
           width={2830}
           height={1887}
           className="absolute inset-0 hidden object-cover w-full h-full sm:block -z-10"
-          unoptimized
           priority
         />
         <div className="absolute left-0 w-full h-40 -top-10 opacity-500 bg-gradient-to-b from-gray-900/50" />

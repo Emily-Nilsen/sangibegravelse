@@ -13,7 +13,6 @@ export function HeroArtister() {
           height={3264}
           className="absolute inset-0 object-cover object-left w-full h-full sm:hidden -z-10"
           priority
-          unoptimized
         />
         <Image
           src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Hero_2_sios6a.webp"
@@ -22,7 +21,6 @@ export function HeroArtister() {
           height={1681}
           className="absolute inset-0 hidden object-cover w-full h-full sm:block -z-10"
           priority
-          unoptimized
         />
         <div className="absolute inset-0 sm:bg-white/30 bg-white/60" />
         <div
