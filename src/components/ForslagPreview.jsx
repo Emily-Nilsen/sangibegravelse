@@ -1,8 +1,9 @@
+import { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import slugify from 'slugify';
 import { LineSeparator } from './icons/LineSeparator';
-import { SimplePlayer } from './SimplePlayer';
+import { ForslagSimplePlayer } from './ForslagSimplePlayer';
 
 export const suggestions = [
   {
@@ -13,7 +14,7 @@ export const suggestions = [
       'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/testimonials/flower_card_1_copy_kvxqlx.webp',
     solo_1: 'Jeg glemmer deg aldri',
     solo_1_audio:
-      'https://res.cloudinary.com/dt3k2apqd/video/upload/v1698920705/Sang%20i%20begravelse/Audio/Jeg_glemmer_deg_aldri_ldtn6e.wav',
+      'https://res.cloudinary.com/dt3k2apqd/video/upload/v1717599144/Sang%20i%20begravelse/Audio/Jeg_glemmer_deg_aldri_ofp5d5.mp3',
     solo_1_href:
       '/repertoar/jeg-glemmer-deg-aldri-av-aslag-haugen-og-arne-moslatten',
     salme_1: 'Blå salme',
@@ -116,6 +117,8 @@ export const suggestions = [
     salme_3_audio:
       'https://res.cloudinary.com/dt3k2apqd/video/upload/v1717067333/Sang%20i%20begravelse/Audio/Deilig_er_jorden_rotknr.wav',
     solo_3: 'O helga natt',
+    solo_3_audio:
+      'https://res.cloudinary.com/dt3k2apqd/video/upload/v1717607297/Sang%20i%20begravelse/Audio/O_Helga_natt_cngnam.mp3',
     solo_3_href: '/repertoar/o-helga-natt-av-adolphe-adam',
   },
   {
@@ -139,6 +142,20 @@ export const suggestions = [
 ];
 
 export function ForslagPreview() {
+  const [openIndex, setOpenIndex] = useState(null);
+  const [playingAudio, setPlayingAudio] = useState(null);
+
+  const togglePanel = (index) => {
+    setOpenIndex(openIndex === index ? null : index);
+  };
+
+  const handleAudioPlay = (audioElement) => {
+    if (playingAudio && playingAudio !== audioElement) {
+      playingAudio.pause();
+    }
+    setPlayingAudio(audioElement);
+  };
+
   return (
     <div className="bg-white">
       <div className="max-w-2xl px-4 pb-16 mx-auto sm:px-6 sm:pb-24 lg:max-w-7xl lg:px-8">
@@ -173,12 +190,18 @@ export function ForslagPreview() {
                     <h1 className="text-xl text-slate-700">Inngangsmusikk</h1>
                     <LineSeparator className="py-5 w-20 fill-[#b4b297] mx-auto" />
                     {/* <p className="text-slate-900/50">–</p> */}
-
                     <h1 className="text-xl text-slate-700">Solo 1</h1>
-                    <p className="font-normal">{suggestion.solo_1}</p>
+                    <p className="font-normal">{suggestion.solo_1}</p>{' '}
+                    {suggestion.solo_1_audio && (
+                      <div className="flex w-full justify-center">
+                        <ForslagSimplePlayer
+                          audioUrl={suggestion.solo_1_audio}
+                          onPlay={handleAudioPlay}
+                        />
+                      </div>
+                    )}
                     <LineSeparator className="py-5 w-20 fill-[#b4b297] mx-auto" />
                     {/* <p className="text-slate-900/50">–</p> */}
-
                     {suggestion.salme_1 && (
                       <>
                         <h1 className="text-xl text-slate-700">Salme 1</h1>
@@ -186,7 +209,6 @@ export function ForslagPreview() {
                         <LineSeparator className="py-5 w-20 fill-[#b4b297] mx-auto" />
                       </>
                     )}
-
                     {suggestion.fellessang_1 && (
                       <>
                         <h1 className="text-xl text-slate-700">Fellessang</h1>
@@ -196,7 +218,6 @@ export function ForslagPreview() {
                     )}
                     <h1 className="text-xl text-slate-700">Minneord</h1>
                     <LineSeparator className="py-5 w-20 fill-[#b4b297] mx-auto" />
-
                     {suggestion.solo_2 && (
                       <>
                         <h1 className="text-xl text-slate-700">Solo 2</h1>
