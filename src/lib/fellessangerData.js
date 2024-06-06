@@ -95,7 +95,7 @@ const fellessanger = [
     lyrics: `Aasmind O. Vinje (1866)`,
     melody: `Norsk folketone`,
     audio: true,
-    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1715612869/Sang%20i%20begravelse/Audio/Den_dag_kjem_aldri_womlcw.wav`,
+    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1717660786/Sang%20i%20begravelse/Audio/Den_dag_kjem_aldri_lm8i0x.mp3`,
     performers: ['Nils Georg Nilsen'],
     tekst: [
       'Den dag kjem aldri at eg deg gløymer,',

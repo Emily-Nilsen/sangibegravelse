@@ -40,9 +40,11 @@ export const suggestions = [
     solo_1: 'Ave Maria (Schubert)',
     solo_1_href: '/repertoar/ave-maria-av-franz-schubert',
     salme_1: 'Den fyrste song',
+    salme_1_audio: 'https://res.cloudinary.com/dt3k2apqd/video/upload/v1717675675/Sang%20i%20begravelse/Audio/Den_fyrste_sang_cvgtiv.mp3',
     salme_1_href: '/repertoar/den-fyrste-song-av-lars-soraas-og-per-sivle',
     solo_2: 'Pie Jesu (Webber)',
-    solo_2_href: '',
+    solo_2_audio: 'https://res.cloudinary.com/dt3k2apqd/video/upload/v1717605189/Sang%20i%20begravelse/Audio/Pie_Jesu_cgakdj.mp3',
+    solo_2_href: '/repertoar/pie-jesu-av-andrew-lloyd-webber',
     salme_2: 'Vem kan segla förutan vind',
     salme_2_audio: 'https://res.cloudinary.com/dt3k2apqd/video/upload/v1717670676/Sang%20i%20begravelse/Audio/Vem_kan_segla_ijybpp.mp3',
     salme_3: 'Kjære Gud, jeg har det godt',
@@ -94,7 +96,7 @@ export const suggestions = [
     salme_2: 'Morning has broken',
     solo_4: 'The prayer (solo/duett)',
     solo_4_audio:
-      'https://res.cloudinary.com/dt3k2apqd/video/upload/v1698949455/Sang%20i%20begravelse/Audio/The_Prayer_wb1z9d.wav',
+      'https://res.cloudinary.com/dt3k2apqd/video/upload/v1717599606/Sang%20i%20begravelse/Audio/The_Prayer_nr3ive.mp3',
     solo_4_href:
       '/repertoar/the-prayer-av-david-foster-carole-bayer-sager-alberto-testa-og-tony-renis',
   },
@@ -206,6 +208,15 @@ export function ForslagPreview() {
                       <>
                         <h1 className="text-xl text-slate-700">Salme 1</h1>
                         <p className="">{suggestion.salme_1}</p>
+                        {' '}
+                    {suggestion.salme_1_audio && (
+                      <div className="flex w-full justify-center">
+                        <ForslagSimplePlayer
+                          audioUrl={suggestion.salme_1_audio}
+                          onPlay={handleAudioPlay}
+                        />
+                      </div>
+                    )}
                         <LineSeparator className="py-5 w-20 fill-[#b4b297] mx-auto" />
                       </>
                     )}
@@ -213,6 +224,15 @@ export function ForslagPreview() {
                       <>
                         <h1 className="text-xl text-slate-700">Fellessang</h1>
                         <p className="">{suggestion.fellessang_1}</p>
+                        {' '}
+                    {suggestion.fellessang_1_audio && (
+                      <div className="flex w-full justify-center">
+                        <ForslagSimplePlayer
+                          audioUrl={suggestion.fellessang_1_audio}
+                          onPlay={handleAudioPlay}
+                        />
+                      </div>
+                    )}
                         <LineSeparator className="py-5 w-20 fill-[#b4b297] mx-auto" />
                       </>
                     )}
@@ -222,6 +242,15 @@ export function ForslagPreview() {
                       <>
                         <h1 className="text-xl text-slate-700">Solo 2</h1>
                         <p className="">{suggestion.solo_2}</p>
+                        {' '}
+                    {suggestion.solo_2_audio && (
+                      <div className="flex w-full justify-center">
+                        <ForslagSimplePlayer
+                          audioUrl={suggestion.solo_2_audio}
+                          onPlay={handleAudioPlay}
+                        />
+                      </div>
+                    )}
                         <LineSeparator className="py-5 w-20 fill-[#b4b297] sm:fill-transparent mx-auto" />
                       </>
                     )}
@@ -231,6 +260,15 @@ export function ForslagPreview() {
                       <>
                         <h1 className="text-xl text-slate-700">Fiolinsolo</h1>
                         <p className="">{suggestion.fiolinsolo}</p>
+                        {' '}
+                    {suggestion.fiolinsolo_audio && (
+                      <div className="flex w-full justify-center">
+                        <ForslagSimplePlayer
+                          audioUrl={suggestion.fiolinsolo_audio}
+                          onPlay={handleAudioPlay}
+                        />
+                      </div>
+                    )}
                         <LineSeparator className="py-5 w-20 fill-[#b4b297] mx-auto" />
                       </>
                     )}
@@ -238,6 +276,15 @@ export function ForslagPreview() {
                       <>
                         <h1 className="text-xl text-slate-700">Salme 2</h1>
                         <p className="">{suggestion.salme_2}</p>
+                        {' '}
+                    {suggestion.salme_2_audio && (
+                      <div className="flex w-full justify-center">
+                        <ForslagSimplePlayer
+                          audioUrl={suggestion.salme_2_audio}
+                          onPlay={handleAudioPlay}
+                        />
+                      </div>
+                    )}
                         <LineSeparator className="py-5 w-20 fill-[#b4b297] mx-auto" />
                       </>
                     )}
