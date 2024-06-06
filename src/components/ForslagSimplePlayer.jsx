@@ -53,7 +53,7 @@ export function ForslagSimplePlayer({ audioUrl, onPlay }) {
       <audio ref={audioRef} src={audioUrl} preload="metadata" />
       <button
         onClick={togglePlayPause}
-        className="p-1.5 text-gray-800 transition-colors duration-300 ease-in-out rounded-full shadow-sm bg-white/70 hover:bg-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-amber-600"
+        className="p-1.5 mt-1 text-gray-800 transition-colors duration-300 ease-in-out rounded-full shadow-sm bg-white/70 hover:bg-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-amber-600"
       >
         {isPlaying ? <PauseButton /> : <PlayButton />}
       </button>

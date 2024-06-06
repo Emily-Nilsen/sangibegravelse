@@ -22,12 +22,13 @@ export const suggestions = [
       'https://res.cloudinary.com/dt3k2apqd/video/upload/v1717673555/Sang%20i%20begravelse/Audio/Bla%CC%8A_salme_eyptu3.mp3',
     salme_1_href: '/repertoar/bla-salme-av-erik-bye',
     solo_2: 'Kor går du når du går',
-    solo_2_href: '',
     salme_2: 'Kjærlighet fra Gud',
-    salme_2_href: '',
+    salme_2_audio: 'https://res.cloudinary.com/dt3k2apqd/video/upload/v1717678821/Sang%20i%20begravelse/Audio/Kj%C3%A6rlighet_fra_Gud_uitsbf.mp3',
     salme_3: 'Ein fin liten blome',
+    salme_3_audio: 'https://res.cloudinary.com/dt3k2apqd/video/upload/v1717676195/Sang%20i%20begravelse/Audio/Ein_fin_liten_blome_b9tixj.mp3',
     salme_3_href: '/repertoar/ein-fin-liten-blome-av-bjorn-eidsvag',
     solo_3: 'Håll mitt hjärta',
+    solo_3_audio: 'https://res.cloudinary.com/dt3k2apqd/video/upload/v1717579917/Sang%20i%20begravelse/Audio/Ha%CC%8All_mitt_hja%CC%88rta_wtblnc.mp3',
     solo_3_href:
       '/repertoar/hall-mitt-hjaerta-av-peter-hallstroem-lars-andersson-og-bjoern-skifs',
   },
@@ -51,7 +52,6 @@ export const suggestions = [
     salme_3_audio:
       'https://res.cloudinary.com/dt3k2apqd/video/upload/v1717678301/Sang%20i%20begravelse/Audio/Kj%C3%A6re_gud_vx1xzl.mp3',
     solo_3: 'Nella Fantasia',
-    solo_3_href: '',
   },
   {
     id: 'ikke-religiose-tekster',
@@ -59,7 +59,7 @@ export const suggestions = [
     bg_colour: '#e4772d',
     image:
       'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/testimonials/flower_card_13_copy_z3ltzi.webp',
-    solo_1: 'God morgen min kjære',
+    solo_1: 'God morgen, min kjære',
     solo_1_href: '/repertoar/god-morgen-min-kjaere-av-benny-borg',
     fellessang_1: 'Din tanke er fri',
     solo_2: 'Höstvisa',
@@ -72,7 +72,7 @@ export const suggestions = [
     fellessang_2: 'Barn av regnbuen',
     fellessang_2_href:
       '/repertoar/barn-av-regnbuen-av-pete-seeger-og-lillebjorn-nilsen',
-    solo_4: 'My way',
+    solo_4: 'My Way',
     solo_4_href:
       '/repertoar/my-way-av-claude-francois-jacques-revaux-og-paul-anka',
   },
@@ -82,19 +82,20 @@ export const suggestions = [
     bg_colour: '#e4772d',
     image:
       'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/testimonials/flower_card_6_copy_e6wibj.webp',
-    solo_1: 'Make you feel my love / Fordi jeg elsker deg (solo/duett)',
+    solo_1: 'Make You Feel My Love / Fordi jeg elsker deg (solo/duett)',
     solo_1_href:
       '/repertoar/fordi-jeg-elsker-deg-av-bob-dyllan-og-bjarte-hjelmeland',
     salme_1: 'Amazing Grace',
     salme_1_audio:
       'https://res.cloudinary.com/dt3k2apqd/video/upload/v1717673011/Sang%20i%20begravelse/Audio/Amazing_Grace_z5ujiz.mp3',
     salme_1_href: '/repertoar/amazing-grace-av-john-newton',
-    solo_2: 'How do I say goodbye',
+    solo_2: 'How Do I Say goodbye',
     solo_2_href: '/repertoar/how-do-i-say-goodbye-av-dean-lewis',
-    solo_3: 'Feels like home',
+    solo_3: 'Feels Like Home',
     solo_3_href: '/repertoar/feels-like-home-av-randy-newman',
-    salme_2: 'Morning has broken',
-    solo_4: 'The prayer (solo/duett)',
+    salme_2: 'Morning Has Broken',
+    salme_2_audio: 'https://res.cloudinary.com/dt3k2apqd/video/upload/v1717679336/Sang%20i%20begravelse/Audio/Morning_has_broken_kee52g.mp3',
+    solo_4: 'The Prayer (solo/duett)',
     solo_4_audio:
       'https://res.cloudinary.com/dt3k2apqd/video/upload/v1717599606/Sang%20i%20begravelse/Audio/The_Prayer_nr3ive.mp3',
     solo_4_href:
@@ -111,6 +112,7 @@ export const suggestions = [
     salme_1_audio:
       'https://res.cloudinary.com/dt3k2apqd/video/upload/v1717676076/Sang%20i%20begravelse/Audio/Det_heiv_ei_rosa_bcuipr.mp3',
     solo_2: 'Mitt hjerte alltid vanker',
+    solo_2_audio: 'https://res.cloudinary.com/dt3k2apqd/video/upload/v1717679146/Sang%20i%20begravelse/Audio/Mitt_hjerte_alltid_vanker_thsizm.mp3',
     solo_2_href: '/repertoar/mitt-hjerte-alltid-vanker-av-hans-adolph-brorson',
     salme_2: 'Deilig er den himmel blå',
     salme_2_audio:
@@ -118,7 +120,7 @@ export const suggestions = [
     salme_3: 'Deilig er jorden',
     salme_3_audio:
       'https://res.cloudinary.com/dt3k2apqd/video/upload/v1717675414/Sang%20i%20begravelse/Audio/Deilig_er_jorden_gwu8fn.mp3',
-    solo_3: 'O helga natt',
+    solo_3: 'O Helga natt',
     solo_3_audio:
       'https://res.cloudinary.com/dt3k2apqd/video/upload/v1717607297/Sang%20i%20begravelse/Audio/O_Helga_natt_cngnam.mp3',
     solo_3_href: '/repertoar/o-helga-natt-av-adolphe-adam',
@@ -292,6 +294,15 @@ export function ForslagPreview() {
                       <>
                         <h1 className="text-xl text-slate-700">Salme 3</h1>
                         <p className="">{suggestion.salme_3}</p>
+                        {' '}
+                    {suggestion.salme_3_audio && (
+                      <div className="flex w-full justify-center">
+                        <ForslagSimplePlayer
+                          audioUrl={suggestion.salme_3_audio}
+                          onPlay={handleAudioPlay}
+                        />
+                      </div>
+                    )}
                         <LineSeparator className="py-5 w-20 fill-[#b4b297] mx-auto" />
                       </>
                     )}
@@ -299,6 +310,15 @@ export function ForslagPreview() {
                       <>
                         <h1 className="text-xl text-slate-700">Solo 3</h1>
                         <p className="">{suggestion.solo_3}</p>
+                        {' '}
+                    {suggestion.solo_3_audio && (
+                      <div className="flex w-full justify-center">
+                        <ForslagSimplePlayer
+                          audioUrl={suggestion.solo_3_audio}
+                          onPlay={handleAudioPlay}
+                        />
+                      </div>
+                    )}
                         <LineSeparator className="py-5 w-20 fill-[#b4b297] mx-auto" />
                       </>
                     )}
@@ -306,6 +326,15 @@ export function ForslagPreview() {
                       <>
                         <h1 className="text-xl text-slate-700">Fellessang</h1>
                         <p className="">{suggestion.fellessang_2}</p>
+                        {' '}
+                    {suggestion.fellessang_2_audio && (
+                      <div className="flex w-full justify-center">
+                        <ForslagSimplePlayer
+                          audioUrl={suggestion.fellessang_2_audio}
+                          onPlay={handleAudioPlay}
+                        />
+                      </div>
+                    )}
                         <LineSeparator className="py-5 w-20 fill-[#b4b297] mx-auto" />
                       </>
                     )}
@@ -313,6 +342,15 @@ export function ForslagPreview() {
                       <>
                         <h1 className="text-xl text-slate-700">Solo 4</h1>
                         <p className="">{suggestion.solo_4}</p>
+                        {' '}
+                    {suggestion.solo_4_audio && (
+                      <div className="flex w-full justify-center">
+                        <ForslagSimplePlayer
+                          audioUrl={suggestion.solo_4_audio}
+                          onPlay={handleAudioPlay}
+                        />
+                      </div>
+                    )}
                         <LineSeparator className="py-5 w-20 fill-[#b4b297] mx-auto" />
                       </>
                     )}
