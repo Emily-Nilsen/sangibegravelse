@@ -195,14 +195,15 @@ export function ForslagPreview() {
                     <LineSeparator className="py-5 w-20 fill-[#b4b297] mx-auto" />
                     {/* <p className="text-slate-900/50">–</p> */}
                     <h1 className="text-xl text-slate-700">Solo 1</h1>
-                    <p className="font-normal">{suggestion.solo_1}</p>{' '}
+                    {suggestion.solo_1_href ? <Link className="hover:underline transition-all font-normal" href={suggestion.solo_1_href}>{suggestion.solo_1}{' '}<span aria-hidden="true">→</span></Link> : <p className="font-normal">{suggestion.solo_1}</p>}
+                    
                     {suggestion.solo_1_audio && (
                       <div className="flex w-full justify-center">
                         <ForslagSimplePlayer
                           audioUrl={suggestion.solo_1_audio}
                           onPlay={handleAudioPlay}
                         />
-                      </div>
+                      </div> 
                     )}
                     <LineSeparator className="py-5 w-20 fill-[#b4b297] mx-auto" />
                     {/* <p className="text-slate-900/50">–</p> */}
