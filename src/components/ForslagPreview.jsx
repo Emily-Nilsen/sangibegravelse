@@ -210,8 +210,7 @@ export function ForslagPreview() {
                     {suggestion.salme_1 && (
                       <>
                         <h1 className="text-xl text-slate-700">Salme 1</h1>
-                        <p className="">{suggestion.salme_1}</p>
-                        {' '}
+                        {suggestion.salme_1_href ? <Link className="hover:underline transition-all font-normal" href={suggestion.salme_1_href}>{suggestion.salme_1}{' '}<span aria-hidden="true">→</span></Link> : <p className="font-normal">{suggestion.salme_1}</p>}
                     {suggestion.salme_1_audio && (
                       <div className="flex w-full justify-center">
                         <ForslagSimplePlayer
@@ -226,8 +225,7 @@ export function ForslagPreview() {
                     {suggestion.fellessang_1 && (
                       <>
                         <h1 className="text-xl text-slate-700">Fellessang</h1>
-                        <p className="">{suggestion.fellessang_1}</p>
-                        {' '}
+                        {suggestion.fellessang_1_href ? <Link className="hover:underline transition-all font-normal" href={suggestion.fellessang_1_href}>{suggestion.fellessang_1}{' '}<span aria-hidden="true">→</span></Link> : <p className="font-normal">{suggestion.fellessang_1}</p>}
                     {suggestion.fellessang_1_audio && (
                       <div className="flex w-full justify-center">
                         <ForslagSimplePlayer
@@ -244,8 +242,7 @@ export function ForslagPreview() {
                     {suggestion.solo_2 && (
                       <>
                         <h1 className="text-xl text-slate-700">Solo 2</h1>
-                        <p className="">{suggestion.solo_2}</p>
-                        {' '}
+                        {suggestion.solo_2_href ? <Link className="hover:underline transition-all font-normal" href={suggestion.solo_2_href}>{suggestion.solo_2}{' '}<span aria-hidden="true">→</span></Link> : <p className="font-normal">{suggestion.solo_2}</p>}
                     {suggestion.solo_2_audio && (
                       <div className="flex w-full justify-center">
                         <ForslagSimplePlayer
@@ -262,8 +259,7 @@ export function ForslagPreview() {
                     {suggestion.fiolinsolo && (
                       <>
                         <h1 className="text-xl text-slate-700">Fiolinsolo</h1>
-                        <p className="">{suggestion.fiolinsolo}</p>
-                        {' '}
+                        {suggestion.fiolinsolo_href ? <Link className="hover:underline transition-all font-normal" href={suggestion.fiolinsolo_href}>{suggestion.fiolinsolo}{' '}<span aria-hidden="true">→</span></Link> : <p className="font-normal">{suggestion.fiolinsolo}</p>}
                     {suggestion.fiolinsolo_audio && (
                       <div className="flex w-full justify-center">
                         <ForslagSimplePlayer
@@ -278,8 +274,7 @@ export function ForslagPreview() {
                     {suggestion.salme_2 && (
                       <>
                         <h1 className="text-xl text-slate-700">Salme 2</h1>
-                        <p className="">{suggestion.salme_2}</p>
-                        {' '}
+                        {suggestion.salme_2_href ? <Link className="hover:underline transition-all font-normal" href={suggestion.salme_2_href}>{suggestion.salme_2}{' '}<span aria-hidden="true">→</span></Link> : <p className="font-normal">{suggestion.salme_2}</p>}
                     {suggestion.salme_2_audio && (
                       <div className="flex w-full justify-center">
                         <ForslagSimplePlayer
@@ -294,8 +289,7 @@ export function ForslagPreview() {
                     {suggestion.salme_3 && (
                       <>
                         <h1 className="text-xl text-slate-700">Salme 3</h1>
-                        <p className="">{suggestion.salme_3}</p>
-                        {' '}
+                        {suggestion.salme_3_href ? <Link className="hover:underline transition-all font-normal" href={suggestion.salme_3_href}>{suggestion.salme_3}{' '}<span aria-hidden="true">→</span></Link> : <p className="font-normal">{suggestion.salme_3}</p>}
                     {suggestion.salme_3_audio && (
                       <div className="flex w-full justify-center">
                         <ForslagSimplePlayer
@@ -310,8 +304,7 @@ export function ForslagPreview() {
                     {suggestion.solo_3 && (
                       <>
                         <h1 className="text-xl text-slate-700">Solo 3</h1>
-                        <p className="">{suggestion.solo_3}</p>
-                        {' '}
+                        {suggestion.solo_3_href ? <Link className="hover:underline transition-all font-normal" href={suggestion.solo_3_href}>{suggestion.solo_3}{' '}<span aria-hidden="true">→</span></Link> : <p className="font-normal">{suggestion.solo_3}</p>}
                     {suggestion.solo_3_audio && (
                       <div className="flex w-full justify-center">
                         <ForslagSimplePlayer
@@ -326,8 +319,7 @@ export function ForslagPreview() {
                     {suggestion.fellessang_2 && (
                       <>
                         <h1 className="text-xl text-slate-700">Fellessang</h1>
-                        <p className="">{suggestion.fellessang_2}</p>
-                        {' '}
+                        {suggestion.fellessang_2_href ? <Link className="hover:underline transition-all font-normal" href={suggestion.fellessang_2_href}>{suggestion.fellessang_2}{' '}<span aria-hidden="true">→</span></Link> : <p className="font-normal">{suggestion.fellessang_2}</p>}
                     {suggestion.fellessang_2_audio && (
                       <div className="flex w-full justify-center">
                         <ForslagSimplePlayer
@@ -342,8 +334,7 @@ export function ForslagPreview() {
                     {suggestion.solo_4 && (
                       <>
                         <h1 className="text-xl text-slate-700">Solo 4</h1>
-                        <p className="">{suggestion.solo_4}</p>
-                        {' '}
+                        {suggestion.solo_4_href ? <Link className="hover:underline transition-all font-normal" href={suggestion.solo_4_href}>{suggestion.solo_4}{' '}<span aria-hidden="true">→</span></Link> : <p className="font-normal">{suggestion.solo_4}</p>}
                     {suggestion.solo_4_audio && (
                       <div className="flex w-full justify-center">
                         <ForslagSimplePlayer
