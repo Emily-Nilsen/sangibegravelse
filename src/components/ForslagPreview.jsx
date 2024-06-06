@@ -19,7 +19,7 @@ export const suggestions = [
       '/repertoar/jeg-glemmer-deg-aldri-av-aslag-haugen-og-arne-moslatten',
     salme_1: 'Blå salme',
     salme_1_audio:
-      'https://res.cloudinary.com/dt3k2apqd/video/upload/v1717066465/Sang%20i%20begravelse/Audio/Bla%CC%8A_salme_rpdz7v.wav',
+      'https://res.cloudinary.com/dt3k2apqd/video/upload/v1717673555/Sang%20i%20begravelse/Audio/Bla%CC%8A_salme_eyptu3.mp3',
     salme_1_href: '/repertoar/bla-salme-av-erik-bye',
     solo_2: 'Kor går du når du går',
     solo_2_href: '',
@@ -44,10 +44,10 @@ export const suggestions = [
     solo_2: 'Pie Jesu (Webber)',
     solo_2_href: '',
     salme_2: 'Vem kan segla förutan vind',
-    salme_2_href: '/salmer',
+    salme_2_audio: 'https://res.cloudinary.com/dt3k2apqd/video/upload/v1717670676/Sang%20i%20begravelse/Audio/Vem_kan_segla_ijybpp.mp3',
     salme_3: 'Kjære Gud, jeg har det godt',
     salme_3_audio:
-      'https://res.cloudinary.com/dt3k2apqd/video/upload/v1717427372/Sang%20i%20begravelse/Audio/Kj%C3%A6re_gud_nrklqb.wav',
+      'https://res.cloudinary.com/dt3k2apqd/video/upload/v1717678301/Sang%20i%20begravelse/Audio/Kj%C3%A6re_gud_vx1xzl.mp3',
     solo_3: 'Nella Fantasia',
     solo_3_href: '',
   },
@@ -62,7 +62,7 @@ export const suggestions = [
     fellessang_1: 'Din tanke er fri',
     solo_2: 'Höstvisa',
     solo_2_audio:
-      'https://res.cloudinary.com/dt3k2apqd/video/upload/v1715616588/Sang%20i%20begravelse/Audio/Ho%CC%88stvisa_dyj8uo.wav',
+      'https://res.cloudinary.com/dt3k2apqd/video/upload/v1717670312/Sang%20i%20begravelse/Audio/Ho%CC%88stvisa_Repertoire_dztkhf.mp3',
     solo_2_href: '/repertoar/hoestvisa-av-erna-tauro-og-tove-jansson',
     fiolinsolo: 'Tema fra Schindlers list',
     solo_3: 'De nære ting',
@@ -85,7 +85,7 @@ export const suggestions = [
       '/repertoar/fordi-jeg-elsker-deg-av-bob-dyllan-og-bjarte-hjelmeland',
     salme_1: 'Amazing Grace',
     salme_1_audio:
-      'https://res.cloudinary.com/dt3k2apqd/video/upload/v1717064270/Sang%20i%20begravelse/Audio/Amazing_Grace_wsayij.wav',
+      'https://res.cloudinary.com/dt3k2apqd/video/upload/v1717673011/Sang%20i%20begravelse/Audio/Amazing_Grace_z5ujiz.mp3',
     salme_1_href: '/repertoar/amazing-grace-av-john-newton',
     solo_2: 'How do I say goodbye',
     solo_2_href: '/repertoar/how-do-i-say-goodbye-av-dean-lewis',
@@ -107,15 +107,15 @@ export const suggestions = [
     solo_1: 'Nordnorsk julesalme',
     salme_1: 'Det hev ei rose sprunge',
     salme_1_audio:
-      'https://res.cloudinary.com/dt3k2apqd/video/upload/v1717068291/Sang%20i%20begravelse/Audio/Det_heiv_ei_rosa_o261bo.wav',
+      'https://res.cloudinary.com/dt3k2apqd/video/upload/v1717676076/Sang%20i%20begravelse/Audio/Det_heiv_ei_rosa_bcuipr.mp3',
     solo_2: 'Mitt hjerte alltid vanker',
     solo_2_href: '/repertoar/mitt-hjerte-alltid-vanker-av-hans-adolph-brorson',
     salme_2: 'Deilig er den himmel blå',
     salme_2_audio:
-      'https://res.cloudinary.com/dt3k2apqd/video/upload/v1717067534/Sang%20i%20begravelse/Audio/Deilig_er_den_himmel_bla%CC%8A_gxxweg.wav',
+      'https://res.cloudinary.com/dt3k2apqd/video/upload/v1717675562/Sang%20i%20begravelse/Audio/Deilig_er_en_himmel_bla%CC%8A_kopip6.mp3',
     salme_3: 'Deilig er jorden',
     salme_3_audio:
-      'https://res.cloudinary.com/dt3k2apqd/video/upload/v1717067333/Sang%20i%20begravelse/Audio/Deilig_er_jorden_rotknr.wav',
+      'https://res.cloudinary.com/dt3k2apqd/video/upload/v1717675414/Sang%20i%20begravelse/Audio/Deilig_er_jorden_gwu8fn.mp3',
     solo_3: 'O helga natt',
     solo_3_audio:
       'https://res.cloudinary.com/dt3k2apqd/video/upload/v1717607297/Sang%20i%20begravelse/Audio/O_Helga_natt_cngnam.mp3',
@@ -135,7 +135,7 @@ export const suggestions = [
     salme_2: 'Så ta da mine hender',
     solo_3: 'Caruso',
     solo_3_audio:
-      'https://res.cloudinary.com/dt3k2apqd/video/upload/v1715616104/Sang%20i%20begravelse/Audio/Caruso_guitar_rb7dtp.wav',
+      'https://res.cloudinary.com/dt3k2apqd/video/upload/v1717669892/Sang%20i%20begravelse/Audio/Caruso_guitar_Forslags_preview_thgcgg.mp3',
     solo_3_href: '/repertoar/caruso-av-lucio-dalla',
   },
   // More suggestions...
