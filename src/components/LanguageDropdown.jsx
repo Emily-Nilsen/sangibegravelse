@@ -7,7 +7,7 @@ const languages = [
   { id: 2, name: 'dansk' },
   { id: 3, name: 'engelsk' },
   { id: 4, name: 'fransk' },
-  { id: 5, name: 'islandisk' },
+  { id: 5, name: 'islandsk' },
   { id: 6, name: 'italiensk' },
   { id: 7, name: 'latinsk' },
   { id: 8, name: 'norsk' },

@@ -82,7 +82,7 @@ export function NilsGeorg() {
               Nils Georg Nilsen er kjent for sin varme og kraftfulle sangstemme. Han har et stort spekter i dynamiske forskjeller som gjør at han favner et bredt repertoar med en god sjangerforståelse. Alt fra vise og pop til Sinatra og opera.
             </motion.p>
 
-            <motion.p
+            {/* <motion.p
               whileInView={{ opacity: 1 }}
               initial={{ opacity: 0 }}
               transition={{
@@ -95,8 +95,22 @@ export function NilsGeorg() {
               Nils Georg har deltatt på festivaler og konserter både i Norge og
               internasjonalt, inkludert Málaga Clásica. Han er også professor i
               sang ved Galamian Academy of Classical Music i Málaga, Spania.
-            </motion.p>
+            </motion.p> */}
 
+            
+
+            <motion.p
+              whileInView={{ opacity: 1 }}
+              initial={{ opacity: 0 }}
+              transition={{
+                delay: 0.5,
+                duration: 1,
+                type: 'fade',
+              }}
+              className="mt-6"
+            >
+              Han har lang erfaring med sang i begravelser og synger i den anerkjente tenorgruppen, Nordic Tenors. I tillegg hyres han ofte inn som solist og har sunget konserter over hele verden og vært solist med bl.a Chicago Symphony Ochestra og vært med i en rekke oppsetninger. 
+            </motion.p>
             <motion.figure whileInView={{ opacity: 1 }}
               initial={{ opacity: 0 }}
               transition={{
@@ -122,19 +136,6 @@ export function NilsGeorg() {
               </div>
             </figcaption>
           </motion.figure>
-
-            <motion.p
-              whileInView={{ opacity: 1 }}
-              initial={{ opacity: 0 }}
-              transition={{
-                delay: 0.5,
-                duration: 1,
-                type: 'fade',
-              }}
-              className="mt-6"
-            >
-              Han har lang erfaring med sang i begravelser og synger i den anerkjente tenorgruppen, Nordic Tenors. I tillegg hyres han ofte inn som solist og har sunget konserter over hele verden og vært solist med bl.a Chicago Symphony Ochestra og vært med i en rekke oppsetninger. 
-            </motion.p>
             <motion.div
               whileInView={{ opacity: 1 }}
               initial={{ opacity: 0 }}
