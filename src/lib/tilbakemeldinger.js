@@ -21,16 +21,7 @@ export const tilbakemeldingerData = [
       place: 'Haslum krematorium',
     },
   },
-  {
-    artist: 'Nils Georg Nilsen',
-    body: 'Hei! En stor takk for vakker sang og musikk fra deg og de andre i min mors bisettelse i går! Det var så vakkert og stemningsfullt, og vi satte stor pris på deres bidrag!',
-    image:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/testimonials/flower_card_14_copy_ggah1e.webp',
-    author: {
-      name: 'Kristina',
-      place: 'Høybråten kirke',
-    },
-  },
+  
   {
     artist: 'Nils Georg Nilsen',
     body: 'Hei Nils, ‘En verdig begravelse’, ‘Jeg fikk sånn ro med en gang sangeren begynte å synge’, ‘Det varmet sjelen’, var noen av de tilbakemeldingene vi fikk. Tusen takk igjen for flott musikk. Jeg må si spesielt til ‘stjernen’ som du ble omtalt, Nils. Vi er så glade for at vi fikk dere som musikere til begravelsen til faren vår.',
@@ -63,12 +54,22 @@ export const tilbakemeldingerData = [
   },
   {
     artist: 'Nils Georg Nilsen',
-    body: 'Du sang i gravferden til min sønn i Vestre gravlunds kapell sist tirsdag. Vi fikk ikke hilst på deg og takket for bidraget og fortalt hvor fornøyd vi, og alle andre vi snakket med, var med fremførelsen. Du sang nydelig og bidrog til en vakker og verdig avskjed. Takk!',
+    body: 'Tusen takk for en verdig og flott framføring av sanger i min mors bisettelse i dag. For en fantastisk sangstemme du har! Alle uttrykte stor beundring for din prestasjon.',
     image:
       'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/testimonials/flower_card_7_copy_whcqv9.webp',
     author: {
-      name: 'Torbjørn',
-      place: 'Vestre gravlunds kapell',
+      name: 'Cecilie og Anders',
+      place: 'Nittedal kirke',
+    },
+  },
+  {
+    artist: 'Nils Georg Nilsen',
+    body: 'Hei! En stor takk for vakker sang og musikk fra deg og de andre i min mors bisettelse i går! Det var så vakkert og stemningsfullt, og vi satte stor pris på deres bidrag!',
+    image:
+      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/testimonials/flower_card_14_copy_ggah1e.webp',
+    author: {
+      name: 'Kristina',
+      place: 'Høybråten kirke',
     },
   },
   // Jan-Tore Saltnes
