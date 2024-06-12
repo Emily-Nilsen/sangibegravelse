@@ -10,18 +10,18 @@ export function HeroNilsGeorg() {
     <div className="bg-amber-50 ">
       <div className="relative grid grid-cols-1 overflow-hidden isolate pt-14 sm:grid-cols-2">
         <Image
-          src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/NG_profile_mobile_kbfder.webp"
+          src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1718180631/Sang%20i%20begravelse/NG_profile_mobile_v2_cropped_jxxv2x.webp"
           alt="Nils Georg Nilsen"
-          width={2073}
-          height={1887}
+          width={900}
+          height={1125}
           className="absolute inset-0 object-cover w-full h-full sm:hidden -z-10"
           priority
         />
         <Image
-          src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/NG_profile_ho4l6x.webp"
+          src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/NG_profile_desktop_lg_kr8fmw.webp"
           alt="Nils Georg Nilsen"
-          width={2830}
-          height={1887}
+          width={3840}
+          height={2160}
           className="absolute inset-0 hidden object-cover w-full h-full sm:block -z-10"
           priority
         />
@@ -43,6 +43,7 @@ export function HeroNilsGeorg() {
               }}
               className="hidden px-10 mx-auto mt-6 leading-8 text-gray-600 max-w-[100px] sm:px-0 sm:max-w-lg sm:text-lg lg:max-w-xl sm:mx-0 sm:block "
             >
+              
               Allsidig sanger med imponerende prestasjoner og et omfattende
               operarepertoar.
             </motion.p>

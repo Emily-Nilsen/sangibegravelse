@@ -32,8 +32,10 @@ export function NilsGeorg() {
             }}
             className="mt-6 text-xl leading-8 text-gray-700"
           >
-            Sangeren Nils Georg Nilsen er en imponerende artist med en
-            mangfoldig karriere.
+            {/* Sangeren Nils Georg Nilsen er en imponerende artist med en
+            mangfoldig karriere. */}
+            En ettertraktet stemme som når rett inn i hjertet.
+            
           </motion.p>
         </div>
         <div className="grid max-w-2xl grid-cols-1 mx-auto mt-16 gap-x-8 gap-y-16 lg:mx-0 lg:mt-10 lg:max-w-none lg:grid-cols-12">
@@ -77,10 +79,7 @@ export function NilsGeorg() {
                 type: 'fade',
               }}
             >
-              Etter å ha fullført sin mastergrad ved Manhattan School of Music
-              debuterte han ved Lincoln Center i New York. Han har nylig
-              opptrådt som solist med Chicago Symphony Orchestra og har sunget
-              med den israelske operaen.
+              Nils Georg Nilsen er kjent for sin varme og kraftfulle sangstemme. Han har et stort spekter i dynamiske forskjeller som gjør at han favner et bredt repertoar med en god sjangerforståelse. Alt fra vise og pop til Sinatra og opera.
             </motion.p>
 
             <motion.p
@@ -98,6 +97,32 @@ export function NilsGeorg() {
               sang ved Galamian Academy of Classical Music i Málaga, Spania.
             </motion.p>
 
+            <motion.figure whileInView={{ opacity: 1 }}
+              initial={{ opacity: 0 }}
+              transition={{
+                delay: 0.5,
+                duration: 1,
+                type: 'fade',
+              }} className="mt-10 border-l border-slate-400 pl-9">
+            <blockquote className="font-semibold text-gray-900">
+              <p>
+              «Jeg elsker å synge i begravelser, spesielt fordi jeg ser hvordan sangen berører mennesker i en sårbar situasjon. Musikken skaper varme og samhold»
+              </p>
+            </blockquote>
+            <figcaption className="flex mt-6 gap-x-4">
+              <Image
+                className="flex-none w-6 h-6 rounded-full bg-gray-50"
+                src="https://res.cloudinary.com/dt3k2apqd/image/upload/w_100,h_100,q_auto/Nils%20Georg/general/about-profile-img_z38xiz.jpg"
+                alt="Nils Georg Nilsen"
+                width={485}
+                height={485}
+              />
+              <div className="text-sm leading-6">
+                <strong className="font-semibold text-gray-900">Nils Georg Nilsen</strong> 
+              </div>
+            </figcaption>
+          </motion.figure>
+
             <motion.p
               whileInView={{ opacity: 1 }}
               initial={{ opacity: 0 }}
@@ -108,10 +133,7 @@ export function NilsGeorg() {
               }}
               className="mt-6"
             >
-              I tillegg til å være en ettertraktet solist synger Nils Georg til
-              daglig i Nordic Tenors. Trioen opptrer med over 60 konserter i
-              året, de har vært kongelige toastmastere, åpnet Den Norske Opera
-              og Ballet og har også vunnet komiprisen.
+              Han har lang erfaring med sang i begravelser og synger i den anerkjente tenorgruppen, Nordic Tenors. I tillegg hyres han ofte inn som solist og har sunget konserter over hele verden og vært solist med bl.a Chicago Symphony Ochestra og vært med i en rekke oppsetninger. 
             </motion.p>
             <motion.div
               whileInView={{ opacity: 1 }}
