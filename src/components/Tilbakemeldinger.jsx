@@ -8,7 +8,7 @@ export function Tilbakemeldinger({ artistName }) {
   );
 
   return (
-    <div className="py-24 bg-white sm:py-32">
+    <div className="py-0 bg-white sm:pb-32">
       <div className="px-6 mx-auto max-w-7xl lg:px-8">
         <div className="max-w-xl mx-auto text-center">
           <h6 className="hidden mt-2 text-6xl text-gray-900 sm:block">

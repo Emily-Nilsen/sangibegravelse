@@ -7,9 +7,10 @@ import {
   ServerIcon,
 } from '@heroicons/react/20/solid';
 
+
 export function NilsGeorg() {
   return (
-    <div className="relative py-24 overflow-hidden bg-white isolate sm:py-32">
+    <div className="relative pt-24 pb-16 overflow-hidden bg-white isolate sm:py-32">
       <div
         className="absolute -top-80 left-[max(6rem,33%)] -z-10 transform-gpu blur-3xl sm:left-1/2 md:top-20 lg:ml-20 xl:top-3 xl:ml-56"
         aria-hidden="true"
@@ -136,6 +137,7 @@ export function NilsGeorg() {
               </div>
             </figcaption>
           </motion.figure>
+          
             <motion.div
               whileInView={{ opacity: 1 }}
               initial={{ opacity: 0 }}
@@ -144,7 +146,7 @@ export function NilsGeorg() {
                 duration: 1,
                 type: 'fade',
               }}
-              className="my-6"
+              className="mt-12 mb-6"
             >
               <Link
                 href="https://www.nilsnilsentenor.com/"
@@ -163,7 +165,7 @@ export function NilsGeorg() {
                 duration: 1,
                 type: 'fade',
               }}
-              className="my-6"
+              className="my-6 mb-12"
             >
               <Link
                 href="https://www.nordictenors.no/"
