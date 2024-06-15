@@ -68,7 +68,7 @@ export default function Kontakt() {
           </div>
           <form
             action="#"
-            subject="Kontakt Sang i begravelse"
+            // subject="Kontakt Sang i begravelse"
             name="Sang i begravelse - Kontakt skjema"
             data-netlify="true"
             method="POST"
