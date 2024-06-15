@@ -65,7 +65,7 @@ export default function Test() {
             </motion.p>
           </div>
           <form
-            action=""
+            action="/success"
             subject="Kontakt Sang i begravelse"
             name="Sang i begravelse - Test form"
             data-netlify="true"
