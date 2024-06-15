@@ -49,7 +49,7 @@ export default function Test() {
             aria-hidden="true"
           ></div>
           <div className="max-w-2xl mx-auto text-center">
-            <h6 className="text-5xl text-gray-900 sm:text-6xl">Test page</h6>
+            <h6 className="text-5xl text-gray-900 sm:text-6xl">Test Page</h6>
             <motion.p
               whileInView={{ opacity: 1 }}
               initial={{ opacity: 0 }}
