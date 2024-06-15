@@ -70,7 +70,8 @@ export default function Kontakt() {
             action="#"
             // subject="Kontakt Sang i begravelse"
             name="Sang i begravelse - Kontakt skjema"
-            data-netlify="true"
+            // data-netlify="true"
+            netlify
             method="POST"
             className="max-w-xl mx-auto mt-16 sm:mt-20"
           >
