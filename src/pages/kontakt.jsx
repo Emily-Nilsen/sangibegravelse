@@ -2,8 +2,6 @@ import Head from 'next/head';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 import Link from 'next/link';
-import { useState } from 'react';
-import { ChevronDownIcon } from '@heroicons/react/20/solid';
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ');
@@ -67,7 +65,7 @@ export default function Kontakt() {
             </motion.p>
           </div>
           <form
-            // action="#"
+            action=""
             subject="Kontakt Sang i begravelse"
             name="Sang i begravelse - Kontakt skjema"
             data-netlify="true"
@@ -175,8 +173,6 @@ export default function Kontakt() {
                   />
                 </div>
               </div>
-              {/* Agree */}
-{/* 
               <fieldset className="flex mt-6 gap-x-4 sm:col-span-2">
                 <div className="space-y-8">
                   <div className="relative flex items-start">
@@ -206,7 +202,7 @@ export default function Kontakt() {
                     </div>
                   </div>
                 </div>
-              </fieldset> */}
+              </fieldset>
             </div>
             <div className="mt-10">
               <button
