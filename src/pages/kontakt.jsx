@@ -176,7 +176,7 @@ export default function Kontakt() {
                 </div>
               </div>
               {/* Agree */}
-
+{/* 
               <fieldset className="flex mt-6 gap-x-4 sm:col-span-2">
                 <div className="space-y-8">
                   <div className="relative flex items-start">
@@ -206,7 +206,7 @@ export default function Kontakt() {
                     </div>
                   </div>
                 </div>
-              </fieldset>
+              </fieldset> */}
             </div>
             <div className="mt-10">
               <button
