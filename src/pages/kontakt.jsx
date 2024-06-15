@@ -65,9 +65,9 @@ export default function Kontakt() {
             </motion.p>
           </div>
           <form
-            action=""
+            action="#"
             subject="Kontakt Sang i begravelse"
-            name="Sang i begravelse - Kontakt skjema"
+            name="Sang i begravelse - Kontaktskjema"
             data-netlify="true"
             method="POST"
             className="max-w-xl mx-auto mt-16 sm:mt-20"
@@ -75,7 +75,7 @@ export default function Kontakt() {
             <input
               type="hidden"
               name="form-name"
-              value="Sang i begravelse - Kontakt skjema"
+              value="Sang i begravelse - Kontaktskjema"
             />
             <input
               type="hidden"
