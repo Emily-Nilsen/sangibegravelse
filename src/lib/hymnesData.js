@@ -1302,6 +1302,9 @@ const hymnes = [
     tittel: 'Å leva, det er å elska (Salme 666)',
     lyrics: 'Anders Vassbotn 1892)',
     melody: 'Per Steenberg (1923)',
+    audio: true,
+    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1718708874/Sang%20i%20begravelse/Audio/A%CC%8A_leva_det_er_a%CC%8A_elska_fz04tu.mp3`,
+    performers: ['Nils Georg Nilsen'],
     tekst: [
       'Å leva, det er å elska',
       'det beste di sjel fekk nå,',
