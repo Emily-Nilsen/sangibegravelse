@@ -35,6 +35,9 @@ const fellessanger = [
     tittel: 'Danse mi vise',
     lyrics: `Einar Skjæråsen (1949)`,
     melody: `Torild Goksøyr`,
+    audio: true,
+    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1718703082/Sang%20i%20begravelse/Audio/Danse_mi_vise_v22ay2.mp3`,
+    performers: ['Nils Georg Nilsen'],
     tekst: [
       'Vinden blæs synna, og vinden blæs norda',
       'Lyset og skuggen er syskjen på jorda',
@@ -61,6 +64,9 @@ const fellessanger = [
     tittel: 'De nære ting',
     lyrics: `A. Paasche Aasen`,
     melody: `Kurt Foss og Reidar Bøe`,
+    audio: true,
+    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1718703255/Sang%20i%20begravelse/Audio/De_n%C3%A6re_ting_vjflkq.mp3`,
+    performers: ['Nils Georg Nilsen'],
     tekst: [
       'Ditt sinn monne flyve,',
       'Så vide omkring,',
@@ -147,6 +153,9 @@ const fellessanger = [
     tittel: 'Din tanke er fri',
     lyrics: `A. Cranner`,
     melody: `Tysk folketone`,
+    audio: true,
+    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1718703351/Sang%20i%20begravelse/Audio/Din_tanke_er_fri_ae1hxh.mp3`,
+    performers: ['Nils Georg Nilsen'],
     tekst: [
       'Din tanke er fri,',
       'Hvem tror du den finner.',
@@ -175,6 +184,9 @@ const fellessanger = [
     tittel: 'For siste gang',
     lyrics: `Eivind Skeie`,
     melody: `Sigvald Tveit`,
+    audio: true,
+    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1718703458/Sang%20i%20begravelse/Audio/For_siste_gang_vqjceq.mp3`,
+    performers: ['Nils Georg Nilsen'],
     tekst: [
       'Døren låses porten lukkes',
       'Alt er gjort for aller siste gang',
@@ -286,6 +298,9 @@ const fellessanger = [
     tittel: 'Nocturne',
     lyrics: `Evert Taube`,
     melody: `Evert Taube`,
+    audio: true,
+    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1718703611/Sang%20i%20begravelse/Audio/Nocturne_tiirkp.mp3`,
+    performers: ['Nils Georg Nilsen'],
     tekst: [
       'Sov på min arm! Natten gömmer',
       'Under sin vinge din blossande kind',
