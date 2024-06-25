@@ -347,7 +347,7 @@ const fellessanger = [
     lyrics: `Evert Taube`,
     melody: `Evert Taube`,
     audio: true,
-    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1717670676/Sang%20i%20begravelse/Audio/Vem_kan_segla_ijybpp.mp3`,
+    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1719323527/Sang%20i%20begravelse/Audio/Sa%CC%8A_skimrande_tivblm.mp3`,
     performers: ['Nils Georg Nilsen'],
     tekst: [
       'Så skimrande var aldrig havet',
