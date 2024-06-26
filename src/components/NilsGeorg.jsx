@@ -56,15 +56,14 @@ export function NilsGeorg() {
             <figure className="pl-8 border-l border-slate-600">
               <blockquote className="text-xl font-semibold leading-8 tracking-tight text-gray-900">
                 <p>
-                  “He possesses an attractive, lyrical tenor voice, with an
-                  exceptional clarity, and distinct and expressive timbre.”
+                «Jeg har samarbeidet med Nils Georg i mange år ved gravferder og konserter. Hans allsidige og mektige stemme mestrer alle sjangere strålende, og hans sjarm og utstråling imponerer alle. Han er svært lett å samarbeide med, og jeg gir ham mine beste anbefalinger.»
                 </p>
               </blockquote>
               <figcaption className="flex mt-8 gap-x-4">
                 <div className="text-sm leading-6">
-                  <div className="font-semibold text-gray-900">John Lidal</div>
+                  <div className="font-semibold text-gray-900">Lars Arnevig</div>
                   <div className="text-gray-600">
-                    Den Norske Opera & Ballett, Oslo
+                    Heggedal
                   </div>
                 </div>
               </figcaption>
