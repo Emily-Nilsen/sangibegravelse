@@ -89,6 +89,7 @@ export default function Kontakt() {
             </motion.p>
           </div>
           <form
+            action="/submit.html"
             name="Sang i begravelse - Kontaktskjema"
             data-netlify="true"
             method="POST"
