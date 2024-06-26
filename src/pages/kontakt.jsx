@@ -1,13 +1,37 @@
+import { useState } from 'react';
 import Head from 'next/head';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 import Link from 'next/link';
 
-function classNames(...classes) {
-  return classes.filter(Boolean).join(' ');
-}
-
 export default function Kontakt() {
+  const [status, setStatus] = useState(null);
+
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+    const form = event.target;
+    const formData = new FormData(form);
+
+    try {
+      const response = await fetch('/', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/x-www-form-urlencoded',
+        },
+        body: new URLSearchParams(formData).toString(),
+      });
+
+      if (response.ok) {
+        setStatus('ok');
+        form.reset();
+      } else {
+        setStatus('error');
+      }
+    } catch (error) {
+      setStatus('error');
+    }
+  };
+
   return (
     <>
       <Head>
@@ -68,6 +92,7 @@ export default function Kontakt() {
             name="Sang i begravelse - Kontaktskjema"
             data-netlify="true"
             method="POST"
+            onSubmit={handleSubmit}
             className="max-w-xl mx-auto mt-16 sm:mt-20"
           >
             <input
@@ -210,10 +235,15 @@ export default function Kontakt() {
                 Send
               </button>
             </div>
+            {status === 'ok' && (
+              <p className="mt-3 text-sm text-green-600">Meldingen ble sendt!</p>
+            )}
+            {status === 'error' && (
+              <p className="mt-3 text-sm text-red-600">Noe gikk galt. Vennligst prøv igjen.</p>
+            )}
           </form>
         </div>
       </section>
     </>
   );
 }
-
