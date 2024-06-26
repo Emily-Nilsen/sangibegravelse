@@ -23,6 +23,7 @@ export function NilsGeorg() {
           <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
             Nils Georg Nilsen
           </h1>
+          {/* Mobile */}
           <motion.p
             whileInView={{ opacity: 1 }}
             initial={{ opacity: 0 }}
@@ -31,11 +32,24 @@ export function NilsGeorg() {
               duration: 1,
               type: 'fade',
             }}
-            className="mt-6 text-xl leading-8 text-gray-700"
+            className="mt-6 text-xl leading-8 text-gray-700 sm:hidden"
           >
-            {/* Sangeren Nils Georg Nilsen er en imponerende artist med en
-            mangfoldig karriere. */}
+            
             En ettertraktet stemme som når rett inn i hjertet.
+            
+          </motion.p>
+          <motion.p
+            whileInView={{ opacity: 1 }}
+            initial={{ opacity: 0 }}
+            transition={{
+              delay: 0.5,
+              duration: 1,
+              type: 'fade',
+            }}
+            className="hidden mt-6 text-xl leading-8 text-gray-700 sm:block"
+          >
+            
+            Nils Georg Nilsen er kjent for sin varme og kraftfulle sangstemme. 
             
           </motion.p>
         </div>
@@ -63,14 +77,19 @@ export function NilsGeorg() {
                 <div className="text-sm leading-6">
                   <div className="font-semibold text-gray-900">Lars Arnevig</div>
                   <div className="text-gray-600">
-                    Heggedal
+                  Driftsleder Haslum Krematorium
+                  </div>
+                  <div className="text-gray-500">
+                  Tidligere gravferdskonsulent og musiker
                   </div>
                 </div>
               </figcaption>
             </figure>
           </motion.div>
           <div className="max-w-xl text-base leading-7 text-gray-700 lg:col-span-7">
+            {/* Mobile */}
             <motion.p
+            className='sm:hidden'
               whileInView={{ opacity: 1 }}
               initial={{ opacity: 0 }}
               transition={{
@@ -81,8 +100,9 @@ export function NilsGeorg() {
             >
               Nils Georg Nilsen er kjent for sin varme og kraftfulle sangstemme. Han har et stort spekter i dynamiske forskjeller som gjør at han favner et bredt repertoar med en god sjangerforståelse. Alt fra vise og pop til Sinatra og opera.
             </motion.p>
-
-            {/* <motion.p
+            {/* Desktop */}
+            <motion.p
+            className='hidden sm:block'
               whileInView={{ opacity: 1 }}
               initial={{ opacity: 0 }}
               transition={{
@@ -90,12 +110,9 @@ export function NilsGeorg() {
                 duration: 1,
                 type: 'fade',
               }}
-              className="mt-8"
             >
-              Nils Georg har deltatt på festivaler og konserter både i Norge og
-              internasjonalt, inkludert Málaga Clásica. Han er også professor i
-              sang ved Galamian Academy of Classical Music i Málaga, Spania.
-            </motion.p> */}
+              Han har et stort spekter i dynamiske forskjeller som gjør at han favner et bredt repertoar med en god sjangerforståelse. Alt fra vise og pop til Sinatra og opera.
+            </motion.p>
 
             
 
@@ -145,7 +162,7 @@ export function NilsGeorg() {
                 duration: 1,
                 type: 'fade',
               }}
-              className="mt-12 mb-6"
+              className="mt-12 -mb-14"
             >
               <Link
                 href="https://www.nilsnilsentenor.com/"
@@ -164,7 +181,7 @@ export function NilsGeorg() {
                 duration: 1,
                 type: 'fade',
               }}
-              className="my-6 mb-12"
+              className="my-6 mb-24"
             >
               <Link
                 href="https://www.nordictenors.no/"

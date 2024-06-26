@@ -3,6 +3,9 @@ const fellessanger = [
     tittel: 'Barn av regnbuen',
     lyrics: `Lillebjørn Nilsen`,
     melody: `Pete Seeger`,
+    audio: true,
+    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1719396875/Sang%20i%20begravelse/Audio/Barn_av_regnbuen_wz5tfo.mp3`,
+    performers: ['Nils Georg Nilsen'],
     tekst: [
       'En himmel full av stjerner.',
       'Blått hav så langt du ser.',
