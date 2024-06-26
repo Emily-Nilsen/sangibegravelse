@@ -131,7 +131,7 @@ export function Footer() {
               &copy; {new Date().getFullYear()} Sang i begravelse.
             </p>
           </div>
-          <div className="flex text-xs leading-5 text-gray-500">
+          {/* <div className="flex text-xs leading-5 text-gray-500">
             <p>
               Utviklet av{' '}
               <span>
@@ -145,7 +145,7 @@ export function Footer() {
                 </Link>
               </span>
             </p>
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>
