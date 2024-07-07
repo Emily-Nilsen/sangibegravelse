@@ -162,7 +162,7 @@ export function NilsGeorg() {
                 duration: 1,
                 type: 'fade',
               }}
-              className="mt-12 -mb-14"
+              className="mt-12 -mb-0"
             >
               <Link
                 href="https://www.nilsnilsentenor.com/"
@@ -181,7 +181,7 @@ export function NilsGeorg() {
                 duration: 1,
                 type: 'fade',
               }}
-              className="my-6 mb-24"
+              className="my-6 mb-16"
             >
               <Link
                 href="https://www.nordictenors.no/"
