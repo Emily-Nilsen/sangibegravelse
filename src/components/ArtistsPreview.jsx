@@ -13,8 +13,7 @@ const people = [
   {
     name: 'Nils Georg Nilsen',
     role: 'Sanger',
-    imageUrl:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Nils%20Georg/general/about-profile-img_z38xiz.jpg',
+    imageUrl: '/images/artists/nils-georg-square.webp',
     profileUrl: '/nils-georg-nilsen',
   },
   {
@@ -37,6 +36,12 @@ const people = [
     imageUrl:
       'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/artists/PortrettEspenSolsbak_copy_tapdim.webp',
     profileUrl: '/espen-solsbak',
+  },
+  {
+    name: 'Sebastian Haugen',
+    role: 'Bassist',
+    imageUrl: '/images/artists/sebastian_haugen_square.webp',
+    profileUrl: '/sebastian-haugen',
   },
 ];
 

@@ -2,7 +2,34 @@ import Head from 'next/head';
 
 import { HeroSusanne } from '@/components/HeroSusanne';
 import { Susanne } from '@/components/Susanne';
+import { ArtistSamples } from '@/components/ArtistSamples';
 import { Tilbakemeldinger } from '../components/Tilbakemeldinger';
+
+const features = [
+  {
+    title: 'Hvem jeg er',
+    description: 'En pop sang av Christian Heggen.',
+    audio: true,
+    audioUrl: '/audio/Hvem_Jeg_Er.mp3',
+  },
+  {
+    title: 'Ach, ich fühl’s',
+    description: 'En klassisk sang av Wolfgang Amadeus Mozart.',
+    audio: true,
+    audioUrl: '/audio/Ach_ich_fuhls.mp3',
+  },
+  {
+    title: 'Kjærlighet',
+    description: 'En pop sang av Vladimir Cosma og Rolf Tofte.',
+    audio: true,
+    audioUrl: '/audio/kjærlighet.mp3',
+  },
+];
+
+const imageUrl = '/images/artists/susanne-singing.webp';
+const imageAlt = 'Susanne Hvinden Hals';
+const subtitle = 'Allsidig repertoar fra';
+const title = 'Pop til opera';
 
 export default function SusanneHvindenHals() {
   return (
@@ -26,6 +53,13 @@ export default function SusanneHvindenHals() {
         <main>
           <HeroSusanne />
           <Susanne />
+          <ArtistSamples
+            features={features}
+            imageUrl={imageUrl}
+            imageAlt={imageAlt}
+            subtitle={subtitle}
+            title={title}
+          />
           <Tilbakemeldinger artistName="Susanne Hvinden Hals" />
         </main>
       </div>

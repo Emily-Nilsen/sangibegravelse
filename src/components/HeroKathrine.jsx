@@ -53,7 +53,7 @@ export function HeroKathrine() {
                 <span className="sm:hidden">Repertoar</span>
               </Link>
               <Link
-                href="/#artister"
+                href="/artister"
                 className="hidden text-sm font-semibold leading-6 transition-all duration-150 ease-in-out text-slate-600 hover:text-slate-700 sm:block"
               >
                 Tilbake til artister <span aria-hidden="true">→</span>

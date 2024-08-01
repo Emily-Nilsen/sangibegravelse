@@ -45,7 +45,6 @@ export function HeroNilsGeorg() {
               }}
               className="hidden px-10 mx-auto mt-6 leading-8 text-gray-300 max-w-[100px] sm:px-0 sm:max-w-lg sm:text-lg lg:max-w-xl sm:mx-0 sm:block "
             >
-              
               En ettertraktet stemme som når rett inn i hjertet.
             </motion.p>
 
@@ -58,7 +57,7 @@ export function HeroNilsGeorg() {
                 <span className="sm:hidden">Repertoar</span>
               </Link>
               <Link
-                href="/#artister"
+                href="/artister"
                 className="hidden text-sm font-semibold leading-6 transition-all duration-150 ease-in-out text-slate-400 hover:text-slate-300 sm:block"
               >
                 Tilbake til artister <span aria-hidden="true">→</span>

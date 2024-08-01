@@ -40,8 +40,8 @@ export function Kathrine() {
             }}
             className="mt-6 text-xl leading-8 text-gray-700"
           >
-            Kathrine Hvinden Hals er utdannet ved Barratt Due Musikkinstitutt i
-            Oslo og Royal College of Music i London.
+            Med sin varme og kraftfulle klang er hun fiolinisten som beriker og
+            berører enhver seremoni.
           </motion.p>
         </div>
         <div className="grid max-w-2xl grid-cols-1 mx-auto mt-16 gap-x-8 gap-y-16 lg:mx-0 lg:mt-10 lg:max-w-none lg:grid-cols-12">
@@ -90,10 +90,8 @@ export function Kathrine() {
                 type: 'fade',
               }}
             >
-              Kathrines talent har blitt anerkjent gjennom flere 1. priser i
-              Norges musikkmesterskap, samt deltakelse på prestisjefylte
-              musikkfestivaler som Valdres sommersymfoni og Margess
-              internasjonale musikkfestival i Sveits.
+              Ikke bare er hun en strålende solist, men hun kan også legge
+              nydelige andrestemmer til sangere som gir musikken et løft.
             </motion.p>
 
             <motion.p
@@ -106,12 +104,8 @@ export function Kathrine() {
               }}
               className="mt-8"
             >
-              I tillegg til sin imponerende solokarriere, deler Kathrine sin
-              lidenskap for musikk gjennom undervisning både nasjonalt og
-              internasjonalt. Hun har en betydelig konsertportefølje, inkludert
-              en minneverdig soloturné med Kjetil Veas ‘Andante’ i 2003/2004, og
-              deltakelse på Alexander Rybaks internasjonale konsertturné etter
-              hans Grand Prix-seier i 2010.
+              Ved siden av klassisk musikk mestrer hun de fleste sjangre og har
+              vært solist og spilt med kjente artister verden rundt.
             </motion.p>
 
             <motion.p
@@ -124,10 +118,9 @@ export function Kathrine() {
               }}
               className="mt-6"
             >
-              Med en imponerende rekke solistoppdrag for ulike orkestre, samt
-              jevnlige opptredener på både offentlige og private arrangementer,
-              fortsetter Kathrine å berike musikkverdenen med sitt strålende
-              talent.
+              Sammen med sin søster, Susanne Hvinden Hals, har de Søstrene Hals
+              som er en ettertraktet duo der de kombinerer klassiske perler med
+              det mer moderne.
             </motion.p>
             <motion.div
               whileInView={{ opacity: 1 }}
@@ -137,7 +130,7 @@ export function Kathrine() {
                 duration: 1,
                 type: 'fade',
               }}
-              className="my-6"
+              className="mt-12 mb-16"
             >
               <Link
                 href="https://www.sostrenehals.com/"

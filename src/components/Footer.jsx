@@ -13,11 +13,11 @@ const navigation = {
     { name: 'Kathrine Hals', href: '/kathrine-hvinden-hals' },
     { name: 'Jan-Tore Saltnes', href: '/jan-tore-saltnes' },
     { name: 'Espen Solsbak', href: '/espen-solsbak' },
+    { name: 'Sebastian Haugen', href: '/sebastian-haugen' },
   ],
 
   omOss: [
     { name: 'Hjem', href: '/' },
-    // { name: 'Tilbakemeldinger', href: '/tilbakemeldinger' },
     { name: 'Kontakt', href: '/kontakt' },
   ],
   personvern: [{ name: 'Personvernerklæring', href: '/personvernerklaering' }],
@@ -131,21 +131,6 @@ export function Footer() {
               &copy; {new Date().getFullYear()} Sang i begravelse.
             </p>
           </div>
-          {/* <div className="flex text-xs leading-5 text-gray-500">
-            <p>
-              Utviklet av{' '}
-              <span>
-                <Link
-                  href="https://norsknett.no"
-                  target="_blank"
-                  rel="noopener"
-                  className="cursor-pointer hover:underline"
-                >
-                  Norsk Nett
-                </Link>
-              </span>
-            </p>
-          </div> */}
         </div>
       </div>
     </footer>

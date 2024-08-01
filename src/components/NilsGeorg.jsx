@@ -7,7 +7,6 @@ import {
   ServerIcon,
 } from '@heroicons/react/20/solid';
 
-
 export function NilsGeorg() {
   return (
     <div className="relative pt-24 pb-16 overflow-hidden bg-white isolate sm:py-32">
@@ -34,9 +33,7 @@ export function NilsGeorg() {
             }}
             className="mt-6 text-xl leading-8 text-gray-700 sm:hidden"
           >
-            
             En ettertraktet stemme som når rett inn i hjertet.
-            
           </motion.p>
           <motion.p
             whileInView={{ opacity: 1 }}
@@ -48,9 +45,7 @@ export function NilsGeorg() {
             }}
             className="hidden mt-6 text-xl leading-8 text-gray-700 sm:block"
           >
-            
-            Nils Georg Nilsen er kjent for sin varme og kraftfulle sangstemme. 
-            
+            Nils Georg Nilsen er kjent for sin varme og kraftfulle sangstemme.
           </motion.p>
         </div>
         <div className="grid max-w-2xl grid-cols-1 mx-auto mt-16 gap-x-8 gap-y-16 lg:mx-0 lg:mt-10 lg:max-w-none lg:grid-cols-12">
@@ -70,17 +65,23 @@ export function NilsGeorg() {
             <figure className="pl-8 border-l border-slate-600">
               <blockquote className="text-xl font-semibold leading-8 tracking-tight text-gray-900">
                 <p>
-                «Jeg har samarbeidet med Nils Georg i mange år ved gravferder og konserter. Hans allsidige og mektige stemme mestrer alle sjangere strålende, og hans sjarm og utstråling imponerer alle. Han er svært lett å samarbeide med, og jeg gir ham mine beste anbefalinger.»
+                  «Jeg har samarbeidet med Nils Georg i mange år ved gravferder
+                  og konserter. Hans allsidige og mektige stemme mestrer alle
+                  sjangere strålende, og hans sjarm og utstråling imponerer
+                  alle. Han er svært lett å samarbeide med, og jeg gir ham mine
+                  beste anbefalinger.»
                 </p>
               </blockquote>
               <figcaption className="flex mt-8 gap-x-4">
                 <div className="text-sm leading-6">
-                  <div className="font-semibold text-gray-900">Lars Arnevig</div>
+                  <div className="font-semibold text-gray-900">
+                    Lars Arnevig
+                  </div>
                   <div className="text-gray-600">
-                  Driftsleder Haslum Krematorium
+                    Driftsleder Haslum Krematorium
                   </div>
                   <div className="text-gray-500">
-                  Tidligere gravferdskonsulent og musiker
+                    Tidligere gravferdskonsulent og musiker
                   </div>
                 </div>
               </figcaption>
@@ -89,7 +90,7 @@ export function NilsGeorg() {
           <div className="max-w-xl text-base leading-7 text-gray-700 lg:col-span-7">
             {/* Mobile */}
             <motion.p
-            className='sm:hidden'
+              className="sm:hidden"
               whileInView={{ opacity: 1 }}
               initial={{ opacity: 0 }}
               transition={{
@@ -98,11 +99,14 @@ export function NilsGeorg() {
                 type: 'fade',
               }}
             >
-              Nils Georg Nilsen er kjent for sin varme og kraftfulle sangstemme. Han har et stort spekter i dynamiske forskjeller som gjør at han favner et bredt repertoar med en god sjangerforståelse. Alt fra vise og pop til Sinatra og opera.
+              Nils Georg Nilsen er kjent for sin varme og kraftfulle sangstemme.
+              Han har et stort spekter i dynamiske forskjeller som gjør at han
+              favner et bredt repertoar med en god sjangerforståelse. Alt fra
+              vise og pop til Sinatra og opera.
             </motion.p>
             {/* Desktop */}
             <motion.p
-            className='hidden sm:block'
+              className="hidden sm:block"
               whileInView={{ opacity: 1 }}
               initial={{ opacity: 0 }}
               transition={{
@@ -111,10 +115,10 @@ export function NilsGeorg() {
                 type: 'fade',
               }}
             >
-              Han har et stort spekter i dynamiske forskjeller som gjør at han favner et bredt repertoar med en god sjangerforståelse. Alt fra vise og pop til Sinatra og opera.
+              Han har et stort spekter i dynamiske forskjeller som gjør at han
+              favner et bredt repertoar med en god sjangerforståelse. Alt fra
+              vise og pop til Sinatra og opera.
             </motion.p>
-
-            
 
             <motion.p
               whileInView={{ opacity: 1 }}
@@ -126,34 +130,45 @@ export function NilsGeorg() {
               }}
               className="mt-6"
             >
-              Han har lang erfaring med sang i begravelser og synger i den anerkjente tenorgruppen, Nordic Tenors. I tillegg hyres han ofte inn som solist og har sunget konserter over hele verden og vært solist med bl.a Chicago Symphony Ochestra og vært med i en rekke oppsetninger. 
+              Han har lang erfaring med sang i begravelser og synger i den
+              anerkjente tenorgruppen, Nordic Tenors. I tillegg hyres han ofte
+              inn som solist og har sunget konserter over hele verden og vært
+              solist med bl.a Chicago Symphony Ochestra og vært med i en rekke
+              oppsetninger.
             </motion.p>
-            <motion.figure whileInView={{ opacity: 1 }}
+            <motion.figure
+              whileInView={{ opacity: 1 }}
               initial={{ opacity: 0 }}
               transition={{
                 delay: 0.5,
                 duration: 1,
                 type: 'fade',
-              }} className="mt-10 border-l border-slate-400 pl-9">
-            <blockquote className="font-semibold text-gray-900">
-              <p>
-              «Jeg elsker å synge i begravelser, spesielt fordi jeg ser hvordan sangen berører mennesker i en sårbar situasjon. Musikken skaper varme og samhold»
-              </p>
-            </blockquote>
-            <figcaption className="flex mt-6 gap-x-4">
-              <Image
-                className="flex-none w-6 h-6 rounded-full bg-gray-50"
-                src="https://res.cloudinary.com/dt3k2apqd/image/upload/w_100,h_100,q_auto/Nils%20Georg/general/about-profile-img_z38xiz.jpg"
-                alt="Nils Georg Nilsen"
-                width={485}
-                height={485}
-              />
-              <div className="text-sm leading-6">
-                <strong className="font-semibold text-gray-900">Nils Georg Nilsen</strong> 
-              </div>
-            </figcaption>
-          </motion.figure>
-          
+              }}
+              className="mt-10 border-l border-slate-400 pl-9"
+            >
+              <blockquote className="font-semibold text-gray-900">
+                <p>
+                  «Jeg elsker å synge i begravelser, spesielt fordi jeg ser
+                  hvordan sangen berører mennesker i en sårbar situasjon.
+                  Musikken skaper varme og samhold»
+                </p>
+              </blockquote>
+              <figcaption className="flex mt-6 gap-x-4">
+                <Image
+                  className="flex-none object-cover w-6 h-6 rounded-full bg-gray-50"
+                  src="/images/artists/NG-square.webp"
+                  alt="Nils Georg Nilsen"
+                  width={485}
+                  height={485}
+                />
+                <div className="text-sm leading-6">
+                  <strong className="font-semibold text-gray-900">
+                    Nils Georg Nilsen
+                  </strong>
+                </div>
+              </figcaption>
+            </motion.figure>
+
             <motion.div
               whileInView={{ opacity: 1 }}
               initial={{ opacity: 0 }}

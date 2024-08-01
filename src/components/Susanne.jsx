@@ -40,8 +40,7 @@ export function Susanne() {
             }}
             className="mt-6 text-xl leading-8 text-gray-700"
           >
-            Susanne Hvinden Hals er en talentfull og allsidig sanger fra Oslo
-            med en fortryllende, svevende stemme.
+            Susanne er kjent for sin vakre og fyldige stemme.
           </motion.p>
         </div>
         <div className="grid max-w-2xl grid-cols-1 mx-auto mt-16 gap-x-8 gap-y-16 lg:mx-0 lg:mt-10 lg:max-w-none lg:grid-cols-12">
@@ -91,9 +90,10 @@ export function Susanne() {
                 type: 'fade',
               }}
             >
-              Hun har en omfattende musikalsk repertoar som spenner fra
-              popmusikk til opera. Susanne fullførte sin mastergrad i musikk ved
-              Det Kongelige Danske Musikkonservatorium i København.
+              Med god forståelse for forskjellige sjangre omfavner hun alt av
+              repertoar fra kjente populær- sanger og viser til rock og opera.
+              Susanne er en ettertraktet solist i gravferder og gjør alt for å
+              tilfredsstille kundens ønsker.
             </motion.p>
             {/* <ul role="list" className="max-w-xl mt-8 space-y-8 text-gray-600">
               <li className="flex gap-x-3">
@@ -147,16 +147,14 @@ export function Susanne() {
               }}
               className="mt-8"
             >
-              Hun har imponert publikum med sine bemerkelsesverdige prestasjoner
-              i roller som ‘Le nozze di Figaro’, ‘Die Fledermaus’, ‘Die
-              Zauberflöte’ og ‘The Rape of Lucretia’ i populære
-              operaproduksjoner. Susanne debuterte i 2003 med Det Norske
-              Jentekor på Operaen i Montpellier i Frankrike.
+              Susanne synger ofte med orkestre og blir hyret inn til konserter i
+              inn og utland. Sammen med sin søster, fiolinisten Kathrine Hvinden
+              Hals, har de skapt den populære duoen Søstrene Hals.
             </motion.p>
             {/* <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">
               No server? No problem.
             </h2> */}
-            <motion.p
+            {/* <motion.p
               whileInView={{ opacity: 1 }}
               initial={{ opacity: 0 }}
               transition={{
@@ -173,7 +171,7 @@ export function Susanne() {
               Spania. Med sin lidenskap for musikk og en imponerende stemme
               fortsetter Susanne Hvinden Hals å fortrylle publikum over hele
               verden.
-            </motion.p>
+            </motion.p> */}
             <motion.div
               whileInView={{ opacity: 1 }}
               initial={{ opacity: 0 }}
@@ -182,7 +180,7 @@ export function Susanne() {
                 duration: 1,
                 type: 'fade',
               }}
-              className="my-6"
+              className="mt-12 -mb-0"
             >
               <Link
                 href="https://www.susannehals.com/"
@@ -191,6 +189,25 @@ export function Susanne() {
                 className="text-sm font-semibold leading-6 transition-all duration-150 ease-in-out text-slate-600 hover:text-slate-950"
               >
                 susannehals.com <span aria-hidden="true">→</span>
+              </Link>
+            </motion.div>
+            <motion.div
+              whileInView={{ opacity: 1 }}
+              initial={{ opacity: 0 }}
+              transition={{
+                delay: 0.5,
+                duration: 1,
+                type: 'fade',
+              }}
+              className="my-6 mb-16"
+            >
+              <Link
+                href="https://www.sostrenehals.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm font-semibold leading-6 transition-all duration-150 ease-in-out text-slate-600 hover:text-slate-950"
+              >
+                sostrenehals.com <span aria-hidden="true">→</span>
               </Link>
             </motion.div>
             <motion.div

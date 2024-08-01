@@ -2,6 +2,21 @@ import Head from 'next/head';
 
 import { HeroKathrine } from '@/components/HeroKathrine';
 import { Kathrine } from '@/components/Kathrine';
+import { ArtistSamples } from '@/components/ArtistSamples';
+
+const features = [
+  {
+    title: 'Hvem jeg er',
+    description: 'En pop sang av Christian Heggen.',
+    audio: true,
+    audioUrl: '/audio/Hvem_Jeg_Er.mp3',
+  },
+];
+
+const imageUrl = '/images/artists/kathrine-playing.webp';
+const imageAlt = 'Susanne Hvinden Hals';
+const subtitle = 'Talentfull prisvinnende fiolinist med';
+const title = 'Internasjonal erfaring';
 
 export default function KathrineHvindenHals() {
   return (
@@ -25,6 +40,13 @@ export default function KathrineHvindenHals() {
         <main>
           <HeroKathrine />
           <Kathrine />
+          <ArtistSamples
+            features={features}
+            imageUrl={imageUrl}
+            imageAlt={imageAlt}
+            subtitle={subtitle}
+            title={title}
+          />
         </main>
       </div>
     </>
