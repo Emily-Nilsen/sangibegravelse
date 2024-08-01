@@ -7,7 +7,7 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 
 export function HeroSebastian() {
   return (
-    <div className="bg-gray-100 ">
+    <div className="bg-slate-800">
       <div className="relative grid grid-cols-1 overflow-hidden isolate pt-14 sm:grid-cols-2">
         <Image
           src="/images/artists/sebastian_haugen_square.webp"

@@ -21,7 +21,7 @@ const features = [
 ];
 
 const imageUrl = '/images/artists/kathrine-playing.webp';
-const imageAlt = 'Susanne Hvinden Hals';
+const imageAlt = 'Kathrine Hvinden Hals';
 const subtitle = 'Talentfull prisvinnende fiolinist med';
 const title = 'Internasjonal erfaring';
 

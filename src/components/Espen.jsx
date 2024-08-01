@@ -125,7 +125,7 @@ export function Espen() {
                 duration: 1,
                 type: 'fade',
               }}
-              className="mt-6"
+              className="mt-12 -mb-0"
             >
               Han har sin utdanning fra Fakultet for utøvende kunstfag ved
               Universitetet i Stavanger, Conservatorio di Musica Santa Cecilia i
@@ -139,7 +139,7 @@ export function Espen() {
                 duration: 1,
                 type: 'fade',
               }}
-              className="my-6"
+              className="mt-12 -mb-0"
             >
               <Link
                 href="http://www.solsbak.com/"
@@ -158,7 +158,7 @@ export function Espen() {
                 duration: 1,
                 type: 'fade',
               }}
-              className="my-6"
+              className="my-6 mb-16"
             >
               <Link
                 href="https://www.nordictenors.no/"
