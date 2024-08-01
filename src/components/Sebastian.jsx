@@ -56,7 +56,7 @@ export function Sebastian() {
                   “... he composed all the music on Skarvesteinen himself; it
                   starts with a bass solo that is accompanied only towards the
                   very end by a small amount of vocals. This is a beautiful
-                  melody that gives a clear picture of Haugen-Markussen's
+                  melody that gives a clear picture of Haugen-Markussen’s
                   skills.”
                 </p>
               </blockquote>
