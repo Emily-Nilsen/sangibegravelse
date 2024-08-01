@@ -113,8 +113,8 @@ export function JanTore() {
               className="mt-6"
             >
               Saltnes er utdannet ved Norges Musikkhøgskole i Oslo og synger i
-              den kritikerroste trioen Nordic Tenors. I tillegg har han utgitt 5
-              soloalbum og har deltatt på over 30 ulike fonogrammer og flere
+              den kritikerroste trioen Nordic Tenors. I tillegg har han utgitt
+              fem soloalbum og har deltatt på over 30 ulike fonogrammer og flere
               filmer.
             </motion.p>
             {/* <motion.div
@@ -144,7 +144,26 @@ export function JanTore() {
                 duration: 1,
                 type: 'fade',
               }}
-              className="my-6"
+              className="mt-12 -mb-0"
+            >
+              <Link
+                href="https://www.jts.no/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm font-semibold leading-6 transition-all duration-150 ease-in-out text-slate-600 hover:text-slate-950"
+              >
+                jts.no <span aria-hidden="true">→</span>
+              </Link>
+            </motion.div>
+            <motion.div
+              whileInView={{ opacity: 1 }}
+              initial={{ opacity: 0 }}
+              transition={{
+                delay: 0.5,
+                duration: 1,
+                type: 'fade',
+              }}
+              className="my-6 mb-16"
             >
               <Link
                 href="https://www.nordictenors.no/"
