@@ -11,6 +11,13 @@ const features = [
     audio: true,
     audioUrl: '/audio/Hvem_Jeg_Er.mp3',
   },
+  {
+    title: 'O mio babbino caro (liveopptak)',
+    description:
+      'En sopran aria av Giacomo Puccini fra operaen Gianni Schicchi.',
+    audio: true,
+    audioUrl: '/audio/O_mio_babbino_caro.mp3',
+  },
 ];
 
 const imageUrl = '/images/artists/kathrine-playing.webp';

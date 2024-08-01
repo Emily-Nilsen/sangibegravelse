@@ -13,16 +13,23 @@ const features = [
     audioUrl: '/audio/Hvem_Jeg_Er.mp3',
   },
   {
-    title: 'Ach, ich fühl’s',
+    title: 'Ach, ich fühl’s (liveopptak)',
     description: 'En klassisk sang av Wolfgang Amadeus Mozart.',
     audio: true,
     audioUrl: '/audio/Ach_ich_fuhls.mp3',
   },
   {
-    title: 'Kjærlighet',
+    title: 'Kjærlighet (liveopptak)',
     description: 'En pop sang av Vladimir Cosma og Rolf Tofte.',
     audio: true,
     audioUrl: '/audio/kjærlighet.mp3',
+  },
+  {
+    title: 'O mio babbino caro (liveopptak)',
+    description:
+      'En sopran aria av Giacomo Puccini fra operaen Gianni Schicchi.',
+    audio: true,
+    audioUrl: '/audio/O_mio_babbino_caro.mp3',
   },
 ];
 
