@@ -42,15 +42,16 @@ export default function SebastianHaugen() {
     <>
       <Head>
         <title>
-          Nils Georg Nilsen – Allsidig sanger med imponerende operarepertoar
+          Sebastian Haugen – Allsidig bassist med bredt repertoar og
+          jazzbakgrunn.
         </title>
         <meta
           name="description"
-          content="Utforsk den allsidige sangeren Nils Georg Nilsen med imponerende operaprestasjoner og bredt repertoar. Les om hans karriere og opptredener."
+          content="Utforsk den allsidige bassist Sebastian Haugen med med bredt repertoar og jazzbakgrunn. Les om hans bakgrunn og karriere."
         />
         <link
           rel="canonical"
-          href="https://sangibegravelse.no/nils-georg-nilsen"
+          href="https://sangibegravelse.no/sebastian-haugen"
           key="canonical"
         />
       </Head>
