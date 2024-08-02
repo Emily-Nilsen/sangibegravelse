@@ -68,6 +68,7 @@ export function SongDetails({ isExpanded, sang }) {
                   width={640}
                   height={359}
                   className="object-cover object-center w-full h-64"
+                  loading="lazy"
                 />
               </div>
               <div className="p-6">
@@ -144,6 +145,7 @@ export function SongDetails({ isExpanded, sang }) {
                     alt={sang.title}
                     width={1456}
                     height={816}
+                    loading="lazy"
                     className={`object-cover object-center w-full overflow-hidden ${
                       sang.audio ? 'rounded-t-xl' : 'rounded-t-xl rounded-b-xl'
                     } h-96`}
