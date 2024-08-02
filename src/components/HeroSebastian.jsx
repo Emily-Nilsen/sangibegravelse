@@ -14,6 +14,7 @@ export function HeroSebastian() {
           alt="Sebastian Haugen"
           width={2073}
           height={1887}
+          // placeholder="blur"
           className="absolute inset-0 object-cover w-full h-full sm:hidden -z-10"
           priority
         />
@@ -23,6 +24,7 @@ export function HeroSebastian() {
           alt="Sebastian Haugen"
           width={2830}
           height={1887}
+          // placeholder="blur"
           className="absolute inset-0 hidden object-cover w-full h-full sm:block -z-10"
           priority
         />

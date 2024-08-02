@@ -16,6 +16,7 @@ export function HeroNilsGeorg() {
           alt="Nils Georg Nilsen"
           width={900}
           height={1125}
+          placeholder="blur"
           className="absolute inset-0 object-cover w-full h-full sm:hidden -z-10"
           priority
         />
@@ -24,6 +25,7 @@ export function HeroNilsGeorg() {
           alt="Nils Georg Nilsen"
           width={3840}
           height={2160}
+          placeholder="blur"
           className="absolute inset-0 hidden object-cover w-full h-full sm:block -z-10"
           priority
         />
