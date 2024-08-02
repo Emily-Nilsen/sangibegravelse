@@ -147,6 +147,7 @@ export const suggestions = [
       'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/testimonials/flower_card_4_copy_u0qaxo.webp',
     solo_1: 'O mio babbino caro (sopran arie/dame)',
     solo_1_audio: '/audio/O_mio_babbino_caro.mp3',
+    solo_1_href: '/repertoar/o-mio-babbino-caro-av-giacomo-puccini',
     salme_1: 'O bli hos meg',
     salme_1_audio:
       'https://res.cloudinary.com/dt3k2apqd/video/upload/v1718700520/Sang%20i%20begravelse/Audio/O_bli_hos_meg_mttbp5.mp3',

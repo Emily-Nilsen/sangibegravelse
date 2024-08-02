@@ -7958,5 +7958,40 @@
     ],
     "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Pie_Jesu_mz6wum.webp",
     "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Pie_Jesu_-_Mobile_tswchy.webp"
+  },
+  {
+    "objectID": "o_mio_babbino_caro",
+    "category": "Klassisk",
+    "language": ["italiensk"],
+    "title": "O mio babbino caro",
+    "arrangement": ["solo"],
+    "composer": "Giacomo Puccini",
+    "audio": true,
+    "live": true,
+    "audioUrl": "/audio/O_mio_babbino_caro.mp3",
+    "performers": ["Susanne Hvinden Hals", "Kathrine Hvinden Hals"],
+    "description": [
+      "«O mio babbino caro» er en av de mest kjente og elskede ariene fra Giacomo Puccinis opera «Gianni Schicchi», først fremført i 1918. Denne inderlige og rørende arien er sunget av karakteren Lauretta og er et høydepunkt innen sopranrepertoaret. Arien er berømt for sin vakre melodi og sin evne til å uttrykke dyp følelsesmessig intensitet på en enkel og direkte måte.",
+      "I «O mio babbino caro», som betyr «Å min kjære far» på italiensk, appellerer Lauretta til sin far med en inderlig bønn om støtte og forståelse. Selv om arien i operaen uttrykker kjærlighet mellom to unge elskende, kan dens temaer om kjærlighet og lengsel lett overføres til forholdet mellom en far og et barn, noe som gjør den spesielt passende for en begravelse. Teksten formidler en dyp lidenskap og besluttsomhet, og den melodiøse linjen fanger følelsen av inderlig håp og kjærlighet som også kan representere det evige båndet til en elsket som har gått bort.",
+      "«O mio babbino caro» har blitt fremført av mange fremstående sopraner gjennom årene og er en favoritt på grunn av sin musikalske skjønnhet og følelsesmessige dybde. Den er ofte inkludert i konserter og recitals, samt brukt i filmer, reklamer og andre populærkulturelle sammenhenger. Ariens tidløse melodi og budskap om kjærlighet gjør den til et rørende og meningsfylt valg for å hedre en kjær person som har gått bort, og står som et bevis på Puccinis geni og evne til å skape musikk som rører dypt ved menneskelige følelser."
+    ],
+    "lyrics": [
+      "O mio babbino caro",
+      "Mi piace, è bello, bello",
+      "Vo' andare in Porta Rossa",
+      "A comperar l'anello",
+      "",
+      "Sì, sì, ci voglio andare",
+      "E se l'amassi indarno",
+      "Andrei sul Ponte Vecchio",
+      "Ma per buttarmi in Arno",
+      "Mi struggo e mi tormento",
+      "O Dio, vorrei morir",
+      "",
+      "Babbo, pietà, pietà",
+      "Babbo, pietà, pietà"
+    ],
+    "desktop": "/images/desktop/O_mio_babbino_caro.webp",
+    "mobile": "/images/mobile/O_mio_babbino_caro.webp"
   }
 ]
