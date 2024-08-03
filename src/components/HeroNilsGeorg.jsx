@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import { useState } from 'react';
 import { Dialog } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
-import NGHeroDesktop from '../images/profiles/NG-desktop-min.webp';
+import NGHeroDesktop from '../images/profiles/NG-desktop.webp';
 import NGHeroMobile from '../images/profiles/NG-mobile.webp';
 
 export function HeroNilsGeorg() {
@@ -23,8 +23,8 @@ export function HeroNilsGeorg() {
         <Image
           src={NGHeroDesktop}
           alt="Nils Georg Nilsen"
-          width={3840}
-          height={2160}
+          width={1920}
+          height={1080}
           placeholder="blur"
           className="absolute inset-0 hidden object-cover w-full h-full sm:block -z-10"
           priority

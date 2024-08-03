@@ -4,6 +4,7 @@ import { HeroSebastian } from '@/components/HeroSebastian';
 import { Sebastian } from '@/components/Sebastian';
 import { Tilbakemeldinger } from '@/components/Tilbakemeldinger';
 import { ArtistSamples } from '@/components/ArtistSamples';
+import SHSamples from '../images/profiles/SH-samples.webp';
 
 const features = [
   {
@@ -32,7 +33,7 @@ const features = [
   },
 ];
 
-const imageUrl = '/images/artists/sebastian-haugen-profile.webp';
+const imageUrl = SHSamples;
 const imageAlt = 'Sebastian Haugen';
 const subtitle = 'Allsidig bassist med bredt';
 const title = 'Repertoar og jazzbakgrunn';

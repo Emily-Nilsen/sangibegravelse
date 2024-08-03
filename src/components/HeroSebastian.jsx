@@ -4,27 +4,29 @@ import { motion } from 'framer-motion';
 import { useState } from 'react';
 import { Dialog } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
+import SHHeroDesktop from '../images/profiles/SH-desktop.webp';
+import SHHeroMobile from '../images/profiles/SH-mobile.webp';
 
 export function HeroSebastian() {
   return (
     <div className="bg-slate-800">
       <div className="relative grid grid-cols-1 overflow-hidden isolate pt-14 sm:grid-cols-2">
         <Image
-          src="/images/artists/sebastian_haugen_square.webp"
+          src={SHHeroMobile}
           alt="Sebastian Haugen"
-          width={2073}
-          height={1887}
-          // placeholder="blur"
+          width={900}
+          height={900}
+          placeholder="blur"
           className="absolute inset-0 object-cover w-full h-full sm:hidden -z-10"
           priority
         />
         <div className="absolute inset-0 bg-gray-950/20" />
         <Image
-          src="/images/artists/sebastian_haugen.webp"
+          src={SHHeroDesktop}
           alt="Sebastian Haugen"
-          width={2830}
-          height={1887}
-          // placeholder="blur"
+          width={1920}
+          height={1280}
+          placeholder="blur"
           className="absolute inset-0 hidden object-cover w-full h-full sm:block -z-10"
           priority
         />

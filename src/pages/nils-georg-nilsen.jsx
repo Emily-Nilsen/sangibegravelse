@@ -4,6 +4,7 @@ import { HeroNilsGeorg } from '@/components/HeroNilsGeorg';
 import { NilsGeorg } from '@/components/NilsGeorg';
 import { Tilbakemeldinger } from '@/components/Tilbakemeldinger';
 import { ArtistSamples } from '@/components/ArtistSamples';
+import NGSamples from '../images/profiles/NG-samples.webp';
 
 const features = [
   {
@@ -36,8 +37,7 @@ const features = [
   },
 ];
 
-const imageUrl =
-  'https://res.cloudinary.com/dt3k2apqd/image/upload/v1718187049/Sang%20i%20begravelse/artists/NG_1_singing_tvjntc.webp';
+const imageUrl = NGSamples;
 const imageAlt = 'Nils Georg Nilsen';
 const subtitle = 'Allsidig sanger med';
 const title = 'Et bredt repertoar';
