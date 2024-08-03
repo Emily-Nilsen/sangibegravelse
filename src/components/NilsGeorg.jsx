@@ -6,6 +6,7 @@ import {
   LockClosedIcon,
   ServerIcon,
 } from '@heroicons/react/20/solid';
+import NGSinging from '../images/profiles/NG-singing.webp';
 
 export function NilsGeorg() {
   return (
@@ -156,7 +157,9 @@ export function NilsGeorg() {
               <figcaption className="flex mt-6 gap-x-4">
                 <Image
                   className="flex-none object-cover w-6 h-6 rounded-full bg-gray-50"
-                  src="/images/artists/NG-square.webp"
+                  src={NGSinging}
+                  loading="lazy"
+                  placeholder="blur"
                   alt="Nils Georg Nilsen"
                   width={485}
                   height={485}

@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import { useState } from 'react';
 import { Dialog } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
-import NGHeroDesktop from '../images/profiles/NG-desktop.webp';
+import NGHeroDesktop from '../images/profiles/NG-desktop-min.webp';
 import NGHeroMobile from '../images/profiles/NG-mobile.webp';
 
 export function HeroNilsGeorg() {
