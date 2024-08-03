@@ -1,46 +1,48 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
+import NGPreview from '../images/profiles/NG-preview.webp';
+import SHPreview from '../images/profiles/SH-preview.webp';
+import ESPreview from '../images/profiles/ES-preview.webp';
+import SHHPreview from '../images/profiles/SHH-preview.webp';
+import KHHPreview from '../images/profiles/KHH-preview.webp';
+import JTPreview from '../images/profiles/JT-preview.webp';
 
 const people = [
   {
     name: 'Susanne Hvinden Hals',
     role: 'Sanger',
-    imageUrl:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Susanne%20Hals/Susanne_img_1_c3qttj.webp',
+    imageUrl: SHHPreview,
     profileUrl: '/susanne-hvinden-hals',
   },
   {
     name: 'Nils Georg Nilsen',
     role: 'Sanger',
-    imageUrl: '/images/artists/nils-georg-square.webp',
+    imageUrl: NGPreview,
     profileUrl: '/nils-georg-nilsen',
   },
   {
     name: 'Kathrine Hvinden Hals',
     role: 'Fiolinist',
-    imageUrl:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Kathrine_square_eqohro.webp',
+    imageUrl: KHHPreview,
     profileUrl: '/kathrine-hvinden-hals',
   },
   {
     name: 'Jan-Tore Saltnes',
     role: 'Sanger',
-    imageUrl:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/artists/jan-tore_saltnes_jwsakm.webp',
+    imageUrl: JTPreview,
     profileUrl: '/jan-tore-saltnes',
   },
   {
     name: 'Espen Solsbak',
     role: 'Sanger',
-    imageUrl:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/artists/PortrettEspenSolsbak_copy_tapdim.webp',
+    imageUrl: ESPreview,
     profileUrl: '/espen-solsbak',
   },
   {
     name: 'Sebastian Haugen',
     role: 'Bassist',
-    imageUrl: '/images/artists/sebastian_haugen_square.webp',
+    imageUrl: SHPreview,
     profileUrl: '/sebastian-haugen',
   },
 ];
@@ -77,6 +79,8 @@ export function ArtistsPreview() {
                   alt={person.name}
                   width={300}
                   height={300}
+                  loading="lazy"
+                  placeholder="blur"
                 />
               </Link>
 
