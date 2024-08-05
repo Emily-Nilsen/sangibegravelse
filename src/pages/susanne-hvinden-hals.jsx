@@ -4,6 +4,7 @@ import { HeroSusanne } from '@/components/HeroSusanne';
 import { Susanne } from '@/components/Susanne';
 import { ArtistSamples } from '@/components/ArtistSamples';
 import { Tilbakemeldinger } from '../components/Tilbakemeldinger';
+import SHHSamples from '../images/profiles/SHH-samples.webp';
 
 const features = [
   {
@@ -33,7 +34,7 @@ const features = [
   },
 ];
 
-const imageUrl = '/images/artists/susanne-singing.webp';
+const imageUrl = SHHSamples;
 const imageAlt = 'Susanne Hvinden Hals';
 const subtitle = 'Susanne Hvinden Hals';
 const title = 'Fra pop til opera';

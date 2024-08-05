@@ -4,26 +4,30 @@ import { motion } from 'framer-motion';
 import { useState } from 'react';
 import { Dialog } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
+import SHHHeroDesktop from '../images/profiles/SHH-desktop.webp';
+import SHHHeroMobile from '../images/profiles/SHH-mobile.webp';
 
 export function HeroSusanne() {
   return (
     <div className="bg-amber-50 ">
       <div className="relative grid grid-cols-1 overflow-hidden isolate pt-14 sm:grid-cols-2">
         <Image
-          src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Susanne_-_sang_i_begravelse_agu4ux.webp"
+          src={SHHHeroMobile}
           alt="Susanne Hvinden Hals"
           width={2073}
           height={1887}
           className="absolute inset-0 object-cover w-full h-full sm:hidden -z-10"
           priority
+          placeholder="blur"
         />
         <Image
-          src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Susanne_profile_hero_izpvsj.webp"
+          src={SHHHeroDesktop}
           alt="Susanne Hvinden Hals"
           width={2830}
           height={1887}
           className="absolute inset-0 hidden object-cover w-full h-full sm:block -z-10"
           priority
+          placeholder="blur"
         />
         <div className="absolute left-0 w-full h-40 -top-10 opacity-500 bg-gradient-to-b from-gray-900/50" />
         <div className="absolute top-0 left-0 w-full h-40 opacity-50 bg-gradient-to-b from-gray-900/50" />
