@@ -37,6 +37,7 @@ const imageUrl = SHSamples;
 const imageAlt = 'Sebastian Haugen';
 const subtitle = 'Sebastian Haugen';
 const title = 'Allsidig bassist med jazzbakgrunn';
+const imageCredit = 'Randi Huseby';
 
 export default function SebastianHaugen() {
   return (
@@ -66,6 +67,7 @@ export default function SebastianHaugen() {
             imageAlt={imageAlt}
             subtitle={subtitle}
             title={title}
+            imageCredit={imageCredit}
           />
           {/* <Tilbakemeldinger artistName="Nils Georg Nilsen" /> */}
         </main>

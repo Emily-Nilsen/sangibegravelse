@@ -8,6 +8,7 @@ export function ArtistSamples({
   imageAlt,
   subtitle,
   title,
+  imageCredit, // New prop for image credit
 }) {
   const [openIndex, setOpenIndex] = useState(null);
   const [playingAudio, setPlayingAudio] = useState(null);
@@ -64,13 +65,20 @@ export function ArtistSamples({
               </dl>
             </div>
           </div>
-          <Image
-            src={imageUrl}
-            alt={imageAlt}
-            className="w-[34rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0 object-right"
-            width={1920}
-            height={1080}
-          />
+          <div className="relative">
+            <Image
+              src={imageUrl}
+              alt={imageAlt}
+              className="w-[34rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0 object-right"
+              width={1920}
+              height={1080}
+            />
+            {imageCredit && (
+              <div className="absolute bottom-0 left-0 p-2 text-xs bg-black bg-opacity-50 text-white/70 rounded-tr-xl rounded-bl-xl">
+                Foto av {imageCredit}
+              </div>
+            )}
+          </div>
         </div>
       </div>
     </div>
