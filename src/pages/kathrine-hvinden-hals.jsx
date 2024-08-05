@@ -3,6 +3,7 @@ import Head from 'next/head';
 import { HeroKathrine } from '@/components/HeroKathrine';
 import { Kathrine } from '@/components/Kathrine';
 import { ArtistSamples } from '@/components/ArtistSamples';
+import KHHSamples from '../images/profiles/KHH-samples.webp';
 
 const features = [
   {
@@ -20,10 +21,10 @@ const features = [
   },
 ];
 
-const imageUrl = '/images/artists/kathrine-playing.webp';
+const imageUrl = KHHSamples;
 const imageAlt = 'Kathrine Hvinden Hals';
-const subtitle = 'Talentfull prisvinnende fiolinist med';
-const title = 'Internasjonal erfaring';
+const subtitle = 'Kathrine Hvinden Hals';
+const title = 'Prisvinnende internasjonal fiolinist';
 
 export default function KathrineHvindenHals() {
   return (

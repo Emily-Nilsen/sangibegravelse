@@ -4,24 +4,26 @@ import { motion } from 'framer-motion';
 import { useState } from 'react';
 import { Dialog } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
+import KHHHeroDesktop from '../images/profiles/KHH-desktop.webp';
+import KHHHeroMobile from '../images/profiles/KHH-mobile.webp';
 
 export function HeroKathrine() {
   return (
     <div className="bg-amber-50 ">
       <div className="relative grid grid-cols-1 overflow-hidden isolate pt-14 sm:grid-cols-2">
         <Image
-          src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Kathrine_profile_mobile_xdvyc3.webp"
+          src={KHHHeroMobile}
           alt="Kathrine Hvinden Hals"
-          width={2073}
-          height={1887}
+          width={844}
+          height={844}
           className="absolute inset-0 object-cover w-full h-full sm:hidden -z-10"
           priority
         />
         <Image
-          src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Kathrine_profile_gbfghg.webp"
+          src={KHHHeroDesktop}
           alt="Kathrine Hvinden Hals"
-          width={2830}
-          height={1887}
+          width={1920}
+          height={1080}
           className="absolute inset-0 hidden object-cover w-full h-full sm:block -z-10"
           priority
         />
