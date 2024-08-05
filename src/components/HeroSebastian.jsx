@@ -1,9 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
-import { useState } from 'react';
-import { Dialog } from '@headlessui/react';
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 import SHHeroDesktop from '../images/profiles/SH-desktop.webp';
 import SHHeroMobile from '../images/profiles/SH-mobile.webp';
 
@@ -73,6 +70,11 @@ export function HeroSebastian() {
           className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
           aria-hidden="true"
         ></div>
+
+        {/* Image Credit */}
+        <div className="absolute bottom-0 right-0 p-2 text-xs bg-black bg-opacity-50 text-white/70 rounded-tl-xl">
+          Foto av Julia Marie Naglestad
+        </div>
       </div>
     </div>
   );
