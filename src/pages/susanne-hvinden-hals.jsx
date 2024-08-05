@@ -35,8 +35,8 @@ const features = [
 
 const imageUrl = '/images/artists/susanne-singing.webp';
 const imageAlt = 'Susanne Hvinden Hals';
-const subtitle = 'Allsidig repertoar fra';
-const title = 'Pop til opera';
+const subtitle = 'Susanne Hvinden Hals';
+const title = 'Fra pop til opera';
 
 export default function SusanneHvindenHals() {
   return (

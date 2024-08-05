@@ -72,6 +72,7 @@ export function ArtistSamples({
               className="w-[34rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0 object-right"
               width={1920}
               height={1080}
+              loading="lazy"
             />
             {imageCredit && (
               <div className="absolute bottom-0 left-0 p-2 text-xs bg-black bg-opacity-50 text-white/70 rounded-tr-xl rounded-bl-xl">
