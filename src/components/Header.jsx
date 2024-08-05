@@ -122,8 +122,8 @@ export function Header({ textColour }) {
               <Image
                 src={dropdownBg}
                 alt="Hvite roser"
-                width={2176}
-                height={3264}
+                width={650}
+                height={975}
                 className="absolute inset-0 object-cover object-left w-full h-full transform scale-x-[-1] lg:hidden -z-10"
                 placeholder="blur"
               />
