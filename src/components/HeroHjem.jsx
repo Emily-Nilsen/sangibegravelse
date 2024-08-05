@@ -5,26 +5,30 @@ import { motion } from 'framer-motion';
 import { useState } from 'react';
 import { Dialog } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
+import heroMobile from '../images/general/homepage-mobile.webp';
+import heroDesktop from '../images/general/homepage-desktop.webp';
 
 export function HeroHjem() {
   return (
     <div className="bg-amber-100">
       <div className="relative overflow-hidden isolate pt-14">
         <Image
-          src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1697230348/Sang%20i%20begravelse/Home_Hero_mobile_syywxf.webp"
+          src={heroMobile}
           alt="Hvite roser"
-          width={2176}
-          height={3264}
+          width={750}
+          height={1125}
           className="absolute inset-0 object-cover object-left w-full h-full sm:hidden -z-10"
           priority
+          placeholder="blur"
         />
         <Image
-          src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1697230359/Sang%20i%20begravelse/Home_Hero_desktop_v2_vyjmjo.webp"
+          src={heroDesktop}
           alt="Hvite roser"
-          width={3000}
-          height={1681}
+          width={1920}
+          height={1076}
           className="absolute inset-0 hidden object-cover w-full h-full sm:block -z-10"
           priority
+          placeholder="blur"
         />
         <div className="absolute inset-0 sm:bg-white/30 bg-white/60" />
         <div

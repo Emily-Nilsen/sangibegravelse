@@ -9,7 +9,7 @@ import JTHeroMobile from '../images/profiles/JT-mobile.webp';
 
 export function HeroJanTore() {
   return (
-    <div className="bg-gray-100 ">
+    <div className="bg-slate-800">
       <div className="relative grid grid-cols-1 overflow-hidden isolate pt-14 sm:grid-cols-2">
         <Image
           src={JTHeroMobile}

@@ -9,7 +9,7 @@ import KHHHeroMobile from '../images/profiles/KHH-mobile.webp';
 
 export function HeroKathrine() {
   return (
-    <div className="bg-amber-50 ">
+    <div className="bg-slate-800">
       <div className="relative grid grid-cols-1 overflow-hidden isolate pt-14 sm:grid-cols-2">
         <Image
           src={KHHHeroMobile}

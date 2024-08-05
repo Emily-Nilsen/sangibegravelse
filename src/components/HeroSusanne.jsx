@@ -9,7 +9,7 @@ import SHHHeroMobile from '../images/profiles/SHH-mobile.webp';
 
 export function HeroSusanne() {
   return (
-    <div className="bg-amber-50 ">
+    <div className="bg-slate-800">
       <div className="relative grid grid-cols-1 overflow-hidden isolate pt-14 sm:grid-cols-2">
         <Image
           src={SHHHeroMobile}
