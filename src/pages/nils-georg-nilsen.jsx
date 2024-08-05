@@ -39,8 +39,8 @@ const features = [
 
 const imageUrl = NGSamples;
 const imageAlt = 'Nils Georg Nilsen';
-const subtitle = 'Allsidig sanger med';
-const title = 'Et bredt repertoar';
+const subtitle = 'Nils Georg Nilsen';
+const title = 'Allsidig sanger med et bredt repertoar';
 
 export default function NilsGeorgNilsen() {
   return (

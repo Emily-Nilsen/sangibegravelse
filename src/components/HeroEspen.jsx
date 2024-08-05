@@ -4,27 +4,31 @@ import { motion } from 'framer-motion';
 import { useState } from 'react';
 import { Dialog } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
+import ESHeroDesktop from '../images/profiles/ES-desktop.webp';
+import ESHeroMobile from '../images/profiles/ES-mobile.webp';
 
 export function HeroEspen() {
   return (
     <div className="bg-amber-50 ">
       <div className="relative grid grid-cols-1 overflow-hidden isolate pt-14 sm:grid-cols-2">
         <Image
-          src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/artists/Espen_mobile_aynlsj.webp"
+          src={ESHeroMobile}
           alt="Espen Solsbak"
-          width={2068}
-          height={2068}
+          width={900}
+          height={900}
           className="absolute inset-0 object-cover w-full h-full sm:hidden -z-10"
           priority
+          placeholder="blur"
         />
         <div className="absolute inset-0 bg-black/10" />
         <Image
-          src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/artists/Espen_profile_page_hero_nlauc1.webp"
+          src={ESHeroDesktop}
           alt="Espen Solsbak"
-          width={2830}
-          height={1887}
+          width={1920}
+          height={1120}
           className="absolute inset-0 hidden object-cover w-full h-full sm:block -z-10"
           priority
+          placeholder="blur"
         />
         <div className="absolute left-0 w-full h-40 -top-10 opacity-500 bg-gradient-to-b from-gray-900/50" />
         <div className="absolute top-0 left-0 w-full h-40 opacity-50 bg-gradient-to-b from-gray-900/50" />

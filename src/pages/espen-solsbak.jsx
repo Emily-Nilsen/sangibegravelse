@@ -4,6 +4,7 @@ import { HeroEspen } from '@/components/HeroEspen';
 import { Espen } from '@/components/Espen';
 import { ArtistSamples } from '@/components/ArtistSamples';
 import { Tilbakemeldinger } from '../components/Tilbakemeldinger';
+import ESSamples from '../images/profiles/ES-samples.webp';
 
 const features = [
   {
@@ -14,7 +15,7 @@ const features = [
   },
 ];
 
-const imageUrl = '/images/artists/espen_solsbak.webp';
+const imageUrl = ESSamples;
 const imageAlt = 'Espen Solsbak';
 const subtitle = 'En meget allsidig sanger med';
 const title = 'Musikalitet og formidlingsevne';
