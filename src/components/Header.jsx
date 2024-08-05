@@ -125,6 +125,7 @@ export function Header({ textColour }) {
                 width={2176}
                 height={3264}
                 className="absolute inset-0 object-cover object-left w-full h-full transform scale-x-[-1] lg:hidden -z-10"
+                placeholder="blur"
               />
               <div className="absolute inset-0 bg-white/30" />
             </div>
