@@ -10,6 +10,8 @@ import MyLink from '@/components/MyLink';
 import navigation from './Navigation';
 import { Search } from './Search'; // Import the Search component
 import { AlgoliaAutocomplete } from './AlgoliaAutocomplete';
+import Logo from '../images/svgs/logo.svg';
+import dropdownBg from '../images/general/dropdown-bg.webp';
 
 export function Header({ textColour }) {
   const [isAlgoliaOpen, setAlgoliaOpen] = useState(false); // For AlgoliaAutocomplete
@@ -46,7 +48,7 @@ export function Header({ textColour }) {
               <span className="sr-only">Sang i begravelse</span>
               <Image
                 className="w-12 h-auto transition-all duration-300 ease-in-out cursor-pointer"
-                src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1697286621/Sang%20i%20begravelse/S_logo_d8lc9d.svg"
+                src={Logo}
                 alt="Sang i begravelse - logo"
                 width={500}
                 height={500}
@@ -118,7 +120,7 @@ export function Header({ textColour }) {
           <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full px-6 py-6 overflow-y-auto bg-amber-50 sm:max-w-sm sm:ring-1 sm:ring-white/10">
             <div className="absolute inset-0 ">
               <Image
-                src="https://res.cloudinary.com/dt3k2apqd/image/upload/v1697230348/Sang%20i%20begravelse/Home_Hero_mobile_syywxf.webp"
+                src={dropdownBg}
                 alt="Hvite roser"
                 width={2176}
                 height={3264}
