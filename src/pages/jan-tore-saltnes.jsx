@@ -4,6 +4,7 @@ import { HeroJanTore } from '@/components/HeroJanTore';
 import { JanTore } from '@/components/JanTore';
 import { ArtistSamples } from '@/components/ArtistSamples';
 import { Tilbakemeldinger } from '../components/Tilbakemeldinger';
+import JTSamples from '../images/profiles/JT-samples.webp';
 
 const features = [
   {
@@ -27,10 +28,10 @@ const features = [
   },
 ];
 
-const imageUrl = '/images/artists/jan-tore_saltnes_profile.webp';
+const imageUrl = JTSamples;
 const imageAlt = 'Jan-Tore Saltnes';
-const subtitle = 'En etterspurt sanger for seremonier med';
-const title = 'Variert musikkstil i Vestfold';
+const subtitle = 'Jan-Tore Saltnes';
+const title = 'Etterspurt seremonisanger i Vestfold';
 
 export default function JanToreSaltnes() {
   return (

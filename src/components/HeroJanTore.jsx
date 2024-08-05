@@ -4,27 +4,31 @@ import { motion } from 'framer-motion';
 import { useState } from 'react';
 import { Dialog } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
+import JTHeroDesktop from '../images/profiles/JT-desktop.webp';
+import JTHeroMobile from '../images/profiles/JT-mobile.webp';
 
 export function HeroJanTore() {
   return (
     <div className="bg-gray-100 ">
       <div className="relative grid grid-cols-1 overflow-hidden isolate pt-14 sm:grid-cols-2">
         <Image
-          src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/artists/JT_mobile_zy5y5u.webp"
+          src={JTHeroMobile}
           alt="Jan-Tore Saltnes"
-          width={2073}
-          height={1887}
+          width={900}
+          height={900}
           className="absolute inset-0 object-cover w-full h-full sm:hidden -z-10"
           priority
+          placeholder="blur"
         />
         <div className="absolute inset-0 bg-gray-950/20" />
         <Image
-          src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/artists/JT_desktop_gyn4mv.webp"
+          src={JTHeroDesktop}
           alt="Jan-Tore Saltnes"
-          width={2830}
-          height={1887}
+          width={1920}
+          height={1080}
           className="absolute inset-0 hidden object-cover w-full h-full sm:block -z-10"
           priority
+          placeholder="blur"
         />
         <div className="absolute left-0 w-full h-40 -top-10 opacity-500 bg-gradient-to-b from-gray-900/50" />
         <div className="absolute top-0 left-0 w-full h-40 opacity-50 bg-gradient-to-b from-gray-900/50" />
