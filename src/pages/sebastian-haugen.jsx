@@ -9,25 +9,25 @@ import SHSamples from '../images/profiles/SH-samples.webp';
 const features = [
   {
     title: 'Nordlys',
-    description: 'En jazz sang av Sebastian.',
+    description: 'Komposisjon av Sebastian.',
     audio: true,
     audioUrl: '/audio/Nordlys.mp3',
   },
   {
     title: 'Psalme',
-    description: 'En folkemusikk sang av Sebastian.',
+    description: 'Komposisjon av Sebastian.',
     audio: true,
     audioUrl: '/audio/Psalme.mp3',
   },
   {
     title: 'Skarvesteinen',
-    description: 'En jazz sang av Sebastian.',
+    description: 'Komposisjon av Sebastian.',
     audio: true,
     audioUrl: '/audio/Skarvesteinen.mp3',
   },
   {
     title: 'Storskaden',
-    description: 'En jazz sang av Sebastian.',
+    description: 'Komposisjon av Sebastian.',
     audio: true,
     audioUrl: '/audio/Storskaden.mp3',
   },
@@ -35,8 +35,8 @@ const features = [
 
 const imageUrl = SHSamples;
 const imageAlt = 'Sebastian Haugen';
-const subtitle = 'Allsidig bassist med bredt';
-const title = 'Repertoar og jazzbakgrunn';
+const subtitle = 'Sebastian Haugen';
+const title = 'Allsidig bassist med jazzbakgrunn';
 
 export default function SebastianHaugen() {
   return (
