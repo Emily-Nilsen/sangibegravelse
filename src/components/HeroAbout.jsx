@@ -1,17 +1,22 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
+import aboutBg from '../images/general/about-bg.webp';
+import aboutDesktop from '../images/general/about-desktop.webp';
+import aboutMobile from '../images/general/about-mobile.webp';
 
 export function HeroAbout() {
   return (
     <div className="relative z-0 py-24 overflow-hidden bg-slate-50 lg:pt-48 sm:py-32 sm:pt-40 pt-36">
       <div className="absolute inset-0 z-0">
         <Image
-          src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/neutral_cream_bg_ulmozm.webp"
+          src={aboutBg}
           alt="Susan Hvinden Hals and Nils Georg Nilsen"
           className="object-cover w-full h-full opacity-40"
-          width={2432}
-          height={1442}
+          width={1920}
+          height={1280}
+          placeholder="blur"
+          priority
         />
       </div>
       <div className="relative z-10 px-6 mx-auto max-w-7xl lg:px-8">
@@ -59,18 +64,22 @@ export function HeroAbout() {
             </div>
           </div>
           <Image
-            src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/NG_Susanne_duette_px0npd.webp"
+            src={aboutDesktop}
             alt="Susan Hvinden Hals and Nils Georg Nilsen"
-            className="hidden sm:block w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:ml-0"
-            width={2432}
-            height={1442}
+            className="hidden sm:block max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:ml-0"
+            width={1920}
+            height={1080}
+            priority
+            placeholder="blur"
           />
           <Image
-            src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/NG_Susanne_duette_mobile_zvequz.webp"
+            src={aboutMobile}
             alt="Susan Hvinden Hals and Nils Georg Nilsen"
-            className="sm:hidden w-[24rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:ml-0 object-center"
-            width={2432}
-            height={1442}
+            className="sm:hidden w-[24rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 object-center"
+            width={900}
+            height={900}
+            priority
+            placeholder="blur"
           />
           <div className="mt-0 sm:hidden">
             <div className="flex items-center justify-start mt-3 gap-x-6">
