@@ -10,28 +10,22 @@ export const suggestions = [
     id: 'nordiske-sanger',
     name: 'Nordiske sanger',
     bg_colour: '#e4772d',
-    image:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/testimonials/flower_card_1_copy_kvxqlx.webp',
+    image: '/images/flowers/flower_card_1.webp',
     solo_1: 'Jeg glemmer deg aldri',
-    solo_1_audio:
-      'https://res.cloudinary.com/dt3k2apqd/video/upload/v1717599144/Sang%20i%20begravelse/Audio/Jeg_glemmer_deg_aldri_ofp5d5.mp3',
+    solo_1_audio: '/audio/Jeg_glemmer_deg_aldri.mp3',
     solo_1_href:
       '/repertoar/jeg-glemmer-deg-aldri-av-aslag-haugen-og-arne-moslatten',
     salme_1: 'Blå salme',
-    salme_1_audio:
-      'https://res.cloudinary.com/dt3k2apqd/video/upload/v1717673555/Sang%20i%20begravelse/Audio/Bla%CC%8A_salme_eyptu3.mp3',
+    salme_1_audio: '/audio/Blå_salme.mp3',
     salme_1_href: '/repertoar/bla-salme-av-erik-bye',
     solo_2: 'Kor går du når du går',
     salme_2: 'Kjærlighet fra Gud',
-    salme_2_audio:
-      'https://res.cloudinary.com/dt3k2apqd/video/upload/v1717678821/Sang%20i%20begravelse/Audio/Kj%C3%A6rlighet_fra_Gud_uitsbf.mp3',
+    salme_2_audio: '/audio/Kjærlighet_fra_Gud.mp3',
     salme_3: 'Ein fin liten blome',
-    salme_3_audio:
-      'https://res.cloudinary.com/dt3k2apqd/video/upload/v1717676195/Sang%20i%20begravelse/Audio/Ein_fin_liten_blome_b9tixj.mp3',
+    salme_3_audio: '/audio/Ein_fin_liten_blome.mp3',
     salme_3_href: '/repertoar/ein-fin-liten-blome-av-bjorn-eidsvag',
     solo_3: 'Håll mitt hjärta',
-    solo_3_audio:
-      'https://res.cloudinary.com/dt3k2apqd/video/upload/v1717579917/Sang%20i%20begravelse/Audio/Ha%CC%8All_mitt_hja%CC%88rta_wtblnc.mp3',
+    solo_3_audio: '/audio/Håll_mitt_hjärta.mp3',
     solo_3_href:
       '/repertoar/hall-mitt-hjaerta-av-peter-hallstroem-lars-andersson-og-bjoern-skifs',
   },
@@ -39,45 +33,36 @@ export const suggestions = [
     id: 'klassisk-miks',
     name: 'Klassisk miks',
     bg_colour: '#e4772d',
-    image:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/testimonials/flower_card_2_copy_ybc6im.webp',
+    image: '/images/flowers/flower_card_2.webp',
     solo_1: 'Ave Maria (Schubert)',
     solo_1_href: '/repertoar/ave-maria-av-franz-schubert',
     salme_1: 'Den fyrste song',
-    salme_1_audio:
-      'https://res.cloudinary.com/dt3k2apqd/video/upload/v1717675675/Sang%20i%20begravelse/Audio/Den_fyrste_sang_cvgtiv.mp3',
+    salme_1_audio: '/audio/Den_fyrste_sang.mp3',
     salme_1_href: '/repertoar/den-fyrste-song-av-lars-soraas-og-per-sivle',
     solo_2: 'Pie Jesu (Webber)',
-    solo_2_audio:
-      'https://res.cloudinary.com/dt3k2apqd/video/upload/v1717605189/Sang%20i%20begravelse/Audio/Pie_Jesu_cgakdj.mp3',
+    solo_2_audio: '/audio/Pie_Jesu.mp3',
     solo_2_href: '/repertoar/pie-jesu-av-andrew-lloyd-webber',
     salme_2: 'Vem kan segla förutan vind',
-    salme_2_audio:
-      'https://res.cloudinary.com/dt3k2apqd/video/upload/v1717670676/Sang%20i%20begravelse/Audio/Vem_kan_segla_ijybpp.mp3',
+    salme_2_audio: '/audio/Vem_kan_segla.mp3',
     salme_3: 'Kjære Gud, jeg har det godt',
-    salme_3_audio:
-      'https://res.cloudinary.com/dt3k2apqd/video/upload/v1717678301/Sang%20i%20begravelse/Audio/Kj%C3%A6re_gud_vx1xzl.mp3',
+    salme_3_audio: '/audio/Kjære_gud.mp3',
     solo_3: 'Nella Fantasia',
   },
   {
     id: 'ikke-religiose-tekster',
     name: 'Ikke religiøse tekster',
     bg_colour: '#e4772d',
-    image:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/testimonials/flower_card_13_copy_z3ltzi.webp',
+    image: '/images/flowers/flower_card_13.webp',
     solo_1: 'God morgen, min kjære',
     solo_1_href: '/repertoar/god-morgen-min-kjaere-av-benny-borg',
     fellessang_1: 'Din tanke er fri',
-    fellessang_1_audio:
-      'https://res.cloudinary.com/dt3k2apqd/video/upload/v1718703351/Sang%20i%20begravelse/Audio/Din_tanke_er_fri_ae1hxh.mp3',
+    fellessang_1_audio: '/audio/Din_tanke_er_fri.mp3',
     solo_2: 'Höstvisa',
-    solo_2_audio:
-      'https://res.cloudinary.com/dt3k2apqd/video/upload/v1717670312/Sang%20i%20begravelse/Audio/Ho%CC%88stvisa_Repertoire_dztkhf.mp3',
+    solo_2_audio: '/audio/Höstvisa_Repertoire.mp3',
     solo_2_href: '/repertoar/hoestvisa-av-erna-tauro-og-tove-jansson',
     fiolinsolo: 'Tema fra Schindlers list',
     solo_3: 'De nære ting',
-    solo_3_audio:
-      'https://res.cloudinary.com/dt3k2apqd/video/upload/v1718703255/Sang%20i%20begravelse/Audio/De_n%C3%A6re_ting_vjflkq.mp3',
+    solo_3_audio: '/audio/De_nære_ting.mp3',
     solo_3_href: '/repertoar/de-naere-ting-av-arne-paasche-aasen',
     fellessang_2: 'Barn av regnbuen',
     fellessang_2_href:
@@ -90,25 +75,21 @@ export const suggestions = [
     id: 'pop-miks',
     name: 'Pop miks',
     bg_colour: '#e4772d',
-    image:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/testimonials/flower_card_6_copy_e6wibj.webp',
+    image: '/images/flowers/flower_card_6.webp',
     solo_1: 'Make You Feel My Love / Fordi jeg elsker deg (solo/duett)',
     solo_1_href:
       '/repertoar/fordi-jeg-elsker-deg-av-bob-dyllan-og-bjarte-hjelmeland',
     salme_1: 'Amazing Grace',
-    salme_1_audio:
-      'https://res.cloudinary.com/dt3k2apqd/video/upload/v1717673011/Sang%20i%20begravelse/Audio/Amazing_Grace_z5ujiz.mp3',
+    salme_1_audio: '/audio/Amazing_Grace.mp3',
     salme_1_href: '/repertoar/amazing-grace-av-john-newton',
     solo_2: 'How Do I Say Goodbye',
     solo_2_href: '/repertoar/how-do-i-say-goodbye-av-dean-lewis',
     solo_3: 'Feels Like Home',
     solo_3_href: '/repertoar/feels-like-home-av-randy-newman',
     salme_2: 'Morning Has Broken',
-    salme_2_audio:
-      'https://res.cloudinary.com/dt3k2apqd/video/upload/v1717679336/Sang%20i%20begravelse/Audio/Morning_has_broken_kee52g.mp3',
+    salme_2_audio: '/audio/Morning_has_broken.mp3',
     solo_4: 'The Prayer (solo/duett)',
-    solo_4_audio:
-      'https://res.cloudinary.com/dt3k2apqd/video/upload/v1717599606/Sang%20i%20begravelse/Audio/The_Prayer_nr3ive.mp3',
+    solo_4_audio: '/audio/The_Prayer.mp3',
     solo_4_href:
       '/repertoar/the-prayer-av-david-foster-carole-bayer-sager-alberto-testa-og-tony-renis',
   },
@@ -116,50 +97,39 @@ export const suggestions = [
     id: 'jul-og-vinter',
     name: 'Jul og vinter',
     bg_colour: '#e4772d',
-    image:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/testimonials/flower_card_11_copy_tfc18v.webp',
+    image: '/images/flowers/flower_card_11.webp',
     solo_1: 'Nordnorsk julesalme',
-    solo_1_audio:
-      'https://res.cloudinary.com/dt3k2apqd/video/upload/v1718700219/Sang%20i%20begravelse/Audio/Nordnorsk_julesalme_txqbvd.mp3',
+    solo_1_audio: '/audio/Nordnorsk_julesalme.mp3',
     salme_1: 'Det hev ei rose sprunge',
-    salme_1_audio:
-      'https://res.cloudinary.com/dt3k2apqd/video/upload/v1717676076/Sang%20i%20begravelse/Audio/Det_heiv_ei_rosa_bcuipr.mp3',
+    salme_1_audio: '/audio/Det_heiv_ei_rosa.mp3',
     solo_2: 'Mitt hjerte alltid vanker',
-    solo_2_audio:
-      'https://res.cloudinary.com/dt3k2apqd/video/upload/v1717679146/Sang%20i%20begravelse/Audio/Mitt_hjerte_alltid_vanker_thsizm.mp3',
+    solo_2_audio: '/audio/Mitt_hjerte_alltid_vanker.mp3',
     solo_2_href: '/repertoar/mitt-hjerte-alltid-vanker-av-hans-adolph-brorson',
     salme_2: 'Deilig er den himmel blå',
-    salme_2_audio:
-      'https://res.cloudinary.com/dt3k2apqd/video/upload/v1717675562/Sang%20i%20begravelse/Audio/Deilig_er_en_himmel_bla%CC%8A_kopip6.mp3',
+    salme_2_audio: '/audio/Deilig_er_en_himmel_blå.mp3',
     salme_3: 'Deilig er jorden',
-    salme_3_audio:
-      'https://res.cloudinary.com/dt3k2apqd/video/upload/v1717675414/Sang%20i%20begravelse/Audio/Deilig_er_jorden_gwu8fn.mp3',
+    salme_3_audio: '/audio/Deilig_er_jorden.mp3',
     solo_3: 'O Helga natt',
-    solo_3_audio:
-      'https://res.cloudinary.com/dt3k2apqd/video/upload/v1717607297/Sang%20i%20begravelse/Audio/O_Helga_natt_cngnam.mp3',
+    solo_3_audio: '/audio/O_Helga_natt.mp3',
     solo_3_href: '/repertoar/o-helga-natt-av-adolphe-adam',
   },
   {
     id: 'klassisk-og-opera',
     name: 'Klassisk og opera',
     bg_colour: '#e4772d',
-    image:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/testimonials/flower_card_4_copy_u0qaxo.webp',
+    image: '/images/flowers/flower_card_4.webp',
     solo_1: 'O mio babbino caro (sopran arie/dame)',
     solo_1_audio: '/audio/O_mio_babbino_caro.mp3',
     solo_1_href: '/repertoar/o-mio-babbino-caro-av-giacomo-puccini',
     salme_1: 'O bli hos meg',
-    salme_1_audio:
-      'https://res.cloudinary.com/dt3k2apqd/video/upload/v1718700520/Sang%20i%20begravelse/Audio/O_bli_hos_meg_mttbp5.mp3',
+    salme_1_audio: '/audio/O_bli_hos_meg.mp3',
     fiolinsolo: 'Méditation fra Thais',
     solo_2: 'Mot kveld',
     solo_2_href: '/repertoar/mot-kveld-av-agathe-backer-grondahl',
     salme_2: 'Så ta da mine hender',
-    salme_2_audio:
-      'https://res.cloudinary.com/dt3k2apqd/video/upload/v1718702120/Sang%20i%20begravelse/Audio/Sa%CC%8A_ta_da_mine_hender_igllo2.mp3',
+    salme_2_audio: '/audio/Så_ta_da_mine_hender.mp3',
     solo_3: 'Caruso',
-    solo_3_audio:
-      'https://res.cloudinary.com/dt3k2apqd/video/upload/v1717669892/Sang%20i%20begravelse/Audio/Caruso_guitar_Forslags_preview_thgcgg.mp3',
+    solo_3_audio: '/audio/Caruso_with_guitar.mp3',
     solo_3_href: '/repertoar/caruso-av-lucio-dalla',
   },
   // More suggestions...
