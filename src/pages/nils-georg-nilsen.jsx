@@ -11,29 +11,25 @@ const features = [
     title: 'Caruso',
     description: 'En klassisk italiensk sang av Lucio Dalla.',
     audio: true,
-    audioUrl:
-      'https://res.cloudinary.com/dt3k2apqd/video/upload/v1717600157/Sang%20i%20begravelse/Audio/Caruso_with_piano_ks4yca.mp3',
+    audioUrl: '/audio/Caruso_with_piano.mp3',
   },
   {
     title: 'Crazy',
     description: 'En pop sang av Willie Nelson.',
     audio: true,
-    audioUrl:
-      'https://res.cloudinary.com/dt3k2apqd/video/upload/v1717672445/Sang%20i%20begravelse/Audio/Crazy_Repertoire_byr4my.mp3',
+    audioUrl: '/audio/Crazy.mp3',
   },
   {
     title: 'Vise i vinterlys',
     description: 'En vinter og jul sang av Finn Ludt og Erik Bye.',
     audio: true,
-    audioUrl:
-      'https://res.cloudinary.com/dt3k2apqd/video/upload/v1717604981/Sang%20i%20begravelse/Audio/Vinterlyset_wznnto.mp3',
+    audioUrl: '/audio/Vinterlyset.mp3',
   },
   {
     title: 'Unchained melody',
     description: 'En pop sang av Alex North og Hy Zaret.',
     audio: true,
-    audioUrl:
-      'https://res.cloudinary.com/dt3k2apqd/video/upload/v1717604831/Sang%20i%20begravelse/Audio/Unchained_melody_tj2url.mp3',
+    audioUrl: '/audio/Unchained_melody.mp3',
   },
 ];
 
