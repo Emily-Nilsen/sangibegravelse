@@ -2,7 +2,6 @@ import Head from 'next/head';
 
 import { HeroHjem } from '@/components/HeroHjem';
 
-import { RepertoarPreview } from '@/components/RepertoarPreview';
 import { RepertoarToggle } from '@/components/RepertoarToggle';
 
 export default function Home() {

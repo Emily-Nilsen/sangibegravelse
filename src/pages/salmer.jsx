@@ -2,7 +2,6 @@ import Head from 'next/head';
 
 import { HeroHjem } from '@/components/HeroHjem';
 import { Oppdatering } from '@/components/Oppdatering';
-import { RepertoarPreview } from '@/components/RepertoarPreview';
 import { Fellessanger } from '@/components/Fellessanger';
 import { SalmerList } from '../components/SalmerList';
 import { HeroSalmer } from '../components/HeroSalmer';

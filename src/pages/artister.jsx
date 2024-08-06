@@ -1,7 +1,6 @@
 import Head from 'next/head';
 
 import { Oppdatering } from '@/components/Oppdatering';
-import { RepertoarPreview } from '@/components/RepertoarPreview';
 import { ArtistsPreview } from '@/components/ArtistsPreview';
 import { HeroArtister } from '../components/HeroArtister';
 
