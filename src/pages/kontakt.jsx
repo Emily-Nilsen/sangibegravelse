@@ -1,37 +1,9 @@
-// import { useState } from 'react';
 import Head from 'next/head';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 import Link from 'next/link';
 
 export default function Kontakt() {
-  // const [status, setStatus] = useState(null);
-
-  // const handleSubmit = async (event) => {
-  //   event.preventDefault();
-  //   const form = event.target;
-  //   const formData = new FormData(form);
-
-  //   try {
-  //     const response = await fetch('/', {
-  //       method: 'POST',
-  //       headers: {
-  //         'Content-Type': 'application/x-www-form-urlencoded',
-  //       },
-  //       body: new URLSearchParams(formData).toString(),
-  //     });
-
-  //     if (response.ok) {
-  //       setStatus('ok');
-  //       form.reset();
-  //     } else {
-  //       setStatus('error');
-  //     }
-  //   } catch (error) {
-  //     setStatus('error');
-  //   }
-  // };
-
   return (
     <>
       <Head>
@@ -90,42 +62,42 @@ export default function Kontakt() {
           </div>
           {/* Contact NG */}
           <motion.div
-              whileInView={{ opacity: 1, y: 0 }}
-              initial={{
-                opacity: 0,
-                y: 50,
-              }}
-              transition={{
-                delay: 0.5,
-                duration: 1,
-                type: 'fade',
-              }}
-              className="p-10 mx-auto mt-16 rounded-2xl bg-gray-50 w-fit sm:mt-20 sm:w-full sm:max-w-md"
-            >
-              <h3 className="text-base font-semibold leading-7 text-gray-900">
-                Kontakt Nils Georg Nilsen
-              </h3>
-              <dl className="mt-3 space-y-1 text-sm leading-6 text-gray-600">
-                <div>
-                  <dt className="sr-only">Email</dt>
-                  <dd>
-                    <Link
-                      className="font-semibold text-slate-600"
-                      href="mailto:nils.g.nilsen@gmail.com"
-                    >
-                      nils.g.nilsen@gmail.com
-                    </Link>
-                  </dd>
-                </div>
-                <div className="mt-1">
-                  <dt className="sr-only">Phone number</dt>
-                  <dd>
-                    {' '}
-                    <Link href="tel:+47 402 20 414">+47 402 20 414</Link>
-                  </dd>
-                </div>
-              </dl>
-            </motion.div>
+            whileInView={{ opacity: 1, y: 0 }}
+            initial={{
+              opacity: 0,
+              y: 50,
+            }}
+            transition={{
+              delay: 0.5,
+              duration: 1,
+              type: 'fade',
+            }}
+            className="p-10 mx-auto mt-16 rounded-2xl bg-gray-50 w-fit sm:mt-20 sm:w-full sm:max-w-md"
+          >
+            <h3 className="text-base font-semibold leading-7 text-gray-900">
+              Kontakt Nils Georg Nilsen
+            </h3>
+            <dl className="mt-3 space-y-1 text-sm leading-6 text-gray-600">
+              <div>
+                <dt className="sr-only">Email</dt>
+                <dd>
+                  <Link
+                    className="font-semibold text-slate-600"
+                    href="mailto:nils.g.nilsen@gmail.com"
+                  >
+                    nils.g.nilsen@gmail.com
+                  </Link>
+                </dd>
+              </div>
+              <div className="mt-1">
+                <dt className="sr-only">Phone number</dt>
+                <dd>
+                  {' '}
+                  <Link href="tel:+47 402 20 414">+47 402 20 414</Link>
+                </dd>
+              </div>
+            </dl>
+          </motion.div>
           {/* <form
             action="/submit.html"
             name="Sang i begravelse - Kontaktskjema"

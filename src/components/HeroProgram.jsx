@@ -1,24 +1,26 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
+import forslagDesktop from '../images/general/forslag-desktop.webp';
+import forslagMobile from '../images/general/forslag-mobile.webp';
 
 export function HeroProgram() {
   return (
     <div className="bg-amber-50">
       <div className="relative overflow-hidden pt-14 isolate">
         <Image
-          src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/roses_2_adjusted_yqmvx0.webp"
+          src={forslagMobile}
           alt="Hvite roser"
-          width={2176}
-          height={3264}
+          width={900}
+          height={900}
           className="absolute inset-0 object-cover object-left w-full h-full sm:hidden -z-10"
           priority
         />
         <Image
-          src="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/roses_2_adjusted_yqmvx0.webp"
+          src={forslagDesktop}
           alt="Hvite roser"
-          width={3000}
-          height={1681}
+          width={1920}
+          height={1076}
           className="absolute inset-0 hidden object-cover w-full h-full sm:block -z-10"
           priority
         />

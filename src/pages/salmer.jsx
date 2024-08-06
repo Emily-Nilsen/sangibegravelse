@@ -13,8 +13,7 @@ export default function Salmer() {
     '@type': 'WebSite',
     url: 'https://sangibegravelse.no/salmer',
     name: 'Sang i begravelse',
-    image:
-      'https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Sang_i_begravelse_jfysbv.webp',
+    image: '/images/general/meta-img.webp',
     description:
       'En plattform for å finne og velge sanger til begravelser eller minnestunder med mulighet til å engasjere profesjonelle norske artister.',
     potentialAction: {
@@ -50,14 +49,8 @@ export default function Salmer() {
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://sangibegravelse.no/" />
-        <meta
-          property="og:image"
-          content="https://res.cloudinary.com/dt3k2apqd/image/upload/v1698149656/Sang%20i%20begravelse/Sang_i_begravelse_logo_l0ipsd.svg"
-        />
-        <meta
-          property="og:image"
-          content="https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/Sang_i_begravelse_jfysbv.webp"
-        />
+        <meta property="og:image" content="/images/general/meta-logo.svg" />
+        <meta property="og:image" content="/images/general/meta-img.webp" />
         <meta
           property="og:description"
           content="Sang i begravelse tilbyr et stort sortiment av sanger egnet for bruk i begravelser. Utforsk vårt brede utvalg for å finne den perfekte sangen for deres minnestund. Vår nettside tilbyr all nødvendig informasjon for å gjøre et informert valg av sang til en verdig avskjed."
