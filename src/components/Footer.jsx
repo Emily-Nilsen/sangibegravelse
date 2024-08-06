@@ -5,7 +5,7 @@ import birdLogo from '../images/general/bird-logo.webp';
 const navigation = {
   sanger: [
     { name: 'Repertoar', href: '/' },
-    { name: 'Salmer og felles sanger', href: '/salmer' },
+    { name: 'Salmer og fellessanger', href: '/salmer' },
     { name: 'Forslag til program', href: '/programforslag' },
   ],
   artister: [

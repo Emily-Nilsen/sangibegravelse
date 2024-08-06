@@ -4,7 +4,7 @@ const hymnes = [
     lyrics: 'Christian Richardt 1867',
     melody: 'C. E. F. Weyse 1938',
     audio: true,
-    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1717672543/Sang%20i%20begravelse/Audio/Alltid_freidig_na%CC%8Ar_du_ga%CC%8Ar_rdfz9a.mp3`,
+    audioUrl: `/audio/Alltid_freidig_når_du_går.mp3`,
     performers: ['Nils Georg Nilsen'],
     tekst: [
       'Alltid freidig når du går',
@@ -28,7 +28,7 @@ const hymnes = [
     lyrics: 'Svein Ellingsen (1998)',
     melody: 'Egil Hovland (1998)',
     audio: true,
-    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1717672677/Sang%20i%20begravelse/Audio/Alt_ble_med_ett_sa%CC%8A_stille_xpgftj.mp3`,
+    audioUrl: `/audio/Alt_ble_med_ett_så_stille.mp3`,
     performers: ['Nils Georg Nilsen'],
     tekst: [
       'Alt ble med ett så stille,',
@@ -63,7 +63,7 @@ const hymnes = [
     translation: 'Trygve Bjerkrheim (1966)',
     melody: 'Columbian Harmony (1829)',
     audio: true,
-    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1717673011/Sang%20i%20begravelse/Audio/Amazing_Grace_z5ujiz.mp3`,
+    audioUrl: `/audio/Amazing_Grace.mp3`,
     performers: ['Nils Georg Nilsen'],
     tekst: [
       'Amazing grace (how sweet the sound)',
@@ -87,7 +87,7 @@ const hymnes = [
     lyrics: 'Ukjent',
     melody: 'Irsk folketone',
     audio: true,
-    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1717673145/Sang%20i%20begravelse/Audio/An_Irish_Blessing_panrtd.mp3`,
+    audioUrl: `/audio/An_Irish_Blessing.mp3`,
     performers: ['Nils Georg Nilsen'],
     tekst: [
       'May the road rise to meet you.',
@@ -116,7 +116,7 @@ const hymnes = [
     lyrics: 'Lina Sandell (1865, 1872)',
     melody: 'Oscar Ahnfelt (1872)',
     audio: true,
-    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1717673396/Sang%20i%20begravelse/Audio/Blott_en_dag_kwxnyc.mp3`,
+    audioUrl: `/audio/Blott_en_dag.mp3`,
     performers: ['Nils Georg Nilsen'],
     tekst: [
       'Blott en dag ett ögonblick i sänder',
@@ -152,7 +152,7 @@ const hymnes = [
     lyrics: 'Erik Bye (1994)',
     melody: 'Henning Sommerro (1994)',
     audio: true,
-    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1717673555/Sang%20i%20begravelse/Audio/Bla%CC%8A_salme_eyptu3.mp3`,
+    audioUrl: `/audio/Blå_salme.mp3`,
     performers: ['Nils Georg Nilsen'],
     tekst: [
       'Jeg synger meg en blå, blå salme',
@@ -190,7 +190,7 @@ const hymnes = [
     lyrics: 'Lina Sandell (1865)',
     melody: 'Svensk folketone fra Skåne',
     audio: true,
-    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1717673818/Sang%20i%20begravelse/Audio/Bred_dine_vida_vingar_mpppjd.mp3`,
+    audioUrl: `/audio/Bred_dine_vida_vingar.mp3`,
     performers: ['Nils Georg Nilsen'],
     tekst: [
       'Bred dina vida vingar, o Jesus, över mig',
@@ -210,7 +210,7 @@ const hymnes = [
     translation: 'Arne Fjellberg (1947)',
     melody: 'G. Fr. Händel (1746)',
     audio: true,
-    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1717673969/Sang%20i%20begravelse/Audio/Deg_v%C3%A6re_%C3%A6re_xq0in8.mp3`,
+    audioUrl: `/audio/Deg_være_ære.mp3`,
     performers: ['Nils Georg Nilsen'],
     tekst: [
       'Deg være ære, Herre over dødens makt!',
@@ -243,7 +243,7 @@ const hymnes = [
     translation: 'Arve Brunvoll (1978)',
     melody: 'Irsk folketone',
     audio: true,
-    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1717674069/Sang%20i%20begravelse/Audio/Deg_a%CC%8A_fa%CC%8A_skode_gffdke.mp3`,
+    audioUrl: `/audio/Deg_å_få_skode.mp3`,
     performers: ['Nils Georg Nilsen'],
     tekst: [
       'Deg å få skode er sæla å nå,',
@@ -277,7 +277,7 @@ const hymnes = [
     lyrics: 'B.S. Ingemann (1850)',
     melody: 'Breslau (1842)',
     audio: true,
-    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1717675414/Sang%20i%20begravelse/Audio/Deilig_er_jorden_gwu8fn.mp3`,
+    audioUrl: `/audio/Deilig_er_jorden.mp3`,
     performers: ['Nils Georg Nilsen'],
     tekst: [
       'Deilig er jorden,',
@@ -308,7 +308,7 @@ const hymnes = [
     translation: 'Anders Hovden (1900)',
     melody: 'Jacob Gerhard Meidell (1840)',
     audio: true,
-    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1717675562/Sang%20i%20begravelse/Audio/Deilig_er_en_himmel_bla%CC%8A_kopip6.mp3`,
+    audioUrl: `/audio/Deilig_er_den_himmel_blå.mp3`,
     performers: ['Nils Georg Nilsen'],
     tekst: [
       'Deilig er den himmel blå,',
@@ -335,7 +335,7 @@ const hymnes = [
     lyrics: 'Per Sivle (1877)',
     melody: 'Lars Søraas (1909)',
     audio: true,
-    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1717675675/Sang%20i%20begravelse/Audio/Den_fyrste_sang_cvgtiv.mp3`,
+    audioUrl: `/audio/Den_fyrste_sang.mp3`,
     performers: ['Nils Georg Nilsen'],
     tekst: [
       'Den fyrste song eg høyra fekk',
@@ -364,7 +364,7 @@ const hymnes = [
     lyrics: 'Henrik Wergeland (1840)',
     melody: 'Svensk folketone',
     audio: true,
-    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1717675813/Sang%20i%20begravelse/Audio/Den_prektigkledde_sommerfugl_qswqkb.mp3`,
+    audioUrl: `/audio/Den_prektigkledde_sommerfugl.mp3`,
     performers: ['Nils Georg Nilsen'],
     tekst: [
       'Den prektigkledde sommerfugl',
@@ -388,7 +388,7 @@ const hymnes = [
     lyrics: 'Trygve Bjerkrheim (1955)',
     melody: 'Øivind Tønnesen (1962)',
     audio: true,
-    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1717675978/Sang%20i%20begravelse/Audio/Det_er_makt_ibhuz1.mp3`,
+    audioUrl: `/audio/Det_er_makt.mp3`,
     performers: ['Nils Georg Nilsen'],
     tekst: [
       'Det er makt i de foldede hender',
@@ -431,7 +431,7 @@ const hymnes = [
     translation: 'Peter Hognestad (1919, 1921)',
     melody: '1400-t, Köln (1599), Michael Praetorius (1609)',
     audio: true,
-    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1717676076/Sang%20i%20begravelse/Audio/Det_heiv_ei_rosa_bcuipr.mp3`,
+    audioUrl: `/audio/Det_heiv_ei_rosa.mp3`,
     performers: ['Nils Georg Nilsen'],
     tekst: [
       'Det hev ei rose sprunge',
@@ -457,7 +457,7 @@ const hymnes = [
     translation: 'Andres Hovden (1927)',
     melody: 'Bjørn Eidsvåg (1969)',
     audio: true,
-    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1717676195/Sang%20i%20begravelse/Audio/Ein_fin_liten_blome_b9tixj.mp3`,
+    audioUrl: `/audio/Ein_fin_liten_blome.mp3`,
     performers: ['Nils Georg Nilsen'],
     tekst: [
       'Ein fin liten blome i skogen eg ser,',
@@ -492,7 +492,7 @@ const hymnes = [
     translation: 'Peter Hognestad (1904), Ella Holm Bull (1980)',
     melody: 'J. Chr. H. Ring (1927)',
     audio: true,
-    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1717676305/Sang%20i%20begravelse/Audio/Fager_kveldssol_ble1ww.mp3`,
+    audioUrl: `/audio/Fager_kveldssol.mp3`,
     performers: ['Nils Georg Nilsen'],
     tekst: [
       'Fager kveldsol smiler over heimen ned,',
@@ -514,7 +514,7 @@ const hymnes = [
     translation: 'Gregers Lunch (1973)',
     melody: 'Wendy Carter (1971)',
     audio: true,
-    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1717676454/Sang%20i%20begravelse/Audio/Fall_til_ro_edshjc.mp3`,
+    audioUrl: `/audio/Fall_til_ro.mp3`,
     performers: ['Nils Georg Nilsen'],
     tekst: [
       'Refreng:',
@@ -547,7 +547,7 @@ const hymnes = [
     lyrics: 'Sondre Bratland (1988)',
     melody: 'Irsk Folketone (Down by the Sally Gardens)',
     audio: true,
-    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1717676564/Sang%20i%20begravelse/Audio/Gje_meg_handa_di_ven_juebex.mp3`,
+    audioUrl: `/audio/Gje_meg_handa_di_ven.mp3`,
     performers: ['Nils Georg Nilsen'],
     tekst: [
       'Gje meg handa di ven når det kveldnar',
@@ -575,7 +575,7 @@ const hymnes = [
     lyrics: 'Lyder Brun (1913)',
     melody: 'Ludvik M. Lindeman (1864)',
     audio: true,
-    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1717676678/Sang%20i%20begravelse/Audio/Gud_na%CC%8Ar_du_til_oppbrud_xj2feh.mp3`,
+    audioUrl: `/Audio/Gud_når_du_til_oppbrud.mp3`,
     performers: ['Nils Georg Nilsen'],
     tekst: [
       'Gud, når du til oppbrudd kaller,',
@@ -605,7 +605,7 @@ const hymnes = [
     lyrics: 'Elias Blix (1890)',
     melody: 'C.E.F. Weyse (1826)',
     audio: true,
-    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1717676825/Sang%20i%20begravelse/Audio/Gud_signe_va%CC%8Art_dyre_rgirah.mp3`,
+    audioUrl: `/audio/Gud_signe_vårt_dyre.mp3`,
     performers: ['Nils Georg Nilsen'],
     tekst: [
       'Gud signe vårt dyre fedreland og lat det som hagen bløma!',
@@ -627,7 +627,7 @@ const hymnes = [
     translation: 'Alfred Hauge (1973)',
     melody: 'Lars Åke Lundberg (1968)',
     audio: true,
-    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1717676926/Sang%20i%20begravelse/Audio/Guds_kj%C3%A6rleik_eogyds.mp3`,
+    audioUrl: `/audio/Guds_kjærleik.mp3`,
     performers: ['Nils Georg Nilsen'],
     tekst: [
       'Guds kjærleik er som stranda og som graset',
@@ -652,7 +652,7 @@ const hymnes = [
     translation: 'Gustav Jensen (1909)',
     melody: 'Norsk folketone fra Romedal',
     audio: true,
-    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1717677018/Sang%20i%20begravelse/Audio/Herre_gud_u1cidh.mp3`,
+    audioUrl: `/audio/Herre_gud.mp3`,
     performers: ['Nils Georg Nilsen'],
     tekst: [
       'Herre Gud, ditt dyre navn og ære',
@@ -676,7 +676,7 @@ const hymnes = [
     lyrics: 'Ingeborg Prytz Fougner (1948)',
     melody: 'Sigurd Lunde (1973)',
     audio: true,
-    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1717677138/Sang%20i%20begravelse/Audio/Ikke_en_spurv_til_jorden_qywqty.mp3`,
+    audioUrl: `/audio/Ikke_en_spurv_til_jorden.mp3`,
     performers: ['Nils Georg Nilsen'],
     tekst: [
       'Ikke en spurv til jorden uten at Gud det vet.',
@@ -700,7 +700,7 @@ const hymnes = [
     lyrics: 'Lina Sandell (1856)',
     melody: 'Tysk vise',
     audio: true,
-    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1717677808/Sang%20i%20begravelse/Audio/Ingen_er_sa%CC%8A_trygg_i_fare_fnebge.mp3`,
+    audioUrl: `/audio/Ingen_er_så_trygg_i_fare.mp3`,
     performers: ['Nils Georg Nilsen'],
     tekst: [
       'Ingen er så trygg i fare',
@@ -729,7 +729,7 @@ const hymnes = [
     lyrics: 'Henry Albert Tandberg (1909)',
     melody: 'Klaus Østby (1909)',
     audio: true,
-    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1717677927/Sang%20i%20begravelse/Audio/Jeg_er_en_seiler_wsso5k.mp3`,
+    audioUrl: `/audio/Jeg_er_en_seiler.mp3`,
     performers: ['Nils Georg Nilsen'],
     tekst: [
       'Jeg er en seiler på livets hav',
@@ -763,7 +763,7 @@ const hymnes = [
     translation: 'Ella Holm Bull (1990)',
     melody: 'Sigurd Lunde (1947)',
     audio: true,
-    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1717678073/Sang%20i%20begravelse/Audio/Jeg_er_i_herrens_hender_jxspim.mp3`,
+    audioUrl: `/audio/Jeg_er_i_herrens_hender.mp3`,
     performers: ['Nils Georg Nilsen'],
     tekst: [
       'Jeg er i Herrens hender når dagen gryr mot vest',
@@ -793,7 +793,7 @@ const hymnes = [
     translation: 'Ingolf Kvamen (1970)',
     melody: 'Jacob Gerhard Meidell (1840)',
     audio: true,
-    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1717678301/Sang%20i%20begravelse/Audio/Kj%C3%A6re_gud_vx1xzl.mp3`,
+    audioUrl: `/audio/Kjære_gud.mp3`,
     performers: ['Nils Georg Nilsen'],
     tekst: [
       'Kjære Gud jeg har det godt',
@@ -809,7 +809,7 @@ const hymnes = [
     lyrics: 'N.F.S. Grundsvig (1853)',
     melody: 'Ludvik M. Lindeman (1862)',
     audio: true,
-    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1717678681/Sang%20i%20begravelse/Audio/Kj%C3%A6rlighet_er_lysets_kilde_s2vwis.mp3`,
+    audioUrl: `/audio/Kjærlighet_er_lysets_kilde.mp3`,
     performers: ['Nils Georg Nilsen'],
     tekst: [
       'Kjærlighet er lysets kilde,',
@@ -846,7 +846,7 @@ const hymnes = [
     translation: 'Knut Tore Andersen (1989)',
     melody: 'H.S. Thompson (1852)',
     audio: true,
-    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1717678821/Sang%20i%20begravelse/Audio/Kj%C3%A6rlighet_fra_Gud_uitsbf.mp3`,
+    audioUrl: `/audio/Kjærlighet_fra_Gud.mp3`,
     performers: ['Nils Georg Nilsen'],
     tekst: [
       'Kjærlighet fra Gud',
@@ -877,7 +877,7 @@ const hymnes = [
     translation: 'Peter Hognestad (1914)',
     melody: 'Charles H. Purday (1860)',
     audio: true,
-    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1717678980/Sang%20i%20begravelse/Audio/Lei_milde_ljos_gxkukx.mp3`,
+    audioUrl: `/audio/Lei_milde_ljos.mp3`,
     performers: ['Nils Georg Nilsen'],
     tekst: [
       'Lei, milde ljos, igjennom skoddeeim,',
@@ -909,7 +909,7 @@ const hymnes = [
       'Paul Gælok (1908), Knut Tore Andersen (1996), Terje Aronsen (1998)',
     melody: 'Svensk/norsk folketone',
     audio: true,
-    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1717679146/Sang%20i%20begravelse/Audio/Mitt_hjerte_alltid_vanker_thsizm.mp3`,
+    audioUrl: `/audio/Mitt_hjerte_alltid_vanker.mp3`,
     performers: ['Nils Georg Nilsen'],
     tekst: [
       'Mitt hjerte alltid vanker i Jesu føderom,',
@@ -936,7 +936,7 @@ const hymnes = [
     translation: 'Eivind Skeie (1980), Anders Frostenson (1976)',
     melody: 'Gælisk folketone',
     audio: true,
-    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1717679336/Sang%20i%20begravelse/Audio/Morning_has_broken_kee52g.mp3`,
+    audioUrl: `/audio/Morning_has_broken.mp3`,
     performers: ['Nils Georg Nilsen'],
     tekst: [
       'Morning has broken like the first morning,',
@@ -961,7 +961,7 @@ const hymnes = [
     translation: 'Arve Brunvoll (1977)',
     melody: 'Egil Hovland (1974)',
     audio: true,
-    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1717679456/Sang%20i%20begravelse/Audio/Ma%CC%8Ane_og_sol_t89wmm.mp3`,
+    audioUrl: `/audio/Måne_og_sol.mp3`,
     performers: ['Nils Georg Nilsen'],
     tekst: [
       'Måne og sol, skyer og vind',
@@ -989,7 +989,7 @@ const hymnes = [
     lyrics: 'Anders Hovden (1910)',
     melody: 'Norsk folketone fra Nordfjord',
     audio: true,
-    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1717679599/Sang%20i%20begravelse/Audio/Ned_i_vester_soli_glader_bw1exm.mp3`,
+    audioUrl: `/audio/Ned_i_vester_soli_glader.mp3`,
     performers: ['Nils Georg Nilsen'],
     tekst: [
       'Ned i vester soli glader.',
@@ -1012,7 +1012,7 @@ const hymnes = [
     lyrics: 'Elias Blix (1875)',
     melody: 'Ludvik M. Lindeman (1865)',
     audio: true,
-    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1718699895/Sang%20i%20begravelse/Audio/No_livnar_det_i_lundar_woda3i.mp3`,
+    audioUrl: `/audio/No_livnar_det_i_lundar.mp3`,
     performers: ['Nils Georg Nilsen'],
     tekst: [
       'No livnar det i lundar,',
@@ -1041,7 +1041,7 @@ const hymnes = [
     lyrics: 'Trygve Hoff (1985)',
     melody: 'Trygve Hoff (1985)',
     audio: true,
-    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1718700219/Sang%20i%20begravelse/Audio/Nordnorsk_julesalme_txqbvd.mp3`,
+    audioUrl: `/audio/Nordnorsk_julesalme.mp3`,
     performers: ['Nils Georg Nilsen'],
     tekst: [
       'Velsigna du dag over fjordan',
@@ -1078,7 +1078,7 @@ const hymnes = [
     translation: 'Gustav Jensen (1915), Bernt Støylen (1906)',
     melody: 'Lowell Mason (1856)',
     audio: true,
-    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1718700388/Sang%20i%20begravelse/Audio/N%C3%A6rmere_deg_min_gud_zbezqj.mp3`,
+    audioUrl: `/audio/Nærmere_deg_min_gud.mp3`,
     performers: ['Nils Georg Nilsen'],
     tekst: [
       'Nærmere deg, min Gud, nærmere deg,',
@@ -1103,7 +1103,7 @@ const hymnes = [
     translation: 'Gustav Jensen (1913), Peter Hognestad (1924)',
     melody: 'William Henry Monk (1861)',
     audio: true,
-    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1718700520/Sang%20i%20begravelse/Audio/O_bli_hos_meg_mttbp5.mp3`,
+    audioUrl: `/audio/O_bli_hos_meg.mp3`,
     performers: ['Nils Georg Nilsen'],
     tekst: [
       'O bli hos meg! Nå er det aftentid',
@@ -1128,7 +1128,7 @@ const hymnes = [
     translation: 'Knut J. Andersen (1956)',
     melody: 'Svensk folketone',
     audio: true,
-    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1718701701/Sang%20i%20begravelse/Audio/O_store_gud_lzcocv.mp3`,
+    audioUrl: `/audio/O_store_gud.mp3`,
     performers: ['Nils Georg Nilsen'],
     tekst: [
       'O store Gud, når jeg i undring aner',
@@ -1162,7 +1162,7 @@ const hymnes = [
     lyrics: 'N.F.S Grundtvig (1843)',
     melody: 'Ludvik M. Lindeman (1864)',
     audio: true,
-    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1718701880/Sang%20i%20begravelse/Audio/Pa%CC%8Askemorgen_dtlnch.mp3`,
+    audioUrl: `/audio/Påskemorgen.mp3`,
     performers: ['Nils Georg Nilsen'],
     tekst: [
       'Påskemorgen slukker sorgen,',
@@ -1193,7 +1193,7 @@ const hymnes = [
     translation: 'Sverre Olsen (1980)',
     melody: 'Göte Strandsjö (1967)',
     audio: true,
-    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1718702002/Sang%20i%20begravelse/Audio/Som_na%CC%8Ar_et_barn_kommer_hjem_k3twa1.mp3`,
+    audioUrl: `/audio/Som_når_et_barn_kommer_hjem.mp3`,
     performers: ['Nils Georg Nilsen'],
     tekst: [
       'Som når et barn kommer hjem om kvelden',
@@ -1221,7 +1221,7 @@ const hymnes = [
     translation: 'Peter Waage (1887), Peter Hognestad (1909)',
     melody: 'Friedrich Silcher 1842',
     audio: true,
-    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1718702120/Sang%20i%20begravelse/Audio/Sa%CC%8A_ta_da_mine_hender_igllo2.mp3`,
+    audioUrl: `/audio/Så_ta_da_mine_hender.mp3`,
     performers: ['Nils Georg Nilsen'],
     tekst: [
       'Så ta da mine hender og før meg frem',
@@ -1245,7 +1245,7 @@ const hymnes = [
     lyrics: 'Eyvind Skeie (1988)',
     melody: 'Sigvald Tveit (1988)',
     audio: true,
-    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1718702217/Sang%20i%20begravelse/Audio/Tenn_lys_g5idc2.mp3`,
+    audioUrl: `/audio/Tenn_lys.mp3`,
     performers: ['Nils Georg Nilsen'],
     tekst: [
       'Tenn lys',
@@ -1279,7 +1279,7 @@ const hymnes = [
     translation: 'M.B Landstad (1861), Anders Hovden (1923)',
     melody: 'Hans Leo Hassler 1601',
     audio: true,
-    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1718702320/Sang%20i%20begravelse/Audio/Velt_alle_dine_veier_xnj7xj.mp3`,
+    audioUrl: `/audio/Velt_alle_dine_veier.mp3`,
     performers: ['Nils Georg Nilsen'],
     tekst: [
       'Velt alle dine veier og all din hjertesorg',
@@ -1303,7 +1303,7 @@ const hymnes = [
     lyrics: 'Anders Vassbotn 1892)',
     melody: 'Per Steenberg (1923)',
     audio: true,
-    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1718708874/Sang%20i%20begravelse/Audio/A%CC%8A_leva_det_er_a%CC%8A_elska_fz04tu.mp3`,
+    audioUrl: `/audio/Å_leva_det_er_å_elska.mp3`,
     performers: ['Nils Georg Nilsen'],
     tekst: [
       'Å leva, det er å elska',
