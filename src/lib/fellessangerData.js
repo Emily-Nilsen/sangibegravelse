@@ -4,7 +4,7 @@ const fellessanger = [
     lyrics: `Lillebjørn Nilsen`,
     melody: `Pete Seeger`,
     audio: true,
-    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1719396875/Sang%20i%20begravelse/Audio/Barn_av_regnbuen_wz5tfo.mp3`,
+    audioUrl: `/audio/Barn_av_regnbuen.mp3`,
     performers: ['Nils Georg Nilsen'],
     tekst: [
       'En himmel full av stjerner.',
@@ -39,7 +39,7 @@ const fellessanger = [
     lyrics: `Einar Skjæråsen (1949)`,
     melody: `Torild Goksøyr`,
     audio: true,
-    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1718703082/Sang%20i%20begravelse/Audio/Danse_mi_vise_v22ay2.mp3`,
+    audioUrl: `/audio/Danse_mi_vise.mp3`,
     performers: ['Nils Georg Nilsen'],
     tekst: [
       'Vinden blæs synna, og vinden blæs norda',
@@ -68,7 +68,7 @@ const fellessanger = [
     lyrics: `A. Paasche Aasen`,
     melody: `Kurt Foss og Reidar Bøe`,
     audio: true,
-    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1718703255/Sang%20i%20begravelse/Audio/De_n%C3%A6re_ting_vjflkq.mp3`,
+    audioUrl: `/Audio/De_nære_ting.mp3`,
     performers: ['Nils Georg Nilsen'],
     tekst: [
       'Ditt sinn monne flyve,',
@@ -104,7 +104,7 @@ const fellessanger = [
     lyrics: `Aasmind O. Vinje (1866)`,
     melody: `Norsk folketone`,
     audio: true,
-    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1717660786/Sang%20i%20begravelse/Audio/Den_dag_kjem_aldri_lm8i0x.mp3`,
+    audioUrl: `/audio/Den_dag_kjem_aldri.mp3`,
     performers: ['Nils Georg Nilsen'],
     tekst: [
       'Den dag kjem aldri at eg deg gløymer,',
@@ -128,7 +128,7 @@ const fellessanger = [
     lyrics: `Per Sivle (1877)`,
     melody: `Lars Søraas (1909)`,
     audio: true,
-    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1717675675/Sang%20i%20begravelse/Audio/Den_fyrste_sang_cvgtiv.mp3`,
+    audioUrl: `/audio/Den_fyrste_sang.mp3`,
     performers: ['Nils Georg Nilsen'],
     tekst: [
       'Den fyrste song eg høyra fekk',
@@ -157,7 +157,7 @@ const fellessanger = [
     lyrics: `A. Cranner`,
     melody: `Tysk folketone`,
     audio: true,
-    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1718703351/Sang%20i%20begravelse/Audio/Din_tanke_er_fri_ae1hxh.mp3`,
+    audioUrl: `/audio/Din_tanke_er_fri.mp3`,
     performers: ['Nils Georg Nilsen'],
     tekst: [
       'Din tanke er fri,',
@@ -188,7 +188,7 @@ const fellessanger = [
     lyrics: `Eivind Skeie`,
     melody: `Sigvald Tveit`,
     audio: true,
-    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1718703458/Sang%20i%20begravelse/Audio/For_siste_gang_vqjceq.mp3`,
+    audioUrl: `/audio/For_siste_gang.mp3`,
     performers: ['Nils Georg Nilsen'],
     tekst: [
       'Døren låses porten lukkes',
@@ -224,7 +224,7 @@ const fellessanger = [
     lyrics: `Sondre Bratland (1988)`,
     melody: `Irsk folketone (Down by the Sally Gardens)`,
     audio: true,
-    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1717676564/Sang%20i%20begravelse/Audio/Gje_meg_handa_di_ven_juebex.mp3`,
+    audioUrl: `/audio/Gje_meg_handa_di_ven.mp3`,
     performers: ['Nils Georg Nilsen'],
     tekst: [
       'Gje meg handa di ven når det kveldnar,',
@@ -251,7 +251,7 @@ const fellessanger = [
     lyrics: `Tove Jansson`,
     melody: `Erna Tauro`,
     audio: true,
-    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1717670313/Sang%20i%20begravelse/Audio/Ho%CC%88stvisa_Fellessang_f2yo4t.mp3`,
+    audioUrl: `/audio/Höstvisa_Fellessang.mp3`,
     performers: ['Nils Georg Nilsen'],
     tekst: [
       'Vägen hem var mycket lång och ingen har jag mött,',
@@ -288,7 +288,7 @@ const fellessanger = [
     lyrics: ``,
     melody: ``,
     audio: true,
-    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1717672120/Sang%20i%20begravelse/Audio/Minibarnas_sovesang_de1jgf.mp3`,
+    audioUrl: `/audio/Minibarnas_sovesang.mp3`,
     performers: ['Nils Georg Nilsen'],
     tekst: [
       'Sove, du skal sove',
@@ -302,7 +302,7 @@ const fellessanger = [
     lyrics: `Evert Taube`,
     melody: `Evert Taube`,
     audio: true,
-    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1718703611/Sang%20i%20begravelse/Audio/Nocturne_tiirkp.mp3`,
+    audioUrl: `/audio/Nocturne.mp3`,
     performers: ['Nils Georg Nilsen'],
     tekst: [
       'Sov på min arm! Natten gömmer',
@@ -331,7 +331,7 @@ const fellessanger = [
     lyrics: `Thorbjørn Egner (1952)`,
     melody: `Christian Hartmann (1952)`,
     audio: true,
-    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1717678182/Sang%20i%20begravelse/Audio/Sa%CC%8A_ro_lille_mann_mpo4xo.mp3`,
+    audioUrl: `/audio/So_ro_lille_mann.mp3`,
     performers: ['Nils Georg Nilsen'],
     tekst: [
       'So ro, lille mann',
@@ -350,7 +350,7 @@ const fellessanger = [
     lyrics: `Evert Taube`,
     melody: `Evert Taube`,
     audio: true,
-    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1719323527/Sang%20i%20begravelse/Audio/Sa%CC%8A_skimrande_tivblm.mp3`,
+    audioUrl: `/audio/Så_skimrande.mp3`,
     performers: ['Nils Georg Nilsen'],
     tekst: [
       'Så skimrande var aldrig havet',
@@ -370,7 +370,7 @@ const fellessanger = [
     lyrics: `Nordahl Grieg (1936)`,
     melody: `Otto Mortensen (1952)`,
     audio: true,
-    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1717670543/Sang%20i%20begravelse/Audio/Til_ungdommen_wwdgnp.mp3`,
+    audioUrl: `/audio/Til_ungdommen.mp3`,
     performers: ['Nils Georg Nilsen'],
     tekst: [
       'Kringsatt av fiender, gå inn i din tid!',
@@ -404,7 +404,7 @@ const fellessanger = [
     lyrics: `Ukjent`,
     melody: `Svensk folketone`,
     audio: true,
-    audioUrl: `https://res.cloudinary.com/dt3k2apqd/video/upload/v1717670676/Sang%20i%20begravelse/Audio/Vem_kan_segla_ijybpp.mp3`,
+    audioUrl: `/audio/Vem_kan_segla.mp3`,
     performers: ['Nils Georg Nilsen'],
     tekst: [
       'Vem kan segla förutan vind?',
