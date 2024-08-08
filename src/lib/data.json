@@ -1750,8 +1750,8 @@
       "You're in the arms of the angel",
       "May you find some comfort here"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/v1697220431/Sang%20i%20begravelse/images/Angel_copy_e513df.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Angel_MOBILE_hlfve4.webp"
+    "desktop": "/images/desktop/Angel.webp",
+    "mobile": "/images/mobile/Angel.webp"
   },
   {
     "objectID": "123",
@@ -1784,8 +1784,8 @@
       "But I miss you most of all my darling",
       "When autumn leaves start to fall"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/v1697220432/Sang%20i%20begravelse/images/Autumn_Leaves_copy_tix1gx.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Autumn_Leaves_MOBILE_bvasqf.webp"
+    "desktop": "/images/desktop/Autumn_Leaves.webp",
+    "mobile": "/images/mobile/Autumn_Leaves.webp"
   },
 
   {
