@@ -607,8 +607,8 @@
       "In horamortis nostrae",
       "Amen, Amen"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/v1697220435/Sang%20i%20begravelse/images/Ave_Maria_-_Johann_Sebastian_Bach_copy_ugr13j.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Ave_Maria_-_Johann_Sebastian_Bach_MOBILE_rt1mna.webp"
+    "desktop": "/images/desktop/Ave_Maria_Johann_Sebastian_Bach.webp",
+    "mobile": "/images/mobile/Ave_Maria_Johann_Sebastian_Bach.webp"
   },
   {
     "objectID": "4",
@@ -634,8 +634,8 @@
       "ora pro nobis peccatoribus, nunc et in hora mortis nostrae.",
       "Amen."
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Pietro_Mascagni_copy_kgbopx.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Pietro_Mascagni_MOBILE_cjlb14.webp"
+    "desktop": "/images/desktop/Pietro_Mascagni.webp",
+    "mobile": "/images/mobile/Pietro_Mascagni.webp"
   },
   {
     "objectID": "5",
@@ -667,8 +667,8 @@
       "Ave María, Ave María, Ave María!",
       "Frelsa þær frá illu."
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Ave_Maria_-_Pietro_Mascagni_copy_fnqtxj.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Ave_Maria_-_Pietro_Mascagni_MOBILE_ltyrdw.webp"
+    "desktop": "/images/desktop/Ave_Maria_Pietro_Mascagni.webp",
+    "mobile": "/images/mobile/Ave_Maria_Pietro_Mascagni.webp"
   },
   {
     "objectID": "6",
@@ -696,8 +696,8 @@
       "Cessa, crudel,",
       "tanto rigor!"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/sad_woman_copy_k9ka6d.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/sad_woman_MOBILE_nssabq.webp"
+    "desktop": "/images/desktop/sad_woman.webp",
+    "mobile": "/images/mobile/sad_woman.webp"
   },
 
   {
