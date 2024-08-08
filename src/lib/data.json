@@ -1222,8 +1222,8 @@
       "Vegen er lystig, og vegen er vrang.",
       "Danse mi vise, gråte min sang."
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Danse_mi_vise_copy_v0zmon.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Danse_mi_vise_MOBILE_r3yjnd.webp"
+    "desktop": "/images/desktop/Danse_mi_vise.webp",
+    "mobile": "/images/mobile/Danse_mi_vise.webp"
   },
   {
     "objectID": "60",
@@ -1256,8 +1256,8 @@
       "Där skola vi sen bygga vår unga lyckas hem",
       "Och göra livet ljuvligt för varandra"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Da%CC%88r_bjo%CC%88rkarna_susa_copy_bppyes.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Da%CC%88r_bjo%CC%88rkarna_susa_MOBILE_hdz4ru.webp"
+    "desktop": "/images/desktop/Där_björkarna_susa.webp",
+    "mobile": "/images/mobile/Där_björkarna_susa.webp"
   },
   {
     "objectID": "61",
@@ -1303,8 +1303,8 @@
       "Till en stad jag är på vandring",
       "Dit där rosor aldrig dör"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Der_hvor_roser_aldri_d%C3%B8r_copy_xwwuyf.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Der_hvor_roser_aldri_d%C3%B8r_MOBILE_cf0tjf.webp"
+    "desktop": "/images/desktop/Der_hvor_roser_aldri_dør.webp",
+    "mobile": "/images/mobile/Der_hvor_roser_aldri_dør.webp"
   },
   {
     "objectID": "62",
@@ -1355,8 +1355,8 @@
       "Men lær deg å elske",
       "De nære ting"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/De_n%C3%A6re_ting_copy_sm1oew.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/De_n%C3%A6re_ting_MOBILE_ycifzx.webp"
+    "desktop": "/images/desktop/De_nære_ting.webp",
+    "mobile": "/images/mobile/De_nære_ting.webp"
   },
   {
     "objectID": "63",
@@ -1367,7 +1367,7 @@
     "composer": "Aasmund Olavsson Vinje",
     "audio": true,
     "live": true,
-    "audioUrl": "https://res.cloudinary.com/dt3k2apqd/video/upload/v1717660786/Sang%20i%20begravelse/Audio/Den_dag_kjem_aldri_lm8i0x.mp3",
+    "audioUrl": "/audio/Den_dag_kjem_aldri.mp3",
     "performers": ["Nils Georg Nilsen"],
     "spotify": true,
     "spotifyUrl": "track/6SVhU2r9QdWQcz0nfKt7v9?si=d1c6208934104e53",
@@ -1402,8 +1402,8 @@
       "I song og fløyte- og felelåt,",
       "men endå best i min eigen gråt."
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Den_dag_kjem_aldri_copy_qgykfy.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Den_dag_kjem_aldri_MOBILE_elf0vv.webp"
+    "desktop": "/images/desktop/Den_dag_kjem_aldri.webp",
+    "mobile": "/images/mobile/Den_dag_kjem_aldri.webp"
   },
   {
     "objectID": "64",
@@ -1414,7 +1414,7 @@
     "composer": "Lars Søraas og Per Sivle",
     "audio": true,
     "live": true,
-    "audioUrl": "https://res.cloudinary.com/dt3k2apqd/video/upload/v1717675675/Sang%20i%20begravelse/Audio/Den_fyrste_sang_cvgtiv.mp3",
+    "audioUrl": "/audio/Den_fyrste_sang.mp3",
     "performers": ["Nils Georg Nilsen"],
 
     "spotify": true,
@@ -1445,8 +1445,8 @@
       "Eg høyrer stilt frå mor si grav",
       "den song som allting heilar."
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Den_fyrste_song_copy_mtawcx.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Den_fyrste_song_MOBILE_mfjg7h.webp"
+    "desktop": "/images/desktop/Den_fyrste_song.webp",
+    "mobile": "/images/mobile/Den_fyrste_song.webp"
   },
   {
     "objectID": "65",
