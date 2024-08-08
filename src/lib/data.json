@@ -125,8 +125,8 @@
       "",
       "And so it was that later"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/a_whiter_shade_of_pale_copy_tisypp.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/a_whiter_shade_of_pale_MOBILE_wzpwsu.webp"
+    "desktop": "/images/desktop/a_whiter_shade_of_pale.webp",
+    "mobile": "/images/mobile/a_whiter_shade_of_pale.webp"
   },
   {
     "objectID": "135",
@@ -137,7 +137,7 @@
     "composer": "Wolfgang Amadeus Mozart",
     "audio": true,
     "live": true,
-    "audioUrl": "https://res.cloudinary.com/dt3k2apqd/video/upload/v1717599935/Sang%20i%20begravelse/Audio/Ach_ich_fu%CC%88hls_tzddtu.mp3",
+    "audioUrl": "/audio/Ach_ich_fuhls.mp3",
     "performers": ["Susanne Hvinden Hals"],
     "description": [
       "«Ach, ich fühl’s» er en operasang komponert av Wolfgang Amadeus Mozart og er en del av hans berømte opera «Tryllefløyten». Denne gripende arien ble først fremført i 1791, bare to måneder før Mozarts tidlige død. Arien synges av karakteren Pamina, datteren til Dronningen av Natten, i et øyeblikk hvor hun tror at Tamino, mannen hun elsker, har forlatt henne.",
@@ -155,8 +155,8 @@
       "Fühlst du nicht der Liebe Sehnen,",
       "So wird Ruh' im Tode sein!"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Ach_ich_fu%CC%88hl_s_copy_j6xukk.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Ach_ich_fu%CC%88hl_s_MOBILE_idoahi.webp"
+    "desktop": "/images/desktop/Ach_ich_fühl_s.webp",
+    "mobile": "/images/mobile/Ach_ich_fühl_s.webp"
   },
   {
     "objectID": "7",
@@ -167,7 +167,7 @@
     "composer": "Anita Skorgan og Jahn Teigen",
     "audio": true,
     "live": true,
-    "audioUrl": "https://res.cloudinary.com/dt3k2apqd/video/upload/v1717669713/Sang%20i%20begravelse/Audio/Adieu_mga5xo.mp3",
+    "audioUrl": "/audio/Adieu.mp3",
     "performers": ["Nils Georg Nilsen og Jan-Tore Saltnes"],
     "spotify": true,
     "spotifyUrl": "track/6uGtdQfKOmGUg0kFoStQ2I?si=667d0d0df9b84d5b",
@@ -217,8 +217,8 @@
       "",
       "Adieu"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Adieu_copy_fnh2kf.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Adieu_MOBILE_esc7pj.webp"
+    "desktop": "/images/desktop/Adieu.webp",
+    "mobile": "/images/mobile/Adieu.webp"
   },
   {
     "objectID": "8",
@@ -256,8 +256,8 @@
       "When two love the same love, one love has to lose",
       "And it's you who she longs for, it's you she will choose"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Adios_Amigo_copy_rj7wyi.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Adios_Amigo_MOBILE_qc8fko.webp"
+    "desktop": "/images/desktop/Adios_Amigo.webp",
+    "mobile": "/images/mobile/Adios_Amigo.webp"
   },
   {
     "objectID": "120",
@@ -308,8 +308,8 @@
       "Anytime she goes away",
       "Anytime she goes away"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Ain_t_No_Sunshine_copy_vefc5n.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Ain_t_No_Sunshine_MOBILE_ihggce.webp"
+    "desktop": "/images/desktop/Ain_t_No_Sunshine.webp",
+    "mobile": "/images/mobile/Ain_t_No_Sunshine.webp"
   },
   {
     "objectID": "1",
@@ -369,8 +369,8 @@
       "And love is the place you will fly to",
       "Love never fails you"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Air_copy_u0hbot.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Air_MOBILE_yqnv0u.webp"
+    "desktop": "/images/desktop/Air.webp",
+    "mobile": "/images/mobile/Air.webp"
   },
   {
     "objectID": "53",
