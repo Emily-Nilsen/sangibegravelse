@@ -709,7 +709,7 @@
     "composer": "Tradisjonell (ukjent forfatter)",
     "audio": true,
     "live": true,
-    "audioUrl": "https://res.cloudinary.com/dt3k2apqd/video/upload/v1717673145/Sang%20i%20begravelse/Audio/An_Irish_Blessing_panrtd.mp3",
+    "audioUrl": "/audio/An_Irish_Blessing.mp3",
     "performers": ["Nils Georg Nilsen"],
     "spotify": true,
     "spotifyUrl": "track/0SgWkjFKWJ599J7BmsbrT7?si=a633ea6366304bcc",
@@ -756,8 +756,8 @@
       "",
       "May the road rise to meet you"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/An_Irish_Blessing_copy_vuvd0m.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/An_Irish_Blessing_MOBILE_lban4f.webp"
+    "desktop": "/images/desktop/An_Irish_Blessing.webp",
+    "mobile": "/images/mobile/An_Irish_Blessing.webp"
   },
   {
     "objectID": "11",
@@ -805,8 +805,8 @@
       "Ave Maria, Ave Maria!",
       "Dejlig er elskovens altergang!"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Ave_Maria_-_Sigvaldi_Kaldalo%CC%81ns_copy_bpnwks.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Ave_Maria_-_Sigvaldi_Kaldalo%CC%81ns_MOBILE_oi2oav.webp"
+    "desktop": "/images/desktop/Ave_Maria_Sigvaldi_Kaldalons.webp",
+    "mobile": "/images/mobile/Ave_Maria_Sigvaldi_Kaldalons.webp"
   },
   {
     "objectID": "12",
@@ -837,8 +837,8 @@
       "O Iesu, fili Mariae.",
       "Miserere mei. Amen]"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/crucifix_copy_wx58uz.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/crucifix_MOBILE_ldnhwk.webp"
+    "desktop": "/images/desktop/crucifix.webp",
+    "mobile": "/images/mobile/crucifix.webp"
   },
   {
     "objectID": "13",
@@ -856,8 +856,8 @@
       "Komposisjonen kan fremføres som en solo, men også som en duett, og kan akkompagneres av en fiolinist for å tilføre et ekstra lag av emosjonell dybde. Dette gjør «Benedictus» til et fleksibelt valg for forskjellige typer seremonier."
     ],
     "lyrics": ["Benedictus qui venit in nomine Domini.", "Osanna in excelsis."],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Benedictus_B-minor_Mass_copy_oo6szv.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Benedictus_B-minor_Mass_MOBILE_rl1cki.webp"
+    "desktop": "/images/desktop/Benedictus_B-minor_Mass.webp",
+    "mobile": "/images/mobile/Benedictus_B-minor_Mass.webp"
   },
   {
     "objectID": "14",
@@ -882,8 +882,8 @@
       "Es drückten deine schönen Hände",
       "Mir die getreuen Augen zu."
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Bist_du_bei_mir_copy_wzzyu5.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Bist_du_bei_mir_MOBILE_fjj01w.webp"
+    "desktop": "/images/desktop/Bist_du_bei_mir.webp",
+    "mobile": "/images/mobile/Bist_du_bei_mir.webp"
   },
   {
     "objectID": "15",
@@ -935,8 +935,8 @@
       "Som for oss led",
       "Hosianna i det høye Hosianna i evighet"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Den_hellige_stad_copy_gtz3l6.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Den_hellige_stad_MOBILE_hnzlwo.webp"
+    "desktop": "/images/desktop/Den_hellige_stad.webp",
+    "mobile": "/images/mobile/Den_hellige_stad.webp"
   },
 
   {
@@ -982,8 +982,8 @@
       "Små barn av regnbuen",
       "Og en frodig jord"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Barn_av_regnbuen_copy_v9rb1b.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Barn_av_regnbuen_MOBILE_mevjsy.webp"
+    "desktop": "/images/desktop/Barn_av_regnbuen.webp",
+    "mobile": "/images/mobile/Barn_av_regnbuen.webp"
   },
   {
     "objectID": "56",
@@ -1082,8 +1082,8 @@
       "Aa eg minnest, eg minnest",
       "so vel dette land!"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Barndomsminne_fra_Nordland_copy_saxauk.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Barndomsminne_fra_Nordland_MOBILE_tzskev.webp"
+    "desktop": "/images/desktop/Barndomsminne_fra_Nordland.webp",
+    "mobile": "/images/mobile/Barndomsminne_fra_Nordland.webp"
   },
   {
     "objectID": "57",
@@ -1133,8 +1133,8 @@
       "Nei det ækkje slik at du ikkje he ein bestevenn",
       "Nei det ækkje slik at du ikkje he ein bestevenn"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Bestevenn_copy_sdlee5.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Bestevenn_MOBILE_dycvx9.webp"
+    "desktop": "/images/desktop/Bestevenn.webp",
+    "mobile": "/images/mobile/Bestevenn.webp"
   },
   {
     "objectID": "58",
@@ -1145,7 +1145,7 @@
     "composer": "Erik Bye",
     "audio": true,
     "live": true,
-    "audioUrl": "https://res.cloudinary.com/dt3k2apqd/video/upload/v1717673555/Sang%20i%20begravelse/Audio/Bla%CC%8A_salme_eyptu3.mp3",
+    "audioUrl": "/audio/Blå_salme.mp3",
     "performers": ["Nils Georg Nilsen"],
 
     "spotify": true,
@@ -1185,8 +1185,8 @@
       "Gå inn i Herrens tid.",
       "Så synger vi vår salme."
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Bla%CC%8A_salme_copy_yi71hh.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Bla%CC%8A_salme_MOBILE_gskjza.webp"
+    "desktop": "/images/desktop/Blå_salme.webp",
+    "mobile": "/images/mobile/Blå_salme.webp"
   },
   {
     "objectID": "59",
