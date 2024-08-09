@@ -4154,8 +4154,8 @@
       "Og vite at, i netter som skal komme",
       "Så fins en kurs imot et land av sang og sten"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/hildringstimen_copy_joyb91.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/hildringstimen_MOBILE_jx12ib.webp"
+    "desktop": "/images/desktop/hildringstimen.webp",
+    "mobile": "/images/mobile/hildringstimen.webp"
   },
   {
     "objectID": "20",
@@ -4197,8 +4197,8 @@
       "At se i Lyset som Du er",
       "Dig, Herren Zebaot."
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/i_himmelen_copy_saxot7.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/i_himmelen_MOBILE_zqxr58.webp"
+    "desktop": "/images/desktop/i_himmelen.webp",
+    "mobile": "/images/mobile/i_himmelen.webp"
   },
   {
     "objectID": "35",
@@ -4221,8 +4221,8 @@
       "Jeg elsker Dig, som Ingen her på Jorden,",
       "Jeg elsker Dig i Tid og Evighed!"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Jeg_elsker_Dig_copy_amudvj.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Jeg_elsker_Dig_MOBILE_kb7vsi.webp"
+    "desktop": "/images/desktop/Jeg_elsker_Dig.webp",
+    "mobile": "/images/mobile/Jeg_elsker_Dig.webp"
   },
   {
     "objectID": "82",
@@ -4233,7 +4233,7 @@
     "composer": "Odd Erik Ognedal og Ingvar Hovland",
     "audio": true,
     "live": true,
-    "audioUrl": "https://res.cloudinary.com/dt3k2apqd/video/upload/v1717665555/Sang%20i%20begravelse/Audio/Himmelh%C3%B8gesti_yhrspu.mp3",
+    "audioUrl": "/audio/Himmelhøgesti.mp3",
     "performers": ["Espen Solsbak"],
     "spotify": true,
     "spotifyUrl": "track/0IrJ4zrcYt3Z8tr8iFhwUp?si=c7230738fd2c4b4c",
@@ -4288,8 +4288,8 @@
       "På en himmelhøge sti",
       "Fly i fred nå e du fri"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Himmelh%C3%B8ge_sti_copy_q3ls0s.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Himmelh%C3%B8ge_sti_MOBILE_oaemrz.webp"
+    "desktop": "/images/desktop/Himmelhøge_sti.webp",
+    "mobile": "/images/mobile/Himmelhøge_sti.webp"
   },
   {
     "objectID": "19",
@@ -4322,8 +4322,8 @@
       "Lyd mitt ord: Elsker hverandre!",
       "Tilgiv alt, så blir det dag og fred på jord."
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Hymne_copy_tk5pvw.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Hymne_MOBILE_evonnj.webp"
+    "desktop": "/images/desktop/Hymne.webp",
+    "mobile": "/images/mobile/Hymne.webp"
   },
   {
     "objectID": "83",
@@ -4334,7 +4334,7 @@
     "composer": "Erna Tauro og Tove Jansson",
     "audio": true,
     "live": true,
-    "audioUrl": "https://res.cloudinary.com/dt3k2apqd/video/upload/v1717670312/Sang%20i%20begravelse/Audio/Ho%CC%88stvisa_Repertoire_dztkhf.mp3",
+    "audioUrl": "/audio/Höstvisa_Repertoire.mp3",
     "performers": ["Nils Georg Nilsen"],
     "spotify": true,
     "spotifyUrl": "track/6y4mbfcvGCNL86m3BzYRib?si=2d66b41e0bfe44cb",
@@ -4404,8 +4404,8 @@
       "Det är nära till natten",
       "Snart är den blommande sommaren slut"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Ho%CC%88stvisa_copy_vpftbr.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Ho%CC%88stvisa_MOBILE_wgwmvq.webp"
+    "desktop": "/images/desktop/Höstvisa.webp",
+    "mobile": "/images/mobile/Höstvisa.webp"
   },
   {
     "objectID": "85",
@@ -4451,8 +4451,8 @@
       "Håll ut, vi klarar det",
       "Hela vägen, det ska sluta så"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Ha%CC%8All_ut_copy_zr441b.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Ha%CC%8All_ut_MOBILE_olarhi.webp"
+    "desktop": "/images/desktop/Håll_ut.webp",
+    "mobile": "/images/mobil/Håll_ut.webp"
   },
   {
     "objectID": "34",
@@ -4504,8 +4504,8 @@
       "kun havet buldrer –",
       "nirvanas bulder."
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/I_skj%C3%A6rga%CC%8Ards%C3%B8_copy_dlflau.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/I_skj%C3%A6rga%CC%8Ards%C3%B8_MOBILE_ujdizu.webp"
+    "desktop": "/images/desktop/I_skjærgårdsø.webp",
+    "mobile": "/images/mobile/I_skjærgårdsø.webp"
   },
   {
     "objectID": "87",
@@ -4550,8 +4550,8 @@
       "Jag trivs bäst i öppna landskap",
       "Nära havet vill jag bo"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Jag_trivs_ba%CC%88st_copy_h2dnru.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Jag_trivs_ba%CC%88st_MOBILE_bw7b4i.webp"
+    "desktop": "/images/desktop/Jag_trivs_bäst.webp",
+    "mobile": "/images/mobile/Jag_trivs_bäst.webp"
   },
   {
     "objectID": "86",
@@ -4665,8 +4665,8 @@
       "y el canto de ustedes que es el mismo canto",
       "y el canto de todos, que es mi propio canto."
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Gracias_a_la_vida_copy_d1sxxh.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Gracias_a_la_vida_MOBILE_lxr3n0.webp"
+    "desktop": "/images/desktop/Gracias_a_la_vida.webp",
+    "mobile": "/images/mobile/Gracias_a_la_vida.webp"
   },
   {
     "objectID": "21",
@@ -4705,8 +4705,8 @@
       "Vill du stå brud i himmelen, så ikläd dig försoningen.",
       "Då skall för evigt du få vara nära mig."
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Kom_na%CC%88ra_mig_copy_i6ja0v.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Kom_na%CC%88ra_mig_MOBILE_rds6kw.webp"
+    "desktop": "/images/desktop/Kom_nära_mig.webp",
+    "mobile": "/images/mobile/Kom_nära_mig.webp"
   },
   {
     "objectID": "90",
@@ -4775,8 +4775,8 @@
       "Ligg inntil meg",
       "Så skal jeg trøste deg"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Kom_og_ligg_inntil_meg_copy_nai4ht.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Kom_og_ligg_inntil_meg_MOBILE_rvo8tv.webp"
+    "desktop": "/images/desktop/Kom_og_ligg_inntil_meg.webp",
+    "mobile": "/images/mobile/Kom_og_ligg_inntil_meg.webp"
   },
   {
     "objectID": "24",
@@ -4841,8 +4841,8 @@
       "Kyrie Eleison",
       "Eleison"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Kyrie_copy_yu8ee0.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Kyrie_MOBILE_mjvmaw.webp"
+    "desktop": "/images/desktop/Kyrie.webp",
+    "mobile": "/images/mobile/Kyrie.webp"
   },
   {
     "objectID": "36",
@@ -4881,8 +4881,8 @@
       "Alle, die von hinnen schieden,",
       "Alle Seelen ruhn in Frieden!"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Litanei_Litanei_copy_upzoxh.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Litanei_Litanei_MOBILE_hignqp.webp"
+    "desktop": "/images/desktop/Litanei_Litanei.webp",
+    "mobile": "/images/mobile/Litanei_Litanei.webp"
   },
   {
     "objectID": "23",
@@ -4925,8 +4925,8 @@
       "Dens vei går gjennom det vi tapte",
       "Den gir oss mere enn den tok"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/L%C3%A6r_meg_a%CC%8A_kjenne_dine_veier_copy_vwhfgv.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/L%C3%A6r_meg_a%CC%8A_kjenne_dine_veier_MOBILE_lv53uk.webp"
+    "desktop": "/images/desktop/Lær_meg_å_kjenne_dine_veier.webp",
+    "mobile": "/images/mobile/Lær_meg_å_kjenne_dine_veier.webp"
   },
   {
     "objectID": "37",
@@ -4961,8 +4961,8 @@
       "Schlaf, Kindlein, süße,",
       "Schlaf nun ein!"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Maria_Wiegenlied_copy_htcnxt.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Maria_Wiegenlied_MOBILE_lrqkrc.webp"
+    "desktop": "/images/desktop/Maria_Wiegenlied.webp",
+    "mobile": "/images/mobile/Maria_Wiegenlied.webp"
   },
   {
     "objectID": "92",
@@ -5012,8 +5012,8 @@
       "",
       "Kan høre du kaller meg hjem igjen"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Mitt_land_copy_ujwlm0.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Mitt_land_MOBILE_frv3g5.webp"
+    "desktop": "/images/desktop/Mitt_land.webp",
+    "mobile": "/images/mobile/Mitt_land.webp"
   },
   {
     "objectID": "39",
@@ -5041,8 +5041,8 @@
       "Stumm werden wir uns in die Augen schauen,",
       "Und auf uns sinkt des Glückes stummes Schweigen ..."
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Morgen_copy_pylins.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Morgen_MOBILE_trmnhr.webp"
+    "desktop": "/images/desktop/Morgen.webp",
+    "mobile": "/images/mobile/Morgen.webp"
   },
   {
     "objectID": "38",
@@ -5069,8 +5069,8 @@
       "drømmer saa deilig om solen",
       "drømmer om duft af fiolen"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Mot_kveld_copy_rncyxj.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Mot_kveld_MOBILE_xmw1b1.webp"
+    "desktop": "/images/desktop/Mot_kveld.webp",
+    "mobile": "/images/mobile/Mot_kveld.webp"
   },
   {
     "objectID": "91",
@@ -5103,8 +5103,8 @@
       "Mot förgängelse och höst",
       "Inte räds för den yttersta grinden"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Men_ga%CC%8Ar_jag_o%CC%88ver_a%CC%88ngarna_jsm99t.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Men_ga%CC%8Ar_jag_o%CC%88ver_a%CC%88ngarna_MOBILE_jxiaog.webp"
+    "desktop": "/images/desktop/Men_går_jag_över_ängarna.webp",
+    "mobile": "/images/mobile/Men_går_jag_över_ängarna.webp"
   },
   {
     "objectID": "117",
@@ -5143,8 +5143,8 @@
       "Uten den vi får drømme at Han leter mer i morgen",
       "Og håpe at Han finner oss igjen"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Va%CC%8Arherres_klinkekuler_copy_mwldja.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Va%CC%8Arherres_klinkekuler_MOBILE_bgt6tz.webp"
+    "desktop": "/images/desktop/Vårherres_klinkekuler.webp",
+    "mobile": "/images/mobile/Vårherres_klinkekuler.webp"
   },
   {
     "objectID": "eternally159753",
@@ -5194,8 +5194,8 @@
       "Forever true and loving you",
       "Eternally"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Eternally_copy_ln5dln.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Eternally_MOBILE_fcot41.webp"
+    "desktop": "/images/desktop/Eternally.webp",
+    "mobile": "/images/mobile/Eternally.webp"
   },
   {
     "objectID": "everybreathyoutake159753",
@@ -5280,8 +5280,8 @@
       "(Every game you play)",
       "(Every night you stay) I'll be watching you"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Every_Breath_You_Take_copy_d54jx8.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Every_Breath_You_Take_MOBILE_emuugv.webp"
+    "desktop": "/images/desktop/Every_Breath_You_Take.webp",
+    "mobile": "/images/mobile/Every_Breath_You_Take.webp"
   },
   {
     "objectID": "everybodyhurts159753",
@@ -5341,8 +5341,8 @@
       "",
       "Everybody hurts"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Everybody_Hurts_copy_uopwoo.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Everybody_Hurts_MOBILE_rakp4z.webp"
+    "desktop": "/images/desktop/Everybody_Hurts.webp",
+    "mobile": "/images/mobile/Everybody_Hurts.webp"
   },
   {
     "objectID": "feelslikehome159753",
@@ -5410,8 +5410,8 @@
       "",
       "Feels like I'm all the way back where I belong"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Feels_Like_Home_copy_hcjtl7.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Feels_Like_Home_MOBILE_ovdukq.webp"
+    "desktop": "/images/desktop/Feels_Like_Home.webp",
+    "mobile": "/images/mobile/Feels_Like_Home.webp"
   },
   {
     "objectID": "fieldsofgold",
@@ -5469,8 +5469,8 @@
       "When we walked in fields of gold",
       "When we walked in fields of gold"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Fields_of_Gold_copy_gdlbns.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Fields_of_Gold_MOBILE_htvapf.webp"
+    "desktop": "/images/desktop/Fields_of_Gold.webp",
+    "mobile": "/images/mobile/Fields_of_Gold.webp"
   },
   {
     "objectID": "flymetothemoon",
@@ -5508,8 +5508,8 @@
       "In other words please be true",
       "In other words i love u"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Fly_Me_to_the_Moon_copy_xoee3t.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Fly_Me_to_the_Moon_MOBILE_bsmn8f.webp"
+    "desktop": "/images/desktop/Fly_Me_to_the_Moon.webp",
+    "mobile": "/images/mobile/Fly_Me_to_the_Moon.webp"
   },
   {
     "objectID": "goodbyemylove",
@@ -5555,8 +5555,8 @@
       "So hold me in your dreams",
       "Till I come back to you ...."
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Goodbye_My_Love_copy_f7ezio.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Goodbye_My_Love_MOBILE_sariol.webp"
+    "desktop": "/images/desktop/Goodbye_My_Love.webp",
+    "mobile": "/images/mobile/Goodbye_My_Love.webp"
   },
   {
     "objectID": "howdoisaygoodbye",
@@ -5610,8 +5610,8 @@
       "So how do I, how do I, how do I say goodbye?",
       "So how do I, how do I, how do I say goodbye?"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/How_do_I_Say_Goodbye_copy_x67rau.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/How_do_I_Say_Goodbye_MOBILE_iuy97k.webp"
+    "desktop": "/images/desktop/How_do_I_Say_Goodbye.webp",
+    "mobile": "/images/mobile/How_do_I_Say_Goodbye.webp"
   },
   {
     "objectID": "ibelieveicanfly",
@@ -5690,8 +5690,8 @@
       "Woo (I can fly)",
       "Hm-mm... fly, fly, fly"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/I_believe_I_can_fly_copy_t5acu7.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/I_believe_I_can_fly_MOBILE_saguo4.webp"
+    "desktop": "/images/desktop/I_believe_I_can_fly.webp",
+    "mobile": "/images/mobile/I_believe_I_can_fly.webp"
   },
   {
     "objectID": "iloveyoubecause",
@@ -5702,7 +5702,7 @@
     "composer": "Leon Payne",
     "audio": true,
     "live": true,
-    "audioUrl": "https://res.cloudinary.com/dt3k2apqd/video/upload/v1717665581/Sang%20i%20begravelse/Audio/I_love_you_because_yq7tni.mp3",
+    "audioUrl": "/audio/I_love_you_because.mp3",
     "performers": ["Jan-Tore Saltnes"],
     "spotify": true,
     "spotifyUrl": "track/771mxqxRBBAWTzBUcTJP3A?si=415d1804e7a2435f",
@@ -5727,8 +5727,8 @@
       "I love you for a hundred thousand reasons,",
       "But most of all I love you ‘cause you’re you."
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/I_love_you_because_copy_wuikuy.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/I_love_you_because_MOBILE_jwe7vj.webp"
+    "desktop": "/images/desktop/I_love_you_because.webp",
+    "mobile": "/images/mobile/I_love_you_because.webp"
   },
   {
     "objectID": "iwillalwaysloveyou",
@@ -5772,8 +5772,8 @@
       "I will always love you",
       "I will always love you"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/I_will_always_love_you_copy_mvqfmh.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/I_will_always_love_you_MOBILE_kofez6.webp"
+    "desktop": "/images/desktop/I_will_always_love_you.webp",
+    "mobile": "/images/mobile/I_will_always_love_you.webp"
   },
   {
     "objectID": "imagine1289",
@@ -5828,8 +5828,8 @@
       "I hope someday you'll join us",
       "And the world will live as one"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Imagine_copy_mu79wj.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Imagine_MOBILE_nbvacp.webp"
+    "desktop": "/images/desktop/Imagine.webp",
+    "mobile": "/images/mobile/Imagine.webp"
   },
   {
     "objectID": "lovemetender",
@@ -5883,8 +5883,8 @@
       "For my darlin I love you,",
       "And I always will."
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Love_me_tender_copy_rdbele.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Love_me_tender_MOBILE_uhvvxf.webp"
+    "desktop": "/images/desktop/Love_me_tender.webp",
+    "mobile": "/images/mobile/Love_me_tender.webp"
   },
   {
     "objectID": "moonlightserenademiller",
@@ -5917,8 +5917,8 @@
       "I stand at your gate and I sing you a song in the moonlight",
       "A love song, my darling, a Moonlight Serenade"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Moonlight_Serenade_copy_km5pvs.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Moonlight_Serenade_MOBILE_tumc0d.webp"
+    "desktop": "/images/desktop/Moonlight_Serenade.webp",
+    "mobile": "/images/mobile/Moonlight_Serenade.webp"
   },
   {
     "objectID": "myfunnyvalentine",
@@ -5954,8 +5954,8 @@
       "Stay, little valentine, stay",
       "Each day is Valentine's Day"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/My_Funny_Valentine_copy_erebya.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/My_Funny_Valentine_MOBILE_dz6nfg.webp"
+    "desktop": "/images/desktop/My_Funny_Valentine.webp",
+    "mobile": "/images/mobile/My_Funny_Valentine.webp"
   },
   {
     "objectID": "myheartwillgoon",
@@ -6007,8 +6007,8 @@
       "You are safe in my heart and",
       "My heart will go on and on"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/My_Heart_Will_Go_On_copy_bdp3dv.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/My_Heart_Will_Go_On_MOBILE_tuwjd2.webp"
+    "desktop": "/images/desktop/My_Heart_Will_Go_On.webp",
+    "mobile": "/images/mobile/My_Heart_Will_Go_On.webp"
   },
   {
     "objectID": "myway1289",
@@ -6067,8 +6067,8 @@
       "The record shows, I took the blows",
       "But I did it my way"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/My_Way_copy_psw5ng.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/My_Way_MOBILE_v9tdiu.webp"
+    "desktop": "/images/desktop/My_Way.webp",
+    "mobile": "/images/mobile/My_Way.webp"
   },
   {
     "objectID": "nine9millionbicycles",
@@ -6116,8 +6116,8 @@
       "And there are nine-million bicycles in Beijing",
       "And you know that I will love you 'til I die"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Nine_million_bicycles_copy_or61jq.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Nine_million_bicycles_MOBILE_q9awch.webp"
+    "desktop": "/images/desktop/Nine_million_bicycles.webp",
+    "mobile": "/images/mobile/Nine_million_bicycles.webp"
   },
   {
     "objectID": "nonjeneregrette",
@@ -6166,8 +6166,8 @@
       "Aujourd'hui",
       "Ça commence avec toi"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Non_je_ne_regrette_rien_copy_kf29vr.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Non_je_ne_regrette_rien_MOBILE_qwprys.webp"
+    "desktop": "/images/desktop/Non_je_ne_regrette_rien.webp",
+    "mobile": "/images/mobile/Non_je_ne_regrette_rien.webp"
   },
   {
     "objectID": "sailing1289",
@@ -6214,8 +6214,8 @@
       "Oh Lord, to be near you, to be free,",
       "Oh Lord."
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Sailing_copy_bqomky.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Sailing_MOBILE_wlo26x.webp"
+    "desktop": "/images/desktop/Sailing.webp",
+    "mobile": "/images/mobile/Sailing.webp"
   },
   {
     "objectID": "smile8754",
