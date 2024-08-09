@@ -2494,8 +2494,8 @@
       "om klippå og om håndå",
       "og myke seljetre"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Ein_far_v2_copy_cwdglh.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Ein_far_v2_MOBILE_ss7tpu.webp"
+    "desktop": "/images/desktop/Ein_far.webp",
+    "mobile": "/images/mobile/Ein_far.webp"
   },
   {
     "objectID": "17",
@@ -2547,8 +2547,8 @@
       "Og blanda med heilage englar min song",
       "i himmele, dit døden ei når!"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Ein_fin_liten_blomme_copy_uyittm.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Ein_fin_liten_blomme_MOBILE_edtbkl.webp"
+    "desktop": "/images/desktop/Ein_fin_liten_blomme.webp",
+    "mobile": "/images/mobile/Ein_fin_liten_blomme.webp"
   },
   {
     "objectID": "33",
@@ -2586,8 +2586,8 @@
       "Du sang i døden;",
       "Du var dog en svane!"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/En_svane_copy_tvp5gc.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/En_svane_MOBILE_tymybi.webp"
+    "desktop": "/images/desktop/En_svane.webp",
+    "mobile": "/images/mobile/En_svane.webp"
   },
   {
     "objectID": "134",
@@ -2638,8 +2638,8 @@
       "Engel, ikke dra fra meg",
       "For hvem er jeg, hvem er jeg, hvem er jeg uten deg?"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Engel_ikke_dra_ayc5po.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Engel_ikke_dra_MOBILE_vdr1j2.webp"
+    "desktop": "/images/desktop/Engel_ikke_dra.webp",
+    "mobile": "/images/mobile/Engel_ikke_dra.webp"
   },
   {
     "objectID": "136",
@@ -2650,7 +2650,7 @@
     "composer": "Leonard Cohen",
     "audio": true,
     "live": true,
-    "audioUrl": "https://res.cloudinary.com/dt3k2apqd/video/upload/v1717603708/Sang%20i%20begravelse/Audio/Hallelujah_ydtyki.mp3",
+    "audioUrl": "/audio/Hallelujah.mp3",
     "performers": ["Nils Georg Nilsen"],
     "spotify": true,
     "spotifyUrl": "track/3pRaLNL3b8x5uBOcsgvdqM?si=7d0b6dc598dc4237",
@@ -2727,8 +2727,8 @@
       "",
       "Hallelujah"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Hallelujah_b7pwcw.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Hallelujah_MOBILE_c9cisk.webp"
+    "desktop": "/images/desktop/Hallelujah.webp",
+    "mobile": "/images/mobile/Hallelujah.webp"
   },
   {
     "objectID": "654",
@@ -2739,7 +2739,7 @@
     "composer": "Bobby Scott og Bob Russell",
     "audio": true,
     "live": true,
-    "audioUrl": "https://res.cloudinary.com/dt3k2apqd/video/upload/v1717604267/Sang%20i%20begravelse/Audio/He_aint_heavy_hhhmij.mp3",
+    "audioUrl": "/audio/He_aint_heavy.mp3",
     "performers": ["Nils Georg Nilsen"],
     "description": [
       "Sangen «He Ain’t Heavy, He’s My Brother», komponert av Bobby Scott og Bob Russell i 1969, er en tidløs melodi som handler om dyp broderlig kjærlighet og selvoppofring. Den formidler et kraftfullt budskap om altruisme og sosial samvittighet, og oppfordrer folk til å støtte dem som er mindre heldige. Sangen har røtter i historiske hendelser som fant sted i 1918 ved Father Flanagan’s Home for Boys.",
@@ -2777,8 +2777,8 @@
       "Doesn't weigh me down at all",
       "He ain't heavy, he's my brother"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/he_aint_heavy_quwvpz.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/he_aint_heavy_MOBILE_tzakgd.webp"
+    "desktop": "/images/dektop/he_aint_heavy.webp",
+    "mobile": "/images/mobile/he_aint_heavy.webp"
   },
   {
     "objectID": "89",
@@ -2789,7 +2789,7 @@
     "composer": "Vladimir Cosma og Rolf Tofte",
     "audio": true,
     "live": true,
-    "audioUrl": "https://res.cloudinary.com/dt3k2apqd/video/upload/v1717576750/Sang%20i%20begravelse/Audio/Kj%C3%A6rlighet_cizeiz.mp3",
+    "audioUrl": "/audio/Kjærlighet.mp3",
     "performers": ["Susanne Hvinden Hals"],
     "description": [
       "Utgitt i 1986, er «Kjærlighet» en vakker sang komponert av Vladimir Cosma, mens den norske versjonen ble oversatt av Rolf Tofte. Sangen er ett ode til kjærlighetens transformative kraft, og hvordan den utvider seg fra å være en personlig følelse til en universell kraft som kan overvinne hat og grenser.",
@@ -2813,8 +2813,8 @@
       "Kjærlighet skaper nytt liv og nytt håp",
       "Der hvor hatet råder"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/kj%C3%A6rlighet_copy_o5fp3g.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/kj%C3%A6rlighet_MOBILE_fuvjgg.webp"
+    "desktop": "/images/desktop/kjærlighet.webp",
+    "mobile": "/images/mobile/kjærlighet.webp"
   },
   {
     "objectID": "firebird123",
@@ -2825,7 +2825,7 @@
     "composer": "Jan-Tore Saltnes",
     "audio": true,
     "live": false,
-    "audioUrl": "https://res.cloudinary.com/dt3k2apqd/video/upload/v1717579173/Sang%20i%20begravelse/Audio/Firebird_jemsld.mp3",
+    "audioUrl": "/audio/Firebird.mp3",
     "performers": ["Jan-Tore Saltnes"],
     "spotify": true,
     "spotifyUrl": "track/3fcfO09oUaB5a4FGO3lIfB?si=0821a5719311489f",
@@ -2880,8 +2880,8 @@
       "We are firebirds",
       "far beyond the skies"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/firebird_copy_nfz7rk.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/firebird_1_MOBILE_jbqbru.webp"
+    "desktop": "/images/desktop/firebird.webp",
+    "mobile": "/images/mobile/firebird.webp"
   },
   {
     "objectID": "loveeternally123",
@@ -2892,7 +2892,7 @@
     "composer": "Jan-Tore Saltnes",
     "audio": true,
     "live": false,
-    "audioUrl": "https://res.cloudinary.com/dt3k2apqd/video/upload/v1717579308/Sang%20i%20begravelse/Audio/Love_eternally_thwjaa.mp3",
+    "audioUrl": "/audio/Love_eternally.mp3",
     "performers": ["Jan-Tore Saltnes"],
     "description": [
       "«Love Eternally» av Jan-Tore Saltnes, utgitt i 2016, er en kjærlighetsballade som fanger opp følelsene av hengivenhet og styrkebåndet mellom to mennesker. Tekstene snakker direkte til følelsesmessige relasjoner, med fraser som ‘du fyller mitt hjerte’ og ‘du bygger meg opp så hjertelig,’ som gir en følelse av varme og nærvær.",
@@ -2939,8 +2939,8 @@
       "You’re my eternal love",
       "You’re my eternal love"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Love_Eternally_copy_onpxjc.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Love_Eternally_MOBILE_ykj62n.webp"
+    "desktop": "/images/desktop/Love_Eternally.webp",
+    "mobile": "/images/mobile/Love_Eternally.webp"
   },
   {
     "objectID": "138",
@@ -2951,7 +2951,7 @@
     "composer": "David Foster, Carole Bayer Sager, Alberto Testa og Tony Renis",
     "audio": true,
     "live": true,
-    "audioUrl": "https://res.cloudinary.com/dt3k2apqd/video/upload/v1717599606/Sang%20i%20begravelse/Audio/The_Prayer_nr3ive.mp3",
+    "audioUrl": "/audio/The_Prayer.mp3",
     "performers": ["Susanne Hvinden Hals", "Nils Georg Nilsen"],
     "description": [
       "«The Prayer» er en kraftig vokalduett skapt i 1998 av David Foster, Carole Bayer Sager, Alberto Testa og Tony Renis. Denne låten er særlig kjent for sin vakre melodi og tvillingsspråklighet, der engelske og italienske vers flettes sammen i en musikalsk bønn om veiledning og trygghet. Låten appellerer sterkt til en følelse av åndelighet og håp og har blitt et populært valg for minneseremonier.",
@@ -3009,8 +3009,8 @@
       "Hai acceso in noi",
       "Sento che ci salverá"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/The_Prayer_NEW_copy_h0xgip.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/The_Prayer_NEW_MOBILE_n3wc7k.webp"
+    "desktop": "/images/desktop/The_Prayer.webp",
+    "mobile": "/images/mobile/The_Prayer.webp"
   },
   {
     "objectID": "70",
@@ -3067,8 +3067,8 @@
       "Englene i sneen vender hjem",
       "Og englene i sneen vender hjem"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Engler_i_sneen_copy_kve1ci.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Engler_i_sneen_MOBILE_hustpm.webp"
+    "desktop": "/images/desktop/Engler_i_sneen.webp",
+    "mobile": "/images/mobile/Engler_i_sneen.webp"
   },
   {
     "objectID": "72",
@@ -3127,8 +3127,8 @@
       "Gi dem evig hvile, Herre",
       "Og må evig lys skinne på dem"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Evig_hvile_copy_xqszf9.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Evig_hvile_MOBILE_v4zebg.webp"
+    "desktop": "/images/desktop/Evig_hvile.webp",
+    "mobile": "/images/mobile/Evig_hvile.webp"
   },
   {
     "objectID": "mariassang_123",
@@ -3139,7 +3139,7 @@
     "composer": "Jan-Tore Saltnes",
     "audio": true,
     "live": false,
-    "audioUrl": "https://res.cloudinary.com/dt3k2apqd/video/upload/v1717579469/Sang%20i%20begravelse/Audio/Marias_sang_jgmc2l.mp3",
+    "audioUrl": "/audio/Marias_sang.mp3",
     "performers": ["Jan-Tore Saltnes"],
     "spotify": true,
     "spotifyUrl": "track/0yxKcMTloHff9V3h8bLADZ?si=c1f9771e59af41a1",
@@ -3192,8 +3192,8 @@
       "når man minst forventer det",
       "og det kan skje det som man ikke vil skal skje"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Marias_sang_copy_dsh3mt.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Marias_sang_MOBILE_bugetz.webp"
+    "desktop": "/images/desktop/Marias_sang.webp",
+    "mobile": "/images/mobile/Marias_sang.webp"
   },
   {
     "objectID": "veiviser_123",
@@ -3204,7 +3204,7 @@
     "composer": "Jan-Tore Saltnes",
     "audio": true,
     "live": false,
-    "audioUrl": "https://res.cloudinary.com/dt3k2apqd/video/upload/v1717579816/Sang%20i%20begravelse/Audio/Veiviser_jnjscw.mp3",
+    "audioUrl": "/audio/Veiviser.mp3",
     "performers": ["Jan-Tore Saltnes"],
     "spotify": true,
     "spotifyUrl": "track/3WCBzHY2dPMqyu7t8Bc900?si=eb89a67590424474",
@@ -3251,8 +3251,8 @@
       "",
       "nå er du veiviser for meg"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Veiviser_copy_ytta07.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Veiviser_MOBILE_u4nila.webp"
+    "desktop": "/images/desktop/Veiviser.webp",
+    "mobile": "/images/mobile/Veiviser.webp"
   },
   {
     "objectID": "84",
@@ -3263,7 +3263,7 @@
     "composer": "Peter Hallström, Lars Andersson og Björn Skifs",
     "audio": true,
     "live": false,
-    "audioUrl": "https://res.cloudinary.com/dt3k2apqd/video/upload/v1717579917/Sang%20i%20begravelse/Audio/Ha%CC%8All_mitt_hja%CC%88rta_wtblnc.mp3",
+    "audioUrl": "/audio/Håll_mitt_hjärta.mp3",
     "performers": ["Jan-Tore Saltnes"],
     "spotify": true,
     "spotifyUrl": "track/3ikrruszzZ0l7v9qfJFccF?si=e422bcb817df47fb",
@@ -3291,8 +3291,8 @@
       "Håll mitt hjärta, håll min själ",
       "Håll min själ"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Ha%CC%8All_mitt_hja%CC%88rta_copy_lvtd0f.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Ha%CC%8All_mitt_hja%CC%88rta_MOBILE_fvj0xn.webp"
+    "desktop": "/images/desktop/Håll_mitt_hjärta.webp",
+    "mobile": "/images/mobile/Håll_mitt_hjärta.webp"
   },
   {
     "objectID": "88",
@@ -3303,7 +3303,7 @@
     "composer": "Aslag Haugen og Arne Moslatten",
     "audio": true,
     "live": false,
-    "audioUrl": "https://res.cloudinary.com/dt3k2apqd/video/upload/v1717599144/Sang%20i%20begravelse/Audio/Jeg_glemmer_deg_aldri_ofp5d5.mp3",
+    "audioUrl": "/audio/Jeg_glemmer_deg_aldri.mp3",
     "performers": ["Jan-Tore Saltnes"],
     "description": [
       "«Jeg glemmer deg aldri» av Aslag Haugen og Arne Moslatten, utgitt i 2002, er en melankolsk sang som uttrykker utfordringen ved å gå videre, samtidig som den formidler viktigheten av å ha klare livsmål. Sangen reflekterer over livets mange valg og følelser, og balanserer den tynne linjen mellom lek og alvor, om de uunngåelige avskjeder vi møter og lengselen som følger etter.",
@@ -3343,8 +3343,8 @@
       "Men jeg glemmer deg aldri",
       "Jeg tror det tar sin tid før jeg får fred"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Jeg_glemmer_deg_aldri_copy_fmfb3u.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Jeg_glemmer_deg_aldri_MOBILE_dxhpl8.webp"
+    "desktop": "/images/desktop/Jeg_glemmer_deg_aldri.webp",
+    "mobile": "/images/mobile/Jeg_glemmer_deg_aldri.webp"
   },
   {
     "objectID": "youaresobeautiful_123",
