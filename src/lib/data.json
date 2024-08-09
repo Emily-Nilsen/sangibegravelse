@@ -3355,7 +3355,7 @@
     "composer": "Billy Preston og Bruce Fisher",
     "audio": true,
     "live": false,
-    "audioUrl": "https://res.cloudinary.com/dt3k2apqd/video/upload/v1717599330/Sang%20i%20begravelse/Audio/You_are_so_beautiful_cmkdkk.mp3",
+    "audioUrl": "/audio/You_are_so_beautiful.mp3",
     "performers": ["Jan-Tore Saltnes"],
     "spotify": true,
     "spotifyUrl": "track/4p9L0bpDyr6MSfusbncBj3?si=c36d75d686bb4c30",
@@ -3389,8 +3389,8 @@
       "Every, everything I need",
       "You are so beautiful to me"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/You_Are_So_Beautiful_copy_ruly68.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/You_Are_So_Beautiful_MOBILE_zzh3xh.webp"
+    "desktop": "/images/desktop/You_Are_So_Beautiful.webp",
+    "mobile": "/images/mobile/You_Are_So_Beautiful.webp"
   },
   {
     "objectID": "bringhimhome_123",
@@ -3401,7 +3401,7 @@
     "composer": "Claude-Michel Schönberg, Herbert Kretzmer og Alain Boublil",
     "audio": true,
     "live": false,
-    "audioUrl": "https://res.cloudinary.com/dt3k2apqd/video/upload/v1717599479/Sang%20i%20begravelse/Audio/Bring_him_home_eu2rzg.mp3",
+    "audioUrl": "/audio/Bring_him_home.mp3",
     "performers": ["Jan-Tore Saltnes"],
     "spotify": true,
     "spotifyUrl": "track/7odFbpgVZL5K8s1DbINew0?si=bf4c5edc19d046d5",
@@ -3437,8 +3437,8 @@
       "Bring him home",
       "Bring him home"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Bring_Him_Home_copy_tl8znc.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Bring_Him_Home_MOBILE_i03oy6.webp"
+    "desktop": "/images/desktop/Bring_Him_Home.webp",
+    "mobile": "/images/mobile/Bring_Him_Home.webp"
   },
   {
     "objectID": "if_123",
@@ -3449,7 +3449,7 @@
     "composer": "David Gates",
     "audio": true,
     "live": false,
-    "audioUrl": "https://res.cloudinary.com/dt3k2apqd/video/upload/v1717604388/Sang%20i%20begravelse/Audio/If_impvwq.mp3",
+    "audioUrl": "/audio/If.mp3",
     "performers": ["Jan-Tore Saltnes"],
     "spotify": true,
     "spotifyUrl": "track/5mPi0k2Lo2vmbPp7copI2k?si=3d8ea95f46284867",
@@ -3484,8 +3484,8 @@
       "Then one by one the stars would all go out",
       "Then you and I would simply fly away"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/If_copy_ss3slh.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/If_MOBILE_jolccw.webp"
+    "desktop": "/images/desktop/If.webp",
+    "mobile": "/images/mobile/If.webp"
   },
   {
     "objectID": "fixyou_123",
@@ -3496,7 +3496,7 @@
     "composer": "Chris Martin, Jonny Buckland, Guy Berryman og Will Champion",
     "audio": true,
     "live": false,
-    "audioUrl": "https://res.cloudinary.com/dt3k2apqd/video/upload/v1717604701/Sang%20i%20begravelse/Audio/Fix_you_j99nqc.mp3",
+    "audioUrl": "/audio/Fix_you.mp3",
     "performers": ["Jan-Tore Saltnes"],
     "spotify": true,
     "spotifyUrl": "track/7MRrv3oaq25MUyEv1ndajJ?si=3208de93c85f4e45",
@@ -3541,8 +3541,8 @@
       "And ignite your bones",
       "And I will try to fix you"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Fix_You_copy_t7bikf.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Fix_You_MOBILE_yavczr.webp"
+    "desktop": "/images/desktop/Fix_You.webp",
+    "mobile": "/images/mobile/Fix_You.webp"
   },
   {
     "objectID": "vaarbestedag_123",
@@ -3553,7 +3553,7 @@
     "composer": "Erik Bye",
     "audio": true,
     "live": false,
-    "audioUrl": "https://res.cloudinary.com/dt3k2apqd/video/upload/v1717604554/Sang%20i%20begravelse/Audio/Va%CC%8Ar_beste_dag_e361wx.mp3",
+    "audioUrl": "/audio/Vår_beste_dag.mp3",
     "performers": ["Jan-Tore Saltnes"],
     "spotify": true,
     "spotifyUrl": "track/5AZ9hya10v6AyeZ3IxtefU?si=ef3c6f47cea84b58",
@@ -3597,8 +3597,8 @@
       "Mangt skal vi møte – og mangt skal vi mestre",
       "Dagen i morgen skal bli vår beste dag!"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Va%CC%8Ar_beste_dag_copy_zjpwir.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Va%CC%8Ar_beste_dag_MOBILE_fywzkm.webp"
+    "desktop": "/images/desktop/Vår_beste_dag.webp",
+    "mobile": "/images/mobile/Vår_beste_dag.webp"
   },
   {
     "objectID": "18",
@@ -3609,7 +3609,7 @@
     "composer": "Wendy Carter Fremin og Gregers Lundh",
     "audio": true,
     "live": true,
-    "audioUrl": "https://res.cloudinary.com/dt3k2apqd/video/upload/v1717676454/Sang%20i%20begravelse/Audio/Fall_til_ro_edshjc.mp3",
+    "audioUrl": "/audio/Fall_til_ro.mp3",
     "performers": ["Nils Georg Nilsen"],
 
     "spotify": true,
@@ -3646,8 +3646,8 @@
       "Fall til ro og kjenn at jeg er din Gud,",
       "jeg vil gi deg av min fred."
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Fall_til_ro_copy_cqnfkk.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Fall_til_ro_MOBILE_jnmiaq.webp"
+    "desktop": "/images/desktop/Fall_til_ro.webp",
+    "mobile": "/images/mobile/Fall_til_ro.webp"
   },
   {
     "objectID": "73",
@@ -3695,8 +3695,8 @@
       "alltid skal jeg huske det vi delte du og jeg,",
       "aldri skal jeg glemme alt du var for meg."
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/For_siste_gang_copy_aumaxc.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/For_siste_gang_MOBILE_azu1ff.webp"
+    "desktop": "/images/desktop/For_siste_gang.webp",
+    "mobile": "/images/mobile/For_siste_gang.webp"
   },
   {
     "objectID": "74",
@@ -3745,8 +3745,8 @@
       "Fordi jeg elsker deg",
       "Fordi jeg elsker deg"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Fordi_jeg_elsker_deg_copy_k5ulef.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Fordi_jeg_elsker_deg_MOBILE_pzfy9d.webp"
+    "desktop": "/images/desktop/Fordi_jeg_elsker_deg.webp",
+    "mobile": "/images/mobile/Fordi_jeg_elsker_deg.webp"
   },
   {
     "objectID": "75",
@@ -3792,8 +3792,8 @@
       "",
       "Jag vill känna att jag levt mitt liv"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Gabriellas_sa%CC%8Ang_copy_mp6ip0.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Gabriellas_sa%CC%8Ang_MOBILE_mg5alu.webp"
+    "desktop": "/images/desktop/Gabriellas_sång.webp",
+    "mobile": "/images/mobile/Gabriellas_sång.webp"
   },
   {
     "objectID": "76",
@@ -3830,8 +3830,8 @@
       "Gje meg handa di ven når det kveldar",
       "Det blir mørkt og me treng ei hand"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Gje_meg_handa_di_ven_copy_m2vads.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Gje_meg_handa_di_ven_MOBILE_rrb4tu.webp"
+    "desktop": "/images/desktop/Gje_meg_handa_di_ven.webp",
+    "mobile": "/images/mobile/Gje_meg_handa_di_ven.webp"
   },
   {
     "objectID": "81",
@@ -3911,8 +3911,8 @@
       " Himmeldiamanten ",
       " over byen Betlehem "
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Himlen_I_min_favn_copy_cgfbdy.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Himlen_I_min_favn_MOBILE_bntvut.webp"
+    "desktop": "/images/desktop/Himlen_I_min_favn.webp",
+    "mobile": "/images/mobile/Himlen_I_min_favn.webp"
   },
   {
     "objectID": "77",
@@ -3971,8 +3971,8 @@
       "Og drømme om at du er her",
       "Så varm og god og like nær"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/God_morgen_min_kj%C3%A6re_copy_yu077a.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/God_morgen_min_kj%C3%A6re_MOBILE_ulf5ig.webp"
+    "desktop": "/images/desktop/God_morgen_min_kjære.webp",
+    "mobile": "/images/mobile/God_morgen_min_kjære.webp"
   },
   {
     "objectID": "78",
@@ -3983,7 +3983,7 @@
     "composer": "Lillebjørn Nilsen",
     "audio": true,
     "live": true,
-    "audioUrl": "https://res.cloudinary.com/dt3k2apqd/video/upload/v1717610451/Sang%20i%20begravelse/Audio/Sov_godt_kj%C3%A6re_oslo_nve8yq.mp3",
+    "audioUrl": "/audio/Sov_godt_kjære_oslo.mp3",
     "performers": ["Nils Georg Nilsen"],
     "description": [
       "Lillebjørn Nilsens «God natt Oslo», utgitt i 1986, fremkaller et dypt følelsesladet bilde av hovedstaden etter solnedgang. Dette enkle, men rørende odet til Oslo i mørket er et fremragende eksempel på Nilsens talent for å skape direkte sanger med dyp mening. Sangen maler et portrett av en by som aldri sover, hvor dets innbyggere, hver for seg, utgjør de levende trådene i Oslos mangefargede tapestri.",
@@ -4029,8 +4029,8 @@
       "og tenker på en by som er mye mindre enn denne og",
       "en bror som hun så gjerne skulle sett."
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/God_natt_Oslo_copy_fvryke.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/God_natt_Oslo_MOBILE_hvehje.webp"
+    "desktop": "/images/desktop/God_natt_Oslo.webp",
+    "mobile": "/images/mobile/God_natt_Oslo.webp"
   },
   {
     "objectID": "79",
@@ -4103,8 +4103,8 @@
       "Men også tar dæ hjem",
       "Men også tar dæ hjem"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/har_du_fyr_copy_r4skqc.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/har_du_fyr_MOBILE_pyglpz.webp"
+    "desktop": "/images/desktop/har_du_fyr.webp",
+    "mobile": "/images/mobile/har_du_fyr.webp"
   },
   {
     "objectID": "80",
