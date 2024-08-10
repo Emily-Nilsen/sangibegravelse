@@ -8001,5 +8001,24 @@
     ],
     "desktop": "/images/desktop/O_mio_babbino_caro.webp",
     "mobile": "/images/mobile/O_mio_babbino_caro.webp"
+  },
+  {
+    "objectID": "meditationsfromthais",
+    "category": "Klassisk",
+    "language": ["fransk"],
+    "title": "Méditation fra Thaïs",
+    "arrangement": ["fiolin"],
+    "composer": "Jules Massenet",
+    "audio": true,
+    "audioUrl": "/audio/Méditation_from_Thaïs.mp3",
+
+    "description": [
+      "«Méditation» fra operaen Thaïs av Jules Massenet er et instrumentalstykke kjent for sin dypt rørende og kontemplative melodi. Dette stykket ble komponert i 1894 og fungerer som et orkestralt mellomspill i operaen, som illustrerer hovedpersonen Thaïs' åndelige oppvåkning. Den melankolske, men likevel håpefulle tonen gjør denne musikken svært passende for en begravelse, der den kan gi trøst og en følelse av fred i en tid med sorg.",
+      "Stykket har blitt et av Massenets mest kjente verk utenfor selve operaen, ofte fremført som et frittstående konsertstykke. Den lyriske og meditative kvaliteten, ofte fremhevet gjennom solo fiolin med orkesterakkompagnement, gir rom for refleksjon og ettertanke, noe som gjør det til et utmerket valg for å ære minnet om en kjær. Musikken fanger en reise fra indre strid til fred, en passende metafor for livets siste reise.",
+      "Det er også bemerkelsesverdig hvordan «Méditation» har beholdt sin popularitet i konsertrepertoaret, ofte valgt for sin evne til å bevege lytterne med sin enkelhet og skjønnhet. Musikken, fri for ord, taler direkte til sjelen og inviterer til stillhet og ettertanke, noe som gjør den til en passende ledsager i en seremoni som markerer livets forgjengelighet og dets uendelige fred​."
+    ],
+    "lyrics": ["Ingen tekst"],
+    "desktop": "/images/desktop/Méditation_from_Thaïs.webp",
+    "mobile": "/images/mobile/Méditation_from_Thaïs.webp"
   }
 ]

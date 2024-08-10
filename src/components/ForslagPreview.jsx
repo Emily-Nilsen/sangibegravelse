@@ -124,6 +124,8 @@ export const suggestions = [
     salme_1: 'O bli hos meg',
     salme_1_audio: '/audio/O_bli_hos_meg.mp3',
     fiolinsolo: 'Méditation fra Thais',
+    fiolinsolo_audio: '/audio/Méditation_from_Thaïs.mp3',
+    fiolinsolo_href: '/repertoar/meditation-fra-thais-av-jules-massenet',
     solo_2: 'Mot kveld',
     solo_2_href: '/repertoar/mot-kveld-av-agathe-backer-grondahl',
     salme_2: 'Så ta da mine hender',
