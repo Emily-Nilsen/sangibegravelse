@@ -2506,7 +2506,7 @@
     "composer": "Bjørn Eidsvåg",
     "audio": true,
     "live": true,
-    "audioUrl": "https://res.cloudinary.com/dt3k2apqd/video/upload/v1717676195/Sang%20i%20begravelse/Audio/Ein_fin_liten_blome_b9tixj.mp3",
+    "audioUrl": "/audio/Ein_fin_liten_blome.mp3",
     "performers": ["Nils Georg Nilsen"],
 
     "spotify": true,
@@ -7354,8 +7354,8 @@
       "Skal så foraktet være",
       "På denne arme jord"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Mitt_hjerte_alltid_vanker_copy_kb8dod.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Mitt_hjerte_alltid_vanker_MOBILE_ghska9.webp"
+    "desktop": "/images/desktop/Mitt_hjerte_alltid_vanker.webp",
+    "mobile": "/images/mobile/Mitt_hjerte_alltid_vanker.webp"
   },
   {
     "objectID": "iwonderasiwander",
@@ -7393,8 +7393,8 @@
       "for poor ordinary people like you and like I;",
       "I wonder as I wander, out under the sky."
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/I_Wonder_as_I_Wonder_copy_zk83bk.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/I_Wonder_as_I_Wonder_MOBILE_xu4onp.webp"
+    "desktop": "/images/desktop/I_Wonder_as_I_Wonder.webp",
+    "mobile": "/images/mobile/I_Wonder_as_I_Wonder.webp"
   },
   {
     "objectID": "himmelpaajord",
@@ -7458,8 +7458,8 @@
       "",
       "Eg e'kkje aleine her eg bor"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Himmel_pa%CC%8A_jord_copy_z6c5lq.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Himmel_pa%CC%8A_jord_MOBILE_ombq2r.webp"
+    "desktop": "/images/desktop/Himmel_på_jord.webp",
+    "mobile": "/images/mobile/Himmel_på_jord.webp"
   },
   {
     "objectID": "etlysimotmorketida",
@@ -7522,8 +7522,8 @@
       "Et lys et lys",
       "Et lys imot mørketida"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Et_lys_imot_m%C3%B8rketida_copy_pia3aj.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Et_lys_imot_m%C3%B8rketida_MOBILE_r3axov.webp"
+    "desktop": "/images/desktop/Et_lys_imot_mørketida.webp",
+    "mobile": "/images/mobile/Et_lys_imot_mørketida.webp"
   },
   {
     "objectID": "youvegotafriend",
@@ -7596,8 +7596,8 @@
       "Yeah baby, you've got a friend",
       "Oh, yeah, you've got a friend"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/You_ve_Got_a_Friend_copy_ymxb7z.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/You_ve_Got_a_Friend_MOBILE_es1k7q.webp"
+    "desktop": "/images/desktop/You_ve_Got_a_Friend.webp",
+    "mobile": "/images/mobile/You_ve_Got_a_Friend.webp"
   },
   {
     "objectID": "yoursongejohn",
@@ -7659,8 +7659,8 @@
       "That I put down in words",
       "How wonderful life is while you're in the world"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Your_Song_copy_a1iiwx.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Your_Song_MOBILE_petzmv.webp"
+    "desktop": "/images/desktop/Your_Song.webp",
+    "mobile": "/images/mobile/Your_Song.webp"
   },
   {
     "objectID": "wellmeetagain",
@@ -7720,8 +7720,8 @@
       "Don't know when",
       "But I know we'll meet again some sunny day"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/We_ll_meet_again_copy_boy4d3.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/We_ll_meet_again_MOBILE_x5l29w.webp"
+    "desktop": "/images/desktop/We_ll_meet_again.webp",
+    "mobile": "/images/mobile/We_ll_meet_again.webp"
   },
   {
     "objectID": "whatawonderfulworld",
@@ -7772,8 +7772,8 @@
       "What a wonderful world",
       "Ooh, yes"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/What_a_wonderful_world_copy_hozeb0.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/What_a_wonderful_world_MOBILE_fdnwku.webp"
+    "desktop": "/images/desktop/What_a_wonderful_world.webp",
+    "mobile": "/images/mobile/What_a_wonderful_world.webp"
   },
   {
     "objectID": "whattheworldneedsnowislove",
@@ -7829,8 +7829,8 @@
       "What the world needs now,",
       "Is love, sweet love."
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/What_the_world_needs_copy_fusyxs.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/What_the_world_needs_MOBILE_jiy0hq.webp"
+    "desktop": "/images/desktop/What_the_world_needs.webp",
+    "mobile": "/images/mobile/What_the_world_needs.webp"
   },
   {
     "objectID": "whenthesaintsgomarchingin",
@@ -7883,8 +7883,8 @@
       "I want to be in that number",
       "When the Saints go marching in."
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/When_the_Saints_Go_Marching_In_copy_h63zdm.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/When_the_Saints_Go_Marching_In_MOBILE_f7xqmn.webp"
+    "desktop": "/images/desktop/When_the_Saints_Go_Marching_In.webp",
+    "mobile": "/images/mobile/When_the_Saints_Go_Marching_In.webp"
   },
   {
     "objectID": "crazy1234",
@@ -7919,8 +7919,8 @@
       "I'm crazy for trying and crazy for crying",
       "And I'm crazy for loving you"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Crazy_rphsl8.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Crazy_Mobile_gaifek.webp"
+    "desktop": "/images/desktop/Crazy.webp",
+    "mobile": "/images/mobile/Crazy.webp"
   },
   {
     "objectID": "piejesu",
@@ -7930,7 +7930,7 @@
     "arrangement": ["solo"],
     "composer": "Andrew Lloyd Webber",
     "audio": true,
-    "audioUrl": "https://res.cloudinary.com/dt3k2apqd/video/upload/v1717605189/Sang%20i%20begravelse/Audio/Pie_Jesu_cgakdj.mp3",
+    "audioUrl": "/audio/Pie_Jesu.mp3",
     "performers": ["Jan-Tore Saltnes", "Nils Georg Nilsen"],
     "description": [""],
     "lyrics": [
@@ -7960,8 +7960,8 @@
       "",
       "Sempiternam"
     ],
-    "desktop": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Pie_Jesu_mz6wum.webp",
-    "mobile": "https://res.cloudinary.com/dt3k2apqd/image/upload/q_auto/Sang%20i%20begravelse/images/Pie_Jesu_-_Mobile_tswchy.webp"
+    "desktop": "/images/desktop/Pie_Jesu.webp",
+    "mobile": "/images/mobile/Pie_Jesu.webp"
   },
   {
     "objectID": "o_mio_babbino_caro",
