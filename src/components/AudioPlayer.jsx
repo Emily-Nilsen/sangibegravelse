@@ -47,7 +47,12 @@ export function AudioPlayer({ audio, audioUrl, title, performers, live }) {
               );
             }, '')}
           </span>
-          {live && <span className="text-amber-700"> (liveopptak)</span>}
+          {live && (
+            <span className="sm:text-amber-700 text-slate-700">
+              {' '}
+              (liveopptak)
+            </span>
+          )}
         </p>
       )}
     </div>

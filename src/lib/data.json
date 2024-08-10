@@ -2777,7 +2777,7 @@
       "Doesn't weigh me down at all",
       "He ain't heavy, he's my brother"
     ],
-    "desktop": "/images/dektop/he_aint_heavy.webp",
+    "desktop": "/images/desktop/he_aint_heavy.webp",
     "mobile": "/images/mobile/he_aint_heavy.webp"
   },
   {
@@ -7932,7 +7932,11 @@
     "audio": true,
     "audioUrl": "/audio/Pie_Jesu.mp3",
     "performers": ["Jan-Tore Saltnes", "Nils Georg Nilsen"],
-    "description": [""],
+    "description": [
+      "«Pie Jesu», komponert av Andrew Lloyd Webber, er en del av hans «Requiem», som ble utgitt i 1985. Denne komposisjonen er en del av den katolske rekviemmessen og består av to setninger: «Pie Jesu Domine» og «Dona eis requiem». Webber skrev «Requiem» til minne om sin far, William Lloyd Webber, noe som gir verket en dyp personlig betydning. Sangen har siden blitt kjent for sin enkle, men kraftfulle melodi, som gir en følelse av fred og trøst, noe som gjør den til et passende valg for begravelser.",
+      "«Pie Jesu» er kjent for sin rene og klare vokallinje, ofte sunget av en sopran eller guttesopran. Melodien er både enkel og gripende, og skaper en meditativ atmosfære som kan gi trøst til de som sørger. Webbers komposisjon skiller seg ut ved sin evne til å uttrykke en følelse av ro og hengivenhet, noe som gir et øyeblikk av stillhet og refleksjon i løpet av en begravelse. Teksten, som ber om evig hvile for de avdøde, passer perfekt til en seremoni hvor man minnes og hedrer en som har gått bort.",
+      "Det er sangens evne til å forene dyp følelse med enkelhet som gjør den spesielt egnet for begravelser. «Pie Jesu» tilbyr en musikalsk bønn om fred og hvile, noe som kan gi de sørgende en følelse av forbindelse med den avdøde. Ved å velge denne sangen, gir man en vakker hyllest til livet og en uttrykksfull måte å ta farvel på, samtidig som man finner trøst i musikkens styrke."
+    ],
     "lyrics": [
       "Pie Jesu, pie Jesu, pie Jesu, pie Jesu",
       "Qui tollis peccata mundi",
