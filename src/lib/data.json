@@ -8020,5 +8020,47 @@
     "lyrics": ["Ingen tekst"],
     "desktop": "/images/desktop/Méditation_from_Thaïs.webp",
     "mobile": "/images/mobile/Méditation_from_Thaïs.webp"
+  },
+  {
+    "objectID": "yesterday",
+    "category": "Pop",
+    "language": ["engelsk"],
+    "title": "Yesterday",
+    "arrangement": ["solo"],
+    "composer": "Paul McCartney og John Lennon",
+    "description": [
+      "«Yesterday» er en av de mest ikoniske sangene til The Beatles, skrevet av Paul McCartney og kreditert duoen Lennon-McCartney. Utgitt i 1965 på albumet «Help!», er sangen kjent for sin enkle, men gripende melodi, akkompagnert av akustisk gitar og strykere. McCartney fikk inspirasjonen til melodien fra en drøm, og den ble en umiddelbar klassiker som rørte mange med sin emosjonelle dybde. «Yesterday» skiller seg ut ved å være en av de mest dekkede sangene i musikkhistorien, noe som vitner om dens tidløse appell og universelle temaer.",
+      "Teksten i «Yesterday» handler om tap og lengsel, hvor fortelleren reflekterer over en tid da alt var bedre og enklere. McCartney formidler en følelse av tap ved å lengte tilbake til gårsdagen, hvor problemene ikke eksisterte. Tekstens enkelhet gjør den lett å relatere til, da den berører de universelle følelsene av anger og nostalgi. Denne emosjonelle resonansen gjør sangen til et passende valg for en begravelse, der den kan fungere som en trøst for de sørgende ved å uttrykke følelsen av savn og tap av en kjær.",
+      "«Yesterday» har oppnådd en spesiell plass i hjerter verden over, ikke bare for sin musikalske skjønnhet, men også for sin evne til å fange følelsen av å miste noe verdifullt. Sangen ble en milepæl i The Beatles’ karriere og fortsetter å være en integrert del av deres musikalske arv. Med sin tidløse melodi og rørende tekst, forblir «Yesterday» en sang som berører mennesker dypt og tilbyr en musikalsk refleksjon over livets flyktige natur."
+    ],
+    "lyrics": [
+      "Yesterday, all my troubles seemed so far away",
+      "Now it looks as though they′re here to stay",
+      "Oh, I believe in yesterday",
+      "",
+      "Suddenly, I'm not half the man I used to be",
+      "There′s a shadow hanging over me",
+      "Oh, yesterday came suddenly",
+      "",
+      "Why she had to go",
+      "I don't know, she wouldn't say",
+      "I said something wrong",
+      "Now I long for yesterday",
+      "",
+      "Yesterday, love was such an easy game to play",
+      "Now I need a place to hide away",
+      "Oh, I believe in yesterday",
+      "",
+      "Why she had to go",
+      "I don′t know, she wouldn′t say",
+      "I said something wrong",
+      "Now I long for yesterday",
+      "",
+      "Yesterday, love was such an easy game to play",
+      "Now I need a place to hide away",
+      "Oh, I believe in yesterday"
+    ],
+    "desktop": "/images/desktop/Yesterday.webp",
+    "mobile": "/images/mobile/Yesterday.webp"
   }
 ]
