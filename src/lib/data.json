@@ -8080,5 +8080,31 @@
     "lyrics": ["Ingen tekst"],
     "desktop": "/images/desktop/Schindlers_List.webp",
     "mobile": "/images/mobile/Schindlers_List.webp"
+  },
+  {
+    "objectID": "addio_fiorito_asil",
+    "category": "Klassisk",
+    "language": ["italiensk"],
+    "title": "Addio, fiorito asil",
+    "arrangement": ["solo"],
+    "composer": "Giacomo Puccini",
+    "audio": false,
+    "description": [
+      "«Addio, fiorito asil» er en gripende arie fra Giacomo Puccinis opera «Madama Butterfly», som hadde premiere i 1904. Denne arien synges av hovedkarakteren Pinkerton når han innser den smertefulle konsekvensen av sine handlinger og sier farvel til livet han kjente. Arien er kjent for sin emosjonelle dybde og vakre melodiske linje, som formidler en sterk følelse av anger og tap. Dette gjør den til et passende valg for en begravelse, hvor man ønsker å minnes en elsket og uttrykke de komplekse følelsene knyttet til avskjed.",
+      "Musikken i «Addio, fiorito asil» er preget av Puccinis karakteristiske evne til å kombinere lyrisk skjønnhet med dramatisk intensitet. Arien fanger Pinkertons indre konflikt og sorg gjennom en melodi som gradvis bygger seg opp til et følelsesmessig klimaks. Denne oppbyggingen speiler den ofte overveldende følelsen av sorg og refleksjon som oppstår ved tapet av en kjær. Arien kan fremføres som en kraftfull solo, som gir et intimt øyeblikk av ettertanke og forbindelse med de som har gått bort.",
+      "Den tekstlige dybden i «Addio, fiorito asil» gir arien en universell appell, da den handler om anger, tap og den uunngåelige avskjeden vi alle må møte. I en begravelsessammenheng kan denne arien tilby en slags musikalsk trøst ved å gi de etterlatte mulighet til å uttrykke sine følelser gjennom Puccinis tidløse musikk. Ved å velge denne arien til en begravelse, hedrer man både den avdødes minne og finner en måte å uttrykke de dype følelsene av kjærlighet og savn som oppstår i møte med døden."
+    ],
+    "lyrics": [
+      "Addio, fiorito asil",
+      "di letizia e d'amor...",
+      "Sempre il mite suo sembiante",
+      "con strazio atroce vedrò.",
+      "",
+      "Addio, fiorito asil...",
+      "Non reggo al tuo squallor...",
+      "Fuggo, fuggo...son vil!"
+    ],
+    "desktop": "/images/desktop/Madama_Butterfly.webp",
+    "mobile": "/images/mobile/Madama_Butterfly.webp"
   }
 ]
