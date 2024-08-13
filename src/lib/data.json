@@ -8162,5 +8162,28 @@
     ],
     "desktop": "/images/desktop/Adieu_notre_petite_table.webp",
     "mobile": "/images/desktop/Adieu_notre_petite_table.webp"
+  },
+  {
+    "objectID": "Amor_ti_vieta",
+    "category": "Klassisk",
+    "language": ["italiensk"],
+    "title": "Amor ti vieta",
+    "arrangement": ["solo"],
+    "composer": "Umberto Giordano",
+    "audio": false,
+    "description": [
+      "«Amor ti vieta», komponert av Umberto Giordano, er en kjent tenorarie fra operaen Fedora, som hadde premiere i 1898. Giordano, en italiensk komponist, skrev musikken til librettoen av Arturo Colautti. Arien synges av karakteren Loris Ipanov i et øyeblikk med intens lidenskap og indre konflikt, der han uttrykker sin kjærlighet til Fedora til tross for de omstendigheter som tvinger dem fra hverandre. Musikken, som er både dramatisk og gripende, reflekterer den emosjonelle dybden og styrken i karakterens følelser, noe som gjør den til et minneverdig høydepunkt i operaen.",
+      "Denne arien er spesielt egnet for begravelser på grunn av dens uttrykk for ubetinget kjærlighet og den smertefulle vissheten om tap. Teksten, som kan oversettes til «Kjærligheten forbyr deg å ikke elske», formidler en kraftfull beskjed om at kjærlighet er en uovervinnelig kraft, selv i møte med motgang og død. Dette budskapet kan være trøstende for sørgende, da det minner om den varige kjærligheten man har til en avdød. Arien har en melankolsk, men likevel håpefull tone, som gir rom for refleksjon og minne under seremonien.",
+      "«Amor ti vieta» kan fremføres som en solo, og den rike melodien akkompagnert av piano eller orkester skaper en intim atmosfære som passer for en minnehøytid. Fremførelsen kan gi de tilstedeværende en mulighet til å finne fred i musikken og dens budskap om evig kjærlighet, og dermed gjøre arien til et meningsfylt og rørende innslag i en begravelse. Giordanos evne til å fange de komplekse følelsene rundt kjærlighet og tap gjør denne arien til et vakkert valg for å hedre og minnes en elsket person."
+    ],
+    "lyrics": [
+      "Amor ti vieta di non amar...",
+      "La man tua lieve che mi respinge,",
+      "cerca la stretta della mia man:",
+      "la tua pupilla esprime: ‘T'amo’",
+      "se il labbro dice: ‘Non t'amerò!’"
+    ],
+    "desktop": "/images/desktop/Amor_ti_vieta.webp",
+    "mobile": "/images/mobile/Amor_ti_vieta.webp"
   }
 ]
