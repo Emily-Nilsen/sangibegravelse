@@ -8268,5 +8268,53 @@
     ],
     "desktop": "/images/desktop/Cinema_Paradiso.webp",
     "mobile": "/images/mobile/Cinema_Paradiso.webp"
+  },
+  {
+    "objectID": "catari_catari",
+    "category": "Klassisk",
+    "language": ["italiensk"],
+    "title": "Core 'ngrato",
+    "arrangement": ["solo"],
+    "composer": "Salvatore Cardillo",
+    "audio": false,
+    "description": [
+      "«Core 'ngrato», også kjent som «Catari, Catari», er en klassisk napolitansk sang fra tidlig 1900-tall, komponert av Salvatore Cardillo med tekst av Riccardo Cordiferro. Denne lidenskapelige og melankolske sangen er en hjerteskjærende klage fra en elsker som føler seg forrådt og hjertesår av sin elskede Caterina. Sangen har blitt en standard innen den italienske vokaltradisjonen og har blitt tolket av mange av de store tenorene gjennom tidene, inkludert Enrico Caruso, Luciano Pavarotti, og Plácido Domingo.",
+      "I «Core 'ngrato» uttrykker sangeren sin smerte og frustrasjon over sin ulykkelige kjærlighet. Teksten taler om den dype takknemligheten han føler for Caterina, til tross for hennes avvisning, og han spør hvorfor hun forlater ham i denne tilstanden av fortvilelse. Setninger som «Catari, Catari, pecché me diciste parole amare?» (Caterina, Caterina, hvorfor sa du slike bitre ord til meg?) uttrykker den følelsesmessige smerten ved å bli sveket av en man elsker. Dette kan resonnere dypt i en begravelseskontekst, hvor sorgen over å miste en elsket kan sammenlignes med smerten ved et knust hjerte.",
+      "Sangens melodi er like uttrykksfull som dens tekst, med kraftige crescendoer og en følelse av dyp lengsel som klinger gjennom hver linje. Musikalsk sett kombinerer «Core 'ngrato» den melankolske melodien med en dramatisk intensitet som understreker tekstens emosjonelle dybde. Sangen er ofte fremført som en solo med pianoakkompagnement, noe som gir en intim og rørende fremførelse. Den musikalske strukturen gir rom for refleksjon og ettertanke, noe som kan gi de sørgende en mulighet til å uttrykke sin sorg og savn. Dette gjør «Core 'ngrato» til et meningsfullt valg for en begravelse, hvor man ønsker å minnes en kjær og bearbeide tapet."
+    ],
+    "lyrics": [
+      "Catarì, Catarì,",
+      "pecchè me dici",
+      "sti parole amare;",
+      "pecchè me parle",
+      "e 'o core me turmiente, Catarì?",
+      "Nun te scurdà",
+      "ca t'aggio date 'o core,",
+      "Catarì, nun te scurdà!",
+      "Catarì, Catarì, che vene",
+      "a dicere stu parlà",
+      "ca me dà spaseme?",
+      "Tu nun'nce pienze a stu dulore mio,",
+      "tu nun'nce pienze,",
+      "tu nun te ne cure.",
+      "Core, core 'ngrato,",
+      "t'aie pigliato 'a vita mia,",
+      "tutt'è passato e",
+      "nun'nce pienze cchiù!",
+      "",
+      "Catarì, Catarì",
+      "tu nun o saie ca 'nfino int' 'a na chiesa",
+      "io so' trasuto e aggio priato a Dio,",
+      "Catarì",
+      "e ll'aggio ditto pure a 'o cunfessore",
+      "I' sto' a suffrì pe chella lla'!",
+      "Sto a suffrì, sto a suffrì",
+      "nun se po credere",
+      "sto' a suffrì tutte li strazie",
+      "e 'o cunfessore ch'e' persona santa",
+      "m'ha ditto: figlio mio, lassala sta', lassala sta'!"
+    ],
+    "desktop": "/images/desktop/Catari.webp",
+    "mobile": "/images/mobile/Catari.webp"
   }
 ]
