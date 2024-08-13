@@ -8228,5 +8228,45 @@
     ],
     "desktop": "/images/desktop/Be_My_Love.webp",
     "mobile": "/images/mobile/Be_My_Love.webp"
+  },
+  {
+    "objectID": "Cinema_Paradiso",
+    "category": "Klassisk",
+    "language": ["italiensk"],
+    "title": "Cinema Paradiso",
+    "arrangement": ["solo"],
+    "composer": "Ennio Morricone",
+    "audio": false,
+    "description": [
+      "«Cinema Paradiso» er et kjent musikkstykke komponert av Ennio Morricone for filmen med samme navn, regissert av Giuseppe Tornatore og utgitt i 1988. Denne melodien er en del av et større verk som fanger filmens nostalgi og temaer om tapt kjærlighet og minner fra barndommen. Musikkens emosjonelle dybde og vakre melodilinjer gjør den spesielt egnet for en begravelse, hvor den kan vekke minner og følelser knyttet til den avdøde.",
+      "Komposisjonen har en melankolsk, men samtidig varm tone, som inviterer til refleksjon og ettertanke. Filmens historie omhandler en mann som ser tilbake på sin barndom og sin kjærlighet til filmens verden, noe som gjenspeiles i musikkens følelsesmessige intensitet. Stykket kan fremføres som en solo eller med pianoakkompagnement, og gir en rolig, men gripende atmosfære til en minnestund.",
+      "Musikken fungerer som en tidløs påminnelse om livets vakre øyeblikk og kjærligheten vi deler med våre nærmeste. Noen av de mest gripende linjene fra filmen, som ofte blir assosiert med musikken, inkluderer setninger som «Non si dimenticano le persone che ami» («Man glemmer ikke menneskene man elsker») og «L’amore è memoria» («Kjærlighet er minner»), som forsterker stykkets evne til å bringe trøst og fred til de som sørger ved å minnes det gode i livet."
+    ],
+    "lyrics": [
+      "Se tu fossi nei miei occhi per un giorno",
+      "Vedresti la bellezza che piena d'allegria",
+      "Lo trovo dentro gli occhi tuoi",
+      "E ignoro se è magia o lealtà.",
+      "",
+      "Se tu fossi nel mio cuore per un giorno",
+      "Potreste avere un'idea",
+      "Di ciò che sento io",
+      "Quando mi abbracci forte a te",
+      "E petto a petto, noi",
+      "Respiriamo insieme.",
+      "",
+      "Se tu fossi nella mia anima un giorno",
+      "Sapresti cosa sento in me",
+      "Che m'innamorai",
+      "Da quell'istante insieme a te",
+      "E ciò che provo è",
+      "Solamente amore.",
+      "",
+      "Da quell'istante insieme a te",
+      "E ciò che provo è",
+      "Solamente amore."
+    ],
+    "desktop": "/images/desktop/Cinema_Paradiso.webp",
+    "mobile": "/images/mobile/Cinema_Paradiso.webp"
   }
 ]
