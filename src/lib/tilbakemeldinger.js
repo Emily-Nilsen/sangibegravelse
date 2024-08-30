@@ -108,8 +108,8 @@ export const tilbakemeldingerData = [
     body: 'Tusen takk for en fantastisk fremføring i min mammas begravelse i dag. Jeg tror de fleste kjente på gåsehud- det var så vakkert.',
     image: '/images/flowers/flower-05.webp',
     author: {
-      name: 'Barbro Figved',
-      // place: 'Sted',
+      name: 'Barbro',
+      place: 'Oslo',
     },
   },
   {
@@ -117,25 +117,34 @@ export const tilbakemeldingerData = [
     body: 'Var i Nordstrand kirke i dag.Jeg må få takke for den utrolige fine tolkningen av sangen du fremførte. Det gjorde at det ble en sjelden vakker seremoni. Jeg ble rørt fra første strofe i hver sang.',
     image: '/images/flowers/flower-04.webp',
     author: {
-      name: 'Kjersti Ruud',
-      // place: 'Sted',
+      name: 'Kjersti',
+      place: 'Nordstrand kirke',
     },
   },
   {
     artist: 'Susanne Hvinden Hals',
     body: 'Vi var overmåte fornøyde med ditt bidrag i seremonien. Du sang utrolig vakkert og mange hadde kommentert dette etterpå.',
-    image: '/images/flowers/flower-16.webp',
+    image: '/images/flowers/flower-06.webp',
     author: {
-      name: 'Familien til Odd Lingjærde',
-      // place: 'Sted',
+      name: 'Merethe',
+      place: 'Oslo',
     },
   },
   {
     artist: 'Susanne Hvinden Hals',
-    body: 'Tusen takk for veldig flott sang i Haslum krematorium.',
+    body: 'Tusen takk for fantastisk synging i Frogner kirke 15. august i min manns bisettelse.  Du løftet seremonien og formidlet kjærligheten og savnet gjennom musikken slik vi ønsket.',
+    image: '/images/flowers/flower-16.webp',
+    author: {
+      name: 'Elisabeth',
+      place: 'Frogner kirke',
+    },
+  },
+  {
+    artist: 'Susanne Hvinden Hals',
+    body: 'Jeg vil få takke deg for en fantastisk og magisk opplevelse i Haslum seremonirom i går ifm. min mors minnestund. Det låt helt vidunderlig og satte prikken over i’n. Min mor ville ha elsket fremføringen din.',
     image: '/images/flowers/flower-12.webp',
     author: {
-      name: 'Familien til Johan Ernst Welhaven',
+      name: 'Øystein',
       place: 'Haslum krematorium',
     },
   },
