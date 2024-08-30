@@ -141,7 +141,7 @@ export const tilbakemeldingerData = [
   },
   {
     artist: 'Susanne Hvinden Hals',
-    body: 'Jeg vil få takke deg for en fantastisk og magisk opplevelse i Haslum seremonirom i går ifm. min mors minnestund. Det låt helt vidunderlig og satte prikken over i’n. Min mor ville ha elsket fremføringen din.',
+    body: 'Jeg vil få takke deg for en fantastisk og magisk opplevelse i Haslum seremonirom i går ifm. min mors minnestund. Det låt helt vidunderlig og satte prikken over i-en. Min mor ville ha elsket fremføringen din.',
     image: '/images/flowers/flower-12.webp',
     author: {
       name: 'Øystein',
