@@ -65,6 +65,15 @@ export const tilbakemeldingerData = [
       place: 'Høybråten kirke',
     },
   },
+  {
+    artist: 'Nils Georg Nilsen',
+    body: 'Hei, og tusen takk for en flott bisettelse i går. Din solistrolle; stemme og tolkning av vårt musikkvalg, var utrolig vakkert. Vi fikk veldig mange positive tilbakemeldinger i etterkant. Du gjorde avskjeden med mor til et fint og varig minne.',
+    image: '/images/flowers/flower-03.webp',
+    author: {
+      name: 'Nina',
+      place: 'Nordstrand kirke',
+    },
+  },
   // Jan-Tore Saltnes
   {
     artist: 'Jan-Tore Saltnes',
