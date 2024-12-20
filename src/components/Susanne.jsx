@@ -247,7 +247,7 @@ export function Susanne() {
                   <dt className="sr-only">Phone number</dt>
                   <dd>
                     {' '}
-                    <Link href="tel:+47 155 06 256">+47 155 06 256</Link>
+                    <Link href="tel:+47 455 06 256">+47 455 06 256</Link>
                   </dd>
                 </div>
               </dl>
