@@ -14,9 +14,21 @@ const features = [
   },
   {
     title: 'Det beste du har hatt',
-    description: '.',
+    description: 'En pop sang av Ingvar Ambjørnsen og Bjørn Eidsvåg.',
     audio: true,
     audioUrl: '/audio/E_DetBesteDuHarHatt.mp3',
+  },
+  {
+    title: 'Farfars reise',
+    description: 'En vise av Erik Bye.',
+    audio: true,
+    audioUrl: '/audio/E_Farfarsreise.mp3',
+  },
+  {
+    title: 'Norsk stev',
+    description: 'En tradisjonell folkesang fra Norge.',
+    audio: true,
+    audioUrl: '/audio/E_NorskStev.mp3',
   },
 ];
 
