@@ -42,6 +42,19 @@ const features = [
     audio: true,
     audioUrl: '/audio/E_SovIRoFraSnøfall_HenrikSkram.mp3',
   },
+  {
+    title: 'Viskar en bön',
+    description: 'En svensk visesang av Georg Riedel og Astrid Lindgren.',
+    audio: true,
+    audioUrl: '/audio/E_ViskarEnBön.mp3',
+  },
+  {
+    title: 'Edelweiss',
+    description:
+      'En musikal sang av Richard Rodgers og Oscar Hammerstein II fra The Sound of Music.',
+    audio: true,
+    audioUrl: '/audio/MM_E_Edelweiss.mp3',
+  },
 ];
 
 const imageUrl = ESSamples;
