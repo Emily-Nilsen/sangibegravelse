@@ -3,7 +3,6 @@ import Head from 'next/head';
 import { HeroEspen } from '@/components/HeroEspen';
 import { Espen } from '@/components/Espen';
 import { ArtistSamples } from '@/components/ArtistSamples';
-import { Tilbakemeldinger } from '../components/Tilbakemeldinger';
 import ESSamples from '../images/profiles/ES-samples.webp';
 
 const features = [
@@ -12,6 +11,12 @@ const features = [
     description: 'En pop sang av Odd Erik Ognedal og Ingvar Hovland.',
     audio: true,
     audioUrl: '/audio/Himmelhøgesti.mp3',
+  },
+  {
+    title: 'Det beste du har hatt',
+    description: '.',
+    audio: true,
+    audioUrl: '/audio/E_DetBesteDuHarHatt.mp3',
   },
 ];
 
