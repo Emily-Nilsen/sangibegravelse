@@ -20,7 +20,7 @@ const features = [
   },
   {
     title: 'Farfars reise',
-    description: 'En vise av Erik Bye.',
+    description: 'En vise av Espen Solsbak.',
     audio: true,
     audioUrl: '/audio/E_Farfarsreise.mp3',
   },
