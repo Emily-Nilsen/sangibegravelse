@@ -123,7 +123,7 @@ export function Espen() {
             >
               Han har sin utdanning fra Fakultet for utøvende kunstfag ved
               Universitetet i Stavanger, Conservatorio di Musica Santa Cecilia i
-              Roma og Operahøgskolen i Oslo..
+              Roma og Operahøgskolen i Oslo.
             </motion.p>
             <motion.div
               whileInView={{ opacity: 1 }}
