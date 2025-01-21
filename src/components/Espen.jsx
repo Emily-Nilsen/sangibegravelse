@@ -1,5 +1,11 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
+import {
+  CloudArrowUpIcon,
+  LockClosedIcon,
+  ServerIcon,
+} from '@heroicons/react/20/solid';
 
 export function Espen() {
   return (
@@ -27,7 +33,7 @@ export function Espen() {
             className="mt-6 text-xl leading-8 text-gray-700"
           >
             Espen Solsbak er en meget allsidig sanger med stor musikalitet og
-            formidlingsevne..
+            formidlingsevne.
           </motion.p>
         </div>
         <div className="grid max-w-2xl grid-cols-1 mx-auto mt-16 gap-x-8 gap-y-16 lg:mx-0 lg:mt-10 lg:max-w-none lg:grid-cols-12">
