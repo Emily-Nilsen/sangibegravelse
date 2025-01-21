@@ -30,6 +30,18 @@ const features = [
     audio: true,
     audioUrl: '/audio/E_NorskStev.mp3',
   },
+  {
+    title: 'Se tu non torni a Scandiani',
+    description: 'En klassisk italiensk sang av Francesco Paolo Tosti.',
+    audio: true,
+    audioUrl: '/audio/E_SeTuNonTorni_AScandiani_FPTosti.mp3',
+  },
+  {
+    title: 'Sov i ro fra snøfall',
+    description: 'En vinter og jul sang av Henrik Skram og Ruth Lillegraven.',
+    audio: true,
+    audioUrl: '/audio/E_SovIRoFraSnøfall_HenrikSkram.mp3',
+  },
 ];
 
 const imageUrl = ESSamples;
