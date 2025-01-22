@@ -6,12 +6,12 @@ import { ArtistSamples } from '@/components/ArtistSamples';
 import ESSamples from '../images/profiles/ES-samples.webp';
 
 const features = [
-  {
-    title: 'Himmelhøge sti',
-    description: 'En pop sang av Odd Erik Ognedal og Ingvar Hovland.',
-    audio: true,
-    audioUrl: '/audio/Himmelhøgesti.mp3',
-  },
+  // {
+  //   title: 'Himmelhøge sti',
+  //   description: 'En pop sang av Odd Erik Ognedal og Ingvar Hovland.',
+  //   audio: true,
+  //   audioUrl: '/audio/Himmelhøgesti.mp3',
+  // },
   {
     title: 'Det beste du har hatt',
     description: 'En pop sang av Ingvar Ambjørnsen og Bjørn Eidsvåg.',
