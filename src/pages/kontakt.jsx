@@ -6,6 +6,51 @@ import contactDesktop from '../images/general/contact-desktop.webp';
 import contactMobile from '../images/general/contact-mobile.webp';
 
 export default function Kontakt() {
+  const contacts = [
+    {
+      name: 'Nils Georg Nilsen',
+      role: 'Sanger - Tenor',
+      email: 'nils.g.nilsen@gmail.com',
+      phone: '+47 402 20 414',
+    },
+    {
+      name: 'Susanne Hvinden Hals',
+      role: 'Sanger - Sopran',
+      email: 'susannehvinden@gmail.com',
+      phone: '+47 455 06 256',
+    },
+    {
+      name: 'Kathrine Hvinden Hals',
+      role: 'Fiolinist',
+      email: 'hvindenhalskathrine@gmail.com',
+      phone: '+47 476 76 555',
+    },
+    {
+      name: 'Jan-Tore Saltnes',
+      role: 'Sanger - Tenor',
+      email: 'mail@jts.no',
+      phone: '+47 930 80 087',
+    },
+    {
+      name: 'Espen Solsbak',
+      role: 'Sanger - Tenor',
+      email: 'espen@solsbak.com',
+      phone: '+47 951 79 903',
+    },
+    {
+      name: 'Sebastian Haugen',
+      role: 'Bassist',
+      email: 'sebastianhaugen@gmail.com',
+      phone: '+47 948 93 551',
+    },
+    {
+      name: 'Audun Sandvik',
+      role: 'Cellist',
+      email: 'sandvik.audun@gmail.com',
+      phone: '+47 928 42 567',
+    },
+  ];
+
   return (
     <>
       <Head>
@@ -27,7 +72,7 @@ export default function Kontakt() {
           <Image
             src={contactDesktop}
             alt="Blomster"
-            className="object-cover w-full h-full opacity-50 "
+            className="object-cover w-full h-full opacity-50"
             width={1920}
             height={1076}
           />
@@ -62,7 +107,7 @@ export default function Kontakt() {
               kontakt med oss i dag.
             </motion.p>
           </div>
-          {/* Contact NG */}
+          {/* Contact Cards */}
           <motion.div
             whileInView={{ opacity: 1, y: 0 }}
             initial={{
@@ -74,31 +119,40 @@ export default function Kontakt() {
               duration: 1,
               type: 'fade',
             }}
-            className="p-10 mx-auto mt-16 rounded-2xl bg-gray-50 w-fit sm:mt-20 sm:w-full sm:max-w-md"
+            className="grid grid-cols-1 gap-6 px-24 mt-16 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3"
           >
-            <h3 className="text-base font-semibold leading-7 text-gray-900">
-              Kontakt Nils Georg Nilsen
-            </h3>
-            <dl className="mt-3 space-y-1 text-sm leading-6 text-gray-600">
-              <div>
-                <dt className="sr-only">Email</dt>
-                <dd>
-                  <Link
-                    className="font-semibold text-slate-600"
-                    href="mailto:nils.g.nilsen@gmail.com"
-                  >
-                    nils.g.nilsen@gmail.com
-                  </Link>
-                </dd>
+            {contacts.map((contact, index) => (
+              <div
+                key={index}
+                className="flex flex-col items-center p-10 text-center shadow-lg rounded-2xl bg-gray-50"
+              >
+                <h3 className="text-base font-semibold leading-7 text-gray-900">
+                  {contact.name}
+                </h3>
+                <h5 className="text-sm font-semibold leading-7 text-gray-900">
+                  {contact.role}
+                </h5>
+                <dl className="mt-3 space-y-1 text-sm leading-6 text-gray-600">
+                  <div>
+                    <dt className="sr-only">Email</dt>
+                    <dd>
+                      <Link
+                        className="font-semibold text-slate-600"
+                        href={`mailto:${contact.email}`}
+                      >
+                        {contact.email}
+                      </Link>
+                    </dd>
+                  </div>
+                  <div className="mt-1">
+                    <dt className="sr-only">Phone number</dt>
+                    <dd>
+                      <Link href={`tel:${contact.phone}`}>{contact.phone}</Link>
+                    </dd>
+                  </div>
+                </dl>
               </div>
-              <div className="mt-1">
-                <dt className="sr-only">Phone number</dt>
-                <dd>
-                  {' '}
-                  <Link href="tel:+47 402 20 414">+47 402 20 414</Link>
-                </dd>
-              </div>
-            </dl>
+            ))}
           </motion.div>
         </div>
       </section>
