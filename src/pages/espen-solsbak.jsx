@@ -7,8 +7,8 @@ import ESSamples from '../images/profiles/ES-samples.webp';
 
 const features = [
   {
-    title: 'Det beste du har hatt',
-    description: 'En pop sang av Ingvar Ambjørnsen og Bjørn Eidsvåg.',
+    title: 'Det beste som har hendt',
+    description: 'En pop sang av Sigvart Dagsland.',
     audio: true,
     audioUrl: '/audio/E_DetBesteDuHarHatt.mp3',
   },
@@ -25,7 +25,7 @@ const features = [
     audioUrl: '/audio/E_NorskStev.mp3',
   },
   {
-    title: 'Se tu non torni a Scandiani',
+    title: 'Se tu non torni',
     description: 'En klassisk italiensk sang av Francesco Paolo Tosti.',
     audio: true,
     audioUrl: '/audio/E_SeTuNonTorni_AScandiani_FPTosti.mp3',
@@ -38,7 +38,7 @@ const features = [
   },
   {
     title: 'Viskar en bön',
-    description: 'En svensk visesang av Georg Riedel og Astrid Lindgren.',
+    description: 'En svensk visesang av Petter Hallström.',
     audio: true,
     audioUrl: '/audio/E_ViskarEnBön.mp3',
   },
