@@ -1627,15 +1627,16 @@
     "language": ["norsk"],
     "title": "E du Nord",
     "arrangement": ["solo"],
-    "composer": "Kari Bremnes",
+    "composer": "Ola Bremnes og Kari Bremnes",
     "audio": false,
     "spotify": true,
     "spotifyUrl": "track/5YgL7RNkh1QttjkQrfYfqc?si=4bcbecc6643a4c77",
     "description": [
-      "«E du Nord» av Kari Bremnes er en låt fra 2012 som tar for seg både tapte muligheter og uventede endringer. Sangen skildrer et vakkert nordnorsk landskap og formidler et vedvarende håp om bedre dager til tross for skuffelse og tap. Den rører ved følelsen av forventning og nedtur, kombinert med et landskap preget av mørke og avstand.",
+      "«E du Nord» er skrevet av Kari og Ola Bremnes, med melodi av Ola Bremnes. Låten fra 2012 tar for seg både tapte muligheter og uventede endringer. Sangen skildrer et vakkert nordnorsk landskap og formidler et vedvarende håp om bedre dager til tross for skuffelse og tap. Den rører ved følelsen av forventning og nedtur, kombinert med et landskap preget av mørke og avstand.",
       "Den setter i scene erfaringen av å være ‘nord i landet,’ hvor man kan miste mer enn bare en ferge. Låten tematiserer ensomhet, men også fellesskapet som finnes i det nordlige tusmørket, der ‘vi mange som ror.’ Teksten beskriver ikke bare det geografiske nord, men også en følelsesmessig tilstand.",
       "Den uttrykker en aksept av utfordringer og mørke, samtidig som den peker mot et lys ‘av guds nåde’ som til slutt vil bryte gjennom. Dette skaper en dypere forståelse av sangens budskap og følelsesregister. Det er en sang som kan gi trøst i en begravelse ved å anerkjenne sorgen, samtidig som den gir håp om en ny begynnelse."
     ],
+
     "lyrics": [
       "Det e ikkje alltid det går",
       "Sånn som du hadde tenkt",
