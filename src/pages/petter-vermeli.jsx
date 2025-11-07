@@ -4,6 +4,7 @@ import { HeroPetterVermeli } from '@/components/HeroPetterVermeli';
 import { PetterVermeli } from '@/components/PetterVermeli';
 import { ArtistSamples } from '@/components/ArtistSamples';
 import { Tilbakemeldinger } from '@/components/Tilbakemeldinger';
+import { PetterVideoShowcase } from '@/components/PetterVideoShowcase';
 import PetterSamples from '../images/profiles/PV-samples.webp';
 
 const features = [
@@ -70,6 +71,7 @@ export default function PetterVermeliPage() {
             subtitle={subtitle}
             title={title}
           />
+          <PetterVideoShowcase />
           <Tilbakemeldinger artistName="Petter Vermeli" />
         </main>
       </div>

@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import { motion } from 'framer-motion';
 
 import PetterPortrait from '../images/profiles/PV-samples.webp';
@@ -121,6 +122,35 @@ export function PetterVermeli() {
                 </div>
               </figcaption>
             </motion.figure>
+            <motion.div
+              whileInView={{ opacity: 1, y: 0 }}
+              initial={{ opacity: 0, y: 50 }}
+              transition={{ delay: 0.9, duration: 1, type: 'fade' }}
+              className="p-10 mt-10 rounded-2xl bg-gray-50"
+            >
+              <h3 className="text-base font-semibold leading-7 text-gray-900">
+                Kontakt Petter
+              </h3>
+              <dl className="mt-3 space-y-1 text-sm leading-6 text-gray-600">
+                <div>
+                  <dt className="sr-only">Email</dt>
+                  <dd>
+                    <Link
+                      className="font-semibold text-slate-600"
+                      href="mailto:pettervermeli10@hotmail.com"
+                    >
+                      pettervermeli10@hotmail.com
+                    </Link>
+                  </dd>
+                </div>
+                <div className="mt-1">
+                  <dt className="sr-only">Phone number</dt>
+                  <dd>
+                    <Link href="tel:+4798866897">+47 988 66 897</Link>
+                  </dd>
+                </div>
+              </dl>
+            </motion.div>
           </div>
         </div>
       </div>
