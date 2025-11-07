@@ -16,6 +16,7 @@ const navigation = {
     { name: 'Espen Solsbak', href: '/espen-solsbak' },
     { name: 'Sebastian Haugen', href: '/sebastian-haugen' },
     { name: 'Audun Sandvik', href: '/audun-sandvik' },
+    { name: 'Petter Vermeli', href: '/petter-vermeli' },
   ],
 
   omOss: [

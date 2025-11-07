@@ -8,6 +8,7 @@ import SHHPreview from '../images/profiles/SHH-preview.webp';
 import KHHPreview from '../images/profiles/KHH-preview.webp';
 import JTPreview from '../images/profiles/JT-preview.webp';
 import ASPreview from '../images/profiles/AS-preview.webp';
+import PVPreview from '../images/profiles/PV-preview.webp';
 
 const people = [
   {
@@ -51,6 +52,12 @@ const people = [
     role: 'Cellist',
     imageUrl: ASPreview,
     profileUrl: '/audun-sandvik',
+  },
+  {
+    name: 'Petter Vermeli',
+    role: 'Sanger',
+    imageUrl: PVPreview,
+    profileUrl: '/petter-vermeli',
   },
 ];
 

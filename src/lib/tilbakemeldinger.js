@@ -157,5 +157,33 @@ export const tilbakemeldingerData = [
       place: 'Haslum krematorium',
     },
   },
+  // Petter Vermeli
+  {
+    artist: 'Petter Vermeli',
+    body: 'Min familie og jeg har engasjert Petter Vermeli både ved begravelser og større selskaper. Petter har en unik stemme og et meget allsidig repertoar som han tilpasser ulike anledninger både til sorg og glede. Vi har også fulgt ham både på store og små konserter, og han gleder oss alltid. Han er en flott konferansier og underholder.',
+    image: '/images/flowers/flower-09.webp',
+    author: {
+      name: 'Bjørg Andreassen',
+      place: 'Grefsen kirke',
+    },
+  },
+  {
+    artist: 'Petter Vermeli',
+    body: 'Vi har fulgt Petter Vermeli sin sang- og skuespillerkarriere i mange år, og kan gi ham vår beste anbefaling. Sist sang han i min manns bisettelse i mai 2025 og hvor han som alltid utmerket seg med vakker sang og en rolig og verdig opptreden som betyr så mye for oss pårørende. Gir Petter en varm anbefaling.',
+    image: '/images/flowers/flower-11.webp',
+    author: {
+      name: 'Anne-Brit Kristiansen',
+      place: 'Haug kirke',
+    },
+  },
+  {
+    artist: 'Petter Vermeli',
+    body: 'Petter sang i min fars begravelse. Gjennomføringen ble utrolig flott, og Petter er også veldig dyktig på å opptre omtenksomt i en setting der det er mye følelser og mange har en spesiell dag. Anbefaler han på det varmeste.',
+    image: '/images/flowers/flower-02.webp',
+    author: {
+      name: 'Kristian Gulli Larsen',
+      place: 'Tvedestrand kirke',
+    },
+  },
   // Espen Solsbak
 ];
