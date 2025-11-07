@@ -49,6 +49,12 @@ export default function Kontakt() {
       email: 'sandvik.audun@gmail.com',
       phone: '+47 928 42 567',
     },
+    {
+      name: 'Petter Vermeli',
+      role: 'Sanger',
+      email: 'pettervermeli10@hotmail.com',
+      phone: '+47 988 66 897',
+    },
   ];
 
   return (
