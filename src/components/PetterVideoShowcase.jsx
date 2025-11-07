@@ -32,7 +32,7 @@ export function PetterVideoShowcase() {
               «Det vakreste som finns»
             </h3>
             <p className="text-base leading-7 text-gray-600">
-              Et utdrag fra Sigvart Dagslands klassiker fremført av Petter.
+              Et utdrag fra Jahn Teigen klassiker fremført av Petter.
             </p>
             <YoutubeVideo publicId="https://www.youtube.com/watch?v=ufn2oQJ1K4A" />
           </div>
