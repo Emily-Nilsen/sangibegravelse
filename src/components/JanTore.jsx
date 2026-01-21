@@ -1,11 +1,5 @@
-import Image from 'next/image';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
-import {
-  CloudArrowUpIcon,
-  LockClosedIcon,
-  ServerIcon,
-} from '@heroicons/react/20/solid';
 
 export function JanTore() {
   return (
@@ -117,25 +111,7 @@ export function JanTore() {
               fem soloalbum og har deltatt på over 30 ulike fonogrammer og flere
               filmer.
             </motion.p>
-            {/* <motion.div
-              whileInView={{ opacity: 1 }}
-              initial={{ opacity: 0 }}
-              transition={{
-                delay: 0.5,
-                duration: 1,
-                type: 'fade',
-              }}
-              className="my-6"
-            >
-              <Link
-                href="https://www.nilsnilsentenor.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-sm font-semibold leading-6 transition-all duration-150 ease-in-out text-slate-600 hover:text-slate-950"
-              >
-                nilsnilsentenor.com <span aria-hidden="true">→</span>
-              </Link>
-            </motion.div> */}
+
             <motion.div
               whileInView={{ opacity: 1 }}
               initial={{ opacity: 0 }}

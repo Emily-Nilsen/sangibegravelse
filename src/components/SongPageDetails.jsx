@@ -1,9 +1,6 @@
-import Image from 'next/image';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/react/20/solid';
-import { getPerformerLink } from '../../utilities/getPerformerLink';
-import { CustomAudioPlayer } from './CustomAudioPlayer';
 import { AudioPlayer } from './AudioPlayer';
 import { SpotifyPlayer } from './SpotifyPlayer';
 import { generateSlug } from '../utils/generateSlug'; // Import generateSlug
@@ -25,7 +22,7 @@ export function PaginationSection({ prevSong, nextSong }) {
           <Link
             href={`/repertoar/${generateSlug(
               prevSong.title,
-              prevSong.composer
+              prevSong.composer,
             )}`}
             className="font-medium text-amber-700 rounded-md pr-2 py-2.5 flex-auto items-stretch transition-all duration-300 ease-in-out hover:underline cursor-pointer"
           >
@@ -43,7 +40,7 @@ export function PaginationSection({ prevSong, nextSong }) {
           <Link
             href={`/repertoar/${generateSlug(
               nextSong.title,
-              nextSong.composer
+              nextSong.composer,
             )}`}
             className="font-medium text-amber-700 rounded-md pl-2 py-2.5 flex-auto items-stretch transition-all duration-300 ease-in-out hover:underline cursor-pointer"
           >

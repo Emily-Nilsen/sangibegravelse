@@ -1,5 +1,4 @@
 import { useState, useRef } from 'react';
-import { Disclosure } from '@headlessui/react';
 import { MinusIcon, PlusIcon } from '@heroicons/react/24/outline';
 import fellessanger from '../lib/fellessangerData';
 import { SimplePlayer } from './SimplePlayer';
@@ -101,7 +100,7 @@ export function Fellessanger() {
                           >
                             {line}
                           </p>
-                        )
+                        ),
                       )}
                     </div>
                   </dd>

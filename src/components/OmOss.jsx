@@ -1,11 +1,4 @@
-import Image from 'next/image';
-import Link from 'next/link';
 import { motion } from 'framer-motion';
-import {
-  CloudArrowUpIcon,
-  LockClosedIcon,
-  ServerIcon,
-} from '@heroicons/react/20/solid';
 
 export function OmOss() {
   return (
@@ -56,9 +49,6 @@ export function OmOss() {
                   <div className="font-semibold text-gray-900">
                     Benny Andersen
                   </div>
-                  {/* <div className="text-gray-600">
-                    Operasangerinne, København
-                  </div> */}
                 </div>
               </figcaption>
             </figure>

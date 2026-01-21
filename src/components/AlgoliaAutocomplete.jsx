@@ -2,12 +2,10 @@ import { useEffect, useRef, useState, forwardRef } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { useRouter } from 'next/router';
-import { XMarkIcon } from '@heroicons/react/24/outline';
 import { Dialog } from '@headlessui/react';
 import { createAutocomplete } from '@algolia/autocomplete-core';
 import algoliasearch from 'algoliasearch/lite';
 import Highlighter from 'react-highlight-words';
-import { CategoryTag } from './CategoryTag';
 
 export function AlgoliaAutocomplete({ open, setOpen }) {
   const router = useRouter();
@@ -53,7 +51,7 @@ function useAlgoliaAutocomplete() {
   const [autocompleteState, setAutocompleteState] = useState({});
   const searchClient = algoliasearch(
     process.env.NEXT_PUBLIC_ALGOLIA_APP_ID,
-    process.env.NEXT_PUBLIC_ALGOLIA_SEARCH_KEY
+    process.env.NEXT_PUBLIC_ALGOLIA_SEARCH_KEY,
   );
 
   const [autocomplete] = useState(() =>
@@ -72,7 +70,7 @@ function useAlgoliaAutocomplete() {
           },
         ];
       },
-    })
+    }),
   );
 
   return [autocomplete, autocompleteState];
@@ -80,7 +78,7 @@ function useAlgoliaAutocomplete() {
 
 const SearchInput = forwardRef(function SearchInput(
   { autocomplete, autocompleteState },
-  inputRef
+  inputRef,
 ) {
   let inputProps = autocomplete.getInputProps({});
   return (
@@ -110,7 +108,7 @@ export function SearchResults({ query, setOpen }) {
     const fetchResults = async () => {
       const searchClient = algoliasearch(
         process.env.NEXT_PUBLIC_ALGOLIA_APP_ID,
-        process.env.NEXT_PUBLIC_ALGOLIA_SEARCH_KEY
+        process.env.NEXT_PUBLIC_ALGOLIA_SEARCH_KEY,
       );
       const results = await searchClient
         .search([{ indexName: 'sang_i_begravelse', query }])

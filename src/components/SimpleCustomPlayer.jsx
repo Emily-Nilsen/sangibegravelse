@@ -1,6 +1,5 @@
 import { useRef, useState, useEffect } from 'react';
 import { PlayIcon, PauseIcon } from '@heroicons/react/20/solid';
-import styles from './CustomAudioPlayer.module.css';
 
 export function PlayButton() {
   return <PlayIcon className="w-4 h-4" aria-hidden="true" />;

@@ -1,6 +1,4 @@
 import Image from 'next/image';
-import Link from 'next/link';
-import { motion } from 'framer-motion';
 import forslagDesktop from '../images/general/forslag-desktop.webp';
 import forslagMobile from '../images/general/forslag-mobile.webp';
 

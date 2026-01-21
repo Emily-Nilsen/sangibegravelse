@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { motion } from 'framer-motion';
 import aboutBg from '../images/general/about-bg.webp';
 import aboutDesktop from '../images/general/about-desktop.webp';
 import aboutMobile from '../images/general/about-mobile.webp';
@@ -23,9 +22,6 @@ export function HeroAbout() {
         <div className="grid max-w-2xl grid-cols-1 mx-auto gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start">
           <div className="lg:pr-4 lg:pt-4">
             <div className="lg:max-w-lg">
-              {/* <h2 className="text-base font-semibold leading-7 text-slate-600">
-                Om
-              </h2> */}
               <h6 className="mt-2 text-5xl text-slate-950 sm:text-slate-900 sm:text-6xl lg:text-7xl">
                 Sang i begravelse
               </h6>

@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import { Disclosure } from '@headlessui/react';
 import { MinusIcon, PlusIcon } from '@heroicons/react/24/outline';
 import hymnes from '../lib/hymnesData';
 import { SimplePlayer } from './SimplePlayer';
@@ -101,7 +100,7 @@ export function SalmerList() {
                           >
                             {line}
                           </p>
-                        )
+                        ),
                       )}
                     </div>
                   </dd>

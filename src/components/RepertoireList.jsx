@@ -1,6 +1,5 @@
 import React, { useState, forwardRef } from 'react';
 import { MinusIcon, PlusIcon } from '@heroicons/react/24/outline';
-import { filterSongs } from '../../utilities/filterSongs';
 import { TableHeader } from './TableHeader';
 import { SongDetails } from './SongDetails';
 import { ViolinIcon } from './icons/Violin';
@@ -11,7 +10,7 @@ import { SimplePlayer } from './SimplePlayer';
 
 export function RepertoireListComponent(
   { selectedCategory, selectedArrangement, selectedLanguage, repertoire },
-  ref
+  ref,
 ) {
   const [expandedSongs, setExpandedSongs] = useState([]);
 
@@ -78,12 +77,12 @@ export function RepertoireListComponent(
                         {getArrangementIcon(
                           sang.arrangement,
                           'duett',
-                          DuetIcon
+                          DuetIcon,
                         )}
                         {getArrangementIcon(
                           sang.arrangement,
                           'fiolin',
-                          ViolinIcon
+                          ViolinIcon,
                         )}
                       </div>
                     </>

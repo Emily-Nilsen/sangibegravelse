@@ -1,10 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
-
-import { useState } from 'react';
-import { Dialog } from '@headlessui/react';
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 import heroMobile from '../images/general/homepage-mobile.webp';
 import heroDesktop from '../images/general/homepage-desktop.webp';
 

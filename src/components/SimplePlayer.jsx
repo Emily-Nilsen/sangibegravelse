@@ -1,6 +1,4 @@
 import { SimpleCustomPlayer } from './SimpleCustomPlayer';
-import { getPerformerLink } from '../../utilities/getPerformerLink';
-import Link from 'next/link';
 
 export function SimplePlayer({
   audio,

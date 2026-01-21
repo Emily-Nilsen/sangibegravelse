@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react';
-import Image from 'next/image';
 
 export function BackToTopButton() {
   const [isVisible, setIsVisible] = useState(false);

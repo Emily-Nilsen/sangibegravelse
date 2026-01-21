@@ -1,9 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
-import { useState } from 'react';
-import { Dialog } from '@headlessui/react';
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 import ESHeroDesktop from '../images/profiles/ES-desktop.webp';
 import ESHeroMobile from '../images/profiles/ES-mobile.webp';
 

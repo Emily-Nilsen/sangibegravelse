@@ -1,6 +1,4 @@
 import Image from 'next/image';
-import Link from 'next/link';
-import { motion } from 'framer-motion';
 import salmerDesktop from '../images/general/salmer-desktop.webp';
 import salmerMobile from '../images/general/salmer-mobile.webp';
 

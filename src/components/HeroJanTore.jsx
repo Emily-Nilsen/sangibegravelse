@@ -1,9 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
-import { useState } from 'react';
-import { Dialog } from '@headlessui/react';
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 import JTHeroDesktop from '../images/profiles/JT-desktop.webp';
 import JTHeroMobile from '../images/profiles/JT-mobile.webp';
 
