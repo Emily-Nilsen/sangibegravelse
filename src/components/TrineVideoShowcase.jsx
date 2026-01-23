@@ -5,15 +5,15 @@ export function TrineVideoShowcase() {
     <section className="pb-24 bg-white sm:pb-32">
       <div className="px-6 mx-auto max-w-7xl lg:px-8">
         <div className="max-w-2xl mx-auto text-center">
-          <p className="text-lg font-semibold leading-8 tracking-tight text-slate-600">
+          {/* <p className="text-lg font-semibold leading-8 tracking-tight text-slate-600">
             Video
-          </p>
+          </p> */}
           <h2 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-            Se og hør Trine Rein
+            Noen av Trine Reins tidligere TV-opptredener
           </h2>
-          <p className="mt-6 text-lg leading-8 text-gray-600">
+          {/* <p className="mt-6 text-lg leading-8 text-gray-600">
             Fire utvalgte fremførelser som viser bredden i Trines uttrykk.
-          </p>
+          </p> */}
         </div>
         <div className="grid gap-12 mt-16 lg:grid-cols-2">
           <div className="space-y-4">

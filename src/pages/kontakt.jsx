@@ -55,6 +55,12 @@ export default function Kontakt() {
       email: 'pettervermeli10@hotmail.com',
       phone: '+47 988 66 897',
     },
+    {
+      name: 'Trine Rein',
+      role: 'Sanger',
+      email: 'contact@trinerein.com',
+      phone: '+47 950 95 505',
+    },
   ];
 
   return (

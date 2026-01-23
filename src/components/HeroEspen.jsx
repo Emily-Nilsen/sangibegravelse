@@ -54,7 +54,7 @@ export function HeroEspen() {
                 href="/"
                 className="rounded-md bg-white/80 px-3.5 py-2.5 text-sm font-semibold text-slate-600 shadow-sm hover:bg-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-slate-400 transition-all duration-150 ease-in-out hover:text-slate-900"
               >
-                <span className="hidden sm:block">Se hele repertoaret</span>
+                <span className="hidden sm:block">Forslag til sanger</span>
                 <span className="sm:hidden">Repertoar</span>
               </Link>
               <Link

@@ -9,7 +9,7 @@ import KHHPreview from '../images/profiles/KHH-preview.webp';
 import JTPreview from '../images/profiles/JT-preview.webp';
 import ASPreview from '../images/profiles/AS-preview.webp';
 import PVPreview from '../images/profiles/PV-preview.webp';
-// import TRPreview from '../images/profiles/TR-preview.webp';
+import TRPreview from '../images/profiles/TR-preview.webp';
 
 const people = [
   {
@@ -60,12 +60,12 @@ const people = [
     imageUrl: PVPreview,
     profileUrl: '/petter-vermeli',
   },
-  // {
-  //   name: 'Trine Rein',
-  //   role: 'Sanger',
-  //   imageUrl: TRPreview,
-  //   profileUrl: '/trine-rein',
-  // },
+  {
+    name: 'Trine Rein',
+    role: 'Sanger',
+    imageUrl: TRPreview,
+    profileUrl: '/trine-rein',
+  },
 ];
 
 export function ArtistsPreview() {

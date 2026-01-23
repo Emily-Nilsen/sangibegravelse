@@ -49,8 +49,8 @@ const features = [
 const imageUrl = TrineSamples;
 const imageAlt = 'Trine Rein';
 const subtitle = 'Repertoar';
-const title = 'Et variert utvalg av sanger fra Trine Rein';
-const imageCredit = 'Svein Brimi';
+const title = 'Noen eksempler på sanger du kan høre fra Trine Rein';
+// const imageCredit = 'Svein Brimi';
 
 export default function TrineReinPage() {
   return (
@@ -75,9 +75,9 @@ export default function TrineReinPage() {
             features={features}
             imageUrl={imageUrl}
             imageAlt={imageAlt}
-            subtitle={subtitle}
+            // subtitle={subtitle}
             title={title}
-            imageCredit={imageCredit}
+            // imageCredit={imageCredit}
           />
           <TrineVideoShowcase />
           <Tilbakemeldinger artistName="Trine Rein" />
