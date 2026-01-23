@@ -4,7 +4,6 @@ import { HeroSusanne } from '@/components/HeroSusanne';
 import { Susanne } from '@/components/Susanne';
 import { ArtistSamples } from '@/components/ArtistSamples';
 import { Tilbakemeldinger } from '../components/Tilbakemeldinger';
-import { HvemErJeg } from '../components/HvemErJeg';
 import SHHSamples from '../images/profiles/SHH-samples.webp';
 
 const features = [
@@ -69,7 +68,7 @@ export default function SusanneHvindenHals() {
             subtitle={subtitle}
             title={title}
           />
-          <HvemErJeg />
+
           <Tilbakemeldinger artistName="Susanne Hvinden Hals" />
         </main>
       </div>

@@ -32,12 +32,6 @@ const features = [
   },
 ];
 
-const imageUrl = SHSamples;
-const imageAlt = 'Audun Sandvik';
-const subtitle = 'Audun Sandvik';
-const title = 'Formidler dypeste følelser med inderlig uttrykk';
-const imageCredit = 'Randi Huseby';
-
 export default function AudunSandvik() {
   return (
     <>
