@@ -186,4 +186,41 @@ export const tilbakemeldingerData = [
     },
   },
   // Espen Solsbak
+  // Trine Rein
+  {
+    artist: 'Trine Rein',
+    body: 'Etter vi mistet vår aller kjæreste var vi heldig å få Trine til å synge to sanger under bisettelsen i kirken. Selve fremførelsen var nydelig og meget følelsesladet. Et annet aspekt med Trine er hvor varm og god hun er som medmenneske. Hennes bidrag den dagen var med på å skape en verdig og vakker avslutning. Vi anbefaler Trine på det varmeste.',
+    image: '/images/flowers/flower-03.webp',
+    author: {
+      name: 'Fay & Philip',
+      place: 'Mariakirken i Bergen',
+    },
+  },
+  {
+    artist: 'Trine Rein',
+    body: 'Vi er så takknemlige for at Trine kunne stille med sang i begravelsen. Det betydde så mye, og hun sang så vakkert. Vi er evig takknemlige.',
+    image: '/images/flowers/flower-05.webp',
+    author: {
+      name: 'Trine-Lise',
+      place: 'Nordstrand kirke',
+    },
+  },
+  {
+    artist: 'Trine Rein',
+    body: 'Trine sang i begravelsen til vår mamma, som forlot oss alt for tidlig! Med hennes stemme og våres sangvalg gjorde ho begravelsen og vårt siste farvel helt unikt. Ho hjalp oss med å gjøre dagen så god som den kunne bli.',
+    image: '/images/flowers/flower-12.webp',
+    author: {
+      name: 'Katerina',
+      place: 'Skiptvet kirke',
+    },
+  },
+  {
+    artist: 'Trine Rein',
+    body: 'Trine sang salmene i begravelsen til min kjære lillebror. Jeg er full av takknemlighet for støtten det ga i den fortvilte og ufattelig tunge stunden. Det var fint å vite at hun tok oss gjennom salmene på en fantastisk trygg, vakker og god måte, og sang for min bror da jeg selv ikke greide å få frem en lyd.',
+    image: '/images/flowers/flower-07.webp',
+    author: {
+      name: 'Cathrine',
+      place: 'Uranienborg kirke',
+    },
+  },
 ];
