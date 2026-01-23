@@ -3,6 +3,7 @@ import Head from 'next/head';
 import { HeroSusanne } from '@/components/HeroSusanne';
 import { Susanne } from '@/components/Susanne';
 import { ArtistSamples } from '@/components/ArtistSamples';
+import { SusanneVideoShowcase } from '@/components/SusanneVideoShowcase';
 import { Tilbakemeldinger } from '../components/Tilbakemeldinger';
 import SHHSamples from '../images/profiles/SHH-samples.webp';
 
@@ -68,6 +69,7 @@ export default function SusanneHvindenHals() {
             subtitle={subtitle}
             title={title}
           />
+          <SusanneVideoShowcase />
 
           <Tilbakemeldinger artistName="Susanne Hvinden Hals" />
         </main>

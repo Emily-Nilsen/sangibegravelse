@@ -3,6 +3,7 @@ import Head from 'next/head';
 import { HeroKathrine } from '@/components/HeroKathrine';
 import { Kathrine } from '@/components/Kathrine';
 import { ArtistSamples } from '@/components/ArtistSamples';
+import { KathrineVideoShowcase } from '@/components/KathrineVideoShowcase';
 import KHHSamples from '../images/profiles/KHH-samples.webp';
 
 const features = [
@@ -55,6 +56,7 @@ export default function KathrineHvindenHals() {
             subtitle={subtitle}
             title={title}
           />
+          <KathrineVideoShowcase />
         </main>
       </div>
     </>
