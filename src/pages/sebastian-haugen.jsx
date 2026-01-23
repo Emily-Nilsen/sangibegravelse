@@ -2,7 +2,7 @@ import Head from 'next/head';
 
 import { HeroSebastian } from '@/components/HeroSebastian';
 import { Sebastian } from '@/components/Sebastian';
-import { Tilbakemeldinger } from '@/components/Tilbakemeldinger';
+// import { Tilbakemeldinger } from '@/components/Tilbakemeldinger';
 import { ArtistSamples } from '@/components/ArtistSamples';
 import SHSamples from '../images/profiles/SH-samples.webp';
 
