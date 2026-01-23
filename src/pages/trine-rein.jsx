@@ -4,6 +4,7 @@ import { HeroTrineRein } from '@/components/HeroTrineRein';
 import { TrineRein } from '@/components/TrineRein';
 import { ArtistSamples } from '@/components/ArtistSamples';
 import { Tilbakemeldinger } from '@/components/Tilbakemeldinger';
+import { TrineVideoShowcase } from '@/components/TrineVideoShowcase';
 import TrineSamples from '../images/profiles/TR-samples-updated.webp';
 
 const features = [
@@ -76,6 +77,7 @@ export default function TrineReinPage() {
             subtitle={subtitle}
             title={title}
           />
+          <TrineVideoShowcase />
           <Tilbakemeldinger artistName="Trine Rein" />
         </main>
       </div>
