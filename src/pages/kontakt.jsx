@@ -59,7 +59,7 @@ export default function Kontakt() {
       name: 'Trine Rein',
       role: 'Sanger',
       email: 'contact@trinerein.com',
-      phone: '+47 950 95 505',
+      phone: '+47 958 37 607',
     },
   ];
 

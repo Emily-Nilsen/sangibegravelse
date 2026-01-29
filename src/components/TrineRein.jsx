@@ -175,7 +175,7 @@ export function TrineRein() {
                 <div className="mt-1">
                   <dt className="sr-only">Phone number</dt>
                   <dd>
-                    <Link href="tel:+4795095505">+47 950 95 505</Link>
+                    <Link href="tel:+4795837607">+47 958 37 607</Link>
                   </dd>
                 </div>
               </dl>
